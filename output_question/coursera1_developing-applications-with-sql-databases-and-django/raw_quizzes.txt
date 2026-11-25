@@ -1,0 +1,594 @@
+================================================================================
+COURSE: Django Application Development with SQL and Databases
+URL: https://www.coursera.org/learn/developing-applications-with-sql-databases-and-django
+CRAWLED AT: 2026-11-24T13:58:51.913188
+SUMMARY: 11/11 MC quizzes | 71 questions
+================================================================================
+
+--------------------------------------------------------------------------------
+[QUIZ 1] Practice Quiz: Introduction to Databases Practice Assignment • 8 min • Grade: --
+Source: Module 1 | Kind: practice_quiz | Status: opened_after_step_1
+URL: https://www.coursera.org/learn/developing-applications-with-sql-databases-and-django/assignment-submission/ZZ8f0/practice-quiz-introduction-to-databases/attempt
+Questions extracted: 5
+--------------------------------------------------------------------------------
+
+Q1 (single_choice):
+What are the five basic SQL commands?
+   1. [ ] CREATE, SELECT, INSERT, UPDATE, DELETE
+   2. [ ] SELECT, COPY, PASTE, INSERT, ALTER
+   3. [ ] CREATE, INSERT, RETRIEVE, MODIFY, DELETE
+   4. [ ] None of the above
+
+Q2 (single_choice):
+In use cases for RDBMS, what is one of the reasons that relational databases are so well suited for Online Transaction Processing (OLTP) applications?
+   1. [ ] It’s easy to migrate data between two RDBMSs
+   2. [ ] They support unlimited length of data fields.
+   3. [ ] They support the ability to insert, update, or delete small amounts of data
+   4. [ ] All of the above.
+
+Q3 (single_choice):
+The Relational Model stores data in tables, which allows for data independence. What type of data independence does it provide?
+   1. [ ] Logical data independence
+   2. [ ] Physical data independence
+   3. [ ] Physical storage independence
+   4. [ ] All of the above
+
+Q4 (single_choice):
+In a relational data model, a primary key uniquely identifies each row in a table. What is the function of a foreign key?
+   1. [ ] A foreign key allows tables to be joined based on a relationship between certain columns in the tables.
+   2. [ ] A foreign key is a set of columns referring to a primary key of another entity.
+   3. [ ] A foreign key allows you to use certain attributes as a link between tables.
+   4. [ ] All of the above.
+
+Q5 (multiple_select):
+
+   1. [ ] I, NGUYEN PHUC, understand and agree.
+
+--------------------------------------------------------------------------------
+[QUIZ 2] Graded Quiz: Introduction to Databases Graded Assignment • Submitted • Grade: 100% • Status: Graded Graded
+Source: Module 1 | Kind: graded_quiz | Status: opened_via_button
+URL: https://www.coursera.org/learn/developing-applications-with-sql-databases-and-django/assignment-submission/E0uwq/graded-quiz-introduction-to-databases/view-feedback
+Questions extracted: 5
+--------------------------------------------------------------------------------
+
+Q1 (single_choice):
+You’re building a website for an online store. You need to store product information, customer details, and order history. Which of the following best describes the role of a database in this scenario?
+   1. [ ] A programming language for data analysis
+   2. [ ] A physical device for storing data
+   3. [x] A collection of related tables
+   4. [ ] A graphical user interface for data visualization
+
+Q2 (single_choice):
+Which of the following is the most significant advantage of an RDBMS?
+   1. [ ] It requires source and destination tables to be identical for migrating data
+   2. [x] It’s ACID-Compliant
+   3. [ ] It can store only structured data
+   4. [ ] It enforces a limit on the length of data fields
+
+Q3 (single_choice):
+In a library entity-relationship data model, a book is an example of _____, and the book’s title, edition, and publication date are examples of _______.
+   1. [x] an entity, attributes
+   2. [ ] an attribute, entities
+   3. [ ] an entity, properties
+   4. [ ] a row, columns
+
+Q4 (single_choice):
+Which of the following statements about a database is/are correct?
+   1. [x] A database is a logically coherent data collection with some inherent meaning.
+   2. [ ] Data can only be added and queried from a database but not modified.
+   3. [ ] Only SQL can be used to query data in a database.
+   4. [ ] A database collects unrelated data stored in separate files.
+
+Q5 (single_choice):
+What is the key advantage of the relational model in databases?
+   1. [ ] Physical data independence
+   2. [ ] Data security
+   3. [ ] Unstructured data handling
+   4. [x] Logical and physical data independence
+
+--------------------------------------------------------------------------------
+[QUIZ 3] Practice Quiz: Basic SQL Statements Practice Assignment • 10 min • Grade: --
+Source: Module 1 | Kind: practice_quiz | Status: opened_after_step_1
+URL: https://www.coursera.org/learn/developing-applications-with-sql-databases-and-django/assignment-submission/oMQfz/practice-quiz-basic-sql-statements/attempt
+Questions extracted: 5
+--------------------------------------------------------------------------------
+
+Q1 (single_choice):
+What is the function of a predicate when reading and modifying data?
+   1. [ ] It is a condition that evaluates to true, false, or unknown.
+   2. [ ] It is always required when using the Where clause.
+   3. [ ] It allows us to restrict the result set using the Where clause
+   4. [ ] All of the above
+
+Q2 (single_choice):
+Which of the following INSERT statements will add one row containing a student’s identification number, first name, and last name?
+   1. [ ] INSERT INTO STUDENT
+
+                 (STUDENT_ID, LASTNAME, FIRSTNAME)
+
+        VALUES (STUDENT ID = ‘345DT2000’, LASTNAME = ‘Morales’, FIRSTNAME = ‘Raul’)
+   2. [ ] INSERT INTO STUDENT 
+
+             (STUDENT_ID, LASTNAME, FIRSTNAME, DOB) 
+
+     VALUES (‘345DT2000’, ‘Morales’, ‘Raul’)
+   3. [ ] INSERT INTO STUDENT 
+
+             (STUDENT_ID, LASTNAME, FIRSTNAME) 
+
+     STUDENT_ID (‘345DT2000’), LASTNAME (‘Morales’), FIRSTNAME (‘Raul’)
+   4. [ ] INSERT INTO STUDENT 
+
+             (STUDENT_ID, LASTNAME, FIRSTNAME) 
+
+     VALUES (‘345DT2000’, ‘Morales’, ‘Raul’)
+
+Q3 (single_choice):
+You want to update a row in the Student table to change a student’s first name from “Kristen” to “Christine.” What will happen if you leave out the Where clause in the UPDATE statement?
+   1. [ ] Every student’s first name would change to “Christine” in the table.
+   2. [ ] Nothing. The UPDATE clause won’t work without the WHERE clause.
+   3. [ ] The update would take longer because SQL would need to search through the whole database for a student with a first name of “Kristen.”
+   4. [ ] Student(s) with the first name of “Kristen” would be deleted from the database.
+
+Q4 (single_choice):
+Which expression below is used with a SELECT statement to retrieve the number of rows that match the query criteria?
+   1. [ ] LIMIT
+   2. [ ] COUNT
+   3. [ ] DISTINCT
+   4. [ ] All of the above
+
+Q5 (multiple_select):
+
+   1. [ ] I, NGUYEN PHUC, understand and agree.
+
+--------------------------------------------------------------------------------
+[QUIZ 4] Graded Quiz: Basic SQL Statements Graded Assignment • Submitted • Grade: 100% • Status: Graded Graded
+Source: Module 1 | Kind: graded_quiz | Status: opened_via_button
+URL: https://www.coursera.org/learn/developing-applications-with-sql-databases-and-django/assignment-submission/Po367/graded-quiz-basic-sql-statements/view-feedback
+Questions extracted: 5
+--------------------------------------------------------------------------------
+
+Q1 (single_choice):
+What is the correct syntax for inserting data into a table named Members?
+   1. [ ] INSERT INTO MEMBERS
+
+      (MEMBER_ID, LASTNAME, FIRSTNAME)
+
+   VALUES (MEMBER_ID is 345DT2000, LASTNAME is Smith, FIRSTNAME is Charles)
+   2. [x] INSERT INTO MEMBERS
+
+      (MEMBER_ID, LASTNAME, FIRSTNAME)
+
+   VALUES (‘1432’, ‘Smith’, ‘Charles’)
+   3. [ ] INSERT INTO MEMBERS
+
+      (MEMBER_ID, LASTNAME, FIRSTNAME, OCCUPATION)
+
+   VALUES (‘1432’, ‘Smith’, ‘Charles’)
+   4. [ ] INSERT MEMBERS
+
+      (MEMBER_ID, LASTNAME, FIRSTNAME)
+
+   VALUES (‘1432’, ‘Smith’, ‘Charles’)
+
+Q2 (single_choice):
+When using the DELETE statement to remove data from a database, what does the WHERE clause do?
+   1. [ ] It limits the amount of data that is deleted to a certain number of characters.
+   2. [ ] It specifies where to find the data to delete, by column number and row number.
+   3. [x] It indicates the condition under which the data should be deleted; for example, which rows should have their contents deleted.
+   4. [ ] It specifies the server where the database is located.
+
+Q3 (single_choice):
+A single INSERT statement can be used to insert multiple rows in a table. True or False?
+   1. [x] True
+   2. [ ] False
+
+Q4 (single_choice):
+Which SELECT statement eliminates duplicates in the result set?
+   1. [ ] SELECT country FROM author ORDER BY 1
+   2. [x] SELECT DISTINCT(country) FROM author
+   3. [ ] SELECT country FROM author LIMIT DUPLICATES
+   4. [ ] None of the above
+
+Q5 (single_choice):
+The SELECT statement is called a query, and the output we get from executing the query is called a result set. True or False?
+   1. [x] True
+   2. [ ] False
+
+--------------------------------------------------------------------------------
+[QUIZ 5] Practice Quiz: Creating Tables, Sorting Results, and Join Practice Assignment • 6 min • Grade: --
+Source: Module 1 | Kind: practice_quiz | Status: opened_via_button:Start assignment
+URL: https://www.coursera.org/learn/developing-applications-with-sql-databases-and-django/assignment-submission/r8Ygx/practice-quiz-creating-tables-sorting-results-and-join/attempt
+Questions extracted: 4
+--------------------------------------------------------------------------------
+
+Q1 (single_choice):
+Which attributes of columns in a table must always be defined in a CREATE TABLE statement?
+   1. [ ] Datatype and Primary Key constraint
+   2. [ ] Name and Primary Key constraint
+   3. [ ] Name and datatype
+   4. [ ] Datatype and number of columns
+
+Q2 (single_choice):
+What would you add to this SELECT statement to sort the result set alphabetically by author’s last name? 
+SELECT title, lastname from Author
+   1. [ ] SORT BY lastname
+   2. [ ] ORDER BY lastname
+   3. [ ] ORDER BY column 1
+   4. [ ] DESC lastname
+
+Q3 (single_choice):
+What is the best definition of a JOIN operator?
+   1. [ ] It combines the rows from two or more tables that are related by a common row.
+   2. [ ] It combines the rows from two or more tables that are related by a common column.
+   3. [ ] It combines all the data in two or more tables and replaces the tables with a new table.
+   4. [ ] It retrieves data from one or more columns of a single table.
+
+Q4 (multiple_select):
+
+   1. [ ] I, NGUYEN PHUC, understand and agree.
+
+--------------------------------------------------------------------------------
+[QUIZ 6] Module 2 Practice Quiz: ORM - Bridging the Gap Between the Real World and Relational Model Practice Assignment • 10 min • Grade: --
+Source: Module 2 | Kind: practice_quiz | Status: opened_after_step_1
+URL: https://www.coursera.org/learn/developing-applications-with-sql-databases-and-django/assignment-submission/kTEP2/module-2-practice-quiz-orm-bridging-the-gap-between-the-real-world-and/attempt
+Questions extracted: 5
+--------------------------------------------------------------------------------
+
+Q1 (single_choice):
+What does Django map each field to in a database table?
+   1. [ ] Parameter
+   2. [ ] Column
+   3. [ ] Schema
+   4. [ ] Field class
+
+Q2 (single_choice):
+Which of the following relationships between entities does Django ORM support?
+   1. [ ] One-to-one
+   2. [ ] Many-to-One
+   3. [ ] Many-to-Many
+   4. [ ] All of the above
+
+Q3 (single_choice):
+Which of the following explains how OOP models entities?
+   1. [ ] Using tables, rows, and columns
+   2. [ ] Using methods, strings, and variables
+   3. [ ] Using classes and objects
+   4. [ ] Using cells, sparklines, and filters
+
+Q4 (single_choice):
+What can you use to perform actions on data in databases without writing SQL queries?
+   1. [ ] SQL object model
+   2. [ ] Django Models APIs
+   3. [ ] Python object model
+   4. [ ] SQL queries
+
+Q5 (single_choice):
+Which of the following terms defines when Django only requires relationships to be defined on one side?
+   1. [ ] Related object
+   2. [ ] Singular access
+   3. [ ] Child object
+   4. [ ] Forward access
+
+--------------------------------------------------------------------------------
+[QUIZ 7] Module 2 Graded Quiz: ORM - Bridging the Gap Between the Real World and Relational Model Graded Assignment • Submitted • Grade: 100% • Status: Graded Graded
+Source: Module 2 | Kind: graded_quiz | Status: opened_via_button
+URL: https://www.coursera.org/learn/developing-applications-with-sql-databases-and-django/assignment-submission/wrZyS/module-2-graded-quiz-orm-bridging-the-gap-between-the-real-world-and-relational/view-feedback
+Questions extracted: 10
+--------------------------------------------------------------------------------
+
+Q1 (single_choice):
+When you create an object (an instance of a class) in Django, what does it represent?
+   1. [ ] Table column
+   2. [x] Table row
+   3. [ ] Table cell
+   4. [ ] Database table
+
+Q2 (single_choice):
+Which of the following is a benefit of using ORM?
+   1. [ ] It removes data access complexity from the application code
+   2. [x] It speeds up application development
+   3. [ ] It’s easier to debug
+   4. [ ] It increases performance
+
+Q3 (single_choice):
+When you define a forward relationship between tables, which of the following does Django automatically create?
+   1. [x] Backward access
+   2. [ ] Comparative clause
+   3. [ ] Explicit reference
+   4. [ ] Django doesn’t automatically create anything
+
+Q4 (single_choice):
+Which of the following built-in features in Django allows you to manage user accounts, including registration, login, and password management?
+   1. [ ] Administration interface
+   2. [ ] Template engine
+   3. [ ] Shared nothing architecture
+   4. [x] Authentication and authorization
+
+Q5 (single_choice):
+Which objects would you call the Delete method on to delete records in a database?
+   1. [ ] Foreign Key field or Many-to-many field
+   2. [x] Model object or QuerySet
+   3. [ ] Filter chain or primitive field
+   4. [ ] Child object or lookup parameter
+
+Q6 (single_choice):
+What are the two main components of an object in Object-Oriented Analysis and Design (OOAD)?
+   1. [ ] Methods and functions
+   2. [ ] Variables and functions
+   3. [ ] Properties and attributes
+   4. [x] Data and behaviors
+
+Q7 (single_choice):
+Multi-table inheritance is like which of the following relationships?
+   1. [ ] Many-to-many
+   2. [x] One-to-one
+   3. [ ] Many-to-one
+   4. [ ] One-to-many
+
+Q8 (single_choice):
+What is the main reason ORM was invented?
+   1. [x] To bridge the gap between object-oriented programming (OOP) and SQL
+   2. [ ] To use a different set of APIs for each database
+   3. [ ] To use methods
+   4. [ ] To promote SQL
+
+Q9 (single_choice):
+Django only requires that model relationships be defined on one side. What is this called?
+   1. [x] Forward access
+   2. [ ] Related object
+   3. [ ] Child object
+   4. [ ] Singular access
+
+Q10 (single_choice):
+Which of the following items does Django provide, allowing you to define your data models using Python classes?
+   1. [x] Object-Relational Mapping or ORM
+   2. [ ] Authentication and authorization mechanisms
+   3. [ ] Django apps or packages
+   4. [ ] Template engine
+
+--------------------------------------------------------------------------------
+[QUIZ 8] Practice Quiz: Full-stack Django Development Practice Assignment • 10 min • Grade: --
+Source: Module 3 | Kind: practice_quiz | Status: opened_after_step_1
+URL: https://www.coursera.org/learn/developing-applications-with-sql-databases-and-django/assignment-submission/o1FuA/practice-quiz-full-stack-django-development/attempt
+Questions extracted: 6
+--------------------------------------------------------------------------------
+
+Q1 (single_choice):
+MVC design pattern includes three components. Which component routes requests?
+   1. [ ] Access
+   2. [ ] View
+   3. [ ] Controller
+   4. [ ] Model
+
+Q2 (single_choice):
+What do templates do in Django?
+   1. [ ] Arranges Django project structure
+   2. [ ] Defines the structure and layout of the final output
+   3. [ ] Determines which data the files should present
+   4. [ ] Lists tasks
+
+Q3 (single_choice):
+After the core development work is done in Django apps, what is one thing that could be done to facilitate app content management?
+   1. [ ] Use a third-party backend library
+   2. [ ] Add a client site
+   3. [ ] Add another server
+   4. [ ] Add an admin site
+
+Q4 (single_choice):
+Creating an admin user is one of the first steps when building a Django admin site. What command would you use to do this in the Django Admin video?
+   1. [ ] python manage.py adduser
+   2. [ ] python config.py createadmin
+   3. [ ] python manage.py createsuperuser
+   4. [ ] python manage.py addusername
+
+Q5 (single_choice):
+A view takes an HTTP request and returns an HTTP response. The HTTP response can be a string, a JSON/XML file, or an HTML page with what response status?
+   1. [ ] Success status
+   2. [ ] Error status
+   3. [ ] Informational status
+   4. [ ] All of the above
+
+Q6 (multiple_select):
+
+   1. [ ] I, NGUYEN PHUC, understand and agree.
+
+--------------------------------------------------------------------------------
+[QUIZ 9] Graded Quiz: Full-stack Django Development Graded Assignment • Submitted • Grade: 100% • Status: Graded Graded
+Source: Module 3 | Kind: graded_quiz | Status: opened_via_button
+URL: https://www.coursera.org/learn/developing-applications-with-sql-databases-and-django/assignment-submission/hdVGE/graded-quiz-full-stack-django-development/view-feedback
+Questions extracted: 10
+--------------------------------------------------------------------------------
+
+Q1 (single_choice):
+What does the Django template contain besides Python code?
+   1. [x] Static HTML elements
+   2. [ ] Markdown elements
+   3. [ ] XML elements
+   4. [ ] Dynamic HTML elements
+
+Q2 (single_choice):
+Django creates three files after you’ve created a project. Which of these files is a command interface that interacts with the Django project?
+   1. [ ] settings.py
+   2. [ ] urls.py
+   3. [x] manage.py
+   4. [ ] access.py
+
+Q3 (single_choice):
+For the online course example, when registering the course and instructor models in the Django admin site, you would write and run “admin.site.register(Course)” and what other code statement.
+   1. [ ] admin.site.register(App)
+   2. [ ] admin.site.register(Superuser)
+   3. [ ] admin.site.register(Admin)
+   4. [x] admin.site.register(Instructor)
+
+Q4 (single_choice):
+When you map a URL to the course view, what file do you add path objects to?
+   1. [x] urls.py
+   2. [ ] config.py
+   3. [ ] settings.py
+   4. [ ] manage.py
+
+Q5 (single_choice):
+Django template files display content such as course names and descriptions. How is the content displayed?
+   1. [x] HTML
+   2. [ ] Markdown
+   3. [ ] XML
+   4. [ ] Plain text
+
+Q6 (single_choice):
+What is one difference between the Django MVT and the MVC design pattern?
+   1. [ ] There is no difference
+   2. [x] The Django framework or Django server itself acts as controller
+   3. [ ] MVC has a Model
+   4. [ ] MVT has a View
+
+Q7 (single_choice):
+What two development tasks must be performed to manage and determine which data will be presented to the UI?
+   1. [ ] Sort data and sort views
+   2. [x] Model data and create views
+   3. [ ] Control the project
+   4. [ ] Access data and build tables
+
+Q8 (single_choice):
+Which command is used in the Django Admin video to start the server?
+   1. [ ] python manage.py run
+   2. [ ] python manage.py startDjango
+   3. [ ] python manage.py startserver
+   4. [x] python manage.py runserver
+
+Q9 (single_choice):
+Django functions, like View, accept arguments as input and return something. Typically, View needs an HTTP request object as the first argument. What does this request object contain?
+   1. [ ] Python commands
+   2. [ ] Django static files
+   3. [ ] Python scripts
+   4. [x] Read-only HTTP metadata
+
+Q10 (single_choice):
+Django template file structures sometimes have two files created with the same name. How do you ensure Django points to the correct file?
+   1. [x] Name spacing
+   2. [ ] Add metadata
+   3. [ ] Note the differences
+   4. [ ] Add an identifier
+
+--------------------------------------------------------------------------------
+[QUIZ 10] Practice Quiz: Consolidate and Deploy Your Django App Practice Assignment • 10 min • Grade: --
+Source: Module 4 | Kind: practice_quiz | Status: opened_after_step_1
+URL: https://www.coursera.org/learn/developing-applications-with-sql-databases-and-django/assignment-submission/nlMpY/practice-quiz-consolidate-and-deploy-your-django-app/attempt
+Questions extracted: 6
+--------------------------------------------------------------------------------
+
+Q1 (single_choice):
+Which of the following views was the initially implemented view in Django?
+   1. [ ] Function-based view
+   2. [ ] Expression-based view
+   3. [ ] Feature-based view
+   4. [ ] Class-based view
+
+Q2 (single_choice):
+Which of the following describes the Authentication process?
+   1. [ ] It groups users based on permissions
+   2. [ ] It creates user credentials
+   3. [ ] It checks users’ access permissions
+   4. [ ] It validates user identity
+
+Q3 (single_choice):
+Bootstrap is a free web front-end framework that helps develop web apps. What does it provide Django?
+   1. [ ] Databases
+   2. [ ] HTML and CSS templates
+   3. [ ] Server interfaces
+   4. [ ] Code examples
+
+Q4 (single_choice):
+What does Django use namespacing for when you add static files to an app?
+   1. [ ] It uniquely refers to static files that use the same name across multiple apps
+   2. [ ] It tracks static files in each app
+   3. [ ] It limits the number of static files in an app
+   4. [ ] It sorts static files
+
+Q5 (single_choice):
+When Django developers run a runserver command, what does it start?
+   1. [ ] Minimal development of web server
+   2. [ ] Storage server
+   3. [ ] File server
+   4. [ ] Barebones backend server
+
+Q6 (multiple_select):
+
+   1. [ ] I, NGUYEN PHUC, understand and agree.
+
+--------------------------------------------------------------------------------
+[QUIZ 11] Graded Quiz: Consolidate and Deploy Your Django App Graded Assignment • Submitted • Grade: 100% • Status: Graded Graded
+Source: Module 4 | Kind: graded_quiz | Status: opened_via_button
+URL: https://www.coursera.org/learn/developing-applications-with-sql-databases-and-django/assignment-submission/X4iFz/graded-quiz-consolidate-and-deploy-your-django-app/view-feedback
+Questions extracted: 10
+--------------------------------------------------------------------------------
+
+Q1 (single_choice):
+Django class-based view must be mapped with a URL pattern, almost like configuring the URL for the function-based view. The only difference is you need to specify which of the following?
+   1. [ ] The as_class method
+   2. [ ] The view_base method
+   3. [ ] The as_config function
+   4. [x] The as_view function
+
+Q2 (single_choice):
+A username and password can be received from a user via a login HTML template. Which HTTP method sends the username or password to the online course log in view to authenticate the user?
+   1. [ ] GET request
+   2. [x] POST request
+   3. [ ] DELETE request
+   4. [ ] PUT request
+
+Q3 (single_choice):
+In the Bootstrap Integration video, a course index page is designed that contains courses represented as cards. The multiple course cards are then added to a container. How are the multiple course cards managed?
+   1. [ ] They are placed in a list
+   2. [ ] They are added to a table
+   3. [x] They are wrapped in a card deck
+   4. [ ] They are shuffled
+
+Q4 (single_choice):
+Django provides a default static files app that collects all static files in a single directory. When you deploy your app to a production web server, you can move all static files to this directory. There are several steps to do this. What call do you make in the last step?
+   1. [x] Run the ‘collectstatic’ command
+   2. [ ] STATIC_ROOT
+   3. [ ] STATIC_URL
+   4. [ ] Run the “importstatic” command
+
+Q5 (single_choice):
+ASGI is a web server interface that Django apps support. What is the main difference between WSGI and ASGI?
+   1. [ ] ASGI supports Python
+   2. [ ] WSGI supports Python
+   3. [ ] There is no difference between WSGI and ASGI
+   4. [x] ASGI supports asynchronous code, and WSGI is suitable for synchronous web applications
+
+Q6 (single_choice):
+Which type of view was created for Django to address the extensibility and reusability of views?
+   1. [ ] Method-based view
+   2. [x] Class-based view
+   3. [ ] Function-based view
+   4. [ ] HTTP-based view
+
+Q7 (single_choice):
+Does authorization occur before, after, or during the authentication process?
+   1. [ ] Before authentication
+   2. [x] After authentication
+   3. [ ] During authentication
+   4. [ ] Authentication doesn’t affect authorization
+
+Q8 (single_choice):
+How can you use Bootstrap CSS-style classes without manually downloading and importing them?
+   1. [ ] Link to the Bootstrap web page before you develop your webpage
+   2. [ ] Copy and paste the CSS style class
+   3. [ ] Download Bootstrap
+   4. [x] Add a link to the latest Bootstrap version into the head element of your HTML template
+
+Q9 (single_choice):
+Django apps can have app-specific static files and external static files. Where do you define the directories for external static files, so that you can find them?
+   1. [ ] In the EX_DIRS list in the settings.py file
+   2. [x] In the STATICFILES_DIRS list in settings.py file
+   3. [ ] In the STATIC list in manage.py file
+   4. [ ] In the PROPERTIES list in manage.py
+
+Q10 (single_choice):
+WSGI is the primary Python standard for communicating between web servers and applications. To make Django apps work with WSGI, the start project command creates a file that declares an application callable by default. What is this file named?
+   1. [ ] sgi.py
+   2. [ ] giws.py
+   3. [ ] django.py
+   4. [x] wsgi.py

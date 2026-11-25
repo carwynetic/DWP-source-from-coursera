@@ -1,0 +1,266 @@
+# Module 6: Share Your Project
+
+### 1. [READING] Complete Documentation and Prepare Your Submission Reading • 10 min
+- **URL:** https://www.coursera.org/learn/ibm-cloud-native-full-stack-development-capstone/supplement/h9HQr/complete-documentation-and-prepare-your-submission
+- **Method:** `dom_reading_cml` | **Length:** 10087 chars
+
+### Final Submission
+
+Estimated time:  10 minutes
+
+Congratulations on finishing the capstone project!
+
+### Option 1: AI-Graded Submission and Evaluation
+
+You will be asked to submit the following artifacts for AI evaluation.
+
+Submit the URL for:
+
+- Your forked GitHub repository with all the code
+- cURL command outputs
+- Your application deployment (This URL need not be accessible but will be checked against the URL in the messages)
+- Screenshots of completed tasks
+
+You will be graded as per the following rubric (50 points):
+
+Task 1: Submit the public GitHub URL of the README.md file that contains the Project name details. (1 point)
+
+Task 2: Copy and paste the terminal output saved in the file named django_server, showing the Django server running. (1 point)
+
+Task 3: Submit the public GitHub URL of the server/frontend/static/About.html file showing the updated “About Us” page with correct CSS links, realistic images, names, roles, brief details, and email IDs. (3 points)
+
+Task 4: Submit the public GitHub URL of the  server/frontend/static/Contact.html file showing the “Contact Us” page of your Django app which you created with updated CSS links, navigation bar (active on Contact Us), images, and all required contact details. (2 points)
+
+Task 5: Copy and paste the cURL command and its output, saved in a file named loginuser, which performs a login operation using any valid username and password. (2 points)
+
+Task 6: Copy and paste the cURL command and its output, saved in a file named logoutuser, which performs the logout operation for the logged-in user. (2 points)
+
+Task 7: Submit the public GitHub URL of the server/frontend/src/components/Register/Register.jsx file showing the “Sign-up” page of your Django/React application with all five input fields (Username, First Name, Last Name, Email, Password) and the Register button. (1 points)
+
+Task 8: Copy and paste the cURL command and its output, saved in a file named getdealerreviews, which displays the review(s) for any dealer ID. (2 points)
+
+Task 9: Copy and paste the cURL command and its output, saved in the file named getalldealers, which displays all dealer(s) retrieved. (2 points)
+
+Task 10: Copy and paste the cURL command and its output, saved in a file named getdealerbyid, which displays the details of any dealer ID.(2 points)
+
+Task 11: Copy and paste the cURL command and its output, saved in the file named getdealersbyState, which displays the dealer(s) located in the state of Kansas. (2 points)
+
+Task 12: Submit the screenshot (admin_login.png or admin_login.jpeg) showing the root user login on the admin page. (2 points)
+
+Task 13: Submit the screenshot (admin_logout.png or admin_logout.jpeg) showing the root user logged out from the admin page. (1 point)
+
+Task 14 and 15: Copy and paste the cURL command and its output, saved in the file named getallcarmakes, which displays all car makes and models retrieved. (4 points)
+
+Task 16: Copy and paste the cURL command and its output, saved in the file named analyzereview, which displays the sentiment analysis result for the review text "Fantastic services". (2 points)
+
+Task 17: Submit the screenshot (get_dealers.png or get_dealers.jpeg) showing the dealers on the home page of the Django application before logging in. (1 point)
+
+Task 18: Submit a screenshot showing the dealers displayed on the home page of the Django application after logging in, with the image name get_dealers_loggedin. The screenshot must clearly show the Review Dealer option, the logged-in username, and the endpoint visible in the browser address bar. (2 points)
+
+Task 19: Submit the screenshot (dealersbystate.png or dealersbystate.jpeg) showing the dealers filtered by the State on the home page of the Django application. Please ensure that the endpoint is visible in the browser address bar. (2 points)
+
+Task 20: Submit a screenshot showing the selected dealer details on the dealer page, along with the reviews, with the image name dealer_id_reviews (saved as .png or .jpeg). The screenshot must clearly display the endpoint visible in the browser address bar. (1 point)
+
+Task 21: Submit a screenshot showing the Post Review page after entering the review details, before submission, with the image name dealership_review_submission. (1 point)
+
+Task 22: Submit a screenshot showing the posted review, with the image name added_review. (2 points)
+
+Task 23: Copy and paste the terminal output saved in the file named CICD that shows your GitHub Actions workflow running successfully. The output should clearly display the steps executed in the workflow. (3 points)
+
+Task 24: Submit the deployment URL for your Django application saved in the file named deploymentURL. (1 points)
+
+Task 25: Submit a screenshot showing the deployed landing page, with the image name deployed_landingpage. (2 points)
+
+Task 26: Submit a screenshot showing the deployed logged-in page, with the image name deployed_loggedin. The screenshot must clearly display the username of the logged-in user. (2 points)
+
+Task 27: Submit a screenshot showing the dealer details page opened through your deployment, with the image name deployed_dealer_detail. (2 points)
+
+Task 28: Submit a screenshot showing the review displayed in your deployed application, with the image name deployed_add_review. (2 points)
+
+### Option 2: Peer-Graded Submission and Evaluation
+
+You need to submit the following artifacts for the peer-reviewed:
+
+URL of:
+
+- Your forked GitHub repo with all the code.
+- Your application deployment (This URL need not be accessible but will be checked against the URL in the messages)
+- Screenshots of completed tasks
+
+You will be graded as per the following rubric (50 points):
+
+Task 1: Submit the personal GitHub Project repo URL with all code changes. (1 point)
+
+Task 2: Submit the screenshot showing the Django server running. (1 point)
+
+Task 3: Submit the screenshot of the “About Us” page of the Django application. (3 points)
+
+Task 4: Submit the screenshot of the “Contact Us” page of the Django application. (2 points)
+
+Task 5: Submit the screenshot of the “Login” page of the Django application. (2 points)
+
+Task 6: Submit the screenshot of the “Logout alert” of the Django application. (2 points)
+
+Task 7: Submit the screenshot of the “Sign-Up” page of the Django application. (1 point)
+
+Task 8: Submit the screenshot showing dealer reviews through the Express-Mongo application endpoint. The endpoint should be visible on the browser address bar. Please ensure you choose a dealer who has reviews. (2 points)
+
+Task 9: Submit the screenshot showing all dealers through the Express-Mongo application endpoint. The endpoint should be visible on the browser address bar. (2 points)
+
+Task 10: Submit the screenshot showing all dealer details through the Express-Mongo application endpoint. The endpoint should be visible on the browser address bar. (2 points)
+
+Task 11: Submit the screenshot showing all dealers in Kansas through the Express-Mongo application endpoint. The endpoint should be visible on the browser address bar. (2 points)
+
+Task 12: Submit the screenshot showing the root user login on the admin page. (2 points)
+
+Task 13: Submit the screenshot showing the root user logged out from the admin page. (1 point)
+
+Task 14: Submit the screenshot (cars.png or cars.jpg) showing car makes (after adding or populating the car makes), and the endpoint should be visible on the browser address bar.  (2 points)
+
+Task 15: Submit the screenshot showing Car Models (after adding or populating the car models) from the admin page. (2 points)
+
+Task 16: Submit the screenshot showing the sentiment analyzer working through the deployed URL. Please ensure that the endpoint is visible in the browser address bar. (2 points)
+
+Task 17: Submit the screenshot showing the dealers on the home page of the Django application before logging in. Please ensure that the endpoint is visible in the browser address bar. (1 point)
+
+Task 18: Submit the screenshot showing the dealers on the home page of the Django application after logging in. The “Post Review” button and the logged-in username should be visible. Please ensure that the endpoint is visible in the browser address bar. (2 points)
+
+Task 19: Submit the screenshot showing the dealers filtered by state on the homepage of the Django application. Please ensure that the endpoint is visible in the browser address bar. (2 points)
+
+Task 20: Submit the screenshot showing the selected dealer details on the dealer page along with the reviews. Please ensure that the endpoint is visible in the browser address bar. (1 point)
+
+Task 21: Submit the screenshot showing the “Add Review” page after adding the details before you submit. Please ensure that the endpoint is visible in the browser address bar. (1 point)
+
+Task 22: Submit the screenshot showing the “Added Review” after submission. The details should match with the input shown in the previous task. Please ensure that the endpoint is visible in the browser address bar. (2 points)
+
+Task 23: Submit the screenshot of the successful CI/CD implementation on GitHub. (3 points)
+
+Task 24: Submit the deployment URL for your Django application. (1 point)
+
+Task 25: Submit the screenshot of the landing page opened through your deployment. The URL in the address bar of the browser should be visible, and it must match the URL submitted in the previous task. (2 points)
+
+Task 26: Submit the screenshot of the logged-in page opened through your deployment. It should show the username of the logged-in user. The URL in the address bar of the browser should be visible, and it must match the URL submitted in the previous task. (2 points)
+
+Task 27: Submit the screenshot of a dealer details page opened through your deployment. The URL in the address bar of the browser should be visible, and it must match the URL submitted in the previous task. (2 points)
+
+Task 28: Submit the screenshot of a review added through your deployed application. The URL in the address bar of the browser should be visible, and it must match the URL submitted in the previous task. (2 points)
+
+---
+
+### 2. [READING] Congratulations and Next Steps
+- **URL:** https://www.coursera.org/learn/ibm-cloud-native-full-stack-development-capstone/supplement/UY74W/congratulations-and-next-steps
+- **Method:** `dom_reading_cml` | **Length:** 2414 chars
+
+Congratulations on completing this Full Stack Professional Certificate final project! We encourage you to enhance your project by completing the optional (non-graded) labs included as part of the project.  You can also add this project to your portfolio.
+
+In order to receive your certificate for the Full Stack Software Developer Professional Certificate program you must complete one more course, that is, the Full Stack Software Developer Assessment course.
+
+### Career guidance and interview preparation for full stack software developer jobs:
+
+Now that you’ve developed your new skills in full stack software development, you’ll start looking for work in this field to use them. Job-seeking has its own set of skills. However, before you head out into the job market, increase your chance of success by taking the Software Developer Career Guide and Interview Preparation course.
+
+In this course, you’ll learn about becoming an exceptional job candidate, including:
+
+- How to focus your job search to match your goals
+- How to write an effective resume
+- How to compile a portfolio that shows off your work
+- How to find and assess job listings
+- Tips for performing at your best in interviews
+
+Information-filled lessons and activities are accompanied by direct advice from experts in the field. You can click this link to access the course.
+
+This course will be offered free for a month if you enroll through this link. Please ensure you complete the course within the time limit if you want to avoid getting charged. It’s a great time to take advantage and give yourself an edge in the competitive world of finding your best next role. So, what are you waiting for? Go ahead and enroll now in the Software Developer Career Guide and Interview Preparation course.
+
+Develop People and Soft Skills:
+
+We also encourage you to build on your people and soft skills by taking our People and Soft Skills for Professional and Personal Success Specialization. This specialization is aimed at helping you develop powerful people and soft skills and behaviors that include:
+
+- Creating and delivering impactful presentations
+- Working professionally to deliver quality work and experiences
+- Collaborating effectively with teams
+- Communicating productively and efficiently
+- Dealing with challenges, solving problems, and implementing solutions
+
+You can explore and enroll in the specialization by clicking this link.
+
+---
+
+### 3. [READING] Credits and Acknowledgments
+- **URL:** https://www.coursera.org/learn/ibm-cloud-native-full-stack-development-capstone/supplement/sdb0Q/credits-and-acknowledgments
+- **Method:** `dom_reading_cml` | **Length:** 1197 chars
+
+The entire course team thanks you for taking this course. We hope you enjoyed it and wish you the best in applying your new knowledge and skills.
+
+We encourage you to rate the course and provide a review. Your feedback is much appreciated.
+
+Best regards,
+
+Course Team
+
+Project Lead
+
+- Rav Ahuja
+
+Primary Instructor
+
+- Upkar Lidder
+- Lavanya Thiruvali Sunderarajan
+- Yan Luo
+
+### Other Contributors and Staff
+
+Instructional Designer
+
+- Priya Kapoor
+- Lavanya Thiruvali Sunderarajan
+
+Lab Authors
+
+- Lavanya Thiruvali Sunderarajan
+- Upkar Lidder
+- Yan Luo
+- Sundararajan
+
+### Production Team
+
+Project Coordinator
+
+- Bryan Hayes (Skill-Up Technologies) (April 2021)
+
+Project Manager
+
+- Nancy Varkey (Skill-Up Technologies) (Nov 2023)
+
+Publishing
+
+- Grace Barker (IBM)
+- Rachael Jones (Skill-Up Technologies)
+- Santosh Kumar Sahu (Skill-Up Technologies)
+- Madhumita Pati (Skill-Up Technologies)
+
+QA
+
+- Pradnya B
+- Kunal Merchant
+
+Narration
+
+- Bella West (April 2021)
+- Sarah Ruth (Nov 2023)
+
+Video Production
+
+- Simer Preet
+- Lauren Hall
+- Tanya Singh
+- Om Singh
+- Prayas Gupta (Nov 2023)
+
+Teaching Assistants and Forum Moderators
+
+- Anamika Agarwal
+- Lavanya Rajalingam
+- K. Sundararajan
+- Pallavi Rai
+
+---

@@ -1,0 +1,1558 @@
+{
+  "crawled_at": "2026-11-24T14:31:06.556985",
+  "course": {
+    "key": "coursera5",
+    "name": "Introduction to Containers w/ Docker, Kubernetes & OpenShift",
+    "slug": "ibm-containers-docker-kubernetes-openshift",
+    "url": "https://www.coursera.org/learn/ibm-containers-docker-kubernetes-openshift"
+  },
+  "total_quizzes_discovered": 8,
+  "total_mc_quizzes_extracted": 8,
+  "total_mc_questions": 60,
+  "quizzes": [
+    {
+      "title": "Practice Quiz: Understanding the Benefits of Containers Practice Assignment • 15 min • Grade: -- Resume",
+      "page_title": "Practice Quiz: Understanding the Benefits of Containers",
+      "source": "Module 1",
+      "kind": "practice_quiz",
+      "url": "https://www.coursera.org/learn/ibm-containers-docker-kubernetes-openshift/assignment-submission/jWQSc/practice-quiz-understanding-the-benefits-of-containers",
+      "final_url": "https://www.coursera.org/learn/ibm-containers-docker-kubernetes-openshift/assignment-submission/jWQSc/practice-quiz-understanding-the-benefits-of-containers/attempt",
+      "status": "opened_via_button:Start assignment",
+      "question_count": 5,
+      "questions": [
+        {
+          "index": 1,
+          "question_type": "single_choice",
+          "prompt_text": "What is Docker?",
+          "options": [
+            {
+              "text": "An enterprise security tool that prevents malware from accessing containers",
+              "checked": false
+            },
+            {
+              "text": "Deep storage for digital containers",
+              "checked": false
+            },
+            {
+              "text": "A network connector that allows containers to travel from one platform to another",
+              "checked": false
+            },
+            {
+              "text": "An open platform used for developing, shipping, and running applications in containers",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "1.\nQuestion 1\n\nWhat is Docker?\n\nDo you understand?.\n\nI understand\n\nAn enterprise security tool that prevents malware from accessing containers\n\nDeep storage for digital containers\n\nA network connector that allows containers to travel from one platform to another\n\nAn open platform used for developing, shipping, and running applications in containers \n\n1 point"
+        },
+        {
+          "index": 2,
+          "question_type": "single_choice",
+          "prompt_text": "What does an image name consist of?",
+          "options": [
+            {
+              "text": "The network, the repository, and the template",
+              "checked": false
+            },
+            {
+              "text": "The Dockerfile, the running container, and the storage plugin",
+              "checked": false
+            },
+            {
+              "text": "The hostname, the repository, and the tag",
+              "checked": false
+            },
+            {
+              "text": "Only tags",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "2.\nQuestion 2\n\nWhat does an image name consist of?\n\nDo you understand?.\n\nI understand\n\nThe network, the repository, and the template\n\nThe Dockerfile, the running container, and the storage plugin\n\nThe hostname, the repository, and the tag\n\nOnly tags\n\n1 point"
+        },
+        {
+          "index": 3,
+          "question_type": "single_choice",
+          "prompt_text": "What is a container?",
+          "options": [
+            {
+              "text": "A standard unit of software that packages code and all its dependencies",
+              "checked": false
+            },
+            {
+              "text": "A special method of designing more efficient code",
+              "checked": false
+            },
+            {
+              "text": "A digital platform designed to store files developed in different operating systems",
+              "checked": false
+            },
+            {
+              "text": "A data center server that stores cloud files",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "3.\nQuestion 3\n\nWhat is a container?\n\nDo you understand?.\n\nI understand\n\nA standard unit of software that packages code and all its dependencies\n\nA special method of designing more efficient code\n\nA digital platform designed to store files developed in different operating systems\n\nA data center server that stores cloud files\n\n1 point"
+        },
+        {
+          "index": 4,
+          "question_type": "multiple_select",
+          "prompt_text": "What are the three parts of the Docker architecture?",
+          "options": [
+            {
+              "text": "Virtual machines",
+              "checked": false
+            },
+            {
+              "text": "Host",
+              "checked": false
+            },
+            {
+              "text": "Registry",
+              "checked": false
+            },
+            {
+              "text": "Client",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "4.\nQuestion 4\n\nWhat are the three parts of the Docker architecture? \n\nDo you understand?.\n\nI understand\n\nVirtual machines\n\nHost\n\nRegistry\n\nClient\n\n1 point"
+        },
+        {
+          "index": 5,
+          "question_type": "single_choice",
+          "prompt_text": "What are some of the traits of containers?",
+          "options": [
+            {
+              "text": "Containers are more expensive but save time during deployment.",
+              "checked": false
+            },
+            {
+              "text": "Containers save both time and money at the expense of utilization and automation.",
+              "checked": false
+            },
+            {
+              "text": "Containers save both time and money and improve utilization.",
+              "checked": false
+            },
+            {
+              "text": "Containers lower costs, but add time.",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "5.\nQuestion 5\n\nWhat are some of the traits of containers?\n\nDo you understand?.\n\nI understand\n\nContainers are more expensive but save time during deployment. \n\nContainers save both time and money at the expense of utilization and automation. \n\nContainers save both time and money and improve utilization.\n\nContainers lower costs, but add time.\n\n1 point"
+        }
+      ],
+      "raw_page_text": "N\nIntroduction to Containers w/ Docker, Kubernetes & OpenShift\nToday's goal • 0/3 items\n\nComplete 3 items today to stay at a good pace!\n\nModule 1\nContainers and Containerization\nWelcome to Containers, Kubernetes and OpenShift\nIBM Product Spotlight: IBM Turbonomic\nReading\n. Duration: 2 minutes\n2 min\nCourse Introduction\nVideo\n. Duration: 3 minutes\n3 min\nCourse Overview\nReading\n. Duration: 10 minutes\n10 min\nLab Options by Programming Language\nReading\n. Duration: 10 minutes\n10 min\nLaunching Your Container Journey\nDialogue\n. Duration: 15 minutes\n15 min\nUnderstanding the Benefits of Containers\nIntroduction to Containers\nVideo\n. Duration: 6 minutes\n6 min\nIntroduction to Docker\nVideo\n. Duration: 3 minutes\n3 min\nBuilding and Running Container Images\nVideo\n. Duration: 2 minutes\n2 min\nDocker Objects\nVideo\n. Duration: 4 minutes\n4 min\nDocker Architecture\nVideo\n. Duration: 3 minutes\n3 min\nReview of Docker Concepts and Understanding a Dockerfile\nReading\n. Duration: 10 minutes\n10 min\nLab: Introduction to Containers, Docker, and IBM Cloud Container Registry\nUngraded App Item\n. Duration: 20 minutes\n20 min\nSummary & Highlights: Understanding the Benefits of Containers\nReading\n. Duration: 5 minutes\n5 min\nPractice Quiz: Understanding the Benefits of Containers\nPractice Assignment\n. Duration: 15 minutes\n15 min\nCheat Sheet: Docker CLI\nReading\n. Duration: 5 minutes\n5 min\nGraded Quiz: Containers and Containerization\nGraded AssignmentResults pending\nModule 1 Glossary: Container Basics\nReading\n. Duration: 5 minutes\n5 min\n[Optional] Obtain IBM Cloud Feature Code and Activate Trial Account\nUngraded App Item\n. Duration: 10 minutes\n10 min\n[Optional] Lab: Creating an IBM Cloud Container Registry Namespace\nUngraded Plugin\n. Duration: 20 minutes\n20 min\nFrom Docker to Orchestration - Your Module 1 Wrap-Up\nDialogue\n. Duration: 15 minutes\n15 min\nModule 2\nKubernetes Basics\nModule 3\nManaging Applications with Kubernetes\nModule 4\nThe Kubernetes Ecosystem: OpenShift, Istio, etc.\nModule 5\nFinal Assignment\n\nPractice Assignment\n\nPractice Quiz: Understanding the Benefits of Containers\nResume assignment\nHelp me practice\nWhat to expect\nDue Nov 22, 11:59 PM +07\nUnlimited attempts\n\nThis is a practice assignment to help you check your understanding. It doesn’t count toward your course grade.\n\nReport an issue\nGo to next item\nBack\nPractice Quiz: Understanding the Benefits of Containers\n\nPractice Assignment • 15 min\n\nDueNov 22, 11:59 PM +07\n1.\nQuestion 1\n\nWhat is Docker?\n\nDo you understand?.\n\nI understand\n\nAn enterprise security tool that prevents malware from accessing containers\n\nDeep storage for digital containers\n\nA network connector that allows containers to travel from one platform to another\n\nAn open platform used for developing, shipping, and running applications in containers \n\n1 point\n2.\nQuestion 2\n\nWhat does an image name consist of?\n\nDo you understand?.\n\nI understand\n\nThe network, the repository, and the template\n\nThe Dockerfile, the running container, and the storage plugin\n\nThe hostname, the repository, and the tag\n\nOnly tags\n\n1 point\n3.\nQuestion 3\n\nWhat is a container?\n\nDo you understand?.\n\nI understand\n\nA standard unit of software that packages code and all its dependencies\n\nA special method of designing more efficient code\n\nA digital platform designed to store files developed in different operating systems\n\nA data center server that stores cloud files\n\n1 point\n4.\nQuestion 4\n\nWhat are the three parts of the Docker architecture? \n\nDo you understand?.\n\nI understand\n\nVirtual machines\n\nHost\n\nRegistry\n\nClient\n\n1 point\n5.\nQuestion 5\n\nWhat are some of the traits of containers?\n\nDo you understand?.\n\nI understand\n\nContainers are more expensive but save time during deployment. \n\nContainers save both time and money at the expense of utilization and automation. \n\nContainers save both time and money and improve utilization.\n\nContainers lower costs, but add time.\n\n1 point\nCoursera Honor Code\n\nBy clicking Submit, you confirm this work is your own. Submitting work created with AI tools may result in course failure or account deactivation according to Coursera Honor Code policy.\n\nI, NGUYEN PHUC, understand and agree.\nYou must select the checkbox in order to submit the assignment\nSubmit\nSave draft\n\nLast saved on Nov 24, 2:28 PM +07\n\nLike\nDislike\nReport an issue"
+    },
+    {
+      "title": "Graded Quiz: Containers and Containerization Graded Assignment • Submitted • Grade: --",
+      "page_title": "Graded Quiz: Containers and Containerization",
+      "source": "Module 1",
+      "kind": "graded_quiz",
+      "url": "https://www.coursera.org/learn/ibm-containers-docker-kubernetes-openshift/assignment-submission/2jajs/graded-quiz-containers-and-containerization",
+      "final_url": "https://www.coursera.org/learn/ibm-containers-docker-kubernetes-openshift/assignment-submission/2jajs/graded-quiz-containers-and-containerization/view-feedback",
+      "status": "opened_via_button",
+      "question_count": 10,
+      "questions": [
+        {
+          "index": 1,
+          "question_type": "single_choice",
+          "prompt_text": "What are the steps used to create and run containers?",
+          "options": [
+            {
+              "text": "Create a container image, use it to create a Dockerfile, and then use the Dockerfile to create a running container.",
+              "checked": false
+            },
+            {
+              "text": "Create a Dockerfile and use it with the pull command to create a running container.",
+              "checked": false
+            },
+            {
+              "text": "Create a Dockerfile, use it to create a container image, and then use the container image to create a running container.",
+              "checked": true
+            },
+            {
+              "text": "Input the container image name and tag.",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "1.\nQuestion 1\n\nWhat are the steps used to create and run containers?\n\nDo you understand?.\n\nI understand\n\nCreate a container image, use it to create a Dockerfile, and then use the Dockerfile to create a running container.\n\nCreate a Dockerfile and use it with the pull command to create a running container.\n\nCreate a Dockerfile, use it to create a container image, and then use the container image to create a running container.\n\nInput the container image name and tag.\n\nNice work\n\nCorrect! The proper sequence of steps to create and run containers is to create a Dockerfile, use it to create a container image, and then use the container image to create a running container.\n\n1 / 1 point"
+        },
+        {
+          "index": 2,
+          "question_type": "single_choice",
+          "prompt_text": "What is the function of the Docker ‘run’ command?",
+          "options": [
+            {
+              "text": "Stores images in a configured registry",
+              "checked": false
+            },
+            {
+              "text": "Lists all images, repositories, tags, and sizes",
+              "checked": false
+            },
+            {
+              "text": "Retrieves images from a configured registry",
+              "checked": false
+            },
+            {
+              "text": "Creates a container from an image",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "2.\nQuestion 2\n\nWhat is the function of the Docker ‘run’ command?\n\nDo you understand?.\n\nI understand\n\nStores images in a configured registry\n\nLists all images, repositories, tags, and sizes\n\nRetrieves images from a configured registry\n\nCreates a container from an image\n\nNice work\n\nCorrect! The Docker ‘run’ command creates a container from an image. \n\n1 / 1 point"
+        },
+        {
+          "index": 3,
+          "question_type": "single_choice",
+          "prompt_text": "What applications are a good fit for Docker?",
+          "options": [
+            {
+              "text": "Applications that need a lot of security",
+              "checked": false
+            },
+            {
+              "text": "Applications that require flexible scaling and portability",
+              "checked": true
+            },
+            {
+              "text": "Applications with rich GUI features",
+              "checked": false
+            },
+            {
+              "text": "Applications with high performance requirements",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "3.\nQuestion 3\n\nWhat applications are a good fit for Docker?\n\nDo you understand?.\n\nI understand\n\nApplications that need a lot of security\n\nApplications that require flexible scaling and portability \n\nApplications with rich GUI features\n\nApplications with high performance requirements\n\nNice work\n\nCorrect! Docker became popular with developers because of its simple architecture, high scalability, and easy portability.\n\n1 / 1 point"
+        },
+        {
+          "index": 4,
+          "question_type": "single_choice",
+          "prompt_text": "What is a Docker container?",
+          "options": [
+            {
+              "text": "A persistent set of data that can be transferred",
+              "checked": false
+            },
+            {
+              "text": "A read-only template",
+              "checked": false
+            },
+            {
+              "text": "A runnable instance of an image",
+              "checked": true
+            },
+            {
+              "text": "A method of isolating communication",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "4.\nQuestion 4\n\nWhat is a Docker container?\n\nDo you understand?.\n\nI understand\n\nA persistent set of data that can be transferred\n\nA read-only template\n\nA runnable instance of an image\n\nA method of isolating communication\n\nNice work\n\nCorrect! A Docker container is defined as a runnable instance of an image.\n\n1 / 1 point"
+        },
+        {
+          "index": 5,
+          "question_type": "single_choice",
+          "prompt_text": "Do containers have to be on a specific operating system or platform?",
+          "options": [
+            {
+              "text": "Yes, containers only work on Windows-based operating systems and platforms.",
+              "checked": false
+            },
+            {
+              "text": "No, containers don’t run on operating systems or platforms.",
+              "checked": false
+            },
+            {
+              "text": "Yes, containers only work on Linux-based operating systems and platforms.",
+              "checked": false
+            },
+            {
+              "text": "No, containers work on many types of operating systems and platforms.",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "5.\nQuestion 5\n\nDo containers have to be on a specific operating system or platform?\n\nDo you understand?.\n\nI understand\n\nYes, containers only work on Windows-based operating systems and platforms.\n\nNo, containers don’t run on operating systems or platforms.\n\nYes, containers only work on Linux-based operating systems and platforms.\n\nNo, containers work on many types of operating systems and platforms.\n\nNice work\n\nCorrect! Containers can be used across multiple types of operating systems and platforms. \n\n1 / 1 point"
+        },
+        {
+          "index": 6,
+          "question_type": "multiple_select",
+          "prompt_text": "What are three parts of Docker’s underlying technology?",
+          "options": [
+            {
+              "text": "Linux kernel features",
+              "checked": true
+            },
+            {
+              "text": "GitHub",
+              "checked": false
+            },
+            {
+              "text": "Namespaces",
+              "checked": true
+            },
+            {
+              "text": "The Go programming language",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "6.\nQuestion 6\n\nWhat are three parts of Docker’s underlying technology? \n\nDo you understand?.\n\nI understand\n\nLinux kernel features\n\nNice work\n\nCorrect! Linux kernel features are a part of Docker’s underlying technology.\n\nGitHub\n\nNamespaces\n\nNice work\n\nCorrect! Namespaces are a part of Docker’s underlying technology.\n\nThe Go programming language\n\nNice work\n\nCorrect! The Go programming language is a part of Docker’s underlying technology.\n\n1 / 1 point"
+        },
+        {
+          "index": 7,
+          "question_type": "single_choice",
+          "prompt_text": "What does the Docker client-server architecture provide?",
+          "options": [
+            {
+              "text": "Cloud storage",
+              "checked": false
+            },
+            {
+              "text": "An application environment",
+              "checked": true
+            },
+            {
+              "text": "A communication channel",
+              "checked": false
+            },
+            {
+              "text": "Code checking",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "7.\nQuestion 7\n\nWhat does the Docker client-server architecture provide?\n\nDo you understand?.\n\nI understand\n\nCloud storage\n\nAn application environment\n\nA communication channel\n\nCode checking\n\nNice work\n\nCorrect! The Docker client-server architecture provides a complete application environment.\n\n1 / 1 point"
+        },
+        {
+          "index": 8,
+          "question_type": "single_choice",
+          "prompt_text": "What are volumes and bind mounts used for in Docker?",
+          "options": [
+            {
+              "text": "Persisting data",
+              "checked": true
+            },
+            {
+              "text": "Erasing data",
+              "checked": false
+            },
+            {
+              "text": "Connecting to external storage platforms",
+              "checked": false
+            },
+            {
+              "text": "Isolating communication",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "8.\nQuestion 8\n\nWhat are volumes and bind mounts used for in Docker?\n\nDo you understand?.\n\nI understand\n\nPersisting data\n\nErasing data\n\nConnecting to external storage platforms\n\nIsolating communication\n\nNice work\n\nCorrect! Volumes and bind mounts are used to persist data in Docker.\n\n1 / 1 point"
+        },
+        {
+          "index": 9,
+          "question_type": "single_choice",
+          "prompt_text": "How are digital containers like shipping containers?",
+          "options": [
+            {
+              "text": "Container size and specs are standardized, which makes them easier to move around.",
+              "checked": true
+            },
+            {
+              "text": "Digital containers are not like shipping containers.",
+              "checked": false
+            },
+            {
+              "text": "Both digital and shipping containers have to travel internationally.",
+              "checked": false
+            },
+            {
+              "text": "Digital containers must be welded to computer motherboards, just like shipping containers must be welded.",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "9.\nQuestion 9\n\nHow are digital containers like shipping containers?\n\nDo you understand?.\n\nI understand\n\nContainer size and specs are standardized, which makes them easier to move around.\n\nDigital containers are not like shipping containers.\n\nBoth digital and shipping containers have to travel internationally.\n\nDigital containers must be welded to computer motherboards, just like shipping containers must be welded.\n\nNice work\n\nCorrect! Digital containers make software portable so applications can run on multiple platforms.\n\n1 / 1 point"
+        },
+        {
+          "index": 10,
+          "question_type": "single_choice",
+          "prompt_text": "What Docker features create a container image?",
+          "options": [
+            {
+              "text": "The image command and a Dockerfile",
+              "checked": false
+            },
+            {
+              "text": "The copy command and an existing image",
+              "checked": false
+            },
+            {
+              "text": "The build command and a Dockerfile",
+              "checked": true
+            },
+            {
+              "text": "The run command and a Dockerfile",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "10.\nQuestion 10\n\nWhat Docker features create a container image?\n\nDo you understand?.\n\nI understand\n\nThe image command and a Dockerfile\n\nThe copy command and an existing image\n\nThe build command and a Dockerfile\n\nThe run command and a Dockerfile\n\nNice work\n\nCorrect! The build command is used with a Dockerfile to build a container image.\n\n1 / 1 point"
+        }
+      ],
+      "raw_page_text": "N\nIntroduction to Containers w/ Docker, Kubernetes & OpenShift\nToday's goal • 0/3 items\n\nComplete 3 items today to stay at a good pace!\n\nModule 1\nContainers and Containerization\nWelcome to Containers, Kubernetes and OpenShift\nIBM Product Spotlight: IBM Turbonomic\nReading\n. Duration: 2 minutes\n2 min\nCourse Introduction\nVideo\n. Duration: 3 minutes\n3 min\nCourse Overview\nReading\n. Duration: 10 minutes\n10 min\nLab Options by Programming Language\nReading\n. Duration: 10 minutes\n10 min\nLaunching Your Container Journey\nDialogue\n. Duration: 15 minutes\n15 min\nUnderstanding the Benefits of Containers\nIntroduction to Containers\nVideo\n. Duration: 6 minutes\n6 min\nIntroduction to Docker\nVideo\n. Duration: 3 minutes\n3 min\nBuilding and Running Container Images\nVideo\n. Duration: 2 minutes\n2 min\nDocker Objects\nVideo\n. Duration: 4 minutes\n4 min\nDocker Architecture\nVideo\n. Duration: 3 minutes\n3 min\nReview of Docker Concepts and Understanding a Dockerfile\nReading\n. Duration: 10 minutes\n10 min\nLab: Introduction to Containers, Docker, and IBM Cloud Container Registry\nUngraded App Item\n. Duration: 20 minutes\n20 min\nSummary & Highlights: Understanding the Benefits of Containers\nReading\n. Duration: 5 minutes\n5 min\nPractice Quiz: Understanding the Benefits of Containers\nPractice Assignment\n. Duration: 15 minutes\n15 min\nCheat Sheet: Docker CLI\nReading\n. Duration: 5 minutes\n5 min\nGraded Quiz: Containers and Containerization\nGraded AssignmentGrade: 100%\nModule 1 Glossary: Container Basics\nReading\n. Duration: 5 minutes\n5 min\n[Optional] Obtain IBM Cloud Feature Code and Activate Trial Account\nUngraded App Item\n. Duration: 10 minutes\n10 min\n[Optional] Lab: Creating an IBM Cloud Container Registry Namespace\nUngraded Plugin\n. Duration: 20 minutes\n20 min\nFrom Docker to Orchestration - Your Module 1 Wrap-Up\nDialogue\n. Duration: 15 minutes\n15 min\nModule 2\nKubernetes Basics\nModule 3\nManaging Applications with Kubernetes\nModule 4\nThe Kubernetes Ecosystem: OpenShift, Istio, etc.\nModule 5\nFinal Assignment\n\nGraded Assignment\n\nGraded Quiz: Containers and Containerization\n\nAssessment monitored for academic integrity and AI-usage. Privacy Notice\n\nGo to next item\nTry again\nWhat to expect\nDue Nov 22, 11:59 PM +07\n3 attempts\n\nevery 8 hours\n\nYou passed!\n\nTo pass you need a grade of at least 70%.\n\n100%\nView feedback\n\nSubmitted Nov 9, 8:26 PM +07.\n\nReport an issue\nGo to next item\nBack\nGraded Quiz: Containers and Containerization\n\nGraded Assignment • 30 min\n\nDueNov 22, 11:59 PM +07\nYour grade: 100%\nYour latest: 100%•\nYour highest: 100%•\nTo pass you need at least 70%. We keep your highest score.\nNext item\n1.\nQuestion 1\n\nWhat are the steps used to create and run containers?\n\nDo you understand?.\n\nI understand\n\nCreate a container image, use it to create a Dockerfile, and then use the Dockerfile to create a running container.\n\nCreate a Dockerfile and use it with the pull command to create a running container.\n\nCreate a Dockerfile, use it to create a container image, and then use the container image to create a running container.\n\nInput the container image name and tag.\n\nNice work\n\nCorrect! The proper sequence of steps to create and run containers is to create a Dockerfile, use it to create a container image, and then use the container image to create a running container.\n\n1 / 1 point\n2.\nQuestion 2\n\nWhat is the function of the Docker ‘run’ command?\n\nDo you understand?.\n\nI understand\n\nStores images in a configured registry\n\nLists all images, repositories, tags, and sizes\n\nRetrieves images from a configured registry\n\nCreates a container from an image\n\nNice work\n\nCorrect! The Docker ‘run’ command creates a container from an image. \n\n1 / 1 point\n3.\nQuestion 3\n\nWhat applications are a good fit for Docker?\n\nDo you understand?.\n\nI understand\n\nApplications that need a lot of security\n\nApplications that require flexible scaling and portability \n\nApplications with rich GUI features\n\nApplications with high performance requirements\n\nNice work\n\nCorrect! Docker became popular with developers because of its simple architecture, high scalability, and easy portability.\n\n1 / 1 point\n4.\nQuestion 4\n\nWhat is a Docker container?\n\nDo you understand?.\n\nI understand\n\nA persistent set of data that can be transferred\n\nA read-only template\n\nA runnable instance of an image\n\nA method of isolating communication\n\nNice work\n\nCorrect! A Docker container is defined as a runnable instance of an image.\n\n1 / 1 point\n5.\nQuestion 5\n\nDo containers have to be on a specific operating system or platform?\n\nDo you understand?.\n\nI understand\n\nYes, containers only work on Windows-based operating systems and platforms.\n\nNo, containers don’t run on operating systems or platforms.\n\nYes, containers only work on Linux-based operating systems and platforms.\n\nNo, containers work on many types of operating systems and platforms.\n\nNice work\n\nCorrect! Containers can be used across multiple types of operating systems and platforms. \n\n1 / 1 point\n6.\nQuestion 6\n\nWhat are three parts of Docker’s underlying technology? \n\nDo you understand?.\n\nI understand\n\nLinux kernel features\n\nNice work\n\nCorrect! Linux kernel features are a part of Docker’s underlying technology.\n\nGitHub\n\nNamespaces\n\nNice work\n\nCorrect! Namespaces are a part of Docker’s underlying technology.\n\nThe Go programming language\n\nNice work\n\nCorrect! The Go programming language is a part of Docker’s underlying technology.\n\n1 / 1 point\n7.\nQuestion 7\n\nWhat does the Docker client-server architecture provide?\n\nDo you understand?.\n\nI understand\n\nCloud storage\n\nAn application environment\n\nA communication channel\n\nCode checking\n\nNice work\n\nCorrect! The Docker client-server architecture provides a complete application environment.\n\n1 / 1 point\n8.\nQuestion 8\n\nWhat are volumes and bind mounts used for in Docker?\n\nDo you understand?.\n\nI understand\n\nPersisting data\n\nErasing data\n\nConnecting to external storage platforms\n\nIsolating communication\n\nNice work\n\nCorrect! Volumes and bind mounts are used to persist data in Docker.\n\n1 / 1 point\n9.\nQuestion 9\n\nHow are digital containers like shipping containers?\n\nDo you understand?.\n\nI understand\n\nContainer size and specs are standardized, which makes them easier to move around.\n\nDigital containers are not like shipping containers.\n\nBoth digital and shipping containers have to travel internationally.\n\nDigital containers must be welded to computer motherboards, just like shipping containers must be welded.\n\nNice work\n\nCorrect! Digital containers make software portable so applications can run on multiple platforms.\n\n1 / 1 point\n10.\nQuestion 10\n\nWhat Docker features create a container image?\n\nDo you understand?.\n\nI understand\n\nThe image command and a Dockerfile\n\nThe copy command and an existing image\n\nThe build command and a Dockerfile\n\nThe run command and a Dockerfile\n\nNice work\n\nCorrect! The build command is used with a Dockerfile to build a container image.\n\n1 / 1 point"
+    },
+    {
+      "title": "Practice Quiz: Kubernetes Basics Practice Assignment • 15 min • Grade: --",
+      "page_title": "Practice Quiz: Kubernetes Basics",
+      "source": "Module 2",
+      "kind": "practice_quiz",
+      "url": "https://www.coursera.org/learn/ibm-containers-docker-kubernetes-openshift/assignment-submission/tV0pT/practice-quiz-kubernetes-basics",
+      "final_url": "https://www.coursera.org/learn/ibm-containers-docker-kubernetes-openshift/assignment-submission/tV0pT/practice-quiz-kubernetes-basics/attempt",
+      "status": "opened_via_button:Start assignment",
+      "question_count": 5,
+      "questions": [
+        {
+          "index": 1,
+          "question_type": "single_choice",
+          "prompt_text": "What is a Kubernetes Cluster?",
+          "options": [
+            {
+              "text": "A controller manager",
+              "checked": false
+            },
+            {
+              "text": "A cluster of nodes that run containerized applications",
+              "checked": false
+            },
+            {
+              "text": "A distributed key value store",
+              "checked": false
+            },
+            {
+              "text": "An image downloader",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "1.\nQuestion 1\n\nWhat is a Kubernetes Cluster?\n\nDo you understand?.\n\nI understand\n\nA controller manager\n\nA cluster of nodes that run containerized applications\n\nA distributed key value store\n\nAn image downloader\n\n1 point"
+        },
+        {
+          "index": 2,
+          "question_type": "multiple_select",
+          "prompt_text": "What are three examples of Kubernetes objects?",
+          "options": [
+            {
+              "text": "Containers",
+              "checked": false
+            },
+            {
+              "text": "ReplicaSets",
+              "checked": false
+            },
+            {
+              "text": "Namespaces",
+              "checked": false
+            },
+            {
+              "text": "Pods",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "2.\nQuestion 2\n\nWhat are three examples of Kubernetes objects?\n\nDo you understand?.\n\nI understand\n\nContainers\n\nReplicaSets\n\nNamespaces\n\nPods\n\n1 point"
+        },
+        {
+          "index": 3,
+          "question_type": "single_choice",
+          "prompt_text": "What is Kubernetes?",
+          "options": [
+            {
+              "text": "A continuous integration and delivery pipeline for applications",
+              "checked": false
+            },
+            {
+              "text": "A built-in middleware and database provider",
+              "checked": false
+            },
+            {
+              "text": "An all-inclusive platform as a service",
+              "checked": false
+            },
+            {
+              "text": "An open source containerization orchestration platform",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "3.\nQuestion 3\n\nWhat is Kubernetes?\n\nDo you understand?.\n\nI understand\n\nA continuous integration and delivery pipeline for applications\n\nA built-in middleware and database provider\n\nAn all-inclusive platform as a service\n\nAn open source containerization orchestration platform\n\n1 point"
+        },
+        {
+          "index": 4,
+          "question_type": "single_choice",
+          "prompt_text": "What languages are used to create the container orchestration configuration file?",
+          "options": [
+            {
+              "text": "YAML only",
+              "checked": false
+            },
+            {
+              "text": "Python or Node.js",
+              "checked": false
+            },
+            {
+              "text": "JSON only",
+              "checked": false
+            },
+            {
+              "text": "YAML or JSON",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "4.\nQuestion 4\n\nWhat languages are used to create the container orchestration configuration file?\n\nDo you understand?.\n\nI understand\n\nYAML only\n\nPython or Node.js\n\nJSON only\n\nYAML or JSON\n\n1 point"
+        },
+        {
+          "index": 5,
+          "question_type": "single_choice",
+          "prompt_text": "What is the function of a ClusterIP Service?",
+          "options": [
+            {
+              "text": "Provides inter-service communication within the Cluster",
+              "checked": false
+            },
+            {
+              "text": "Automatically creates and routes incoming requests to the ClusterIP Service",
+              "checked": false
+            },
+            {
+              "text": "Directs traffic to the NodePort Service",
+              "checked": false
+            },
+            {
+              "text": "Maps to a DNS name",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "5.\nQuestion 5\n\nWhat is the function of a ClusterIP Service?\n\nDo you understand?.\n\nI understand\n\nProvides inter-service communication within the Cluster\n\nAutomatically creates and routes incoming requests to the ClusterIP Service \n\nDirects traffic to the NodePort Service\n\nMaps to a DNS name\n\n1 point"
+        }
+      ],
+      "raw_page_text": "N\nIntroduction to Containers w/ Docker, Kubernetes & OpenShift\nToday's goal • 0/3 items\n\nComplete 3 items today to stay at a good pace!\n\nModule 1\nContainers and Containerization\nModule 2\nKubernetes Basics\nContainer Orchestration\nVideo\n. Duration: 6 minutes\n6 min\nIntroduction to Kubernetes\nVideo\n. Duration: 7 minutes\n7 min\nKubernetes Architecture\nVideo\n. Duration: 5 minutes\n5 min\nKubernetes Objects - Part 1\nVideo\n. Duration: 6 minutes\n6 min\nKubernetes Objects - Part 2\nVideo\n. Duration: 6 minutes\n6 min\nUsing Kubectl\nVideo\n. Duration: 7 minutes\n7 min\nPractice Lab: Introduction to Kubernetes Objects\nUngraded App Item\n. Duration: 45 minutes\n45 min\nIngress Objects vs. Ingress Controller\nReading\n. Duration: 10 minutes\n10 min\nKubernetes Antipatterns\nReading\n. Duration: 10 minutes\n10 min\nLab: Introduction to Kubernetes\nUngraded App Item\n. Duration: 45 minutes\n45 min\nSummary & Highlights: Kubernetes Basics\nReading\n. Duration: 3 minutes\n3 min\nPractice Quiz: Kubernetes Basics\nPractice Assignment\n. Duration: 15 minutes\n15 min\nModule 2 Cheat Sheet: Understanding Kubernetes Architecture\nReading\n. Duration: 5 minutes\n5 min\nGraded Quiz: Kubernetes Basics\nGraded AssignmentGrade: 85%\nModule 2 Glossary: Kubernetes Basics\nReading\n. Duration: 10 minutes\n10 min\nModule 3\nManaging Applications with Kubernetes\nModule 4\nThe Kubernetes Ecosystem: OpenShift, Istio, etc.\nModule 5\nFinal Assignment\n\nPractice Assignment\n\nPractice Quiz: Kubernetes Basics\nResume assignment\nHelp me practice\nWhat to expect\nDue Dec 6, 11:59 PM +07\nUnlimited attempts\n\nThis is a practice assignment to help you check your understanding. It doesn’t count toward your course grade.\n\nReport an issue\nGo to next item\nBack\nPractice Quiz: Kubernetes Basics\n\nPractice Assignment • 15 min\n\nDueDec 6, 11:59 PM +07\n1.\nQuestion 1\n\nWhat is a Kubernetes Cluster?\n\nDo you understand?.\n\nI understand\n\nA controller manager\n\nA cluster of nodes that run containerized applications\n\nA distributed key value store\n\nAn image downloader\n\n1 point\n2.\nQuestion 2\n\nWhat are three examples of Kubernetes objects?\n\nDo you understand?.\n\nI understand\n\nContainers\n\nReplicaSets\n\nNamespaces\n\nPods\n\n1 point\n3.\nQuestion 3\n\nWhat is Kubernetes?\n\nDo you understand?.\n\nI understand\n\nA continuous integration and delivery pipeline for applications\n\nA built-in middleware and database provider\n\nAn all-inclusive platform as a service\n\nAn open source containerization orchestration platform\n\n1 point\n4.\nQuestion 4\n\nWhat languages are used to create the container orchestration configuration file?\n\nDo you understand?.\n\nI understand\n\nYAML only\n\nPython or Node.js\n\nJSON only\n\nYAML or JSON\n\n1 point\n5.\nQuestion 5\n\nWhat is the function of a ClusterIP Service?\n\nDo you understand?.\n\nI understand\n\nProvides inter-service communication within the Cluster\n\nAutomatically creates and routes incoming requests to the ClusterIP Service \n\nDirects traffic to the NodePort Service\n\nMaps to a DNS name\n\n1 point\nCoursera Honor Code\n\nBy clicking Submit, you confirm this work is your own. Submitting work created with AI tools may result in course failure or account deactivation according to Coursera Honor Code policy.\n\nI, NGUYEN PHUC, understand and agree.\nYou must select the checkbox in order to submit the assignment\nSubmit\nSave draft\n\nLast saved on Nov 24, 2:29 PM +07\n\nLike\nDislike\nReport an issue"
+    },
+    {
+      "title": "Graded Quiz: Kubernetes Basics Graded Assignment • Submitted • Grade: --",
+      "page_title": "Graded Quiz: Kubernetes Basics",
+      "source": "Module 2",
+      "kind": "graded_quiz",
+      "url": "https://www.coursera.org/learn/ibm-containers-docker-kubernetes-openshift/assignment-submission/f8QO2/graded-quiz-kubernetes-basics",
+      "final_url": "https://www.coursera.org/learn/ibm-containers-docker-kubernetes-openshift/assignment-submission/f8QO2/graded-quiz-kubernetes-basics/view-feedback",
+      "status": "opened_via_button",
+      "question_count": 10,
+      "questions": [
+        {
+          "index": 1,
+          "question_type": "single_choice",
+          "prompt_text": "What is automated bin packing?",
+          "options": [
+            {
+              "text": "A Kubernetes capability that scales workloads based on metrics or commands",
+              "checked": false
+            },
+            {
+              "text": "A Kubernetes capability that applies automatic changes",
+              "checked": false
+            },
+            {
+              "text": "A Kubernetes capability that performs container auto-placement based on resource requirements and conditions without sacrificing high availability",
+              "checked": true
+            },
+            {
+              "text": "A Kubernetes capability that mounts a chosen storage system",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "1.\nQuestion 1\n\nWhat is automated bin packing?\n\nDo you understand?.\n\nI understand\n\nA Kubernetes capability that scales workloads based on metrics or commands\n\nA Kubernetes capability that applies automatic changes\n\nA Kubernetes capability that performs container auto-placement based on resource requirements and conditions without sacrificing high availability \n\nA Kubernetes capability that mounts a chosen storage system\n\nNice work\n\nCorrect! Automated bin packing is a Kubernetes feature that performs container auto-placement based on resource requirements and conditions without sacrificing high availability.\n\n1 / 1 point"
+        },
+        {
+          "index": 2,
+          "question_type": "single_choice",
+          "prompt_text": "What component of a worker node ensures containers are running as desired?",
+          "options": [
+            {
+              "text": "The Kubernetes proxy",
+              "checked": false
+            },
+            {
+              "text": "The kubelet",
+              "checked": true
+            },
+            {
+              "text": "Container runtime",
+              "checked": false
+            },
+            {
+              "text": "Etcd",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "2.\nQuestion 2\n\nWhat component of a worker node ensures containers are running as desired?\n\nDo you understand?.\n\nI understand\n\nThe Kubernetes proxy\n\nThe kubelet\n\nContainer runtime\n\nEtcd\n\nNice work\n\nCorrect! The kubelet communicates with the kube-api server to receive new and modified Pod specifications and ensures that the Pods and their associated containers are running as desired.\n\n1 / 1 point"
+        },
+        {
+          "index": 3,
+          "question_type": "multiple_select",
+          "prompt_text": "What are three Kubernetes capabilities?",
+          "options": [
+            {
+              "text": "Automated rollouts",
+              "checked": false
+            },
+            {
+              "text": "CI/CD pipelines",
+              "checked": false
+            },
+            {
+              "text": "Secret and configuration management",
+              "checked": false
+            },
+            {
+              "text": "Storage orchestration",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "3.\nQuestion 3\n\nWhat are three Kubernetes capabilities?\n\nDo you understand?.\n\nI understand\n\nAutomated rollouts\n\nCI/CD pipelines\n\nSecret and configuration management\n\nStorage orchestration\n\nYou did not answer the question\n0.3 / 1 point"
+        },
+        {
+          "index": 4,
+          "question_type": "multiple_select",
+          "prompt_text": "In what three environments can container orchestration be implemented?",
+          "options": [
+            {
+              "text": "On-premises environments",
+              "checked": false
+            },
+            {
+              "text": "A single device",
+              "checked": false
+            },
+            {
+              "text": "Private cloud environments",
+              "checked": false
+            },
+            {
+              "text": "Public cloud environments",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "4.\nQuestion 4\n\nIn what three environments can container orchestration be implemented?\n\nDo you understand?.\n\nI understand\n\nOn-premises environments\n\n A single device \n\nPrivate cloud environments\n\nPublic cloud environments\n\nYou did not answer the question\n0.3 / 1 point"
+        },
+        {
+          "index": 5,
+          "question_type": "single_choice",
+          "prompt_text": "What does a control plane do?",
+          "options": [
+            {
+              "text": "Maintains the intended Cluster state by making decisions about the Cluster and detecting and responding to events in the Cluster",
+              "checked": true
+            },
+            {
+              "text": "Assigns newly created Pods to nodes",
+              "checked": false
+            },
+            {
+              "text": "Shares all the resources of a node",
+              "checked": false
+            },
+            {
+              "text": "Contains Pods",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "5.\nQuestion 5\n\nWhat does a control plane do?\n\nDo you understand?.\n\nI understand\n\nMaintains the intended Cluster state by making decisions about the Cluster and detecting and responding to events in the Cluster   \n\nAssigns newly created Pods to nodes\n\nShares all the resources of a node\n\nContains Pods\n\nNice work\n\nCorrect! A control plane maintains the intended Cluster state by making decisions about the Cluster and detecting and responding to events in the Cluster.\n\n1 / 1 point"
+        },
+        {
+          "index": 6,
+          "question_type": "single_choice",
+          "prompt_text": "What is Kubectl?",
+          "options": [
+            {
+              "text": "Kubernetes command line interface (CLI)",
+              "checked": true
+            },
+            {
+              "text": "OpenShift command line interface (oc)",
+              "checked": false
+            },
+            {
+              "text": "Cloud command line interface",
+              "checked": false
+            },
+            {
+              "text": "Docker command line interface",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "6.\nQuestion 6\n\nWhat is Kubectl?\n\nDo you understand?.\n\nI understand\n\nKubernetes command line interface (CLI) \n\nOpenShift command line interface (oc) \n\nCloud command line interface \n\nDocker command line interface \n\nNice work\n\nCorrect! Kubectl stands for Kube Command Tool Line. Kubectl is the Kubernetes CLI.\n\n1 / 1 point"
+        },
+        {
+          "index": 7,
+          "question_type": "single_choice",
+          "prompt_text": "What is a label?",
+          "options": [
+            {
+              "text": "A mechanism for isolating groups of resources within a single Cluster",
+              "checked": false
+            },
+            {
+              "text": "A set of identical running Pod replicas that are horizontally scaled",
+              "checked": false
+            },
+            {
+              "text": "The simplest unit in Kubernetes",
+              "checked": false
+            },
+            {
+              "text": "A key-value pair attached to an object",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "7.\nQuestion 7\n\nWhat is a label?\n\nDo you understand?.\n\nI understand\n\nA mechanism for isolating groups of resources within a single Cluster\n\nA set of identical running Pod replicas that are horizontally scaled\n\nThe simplest unit in Kubernetes\n\nA key-value pair attached to an object\n\nNice work\n\nCorrect! Labels are defined as key-value pairs attached to objects.\n\n1 / 1 point"
+        },
+        {
+          "index": 8,
+          "question_type": "single_choice",
+          "prompt_text": "What Kubernetes object should be used for stateless applications?",
+          "options": [
+            {
+              "text": "StatefulSet",
+              "checked": false
+            },
+            {
+              "text": "ReplicaSet",
+              "checked": false
+            },
+            {
+              "text": "Deployment",
+              "checked": true
+            },
+            {
+              "text": "DaemonSet",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "8.\nQuestion 8\n\nWhat Kubernetes object should be used for stateless applications?\n\nDo you understand?.\n\nI understand\n\nStatefulSet\n\nReplicaSet\n\nDeployment\n\nDaemonSet\n\nNice work\n\nCorrect. A Deployment is suitable for stateless applications. \n\n1 / 1 point"
+        },
+        {
+          "index": 9,
+          "question_type": "single_choice",
+          "prompt_text": "What is the most popular container orchestration tool used as of 2022?",
+          "options": [
+            {
+              "text": "Docker Swarm",
+              "checked": false
+            },
+            {
+              "text": "Marathon",
+              "checked": false
+            },
+            {
+              "text": "Nomad",
+              "checked": false
+            },
+            {
+              "text": "Kubernetes",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "9.\nQuestion 9\n\nWhat is the most popular container orchestration tool used as of 2022?\n\nDo you understand?.\n\nI understand\n\nDocker Swarm\n\nMarathon\n\nNomad\n\nKubernetes \n\nNice work\n\nCorrect! The most popular container orchestration tool in 2022 is Kubernetes.\n\n1 / 1 point"
+        },
+        {
+          "index": 10,
+          "question_type": "single_choice",
+          "prompt_text": "What is the function of an External Name Service?",
+          "options": [
+            {
+              "text": "Maps to a DNS name",
+              "checked": true
+            },
+            {
+              "text": "Directs traffic to the NodePort Service",
+              "checked": false
+            },
+            {
+              "text": "Provides inter-service communication within the Cluster",
+              "checked": false
+            },
+            {
+              "text": "Creates and routes the incoming requests automatically to the ClusterIP Service",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "10.\nQuestion 10\n\nWhat is the function of an External Name Service?\n\nDo you understand?.\n\nI understand\n\nMaps to a DNS name\n\nDirects traffic to the NodePort Service\n\nProvides inter-service communication within the Cluster\n\nCreates and routes the incoming requests automatically to the ClusterIP Service\n\nNice work\n\nCorrect! The External Name Service is the service type that maps to a DNS name. \n\n1 / 1 point"
+        }
+      ],
+      "raw_page_text": "N\nIntroduction to Containers w/ Docker, Kubernetes & OpenShift\nToday's goal • 0/3 items\n\nComplete 3 items today to stay at a good pace!\n\nModule 1\nContainers and Containerization\nModule 2\nKubernetes Basics\nContainer Orchestration\nVideo\n. Duration: 6 minutes\n6 min\nIntroduction to Kubernetes\nVideo\n. Duration: 7 minutes\n7 min\nKubernetes Architecture\nVideo\n. Duration: 5 minutes\n5 min\nKubernetes Objects - Part 1\nVideo\n. Duration: 6 minutes\n6 min\nKubernetes Objects - Part 2\nVideo\n. Duration: 6 minutes\n6 min\nUsing Kubectl\nVideo\n. Duration: 7 minutes\n7 min\nPractice Lab: Introduction to Kubernetes Objects\nUngraded App Item\n. Duration: 45 minutes\n45 min\nIngress Objects vs. Ingress Controller\nReading\n. Duration: 10 minutes\n10 min\nKubernetes Antipatterns\nReading\n. Duration: 10 minutes\n10 min\nLab: Introduction to Kubernetes\nUngraded App Item\n. Duration: 45 minutes\n45 min\nSummary & Highlights: Kubernetes Basics\nReading\n. Duration: 3 minutes\n3 min\nPractice Quiz: Kubernetes Basics\nPractice Assignment\n. Duration: 15 minutes\n15 min\nModule 2 Cheat Sheet: Understanding Kubernetes Architecture\nReading\n. Duration: 5 minutes\n5 min\nGraded Quiz: Kubernetes Basics\nGraded AssignmentGrade: 85%\nModule 2 Glossary: Kubernetes Basics\nReading\n. Duration: 10 minutes\n10 min\nModule 3\nManaging Applications with Kubernetes\nModule 4\nThe Kubernetes Ecosystem: OpenShift, Istio, etc.\nModule 5\nFinal Assignment\n\nGraded Assignment\n\nGraded Quiz: Kubernetes Basics\n\nAssessment monitored for academic integrity and AI-usage. Privacy Notice\n\nGo to next item\nTry again\nWhat to expect\nDue Dec 6, 11:59 PM +07\n3 attempts\n\nevery 8 hours\n\nYou passed!\n\nTo pass you need a grade of at least 70%.\n\n85%\nView feedback\n\nSubmitted Nov 9, 8:49 PM +07.\n\nReport an issue\nGo to next item\nBack\nGraded Quiz: Kubernetes Basics\n\nGraded Assignment • 30 min\n\nDueDec 6, 11:59 PM +07\nYour grade: 85%\nYour latest: 85%•\nYour highest: 85%•\nTo pass you need at least 70%. We keep your highest score.\nNext item\n1.\nQuestion 1\n\nWhat is automated bin packing?\n\nDo you understand?.\n\nI understand\n\nA Kubernetes capability that scales workloads based on metrics or commands\n\nA Kubernetes capability that applies automatic changes\n\nA Kubernetes capability that performs container auto-placement based on resource requirements and conditions without sacrificing high availability \n\nA Kubernetes capability that mounts a chosen storage system\n\nNice work\n\nCorrect! Automated bin packing is a Kubernetes feature that performs container auto-placement based on resource requirements and conditions without sacrificing high availability.\n\n1 / 1 point\n2.\nQuestion 2\n\nWhat component of a worker node ensures containers are running as desired?\n\nDo you understand?.\n\nI understand\n\nThe Kubernetes proxy\n\nThe kubelet\n\nContainer runtime\n\nEtcd\n\nNice work\n\nCorrect! The kubelet communicates with the kube-api server to receive new and modified Pod specifications and ensures that the Pods and their associated containers are running as desired.\n\n1 / 1 point\n3.\nQuestion 3\n\nWhat are three Kubernetes capabilities?\n\nDo you understand?.\n\nI understand\n\nAutomated rollouts\n\nCI/CD pipelines\n\nSecret and configuration management\n\nStorage orchestration\n\nYou did not answer the question\n0.3 / 1 point\n4.\nQuestion 4\n\nIn what three environments can container orchestration be implemented?\n\nDo you understand?.\n\nI understand\n\nOn-premises environments\n\n A single device \n\nPrivate cloud environments\n\nPublic cloud environments\n\nYou did not answer the question\n0.3 / 1 point\n5.\nQuestion 5\n\nWhat does a control plane do?\n\nDo you understand?.\n\nI understand\n\nMaintains the intended Cluster state by making decisions about the Cluster and detecting and responding to events in the Cluster   \n\nAssigns newly created Pods to nodes\n\nShares all the resources of a node\n\nContains Pods\n\nNice work\n\nCorrect! A control plane maintains the intended Cluster state by making decisions about the Cluster and detecting and responding to events in the Cluster.\n\n1 / 1 point\n6.\nQuestion 6\n\nWhat is Kubectl?\n\nDo you understand?.\n\nI understand\n\nKubernetes command line interface (CLI) \n\nOpenShift command line interface (oc) \n\nCloud command line interface \n\nDocker command line interface \n\nNice work\n\nCorrect! Kubectl stands for Kube Command Tool Line. Kubectl is the Kubernetes CLI.\n\n1 / 1 point\n7.\nQuestion 7\n\nWhat is a label?\n\nDo you understand?.\n\nI understand\n\nA mechanism for isolating groups of resources within a single Cluster\n\nA set of identical running Pod replicas that are horizontally scaled\n\nThe simplest unit in Kubernetes\n\nA key-value pair attached to an object\n\nNice work\n\nCorrect! Labels are defined as key-value pairs attached to objects.\n\n1 / 1 point\n8.\nQuestion 8\n\nWhat Kubernetes object should be used for stateless applications?\n\nDo you understand?.\n\nI understand\n\nStatefulSet\n\nReplicaSet\n\nDeployment\n\nDaemonSet\n\nNice work\n\nCorrect. A Deployment is suitable for stateless applications. \n\n1 / 1 point\n9.\nQuestion 9\n\nWhat is the most popular container orchestration tool used as of 2022?\n\nDo you understand?.\n\nI understand\n\nDocker Swarm\n\nMarathon\n\nNomad\n\nKubernetes \n\nNice work\n\nCorrect! The most popular container orchestration tool in 2022 is Kubernetes.\n\n1 / 1 point\n10.\nQuestion 10\n\nWhat is the function of an External Name Service?\n\nDo you understand?.\n\nI understand\n\nMaps to a DNS name\n\nDirects traffic to the NodePort Service\n\nProvides inter-service communication within the Cluster\n\nCreates and routes the incoming requests automatically to the ClusterIP Service\n\nNice work\n\nCorrect! The External Name Service is the service type that maps to a DNS name. \n\n1 / 1 point"
+    },
+    {
+      "title": "Practice Quiz: Managing Applications with Kubernetes Practice Assignment • 15 min • Grade: --",
+      "page_title": "Practice Quiz: Managing Applications with Kubernetes",
+      "source": "Module 3",
+      "kind": "practice_quiz",
+      "url": "https://www.coursera.org/learn/ibm-containers-docker-kubernetes-openshift/assignment-submission/rKS3P/practice-quiz-managing-applications-with-kubernetes",
+      "final_url": "https://www.coursera.org/learn/ibm-containers-docker-kubernetes-openshift/assignment-submission/rKS3P/practice-quiz-managing-applications-with-kubernetes/attempt",
+      "status": "opened_after_step_1",
+      "question_count": 5,
+      "questions": [
+        {
+          "index": 1,
+          "question_type": "single_choice",
+          "prompt_text": "What rollout command do you use to implement a rollback to a previous version in Kubernetes?",
+          "options": [
+            {
+              "text": "A ‘delete’ command",
+              "checked": false
+            },
+            {
+              "text": "A ‘history’ command",
+              "checked": false
+            },
+            {
+              "text": "A ‘status’ command",
+              "checked": false
+            },
+            {
+              "text": "An ‘undo’ command",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "1.\nQuestion 1\n\nWhat rollout command do you use to implement a rollback to a previous version in Kubernetes?\n\nDo you understand?.\n\nI understand\n\nA ‘delete’ command\n\nA ‘history’ command\n\nA ‘status’ command\n\nAn ‘undo’ command\n\n1 point"
+        },
+        {
+          "index": 2,
+          "question_type": "multiple_select",
+          "prompt_text": "Which three statements about ConfigMaps are correct?",
+          "options": [
+            {
+              "text": "A ConfigMap provides configuration data to pods and deployments.",
+              "checked": false
+            },
+            {
+              "text": "A ConfigMap is meant for sensitive information (encrypted).",
+              "checked": false
+            },
+            {
+              "text": "Data stored in a ConfigMap must not exceed one megabyte.",
+              "checked": false
+            },
+            {
+              "text": "A ConfigMap object stores non-confidential data in key-value pairs.",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "2.\nQuestion 2\n\nWhich three statements about ConfigMaps are correct?\n\nDo you understand?.\n\nI understand\n\nA ConfigMap provides configuration data to pods and deployments.\n\nA ConfigMap is meant for sensitive information (encrypted).\n\nData stored in a ConfigMap must not exceed one megabyte.\n\nA ConfigMap object stores non-confidential data in key-value pairs.\n\n1 point"
+        },
+        {
+          "index": 3,
+          "question_type": "single_choice",
+          "prompt_text": "What Kubernetes object adds or deletes pods for scaling and redundancy?",
+          "options": [
+            {
+              "text": "A Secret",
+              "checked": false
+            },
+            {
+              "text": "A DaemonSet",
+              "checked": false
+            },
+            {
+              "text": "A ReplicaSet",
+              "checked": false
+            },
+            {
+              "text": "A ConfigMap",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "3.\nQuestion 3\n\nWhat Kubernetes object adds or deletes pods for scaling and redundancy?   \n\nDo you understand?.\n\nI understand\n\nA Secret\n\nA DaemonSet\n\nA ReplicaSet\n\nA ConfigMap\n\n1 point"
+        },
+        {
+          "index": 4,
+          "question_type": "single_choice",
+          "prompt_text": "What are the autoscaling types in Kubernetes?",
+          "options": [
+            {
+              "text": "Deployment, Node, and Pod",
+              "checked": false
+            },
+            {
+              "text": "Horizontal, Vertical, Node",
+              "checked": false
+            },
+            {
+              "text": "Horizontal, Vertical, and Cluster",
+              "checked": false
+            },
+            {
+              "text": "Horizontal and Vertical",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "4.\nQuestion 4\n\nWhat are the autoscaling types in Kubernetes?\n\nDo you understand?.\n\nI understand\n\nDeployment, Node, and Pod\n\nHorizontal, Vertical, Node\n\nHorizontal, Vertical, and Cluster\n\nHorizontal and Vertical\n\n1 point"
+        },
+        {
+          "index": 5,
+          "question_type": "single_choice",
+          "prompt_text": "What is Service binding?",
+          "options": [
+            {
+              "text": "The process needed to consume external Service or backing Services, including REST APIs, databases, and event buses in your applications",
+              "checked": false
+            },
+            {
+              "text": "The process of attaching key-value pairs to objects",
+              "checked": false
+            },
+            {
+              "text": "A Kubernetes capability that performs container auto-placement based on resource requirements and conditions without sacrificing high availability",
+              "checked": false
+            },
+            {
+              "text": "The process of storing non-confidential data",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "5.\nQuestion 5\n\nWhat is Service binding? \n\nDo you understand?.\n\nI understand\n\nThe process needed to consume external Service or backing Services, including REST APIs, databases, and event buses in your applications\n\nThe process of attaching key-value pairs to objects\n\nA Kubernetes capability that performs container auto-placement based on resource requirements and conditions without sacrificing high availability \n\nThe process of storing non-confidential data\n\n1 point"
+        }
+      ],
+      "raw_page_text": "N\nIntroduction to Containers w/ Docker, Kubernetes & OpenShift\nToday's goal • 0/3 items\n\nComplete 3 items today to stay at a good pace!\n\nModule 1\nContainers and Containerization\nModule 2\nKubernetes Basics\nModule 3\nManaging Applications with Kubernetes\nReplicaSet\nVideo\n. Duration: 6 minutes\n6 min\nAutoscaling\nVideo\n. Duration: 7 minutes\n7 min\nDeployment Strategies\nReading\n. Duration: 10 minutes\n10 min\nRolling Updates\nVideo\n. Duration: 6 minutes\n6 min\nConfigMaps and Secrets\nVideo\n. Duration: 6 minutes\n6 min\nService Binding\nVideo\n. Duration: 5 minutes\n5 min\nLab: Scaling and Updating Applications\nUngraded App Item\n. Duration: 45 minutes\n45 min\nTransforming Retail - The Impact of Kubernetes and Containerization\nReading\n. Duration: 10 minutes\n10 min\nPractice Lab: Autoscaling and Secrets Management\nUngraded App Item\n. Duration: 45 minutes\n45 min\nSummary & Highlights: Managing Applications with Kubernetes\nReading\n. Duration: 2 minutes\n2 min\nPractice Quiz: Managing Applications with Kubernetes\nPractice Assignment\n. Duration: 15 minutes\n15 min\nModule 3 Cheat Sheet: The kubectl CLI\nReading\n. Duration: 5 minutes\n5 min\nGraded Quiz: Managing Applications with Kubernetes\nGraded AssignmentGrade: 95%\nModule 3 Glossary: Managing Applications with Kubernetes\nReading\n. Duration: 5 minutes\n5 min\nModule 4\nThe Kubernetes Ecosystem: OpenShift, Istio, etc.\nModule 5\nFinal Assignment\n\nPractice Assignment\n\nPractice Quiz: Managing Applications with Kubernetes\nResume assignment\nHelp me practice\nWhat to expect\nDue Dec 20, 11:59 PM +07\nUnlimited attempts\n\nThis is a practice assignment to help you check your understanding. It doesn’t count toward your course grade.\n\nReport an issue\nGo to next item\nBack\nPractice Quiz: Managing Applications with Kubernetes\n\nPractice Assignment • 15 min\n\nDueDec 20, 11:59 PM +07\n1.\nQuestion 1\n\nWhat rollout command do you use to implement a rollback to a previous version in Kubernetes?\n\nDo you understand?.\n\nI understand\n\nA ‘delete’ command\n\nA ‘history’ command\n\nA ‘status’ command\n\nAn ‘undo’ command\n\n1 point\n2.\nQuestion 2\n\nWhich three statements about ConfigMaps are correct?\n\nDo you understand?.\n\nI understand\n\nA ConfigMap provides configuration data to pods and deployments.\n\nA ConfigMap is meant for sensitive information (encrypted).\n\nData stored in a ConfigMap must not exceed one megabyte.\n\nA ConfigMap object stores non-confidential data in key-value pairs.\n\n1 point\n3.\nQuestion 3\n\nWhat Kubernetes object adds or deletes pods for scaling and redundancy?   \n\nDo you understand?.\n\nI understand\n\nA Secret\n\nA DaemonSet\n\nA ReplicaSet\n\nA ConfigMap\n\n1 point\n4.\nQuestion 4\n\nWhat are the autoscaling types in Kubernetes?\n\nDo you understand?.\n\nI understand\n\nDeployment, Node, and Pod\n\nHorizontal, Vertical, Node\n\nHorizontal, Vertical, and Cluster\n\nHorizontal and Vertical\n\n1 point\n5.\nQuestion 5\n\nWhat is Service binding? \n\nDo you understand?.\n\nI understand\n\nThe process needed to consume external Service or backing Services, including REST APIs, databases, and event buses in your applications\n\nThe process of attaching key-value pairs to objects\n\nA Kubernetes capability that performs container auto-placement based on resource requirements and conditions without sacrificing high availability \n\nThe process of storing non-confidential data\n\n1 point\nCoursera Honor Code\n\nBy clicking Submit, you confirm this work is your own. Submitting work created with AI tools may result in course failure or account deactivation according to Coursera Honor Code policy.\n\nI, NGUYEN PHUC, understand and agree.\nYou must select the checkbox in order to submit the assignment\nSubmit\nSave draft\n\nLast saved on Nov 24, 2:30 PM +07\n\nLike\nDislike\nReport an issue"
+    },
+    {
+      "title": "Graded Quiz: Managing Applications with Kubernetes Graded Assignment • Submitted • Grade: --",
+      "page_title": "Graded Quiz: Managing Applications with Kubernetes",
+      "source": "Module 3",
+      "kind": "graded_quiz",
+      "url": "https://www.coursera.org/learn/ibm-containers-docker-kubernetes-openshift/assignment-submission/fP8Uy/graded-quiz-managing-applications-with-kubernetes",
+      "final_url": "https://www.coursera.org/learn/ibm-containers-docker-kubernetes-openshift/assignment-submission/fP8Uy/graded-quiz-managing-applications-with-kubernetes/view-feedback",
+      "status": "opened_via_button",
+      "question_count": 10,
+      "questions": [
+        {
+          "index": 1,
+          "question_type": "single_choice",
+          "prompt_text": "What Kubernetes object adds or deletes pods for scaling and redundancy?",
+          "options": [
+            {
+              "text": "A Config Map",
+              "checked": false
+            },
+            {
+              "text": "A DaemonSet",
+              "checked": false
+            },
+            {
+              "text": "A Secret",
+              "checked": false
+            },
+            {
+              "text": "A ReplicaSet",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "1.\nQuestion 1\n\nWhat Kubernetes object adds or deletes pods for scaling and redundancy?\n\nDo you understand?.\n\nI understand\n\nA Config Map\n\nA DaemonSet\n\nA Secret\n\nA ReplicaSet\n\nNice work\n\nCorrect! A ReplicaSet ensures the right number of pods are always up and running. \n\n1 / 1 point"
+        },
+        {
+          "index": 2,
+          "question_type": "multiple_select",
+          "prompt_text": "What are the three required steps to bind the IBM Cloud Service to your Cluster?",
+          "options": [
+            {
+              "text": "Configure your app to access the credentials.",
+              "checked": true
+            },
+            {
+              "text": "Erase the credential configuration file after credential setup.",
+              "checked": false
+            },
+            {
+              "text": "Bind the Service to your Cluster to create credentials.",
+              "checked": true
+            },
+            {
+              "text": "Provision an instance of the Service.",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "2.\nQuestion 2\n\nWhat are the three required steps to bind the IBM Cloud Service to your Cluster? \n\nDo you understand?.\n\nI understand\n\nConfigure your app to access the credentials.\n\nNice work\n\nCorrect! The required steps to bind an IBM Cloud Service to your Cluster are: Provision an instance of the service, Bind the Service to your Cluster to create credentials, Store the credentials, and Configure your app to access the credentials.\n\nErase the credential configuration file after credential setup.\n\nBind the Service to your Cluster to create credentials.\n\nNice work\n\nCorrect! The required steps to bind an IBM Cloud Service to your Cluster are: Provision an instance of the service, Bind the Service to your Cluster to create credentials, Store the credentials, and Configure your app to access the credentials.\n\nProvision an instance of the Service.\n\nNice work\n\nCorrect! The required steps to bind an IBM Cloud Service to your Cluster are: Provision an instance of the service, Bind the Service to your Cluster to create credentials, Store the credentials, and Configure your app to access the credentials.\n\n1 / 1 point"
+        },
+        {
+          "index": 3,
+          "question_type": "single_choice",
+          "prompt_text": "Which rolling update types ensure 100% app availability?",
+          "options": [
+            {
+              "text": "Both all-at-once and one-at-a-time updates and rollbacks ensure 100% app availability.",
+              "checked": false
+            },
+            {
+              "text": "All-at-once updates and rollbacks ensure 100% app availability.",
+              "checked": false
+            },
+            {
+              "text": "No rolling update types can ensure 100% app availability.",
+              "checked": false
+            },
+            {
+              "text": "One-at-a-time updates and rollbacks ensure 100% app availability.",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "3.\nQuestion 3\n\nWhich rolling update types ensure 100% app availability?\n\nDo you understand?.\n\nI understand\n\nBoth all-at-once and one-at-a-time updates and rollbacks ensure 100% app availability.\n\nAll-at-once updates and rollbacks ensure 100% app availability.\n\nNo rolling update types can ensure 100% app availability.\n\nOne-at-a-time updates and rollbacks ensure 100% app availability.\n\nNice work\n\nCorrect! One-at-a-time updates and rollbacks ensure 100% app availability.\n\n1 / 1 point"
+        },
+        {
+          "index": 4,
+          "question_type": "multiple_select",
+          "prompt_text": "What are three ways to create a ConfigMap?",
+          "options": [
+            {
+              "text": "By providing a ConfigMap YAML descriptor file",
+              "checked": true
+            },
+            {
+              "text": "By using an existing property or ‘key’ = ‘value’ file",
+              "checked": true
+            },
+            {
+              "text": "By adding another environment to the deployment descriptor",
+              "checked": false
+            },
+            {
+              "text": "By using string literals",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "4.\nQuestion 4\n\nWhat are three ways to create a ConfigMap? \n\nDo you understand?.\n\nI understand\n\nBy providing a ConfigMap YAML descriptor file\n\nNice work\n\nCorrect! A ConfigMap is created using string literals, using an existing property or ‘key’ = ‘value’ file, or by providing a ConfigMap YAML descriptor file.\n\nBy using an existing property or ‘key’ = ‘value’ file\n\nNice work\n\nCorrect! A ConfigMap is created using string literals, using an existing property or ‘key’ = ‘value’ file, or by providing a ConfigMap YAML descriptor file.\n\nBy adding another environment to the deployment descriptor\n\nBy using string literals\n\nNice work\n\nCorrect! A ConfigMap is created using string literals, using an existing property or ‘key’ = ‘value’ file, or by providing a ConfigMap YAML descriptor file.\n\n1 / 1 point"
+        },
+        {
+          "index": 5,
+          "question_type": "single_choice",
+          "prompt_text": "What does a ConfigMap do?",
+          "options": [
+            {
+              "text": "Verifies that a Secret was created",
+              "checked": false
+            },
+            {
+              "text": "Provides variables for your application",
+              "checked": true
+            },
+            {
+              "text": "Provides sensitive information to your application",
+              "checked": false
+            },
+            {
+              "text": "Mounts a file using the volumes plugin",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "5.\nQuestion 5\n\nWhat does a ConfigMap do?\n\nDo you understand?.\n\nI understand\n\nVerifies that a Secret was created\n\nProvides variables for your application\n\nProvides sensitive information to your application\n\nMounts a file using the volumes plugin \n\nNice work\n\nCorrect! You can use a ConfigMap to provide variables for your application. \n\n1 / 1 point"
+        },
+        {
+          "index": 6,
+          "question_type": "single_choice",
+          "prompt_text": "Which Kubernetes autoscaler type scales the Cluster?",
+          "options": [
+            {
+              "text": "You cannot autoscale a Kubernetes Cluster.",
+              "checked": false
+            },
+            {
+              "text": "Vertical Pod Autoscaler (VPA)",
+              "checked": false
+            },
+            {
+              "text": "Horizontal Pod Autoscaler (HPA)",
+              "checked": false
+            },
+            {
+              "text": "Cluster Autoscaler (CA)",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "6.\nQuestion 6\n\nWhich Kubernetes autoscaler type scales the Cluster?\n\nDo you understand?.\n\nI understand\n\nYou cannot autoscale a Kubernetes Cluster.\n\nVertical Pod Autoscaler (VPA)\n\nHorizontal Pod Autoscaler (HPA)\n\nCluster Autoscaler (CA)\n\nNice work\n\nCorrect! The Cluster Autoscaler (CA) scales the Cluster in Kubernetes.\n\n1 / 1 point"
+        },
+        {
+          "index": 7,
+          "question_type": "single_choice",
+          "prompt_text": "How do you create a ReplicaSet from scratch?",
+          "options": [
+            {
+              "text": "Apply a JSON file that includes the number of desired replicas.",
+              "checked": false
+            },
+            {
+              "text": "Apply a YAML file with the ‘kind’ attribute set to ‘ReplicaSet’.",
+              "checked": true
+            },
+            {
+              "text": "Use the ‘get pods’ command.",
+              "checked": false
+            },
+            {
+              "text": "Use the ‘scale’ command to scale the deployment.",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "7.\nQuestion 7\n\nHow do you create a ReplicaSet from scratch?\n\nDo you understand?.\n\nI understand\n\nApply a JSON file that includes the number of desired replicas.\n\nApply a YAML file with the ‘kind’ attribute set to ‘ReplicaSet’.\n\nUse the ‘get pods’ command.\n\nUse the ‘scale’ command to scale the deployment.\n\nNice work\n\nCorrect! To create a ReplicaSet from scratch, apply a YAML file with the ‘kind’ attribute set to ‘ReplicaSet’.\n\n1 / 1 point"
+        },
+        {
+          "index": 8,
+          "question_type": "single_choice",
+          "prompt_text": "What does Service binding do?",
+          "options": [
+            {
+              "text": "Provides variables for your application",
+              "checked": false
+            },
+            {
+              "text": "Manages configuration and credentials for back-end Services while protecting sensitive data",
+              "checked": true
+            },
+            {
+              "text": "Calls the service without using binding credentials.",
+              "checked": false
+            },
+            {
+              "text": "Makes Service credentials hidden.",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "8.\nQuestion 8\n\nWhat does Service binding do? \n\nDo you understand?.\n\nI understand\n\nProvides variables for your application\n\nManages configuration and credentials for back-end Services while protecting sensitive data\n\nCalls the service without using binding credentials.\n\nMakes Service credentials hidden.\n\nNice work\n\nCorrect! Service binding manages configuration and credentials for back-end Services while protecting sensitive data.\n\n1 / 1 point"
+        },
+        {
+          "index": 9,
+          "question_type": "single_choice",
+          "prompt_text": "How do you prepare your application to enable rolling updates?",
+          "options": [
+            {
+              "text": "Set the maxSurge to 50%.",
+              "checked": false
+            },
+            {
+              "text": "Use autoscaling.",
+              "checked": false
+            },
+            {
+              "text": "Set the maxSurge to 100%.",
+              "checked": false
+            },
+            {
+              "text": "Add liveness and readiness probes to deployments.",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "9.\nQuestion 9\n\nHow do you prepare your application to enable rolling updates?\n\nDo you understand?.\n\nI understand\n\nSet the maxSurge to 50%.\n\nUse autoscaling.\n\nSet the maxSurge to 100%.\n\nAdd liveness and readiness probes to deployments.\n\nNice work\n\nCorrect! Add liveness and readiness probes to deployments to enable rolling updates for an application.\n\n1 / 1 point"
+        },
+        {
+          "index": 10,
+          "question_type": "multiple_select",
+          "prompt_text": "What are three ways to create a Secret?",
+          "options": [
+            {
+              "text": "By using volume mounts",
+              "checked": false
+            },
+            {
+              "text": "By using a string literal",
+              "checked": true
+            },
+            {
+              "text": "By providing a ConfigMap YAML descriptor file",
+              "checked": true
+            },
+            {
+              "text": "By using environment variables",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "10.\nQuestion 10\n\nWhat are three ways to create a Secret?\n\nDo you understand?.\n\nI understand\n\nBy using volume mounts\n\nBy using a string literal \n\nNice work\n\nCorrect! You create a Secret by using a string literal, by using environment variables, or by using volume mounts.\n\nBy providing a ConfigMap YAML descriptor file\n\nThis should not be selected\n\nIncorrect. Please review the ConfigMaps and Secrets video.\n\nBy using environment variables \n\nNice work\n\nCorrect! You create a Secret by using a string literal, by using environment variables, or by using volume mounts.\n\n0.5 / 1 point"
+        }
+      ],
+      "raw_page_text": "N\nIntroduction to Containers w/ Docker, Kubernetes & OpenShift\nToday's goal • 0/3 items\n\nComplete 3 items today to stay at a good pace!\n\nModule 1\nContainers and Containerization\nModule 2\nKubernetes Basics\nModule 3\nManaging Applications with Kubernetes\nReplicaSet\nVideo\n. Duration: 6 minutes\n6 min\nAutoscaling\nVideo\n. Duration: 7 minutes\n7 min\nDeployment Strategies\nReading\n. Duration: 10 minutes\n10 min\nRolling Updates\nVideo\n. Duration: 6 minutes\n6 min\nConfigMaps and Secrets\nVideo\n. Duration: 6 minutes\n6 min\nService Binding\nVideo\n. Duration: 5 minutes\n5 min\nLab: Scaling and Updating Applications\nUngraded App Item\n. Duration: 45 minutes\n45 min\nTransforming Retail - The Impact of Kubernetes and Containerization\nReading\n. Duration: 10 minutes\n10 min\nPractice Lab: Autoscaling and Secrets Management\nUngraded App Item\n. Duration: 45 minutes\n45 min\nSummary & Highlights: Managing Applications with Kubernetes\nReading\n. Duration: 2 minutes\n2 min\nPractice Quiz: Managing Applications with Kubernetes\nPractice Assignment\n. Duration: 15 minutes\n15 min\nModule 3 Cheat Sheet: The kubectl CLI\nReading\n. Duration: 5 minutes\n5 min\nGraded Quiz: Managing Applications with Kubernetes\nGraded AssignmentGrade: 95%\nModule 3 Glossary: Managing Applications with Kubernetes\nReading\n. Duration: 5 minutes\n5 min\nModule 4\nThe Kubernetes Ecosystem: OpenShift, Istio, etc.\nModule 5\nFinal Assignment\n\nGraded Assignment\n\nGraded Quiz: Managing Applications with Kubernetes\n\nAssessment monitored for academic integrity and AI-usage. Privacy Notice\n\nGo to next item\nTry again\nWhat to expect\nDue Dec 20, 11:59 PM +07\n3 attempts\n\nevery 8 hours\n\nYou passed!\n\nTo pass you need a grade of at least 70%.\n\n95%\nView feedback\n\nSubmitted Nov 9, 8:57 PM +07.\n\nReport an issue\nGo to next item\nBack\nGraded Quiz: Managing Applications with Kubernetes\n\nGraded Assignment • 30 min\n\nDueDec 20, 11:59 PM +07\nYour grade: 95%\nYour latest: 95%•\nYour highest: 95%•\nTo pass you need at least 70%. We keep your highest score.\nNext item\n1.\nQuestion 1\n\nWhat Kubernetes object adds or deletes pods for scaling and redundancy?\n\nDo you understand?.\n\nI understand\n\nA Config Map\n\nA DaemonSet\n\nA Secret\n\nA ReplicaSet\n\nNice work\n\nCorrect! A ReplicaSet ensures the right number of pods are always up and running. \n\n1 / 1 point\n2.\nQuestion 2\n\nWhat are the three required steps to bind the IBM Cloud Service to your Cluster? \n\nDo you understand?.\n\nI understand\n\nConfigure your app to access the credentials.\n\nNice work\n\nCorrect! The required steps to bind an IBM Cloud Service to your Cluster are: Provision an instance of the service, Bind the Service to your Cluster to create credentials, Store the credentials, and Configure your app to access the credentials.\n\nErase the credential configuration file after credential setup.\n\nBind the Service to your Cluster to create credentials.\n\nNice work\n\nCorrect! The required steps to bind an IBM Cloud Service to your Cluster are: Provision an instance of the service, Bind the Service to your Cluster to create credentials, Store the credentials, and Configure your app to access the credentials.\n\nProvision an instance of the Service.\n\nNice work\n\nCorrect! The required steps to bind an IBM Cloud Service to your Cluster are: Provision an instance of the service, Bind the Service to your Cluster to create credentials, Store the credentials, and Configure your app to access the credentials.\n\n1 / 1 point\n3.\nQuestion 3\n\nWhich rolling update types ensure 100% app availability?\n\nDo you understand?.\n\nI understand\n\nBoth all-at-once and one-at-a-time updates and rollbacks ensure 100% app availability.\n\nAll-at-once updates and rollbacks ensure 100% app availability.\n\nNo rolling update types can ensure 100% app availability.\n\nOne-at-a-time updates and rollbacks ensure 100% app availability.\n\nNice work\n\nCorrect! One-at-a-time updates and rollbacks ensure 100% app availability.\n\n1 / 1 point\n4.\nQuestion 4\n\nWhat are three ways to create a ConfigMap? \n\nDo you understand?.\n\nI understand\n\nBy providing a ConfigMap YAML descriptor file\n\nNice work\n\nCorrect! A ConfigMap is created using string literals, using an existing property or ‘key’ = ‘value’ file, or by providing a ConfigMap YAML descriptor file.\n\nBy using an existing property or ‘key’ = ‘value’ file\n\nNice work\n\nCorrect! A ConfigMap is created using string literals, using an existing property or ‘key’ = ‘value’ file, or by providing a ConfigMap YAML descriptor file.\n\nBy adding another environment to the deployment descriptor\n\nBy using string literals\n\nNice work\n\nCorrect! A ConfigMap is created using string literals, using an existing property or ‘key’ = ‘value’ file, or by providing a ConfigMap YAML descriptor file.\n\n1 / 1 point\n5.\nQuestion 5\n\nWhat does a ConfigMap do?\n\nDo you understand?.\n\nI understand\n\nVerifies that a Secret was created\n\nProvides variables for your application\n\nProvides sensitive information to your application\n\nMounts a file using the volumes plugin \n\nNice work\n\nCorrect! You can use a ConfigMap to provide variables for your application. \n\n1 / 1 point\n6.\nQuestion 6\n\nWhich Kubernetes autoscaler type scales the Cluster?\n\nDo you understand?.\n\nI understand\n\nYou cannot autoscale a Kubernetes Cluster.\n\nVertical Pod Autoscaler (VPA)\n\nHorizontal Pod Autoscaler (HPA)\n\nCluster Autoscaler (CA)\n\nNice work\n\nCorrect! The Cluster Autoscaler (CA) scales the Cluster in Kubernetes.\n\n1 / 1 point\n7.\nQuestion 7\n\nHow do you create a ReplicaSet from scratch?\n\nDo you understand?.\n\nI understand\n\nApply a JSON file that includes the number of desired replicas.\n\nApply a YAML file with the ‘kind’ attribute set to ‘ReplicaSet’.\n\nUse the ‘get pods’ command.\n\nUse the ‘scale’ command to scale the deployment.\n\nNice work\n\nCorrect! To create a ReplicaSet from scratch, apply a YAML file with the ‘kind’ attribute set to ‘ReplicaSet’.\n\n1 / 1 point\n8.\nQuestion 8\n\nWhat does Service binding do? \n\nDo you understand?.\n\nI understand\n\nProvides variables for your application\n\nManages configuration and credentials for back-end Services while protecting sensitive data\n\nCalls the service without using binding credentials.\n\nMakes Service credentials hidden.\n\nNice work\n\nCorrect! Service binding manages configuration and credentials for back-end Services while protecting sensitive data.\n\n1 / 1 point\n9.\nQuestion 9\n\nHow do you prepare your application to enable rolling updates?\n\nDo you understand?.\n\nI understand\n\nSet the maxSurge to 50%.\n\nUse autoscaling.\n\nSet the maxSurge to 100%.\n\nAdd liveness and readiness probes to deployments.\n\nNice work\n\nCorrect! Add liveness and readiness probes to deployments to enable rolling updates for an application.\n\n1 / 1 point\n10.\nQuestion 10\n\nWhat are three ways to create a Secret?\n\nDo you understand?.\n\nI understand\n\nBy using volume mounts\n\nBy using a string literal \n\nNice work\n\nCorrect! You create a Secret by using a string literal, by using environment variables, or by using volume mounts.\n\nBy providing a ConfigMap YAML descriptor file\n\nThis should not be selected\n\nIncorrect. Please review the ConfigMaps and Secrets video.\n\nBy using environment variables \n\nNice work\n\nCorrect! You create a Secret by using a string literal, by using environment variables, or by using volume mounts.\n\n0.5 / 1 point"
+    },
+    {
+      "title": "Practice Quiz: The Kubernetes Ecosystem: OpenShift, Istio, etc. Practice Assignment • 15 min • Grade: --",
+      "page_title": "Practice Quiz: The Kubernetes Ecosystem: OpenShift, Istio, etc.",
+      "source": "Module 4",
+      "kind": "practice_quiz",
+      "url": "https://www.coursera.org/learn/ibm-containers-docker-kubernetes-openshift/assignment-submission/OsP0R/practice-quiz-the-kubernetes-ecosystem-openshift-istio-etc",
+      "final_url": "https://www.coursera.org/learn/ibm-containers-docker-kubernetes-openshift/assignment-submission/OsP0R/practice-quiz-the-kubernetes-ecosystem-openshift-istio-etc/attempt",
+      "status": "opened_after_step_1",
+      "question_count": 5,
+      "questions": [
+        {
+          "index": 1,
+          "question_type": "single_choice",
+          "prompt_text": "What is a valid Istio feature?",
+          "options": [
+            {
+              "text": "Regular full-system health checks",
+              "checked": false
+            },
+            {
+              "text": "Istio provides Service communication metrics for basic Service monitoring needs: latency, traffic, errors, and saturation.",
+              "checked": false
+            },
+            {
+              "text": "Integration with APIs and CLI tools",
+              "checked": false
+            },
+            {
+              "text": "Ease of repeatable installation and upgrade processes",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "1.\nQuestion 1\n\nWhat is a valid Istio feature?\n\nDo you understand?.\n\nI understand\n\nRegular full-system health checks\n\nIstio provides Service communication metrics for basic Service monitoring needs: latency, traffic, errors, and saturation.\n\nIntegration with APIs and CLI tools\n\nEase of repeatable installation and upgrade processes \n\n1 point"
+        },
+        {
+          "index": 2,
+          "question_type": "multiple_select",
+          "prompt_text": "What are three functions of a service mesh?",
+          "options": [
+            {
+              "text": "Reduces container size for faster Services",
+              "checked": false
+            },
+            {
+              "text": "Encrypts traffic between Services",
+              "checked": false
+            },
+            {
+              "text": "Provides Service behavior metrics for optimization",
+              "checked": false
+            },
+            {
+              "text": "Manages traffic between Services",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "2.\nQuestion 2\n\nWhat are three functions of a service mesh?\n\nDo you understand?.\n\nI understand\n\nReduces container size for faster Services\n\nEncrypts traffic between Services\n\nProvides Service behavior metrics for optimization\n\nManages traffic between Services\n\n1 point"
+        },
+        {
+          "index": 3,
+          "question_type": "multiple_select",
+          "prompt_text": "What are three true statements about Red Hat OpenShift?",
+          "options": [
+            {
+              "text": "Red Hat OpenShift is a consistent application platform used to manage hybrid, multi-cloud, and edge deployments.",
+              "checked": false
+            },
+            {
+              "text": "Red Hat OpenShift provides full-stack automated operations and self-service provisioning for developers to efficiently move ideas from development to production.",
+              "checked": false
+            },
+            {
+              "text": "Red Hat OpenShift provides additional tooling around the complete lifecycle of applications, from Build to CI/CD, to monitoring and logs.",
+              "checked": false
+            },
+            {
+              "text": "Red Hat OpenShift uses kubectl CLI, the most commonly used CLI tool to perform end-to-end operations.",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "3.\nQuestion 3\n\nWhat are three true statements about Red Hat OpenShift?\n\nDo you understand?.\n\nI understand\n\nRed Hat OpenShift is a consistent application platform used to manage hybrid, multi-cloud, and edge deployments. \n\nRed Hat OpenShift provides full-stack automated operations and self-service provisioning for developers to efficiently move ideas from development to production.\n\nRed Hat OpenShift provides additional tooling around the complete lifecycle of applications, from Build to CI/CD, to monitoring and logs. \n\nRed Hat OpenShift uses kubectl CLI, the most commonly used CLI tool to perform end-to-end operations.\n\n1 point"
+        },
+        {
+          "index": 4,
+          "question_type": "multiple_select",
+          "prompt_text": "What are three examples of Build input sources?",
+          "options": [
+            {
+              "text": "External artifacts",
+              "checked": false
+            },
+            {
+              "text": "Inline Dockerfile definitions",
+              "checked": false
+            },
+            {
+              "text": "Pods",
+              "checked": false
+            },
+            {
+              "text": "Input Secrets",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "4.\nQuestion 4\n\nWhat are three examples of Build input sources?\n\nDo you understand?.\n\nI understand\n\nExternal artifacts\n\nInline Dockerfile definitions\n\nPods\n\nInput Secrets\n\n1 point"
+        },
+        {
+          "index": 5,
+          "question_type": "single_choice",
+          "prompt_text": "What do Operators provide?",
+          "options": [
+            {
+              "text": "Integration with APIs and CLI tools",
+              "checked": false
+            },
+            {
+              "text": "Customizations and parameterization, but only at the time of installations",
+              "checked": false
+            },
+            {
+              "text": "Service communication metrics for basic Service monitoring needs: latency, traffic, errors, and saturation.",
+              "checked": false
+            },
+            {
+              "text": "Support for connection, security, enforcement, and observability.",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "5.\nQuestion 5\n\nWhat do Operators provide?\n\nDo you understand?.\n\nI understand\n\nIntegration with APIs and CLI tools\n\nCustomizations and parameterization, but only at the time of installations\n\nService communication metrics for basic Service monitoring needs: latency, traffic, errors, and saturation.\n\nSupport for connection, security, enforcement, and observability.\n\n1 point"
+        }
+      ],
+      "raw_page_text": "N\nIntroduction to Containers w/ Docker, Kubernetes & OpenShift\nToday's goal • 0/3 items\n\nComplete 3 items today to stay at a good pace!\n\nModule 1\nContainers and Containerization\nModule 2\nKubernetes Basics\nModule 3\nManaging Applications with Kubernetes\nModule 4\nThe Kubernetes Ecosystem: OpenShift, Istio, etc.\nIntroduction to Red Hat OpenShift\nVideo\n. Duration: 7 minutes\n7 min\nBuilds\nVideo\n. Duration: 7 minutes\n7 min\nOperators\nVideo\n. Duration: 6 minutes\n6 min\nIstio\nVideo\n. Duration: 7 minutes\n7 min\nAutomating Builds with Build Triggers in OpenShift\nReading\n. Duration: 15 minutes\n15 min\nLab: Introduction to Red Hat OpenShift\nUngraded App Item\n. Duration: 45 minutes\n45 min\nSummary & Highlights: The Kubernetes Ecosystem: OpenShift, Istio, etc.\nReading\n. Duration: 3 minutes\n3 min\nPractice Quiz: The Kubernetes Ecosystem: OpenShift, Istio, etc.\nPractice Assignment\n. Duration: 15 minutes\n15 min\nModule 4 Cheat Sheet: OpenShift CLI\nReading\n. Duration: 1 minute\n1 min\nGraded Quiz: The Kubernetes Ecosystem: OpenShift, Istio, etc.\nGraded AssignmentGrade: 97.5%\nModule 4 Glossary: OpenShift Basics\nReading\n. Duration: 15 minutes\n15 min\nModule 5\nFinal Assignment\n\nPractice Assignment\n\nPractice Quiz: The Kubernetes Ecosystem: OpenShift, Istio, etc.\nResume assignment\nHelp me practice\nWhat to expect\nDue Dec 27, 11:59 PM +07\nUnlimited attempts\n\nThis is a practice assignment to help you check your understanding. It doesn’t count toward your course grade.\n\nReport an issue\nGo to next item\nBack\nPractice Quiz: The Kubernetes Ecosystem: OpenShift, Istio, etc.\n\nPractice Assignment • 15 min\n\nDueDec 27, 11:59 PM +07\n1.\nQuestion 1\n\nWhat is a valid Istio feature?\n\nDo you understand?.\n\nI understand\n\nRegular full-system health checks\n\nIstio provides Service communication metrics for basic Service monitoring needs: latency, traffic, errors, and saturation.\n\nIntegration with APIs and CLI tools\n\nEase of repeatable installation and upgrade processes \n\n1 point\n2.\nQuestion 2\n\nWhat are three functions of a service mesh?\n\nDo you understand?.\n\nI understand\n\nReduces container size for faster Services\n\nEncrypts traffic between Services\n\nProvides Service behavior metrics for optimization\n\nManages traffic between Services\n\n1 point\n3.\nQuestion 3\n\nWhat are three true statements about Red Hat OpenShift?\n\nDo you understand?.\n\nI understand\n\nRed Hat OpenShift is a consistent application platform used to manage hybrid, multi-cloud, and edge deployments. \n\nRed Hat OpenShift provides full-stack automated operations and self-service provisioning for developers to efficiently move ideas from development to production.\n\nRed Hat OpenShift provides additional tooling around the complete lifecycle of applications, from Build to CI/CD, to monitoring and logs. \n\nRed Hat OpenShift uses kubectl CLI, the most commonly used CLI tool to perform end-to-end operations.\n\n1 point\n4.\nQuestion 4\n\nWhat are three examples of Build input sources?\n\nDo you understand?.\n\nI understand\n\nExternal artifacts\n\nInline Dockerfile definitions\n\nPods\n\nInput Secrets\n\n1 point\n5.\nQuestion 5\n\nWhat do Operators provide?\n\nDo you understand?.\n\nI understand\n\nIntegration with APIs and CLI tools\n\nCustomizations and parameterization, but only at the time of installations\n\nService communication metrics for basic Service monitoring needs: latency, traffic, errors, and saturation.\n\nSupport for connection, security, enforcement, and observability.\n\n1 point\nCoursera Honor Code\n\nBy clicking Submit, you confirm this work is your own. Submitting work created with AI tools may result in course failure or account deactivation according to Coursera Honor Code policy.\n\nI, NGUYEN PHUC, understand and agree.\nYou must select the checkbox in order to submit the assignment\nSubmit\nSave draft\n\nLast saved on Nov 24, 2:30 PM +07\n\nLike\nDislike\nReport an issue"
+    },
+    {
+      "title": "Graded Quiz: The Kubernetes Ecosystem: OpenShift, Istio, etc. Graded Assignment • Submitted • Grade: --",
+      "page_title": "Graded Quiz: The Kubernetes Ecosystem: OpenShift, Istio, etc.",
+      "source": "Module 4",
+      "kind": "graded_quiz",
+      "url": "https://www.coursera.org/learn/ibm-containers-docker-kubernetes-openshift/assignment-submission/No0KH/graded-quiz-the-kubernetes-ecosystem-openshift-istio-etc",
+      "final_url": "https://www.coursera.org/learn/ibm-containers-docker-kubernetes-openshift/assignment-submission/No0KH/graded-quiz-the-kubernetes-ecosystem-openshift-istio-etc/view-feedback",
+      "status": "opened_via_button",
+      "question_count": 10,
+      "questions": [
+        {
+          "index": 1,
+          "question_type": "multiple_select",
+          "prompt_text": "What are the two features of an ImageStream?",
+          "options": [
+            {
+              "text": "Provides content for Builds",
+              "checked": false
+            },
+            {
+              "text": "Tracks and updates references to container images.",
+              "checked": false
+            },
+            {
+              "text": "Provides a trigger capability when a new version of an image is available",
+              "checked": true
+            },
+            {
+              "text": "Stores images",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "1.\nQuestion 1\n\nWhat are the two features of an ImageStream?\n\nDo you understand?.\n\nI understand\n\nProvides content for Builds\n\n Tracks and updates references to container images.  \n\nProvides a trigger capability when a new version of an image is available\n\nNice work\n\nCorrect! ImageStreams include a trigger capability that invokes Builds and deployments when a new version of an image is available.\n\nStores images\n\nYou didn't select all the correct answers\n0.8 / 1 point"
+        },
+        {
+          "index": 2,
+          "question_type": "multiple_select",
+          "prompt_text": "What are the three Build triggers used in OpenShift?",
+          "options": [
+            {
+              "text": "Configuration change",
+              "checked": true
+            },
+            {
+              "text": "Webhook",
+              "checked": true
+            },
+            {
+              "text": "Image change",
+              "checked": true
+            },
+            {
+              "text": "ImageStream",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "2.\nQuestion 2\n\nWhat are the three Build triggers used in OpenShift?\n\nDo you understand?.\n\nI understand\n\nConfiguration change\n\nNice work\n\nCorrect! The configuration change trigger automates a build when you create a new BuildConfig.\n\nWebhook\n\nNice work\n\nCorrect! The GitHub webhook trigger allows you to trigger a new Build by sending requests to an OpenShift Container Platform API endpoint. Additionally, generic webhooks are also supported.\n\nImage change\n\nNice work\n\nCorrect! The image change trigger automates a Build when a new version of an image is available. It is useful for keeping base images up to date.\n\nImageStream\n\n1 / 1 point"
+        },
+        {
+          "index": 3,
+          "question_type": "multiple_select",
+          "prompt_text": "Which three statements are true?",
+          "options": [
+            {
+              "text": "The oc lets you work directly with project source code using command script.",
+              "checked": true
+            },
+            {
+              "text": "The oc lets you manage projects during restricted bandwidth or availability of the web console.",
+              "checked": true
+            },
+            {
+              "text": "The oc and kubectl binary offer different capabilities.",
+              "checked": false
+            },
+            {
+              "text": "The oc lets you script OpenShift operations.",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "3.\nQuestion 3\n\nWhich three statements are true?\n\nDo you understand?.\n\nI understand\n\nThe oc lets you work directly with project source code using command script. \n\nNice work\n\nCorrect! The oc lets users work directly with source code, script OpenShift operations, and manage projects during restricted bandwidth and availability of the web console.\n\nThe oc lets you manage projects during restricted bandwidth or availability of the web console. \n\nNice work\n\nCorrect! The oc lets users work directly with source code, script OpenShift operations, and manage projects during restricted bandwidth and availability of the web console.\n\nThe oc and kubectl binary offer different capabilities. \n\nThe oc lets you script OpenShift operations. \n\nNice work\n\nCorrect! The oc lets users work directly with source code, script OpenShift operations, and manage projects during restricted bandwidth and availability of the web console.\n\n1 / 1 point"
+        },
+        {
+          "index": 4,
+          "question_type": "single_choice",
+          "prompt_text": "What packages, deploys, and manages native apps in Kubernetes?",
+          "options": [
+            {
+              "text": "A ReplicaSet",
+              "checked": false
+            },
+            {
+              "text": "A Container",
+              "checked": false
+            },
+            {
+              "text": "An Operator",
+              "checked": true
+            },
+            {
+              "text": "A Deployment",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "4.\nQuestion 4\n\nWhat packages, deploys, and manages native apps in Kubernetes?\n\nDo you understand?.\n\nI understand\n\nA ReplicaSet\n\n A Container\n\nAn Operator \n\nA Deployment\n\nNice work\n\nCorrect! Operators package, deploy, and manage (repeatable installation and upgrades) native apps in Kubernetes, automate other tasks, and ensure all relevant components are included.\n\n1 / 1 point"
+        },
+        {
+          "index": 5,
+          "question_type": "single_choice",
+          "prompt_text": "What strategy was Red Hat OpenShift designed for?",
+          "options": [
+            {
+              "text": "An on-premises strategy.",
+              "checked": false
+            },
+            {
+              "text": "A hybrid-cloud strategy.",
+              "checked": true
+            },
+            {
+              "text": "A public cloud strategy",
+              "checked": false
+            },
+            {
+              "text": "A private cloud strategy.",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "5.\nQuestion 5\n\nWhat strategy was Red Hat OpenShift designed for?\n\nDo you understand?.\n\nI understand\n\nAn on-premises strategy.\n\nA hybrid-cloud strategy.\n\nA public cloud strategy \n\nA private cloud strategy. \n\nNice work\n\nCorrect! Red Hat OpenShift is an enterprise-ready Kubernetes container platform built for a hybrid cloud strategy.\n\n1 / 1 point"
+        },
+        {
+          "index": 6,
+          "question_type": "single_choice",
+          "prompt_text": "What provides traffic management to control the flow of traffic between Services?",
+          "options": [
+            {
+              "text": "An autoscaler",
+              "checked": false
+            },
+            {
+              "text": "Kubectl",
+              "checked": false
+            },
+            {
+              "text": "A service mesh",
+              "checked": true
+            },
+            {
+              "text": "A container",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "6.\nQuestion 6\n\nWhat provides traffic management to control the flow of traffic between Services?\n\nDo you understand?.\n\nI understand\n\nAn autoscaler\n\nKubectl\n\nA service mesh\n\nA container\n\nNice work\n\nCorrect! A service mesh provides security to encrypt traffic between services.\n\n1 / 1 point"
+        },
+        {
+          "index": 7,
+          "question_type": "multiple_select",
+          "prompt_text": "What three processes are performed by the Operator Framework tool set?",
+          "options": [
+            {
+              "text": "Building",
+              "checked": false
+            },
+            {
+              "text": "Package",
+              "checked": true
+            },
+            {
+              "text": "Testing",
+              "checked": true
+            },
+            {
+              "text": "Coding",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "7.\nQuestion 7\n\nWhat three processes are performed by the Operator Framework tool set?\n\nDo you understand?.\n\nI understand\n\nBuilding\n\nPackage\n\nNice work\n\nCorrect! The Package is an open source tool set that covers coding, testing, delivery, and Operator updates.\n\nTesting\n\nNice work\n\nCorrect! The Operate Framework is an open source tool set that covers coding, testing, delivery, and Operator updates.\n\nCoding \n\nNice work\n\nCorrect! The Operate Framework is an open source tool set that covers coding, testing, delivery, and Operator updates.\n\n1 / 1 point"
+        },
+        {
+          "index": 8,
+          "question_type": "multiple_select",
+          "prompt_text": "What are the three features of Custom Resource Definitions (CRDs)?",
+          "options": [
+            {
+              "text": "Can be engaged with kubectl",
+              "checked": true
+            },
+            {
+              "text": "Extend Kubernetes functionality",
+              "checked": true
+            },
+            {
+              "text": "Make Kubernetes API more modular",
+              "checked": true
+            },
+            {
+              "text": "Control the install, upgrade, and role-based access control (RBAC) of Operators in a cluster",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "8.\nQuestion 8\n\nWhat are the three features of Custom Resource Definitions (CRDs)?\n\nDo you understand?.\n\nI understand\n\nCan be engaged with kubectl\n\nNice work\n\nCorrect! Once installed, CRD objects are accessible using kubectl, similar to pods and other resources. \n\nExtend Kubernetes functionality\n\nNice work\n\nCorrect! CRDs extend Kubernetes functionality beyond built-in resources like Deployments and Pods.\n\nMake Kubernetes API more modular\n\nNice work\n\nCorrect! CRDs make the Kubernetes API more modular and flexible.\n\nControl the install, upgrade, and role-based access control (RBAC) of Operators in a cluster\n\n1 / 1 point"
+        },
+        {
+          "index": 9,
+          "question_type": "single_choice",
+          "prompt_text": "In Istio, what handles communication between services?",
+          "options": [
+            {
+              "text": "The data plane",
+              "checked": true
+            },
+            {
+              "text": "The control plane",
+              "checked": false
+            },
+            {
+              "text": "Environmental changes",
+              "checked": false
+            },
+            {
+              "text": "The proxy server",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "9.\nQuestion 9\n\nIn Istio, what handles communication between services?\n\nDo you understand?.\n\nI understand\n\nThe data plane\n\nThe control plane\n\nEnvironmental changes \n\nThe proxy server\n\nNice work\n\nCorrect! The main components in Istio are the control plane and the data plane. The control plane takes the desired configuration and dynamically programs and updates the proxy servers as the environment changes. The data plane handles communication between services.\n\n1 / 1 point"
+        },
+        {
+          "index": 10,
+          "question_type": "multiple_select",
+          "prompt_text": "What are three added features that OpenShift provides?",
+          "options": [
+            {
+              "text": "Better user experience",
+              "checked": true
+            },
+            {
+              "text": "More flexible",
+              "checked": false
+            },
+            {
+              "text": "Good networking solutions out of the box",
+              "checked": true
+            },
+            {
+              "text": "Better management through image streams",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "10.\nQuestion 10\n\nWhat are three added features that OpenShift provides?\n\nDo you understand?.\n\nI understand\n\nBetter user experience \n\nNice work\n\nCorrect! OpenShift provides a good user experience while Kubernetes requires extra tools for a better user experience.\n\nMore flexible\n\nGood networking solutions out of the box\n\nNice work\n\nCorrect! OpenShift provides good networking solutions out of the box while Kubernetes provides third-party plugins when networking solutions are unavailable.\n\nBetter management through image streams \n\nNice work\n\nCorrect! OpenShift image streams provide better management while Kubernetes container image management is not easy.\n\n1 / 1 point"
+        }
+      ],
+      "raw_page_text": "N\nIntroduction to Containers w/ Docker, Kubernetes & OpenShift\nToday's goal • 0/3 items\n\nComplete 3 items today to stay at a good pace!\n\nModule 1\nContainers and Containerization\nModule 2\nKubernetes Basics\nModule 3\nManaging Applications with Kubernetes\nModule 4\nThe Kubernetes Ecosystem: OpenShift, Istio, etc.\nIntroduction to Red Hat OpenShift\nVideo\n. Duration: 7 minutes\n7 min\nBuilds\nVideo\n. Duration: 7 minutes\n7 min\nOperators\nVideo\n. Duration: 6 minutes\n6 min\nIstio\nVideo\n. Duration: 7 minutes\n7 min\nAutomating Builds with Build Triggers in OpenShift\nReading\n. Duration: 15 minutes\n15 min\nLab: Introduction to Red Hat OpenShift\nUngraded App Item\n. Duration: 45 minutes\n45 min\nSummary & Highlights: The Kubernetes Ecosystem: OpenShift, Istio, etc.\nReading\n. Duration: 3 minutes\n3 min\nPractice Quiz: The Kubernetes Ecosystem: OpenShift, Istio, etc.\nPractice Assignment\n. Duration: 15 minutes\n15 min\nModule 4 Cheat Sheet: OpenShift CLI\nReading\n. Duration: 1 minute\n1 min\nGraded Quiz: The Kubernetes Ecosystem: OpenShift, Istio, etc.\nGraded AssignmentGrade: 97.5%\nModule 4 Glossary: OpenShift Basics\nReading\n. Duration: 15 minutes\n15 min\nModule 5\nFinal Assignment\n\nGraded Assignment\n\nGraded Quiz: The Kubernetes Ecosystem: OpenShift, Istio, etc.\n\nAssessment monitored for academic integrity and AI-usage. Privacy Notice\n\nGo to next item\nTry again\nWhat to expect\nDue Dec 27, 11:59 PM +07\n3 attempts\n\nevery 8 hours\n\nYou passed!\n\nTo pass you need a grade of at least 70%.\n\n97.50%\nView feedback\n\nSubmitted Nov 11, 7:54 AM +07.\n\nReport an issue\nGo to next item\nBack\nGraded Quiz: The Kubernetes Ecosystem: OpenShift, Istio, etc.\n\nGraded Assignment • 30 min\n\nDueDec 27, 11:59 PM +07\nYour grade: 97.50%\nYour latest: 97.50%•\nYour highest: 97.50%•\nTo pass you need at least 70%. We keep your highest score.\nNext item\n1.\nQuestion 1\n\nWhat are the two features of an ImageStream?\n\nDo you understand?.\n\nI understand\n\nProvides content for Builds\n\n Tracks and updates references to container images.  \n\nProvides a trigger capability when a new version of an image is available\n\nNice work\n\nCorrect! ImageStreams include a trigger capability that invokes Builds and deployments when a new version of an image is available.\n\nStores images\n\nYou didn't select all the correct answers\n0.8 / 1 point\n2.\nQuestion 2\n\nWhat are the three Build triggers used in OpenShift?\n\nDo you understand?.\n\nI understand\n\nConfiguration change\n\nNice work\n\nCorrect! The configuration change trigger automates a build when you create a new BuildConfig.\n\nWebhook\n\nNice work\n\nCorrect! The GitHub webhook trigger allows you to trigger a new Build by sending requests to an OpenShift Container Platform API endpoint. Additionally, generic webhooks are also supported.\n\nImage change\n\nNice work\n\nCorrect! The image change trigger automates a Build when a new version of an image is available. It is useful for keeping base images up to date.\n\nImageStream\n\n1 / 1 point\n3.\nQuestion 3\n\nWhich three statements are true?\n\nDo you understand?.\n\nI understand\n\nThe oc lets you work directly with project source code using command script. \n\nNice work\n\nCorrect! The oc lets users work directly with source code, script OpenShift operations, and manage projects during restricted bandwidth and availability of the web console.\n\nThe oc lets you manage projects during restricted bandwidth or availability of the web console. \n\nNice work\n\nCorrect! The oc lets users work directly with source code, script OpenShift operations, and manage projects during restricted bandwidth and availability of the web console.\n\nThe oc and kubectl binary offer different capabilities. \n\nThe oc lets you script OpenShift operations. \n\nNice work\n\nCorrect! The oc lets users work directly with source code, script OpenShift operations, and manage projects during restricted bandwidth and availability of the web console.\n\n1 / 1 point\n4.\nQuestion 4\n\nWhat packages, deploys, and manages native apps in Kubernetes?\n\nDo you understand?.\n\nI understand\n\nA ReplicaSet\n\n A Container\n\nAn Operator \n\nA Deployment\n\nNice work\n\nCorrect! Operators package, deploy, and manage (repeatable installation and upgrades) native apps in Kubernetes, automate other tasks, and ensure all relevant components are included.\n\n1 / 1 point\n5.\nQuestion 5\n\nWhat strategy was Red Hat OpenShift designed for?\n\nDo you understand?.\n\nI understand\n\nAn on-premises strategy.\n\nA hybrid-cloud strategy.\n\nA public cloud strategy \n\nA private cloud strategy. \n\nNice work\n\nCorrect! Red Hat OpenShift is an enterprise-ready Kubernetes container platform built for a hybrid cloud strategy.\n\n1 / 1 point\n6.\nQuestion 6\n\nWhat provides traffic management to control the flow of traffic between Services?\n\nDo you understand?.\n\nI understand\n\nAn autoscaler\n\nKubectl\n\nA service mesh\n\nA container\n\nNice work\n\nCorrect! A service mesh provides security to encrypt traffic between services.\n\n1 / 1 point\n7.\nQuestion 7\n\nWhat three processes are performed by the Operator Framework tool set?\n\nDo you understand?.\n\nI understand\n\nBuilding\n\nPackage\n\nNice work\n\nCorrect! The Package is an open source tool set that covers coding, testing, delivery, and Operator updates.\n\nTesting\n\nNice work\n\nCorrect! The Operate Framework is an open source tool set that covers coding, testing, delivery, and Operator updates.\n\nCoding \n\nNice work\n\nCorrect! The Operate Framework is an open source tool set that covers coding, testing, delivery, and Operator updates.\n\n1 / 1 point\n8.\nQuestion 8\n\nWhat are the three features of Custom Resource Definitions (CRDs)?\n\nDo you understand?.\n\nI understand\n\nCan be engaged with kubectl\n\nNice work\n\nCorrect! Once installed, CRD objects are accessible using kubectl, similar to pods and other resources. \n\nExtend Kubernetes functionality\n\nNice work\n\nCorrect! CRDs extend Kubernetes functionality beyond built-in resources like Deployments and Pods.\n\nMake Kubernetes API more modular\n\nNice work\n\nCorrect! CRDs make the Kubernetes API more modular and flexible.\n\nControl the install, upgrade, and role-based access control (RBAC) of Operators in a cluster\n\n1 / 1 point\n9.\nQuestion 9\n\nIn Istio, what handles communication between services?\n\nDo you understand?.\n\nI understand\n\nThe data plane\n\nThe control plane\n\nEnvironmental changes \n\nThe proxy server\n\nNice work\n\nCorrect! The main components in Istio are the control plane and the data plane. The control plane takes the desired configuration and dynamically programs and updates the proxy servers as the environment changes. The data plane handles communication between services.\n\n1 / 1 point\n10.\nQuestion 10\n\nWhat are three added features that OpenShift provides?\n\nDo you understand?.\n\nI understand\n\nBetter user experience \n\nNice work\n\nCorrect! OpenShift provides a good user experience while Kubernetes requires extra tools for a better user experience.\n\nMore flexible\n\nGood networking solutions out of the box\n\nNice work\n\nCorrect! OpenShift provides good networking solutions out of the box while Kubernetes provides third-party plugins when networking solutions are unavailable.\n\nBetter management through image streams \n\nNice work\n\nCorrect! OpenShift image streams provide better management while Kubernetes container image management is not easy.\n\n1 / 1 point"
+    }
+  ]
+}

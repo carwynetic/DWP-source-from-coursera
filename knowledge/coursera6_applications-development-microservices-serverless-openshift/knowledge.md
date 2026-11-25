@@ -1,0 +1,794 @@
+# Application Development using Microservices and Serverless
+
+- **Course URL:** https://www.coursera.org/learn/applications-development-microservices-serverless-openshift
+- **Crawled at:** 2026-11-24T16:17:41.467929
+- **Extracted:** 35/35 items (25 videos, 10 readings) | 127,310 chars
+
+---
+
+## Module 1: Introduction to Microservices
+
+### 1. [VIDEO TRANSCRIPT] Course Introduction
+- **URL:** https://www.coursera.org/learn/applications-development-microservices-serverless-openshift/lecture/b6hg7/course-introduction
+- **Method:** `dom_transcript` | **Length:** 2830 chars
+
+Welcome to this course: Microservices and Serverless. This course is designed for all software development professionals, including anyone who wants to design, develop, deploy, and manage, solutions using Cloud native technologies like microservices and serverless. Now, do you want to use cloud computing to manage all your business applications? Which solution would you prefer? A Monolithic architecture on the cloud that comprises a single huge application with many complex functions that is difficult to maintain? Or the Microservices architecture containing small applications which simplify maintenance, are easily managed, provide speed and scalability, and are easier to build? These smaller applications work together to perform the function of one large application.
+
+Rather than building large applications, known as monoliths, that perform all the functionality, microservices break down larger applications into smaller pieces that are independently maintainable and scalable, providing a host of benefits. This architecture is used in the largest software organizations in the world because it provides cost benefits, team autonomy, and other advantages. Likewise, serverless has emerged as an increasingly popular computing option in the cloud era. This allows developers and operators to run applications without managing the underlying infrastructure. Serverless applications require only a serverless architecture for the core code. Serverless apps can be deployed quickly, and execute for a brief time, and automatically free up underlying resources when not in use. In this course, you will learn how to create microservices and deploy them on cloud using serverless technologies.
+
+To do so, you will first get an overview of Microservices in Module 1, and understand their benefits. Next, in Module 2 you will learn to create RESTful APIs which are the basic building blocks for microservices based applications. Then, in Module 3, you will understand the benefits of the Serverless framework, and learn about the various serverless platforms. In Module 4, you will work with Code Engine, a serverless environment on IBM Cloud, to deploy, update, and scale microservices. And finally, in Module 5, you will complete a hands-on final project where you will demonstrate what you have learned throughout the course by creating an application based on microservices and deploy it using the serverless framework. So, there is a lot to cover here! To get the most from this course, complete viewing each video, complete all hands-on labs, and check your learning with each quiz.
+
+We're very happy to have you with us as you start your microservices and serverless journey. And if you have any trouble with any of the course material, please don’t hesitate to contact us in the discussion forum. Let's get started!
+
+---
+
+### 2. [READING] Course Overview
+- **URL:** https://www.coursera.org/learn/applications-development-microservices-serverless-openshift/supplement/JFxhL/course-overview
+- **Method:** `dom_reading_cml` | **Length:** 6181 chars
+
+Welcome to the Application Development Using Microservices and Serverless course. This course is intended for anyone looking to learn how to design, build, deploy, and manage secure, scalable applications using microservices and serverless technologies. This intermediate-level course is part of the IBM Full Stack Software Developer Professional Certificate:-
+
+This course consists of 6 modules, with Module 6 being optional. They guide you through the essential areas of the fundamentals of microservices architecture.
+
+The course contains several hands-on labs, which allow you to practice and apply the content you learn in the course. What makes it even more flexible is that you have two lab options to choose from—allowing you to select the programming language that aligns best with the Professional Certificate track you’re following. More details on this can be found in the next reading:  About the lab learning paths.
+
+### Prerequisites
+
+Before you begin this course, it is recommended to have a basic knowledge of programming concepts, cloud technologies, and containers (Docker/Kubernetes). Additionally, familiarity with the command line, shell, and either Python or JavaScript, depending on your chosen lab path, will be beneficial.
+
+To strengthen your foundation, you may review these courses from the IBM Full Stack Software Developer Professional Certificate:-
+
+- Introduction to Cloud Computing
+- Getting Started with Git and GitHub
+- Introduction to Containers w/ Docker, Kubernetes & OpenShift
+
+### Course objectives
+
+After completing this course, you will be able to:-
+
+- Explain microservices and serverless concepts, comparing them with monolithic architectures to understand their advantages and trade-offs
+- Build and test RESTful APIs and deploy applications using IBM Cloud Code Engine
+- Explore OpenShift and service mesh technologies to enhance microservices management and communication
+- Apply learned skills through a hands-on microservices project in a real-world context
+
+### Course outline
+
+Module 1: Introduction to Microservices: In this module, you will explore the fundamentals of microservices architecture and how it improves flexibility and scalability compared to monolithic and SOA systems. You will learn best practices for development, deployment, and operations, along with patterns such as SPA, BFF, and Strangler. The module also highlights common pitfalls and anti-patterns to avoid. By the end, you will be able to apply the Twelve-Factor App methodology, design resilient microservices, and evaluate when microservices are the right choice.
+
+Module 2: Web API Essentials: REST API and GraphQL: This module introduces REST architecture and its role in enabling scalable communication between services. You will gain hands-on experience building a RESTful API with Python and Flask, documenting it using Swagger, and testing it with cURL and Postman. You will also learn the importance of API Gateways for abstracting backends and securing services, and explore how GraphQL provides flexible, precise data access. By completing this module, you will develop practical skills in designing, documenting, and testing APIs that are core to microservices communication.
+
+Module 3: Serverless Overview: Here, you will learn what serverless computing is and how it differs from traditional and container-based models. The module covers the Function-as-a-Service (FaaS) model, its benefits, limitations, and best practices for use. You will also explore the Serverless Framework, its components, and real-world use cases across industries. By the end, you will be able to identify when serverless is the right approach, compare it with other models, and design lightweight, event-driven applications with reduced infrastructure management.
+
+Module 4: Create and Deploy Microservices with Serverless: In this module, you will gain hands-on skills using IBM Cloud Code Engine to build and deploy containerized applications. You will learn how Code Engine supports use cases such as application deployment, building from source, and running jobs. Through practical exercises, you will use Dockerfiles to create container images and deploy them using both the IBM Cloud Console and CLI. This module will strengthen your ability to work with container-based microservices and deploy them on a serverless platform that automatically scales.
+
+Module 5: Final Project: This module gives you the opportunity to apply what you have learned across the course. You will build a serverless web application by creating and invoking IBM Cloud Functions, including sequence actions, and deploying the app using OpenShift. You will also create an API to manage your functions and publish your project on GitHub. Finally, you will review your peers’ projects using a structured rubric. By completing this module, you will gain end-to-end experience in designing, deploying, and evaluating real-world cloud-native applications.
+
+Module 6: Optional: OpenShift essentials/Working with OpenShift and Istio: In the final module, you will explore how Red Hat OpenShift builds on Kubernetes to simplify the provisioning, management, and scaling of applications. You will learn about the services OpenShift provides for developers and operators, as well as the challenges of managing distributed microservices. The module introduces service meshes such as Istio, explaining how they improve security, observability, and traffic management between microservices. By the end, you will have the skills to deploy applications on OpenShift, understand its relationship with Kubernetes, and evaluate how service meshes help organizations run microservices at scale.
+
+### Tools/Software
+
+In this course, you will use free versions or trials of several tools:
+
+- Lab environment
+- GitHub Account
+- Cloud Engine (provided in the lab environment)
+- Docker (provided in the lab environment)
+
+By the end of this course, you will have hands-on experience in creating microservices, deploying serverless applications, and using tools to build and manage them efficiently.
+
+Congratulations on taking these steps to further your knowledge and career! Enjoy your learning journey.
+
+---
+
+### 3. [VIDEO TRANSCRIPT] Twelve-Factor App Methodology Video • 8 min
+- **URL:** https://www.coursera.org/learn/applications-development-microservices-serverless-openshift/lecture/plf5j/twelve-factor-app-methodology
+- **Method:** `dom_transcript` | **Length:** 6878 chars
+
+Welcome to ‘Twelve-Factor App Methodology’. After watching this video, you will be able to: Describe the characteristics of modern software development, describe the goal of twelve-factor apps, and identify the twelve factors and describe how these factors map to three phases of the software delivery lifecycle. In modern software development, the software is often delivered as a service. Software is centrally hosted and accessed through the internet. This software is often called a web app or software-as-a-service, abbreviated to SaaS. You have likely used a variety of web apps within the last day! When you use the internet to book reservations or file your taxes, you are interacting with a web app.
+
+The twelve-factor app methodology is suited for these types of applications. Microservices are not a requirement for twelve-factor apps. However, microservices are often used in conjunction with the twelve-factor application methodology. The twelve factors can be grouped into the code, deploy, and operate phases of the software delivery lifecycle. We’ll start with the three factors that map to the code phase of the software delivery lifecycle. The first is Factor 1, Codebase. You should always track the codebase for an application in a version control system, such as Git.
+
+There is a one-to-one relationship between a codebase and an app. An app should be contained in a --single-- codebase. However, there will be multiple deploys, or instances, of the app. And while the codebase is the same across those deploys, different app versions can be present in each deployment. For example, dev or test environments can have changes that have yet to reach production. Next is Factor 5: Build, release, and run. This phase demonstrates how a codebase becomes a production deployment.
+
+The build stage compiles the code, gathers dependencies, and then transforms the codebase into an executable unit called a build. The release stage combines the build with the deployment’s current configuration so that the code is ready to run. Then, the run stage implements the application. You should strictly separate these three stages. For example, the code should not be changeable at runtime, as that would prevent those changes from being included in the build stage. Factor 10 is dev/prod parity. This factor minimizes the differences between development and production environments, which is necessary to enable continuous delivery to quickly promote changes into production.
+
+This action reduces the chance that code runs appropriately in one environment but not in another. Parity is particularly essential for backend services. If you use MySQL database in production, you should use the same version of MySQL database in your development environments. Parity helps catch failures earlier in the development process. And the last code factor we’ll discuss is Factor 2, Dependencies. An app is only as reliable as its least reliable dependency. As a result, twelve-factor apps do not rely on the implicit existence of any packages, dependencies, or tools.
+
+You must explicitly declare all dependencies. This way, when a new developer grabs the codebase, there is no assumption that any dependencies already exist on their machine. The first deploy factor is Factor 3, Config. The configuration is everything that can differ between deployments. Different databases are likely used in staging and production, so a developer should configure that database’s credentials and location per deployment. You should avoid storing configurations as constants since configurations might differ among environments. Store the config within the environment variables, which are easy to change across deployments without changing the code.
+
+Factor 4 is Backend services. A twelve-factor app should not distinguish between local and third-party services. Both should be accessible via a URL or other location information along with any credentials so that a developer can easily swap out the backend service without changing the code. For example, if a database experiences problems, a new database can be spun up and substituted in without having to change code. Factor 6 is Processes. An app executes in an environment as one or more processes. Processes should be stateless and share nothing.
+
+You should store persistent data in a backend service like a database since memory and filesystems aren’t shared across processes. If another process handles a subsequent transaction, the subsequent transaction won’t have access to data within the prior process. As a result, data needs to be centrally stored. Port binding is Factor 7. When you create a web-facing service, a web server should not be injected into an application at runtime. Instead, the web app should export HTTP by binding to a port and listening to incoming requests on that port. You can use port binding for HTTP and other services.
+
+Binding a port is generally done in the code by declaring a web server library as a dependency. And subsequently, because these apps are accessible via a URL, they can become backend services for other apps. Next are the operate factors. Let’s begin with Factor 8, Concurrency. An application runs concurrent processes to handle the increasing load. And since processes are stateless and share nothing, an application can start additional processes to scale horizontally and handle additional incoming requests without creating interdependencies among processes. Factor 9 is Disposability, and it specifies that application processes require minimal startup time and should end gracefully when terminated.
+
+Quick startup lets you quickly deploy changes to code or config. And you can also easily scale apps because new deploys start quickly. Factor 11 dictates how to handle logs. Logs give visibility into application performance, so an app should not concern itself with storing logs. Instead, an application environment should handle logs as a stream of events written to standard output. The execution environment can capture the log streams for all running apps, aggregate them, and route them to their destination. And this action is especially beneficial when the destination is a log analysis tool.
+
+Finally, the last factor is Factor 12: Admin processes. Admin processes are one-off processes for managing an app, such as database migration. Admin processes run against a release using the same codebase and config. Additionally, the application code should include admin processes so that they remain synchronized with the app. In this video, you learned that: Modern software development often delivers centrally hosted, web-based, software-as-a-service applications, the twelve-factor app methodology enables developers to create more efficient SaaS applications, and the twelve factors map to the code, deploy, and operate stages of the software delivery lifecycle.
+
+---
+
+### 4. [VIDEO TRANSCRIPT] What are Microservices? Video • 3 min
+- **URL:** https://www.coursera.org/learn/applications-development-microservices-serverless-openshift/lecture/UcN2s/what-are-microservices
+- **Method:** `dom_transcript` | **Length:** 2634 chars
+
+Welcome to ‘What are Microservices?’ After watching this video, you will be able to describe what microservices are, explain the benefits of microservices architecture, and explain how microservices can be scaled. Microservices architecture is an approach in which a single application is composed of many loosely coupled and independently deployable smaller services. These services typically have their own technology stack, inclusive of the database and data management model. Teams can even choose different programming languages for different components as they are dependent on each other via an API endpoint. Microservices components communicate with one another over a combination of REST APIs, event streaming, and message brokers, and they are segregated and organized by business functionality, with the line separating services referred to as a bounded context. Since there is no interdependency between services, you can update code more easily to add new features or functionality without touching the entire application.
+
+Each team can choose its own technology stack which suits its needs and expertise to build components for which the team is responsible. And these components can be scaled independently of one another, reducing the waste and cost associated with having to scale entire applications because a single feature might be facing too much load. So, wherever you see scaling of microservices, it usually involves horizontal scaling. Horizontal scaling means scaling by adding more instances of resources, also described as “scaling out”. With microservices, individual services can be individually deployed and scaled. Done correctly, microservices require less infrastructure because they enable precise scaling of only the components that require it, instead of the entire application in the case of monolithic applications. An API call is often an effective way of initially establishing the state for a given service.
+
+However, it’s not a particularly effective way of staying up to date on progress. This is where event streaming can help broadcast the state change, which helps in scaling the microservice by introducing this message broker. In this video, you learned that: Microservices make each application component its own service, and each service communicates via an API, microservices allow application components to use different technology stacks, microservices enable individual components to scale in response to demand, microservices lessen risks associated with change because components can iterate independently, and failures in one service do not necessarily impact other services.
+
+---
+
+### 5. [VIDEO TRANSCRIPT] Comparison of Monolith vs. SOA vs. Microservices Video • 5 min
+- **URL:** https://www.coursera.org/learn/applications-development-microservices-serverless-openshift/lecture/DrpUR/comparison-of-monolith-vs-soa-vs-microservices
+- **Method:** `dom_transcript` | **Length:** 4278 chars
+
+Welcome to ‘Comparison of Monolith vs. SOA vs. Microservices’. After watching this video, you will be able to define Monolith implementation, define Service Oriented Architecture (SOA), and define Microservices. A monolithic application has all or most of its functionality within a single process. And the application is managed in internal layers or libraries. These layers could be for security, reporting, analytics, user interface, or data access.
+
+The layers are tightly connected and dependent on each other. And this is where the benefits of a monolithic design lie; in its simplicity and less cross-cutting of features and functionalities since everything is in the same code base. However, over time, most products develop and increase in scope, and the design becomes more complex and difficult to modify. It also becomes a barrier to adapting to new technology which would mean re-writing the whole application. A Windows Forms Application is a typical example of a Monolithic design. Here we embed the user interface, business logic, and data access, all inside one codebase which forms the whole application. And only the database is outside the scope.
+
+A Service Oriented Architecture (SOA) is designed and built with a service provider and consumer approach. The services provided work as a discrete unit of functionality, integrated seamlessly, and are easily reused. Each SOA service consists of three components. The interface defines how a service provider will execute requests from a service consumer, the contract defines how the service provider and service consumer should interact, and the implementation is the service code. The benefits of having these three separate components are that they help increase reliability and support parallel development due to a fixed contract between the services. However, due to these expectations and requirements, an SOA design can become complex and obstruct rapid application development. And the SOA design is an expensive investment, and therefore usually only suits enterprise teams, who can invest the required resources and expertise.
+
+SOA is an enterprise-wide concept. An example would be a banking system. It enables existing applications to be exposed over loosely coupled interfaces, each corresponding to a business function that enables applications, in one part of an extended enterprise, to reuse functionality in other applications. Each interface of the bank provides services to accomplish its responsibility. Like SOA, microservices architectures comprise loosely coupled, reusable, and specialized components that often work independently of one another. And even the data in a microservice is not shared with other services, which helps you to scale individual microservices independently, and being independent also means you have the liberty to select the underlying technology. This architecture provides benefits such as ease of development, where you can define individual work units as a service.
+
+And since each service has a designated responsibility, you have the flexibility to add new technology. But while there is a compelling case for using microservices, there are some challenges associated with it too. The first one is the security aspect. Now that you have so many different services independently hosted, each will need its own security paradigm. For example, a simple requirement, such as transport layer security (or TLS), to secure network communications. And the second is that debugging and isolating issues can also become harder, since each service runs independently, meaning you may find it challenging to locate the root cause. Microservices architecture is an application-scoped concept.
+
+For example, an e-commerce application can have separate microservices to process orders, security, and analytics. A microservices design enables the internals of a single application to be broken up into smaller pieces that can be independently changed, scaled, and administered. However, it does not define how applications talk to one another. In this video, you learned that monolithic design is interconnected and interdependent, SOA design provides seamless integration and reusability, and Microservices architecture gives you targeted scalability and flexibility.
+
+---
+
+### 6. [VIDEO TRANSCRIPT] Microservices Patterns Video • 6 min
+- **URL:** https://www.coursera.org/learn/applications-development-microservices-serverless-openshift/lecture/hrqIe/microservices-patterns
+- **Method:** `dom_transcript` | **Length:** 5334 chars
+
+Welcome to ‘Microservices Patterns’. After watching this video, you will be able to describe patterns you can use with microservices, and explain the usage of different patterns. Microservices have numerous patterns available that enable some of the more common challenges and opportunities. Examples are the single-page application (or SPA) pattern, the Backend for Frontend (or BFF) pattern, the Strangler pattern, and the service discovery pattern. With the convergence of more powerful browsers, faster networks, and client-side languages, many web interfaces began incorporating all functionality into single-page applications. The user enters through one interface that never reloads the landing page or navigates away from the initial experience. Built using a combination of HTML, CSS, and JavaScript, these applications respond to user input through dynamic service calls to backend REST-based services that update portions of the screen instead of redirecting to an entirely new page.
+
+This application architecture often simplifies the front-end experience, with the tradeoff of more responsibility on the backend services. While a single-page application works well for single-channel user experiences, it delivers poor results across user experiences through different channels, like mobile and web. A Backend for Frontend pattern inserts a layer between the user experience and the resources that the experience calls on. This design allows for customized user experiences between channels. For example, an app used on a desktop will have a different screen size, display, and performance limits than an app used on a mobile device. The BFF pattern allows developers to create and support one backend type per user interface using the best options for that interface rather than trying to support a generic backend that works with any interface but may negatively impact frontend performance. This diagram illustrates a great use case for a Backend for Frontend application architecture.
+
+Suppose a user can access an application via a mobile app or a web application on a desktop. When applying a BFF pattern, you develop one backend specifically for the mobile experience and another backend for the web experience. Each backend knows how to call the correct services and orchestrate code to optimize the requested channel's experience. The mobile app might display a more limited subset of data, and the screen sizes will differ from the web experience. Each backend is a microservice. And instead of having a monolithic app that checks which channel is needed and then contains all the logic to prepare the user experience for that channel, you apply microservice architecture to separate the monolithic backend into distinct services that perform their specific, necessary tasks. The Strangler pattern helps manage the refactoring of a monolithic application in stages.
+
+The pattern gets its metaphorical name from the garden phenomenon of a vine that strangles a tree. Think of a web application built using individual URLs that map functionally to different aspects of a business domain. With the Strangler pattern, you use the structure of a web application to split an application into multiple functional domains and replace those domains with a new microservices-based implementation for one domain at a time. These two aspects form separate applications that exist side-by-side in the same URL space. Over time, the newly refactored application replaces the original application until finally, you can shut off the monolithic application. The Strangler Pattern includes these steps: First, transform. This creates a parallel new site on a cloud platform or within your existing environment.
+
+Next, coexist. This leaves the existing site functional and live for a specified time. It incrementally redirects from the current location to the new site for newly implemented functionality. And finally, eliminate. This removes the outdated functionality from the existing site or stops maintaining that functionality when you redirect traffic from the original site. Now, a service discovery pattern helps applications and services discover each other. This pattern is needed because, in a microservices architecture, service instances change dynamically due to scaling, upgrades, service failure, and even service termination.
+
+A load balancer could also use this pattern to do health checks and rebalance traffic on service failures. Other patterns include the entity and aggregate pattern, which could be used in an e-commerce site, where an order would be an aggregate of products grouped by a buyer. Another is the adapter pattern. Think of it in the way you think of plug adapters when traveling to another country. The purpose of adapter patterns is to help translate relationships between objects that are otherwise incompatible. For example, if you have integrated with a third-party API. In this video, you learned that microservices enable single-page applications that rely on backing services to update the page dynamically, Backend for Frontend patterns use microservices to facilitate different user experiences more easily, you can apply the Strangler pattern to help break up monolithic apps into microservices, and a service discovery pattern helps applications and services discover each other.
+
+---
+
+### 7. [READING] Microservices Anti-Patterns Reading • 10 min
+- **URL:** https://www.coursera.org/learn/applications-development-microservices-serverless-openshift/supplement/odDUp/microservices-anti-patterns
+- **Method:** `dom_reading_cml` | **Length:** 3150 chars
+
+While there are many patterns for doing microservices well, an equally significant number of patterns exist that can quickly get any development team into trouble. The following are some of the don’ts while developing microservices:
+
+## Don’t build microservices
+
+The first rule of microservices is don’t start with microservices. When you determine that the monolithic application's complexity negatively affects application development and maintenance, consider refactoring that application into smaller services.
+
+When the application becomes too large to update and maintain easily, these microservices will become ideal for breaking down the complexity and making the application more manageable.
+
+However, until you feel that pain, you don’t even have a monolith that needs refactoring.
+
+## Not taking automation seriously
+
+If you have a monolith application, you only need to deploy one piece of software. Once you move to a microservices architecture, you will have more than one application with each having different code, test, and deploy cycles.
+
+Attempting to build microservices without either:
+
+- proper deployment and monitoring automation, or
+- managed cloud services to support your now sprawling, heterogenous infrastructure
+
+is asking for a lot of unnecessary trouble.
+
+So, when you are building microservices, always use DevOps or cloud services.
+
+## Don’t build nanoservices
+
+If you go too far with the micro in microservices, you could easily find yourself building nanoservices! The complexity of which will outweigh the overall gains of microservices architecture.
+
+Lean toward creating larger services and create smaller services when:
+
+- Deploying changes becomes difficult
+- The common data model becomes overly complex
+- Loading and scaling requirements no longer synchronize and affect application performance
+
+## Don’t turn into SOA
+
+The two concepts; microservices and service-oriented architecture (SOA) are often confused with one another because, at their most basic level, both build reusable individual components that can be consumed by other applications.
+
+However, microservices are fine-grained with independent data storage for each, that is, the bounded context.
+
+A microservices project that morphs into an SOA project will likely buckle under its own weight.
+
+## Don’t build a gateway for each service
+
+Instead of implementing end-user authentication, throttle, orchestrate, transform, route, and analytics in each service, you should use an API Gateway.
+
+An API gateway is an API management tool that sits between a client and your collection of backend services.
+
+This will become central to the above-mentioned non-functional concerns and will avoid re-engineering them with each service.
+
+## Conclusion
+
+The aim of microservices is to solve the three most frequent challenges, that is, enhance customer experience, be flexible to new requirements, and reduce costs by providing business functions as fine-grained services.
+
+But while doing so, you should avoid the pitfall of the above-mentioned anti-patterns making microservices a nuisance to your development, delivery, and management requirements.
+
+---
+
+### 8. [READING] Module 1 Summary Reading • 2 min
+- **URL:** https://www.coursera.org/learn/applications-development-microservices-serverless-openshift/supplement/eYCi6/module-1-summary
+- **Method:** `dom_reading_cml` | **Length:** 897 chars
+
+Congratulations! You have completed this module. At this point in the course, you know that:
+
+- Modern software development often delivers centrally hosted, web-based, software-as-a-service (SaaS) applications
+- Twelve factor app methodology enables developers to create more efficient SaaS applications
+- The twelve factors map to the code, deploy, and operate stages of the software delivery lifecycle
+- Microservices make each application component its own service, and each service communicates via an API
+- Microservices allow application components to use different technology stacks
+- Microservices enable individual components to scale in response to demand
+- Microservices lessen risks associated with change because components can iterate independently
+- Failures in one service do not necessarily impact other services
+- There are some anti-patterns to avoid when building microservices
+
+---
+
+## Module 2: Web API Essentials: REST API and GraphQL
+
+### 1. [VIDEO TRANSCRIPT] What is REST? Video • 3 min
+- **URL:** https://www.coursera.org/learn/applications-development-microservices-serverless-openshift/lecture/DyPop/what-is-rest
+- **Method:** `dom_transcript` | **Length:** 2715 chars
+
+Welcome to ‘What is REST?’. After watching this video, you will be able to describe RESTful APIs, explain the key characteristics of a REST API, and explain the benefits of using REST APIs. REST stands for Representational State Transfer. REST APIs provide a flexible, lightweight way to integrate applications, and have emerged as the most common method for connecting components in microservices architectures. It is an architectural style that defines how applications should communicate with each other within a network. An API has three characteristics that classify it as RESTful. It manages all requests through HTTP, It provides stateless, client-server communication, and it consists of a uniform interface between components.
+
+REST APIs communicate via HTTP requests to perform standard functions like creating, reading, updating, and deleting records (also known as CRUD) within a resource. For example, a REST API would use a POST request to create a record, a GET request to retrieve a record, a PUT request to update a record, and a DELETE request to delete a record. REST APIs are stateless, meaning that each request contains all the information required to process it. Roy Fielding, the originator of REST, said in his dissertation. “Each request from client to server must contain all of the information necessary to understand the request, and cannot take advantage of any stored context on the server. Session state is therefore kept entirely on the client.” This stateless nature of REST APIs also makes them scalable.
+
+The main benefit of RESTful APIs is the uniform interface, regardless of where the request originates. The REST API should ensure that the same piece of data, such as the product id, belongs to only one uniform resource identifier (or URI). And resources should contain every piece of information that the client may need. For example, the client might require the name and price of the product. Let’s look at an example of REST. The CEX.IO is a cryptocurrency exchange. It provides developers bitcoin, other crypto prices, and market data through REST API.
+
+CEX has documented all API calls in their developer’s section with detailed information on both the request and response parameters, all in a simple JSON format, as well as sample requests and code snippets in JavaScript, Python, C#, and Java. For example, you can request the last price of a currency pair through their public API. In this video, you learned that REST APIs provide flexible but uniform interfaces between components, REST APIs are stateless and scalable, REST APIs communicate using HTTP methods POST, GET, PUT, and DELETE, and REST is an architectural style defining how applications communicate.
+
+---
+
+### 2. [VIDEO TRANSCRIPT] Introduction to API Gateway Video • 4 min
+- **URL:** https://www.coursera.org/learn/applications-development-microservices-serverless-openshift/lecture/vJCLd/introduction-to-api-gateway
+- **Method:** `dom_transcript` | **Length:** 3907 chars
+
+Welcome to ‘Introduction to API Gateway’. After watching this video, you will be able to explain an API Gateway, explain the benefits of using an API Gateway, explain the drawbacks of using an API Gateway, and describe the available API Gateway products. An API Gateway is an API management tool that sits between a client and a collection of backend services. It aggregates the various services required to fulfill them and returns the appropriate result. So why do you use an API Gateway? An API Gateway can help you to protect your APIs from malicious usage or overuse. Thus, you can use an authentication service with rate limiting.
+
+It also helps to understand how your APIs are used, using an analytics and monitoring service. In addition, you can monetize your APIs using a billing system. A gateway also presents a single point of contact to your various microservices and provides a single response to a request. Finally, you can seamlessly add or remove APIs without the client’s knowledge about the services running at the back end. Since your online store follows microservices architecture; some of those services will be: a product information service that shares basic information about the product such as id, name, and price, an inventory service that reveals what’s available in stock, an order service that enables customers to place an order for a product, and an authentication service to validate users on the platform. So, how does a client access the microservices? This is a problem when you need to interact with multiple APIs.
+
+An API Gateway can remove this complication and allow you to: change hosts and their locations, increase or decrease the number of service instances, and replace your existing service, for example, an ordering service, with a new one. The client’s access to the services remains undisturbed. The benefits of using an API Gateway are as follows: It insulates the clients from how the application is partitioned into microservices. In other words, it simplifies the client side by moving the logic for calling multiple services from the client to the API Gateway. It also provides the optimal API for each client, regardless of who the client is. It reduces the number of requests or round trips. For example, the API Gateway enables clients to retrieve data from multiple services with a single round trip.
+
+And irrespective of how your microservices communicate internally, an API Gateway will provide a standard protocol to communicate with the outside world. Now, although an API Gateway provides many benefits, it also has some drawbacks. It is another component that needs to be developed and maintained. In addition, if not designed carefully, it can become a single point of failure in an application. Also, a Gateway will increase the response time due to this additional network step in the execution of the application. There are plenty of API Gateway products available on the market. You can choose from managed or open-source options.
+
+From IBM, an industry-leading, high-security application gateway called IBM DataPower Gateway. Google has two offerings based on your needs: Apigee or Cloud Endpoints. Microsoft Azure and Amazon AWS also offer gateways on their platforms. And while those are managed products, in the open source world, some famous names are: Kong, being top of the list in popularity, Apache APISIX, Tyk, which also has a managed version, and finally, Gloo, which is also available as an enterprise version. In this video, you learned that: an API Gateway is the door to your backend services, it enables you to plug additional services while providing your client with unified access to your services, it hides the complexity of your backend services from the client, it makes it easier to scale or replace your backend services, and there are many managed and open source API Gateway products available to choose from.
+
+---
+
+### 3. [VIDEO TRANSCRIPT] Creating REST APIs Video • 2 min
+- **URL:** https://www.coursera.org/learn/applications-development-microservices-serverless-openshift/lecture/E0Ob5/creating-rest-apis
+- **Method:** `dom_transcript` | **Length:** 2159 chars
+
+Welcome to ‘Creating REST APIs’. After watching this video, you will be able to: Create a RESTful API in Python, and use Flask to host your REST API. Python is a programming language that lets you work more quickly and integrate your systems more effectively. Python is used in many application domains. It supports Web development with the help of frameworks such as Flask. Python is widely used in scientific and numeric computing with the help of libraries such as SciPy for mathematics, science, and engineering. Python is also a popular choice among the Artificial Intelligence and machine learning community.
+
+Flask is classified as a micro web framework as it does not require particular tools or libraries. It was built with scalability and simplicity in mind. Flask applications are known for being lightweight compared to other frameworks. Since Flask is not opinionated about what database or template engine to use, it is a good choice for RESTful APIs. For this module, you need Python 3 and pip, which is the Python package manager. Once you verify you have Python and pip, you can then proceed to install Flask with the pip install command. First, you create the hello.py file with the content shown.
+
+You then run the Flask server to host this python file and the output will be displayed. When you open this ‘hello world’ web application in the browser by navigating to 127 dot 0 dot 0 dot 1 and port 5000, you will see the response “Hello World”. You will now create a new python file with the name ‘products.py’ which will provide all endpoints for your products microservice. You start with defining the imports and creating your default list of products. You are not using any database to persist these products, so every time you restart the API, you start with the same list of products. Next, you define the GET method to retrieve all the products. And this method implicitly returns ‘200’, which in HTTP means OK.
+
+In this video, you learned that: Flask is a micro web framework to host Python web applications, you can create your first RESTful API as a microservice using Python, and you can host your first RESTful API using Flask.
+
+---
+
+### 4. [VIDEO TRANSCRIPT] Making API Requests using CURL and Postman Video • 4 min
+- **URL:** https://www.coursera.org/learn/applications-development-microservices-serverless-openshift/lecture/9VPp3/making-api-requests-using-curl-and-postman
+- **Method:** `dom_transcript` | **Length:** 3626 chars
+
+Welcome to ‘Making API Requests using cURL and Postman.’ After watching this video, you will be able to explain how to use cURL to make HTTP requests, and explain how to use Postman to make HTTP requests. Transferring data to and from a server requires tools that support the necessary network protocols. Linux has multiple tools created for this purpose, the most popular being curl. curl, short for "Client URL” is a command line tool that enables data transfer over various network protocols. Developed in 1998, it has since been used to communicate with web or application servers by specifying a relevant URL and the data that need to be sent or received. curl can either be used at the command line or in scripts to transfer data. You can run a simple curl command, as seen in this example, and then view the output. The most common use cases for curl are: downloading files from the internet, endpoint testing, debugging, and error logging.
+
+Some of the common protocols supported by curl are: HTTP, HTTPS, FTP, and IMAP. If you run this example curl command, you will receive the output as shown. curl accepts a wide array of options, which makes an extremely versatile command. Options start with one or two dashes, and if they do not require additional values, the single-dash options can be written together. So, let’s breakdown the command and output. ‘Hyphen x’ means you are explicitly specifying the HTTP function, which in this case is GET. We then specify the URL to evaluate. ‘Hyphen H’ allows you to define headers, which in our case is telling the web server that we want to work with JSON.
+
+Our output is the list of products returned by the product’s microservice represented in JSON. Now, Postman is an API platform for building and using APIs based on a wide range of extremely user-friendly power tools, enabling the developers to easily create, test, share, and document APIs. Postman simplifies each step of the API lifecycle by allowing to orchestrate multiple requests which can be performed in several repetitions or iterations, and help you streamline collaboration so you can create better APIs—faster. And, due to its simplicity, it is one of the most popular and convenient tools for testing a wide variety of APIs supporting many protocols for example, HTTP requests like GET, POST, PUT, and PATCH--and then convert the API to code for languages like JavaScript and Python. A popular example is the WhatsApp Business Platform Cloud API that has created a streamlined, developer-friendly experience using Postman. With Postman, onboarding time reduces to minutes using automation and pre-filled data, which isn’t the case with alternative methods that require manual setup. Developers can progress from signing up for the WhatsApp Business Platform to testing phone numbers and building message calls in a few minutes.
+
+You can download Postman to your computer or you can use the online version. For this course, we will use the online version which you will need to sign up for, and we will cover the steps in the next lab. Let’s now call the products microservice GET endpoint using Postman. Once in Postman, start with a new tab; the request type is GET, and the URL is the one where your microservice is hosted. Then click on the Send button to analyze the output. You can then save this in your workspace to call your API again in the future. In this video, you learned that: cURL is used for transferring data with URLs, cURL can be used at a command line or in scripts, Postman is an API platform for building and using APIs, and Postman is a simple and popular tool for testing APIs.
+
+---
+
+### 5. [VIDEO TRANSCRIPT] Documenting and Testing REST APIs with Swagger Video • 4 min
+- **URL:** https://www.coursera.org/learn/applications-development-microservices-serverless-openshift/lecture/H4L9b/documenting-and-testing-rest-apis-with-swagger
+- **Method:** `dom_transcript` | **Length:** 3568 chars
+
+Welcome to ‘Documenting and Testing REST APIs with Swagger’. After watching this video, you will be able to document your REST API using Swagger, and test your REST API using Swagger. APIs specify an interface and connect different systems providing them with consistent communication. And API documentation is like a reference manual containing instructions on effectively using and integrating systems. Swagger saves time writing API documentation by running through the OpenAPI specification to ensure you meet the guidelines. Swagger allows you to describe the structure of your APIs so that machines can read them. With the API’s structure, Swagger automatically builds engaging UI and interactive API documentation.
+
+This structure is defined in a JSON or YAML file that adheres to OpenAPI specifications. Now initially, APIs were not meant for self-service consumption. They were data-driven and solved a few special use cases of connection and communication. Whereas the OpenAPI Specification defines a standard, language-agnostic interface to RESTful APIs. The specification is language agnostic and human and machine-readable. In addition, it allows people and computers to discover and understand the capabilities of a service without requiring access to source code, additional documentation, or inspection of network traffic. It defines all the operations that your API supports, the required parameters and the expected return, and required API authentication.
+
+And it even defines things like terms of service, contact information, and the license information for the exposed API. Now Flask enables exposure to Python functions as APIs. Flask Swagger UI improves upon its capabilities by allowing you to describe and visualize the REST APIs. To introduce the Swagger UI to your application, you need the Flask blueprint ‘Flask-swagger-ui’. The command ‘pip install Flask-swagger-ui’ will add the Swagger UI to your Flask application by using pip. First, you need to import the ‘swagger_ui_blueprint’, which will help you create the Swagger UI using Flask. Then you define the basic configuration, which consists of the path where the Swagger will be available.
+
+You have kept it under the products/docs path in this example. The second argument displays where the swagger file is served. And the name you want to give to this Swagger. You then need to register this blueprint with the app for Flask. Swagger.JSON holds the definition and characteristics of your API in the form of a JSON file. You need to expose this file as well with your API. So, you need a route that will serve your static swagger.JSON file.
+
+Swagger is a JSO file and requires some basic configurations to be present. Here in this example, you are creating the product microservice API swagger and providing the model and path for getting the products list. And defining the properties of the Product object. You now have an API definition and Swagger. You can use the UI to test your API and that is the key benefit of using Swagger. In addition, it allows consumers to get more details about your API, the supported functions, requests, and responses. It also displays content from the product info section.
+
+It displays the only available method, a GET to retrieve all products. You can then execute that endpoint and see the outcome, which, in this case, is the list of products. In this video, you learned that Swagger helps you document your APIs, the OpenAPI specification is a standard way of representing your APIs, and Swagger provides a mechanism for testing your APIs.
+
+---
+
+### 6. [VIDEO TRANSCRIPT] Optional: Basics of GraphQL Video • 3 min
+- **URL:** https://www.coursera.org/learn/applications-development-microservices-serverless-openshift/lecture/2smnm/optional-basics-of-graphql
+- **Method:** `dom_transcript` | **Length:** 2594 chars
+
+Welcome to ‘Basics of GraphQL’. After watching this video, you will be able to: Describe GraphQL, explain the key characteristics of a GraphQL API, and explain the benefits of using GraphQL APIs. GraphQL is a query language for your API. It provides a standard way to allow clients to request only the data that they need from the API. And it can be developed using any programming language, as it is language agnostic. GraphQL enables you to retrieve exactly what you need from the API. This means you don’t receive the data that you didn’t request.
+
+It also means you receive exactly what you require, even from different resources. Unlike the RESTful API, GraphQL requires just one endpoint to retrieve everything you require. And as can be seen in this product example, you only need the name, and that’s what you receive. With REST, your APIs are the resources that provide endpoints to perform a particular operation using an HTTP method. In GraphQL, the types you define in the schema are the nodes. With REST, you make multiple calls and receive whatever is sent by the server. But in GraphQL, you only request and receive what you require.
+
+Extending your GraphQL API doesn’t need a new version; you add the new fields without breaking the existing clients, as they were only requesting what they required. A Query is used for querying your data, more like a GET request in a RESTful API. At its simplest, GraphQL makes requests for specific fields on objects. A mutation is used for manipulating and modifying your data. And every field in the mutation type can be thought of as a POST, PUT, or DELETE request in a RESTful API. Now Netflix is known for its loosely coupled and highly scalable microservice architecture. Netflix produces original content at an accelerated pace.
+
+From the time a TV show or a movie is pitched to when it’s available on Netflix, a lot happens behind the scenes. Initially, the relationships between entities were disparate and existed in various microservices. To address those challenges, the team started building a curated Graph API called “Studio API”. Its goal is to provide a unified abstraction on top of data and relationships. In this new design, Studio API is responsible for schema and resolving queries. So, the Netflix engineering team did not stop there and went a step ahead with federated architecture, where each team has the ownership of their respective domains. In this video, you learned that: GraphQL is a language-agnostic query language for your API, it provides you with exact data, no more and no less, and it has one endpoint.
+
+---
+
+### 7. [READING] Module 2 Summary Reading • 2 min
+- **URL:** https://www.coursera.org/learn/applications-development-microservices-serverless-openshift/supplement/rV0mr/module-2-summary
+- **Method:** `dom_reading_cml` | **Length:** 901 chars
+
+Congratulations! You have completed this module. At this point in the course, you know that:
+
+- REST APIs provide flexible but uniform interfaces between components
+- REST APIs are stateless and scalable
+- REST APIs communicate using HTTP methods POST, GET, PUT and DELETE
+- REST is an architectural style defining how applications communicate
+- API Gateway is the door to your backend services while also enabling you to plug additional services while providing unified access
+- API Gateway makes it easier to scale or replace your backend services
+- Flask is a micro web framework to host Python web applications
+- cURL is used for transferring data with URLs and can be used at a command line or in scripts
+- Postman is a simple and popular tool for building, testing, and using APIs
+- Swagger helps you document and test your API
+- OpenAPI specification is a standard way of representing your APIs
+
+---
+
+## Module 3: Serverless Overview
+
+### 1. [VIDEO TRANSCRIPT] Introduction to Serverless Computing Video • 6 min
+- **URL:** https://www.coursera.org/learn/applications-development-microservices-serverless-openshift/lecture/Hvcf7/introduction-to-serverless-computing
+- **Method:** `dom_transcript` | **Length:** 5814 chars
+
+Welcome to 'Introduction to Serverless Computing.' After watching this video, you will be able to: Define 'serverless computing' and describe its concepts, and identify the key characteristics of serverless computing. The Cloud Native Computing Foundation (or CNCF) defines serverless as "The concept of building and running applications that do not require server management. "It describes a finer-grained deployment model where applications, bundled as one or more functions, are uploaded to a platform and then executed, scaled, and billed in response to the exact demand needed at the moment." In other words, serverless computing offloads the responsibility of infrastructure management to cloud providers, enabling developers to focus on the application business logic. Think of serverless computing as a combination of function-as-a-service (or FaaS) platforms and backend-as-a-service (or BaaS) services. FaaS platforms are used to run functions.
+
+BaaS represents backend cloud services, such as cloud databases, object storage services, and message queues. Now, the history of IT computing shows a progressive trend from traditional computing to serverless computing, leading to faster deployments, shorter lifespans, and increased productivity. Several milestones mark this evolutional trend: Traditional computing uses physical machines but is hampered by upfront investments, capacity planning, and more. Physical machines take weeks or months to deploy and have a lifespan of several years. Virtualization technology is implemented in cloud computing for faster provisioning, high scalability and availability. Virtualization facilitates the creation of multiple virtual machines (VMs) or containers. And VMs take minutes to deploy and have a lifespan of days or weeks.
+
+Containers, which are based on operating system virtualization, require seconds to deploy and live for minutes or hours. And, serverless applications require only serverless architecture for the core code. Serverless functions take milliseconds to deploy and have a lifespan of seconds. Serverless computing is an advancement of standard cloud computing, which abstracts both infrastructure and software environments. It is an architectural style where code runs using a cloud platform, and the cloud provider manages the hardware and software setup, security, scalability, and so on. The client is billed only for usage and not for CPU idle time. And developers only need to focus on their application code in the form of functions.
+
+Serverless computing exhibits the following characteristics: It is hostless, meaning developers do not have to procure, manage, and maintain servers. It’s elastic because autoscaling is immediate and inherent for serverless. It offers automated load balancing that distributes the incoming traffic across multiple backend systems. It is stateless, which results in faster performance and higher scalability. It’s event driven, meaning functions are triggered only when events occur. It provides high availability with no extra effort or cost. And it is usage-based with granular billing.
+
+So, how do functions work in a serverless world? Consider, for example, the steps required to create a Docker or Kubernetes container. The developer creates a function by writing code in a language supported by the cloud provider, such as Python, Java, Node.js, C#, or Go. Next, the developer uploads a function to the cloud. Then, events are defined that trigger the function, such as a user click. And, once the event occurs, the trigger is invoked, and the cloud provider runs the function, resulting in the container object. Having developers spend more time creating high-quality and optimized applications greatly benefits organizations.
+
+Developers can build functions using any popular programming language, extend the functionality of apps by adding additional features, perform better testing since functions perform only one task at a time, optimize apps and functions, and improve the user experience. To accomplish the goal of zero operational considerations, cloud providers take responsibility for routine infrastructure management and maintenance tasks such as maximizing compute, memory, and networking utilization while minimizing costs, providing server management that includes OS updates and security patches, enabling autoscaling, maintaining high availability, implementing security, configuring high performance (or low latency), and setting up monitoring and logging. Now in comparing different cloud service models shown in this figure, let’s look at your responsibilities versus the cloud provider, and more so, regarding the serverless service model. We start with the extreme left stack (traditional), which you manage entirely. In the IaaS model, you manage the layers from the OS up to the top, while the cloud provider manages the lower four layers. In the PaaS model, you manage the first two layers, Application and Data, while the cloud provider manages the remaining layers. In the Serverless model, you manage only the Application layer, while the cloud provider manages the remaining layers.
+
+And in the SaaS model, the cloud provider manages the entire stack. In this video, you learned that: Serverless is the concept of building and running applications that do not require server management, serverless computing uses BaaS services and FaaS platforms, the history of IT computing shows an increasing productivity trend from traditional to serverless computing, with serverless computing, cloud providers take care of infrastructure management, such as server management, OS updates, security patching, and monitoring, serverless computing enables developers to focus on applications and code, and finally, users are billed only for usage and not for CPU idle time.
+
+---
+
+### 2. [VIDEO TRANSCRIPT] Serverless Pros and Cons Video • 8 min
+- **URL:** https://www.coursera.org/learn/applications-development-microservices-serverless-openshift/lecture/3phws/serverless-pros-and-cons
+- **Method:** `dom_transcript` | **Length:** 7507 chars
+
+Welcome to 'Serverless Pros and Cons.' After watching this video, you will be able to describe the benefits of serverless computing, describe the constraints of serverless computing, and compare serverless pros and cons with containers and traditional computing. So let's first understand the challenges with traditional computing and how the advent of serverless computing overcomes these. In traditional computing, development and operations teams set up and maintain their own infrastructure. These processes take a lot of time, are complex, and require capital investments. However, with the arrival of cloud, containers, and serverless computing, development teams can focus on writing high-quality code and building and running their applications in milliseconds without worrying about infrastructure, scalability, and fault tolerance. But serverless computing also has its share of challenges, including vendor lock-in, third-party dependencies, and networking.
+
+Let's look at the benefits and constraints of serverless computing and then compare the same versus containers and traditional computing. With serverless computing, cloud providers take on a large share of the work, which brings many benefits. There are no infrastructure setup and maintenance requirements as a cloud provider manages the same, thereby reducing costs. Cloud providers ensure reliability, which results in high availability and fault tolerance. Developers benefit because they focus on applications and do what they enjoy best. Without serverless, all parts of your applications are constantly running, thereby wasting resources. Serverless functions allow you to configure your application to only run certain parts when needed.
+
+For example, an application’s front end must run continuously to keep users logged in. But an authentication service saves resources and costs since it is only invoked occasionally. Functions run in milliseconds, while run times for containers or virtual machines (VMs) are in seconds and minutes, respectively. Many cloud providers include a built-in code editor called an Integrated Development Environment, or IDE, for faster developments, deployments, and updates. You are charged on a pay-per-request basis and not for any idle resources. You can use any popular programming language for development. Plenty of third-party support is available for authentication, database, and other backend services.
+
+Since developers purely focus on development, organizations can focus on their business and release products faster than the competition. The serverless environment allows more innovation and experimentation, even if subject to failures. And with no infrastructure to manage, greener computing also becomes a definite possibility. However, serverless computing is not best for every situation as it does have some constraints: Many organizations realize significant cost savings for spiky workloads, but for workloads characterized by long-running processes, the benefits diminish from the pay-per-use model. And for such applications, a traditional environment can be more cost-effective. Dependencies on cloud providers’ technologies and environments lead to vendor lock-in risks. If requests are received after long intervals, the applications must often restart all processes, known as a cold start.
+
+And this increases the function run time. Serverless latency is unacceptable for time-critical applications such as banking, health care, or edge-related applications. Security concerns increase due to changes in the attack surfaces from endpoints to source code and the limitations in the provider’s security implementations. Monitoring and debugging are complex in any distributed system. Since you cannot imitate the backend-as-a-service (or BaaS) environment in your local system, it’s challenging to test the complete functionality and debug application issues. Language support is dependent on the cloud provider. And not all cloud providers offer support for all programming languages; hence you are limited to the languages supported by your cloud provider.
+
+There are no servers to optimize for utilization or performance since you have no control over the servers. And there is no state persistence. For example, the previous run state will not be available in the next invocation of the same function. Since local cache lasts only a few hours, it’s better to include low-latency external caches like Redis or Memcached. Can serverless and containers work together? Absolutely! Serverless and containers are not mutually exclusive.
+
+They work best together in a hybrid solution. If you’re struggling to choose between serverless or containers, follow the standard industry advice: “Build serverless first, and if needed, move to containers”. Let’s compare serverless computing and containerization, starting with the pros of serverless and the cons of containers: Serverless computing is more cost-effective since you only pay for what you use. For serverless, scalability is handled entirely by the cloud provider. The cloud provider manages all the infrastructure. The time to deploy is a matter of milliseconds rather than seconds. And in terms of speed to market, as development is fast, organizations can focus on their core business and not worry about the infrastructure.
+
+Now, let’s consider the pros of containers and the cons of serverless: With containers, testing in a local environment or in the cloud is easier. It’s easier to port containers as they are operating system agnostic, language agnostic, and provider agnostic. Latency is very low for containers, so it’s suitable even for time-critical workloads. Containers are also ideal for long-running apps as there are no time restrictions to complete batch jobs. With containers, you can configure both apps and resources. And for language support, containerization supports any language. And now, let’s compare serverless computing and traditional computing, starting with the pros of serverless and the cons of traditional computing: Serverless architecture is a cloud computing model in which developers focus on writing high-quality code.
+
+Serverless computing is more cost-effective since you only pay for what you use. Scalability is handled entirely by the cloud provider. And libraries and integrations are available within the application. And finally, let’s consider the pros of traditional computing and the cons of serverless: With traditional computing, data is under your control. In terms of networking, your access code via regular Internet Protocol (or IP) addresses rather than setting up private application programming interfaces (or APIs). Security only needs to be implemented within the organization’s network perimeter. And since you manage the entire setup, vendor lock-in is quite rare.
+
+In this video, you learned that: With traditional computing, you set up and maintain the infrastructure, with serverless computing, development teams can focus on writing high-quality code, serverless computing offers several benefits including built-in high availability and fault tolerance, faster function run times, and pay-per-request billing, serverless computing also has constraints, including unacceptable latency for time-critical apps, complex monitoring and debugging, and no state persistence, serverless and containers are not mutually exclusive, and they work best together in a hybrid solution, and finally, serverless and traditional computing each have pros and cons.
+
+---
+
+### 3. [VIDEO TRANSCRIPT] Introduction to the FaaS Model Video • 5 min
+- **URL:** https://www.coursera.org/learn/applications-development-microservices-serverless-openshift/lecture/0PPGW/introduction-to-the-faas-model
+- **Method:** `dom_transcript` | **Length:** 4951 chars
+
+Welcome to 'Introduction to the FaaS Model.' After watching this video, you will be able to: Describe what FaaS is, explain the benefits of a FaaS model, and describe the principles and best practices of FaaS. Function-as-a-Service or FaaS, is a type of cloud-computing service that allows you to execute code in response to events without the complex infrastructure typically associated with building and launching microservices applications. FaaS includes the following characteristics: It is a subset of serverless computing. It creates applications in the form of multiple functions where a function is a piece of software written in any programming language. FaaS can be deployed on hybrid clouds as well as on-premises environments. It is stateless but can maintain state using external caches.
+
+Functions execute in milliseconds and process individual requests in parallel, thus making them instantaneously scalable. It is lightweight and uses the decoupling architecture mechanism. and FaaS is billed on the time taken to run functions and not on server instance sizes. With FaaS, you can divide the server into functions that can be scaled automatically and independently so you don’t have to manage infrastructure. This allows you to focus on the app code that reduces time-to-market. One of the biggest benefits of the FaaS model is the cost. You pay only when an action occurs. When the action is complete, everything stops—no code runs, no server idles, and no costs are incurred.
+
+Since the functions are stateless, small and independent pieces of code, they can be scaled automatically, independently, and instantaneously, as required. And if demand drops, they automatically scale back down. And FaaS offers inherent high availability because it is spread across regions and availability zones and can be deployed without incremental costs. A serverless stack comprises of three main components, namely: Functions-as-a-service or FaaS, Backend-as-a-service or BaaS, and an API Gateway. Let's look at how the components in a serverless stack work. Event requests are received from different channels like an HTTP request, webhooks from repositories such as Github and Docker Hub, and scheduled jobs. These requests go through the API Gateway which identifies and forwards them to the respective functions.
+
+The functions then process these requests, and they are further directed (if necessary) toward the backend services (such as file and object storage, block storage, notification services, and so on) for further processing and/or storage. The output or response is then sent back to the client through the FaaS component and the API Gateway. For a real-world example, consider the scenario where you need to upload a profile picture to a website. The website might also require a thumbnail of that image for displaying on certain web pages. This is a common situation in which function-as-a-service is used. A user selects a profile photo. The image is uploaded to an object storage bucket.
+
+This event triggers an IBM Cloud function that processes the profile photo and creates a thumbnail image. The function then stores the thumbnail image in object storage so that if needed, the website can access the thumbnail. FaaS functions should be designed to do a single piece of work in response to an event. So, make your code scope limited, efficient, and lightweight so that functions load and execute quickly. The value of FaaS is in the isolation of functions. Too many functions will increase your costs and remove the value of the isolation of your functions. Using too many third-party libraries can slow down the initialization of a function and make them harder to scale.
+
+Some of the common managed FaaS providers are: AWS Lambda from Amazon, Google Cloud functions, Azure functions from Microsoft, Cloud functions by IBM, OpenShift Cloud Functions from Red Hat, and a few others like Netlify, Oracle, and Twilio. Now there are many self-managed FaaS choices available too if you don’t want to depend on third-party managed platforms. These include: Fission, which is a framework for serverless functions on Kubernetes, Fn Project, a container-native serverless platform, Knative, a Kubernetes-based platform to build, deploy, and manage serverless workload, and OpenFaaS, which allows you to turn any Linux or Windows process into a function. In this video, you learned that: FaaS is a type of cloud-computing service that allows you to execute code in response to events without a complex infrastructure, FaaS is a subset of serverless computing that creates applications in the form of multiple functions, FaaS can be deployed on hybrid clouds as well as on-premises environments, FaaS is billed on the time taken to run functions and not on server instance sizes, a serverless stack is comprised of FaaS, BaaS, and an API Gateway, and there are several different managed and self-managed FaaS platforms to choose from.
+
+---
+
+### 4. [VIDEO TRANSCRIPT] The Serverless Framework Video • 3 min
+- **URL:** https://www.coursera.org/learn/applications-development-microservices-serverless-openshift/lecture/HhcEI/the-serverless-framework
+- **Method:** `dom_transcript` | **Length:** 2857 chars
+
+Welcome to 'The Serverless Framework.' After watching this video, you will be able to describe the Serverless Framework, explain how to create a basic Serverless function, and explain how to test a Serverless function. The Serverless Framework is a free and open-source web framework written using Node.js. It was originally designed to provision your Amazon Web Services or AWS Lambda Functions, Events and infrastructure Resources safely and quickly. But it is not limited to AWS. Other supported providers are: Microsoft Azure, Google Cloud Platform, and Apache OpenWhisk. Serverless Framework is a command line interface or CLI that offers structure, automation and best practices out-of-the-box, allowing you to focus on building sophisticated, event-driven, serverless architectures, comprising of functions, events, resources, and services.
+
+Now a function is merely code, deployed in the cloud, that is most often written to perform a single task. Each function is an independent unit of execution and deployment, like a microservice. A task can be saving a user to the database or performing a job at a specified time. Functions are triggered by events, and events come from other resources, for example: An HTTP request on an API Gateway URL or a new file uploaded in an S3 bucket. Resources are infrastructure components which your functions use, such as a database provided to you as a service by your cloud provider, or an S3 bucket to store files. A service is the Framework's unit of organization. You can think of it as a project file, though you can have multiple services for a single application.
+
+A service is configured via a serverless.yml file where you define your functions, events and resources to deploy. And when deploying with the Framework CLI, everything in the configuration file is deployed at once. The serverless.yml file controls everything in your service. There are specific sections in serverless.yml to specify functions, events, and resources. So let’s build and deploy a Hello World application using the Serverless Framework on AWS. For this demo, you already have the AWS credentials setup. First, you need the serverless CLI, which you can install using npm globally, then run the serverless command to create your first AWS HTTP API using Python.
+
+The command will take you through a wizard and once deployed, will provide you with a URL. If you open in the browser, you will see an outcome as shown. You changed the function code to return Hello World on request. Then you can simply redeploy and test again. In this video, you learned that The Serverless Framework is a free and open-source web framework written using Node.js. Functions are triggered by events. A service is configured via a serverless.yml file.
+
+And there are specific sections in serverless.yml to specify functions, events, and resources.
+
+---
+
+### 5. [VIDEO TRANSCRIPT] Serverless Reference Architecture and Use Cases Video • 4 min
+- **URL:** https://www.coursera.org/learn/applications-development-microservices-serverless-openshift/lecture/EPUzB/serverless-reference-architecture-and-use-cases
+- **Method:** `dom_transcript` | **Length:** 3422 chars
+
+Welcome to "Serverless Reference Architecture and Use Cases" After watching this video, you will be able to: Explain a Web Application reference architecture using Serverless Framework, and Describe other use cases of Serverless Framework Let’s look at a Web application that implements a simple To Do app, in which a registered user can create, read, update and delete items. The Web Application reference architecture is a general-purpose, event-driven back-end that uses AWS Lambda, Amazon API Gateway for its business logic. It also uses Amazon DynamoDB as its database and Amazon Cognito for user management. All static content in the application is hosted using AWS Amplify Console. The architecture of this To Do application is as shown. You can see various components in the application. Basically, the Web Application comprises 3 different components.
+
+The front-end application contains all the static content generated using the Create React App which works with the help of HTML files CSS for styling JavaScript to run on the client, and images. All these objects are hosted on AWS Amplify Console. When a user connects to the website, the needed resources are downloaded to their browser and start to run there. When the application needs to communicate with the back end, it does so by issuing REST API calls to the back end. Now the back end application is where the actual business logic is implemented. The logic is hosted in Lambda functions accessed by your front end via API Gateway using REST API. The data is then stored in DynamoDB.
+
+The To Do application limits the users to their own to do items. Thus, the users have to be registered and authenticated to access their individual To Do items. To accomplish this, you use Cognito User Pools, which allows users to register to the application and authenticate them. A common use case for Serverless application is Event streaming. These applications can be written and deployed without setting up-front infrastructure. And can be triggered from publisher, subscriber topics or from event logs, giving you elastic, scalable event pipelines without the maintenance of complicated clusters. These event streaming pipelines can power your analytics systems, update secondary data stores and caches, or feed monitoring systems.
+
+Examples of post-processing include Image and Video Manipulation, where you can dynamically resize images or change video transcoding for different target devices. Post-processing could also be used for image recognition or artificial intelligence purposes to detect if there are any shadows on your passport photo. When you build an application, you need to decide on the language to use in the application. Serverless applications can be multi-lingual. They prevent teams from language lock-in, where they have to indefinitely use the same language as their legacy software. Now usually, the language chosen to build the application is not what suits the project best, but rather depends on the available resources. In this video, you learned that: The Web Application reference architecture is event-driven that uses: AWS Lambda Amazon API Gateway Amazon DynamoDB Amazon Cognito and Amazon Amplify Console The Web Application comprises 3 components, front-end, back-end, and user registration, and authentication.
+
+And the use cases for serverless web applications are Event streaming, Post-processing, and Multi-language.
+
+---
+
+### 6. [VIDEO TRANSCRIPT] Popular Serverless Platforms Video • 5 min
+- **URL:** https://www.coursera.org/learn/applications-development-microservices-serverless-openshift/lecture/M2BfI/popular-serverless-platforms
+- **Method:** `dom_transcript` | **Length:** 4217 chars
+
+Welcome to “Popular Serverless Platforms.” After watching this video, you will be able to describe what the most popular Serverless Platforms are and explain the key differentiators of each platform. Amazon Web Services (AWS) Lambda is a serverless, event-driven, computing service from Amazon. This service lets you run code, without provisioning or managing servers, for any application or back-end service. It can respond to execution requests at any scale, from a dozen daily events to hundreds of thousands per second automatically. AWS offers two hundred services from its platform. You are only charged for running a function and data transfer between Lambda and other AWS services.
+
+And, it can be used for a variety of use cases, for example, file processing, web applications, internet-of-things, or IoT, and mobile back-ends. Next, Google Cloud Function has a simple and intuitive developer experience. Just write your code and let Google Cloud handle the operational infrastructure. It abstracts all infrastructure management by automatically scaling up and down to zero instantaneously, depending on traffic. Google Firebase alerts developers when their data updates immediately. Asynchronous workloads such as lightweight extract, transform, and load (ETL) functions do not require individual servers. You can directly deploy a function that is connected to your selected event, and it will be executed.
+
+Now Azure is a serverless solution that allows you to write less code, maintain less infrastructure, and save on costs. Write functions in C#, Java, JavaScript, PowerShell, or Python, or use a custom handler to use virtually any other language. Microsoft Azure promotes excellent Developer Operations or DevOps capabilities, providing an easy setup for continuous integration and delivery. This capability is applicable to Azure Functions too. With the Consumption plan, you only pay while your functions are running, while the Premium and App Service plans offer features for specialized needs. There are many different use cases for Azure Functions, for example: Run code when a file uploads or changes in blob storage, collect and process data from IoT devices or execute code at pre-defined timed intervals. IBM Cloud functions promote easy integration with your other services by allowing you to trigger your actions from events or directly via REST API.
+
+With IBM Cloud Functions, you only pay for what time you use down to one-tenth of a second. Part of IBM Cloud functions is the powerful cognitive service of IBM Watson. For example, to detect objects or people appearing in images or videos. The Cloud Function is available within multiple IBM Cloud regions. It supports high availability to avoid a single point of failure. Customer data, such as action codes, is synchronized in different zones automatically. Debugging serverless applications in production can be difficult because there is no access to the runtime environment and infrastructure running your code.
+
+For access to the environment, IBM provides Log Analysis with LogDNA and IBM Cloud Monitoring for metrics. Now most platforms have specific providers. You also have an option of open-source development. One such option is Knative. Knative is based on containers running via Kubernetes, which is an orchestration framework for containers. The advantage of Knative over other serverless platforms is that it avoids vendor lock-in by offering a platform developed over Kubernetes. You can deploy this platform in any cloud that supports Kubernetes without making any changes.
+
+And that also makes it platform-agnostic. In addition, it allows you to have your rollout strategy depending on your needs, which you achieve by gradually shifting the traffic to the latest revision of your serverless component. In this video, you learned that: AWS Lambda provides you with an event-driven and pay-as-you-go serverless platform. Google Cloud Functions provide you simplified developer experience along with Firebase for real-time data sync. Microsoft Azure promotes cloud and edge computing. IBM Cloud Functions give you high availability and cost-effective computing. And Knative is based on containers running via Kubernetes.
+
+---
+
+### 7. [READING] Module 3 Summary Reading • 2 min
+- **URL:** https://www.coursera.org/learn/applications-development-microservices-serverless-openshift/supplement/31Aq7/module-3-summary
+- **Method:** `dom_reading_cml` | **Length:** 1689 chars
+
+Congratulations! You have completed this module. At this point in the course, you know that:
+
+- Serverless is the concept of building and running applications that do not require server management
+- Serverless uses BaaS services and FaaS platforms
+- Cloud providers take care of infrastructure management and maintenance tasks
+- The arrival of serverless computing means development teams can focus on writing high-quality code
+- Serverless offers several benefits, such as built-in high availability and fault tolerance, faster function run times, and pay-per-request billing
+- Serverless computing has several constraints, including unacceptable latency for time-critical apps, complex monitoring and debugging, and no state persistence
+- FaaS is a type of cloud-computing service that allows you to execute code in response to events without a complex infrastructure
+- FaaS is a subset of serverless computing that creates applications in the form of multiple functions; and can be deployed on cloud, hybrid, or on-premises
+- A serverless stack comprises of FaaS, BaaS, and an API Gateway
+- The Serverless Framework is a free and open-source web framework written using Node.js
+- The use cases for serverless web applications are Web Application, Event streaming, Post-processing, and Polyglot systems
+- AWS Lambda provides you with an event-driven and pay-as-you-go serverless platform
+- Google Cloud Functions provides you with a simplified developer experience, along with Firebase for real-time data sync
+- Microsoft Azure promotes cloud and edge computing
+- IBM Cloud Functions gives you high availability and cost-effective computing
+- Knative promotes platform-agnostic alternate
+
+---
+
+## Module 4: Create and Deploy Microservices using Serverless
+
+### 1. [VIDEO TRANSCRIPT] IBM Cloud Code Engine Video • 7 min
+- **URL:** https://www.coursera.org/learn/applications-development-microservices-serverless-openshift/lecture/4W2RZ/ibm-cloud-code-engine
+- **Method:** `dom_transcript` | **Length:** 6359 chars
+
+Welcome to ‘IBM Cloud Code Engine.’ After watching this video, you will be able to describe the challenges of self-hosting microservices, explain the IBM Cloud Code Engine, and explain how IBM Cloud Code Engine helps your deployment of applications. After successfully building and testing your microservices locally, you need to deploy your microservices. If you choose to self-host your microservices, you need to make detailed adjustments and tackle many non-trivial challenges carefully. First, you need to deliberately configure and build your microservices to make them production-ready, including necessary assets like library dependencies, resources, credentials, and so on. Then compile and build them into one executable binary to run on hosting environments. Next, you need to carefully choose the infrastructure to run your microservices, such as web servers, operating systems, networks, databases, and so on.
+
+Your team needs to select from numerous options carefully. Since your microservices undergo fluctuating traffic, you will need to scale up or down dynamically. For example, e-commerce websites will always have peak traffic on holidays that can decrease significantly after several days or a week. In most cases, you will need to deploy multiple related microservices that work and communicate. The communication among the microservices needs to be reliable and secure. And finally, activities like logging, monitoring, and working on dashboards are also required to ensure all microservices are stable and any production issues are identifiable or even foreseen. Now there can be other challenges of self-hosting which are dependent and specific to the implementation and build of the microservices.
+
+Next, you will see a more specific example of how a Python-based microservice can be deployed. Suppose you have built a Python-based microservice, which may be a Flask, Django, or any other Python web application. The microservice cannot start providing the required service directly. It requires a web server interface or entry point to call your microservice. For Python-based microservices, there are two main types of interfaces available: Web Server Gateway Interface, or WSGI, is the main Python standard for communication between web servers and web applications or microservices. And as the name suggests, it supports synchronous service calls only. There are many popular WSGI web servers, such as Green Unicorn and uWSGI.
+
+You need to decide which one suits your requirements best. An Asynchronous Server Gateway Interface, or ASGI, is another web server interface. The main difference from WSGI is that it supports asynchronous code so that your microservice can be called asynchronously. Some popular ASGI web servers are Daphne and Hypercorn. Now either WSGI or ASGI web servers need to be running on a certain type of infrastructure. Depending on your service requirements or agreements, the infrastructure can be a laptop, a dedicated workstation, or a sophisticated cluster with hundreds of computing and data nodes. As can be observed, you will need to make many tradeoffs and efforts to deploy a microservice on production.
+
+Thankfully, you can deploy microservices on cloud platforms with minimal effort now. Now, let’s introduce IBM Cloud Code Engine, a comprehensive and powerful platform for deploying your microservices easily. IBM Cloud Code Engine, or just “Code Engine,” abstracts the operational burden of building, deploying, and managing workloads so that the developers can focus on code development. The main goal of IBM Cloud Code Engine is to ease developers' deployment burden. With its help, developers can push their code to the cloud platform and disregard the infrastructure. IBM Cloud Code Engine can be seen as a fully managed, serverless platform. It combines all features that are required by Platform as a Service (PaaS), Containers as a Service (CaaS), and serverless deployment models.
+
+IBM Cloud Code Engine runs your workloads, including microservices, web apps, event-driven functions, or batch jobs. If you have built a microservice, you can run it as an IBM Cloud Code Engine application to serve incoming HTTPS requests with an intuitive user experience without managing your infrastructure easily. IBM Cloud Code Engine has three main use cases or deployment modes. The first use case involves deploying a built application to Code Engine. An application here may represent a microservice, a web app, or a console app. The second use case is pushing the source code directly. The Code Engine can build your application from source code, either from a remote repository like GitHub repo or your local workspace.
+
+The built application can then be automatically deployed without worrying about the building process, which is convenient and time-saving. And the third use case is creating and running batch jobs like a data processing or analytics task. For example, if one of your microservices needs to analyze results, you can deploy a batch job to perform the analytics tasks on the same platform. So, all your deployed microservices and jobs can work seamlessly together because they are all hosted within the same infrastructure. Let’s summarize the potential benefits that IBM Cloud Code Engine can provide. It takes care of all the cluster management, including provisioning, configuring, scaling, and managing servers. You don’t need to worry about the underlying infrastructure and can focus on your code.
+
+It also builds and deploys your apps in seconds. This can be important if you want to deploy an emergent update. The Code Engine automatically scales your workload up and down. It controls platform and services access permissions based on IBM Cloud infrastructure and access management. It also provides secure connections using Transport Layer Security and isolates workloads. And finally, it fully integrates into the IBM Cloud so that you can take advantage of the full catalog of IBM Cloud services. In this video, you learned that: Self-hosted microservices can be very complex and challenging, the IBM Cloud Code Engine is a fully managed platform that takes care of all the hard deployment work, allowing developers to focus on their code, and the IBM Cloud Code Engine has three main use cases: deploy applications, build and deploy applications, and run jobs.
+
+---
+
+### 2. [VIDEO TRANSCRIPT] Project, Application, Build, and Jobs Video • 5 min
+- **URL:** https://www.coursera.org/learn/applications-development-microservices-serverless-openshift/lecture/uvwok/project-application-build-and-jobs
+- **Method:** `dom_transcript` | **Length:** 4590 chars
+
+Welcome to ‘Project, Application, Build, and Jobs’. After watching this video, you will be able to Explain what a project is in IBM Cloud Code Engine, explain what an application is in IBM Cloud Code Engine, explain what a build is in IBM Cloud Code Engine, and explain what a job is in IBM Cloud Code Engine. The term project in Code Engine represents a group that contains and manages its resources and entities. A grouping in Code Engine contains entities such as build, app, job, and certificate for Transport Layer Service (or TLS) HTTPs connections, and so on. One important function of a project is providing a namespace for its entities. A namespace provides a mechanism for isolating groups of entities and resources within a single group. Names of entities need to be unique within a namespace, but not across namespaces.
+
+Another important function is managing resources and providing access control. Here you can see a sample screenshot of what a project looks like in IBM Cloud Code Engine. The project is called my-project and it groups and provides a namespace for all its entities. You can easily find the summary of all entities; for example, here you can see that it has 11 applications and 2 jobs. The project also provides access control and auditing of resources so that you can see which resources were updated. In addition, you can monitor the resource allocation for the whole project, such as Total CPU or memory usage. In Code Engine, your code will run the application.
+
+Like regular deployed web applications, your running application can serve HTTP requests or provide REST APIs. And in addition to traditional HTTP requests, Code Engine also supports applications that use WebSockets. Now a WebSocket is a communication protocol based on Transmission Control Protocol (or TCP). It is mostly used for long-running and session-based communication between clients and servers, such as a chat application. Code Engine scales your application by creating or destroying application running instances. The number of running instances of an app is automatically scaled up or down (to zero) based on incoming workloads and your configuration settings. Here you see a sample UI of a Code Engine project.
+
+The name of the application is ‘my-application’, and it is under a project called ‘my-project’. You can also see a green check icon that indicates that this application has been successfully deployed and is ready to serve. You can click the Application URL link to open your web application’s URL. In the Configuration section, you can configure the source of your application, which can either be from a registered container image or directly from the source code. In the Code Engine context, a build, or image build, is a mechanism you can use to create a container image from your source code. A container image includes every asset that a container needs to run, such as executable source code, dependencies, resources, container engines, system libraries, configuration settings, and so on. The Code Engine supports building from a Dockerfile, which is a text file that includes all the commands to build a docker container image.
+
+Alternatively, it can use a Cloud Native Buildpack. And a buildpack is another popular way to build the container image. It contains executables to perform tasks such as inspecting source code, creating a build plan, or executing the build plan to produce an image. After your container image is built from the source code, you can deploy your built container image to the Code Engine and create an application accordingly. Now a job is a one-time execution of your code. Like an application, a job runs executable code, and depending on the workload, the Code Engine will create one or more instances of a job. Unlike applications, which primarily handle HTTP requests or WebSocket sessions, jobs are designed to run one time and exit.
+
+So before you run a job in the Code Engine, you can specify workload configurations that are used each time the job runs. Some typical jobs are: Data processing jobs to query and transform data in batches, machine learning model training jobs, reporting jobs to generate reports based on a preset schedule, and billing jobs to create and send bills. In this video, you learned that: A project is a grouping of Code Engine entities such as applications, jobs, and builds, an application runs your code to serve HTTP requests or to create WebSocket sessions, a build is a process to create a container image from your source code, and a job runs one or more instances of your executable code.
+
+---
+
+### 3. [VIDEO TRANSCRIPT] Building Container Images for Microservices Video • 6 min
+- **URL:** https://www.coursera.org/learn/applications-development-microservices-serverless-openshift/lecture/etSjt/building-container-images-for-microservices
+- **Method:** `dom_transcript` | **Length:** 5320 chars
+
+Welcome to “Building Container Images for Microservices”. After watching this video, you will be able to explain what a Container is, explain what a Docker is, and build a Docker container image. A container is a standalone, all-inclusive, and executable unit of software. The application's source code is packaged within the container with its libraries, dependencies, and runtimes. Once built, the container can run on any device, such as a laptop, desktop PC, or on-premises servers. It can also run in the cloud. Now containers are small, fast, and portable because, unlike a virtual machine, they do not require a guest operating system with every instance, and instead can leverage the features and resources of the host operating system.
+
+One of the key elements of a microservice is that it is generally small and isolated in terms of computational resources for each running instance. This makes the container a perfect match for such small and lightweight services within microservices architectures. Docker is a software platform for building and running applications as containers Docker leads to an explosive usage of containerization. In addition, a huge collection of complementary tools, technologies, and development methodologies are still growing and building up a big Docker and containerization economy. Docker provides a straightforward way to build and run containers through an open-source platform. Docker is the main container technology used in IBM Cloud Engine. A container image is the basis of a cloud engine application.
+
+Let’s now discuss a typical way to build a container from source code using a Dockerfile. Suppose you have completed the application development and tested it locally in an IDE with its source code and dependencies, and libraries. And now, you want to build a docker container. The first step is to create a Dockerfile. A Dockerfile acts like a blueprint from which an image is built. It outlines all the instructions to build the desired container. A container image is built after the Dockerfile is created.
+
+Note that a container image and a container are two distinct things. An image is an immutable file containing all the application assets like source code, libraries, and dependencies necessary for an application to run. And the images are read-only; if you change an image, you create a new one. Like object-oriented programming, consider a container image like a class that acts like a template of a running container. Therefore, if we instantiate a container image, we get a running image called the container. So basically, you only need to write a proper Dockerfile, and the Docker handles the rest. Next, let’s see a Dockerfile example for building a Flask-based microservice.
+
+The first line of a Dockerfile starts with the FROM instruction to specify the base image that subsequent instructions will build upon. This base image is often from a public repository, like an operating system, or a base image from a specific language like Python here. Optionally, instead of the general Python docker image, you may add a more specific and advanced base image to better serve your microservice. For example, the uwsgi-nginx-flask allows you to create the Flask microservice in Python that runs with uWSGI and Nginx in a single container. The next Copy instruction copies all the files to the /app folder in the image. You can use the ENV instruction to set the environment variable. Here you set the LISTEN PORT to be 8080 meaning the container made from this image will listen on port 8080.
+
+The expose keyword in a Dockerfile indicates to the Docker that a container listens for traffic on the 8080. And the RUN instruction executes commands. For example, here we run pip install to install all required python libraries. And the last one is the CMD. The main purpose for this instruction is to provide a default for executing a container. This instruction often defines the executable that should run in your container. In the example, you run the flask microservice.
+
+But note that there can only be one CMD instruction in a Dockerfile. After your container image is built, you can push it to a container repository to be better managed. This container repository is called a container registry. Some common registries are Docker Hub and IBM Cloud Container Registry. The container image in the registry can be easily pulled and used with a unique image name. An image name consists of a hostname, repository, and a tag. The hostname identifies the registry to which the image should be pushed.
+
+For example, the icr.io represents the IBM Container Registry. Now a repository is a group of related container images. And usually, these will be different versions of the same application or service, so the name of the application or service makes a good repository name. Finally, the tag provides information about an image's specific version or variant. In this video, you learned that: A container is a standalone executable software unit packaged with all its dependencies. Docker is a very popular container-building and running platform. You can compose a Dockerfile to instruct the Docker platform to build a container image.
+
+And after the container image is built, it can be pushed to the container registry and then pulled by its image name.
+
+---
+
+### 4. [VIDEO TRANSCRIPT] Deploying and Running Applications Video • 4 min
+- **URL:** https://www.coursera.org/learn/applications-development-microservices-serverless-openshift/lecture/jmrN4/deploying-and-running-applications
+- **Method:** `dom_transcript` | **Length:** 3911 chars
+
+Welcome to “Deploying and Running Applications.” After watching this video, you will be able to explain two main modes of deploying a container image-based application, describe how to use IBM Cloud Console for the app deployment process, and describe how to use IBM Cloud CLI for the app deployment process. You can deploy your container image-based application to IBM Cloud Code using either of the two modes: First, you could build and push your container image to either a private or public container registry. The Cloud Code Engine can pull the image with a unique image name and then deploy it automatically by granting registry access. Or, if you do not want to manually build your image, you can specify a dockerfile or a buildpack along with your code and give instructions to the Cloud Engine to build your application from source code and then deploy it. So essentially, the two modes are the same. The only difference is who is responsible for building and pushing the container image.
+
+IBM Cloud Console is a well-designed web portal for end users to conveniently manage their IBM cloud services, including the Code Engine. In the IBM Cloud Console, you can easily create and deploy the application with just a few clicks. If you are familiar with the command line interface (CLI) and want to perform more precise deployment, you can choose IBM Cloud CLI to create and deploy the application. And then after your application has been deployed on the Code Engine, the Engine will provide an endpoint URL of your application which can lead to the main page of your application or the entry endpoint of your microservice. As discussed, the IBM Cloud Console provides a well-designed user interface to help you create and deploy your application easily. Now let’s see the main steps to create an application. First, you need to specify your application’s name.
+
+Then, you can select to deploy from a Container image or a Source code. Here you select the default Container image option. And next, you need to provide the reference to your image and, optionally, the registry access so that the code engine can pull your image from the registry. But note that these are just the main steps. There are other advanced settings you can configure as required by your application. So, after the application is created, the cloud engine will deploy it automatically. If the application runs without errors, it should be ready within several minutes.
+
+After the application is ready, you can click Test application to test it using a URL. Alternatively, if you prefer the command line interface, you can deploy your app using IBM Cloud CLI. The main command to create and deploy an application is “ibmcloud ce app create”: It has three main arguments: the name of your application, the image reference in a container registry, and a registry access, if the container registry is not public. Let’s see an example: Here you want to create an application called ‘helloworldapp’ from an image in us.icr.io registry server. For the Code Engine to pull the image, you create and provide a registry access called ‘myregistry.’ Now after the application is created and deployed, you can run and test your application using “ibmcloud ce app get” command, which has two main arguments the name of your application, and the output format of your application, such as a URL. Here, let’s see an example to get the output of the previously deployed application “helloworldapp.”
+
+You call ibmcloud ce app get with the app name, and you specify the output format as URL. Then you can see the publicly accessible URL of your application from the command output. In this video, you learned that you can create a Cloud Engine application either from a pushed container image or a source code repository. And per your preference, you can select to use IBM Cloud Console or IBM Cloud CLI to perform the application deployment tasks.
+
+---
+
+### 5. [VIDEO TRANSCRIPT] Updating Deployed Applications Video • 7 min
+- **URL:** https://www.coursera.org/learn/applications-development-microservices-serverless-openshift/lecture/o8DIa/updating-deployed-applications
+- **Method:** `dom_transcript` | **Length:** 5995 chars
+
+Welcome to “Updating Deployed Applications.” After watching this video, you will be able to describe the common scenarios of updating applications, update applications via IBM Cloud Console, and update applications via IBM Cloud CLI. Now suppose you develop a microservices-based PetShop web application for your pet business, and you deploy each microservice as an application within a code engine project. Your PetShop app receives a great amount of web traffic volume, so you decide to migrate some of your data from a SQL DB to a Non-SQL DB. Consequently, you develop and build another container image for your new DB service and update your Pets DB service based on the new image. In addition, you require some new environment variables for your application and more computation resources to handle the requests to your NoSQL DB. Code engine manages each revision of your deployed application so you do not need to delete your application and deploy a new one.
+
+You can simply update the existing application, and the code engine will create and manage a new revision for you. So, you have the following four common scenarios for updating your code engine applications: update environment variables such as database location or secret key; update application visibility, such as changing the URL of an application from public to private or project-only; update your application's image reference or GitHub repo; or update the runtime resources of your application. Now like application deployments, you can also update your application using the IBM Cloud Code Engine Console or CLI. If it is a simple update like adding an environment variable, it's easier and faster to use the well-designed console UI. But for more complex and precise application updates, the Code Engine CLI may be more appropriate. The main command to perform all app updates-related operations is "ibmcloud ce application update.” On your application console page, if you click the Environment variables table, you can find all the environment variables.
+
+To add or update an environment variable, you can click the "Add environment variable" button. Alternatively, if you prefer the command line interface (IBM Cloud CLI), the main command to add or update an environment variable is “ibmcloud ce app update” with two main arguments: the name of your application, and the name and value of your environment variable. Let’s see a quick example: First, add an environment variable called `DB_HOST` with value `localhost` to the ‘pet_db_service’ application. The update command returns the message the ‘pet_db_service’ is updated to the latest version. To double-check if the environment was added successfully, you can use the `app get` command to display the detailed information of pet_db_service application. You can now see that the environment variable DB_HOST is added as expected. Now when you deploy your application, it is assigned with two types of URLs: internal and external.
+
+Internal URLs help to communicate with other applications within your application. And external URLs can be public, external, or IBM private network only. The selection of the type of URL defines the visibility of your application. On your application console page, click the system Domain mappings tab to update the visibility of your application. When No external system domain mapping is selected, this application is not accessible from the public internet, and network access is only possible from components within this project (cluster-local). The cluster-local URL is displayed when the option is selected. When private is selected, this application is accessible via the IBM Cloud Virtual Private Endpoints.
+
+When public is selected, you can view the public and the cluster-local URL for the application. Similarly, you can update application visibility via CLI: The main command is still “ibmcloud ce app update” with two main arguments: the name of your application and the visibility of your application. Let’s see a quick example: You first update the ‘pet_db_service’ application’s visibility to “private.” Then, if you get the app’s detailed information, you should see two URLs. The external URL now contains a private subdomain which means now the pet_db_service can only be accessed via IBM virtual private networks. Now, you can update the image reference via Console UI as follows: On your application console page, click the “Code” tab. Then specify the new image reference for your application.
+
+On the CLI, the “ibmcloud ce app update” command has three arguments for updating image references: the name of your application, the name and value of your image reference, and registry secret to access the non-public container registry. Let’s see an example: Here you update the image reference to `us.icr.io/petshop/no_sql_pet_db_service` with container registry to be `myregistry` If your application instances have very long response time or very high CPU and memory usage, you can increase the application’s runtime resources. To do so, go to your application page and click the `Runtime` tab. Then you can update the CPU, memory, and ephemeral storage of your instance as per your requirements. If you want your application to scale up or down, you can also update the scaling and concurrency settings on the same UI. To update CPU or GPU via CLI, you will need to use the same “ibmcloud ce app update” command with three main arguments: the name of your application, the amount of CPU set for the instance, and the amount of memory set for the instance. Let’s see our example.
+
+You increase each instance of `pet_db_service` runtime resources to 2 CPUs and 16 GB memory. In this video, you learned that you can create a Cloud Engine application either from a pushed container image or ask Cloud Engine to build the image from a source code repository. And, you can select the UI with IBM Cloud Console or command line interface with IBM Cloud CLI to perform the deployment tasks as per your preference.
+
+---
+
+### 6. [READING] Module 4 Summary Reading • 2 min
+- **URL:** https://www.coursera.org/learn/applications-development-microservices-serverless-openshift/supplement/zFThq/module-4-summary
+- **Method:** `dom_reading_cml` | **Length:** 1333 chars
+
+Congratulations! You have completed this module. At this point in the course, you know that:
+
+- Self-hosted microservices can be very complex and challenging
+- IBM Cloud Code Engine is a fully managed platform that takes care of all the hard deployment work, allowing developers to focus on their code
+- IBM Cloud Code Engine has three main use cases: 1) deploy applications, 2) build and deploy applications, and 3) run jobs
+- A project is a grouping of Code Engine entities such as applications, jobs, and builds
+- An application runs your code to serve HTTP requests or to create WebSocket sessions
+- A build is a process to create a container image from your source code
+- A job runs one or more instances of your executable code
+- A container is a standalone executable software unit packaged with all its dependencies
+- Docker is a popular container building and running platform
+- You can compose a Dockerfile to instruct the Docker platform to build a container image
+- After the container image is built, it can be pushed to the container registry and then be pulled by its image name
+- You can create a Cloud Engine application either from a pushed container image or a source code repository
+- As per your preference, you can choose to use the IBM Cloud Console or IBM Cloud CLI to perform the application deployment tasks
+
+---
+
+## Module 5: Final Project
+
+### 1. [READING] Congrats & Next Steps Reading • 2 min
+- **URL:** https://www.coursera.org/learn/applications-development-microservices-serverless-openshift/supplement/3QBKy/congrats-next-steps
+- **Method:** `dom_reading_cml` | **Length:** 1069 chars
+
+Congratulations on completing this course. We hope you enjoyed it.
+
+This course is designed for all kinds of Cloud practitioners, including anyone who wants to design, develop, deploy, and manage applications and solutions on public, private, or hybrid cloud platforms. As a next step, you can take Introduction to Web Development with HTML, CSS, JavaScript | Coursera.
+
+In addition, you can go through the optional module:
+
+OpenShift Essentials/Working with OpenShift and Istio
+
+Other recommended courses are:
+
+Getting Started with Git and GitHub | Coursera
+
+IBM Full Stack Software Developer Professional Certificate
+
+IBM DevOps and Software Engineering Professional Certificate
+
+IBM Back-End Development Professional Certificate
+
+IBM Applied DevOps Engineering Professional Certificate
+
+If you would like to explore full-stack development further, you may wish to consider the next course Introduction to Containers w/Docker, Kubernetes & OpenShift.
+
+We encourage you to leave your feedback and rate this course so that we can continue to improve the course content.
+
+---
+
+### 2. [READING] Thanks from the course team Reading • 1 min
+- **URL:** https://www.coursera.org/learn/applications-development-microservices-serverless-openshift/supplement/WmWJB/thanks-from-the-course-team
+- **Method:** `dom_reading_cml` | **Length:** 1377 chars
+
+The entire course team thanks you for taking this course. We hope you enjoyed it and wish you the best in applying your new knowledge and skills. We encourage you to rate the course and provide a review. Your feedback is much appreciated.
+
+Best regards,
+
+Course Team
+
+- - -
+
+Version 2
+
+This course has been brought to you through the involvement of the following team of contributors:
+
+### Other Contributors and Staff
+
+Project Lead: Rav Ahuja
+
+Instructional Designers: Anita Narain
+
+Lab Author: Lavanya T S
+
+Technical Advisor: Muhammad Yahya
+
+### Production Team
+
+Publishing: Rachael Jones, Grace Barker
+
+QA: Sunny Anderson, Jarrod Renfro, Sydney Marsing
+
+Project Manager: Aritra Poddar
+
+Narration: Bella West
+
+Video Production: Sohini Biswas
+
+### Teaching Assistants and Forum Moderators
+
+Teaching Assistants: Srishti Srivastava, Shubham Yadav, Sourabh Mohan, Pallavi Rai, Anamika Agarwal, Lavanya T S
+
+Version 1
+
+#### Primary Instructors
+
+- Alex Parker
+
+Other Contributors & Staff
+
+- Project Lead: Rav Ahuja
+- Instructional Designer: Patsy Kravitz
+- Lab and Project Author, Technical Advisor: Alex Parker
+
+Production Team
+
+- Publishing: Grace Barker, Rachael Jones
+- Project Coordinator: Rachael Jones, Bryan Hayes
+- Narration: Gale Cruz
+- Video Production: Simer Preet, Samuel Anderson, Tanya Singh
+
+Teaching Assistants and Forum Moderators
+
+- Pallavi Rai
+- Anamika Agarwal
+
+---
+
+### 3. [READING] Further Your Learning Reading • 2 min
+- **URL:** https://www.coursera.org/learn/applications-development-microservices-serverless-openshift/supplement/QAYFa/further-your-learning
+- **Method:** `dom_reading_cml` | **Length:** 377 chars
+
+Put your skills into practice with IBM Cloud Pak for Integration
+
+Ready to take the next step? Explore how IBM Cloud Pak for Integration helps organizations connect applications, APIs, events, messaging systems, and data across hybrid cloud environments. Experience the platform through the approved interactive demo or trial destination.
+
+Explore IBM Cloud Pak for Integration
+
+---
+
+## Module 6: Optional: OpenShift Essentials/Working with OpenShift and Istio
+
+### 1. [VIDEO TRANSCRIPT] Red Hat OpenShift Recap Video • 4 min
+- **URL:** https://www.coursera.org/learn/applications-development-microservices-serverless-openshift/lecture/NyMag/red-hat-openshift-recap
+- **Method:** `dom_transcript` | **Length:** 3403 chars
+
+[Music] Welcome to the “Red Hat OpenShift Recap.” After watching this video, you will be able to: Explain what Red Hat OpenShift is, Describe the relationship between OpenShift and Kubernetes, identify the services provided by OpenShift to facilitate operations and development tasks. The concise definition of OpenShift, as provided on the Red Hat website, says that OpenShift is a hybrid cloud, enterprise Kubernetes application platform. Hybrid cloud is an IT architecture that incorporates workload portability, orchestration, and management across premises and cloud environments. You can run OpenShift in both on-premises and cloud environments. OpenShift builds on open-source Kubernetes to create an application platform. As an application platform, OpenShift does more than orchestrate containers.
+
+OpenShift also provides additional tooling around the complete lifecycle of applications—from build and CI/CD—to monitoring and logging. Of course, we should note that OpenShift is developed and supported by Red Hat. OpenShift is a platform for running microservices. OpenShift is tailormade for deploying cloud-native services in an automated fashion. Serverless architectures often work in tandem with other forms of compute such as virtual machines and containers. OpenShift orchestrates containerized workloads and thus provides an excellent pattern for a cloud-native application. You can integrate OpenShift with serverless technologies when serverless can better meet your organization’s needs.
+
+Kubernetes and OpenShift are closely connected. An analogy to the Linux kernel is often used to convey the relationship between Kubernetes and OpenShift. A kernel is a powerful program at the center of an operating system. While the Linus kernel is foundational and capable, many Linux distributions, such as Ubuntu, Fedora, and Debian, build upon the kernel. These distributions are operating systems with additional features and functions that use the Linux kernel as their own. Just like a Fedora distribution of Linux, OpenShift is a distribution of Kubernetes, building on its foundational capabilities. Let’s look at what’s included with OpenShift using a diagram reproduced from the OpenShift website.
+
+First, in an OpenShift environment, the Kubernetes master runs on Red Hat Enterprise Linux CoreOS, while the worker nodes support Red Hat Enterprise Linux. Next is Kubernetes. As we’ve already mentioned, Kubernetes is an integral part of OpenShift, part of the offering. So far, the OpenShift architecture is like Kubernetes. OpenShift infrastructure includes Kubernetes deployed on top. Next are cluster services. Cluster services include integrated monitoring, a private registry deployed within the cluster, networking solutions, and many other features designed to create a helpful and intuitive user experience.
+
+On top of the cluster services, platform services help users manage their workloads. Application services help users build cloud-native apps, while developer services help increase developer productivity. In this video, you learned that: Red Hat OpenShift is a platform for running containerized workloads like microservices. OpenShift is like a Kubernetes distribution in that OpenShift builds additional capabilities on top of Kubernetes. OpenShift provides a variety of services to manage workloads, build cloud-native apps, and increase developer productivity.
+
+---
+
+### 2. [VIDEO TRANSCRIPT] Service Mesh and Istio Video • 7 min
+- **URL:** https://www.coursera.org/learn/applications-development-microservices-serverless-openshift/lecture/SznZ6/service-mesh-and-istio
+- **Method:** `dom_transcript` | **Length:** 6785 chars
+
+[Music] Welcome to “Service Mesh and Istio.” After watching this video, you will be able to: List the benefits of microservices, Describe the challenges that come with microservices, Explain what a service mesh is, Describe why a service mesh is useful, Describe how a service mesh can alleviate common microservices challenges. Using a microservices architecture to build cloud-native applications provides numerous benefits. Updating code is more manageable with microservices—you only need to update the relevant services. With microservices, teams who develop different application components are free to use other technology stacks that meet their unique needs. In addition, when an application is running, components that experience more load can be scaled independently, preventing the entire application from needing to be scaled when only one component requires more resources. Using microservices also brings some challenges.
+
+Microservices require configuration to secure communications and set up encryption. Development teams might want to roll out new features to a subset of users or compare two versions of a new feature to see which version most engages users. In these situations, teams need canary deployments and A/B testing. Communication between microservices also leads to the possibility of cascading failures if one service is unreachable or particularly slow. To prevent communication failures from cascading to multiple microservices, developers must implement retries and circuit breaking. Now let’s talk about service meshes. A service mesh is a dedicated layer for making service-to-service communication secure and reliable.
+
+Among other capabilities, service meshes provide traffic management to control the flow of traffic between services, security to encrypt traffic between services, and observability of service behavior to troubleshoot and optimize applications. To learn more about service mesh capabilities, and specifically the Istio service mesh, here is Ram Vennam from the IBM Cloud team. Let's use this example application. I have a UI microservice talking to two versions of catalog, which talk to inventory. All of these are services deployed inside of a Kubernetes cluster. The number one reason why someone uses a service mesh is because they want to secure their workload. So they want mutual TLS when one service is talking to another.
+
+Next, they want to dynamically configure how the services are connected to one another. So, in this example, there's version one and version two. So, I might want to send 90 percent of the traffic to version 1 and then 10 percent of the traffic to version 2 while I do testing and incremental rollouts. I might also want to try adding retry policies and circuit breaking to harden my system. Three. I want to observe how my application is doing end to end, not just if a service is up or down but see where the bottlenecks are in the system and how traffic is flowing. And four, I want to control who has access to talk to what.
+
+In this example, UI is allowed to talk to catalog, and catalog is allowed to talk to inventory, but UI is not allowed to talk to inventory directly, and rogue containers cannot talk to inventory service. You can get more granular than that and say that UI is allowed to make an HTTP get request and catalog is allowed to make a post request to inventory. In the past, we used to have our developers program all of these features directly into their application code. That slowed down the dev cycle, it made these microservices bigger, and just generally made everything less flexible, but now there's a better way and that's the service mesh. You keep your application small and business-focused and, instead, you dynamically program the intelligence into the network and that's exactly what Istio does. So, when you have Istio installed, the first thing you'll do is... it'll automatically inject proxies next to each one of your containers, and these proxies are envoy proxies, and the proxy itself runs in a container next to your application container, but it runs inside the same Kubernetes pod. Now, when UI wants to talk to catalog, the proxy will actually intercept that request, apply any policies, and then route traffic to the proxy on the other side, and then the catalog proxy will receive that request and then forward it down to the catalog.
+
+Istio will configure each one of these proxies with your desired configuration. Istio extends Kubernetes using CRDs. So, to apply Istio configuration, you just write your YAML and then apply it to Kubernetes. The Istio galley component will receive that YAML, validate it, and then hand it over to Istio pilot. Pilot will convert that configuration to envoy configuration and distribute it to each one of the proxies. If you want the proxies to add additional policies and rules there's a policy component. And then these proxies constantly report telemetry information about what's going on into your system to the Istio telemetry component.
+
+And last but not least, there's citadel. Citadel is responsible for providing a strong identity to each one of the services in your system. It also generates certificates and rolls it out to each one of the proxies so that the proxies can do mutual TLS when they're talking to one another. To get started with Istio and to configure Istio, there's three main resources that you need to learn about. First, there's a gateway. Gateway is like a load balancer that sits at the edge of your mesh and accepts incoming and outgoing HTTP and TCP connections. Next, to direct traffic from gateway to your services you create a virtual service.
+
+And a virtual service can be bound to a gateway and direct traffic to UI or it could be bound to a service and then direct traffic to your other services, where you can apply policies like ninety percent and ten percent traffic split rules. Once traffic is routed, you can apply rules on top of that traffic such as TLS settings or circuit breaking, and those are done using destination rules. And those are the three main resources you need to know about Istio. I'm actually going to put policy and telemetry in asterisks because there's some refactoring that's going on with these components. The logic is being moved outside of this control plane and into the proxies themselves to avoid the additional network hop. This translates to improved performance. In this video, you learned that: Microservices architectures need security between services as well as ways to manage and test services, A service mesh is a dedicated layer that provides security and more by coordinating communication in the environment, Istio provides traffic shifting, mutual transport layer security, and telemetry when deployed with microservices.
+
+---
+
+### 3. [VIDEO TRANSCRIPT] Microservices with OpenShift Video • 4 min
+- **URL:** https://www.coursera.org/learn/applications-development-microservices-serverless-openshift/lecture/Qg3N5/microservices-with-openshift
+- **Method:** `dom_transcript` | **Length:** 3751 chars
+
+[Music] Welcome to Microservices with OpenShift. After watching this video, you'll be able to Describe how OpenShift makes developers lives easier, Explain the process by which microservices are deployed on OpenShift. Watch Si Vennam from the IBM Cloud team describe how to deploy microservices with OpenShift. We'll start with developers. So we'll sketch out a developer up here. Now what does a developer have to do? Well, they generally have to write applications, create changes, test them out, deploy them into a cluster, and they're really just focused on that and any other kind of distractions will slow them down from that task.
+
+So, with dev, the first thing that they're going to want to do when starting with OpenShift is to create a project and an application. To do so, OpenShift has two different ways of enabling developers to work with their platform. So, one you can take advantage of the CLI, and there's also a really powerful web console that they could work with as well. So, the first thing that the dev wants to do is take advantage of one of those two form factors to create a project and an application. And there's templates for all different kinds of source code and programming languages that the dev wants to work with. So, they'll go ahead and do that and then, you know, once they get into their flow of creating updates to an application, the very first step they're going to want to do is push changes to a repository. And in this case, let's use GitHub as an example.
+
+Let's say that this developer is making changes into GitHub. That's really all they need to do. Behind the scenes, OpenShift is going to take care of the rest. So, when that application and project was created, OpenShift in the back end will create a jenkins job and pipeline that helps power deploying this application. So, once code gets pushed into that GitHub, it'll trigger a web hook, which kicks off a Jenkins job. Which is just going to do two things: First, what it's going to do is do something called source to image, which is going to create a docker image out of that source code. Next, it's going to go ahead and take that and put it into a registry.
+
+A private registry, which comes built-in in OpenShift and, in fact, you can actually use public registries or your own registry if you have it outside of this context as well. Once that image gets built and pushed into that registry next, what OpenShift will do is go ahead and push that into the actual cluster. And that's what we've got here is two hosts that are in our cluster in OpenShift. We're gonna take that image and let's say that we've set it up to deploy two times. And we'll call this v1 of the application. So, let's kind of overview that process one more time. So, the developer makes some change to a code then Jenkins will kind of kick off that build, create an image, push that image to a registry, and then a little bit of a different thing here, So, in this step right here, OpenShift takes advantage of something called image streams, which is a little bit different to how Kubernetes will do things and essentially what it enables you to do is whenever a change is kind of detected with that image, an image stream will allow you to push those with no downtime to your applications.
+
+So, what it'll do is, you know, with that new version of that code, it'll bring down the old version, start the new version until we've rolled out the whole new version of that application. This is just a few ways that OpenShift makes developers' lives easier. In this video, you learned that OpenShift creates a Jenkins job to automatically build microservices into containers, OpenShift pushes the built containers to a registry and deploys those containers to the cluster
+
+---
+
+### 4. [READING] Optional Module Summary Reading • 10 min
+- **URL:** https://www.coursera.org/learn/applications-development-microservices-serverless-openshift/supplement/v9VtX/optional-module-summary
+- **Method:** `dom_reading_cml` | **Length:** 931 chars
+
+Congratulations! You have completed this module. At this point in the course, you know that:
+
+- Red Hat OpenShift is a platform for running containerized workloads like microservices.
+- OpenShift is like a Kubernetes distribution in that OpenShift with additional capabilities. OpenShift services help manage workloads, build cloud-native apps, and increase developer productivity. For example, OpenShift creates a Jenkins job to automatically build microservices into containers. In addition, OpenShift pushes the built containers to a registry and deploys those containers to the cluster
+- Microservices architectures need security among services as well as ways to manage and test services.
+- A service mesh is a dedicated layer that provides security and more by coordinating communication. Istio is a service mesh that provides traffic shifting, mutual transport layer security, and telemetry when deployed with microservices.
+
+---

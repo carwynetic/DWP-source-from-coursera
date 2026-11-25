@@ -1,0 +1,26 @@
+name: DWP301cCodex
+options:
+  bundleIdPrefix: com.carwynetic
+  deploymentTarget:
+    iOS: "15.0"
+targets:
+  DWP301cCodex:
+    type: application
+    platform: iOS
+    deploymentTarget: "15.0"
+    sources:
+      - path: DWP301cCodex
+        excludes:
+          - "**/*.md"
+    resources:
+      - path: DWP301cCodex/DWP301c_Offline.html
+      - path: DWP301cCodex/Assets.xcassets
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.carwynetic.dwp301ccodex
+        PRODUCT_NAME: DWP301cCodex
+        INFOPLIST_FILE: DWP301cCodex/Info.plist
+        SWIFT_VERSION: "5.0"
+        TARGETED_DEVICE_FAMILY: "1,2"
+        CODE_SIGN_STYLE: Automatic
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon

@@ -1,0 +1,727 @@
+{
+  "crawled_at": "2026-11-24T14:23:52.714179",
+  "course": {
+    "key": "coursera3",
+    "name": "Getting Started with Git and GitHub",
+    "slug": "getting-started-with-git-and-github",
+    "url": "https://www.coursera.org/learn/getting-started-with-git-and-github"
+  },
+  "total_quizzes_discovered": 5,
+  "total_mc_quizzes_extracted": 5,
+  "total_mc_questions": 27,
+  "quizzes": [
+    {
+      "title": "Practice Quiz: Getting Started with Git and GitHub Practice Assignment • 10 min • Grade: --",
+      "page_title": "Practice Quiz: Getting Started with Git and GitHub",
+      "source": "Module 1",
+      "kind": "practice_quiz",
+      "url": "https://www.coursera.org/learn/getting-started-with-git-and-github/assignment-submission/PEiE8/practice-quiz-getting-started-with-git-and-github",
+      "final_url": "https://www.coursera.org/learn/getting-started-with-git-and-github/assignment-submission/PEiE8/practice-quiz-getting-started-with-git-and-github/attempt",
+      "status": "opened_via_button:Start assignment",
+      "question_count": 5,
+      "questions": [
+        {
+          "index": 1,
+          "question_type": "single_choice",
+          "prompt_text": "Which of the following options do you use to request someone to review and approve your project changes before they become final?",
+          "options": [
+            {
+              "text": "Commit changes",
+              "checked": false
+            },
+            {
+              "text": "Repository",
+              "checked": false
+            },
+            {
+              "text": "Pull request",
+              "checked": false
+            },
+            {
+              "text": "Fork",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "1.\nQuestion 1\n\nWhich of the following options do you use to request someone to review and approve your project changes before they become final?\n\nDo you understand?.\n\nI understand\n\nCommit changes\n\nRepository\n\nPull request\n\nFork\n\n1 point"
+        },
+        {
+          "index": 2,
+          "question_type": "single_choice",
+          "prompt_text": "What is the primary purpose of version control?",
+          "options": [
+            {
+              "text": "Allows you to keep track of changes to your documents",
+              "checked": false
+            },
+            {
+              "text": "Creates a backup of the documents",
+              "checked": false
+            },
+            {
+              "text": "Allows you to securely log in from one computer to another",
+              "checked": false
+            },
+            {
+              "text": "Alters the formatting of the documents",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "2.\nQuestion 2\n\nWhat is the primary purpose of version control?\n\nDo you understand?.\n\nI understand\n\nAllows you to keep track of changes to your documents\n\nCreates a backup of the documents\n\nAllows you to securely log in from one computer to another\n\nAlters the formatting of the documents\n\n1 point"
+        },
+        {
+          "index": 3,
+          "question_type": "single_choice",
+          "prompt_text": "Which of the following is a feature of the Git Repository model?",
+          "options": [
+            {
+              "text": "It sorts code into folders and subfolders",
+              "checked": false
+            },
+            {
+              "text": "It is a distributed version control system",
+              "checked": false
+            },
+            {
+              "text": "It is based on a binary tree",
+              "checked": false
+            },
+            {
+              "text": "It corrects bad code in a project",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "3.\nQuestion 3\n\nWhich of the following is a feature of the Git Repository model?\n\nDo you understand?.\n\nI understand\n\nIt sorts code into folders and subfolders\n\nIt is a distributed version control system\n\nIt is based on a binary tree\n\nIt corrects bad code in a project\n\n1 point"
+        },
+        {
+          "index": 4,
+          "question_type": "single_choice",
+          "prompt_text": "What is an “organization” in reference to GitHub?",
+          "options": [
+            {
+              "text": "The top level of a repository tree",
+              "checked": false
+            },
+            {
+              "text": "A name you must specify for your repository",
+              "checked": false
+            },
+            {
+              "text": "A collection of user accounts that own repositories",
+              "checked": false
+            },
+            {
+              "text": "A path to the code files in a project",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "4.\nQuestion 4\n\nWhat is an “organization” in reference to GitHub?\n\nDo you understand?.\n\nI understand\n\nThe top level of a repository tree\n\nA name you must specify for your repository\n\nA collection of user accounts that own repositories\n\nA path to the code files in a project\n\n1 point"
+        },
+        {
+          "index": 5,
+          "question_type": "single_choice",
+          "prompt_text": "How will you create a python file in GitHub?",
+          "options": [
+            {
+              "text": "Settings > Select Create New File> Pull Requests",
+              "checked": false
+            },
+            {
+              "text": "Settings > Select Create New File> Commit changes",
+              "checked": false
+            },
+            {
+              "text": "Select Add File > Select upload files > Choose Your Files > Add File > Add the code > Commit changes to the repository",
+              "checked": false
+            },
+            {
+              "text": "Select Add File > Select Create New File> Provide the file name > Add a comment > Add the code > Commit changes to the repository",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "5.\nQuestion 5\n\nHow will you create a python file in GitHub?\n\nDo you understand?.\n\nI understand\n\nSettings > Select Create New File> Pull Requests\n\nSettings > Select Create New File> Commit changes\n\nSelect Add File > Select upload files > Choose Your Files > Add File > Add the code > Commit changes to the repository\n\nSelect Add File > Select Create New File> Provide the file name > Add a comment > Add the code > Commit changes to the repository\n\n1 point"
+        }
+      ],
+      "raw_page_text": "N\nGetting Started with Git and GitHub\nToday's goal • 0/3 items\n\nComplete 3 items today to stay at a good pace!\n\nModule 1\nGit and GitHub Fundamentals\nGetting Started with Git and GitHub\nCourse Introduction\nVideo\n. Duration: 3 minutes\n3 min\nOverview of Git and GitHub\nVideo\n. Duration: 3 minutes\n3 min\nIntroduction to GitHub\nVideo\n. Duration: 4 minutes\n4 min\nGitHub Repositories\nVideo\n. Duration: 4 minutes\n4 min\nGitHub - Getting Started\nVideo\n. Duration: 3 minutes\n3 min\nHands-On Lab: GitHub Sign Up and Create Repo\nUngraded Plugin\n. Duration: 30 minutes\n30 min\nSummary: Getting Started with Git and GitHub\nReading\n. Duration: 2 minutes\n2 min\nPractice Quiz: Getting Started with Git and GitHub\nPractice Assignment\n. Duration: 10 minutes\n10 min\nBranches with GitHub\nGitHub Branches\nVideo\n. Duration: 4 minutes\n4 min\nHands-On Lab: Branching and Merging (Web UI)\nUngraded Plugin\n. Duration: 20 minutes\n20 min\nSummary: Branches with GitHub\nReading\n. Duration: 2 minutes\n2 min\nPractice Quiz: Branches with GitHub\nPractice Assignment\n. Duration: 6 minutes\n6 min\nGlossary and Graded Quiz\nGlossary: Git and GitHub Fundamentals \nUngraded Plugin\n. Duration: 5 minutes\n5 min\nGraded Quiz: Git and GitHub Fundamentals\nGraded AssignmentGrade: 100%\nModule 2\nGit Commands and Managing GitHub Projects\nModule 3\nFinal Project and Assessment\nModule 4\n[Optional] Working with GitHub from Your Windows Desktop\n\nPractice Assignment\n\nPractice Quiz: Getting Started with Git and GitHub\nResume assignment\nHelp me practice\nWhat to expect\nDue Nov 15, 11:59 PM +07\nUnlimited attempts\n\nThis is a practice assignment to help you check your understanding. It doesn’t count toward your course grade.\n\nReport an issue\nGo to next item\nBack\nPractice Quiz: Getting Started with Git and GitHub\n\nPractice Assignment • 10 min\n\nDueNov 15, 11:59 PM +07\n1.\nQuestion 1\n\nWhich of the following options do you use to request someone to review and approve your project changes before they become final?\n\nDo you understand?.\n\nI understand\n\nCommit changes\n\nRepository\n\nPull request\n\nFork\n\n1 point\n2.\nQuestion 2\n\nWhat is the primary purpose of version control?\n\nDo you understand?.\n\nI understand\n\nAllows you to keep track of changes to your documents\n\nCreates a backup of the documents\n\nAllows you to securely log in from one computer to another\n\nAlters the formatting of the documents\n\n1 point\n3.\nQuestion 3\n\nWhich of the following is a feature of the Git Repository model?\n\nDo you understand?.\n\nI understand\n\nIt sorts code into folders and subfolders\n\nIt is a distributed version control system\n\nIt is based on a binary tree\n\nIt corrects bad code in a project\n\n1 point\n4.\nQuestion 4\n\nWhat is an “organization” in reference to GitHub?\n\nDo you understand?.\n\nI understand\n\nThe top level of a repository tree\n\nA name you must specify for your repository\n\nA collection of user accounts that own repositories\n\nA path to the code files in a project\n\n1 point\n5.\nQuestion 5\n\nHow will you create a python file in GitHub?\n\nDo you understand?.\n\nI understand\n\nSettings > Select Create New File> Pull Requests\n\nSettings > Select Create New File> Commit changes\n\nSelect Add File > Select upload files > Choose Your Files > Add File > Add the code > Commit changes to the repository\n\nSelect Add File > Select Create New File> Provide the file name > Add a comment > Add the code > Commit changes to the repository\n\n1 point\nCoursera Honor Code\n\nBy clicking Submit, you confirm this work is your own. Submitting work created with AI tools may result in course failure or account deactivation according to Coursera Honor Code policy.\n\nI, NGUYEN PHUC, understand and agree.\nYou must select the checkbox in order to submit the assignment\nSubmit\nSave draft\n\nLast saved on Nov 24, 2:22 PM +07\n\nLike\nDislike\nReport an issue"
+    },
+    {
+      "title": "Practice Quiz: Branches with GitHub Practice Assignment • 6 min • Grade: --",
+      "page_title": "Practice Quiz: Branches with GitHub",
+      "source": "Module 1",
+      "kind": "practice_quiz",
+      "url": "https://www.coursera.org/learn/getting-started-with-git-and-github/assignment-submission/LzCdF/practice-quiz-branches-with-github",
+      "final_url": "https://www.coursera.org/learn/getting-started-with-git-and-github/assignment-submission/LzCdF/practice-quiz-branches-with-github/attempt",
+      "status": "opened_via_button:Start assignment",
+      "question_count": 3,
+      "questions": [
+        {
+          "index": 1,
+          "question_type": "single_choice",
+          "prompt_text": "Which of the following does the main branch store?",
+          "options": [
+            {
+              "text": "The deployable version of the project code",
+              "checked": false
+            },
+            {
+              "text": "The original and unchanged versions of the code",
+              "checked": false
+            },
+            {
+              "text": "The files that contain documentation only",
+              "checked": false
+            },
+            {
+              "text": "The project files, including files from forks",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "1.\nQuestion 1\n\nWhich of the following does the main branch store?  \n\nDo you understand?.\n\nI understand\n\nThe deployable version of the project code \n\nThe original and unchanged versions of the code \n\nThe files that contain documentation only \n\nThe project files, including files from forks \n\n1 point"
+        },
+        {
+          "index": 2,
+          "question_type": "single_choice",
+          "prompt_text": "Which of the following best describes the function of a pull request?",
+          "options": [
+            {
+              "text": "Makes the proposed committed changes available for others to review and merge into the main branch",
+              "checked": false
+            },
+            {
+              "text": "Helps to create a copy of the main branch",
+              "checked": false
+            },
+            {
+              "text": "Shows the difference in the content between the child branch and the main branch",
+              "checked": false
+            },
+            {
+              "text": "Facilitates the creation of a child branch",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "2.\nQuestion 2\n\nWhich of the following best describes the function of a pull request?\n\nDo you understand?.\n\nI understand\n\nMakes the proposed committed changes available for others to review and merge into the main branch\n\nHelps to create a copy of the main branch\n\nShows the difference in the content between the child branch and the main branch\n\nFacilitates the creation of a child branch\n\n1 point"
+        },
+        {
+          "index": 3,
+          "question_type": "single_choice",
+          "prompt_text": "Identify the correct statement.",
+          "options": [
+            {
+              "text": "To add a file to the child branch, you need to add it to the main branch first.",
+              "checked": false
+            },
+            {
+              "text": "If you add a file to the child branch, it will automatically reflect in the main branch.",
+              "checked": false
+            },
+            {
+              "text": "It is not possible to add a file to the child branch.",
+              "checked": false
+            },
+            {
+              "text": "You can add files in the child branch without adding any to the main branch.",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "3.\nQuestion 3\n\nIdentify the correct statement.\n\nDo you understand?.\n\nI understand\n\nTo add a file to the child branch, you need to add it to the main branch first.\n\nIf you add a file to the child branch, it will automatically reflect in the main branch.\n\nIt is not possible to add a file to the child branch.\n\nYou can add files in the child branch without adding any to the main branch.\n\n1 point"
+        }
+      ],
+      "raw_page_text": "N\nGetting Started with Git and GitHub\nToday's goal • 0/3 items\n\nComplete 3 items today to stay at a good pace!\n\nModule 1\nGit and GitHub Fundamentals\nGetting Started with Git and GitHub\nCourse Introduction\nVideo\n. Duration: 3 minutes\n3 min\nOverview of Git and GitHub\nVideo\n. Duration: 3 minutes\n3 min\nIntroduction to GitHub\nVideo\n. Duration: 4 minutes\n4 min\nGitHub Repositories\nVideo\n. Duration: 4 minutes\n4 min\nGitHub - Getting Started\nVideo\n. Duration: 3 minutes\n3 min\nHands-On Lab: GitHub Sign Up and Create Repo\nUngraded Plugin\n. Duration: 30 minutes\n30 min\nSummary: Getting Started with Git and GitHub\nReading\n. Duration: 2 minutes\n2 min\nPractice Quiz: Getting Started with Git and GitHub\nPractice Assignment\n. Duration: 10 minutes\n10 min\nBranches with GitHub\nGitHub Branches\nVideo\n. Duration: 4 minutes\n4 min\nHands-On Lab: Branching and Merging (Web UI)\nUngraded Plugin\n. Duration: 20 minutes\n20 min\nSummary: Branches with GitHub\nReading\n. Duration: 2 minutes\n2 min\nPractice Quiz: Branches with GitHub\nPractice Assignment\n. Duration: 6 minutes\n6 min\nGlossary and Graded Quiz\nGlossary: Git and GitHub Fundamentals \nUngraded Plugin\n. Duration: 5 minutes\n5 min\nGraded Quiz: Git and GitHub Fundamentals\nGraded AssignmentGrade: 100%\nModule 2\nGit Commands and Managing GitHub Projects\nModule 3\nFinal Project and Assessment\nModule 4\n[Optional] Working with GitHub from Your Windows Desktop\n\nPractice Assignment\n\nPractice Quiz: Branches with GitHub\nResume assignment\nHelp me practice\nWhat to expect\nDue Nov 22, 11:59 PM +07\nUnlimited attempts\n\nThis is a practice assignment to help you check your understanding. It doesn’t count toward your course grade.\n\nReport an issue\nGo to next item\nBack\nPractice Quiz: Branches with GitHub\n\nPractice Assignment • 6 min\n\nDueNov 22, 11:59 PM +07\n1.\nQuestion 1\n\nWhich of the following does the main branch store?  \n\nDo you understand?.\n\nI understand\n\nThe deployable version of the project code \n\nThe original and unchanged versions of the code \n\nThe files that contain documentation only \n\nThe project files, including files from forks \n\n1 point\n2.\nQuestion 2\n\nWhich of the following best describes the function of a pull request?\n\nDo you understand?.\n\nI understand\n\nMakes the proposed committed changes available for others to review and merge into the main branch\n\nHelps to create a copy of the main branch\n\nShows the difference in the content between the child branch and the main branch\n\nFacilitates the creation of a child branch\n\n1 point\n3.\nQuestion 3\n\nIdentify the correct statement.\n\nDo you understand?.\n\nI understand\n\nTo add a file to the child branch, you need to add it to the main branch first.\n\nIf you add a file to the child branch, it will automatically reflect in the main branch.\n\nIt is not possible to add a file to the child branch.\n\nYou can add files in the child branch without adding any to the main branch.\n\n1 point\nCoursera Honor Code\n\nBy clicking Submit, you confirm this work is your own. Submitting work created with AI tools may result in course failure or account deactivation according to Coursera Honor Code policy.\n\nI, NGUYEN PHUC, understand and agree.\nYou must select the checkbox in order to submit the assignment\nSubmit\nSave draft\n\nLast saved on Nov 24, 2:22 PM +07\n\nLike\nDislike\nReport an issue"
+    },
+    {
+      "title": "Graded Quiz: Git and GitHub Fundamentals, Graded",
+      "page_title": "Graded Quiz: Git and GitHub Fundamentals",
+      "source": "Module 1",
+      "kind": "graded_quiz",
+      "url": "https://www.coursera.org/learn/getting-started-with-git-and-github/assignment-submission/YztLf/graded-quiz-git-and-github-fundamentals",
+      "final_url": "https://www.coursera.org/learn/getting-started-with-git-and-github/assignment-submission/YztLf/graded-quiz-git-and-github-fundamentals/view-feedback",
+      "status": "opened_via_button",
+      "question_count": 7,
+      "questions": [
+        {
+          "index": 1,
+          "question_type": "single_choice",
+          "prompt_text": "What is the relation between Git and GitHub?",
+          "options": [
+            {
+              "text": "GitHub is a main section in the Git project workflow.",
+              "checked": false
+            },
+            {
+              "text": "GitHub is an open-source tool used to create Git.",
+              "checked": false
+            },
+            {
+              "text": "GitHub is an online hosting service for Git repositories.",
+              "checked": true
+            },
+            {
+              "text": "GitHub is a program required for version control on Git.",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "1.\nQuestion 1\n\nWhat is the relation between Git and GitHub?\n\nDo you understand?.\n\nI understand\n\nGitHub is a main section in the Git project workflow. \n\nGitHub is an open-source tool used to create Git. \n\nGitHub is an online hosting service for Git repositories. \n\nGitHub is a program required for version control on Git. \n\nNice work\n\nCorrect! GitHub is one of the most popular web-hosted services for Git repositories. \n\n1 / 1 point"
+        },
+        {
+          "index": 2,
+          "question_type": "single_choice",
+          "prompt_text": "Which of the following describes a repository?",
+          "options": [
+            {
+              "text": "A collection of user accounts that are connected to a pull request",
+              "checked": false
+            },
+            {
+              "text": "A basic unit of storage in Git that cannot be changed",
+              "checked": false
+            },
+            {
+              "text": "A plain text file that explains the purpose of a project",
+              "checked": false
+            },
+            {
+              "text": "A data structure that stores documents and source code",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "2.\nQuestion 2\n\nWhich of the following describes a repository?\n\nDo you understand?.\n\nI understand\n\nA collection of user accounts that are connected to a pull request \n\nA basic unit of storage in Git that cannot be changed \n\nA plain text file that explains the purpose of a project \n\nA data structure that stores documents and source code\n\nNice work\n\nCorrect! A repository is a data structure for storing documents, including application source code. \n\n1 / 1 point"
+        },
+        {
+          "index": 3,
+          "question_type": "single_choice",
+          "prompt_text": "What is the purpose of a license?",
+          "options": [
+            {
+              "text": "To record all changes made to a repository",
+              "checked": false
+            },
+            {
+              "text": "To express how people can use your code",
+              "checked": true
+            },
+            {
+              "text": "To establish a secure remote login between computers",
+              "checked": false
+            },
+            {
+              "text": "To describe the purpose of the project",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "3.\nQuestion 3\n\nWhat is the purpose of a license? \n\nDo you understand?.\n\nI understand\n\nTo record all changes made to a repository\n\nTo express how people can use your code\n\nTo establish a secure remote login between computers\n\nTo describe the purpose of the project\n\nNice work\n\nCorrect! The purpose of a license file is to express how people can use your code. \n\n1 / 1 point"
+        },
+        {
+          "index": 4,
+          "question_type": "single_choice",
+          "prompt_text": "What is the role of “commit” in GitHub?",
+          "options": [
+            {
+              "text": "To save changes",
+              "checked": true
+            },
+            {
+              "text": "To merge",
+              "checked": false
+            },
+            {
+              "text": "To pull requests",
+              "checked": false
+            },
+            {
+              "text": "To undo changes",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "4.\nQuestion 4\n\nWhat is the role of “commit” in GitHub? \n\nDo you understand?.\n\nI understand\n\nTo save changes \n\nTo merge\n\nTo pull requests \n\nTo undo changes\n\nNice work\n\nCorrect! To save your changes to a GitHub repository, you must commit the changes. \n\n1 / 1 point"
+        },
+        {
+          "index": 5,
+          "question_type": "single_choice",
+          "prompt_text": "What type of version control system is Git?",
+          "options": [
+            {
+              "text": "Centralized",
+              "checked": false
+            },
+            {
+              "text": "Distributed",
+              "checked": true
+            },
+            {
+              "text": "Local",
+              "checked": false
+            },
+            {
+              "text": "Remote",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "5.\nQuestion 5\n\nWhat type of version control system is Git?\n\nDo you understand?.\n\nI understand\n\nCentralized\n\nDistributed\n\nLocal\n\nRemote\n\nNice work\n\nCorrect! Git is a distributed version control system, meaning each team member has a copy of the entire project, including its files and revision history, on their computer.\n\n1 / 1 point"
+        },
+        {
+          "index": 6,
+          "question_type": "single_choice",
+          "prompt_text": "Which of the following statements is associated with a working directory?",
+          "options": [
+            {
+              "text": "Contains project folders that are set up for version control",
+              "checked": false
+            },
+            {
+              "text": "Contains the files and subdirectories on the computer that are associated with a Git repository",
+              "checked": true
+            },
+            {
+              "text": "A separate line of development that allows one to work independently",
+              "checked": false
+            },
+            {
+              "text": "Copy of a repository",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "6.\nQuestion 6\n\nWhich of the following statements is associated with a working directory?\n\nDo you understand?.\n\nI understand\n\nContains project folders that are set up for version control\n\nContains the files and subdirectories on the computer that are associated with a Git repository\n\nA separate line of development that allows one to work independently\n\nCopy of a repository\n\nNice work\n\nCorrect! A working directory contains the files and subdirectories on your computer that are associated with a Git repository.\n\n1 / 1 point"
+        },
+        {
+          "index": 7,
+          "question_type": "single_choice",
+          "prompt_text": "What happens if you make a change on a repository branch that you don't own?",
+          "options": [
+            {
+              "text": "GitHub makes a pull request",
+              "checked": true
+            },
+            {
+              "text": "GitHub undoes the changes.",
+              "checked": false
+            },
+            {
+              "text": "GitHub issues a push request for the owner.",
+              "checked": false
+            },
+            {
+              "text": "GitHub generates an error message.",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "7.\nQuestion 7\n\nWhat happens if you make a change on a repository branch that you don't own?\n\nDo you understand?.\n\nI understand\n\nGitHub makes a pull request\n\nGitHub undoes the changes.\n\nGitHub issues a push request for the owner.\n\nGitHub generates an error message.\n\nNice work\n\nCorrect! GitHub automatically makes a pull request on your behalf if you make a change on a repository branch that you do not own. \n\n1 / 1 point"
+        }
+      ],
+      "raw_page_text": "N\nGetting Started with Git and GitHub\nToday's goal • 0/3 items\n\nComplete 3 items today to stay at a good pace!\n\nModule 1\nGit and GitHub Fundamentals\nGetting Started with Git and GitHub\nCourse Introduction\nVideo\n. Duration: 3 minutes\n3 min\nOverview of Git and GitHub\nVideo\n. Duration: 3 minutes\n3 min\nIntroduction to GitHub\nVideo\n. Duration: 4 minutes\n4 min\nGitHub Repositories\nVideo\n. Duration: 4 minutes\n4 min\nGitHub - Getting Started\nVideo\n. Duration: 3 minutes\n3 min\nHands-On Lab: GitHub Sign Up and Create Repo\nUngraded Plugin\n. Duration: 30 minutes\n30 min\nSummary: Getting Started with Git and GitHub\nReading\n. Duration: 2 minutes\n2 min\nPractice Quiz: Getting Started with Git and GitHub\nPractice Assignment\n. Duration: 10 minutes\n10 min\nBranches with GitHub\nGitHub Branches\nVideo\n. Duration: 4 minutes\n4 min\nHands-On Lab: Branching and Merging (Web UI)\nUngraded Plugin\n. Duration: 20 minutes\n20 min\nSummary: Branches with GitHub\nReading\n. Duration: 2 minutes\n2 min\nPractice Quiz: Branches with GitHub\nPractice Assignment\n. Duration: 6 minutes\n6 min\nGlossary and Graded Quiz\nGlossary: Git and GitHub Fundamentals \nUngraded Plugin\n. Duration: 5 minutes\n5 min\nGraded Quiz: Git and GitHub Fundamentals\nGraded AssignmentGrade: 100%\nModule 2\nGit Commands and Managing GitHub Projects\nModule 3\nFinal Project and Assessment\nModule 4\n[Optional] Working with GitHub from Your Windows Desktop\nWarning:\nCourse Staff updated this assessment. You’ll see the changes when you start or edit.\n\nGraded Assignment\n\nGraded Quiz: Git and GitHub Fundamentals\n\nAssessment monitored for academic integrity and AI-usage. Privacy Notice\n\nGo to next item\nTry again\nWhat to expect\nDue Nov 22, 11:59 PM +07\n3 attempts\n\nevery 8 hours\n\nYou passed!\n\nTo pass you need a grade of at least 71%.\n\n100%\nView feedback\n\nSubmitted Nov 9, 8:27 PM +07.\n\nReport an issue\nGo to next item\nBack\nGraded Quiz: Git and GitHub Fundamentals\n\nGraded Assignment • 21 min\n\nDueNov 22, 11:59 PM +07\nYour grade: 100%\nYour latest: 100%•\nYour highest: 100%•\nTo pass you need at least 71%. We keep your highest score.\nNext item\n1.\nQuestion 1\n\nWhat is the relation between Git and GitHub?\n\nDo you understand?.\n\nI understand\n\nGitHub is a main section in the Git project workflow. \n\nGitHub is an open-source tool used to create Git. \n\nGitHub is an online hosting service for Git repositories. \n\nGitHub is a program required for version control on Git. \n\nNice work\n\nCorrect! GitHub is one of the most popular web-hosted services for Git repositories. \n\n1 / 1 point\n2.\nQuestion 2\n\nWhich of the following describes a repository?\n\nDo you understand?.\n\nI understand\n\nA collection of user accounts that are connected to a pull request \n\nA basic unit of storage in Git that cannot be changed \n\nA plain text file that explains the purpose of a project \n\nA data structure that stores documents and source code\n\nNice work\n\nCorrect! A repository is a data structure for storing documents, including application source code. \n\n1 / 1 point\n3.\nQuestion 3\n\nWhat is the purpose of a license? \n\nDo you understand?.\n\nI understand\n\nTo record all changes made to a repository\n\nTo express how people can use your code\n\nTo establish a secure remote login between computers\n\nTo describe the purpose of the project\n\nNice work\n\nCorrect! The purpose of a license file is to express how people can use your code. \n\n1 / 1 point\n4.\nQuestion 4\n\nWhat is the role of “commit” in GitHub? \n\nDo you understand?.\n\nI understand\n\nTo save changes \n\nTo merge\n\nTo pull requests \n\nTo undo changes\n\nNice work\n\nCorrect! To save your changes to a GitHub repository, you must commit the changes. \n\n1 / 1 point\n5.\nQuestion 5\n\nWhat type of version control system is Git?\n\nDo you understand?.\n\nI understand\n\nCentralized\n\nDistributed\n\nLocal\n\nRemote\n\nNice work\n\nCorrect! Git is a distributed version control system, meaning each team member has a copy of the entire project, including its files and revision history, on their computer.\n\n1 / 1 point\n6.\nQuestion 6\n\nWhich of the following statements is associated with a working directory?\n\nDo you understand?.\n\nI understand\n\nContains project folders that are set up for version control\n\nContains the files and subdirectories on the computer that are associated with a Git repository\n\nA separate line of development that allows one to work independently\n\nCopy of a repository\n\nNice work\n\nCorrect! A working directory contains the files and subdirectories on your computer that are associated with a Git repository.\n\n1 / 1 point\n7.\nQuestion 7\n\nWhat happens if you make a change on a repository branch that you don't own?\n\nDo you understand?.\n\nI understand\n\nGitHub makes a pull request\n\nGitHub undoes the changes.\n\nGitHub issues a push request for the owner.\n\nGitHub generates an error message.\n\nNice work\n\nCorrect! GitHub automatically makes a pull request on your behalf if you make a change on a repository branch that you do not own. \n\n1 / 1 point"
+    },
+    {
+      "title": "Practice Quiz: Git Workflows with Git Commands Practice Assignment • Submitted • Grade: 100% • Status: Graded Graded",
+      "page_title": "Practice Quiz: Git Workflows with Git Commands",
+      "source": "Module 2",
+      "kind": "practice_quiz",
+      "url": "https://www.coursera.org/learn/getting-started-with-git-and-github/assignment-submission/IvefF/practice-quiz-git-workflows-with-git-commands",
+      "final_url": "https://www.coursera.org/learn/getting-started-with-git-and-github/assignment-submission/IvefF/practice-quiz-git-workflows-with-git-commands/view-feedback",
+      "status": "opened_via_button",
+      "question_count": 5,
+      "questions": [
+        {
+          "index": 1,
+          "question_type": "single_choice",
+          "prompt_text": "What is meant by an initial commit in a Git workflow?",
+          "options": [
+            {
+              "text": "A request to your team to review and approve changes",
+              "checked": false
+            },
+            {
+              "text": "Officially recording the current state of your project’s files in the local Git repository",
+              "checked": true
+            },
+            {
+              "text": "Retrieving changes made by the team and updating your local repository",
+              "checked": false
+            },
+            {
+              "text": "Creating a local copy of the project’s code from the remote repository",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "1.\nQuestion 1\n\nWhat is meant by an initial commit in a Git workflow?\n\nDo you understand?.\n\nI understand\n\nA request to your team to review and approve changes \n\nOfficially recording the current state of your project’s files in the local Git repository \n\nRetrieving changes made by the team and updating your local repository \n\nCreating a local copy of the project’s code from the remote repository \n\nNice work\n\nCorrect! An initial commit is the process of officially recording and saving the current state of your project’s files in the local Git repository. This step marks the starting point of your project’s version history.\n\n1 / 1 point"
+        },
+        {
+          "index": 2,
+          "question_type": "single_choice",
+          "prompt_text": "Which git command allows you to see the state of your working directory and the staged snapshot of your changes?",
+          "options": [
+            {
+              "text": "git status",
+              "checked": true
+            },
+            {
+              "text": "git reset",
+              "checked": false
+            },
+            {
+              "text": "git checkout",
+              "checked": false
+            },
+            {
+              "text": "git log",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "2.\nQuestion 2\n\nWhich git command allows you to see the state of your working directory and the staged snapshot of your changes? \n\nDo you understand?.\n\nI understand\n\ngit status \n\ngit reset \n\ngit checkout \n\ngit log\n\nNice work\n\nCorrect! The git status command allows you to see the state of your working directory and the staged snapshot of your changes.\n\n1 / 1 point"
+        },
+        {
+          "index": 3,
+          "question_type": "single_choice",
+          "prompt_text": "Why do you fork a project?",
+          "options": [
+            {
+              "text": "To create a backup of the main branch of the project",
+              "checked": false
+            },
+            {
+              "text": "To give a new user permission to the project",
+              "checked": false
+            },
+            {
+              "text": "To use an existing repository as the base for a new project",
+              "checked": true
+            },
+            {
+              "text": "To add a branch to an existing tree in the project",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "3.\nQuestion 3\n\nWhy do you fork a project?\n\nDo you understand?.\n\nI understand\n\nTo create a backup of the main branch of the project\n\nTo give a new user permission to the project\n\nTo use an existing repository as the base for a new project\n\nTo add a branch to an existing tree in the project\n\nNice work\n\nCorrect! Forking allows you to modify or extend a repository without affecting the original repository. Frequently, developers use forking to make an existing repository the starting point of your new project.\n\n1 / 1 point"
+        },
+        {
+          "index": 4,
+          "question_type": "single_choice",
+          "prompt_text": "Which of the following options should be used to fork a repository?",
+          "options": [
+            {
+              "text": "Navigate to the GitHub project and select Fork at the top of the page.",
+              "checked": true
+            },
+            {
+              "text": "git copy",
+              "checked": false
+            },
+            {
+              "text": "Click the “Copy” button on the project page",
+              "checked": false
+            },
+            {
+              "text": "git fork",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "4.\nQuestion 4\n\nWhich of the following options should be used to fork a repository?\n\nDo you understand?.\n\nI understand\n\nNavigate to the GitHub project and select Fork at the top of the page.\n\ngit copy\n\nClick the “Copy” button on the project page\n\ngit fork\n\nNice work\n\nCorrect! There are no Git commands used for forking a project. You can fork it by navigating to the GitHub project and selecting the Fork option.\n\n1 / 1 point"
+        },
+        {
+          "index": 5,
+          "question_type": "single_choice",
+          "prompt_text": "Which Git command can an integrator use to undo any botched commits?",
+          "options": [
+            {
+              "text": "git revert",
+              "checked": true
+            },
+            {
+              "text": "git pull",
+              "checked": false
+            },
+            {
+              "text": "git request-pull",
+              "checked": false
+            },
+            {
+              "text": "git push",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "5.\nQuestion 5\n\nWhich Git command can an integrator use to undo any botched commits?\n\nDo you understand?.\n\nI understand\n\ngit revert\n\ngit pull\n\ngit request-pull\n\ngit push\n\nNice work\n\nCorrect! An integrator can use git-revert command to undo any botched commits.\n\n1 / 1 point"
+        }
+      ],
+      "raw_page_text": "N\nGetting Started with Git and GitHub\nToday's goal • 0/3 items\n\nComplete 3 items today to stay at a good pace!\n\nModule 1\nGit and GitHub Fundamentals\nModule 2\nGit Commands and Managing GitHub Projects\nGit Workflows with Git Commands\nOverview of Git Workflows\nVideo\n. Duration: 6 minutes\n6 min\nOverview of Git Commands\nVideo\n. Duration: 5 minutes\n5 min\nReading: Git Commands\nUngraded Plugin\n. Duration: 15 minutes\n15 min\nDemo: Working with Branches using Git Commands\nVideo\n. Duration: 4 minutes\n4 min\nHands-On Lab: Getting Started with Branches using Git Commands\nUngraded App Item\n. Duration: 25 minutes\n25 min\nCloning and Forking GitHub Projects\nVideo\n. Duration: 5 minutes\n5 min\nCloning versus Forking\nVideo\n. Duration: 6 minutes\n6 min\nManaging GitHub Projects\nVideo\n. Duration: 3 minutes\n3 min\nHands-On Lab: Cloning and Forking GitHub Projects\nUngraded App Item\n. Duration: 25 minutes\n25 min\nSummary: Git Workflows with Git Commands\nReading\n. Duration: 2 minutes\n2 min\nPractice Quiz: Git Workflows with Git Commands\nPractice AssignmentGrade: 100%\nCheat Sheet, Glossary and Graded Quiz\nCheat Sheet: Git Commands and Managing GitHub Projects\nUngraded Plugin\n. Duration: 10 minutes\n10 min\nGlossary: Git Commands and Managing GitHub Projects\nUngraded Plugin\n. Duration: 4 minutes\n4 min\nGraded Quiz: Git Commands and Managing GitHub Projects\nGraded AssignmentGrade: 100%\nModule 3\nFinal Project and Assessment\nModule 4\n[Optional] Working with GitHub from Your Windows Desktop\n\nPractice Assignment\n\nPractice Quiz: Git Workflows with Git Commands\nGo to next item\nTry again\nWhat to expect\nDue Nov 29, 11:59 PM +07\nUnlimited attempts\n\nYou passed!\n\nTo pass you need a grade of at least 60%.\n\n100%\nView feedback\n\nSubmitted Nov 9, 8:28 PM +07.\n\nReport an issue\nGo to next item\nBack\nPractice Quiz: Git Workflows with Git Commands\n\nPractice Assignment • 10 min\n\nDueNov 29, 11:59 PM +07\nYour grade: 100%\nYour latest: 100%•\nYour highest: 100%•\nTo pass you need at least 60%. We keep your highest score.\nNext item\n1.\nQuestion 1\n\nWhat is meant by an initial commit in a Git workflow?\n\nDo you understand?.\n\nI understand\n\nA request to your team to review and approve changes \n\nOfficially recording the current state of your project’s files in the local Git repository \n\nRetrieving changes made by the team and updating your local repository \n\nCreating a local copy of the project’s code from the remote repository \n\nNice work\n\nCorrect! An initial commit is the process of officially recording and saving the current state of your project’s files in the local Git repository. This step marks the starting point of your project’s version history.\n\n1 / 1 point\n2.\nQuestion 2\n\nWhich git command allows you to see the state of your working directory and the staged snapshot of your changes? \n\nDo you understand?.\n\nI understand\n\ngit status \n\ngit reset \n\ngit checkout \n\ngit log\n\nNice work\n\nCorrect! The git status command allows you to see the state of your working directory and the staged snapshot of your changes.\n\n1 / 1 point\n3.\nQuestion 3\n\nWhy do you fork a project?\n\nDo you understand?.\n\nI understand\n\nTo create a backup of the main branch of the project\n\nTo give a new user permission to the project\n\nTo use an existing repository as the base for a new project\n\nTo add a branch to an existing tree in the project\n\nNice work\n\nCorrect! Forking allows you to modify or extend a repository without affecting the original repository. Frequently, developers use forking to make an existing repository the starting point of your new project.\n\n1 / 1 point\n4.\nQuestion 4\n\nWhich of the following options should be used to fork a repository?\n\nDo you understand?.\n\nI understand\n\nNavigate to the GitHub project and select Fork at the top of the page.\n\ngit copy\n\nClick the “Copy” button on the project page\n\ngit fork\n\nNice work\n\nCorrect! There are no Git commands used for forking a project. You can fork it by navigating to the GitHub project and selecting the Fork option.\n\n1 / 1 point\n5.\nQuestion 5\n\nWhich Git command can an integrator use to undo any botched commits?\n\nDo you understand?.\n\nI understand\n\ngit revert\n\ngit pull\n\ngit request-pull\n\ngit push\n\nNice work\n\nCorrect! An integrator can use git-revert command to undo any botched commits.\n\n1 / 1 point"
+    },
+    {
+      "title": "Graded Quiz: Git Commands and Managing GitHub Projects Graded Assignment • Submitted • Grade: 100% • Status: Graded Graded",
+      "page_title": "Graded Quiz: Git Commands and Managing GitHub Projects",
+      "source": "Module 2",
+      "kind": "graded_quiz",
+      "url": "https://www.coursera.org/learn/getting-started-with-git-and-github/assignment-submission/eTeLl/graded-quiz-git-commands-and-managing-github-projects",
+      "final_url": "https://www.coursera.org/learn/getting-started-with-git-and-github/assignment-submission/eTeLl/graded-quiz-git-commands-and-managing-github-projects/view-feedback",
+      "status": "opened_via_button",
+      "question_count": 7,
+      "questions": [
+        {
+          "index": 1,
+          "question_type": "single_choice",
+          "prompt_text": "You need to run three commands to push local changes to the GitHub repository. Which command will you use when your changes are ready to be moved to the GitHub repository?",
+          "options": [
+            {
+              "text": "git remove -v",
+              "checked": false
+            },
+            {
+              "text": "git add",
+              "checked": false
+            },
+            {
+              "text": "git commit -m",
+              "checked": false
+            },
+            {
+              "text": "git push",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "1.\nQuestion 1\n\nYou need to run three commands to push local changes to the GitHub repository. Which command will you use when your changes are ready to be moved to the GitHub repository?\n\nDo you understand?.\n\nI understand\n\ngit remove -v\n\ngit add\n\ngit commit -m\n\ngit push\n\nNice work\n\nCorrect! The third command needed to push local changes to the GitHub repository is git push.\n\n1 / 1 point"
+        },
+        {
+          "index": 2,
+          "question_type": "single_choice",
+          "prompt_text": "What are three commonly used commands for working with remote repositories?",
+          "options": [
+            {
+              "text": "open, close, send",
+              "checked": false
+            },
+            {
+              "text": "open, edit, push",
+              "checked": false
+            },
+            {
+              "text": "push, pull, fetch",
+              "checked": true
+            },
+            {
+              "text": "create, delete, copy",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "2.\nQuestion 2\n\nWhat are three commonly used commands for working with remote repositories?\n\nDo you understand?.\n\nI understand\n\nopen, close, send\n\nopen, edit, push\n\npush, pull, fetch\n\ncreate, delete, copy\n\nNice work\n\nCorrect! Three commonly used operations for working with remote repositories are push, pull, and fetch.\n\n1 / 1 point"
+        },
+        {
+          "index": 3,
+          "question_type": "single_choice",
+          "prompt_text": "When managing forks, which command can you use to fetch and merge the remote branch in a single step?",
+          "options": [
+            {
+              "text": "git pull downstream",
+              "checked": false
+            },
+            {
+              "text": "git merge upstream/main",
+              "checked": false
+            },
+            {
+              "text": "git fetch upstream",
+              "checked": false
+            },
+            {
+              "text": "git pull <upstream>",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "3.\nQuestion 3\n\nWhen managing forks, which command can you use to fetch and merge the remote branch in a single step?\n\nDo you understand?.\n\nI understand\n\ngit pull downstream\n\ngit merge upstream/main\n\ngit fetch upstream\n\ngit pull <upstream>\n\nNice work\n\nCorrect! When managing forks, you can use the git pull <upstream> command to fetch and merge the remote branch in a single step.\n\n1 / 1 point"
+        },
+        {
+          "index": 4,
+          "question_type": "single_choice",
+          "prompt_text": "Which of the following commands is used to make a branch active?",
+          "options": [
+            {
+              "text": "git checkout",
+              "checked": true
+            },
+            {
+              "text": "git commit",
+              "checked": false
+            },
+            {
+              "text": "git add",
+              "checked": false
+            },
+            {
+              "text": "git branch",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "4.\nQuestion 4\n\nWhich of the following commands is used to make a branch active?\n\nDo you understand?.\n\nI understand\n\ngit checkout\n\ngit commit\n\ngit add\n\ngit branch\n\nNice work\n\nCorrect!  The ‘git checkout’ command is used to switch the currently active branch. It can also be used to restore files.\n\n1 / 1 point"
+        },
+        {
+          "index": 5,
+          "question_type": "single_choice",
+          "prompt_text": "Which command can a developer use to keep up-to-date with the upstream?",
+          "options": [
+            {
+              "text": "git pull <upstream> and git fetch <upstream>",
+              "checked": true
+            },
+            {
+              "text": "git request pull",
+              "checked": false
+            },
+            {
+              "text": "git revert",
+              "checked": false
+            },
+            {
+              "text": "git push",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "5.\nQuestion 5\n\nWhich command can a developer use to keep up-to-date with the upstream?\n\nDo you understand?.\n\nI understand\n\ngit pull <upstream> and git fetch <upstream>\n\ngit request pull\n\ngit revert\n\ngit push\n\nNice work\n\nCorrect! A developer uses git pull and git fetch to “pull” or “fetch” the repository from \"origin\" to keep up-to-date with the upstream.\n\n1 / 1 point"
+        },
+        {
+          "index": 6,
+          "question_type": "single_choice",
+          "prompt_text": "In Git workflow, which step involves creating a separate workspace for making changes and developing features without interfering with the main codebase?",
+          "options": [
+            {
+              "text": "Creating a branch from the main repository and working on the branch",
+              "checked": true
+            },
+            {
+              "text": "Performing an initial commit after selecting the required files",
+              "checked": false
+            },
+            {
+              "text": "Initializing a Git repository in your project's local directory",
+              "checked": false
+            },
+            {
+              "text": "Selecting and moving files to the staging area",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "6.\nQuestion 6\n\nIn Git workflow, which step involves creating a separate workspace for making changes and developing features without interfering with the main codebase?\n\nDo you understand?.\n\nI understand\n\nCreating a branch from the main repository and working on the branch\n\nPerforming an initial commit after selecting the required files\n\nInitializing a Git repository in your project's local directory\n\nSelecting and moving files to the staging area\n\nNice work\n\nCorrect! You create a branch from the main repository and work on the branch. A branch in Git is like a separate workspace where you can make changes and develop features without interfering with the main codebase.\n\n1 / 1 point"
+        },
+        {
+          "index": 7,
+          "question_type": "single_choice",
+          "prompt_text": "Which of the following commands helps you to view the commit history?",
+          "options": [
+            {
+              "text": "git checkout",
+              "checked": false
+            },
+            {
+              "text": "git history",
+              "checked": false
+            },
+            {
+              "text": "git commit",
+              "checked": false
+            },
+            {
+              "text": "git log",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "7.\nQuestion 7\n\nWhich of the following commands helps you to view the commit history?\n\nDo you understand?.\n\nI understand\n\ngit checkout\n\ngit history\n\ngit commit\n\ngit log\n\nNice work\n\nCorrect! The git log command helps you to browse previous changes to a project by enabling you to view the commit history.\n\n1 / 1 point"
+        }
+      ],
+      "raw_page_text": "N\nGetting Started with Git and GitHub\nToday's goal • 0/3 items\n\nComplete 3 items today to stay at a good pace!\n\nModule 1\nGit and GitHub Fundamentals\nModule 2\nGit Commands and Managing GitHub Projects\nGit Workflows with Git Commands\nOverview of Git Workflows\nVideo\n. Duration: 6 minutes\n6 min\nOverview of Git Commands\nVideo\n. Duration: 5 minutes\n5 min\nReading: Git Commands\nUngraded Plugin\n. Duration: 15 minutes\n15 min\nDemo: Working with Branches using Git Commands\nVideo\n. Duration: 4 minutes\n4 min\nHands-On Lab: Getting Started with Branches using Git Commands\nUngraded App Item\n. Duration: 25 minutes\n25 min\nCloning and Forking GitHub Projects\nVideo\n. Duration: 5 minutes\n5 min\nCloning versus Forking\nVideo\n. Duration: 6 minutes\n6 min\nManaging GitHub Projects\nVideo\n. Duration: 3 minutes\n3 min\nHands-On Lab: Cloning and Forking GitHub Projects\nUngraded App Item\n. Duration: 25 minutes\n25 min\nSummary: Git Workflows with Git Commands\nReading\n. Duration: 2 minutes\n2 min\nPractice Quiz: Git Workflows with Git Commands\nPractice AssignmentGrade: 100%\nCheat Sheet, Glossary and Graded Quiz\nCheat Sheet: Git Commands and Managing GitHub Projects\nUngraded Plugin\n. Duration: 10 minutes\n10 min\nGlossary: Git Commands and Managing GitHub Projects\nUngraded Plugin\n. Duration: 4 minutes\n4 min\nGraded Quiz: Git Commands and Managing GitHub Projects\nGraded AssignmentGrade: 100%\nModule 3\nFinal Project and Assessment\nModule 4\n[Optional] Working with GitHub from Your Windows Desktop\n\nGraded Assignment\n\nGraded Quiz: Git Commands and Managing GitHub Projects\n\nAssessment monitored for academic integrity and AI-usage. Privacy Notice\n\nGo to next item\nTry again\nWhat to expect\nDue Dec 6, 11:59 PM +07\n3 attempts\n\nevery 8 hours\n\nYou passed!\n\nTo pass you need a grade of at least 71%.\n\n100%\nView feedback\n\nSubmitted Nov 9, 8:44 PM +07.\n\nReport an issue\nGo to next item\nBack\nGraded Quiz: Git Commands and Managing GitHub Projects\n\nGraded Assignment • 21 min\n\nDueDec 6, 11:59 PM +07\nYour grade: 100%\nYour latest: 100%•\nYour highest: 100%•\nTo pass you need at least 71%. We keep your highest score.\nNext item\n1.\nQuestion 1\n\nYou need to run three commands to push local changes to the GitHub repository. Which command will you use when your changes are ready to be moved to the GitHub repository?\n\nDo you understand?.\n\nI understand\n\ngit remove -v\n\ngit add\n\ngit commit -m\n\ngit push\n\nNice work\n\nCorrect! The third command needed to push local changes to the GitHub repository is git push.\n\n1 / 1 point\n2.\nQuestion 2\n\nWhat are three commonly used commands for working with remote repositories?\n\nDo you understand?.\n\nI understand\n\nopen, close, send\n\nopen, edit, push\n\npush, pull, fetch\n\ncreate, delete, copy\n\nNice work\n\nCorrect! Three commonly used operations for working with remote repositories are push, pull, and fetch.\n\n1 / 1 point\n3.\nQuestion 3\n\nWhen managing forks, which command can you use to fetch and merge the remote branch in a single step?\n\nDo you understand?.\n\nI understand\n\ngit pull downstream\n\ngit merge upstream/main\n\ngit fetch upstream\n\ngit pull <upstream>\n\nNice work\n\nCorrect! When managing forks, you can use the git pull <upstream> command to fetch and merge the remote branch in a single step.\n\n1 / 1 point\n4.\nQuestion 4\n\nWhich of the following commands is used to make a branch active?\n\nDo you understand?.\n\nI understand\n\ngit checkout\n\ngit commit\n\ngit add\n\ngit branch\n\nNice work\n\nCorrect!  The ‘git checkout’ command is used to switch the currently active branch. It can also be used to restore files.\n\n1 / 1 point\n5.\nQuestion 5\n\nWhich command can a developer use to keep up-to-date with the upstream?\n\nDo you understand?.\n\nI understand\n\ngit pull <upstream> and git fetch <upstream>\n\ngit request pull\n\ngit revert\n\ngit push\n\nNice work\n\nCorrect! A developer uses git pull and git fetch to “pull” or “fetch” the repository from \"origin\" to keep up-to-date with the upstream.\n\n1 / 1 point\n6.\nQuestion 6\n\nIn Git workflow, which step involves creating a separate workspace for making changes and developing features without interfering with the main codebase?\n\nDo you understand?.\n\nI understand\n\nCreating a branch from the main repository and working on the branch\n\nPerforming an initial commit after selecting the required files\n\nInitializing a Git repository in your project's local directory\n\nSelecting and moving files to the staging area\n\nNice work\n\nCorrect! You create a branch from the main repository and work on the branch. A branch in Git is like a separate workspace where you can make changes and develop features without interfering with the main codebase.\n\n1 / 1 point\n7.\nQuestion 7\n\nWhich of the following commands helps you to view the commit history?\n\nDo you understand?.\n\nI understand\n\ngit checkout\n\ngit history\n\ngit commit\n\ngit log\n\nNice work\n\nCorrect! The git log command helps you to browse previous changes to a project by enabling you to view the commit history.\n\n1 / 1 point"
+    }
+  ]
+}

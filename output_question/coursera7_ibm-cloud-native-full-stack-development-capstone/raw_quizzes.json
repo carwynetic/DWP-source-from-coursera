@@ -1,0 +1,687 @@
+{
+  "crawled_at": "2026-11-24T14:39:02.109391",
+  "course": {
+    "key": "coursera7",
+    "name": "Full Stack Application Development Capstone Project",
+    "slug": "ibm-cloud-native-full-stack-development-capstone",
+    "url": "https://www.coursera.org/learn/ibm-cloud-native-full-stack-development-capstone"
+  },
+  "total_quizzes_discovered": 5,
+  "total_mc_quizzes_extracted": 5,
+  "total_mc_questions": 38,
+  "quizzes": [
+    {
+      "title": "Checklist: Static Pages Graded Assignment • Submitted • Grade: 100% • Status: Graded Graded",
+      "page_title": "Checklist: Static Pages",
+      "source": "Module 1",
+      "kind": "graded_quiz",
+      "url": "https://www.coursera.org/learn/ibm-cloud-native-full-stack-development-capstone/assignment-submission/YSuU2/checklist-static-pages",
+      "final_url": "https://www.coursera.org/learn/ibm-cloud-native-full-stack-development-capstone/assignment-submission/YSuU2/checklist-static-pages/view-feedback",
+      "status": "opened_via_button",
+      "question_count": 5,
+      "questions": [
+        {
+          "index": 1,
+          "question_type": "single_choice",
+          "prompt_text": "Have you forked the GitHub repo containing the project template?",
+          "options": [
+            {
+              "text": "Yes",
+              "checked": true
+            },
+            {
+              "text": "No",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "1.\nQuestion 1\n\nHave you forked the GitHub repo containing the project template? \n\nDo you understand?.\n\nI understand\n\nYes\n\nNo\n\nNice work\n1 / 1 point"
+        },
+        {
+          "index": 2,
+          "question_type": "single_choice",
+          "prompt_text": "Have you added the \"About Us\" static page?",
+          "options": [
+            {
+              "text": "Yes",
+              "checked": true
+            },
+            {
+              "text": "No",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "2.\nQuestion 2\n\nHave you added the \"About Us\" static page? \n\nDo you understand?.\n\nI understand\n\nYes\n\nNo\n\nNice work\n1 / 1 point"
+        },
+        {
+          "index": 3,
+          "question_type": "single_choice",
+          "prompt_text": "Have you added the \"Contact Us\" static page?",
+          "options": [
+            {
+              "text": "Yes",
+              "checked": true
+            },
+            {
+              "text": "No",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "3.\nQuestion 3\n\nHave you added the \"Contact Us\" static page? \n\nDo you understand?.\n\nI understand\n\nYes\n\nNo\n\nNice work\n1 / 1 point"
+        },
+        {
+          "index": 4,
+          "question_type": "single_choice",
+          "prompt_text": "Have you run and tested your Django application?",
+          "options": [
+            {
+              "text": "Yes",
+              "checked": true
+            },
+            {
+              "text": "No",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "4.\nQuestion 4\n\nHave you run and tested your Django application? \n\nDo you understand?.\n\nI understand\n\nYes\n\nNo\n\nNice work\n1 / 1 point"
+        },
+        {
+          "index": 5,
+          "question_type": "single_choice",
+          "prompt_text": "Have you updated your repository with all the changes?",
+          "options": [
+            {
+              "text": "Yes",
+              "checked": true
+            },
+            {
+              "text": "No",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "5.\nQuestion 5\n\nHave you updated your repository with all the changes?\n\nDo you understand?.\n\nI understand\n\nYes\n\nNo\n\nNice work\n1 / 1 point"
+        }
+      ],
+      "raw_page_text": "N\nFull Stack Application Development Capstone Project\nToday's goal • 0/3 items\n\nComplete 3 items today to stay at a good pace!\n\nModule 1\nApplication - Static Pages\nIntroduction\nCourse Introduction\nVideo\n. Duration: 4 minutes\n4 min\nScenario and Review Criteria\nUngraded Plugin\n. Duration: 15 minutes\n15 min\nArchitecture Overview\nUngraded Plugin\n. Duration: 15 minutes\n15 min\nProject Overview\nVideo\n. Duration: 5 minutes\n5 min\nOverview: Application - Static Pages\nOverview: Application - Static Pages\nReading\n. Duration: 1 minute\n1 min\nHands-on Lab: Static Pages\nUngraded App Item\n. Duration: 1 hour\n1h\nChecklist: Static Pages\nGraded AssignmentGrade: 100%\nModule 2\nApplication - User Management\nModule 3\nBack End Services\nModule 4\nApplication - Dynamic Pages\nModule 5\nCI/CD, Containerize & Deploy to Kubernetes\nModule 6\nShare Your Project\nModule 7\nEnhancement of Car Dealership Portal\n\nGraded Assignment\n\nChecklist: Static Pages\n\nAssessment monitored for academic integrity and AI-usage. Privacy Notice\n\nGo to next item\nTry again\nWhat to expect\nDue Nov 15, 11:59 PM +07\n3 attempts\n\nevery 8 hours\n\nYou passed!\n\nTo pass you need a grade of at least 60%.\n\n100%\nView feedback\n\nSubmitted Nov 9, 8:26 PM +07.\n\nReport an issue\nGo to next item\nBack\nChecklist: Static Pages\n\nGraded Assignment • 10 min\n\nDueNov 15, 11:59 PM +07\nYour grade: 100%\nYour latest: 100%•\nYour highest: 100%•\nTo pass you need at least 60%. We keep your highest score.\nNext item\n1.\nQuestion 1\n\nHave you forked the GitHub repo containing the project template? \n\nDo you understand?.\n\nI understand\n\nYes\n\nNo\n\nNice work\n1 / 1 point\n2.\nQuestion 2\n\nHave you added the \"About Us\" static page? \n\nDo you understand?.\n\nI understand\n\nYes\n\nNo\n\nNice work\n1 / 1 point\n3.\nQuestion 3\n\nHave you added the \"Contact Us\" static page? \n\nDo you understand?.\n\nI understand\n\nYes\n\nNo\n\nNice work\n1 / 1 point\n4.\nQuestion 4\n\nHave you run and tested your Django application? \n\nDo you understand?.\n\nI understand\n\nYes\n\nNo\n\nNice work\n1 / 1 point\n5.\nQuestion 5\n\nHave you updated your repository with all the changes?\n\nDo you understand?.\n\nI understand\n\nYes\n\nNo\n\nNice work\n1 / 1 point"
+    },
+    {
+      "title": "Checklist: User Management Graded Assignment • Submitted • Grade: 100% • Status: Graded Graded",
+      "page_title": "Checklist: User Management",
+      "source": "Module 2",
+      "kind": "graded_quiz",
+      "url": "https://www.coursera.org/learn/ibm-cloud-native-full-stack-development-capstone/assignment-submission/b8CmR/checklist-user-management",
+      "final_url": "https://www.coursera.org/learn/ibm-cloud-native-full-stack-development-capstone/assignment-submission/b8CmR/checklist-user-management/view-feedback",
+      "status": "opened_via_button",
+      "question_count": 6,
+      "questions": [
+        {
+          "index": 1,
+          "question_type": "single_choice",
+          "prompt_text": "Have you created a superuser for your Django Admin site?",
+          "options": [
+            {
+              "text": "Yes",
+              "checked": true
+            },
+            {
+              "text": "No",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "1.\nQuestion 1\n\nHave you created a superuser for your Django Admin site? \n\nDo you understand?.\n\nI understand\n\nYes\n\nNo\n\nNice work\n1 / 1 point"
+        },
+        {
+          "index": 2,
+          "question_type": "single_choice",
+          "prompt_text": "Have you added the user login or logout and signup menu items to the navigation bar?",
+          "options": [
+            {
+              "text": "Yes",
+              "checked": true
+            },
+            {
+              "text": "No",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "2.\nQuestion 2\n\nHave you added the user login or logout and signup menu items to the navigation bar? \n\nDo you understand?.\n\nI understand\n\nYes\n\nNo\n\nNice work\n1 / 1 point"
+        },
+        {
+          "index": 3,
+          "question_type": "single_choice",
+          "prompt_text": "Have you added a login view to handle login request?",
+          "options": [
+            {
+              "text": "Yes",
+              "checked": true
+            },
+            {
+              "text": "No",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "3.\nQuestion 3\n\nHave you added a login view to handle login request? \n\nDo you understand?.\n\nI understand\n\nYes\n\nNo\n\nNice work\n1 / 1 point"
+        },
+        {
+          "index": 4,
+          "question_type": "single_choice",
+          "prompt_text": "Have you added a logout view to handle logout request?",
+          "options": [
+            {
+              "text": "Yes",
+              "checked": true
+            },
+            {
+              "text": "No",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "4.\nQuestion 4\n\nHave you added a logout view to handle logout request? \n\nDo you understand?.\n\nI understand\n\nYes\n\nNo\n\nNice work\n1 / 1 point"
+        },
+        {
+          "index": 5,
+          "question_type": "single_choice",
+          "prompt_text": "Have you added a registration REACT page?",
+          "options": [
+            {
+              "text": "Yes",
+              "checked": true
+            },
+            {
+              "text": "No",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "5.\nQuestion 5\n\nHave you added a registration REACT page? \n\nDo you understand?.\n\nI understand\n\nYes\n\nNo\n\nNice work\n1 / 1 point"
+        },
+        {
+          "index": 6,
+          "question_type": "single_choice",
+          "prompt_text": "Have you added a register view to handle registration request?",
+          "options": [
+            {
+              "text": "Yes",
+              "checked": true
+            },
+            {
+              "text": "No",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "6.\nQuestion 6\n\nHave you added a register view to handle registration request? \n\nDo you understand?.\n\nI understand\n\nYes\n\nNo\n\nNice work\n1 / 1 point"
+        }
+      ],
+      "raw_page_text": "N\nFull Stack Application Development Capstone Project\nToday's goal • 0/3 items\n\nComplete 3 items today to stay at a good pace!\n\nModule 1\nApplication - Static Pages\nModule 2\nApplication - User Management\nUser Management Overview\nReading\n. Duration: 1 minute\n1 min\nHands-on Lab: User Management with REACT front-end\nUngraded App Item\n. Duration: 1 hour 20 minutes\n1h 20m\nChecklist: User Management\nGraded AssignmentGrade: 100%\nModule 3\nBack End Services\nModule 4\nApplication - Dynamic Pages\nModule 5\nCI/CD, Containerize & Deploy to Kubernetes\nModule 6\nShare Your Project\nModule 7\nEnhancement of Car Dealership Portal\n\nGraded Assignment\n\nChecklist: User Management\n\nAssessment monitored for academic integrity and AI-usage. Privacy Notice\n\nGo to next item\nTry again\nWhat to expect\nDue Nov 15, 11:59 PM +07\n3 attempts\n\nevery 8 hours\n\nYou passed!\n\nTo pass you need a grade of at least 75%.\n\n100%\nView feedback\n\nSubmitted Nov 9, 8:29 PM +07.\n\nReport an issue\nGo to next item\nBack\nChecklist: User Management\n\nGraded Assignment • 16 min\n\nDueNov 15, 11:59 PM +07\nYour grade: 100%\nYour latest: 100%•\nYour highest: 100%•\nTo pass you need at least 75%. We keep your highest score.\nNext item\n1.\nQuestion 1\n\nHave you created a superuser for your Django Admin site? \n\nDo you understand?.\n\nI understand\n\nYes\n\nNo\n\nNice work\n1 / 1 point\n2.\nQuestion 2\n\nHave you added the user login or logout and signup menu items to the navigation bar? \n\nDo you understand?.\n\nI understand\n\nYes\n\nNo\n\nNice work\n1 / 1 point\n3.\nQuestion 3\n\nHave you added a login view to handle login request? \n\nDo you understand?.\n\nI understand\n\nYes\n\nNo\n\nNice work\n1 / 1 point\n4.\nQuestion 4\n\nHave you added a logout view to handle logout request? \n\nDo you understand?.\n\nI understand\n\nYes\n\nNo\n\nNice work\n1 / 1 point\n5.\nQuestion 5\n\nHave you added a registration REACT page? \n\nDo you understand?.\n\nI understand\n\nYes\n\nNo\n\nNice work\n1 / 1 point\n6.\nQuestion 6\n\nHave you added a register view to handle registration request? \n\nDo you understand?.\n\nI understand\n\nYes\n\nNo\n\nNice work\n1 / 1 point"
+    },
+    {
+      "title": "Checklist: Back End Graded Assignment • Submitted • Grade: 100% • Status: Graded Graded",
+      "page_title": "Checklist: Back End",
+      "source": "Module 3",
+      "kind": "graded_quiz",
+      "url": "https://www.coursera.org/learn/ibm-cloud-native-full-stack-development-capstone/assignment-submission/NzvfG/checklist-back-end",
+      "final_url": "https://www.coursera.org/learn/ibm-cloud-native-full-stack-development-capstone/assignment-submission/NzvfG/checklist-back-end/view-feedback",
+      "status": "opened_via_button",
+      "question_count": 12,
+      "questions": [
+        {
+          "index": 1,
+          "question_type": "single_choice",
+          "prompt_text": "Have you implemented fetchDealers endpoint in your Express server?",
+          "options": [
+            {
+              "text": "Yes",
+              "checked": true
+            },
+            {
+              "text": "No",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "1.\nQuestion 1\n\nHave you implemented fetchDealers endpoint in your Express server?\n\nDo you understand?.\n\nI understand\n\nYes\n\nNo \n\nNice work\n1 / 1 point"
+        },
+        {
+          "index": 2,
+          "question_type": "single_choice",
+          "prompt_text": "Have you implemented fetchDealers by state endpoint in your Express server?",
+          "options": [
+            {
+              "text": "Yes",
+              "checked": true
+            },
+            {
+              "text": "No",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "2.\nQuestion 2\n\nHave you implemented fetchDealers by state endpoint in your Express server?\n\nDo you understand?.\n\nI understand\n\nYes\n\nNo \n\nNice work\n1 / 1 point"
+        },
+        {
+          "index": 3,
+          "question_type": "single_choice",
+          "prompt_text": "Have you implemented fetchDealer by ID endpoint in your Express server?",
+          "options": [
+            {
+              "text": "Yes",
+              "checked": true
+            },
+            {
+              "text": "No",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "3.\nQuestion 3\n\nHave you implemented fetchDealer by ID endpoint in your Express server?\n\nDo you understand?.\n\nI understand\n\nYes\n\nNo \n\nNice work\n1 / 1 point"
+        },
+        {
+          "index": 4,
+          "question_type": "single_choice",
+          "prompt_text": "Have you created CarModel and CarMake Django models?",
+          "options": [
+            {
+              "text": "Yes",
+              "checked": true
+            },
+            {
+              "text": "No",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "4.\nQuestion 4\n\nHave you created CarModel and CarMake Django models? \n\nDo you understand?.\n\nI understand\n\nYes\n\nNo \n\nNice work\n1 / 1 point"
+        },
+        {
+          "index": 5,
+          "question_type": "single_choice",
+          "prompt_text": "Have you registered CarModel and CarMake models with the Admin site?",
+          "options": [
+            {
+              "text": "Yes",
+              "checked": true
+            },
+            {
+              "text": "No",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "5.\nQuestion 5\n\nHave you registered CarModel and CarMake models with the Admin site? \n\nDo you understand?.\n\nI understand\n\nYes\n\nNo \n\nNice work\n1 / 1 point"
+        },
+        {
+          "index": 6,
+          "question_type": "single_choice",
+          "prompt_text": "Have you created new car models objects with associated car makes?",
+          "options": [
+            {
+              "text": "Yes",
+              "checked": true
+            },
+            {
+              "text": "No",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "6.\nQuestion 6\n\nHave you created new car models objects with associated car makes? \n\nDo you understand?.\n\nI understand\n\nYes\n\nNo \n\nNice work\n1 / 1 point"
+        },
+        {
+          "index": 7,
+          "question_type": "single_choice",
+          "prompt_text": "Have you implemented get_request function in restapis.py?",
+          "options": [
+            {
+              "text": "Yes",
+              "checked": true
+            },
+            {
+              "text": "No",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "7.\nQuestion 7\n\nHave you implemented get_request function in restapis.py?\n\nDo you understand?.\n\nI understand\n\nYes\n\nNo\n\nNice work\n1 / 1 point"
+        },
+        {
+          "index": 8,
+          "question_type": "single_choice",
+          "prompt_text": "Have you created get_dealerships view and configured the route?",
+          "options": [
+            {
+              "text": "Yes",
+              "checked": true
+            },
+            {
+              "text": "No",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "8.\nQuestion 8\n\nHave you created get_dealerships view and configured the route?\n\nDo you understand?.\n\nI understand\n\nYes\n\nNo\n\nNice work\n1 / 1 point"
+        },
+        {
+          "index": 9,
+          "question_type": "single_choice",
+          "prompt_text": "Have you implemented the post_review method in restapis.py?",
+          "options": [
+            {
+              "text": "Yes",
+              "checked": true
+            },
+            {
+              "text": "No",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "9.\nQuestion 9\n\nHave you implemented the post_review method in restapis.py?\n\nDo you understand?.\n\nI understand\n\nYes\n\nNo\n\nNice work\n1 / 1 point"
+        },
+        {
+          "index": 10,
+          "question_type": "single_choice",
+          "prompt_text": "Have you created get_dealer_details view and configured the route?",
+          "options": [
+            {
+              "text": "Yes",
+              "checked": true
+            },
+            {
+              "text": "No",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "10.\nQuestion 10\n\nHave you created get_dealer_details view and configured the route?\n\nDo you understand?.\n\nI understand\n\nYes\n\nNo\n\nNice work\n1 / 1 point"
+        },
+        {
+          "index": 11,
+          "question_type": "single_choice",
+          "prompt_text": "Have you created get_dealer_reviews view and configured the route?",
+          "options": [
+            {
+              "text": "Yes",
+              "checked": true
+            },
+            {
+              "text": "No",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "11.\nQuestion 11\n\nHave you created get_dealer_reviews view and configured the route?\n\nDo you understand?.\n\nI understand\n\nYes\n\nNo\n\nNice work\n1 / 1 point"
+        },
+        {
+          "index": 12,
+          "question_type": "single_choice",
+          "prompt_text": "Have you created add_review view and configured the route?",
+          "options": [
+            {
+              "text": "Yes",
+              "checked": true
+            },
+            {
+              "text": "No",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "12.\nQuestion 12\n\nHave you created add_review view and configured the route?\n\nDo you understand?.\n\nI understand\n\nYes\n\nNo\n\nNice work\n1 / 1 point"
+        }
+      ],
+      "raw_page_text": "N\nFull Stack Application Development Capstone Project\nToday's goal • 0/3 items\n\nComplete 3 items today to stay at a good pace!\n\nModule 1\nApplication - Static Pages\nModule 2\nApplication - User Management\nModule 3\nBack End Services\nNode.js Mongo DB dockerized server\nNode.js Mongo DB dockerized server Overview\nReading\n. Duration: 5 minutes\n5 min\nHands-on Lab: Implement API endpoints using Express-Mongo\nUngraded App Item\n. Duration: 1 hour 30 minutes\n1h 30m\nDjango Models and Proxy Services\nDjango Models Views\nReading\n. Duration: 5 minutes\n5 min\nHands-on Lab: Build CarModel and CarMake Django Models\nUngraded App Item\n. Duration: 1 hour 30 minutes\n1h 30m\nHands-on Lab: Create Django Proxy Services of Backend APIs\nUngraded App Item\n. Duration: 2 hours\n2h\nChecklist: Back End\nGraded AssignmentGrade: 100%\nModule 4\nApplication - Dynamic Pages\nModule 5\nCI/CD, Containerize & Deploy to Kubernetes\nModule 6\nShare Your Project\nModule 7\nEnhancement of Car Dealership Portal\n\nGraded Assignment\n\nChecklist: Back End\n\nAssessment monitored for academic integrity and AI-usage. Privacy Notice\n\nGo to next item\nTry again\nWhat to expect\nDue Nov 22, 11:59 PM +07\n3 attempts\n\nevery 8 hours\n\nYou passed!\n\nTo pass you need a grade of at least 75%.\n\n100%\nView feedback\n\nSubmitted Nov 9, 8:42 PM +07.\n\nReport an issue\nGo to next item\nBack\nChecklist: Back End\n\nGraded Assignment • 24 min\n\nDueNov 22, 11:59 PM +07\nYour grade: 100%\nYour latest: 100%•\nYour highest: 100%•\nTo pass you need at least 75%. We keep your highest score.\nNext item\n1.\nQuestion 1\n\nHave you implemented fetchDealers endpoint in your Express server?\n\nDo you understand?.\n\nI understand\n\nYes\n\nNo \n\nNice work\n1 / 1 point\n2.\nQuestion 2\n\nHave you implemented fetchDealers by state endpoint in your Express server?\n\nDo you understand?.\n\nI understand\n\nYes\n\nNo \n\nNice work\n1 / 1 point\n3.\nQuestion 3\n\nHave you implemented fetchDealer by ID endpoint in your Express server?\n\nDo you understand?.\n\nI understand\n\nYes\n\nNo \n\nNice work\n1 / 1 point\n4.\nQuestion 4\n\nHave you created CarModel and CarMake Django models? \n\nDo you understand?.\n\nI understand\n\nYes\n\nNo \n\nNice work\n1 / 1 point\n5.\nQuestion 5\n\nHave you registered CarModel and CarMake models with the Admin site? \n\nDo you understand?.\n\nI understand\n\nYes\n\nNo \n\nNice work\n1 / 1 point\n6.\nQuestion 6\n\nHave you created new car models objects with associated car makes? \n\nDo you understand?.\n\nI understand\n\nYes\n\nNo \n\nNice work\n1 / 1 point\n7.\nQuestion 7\n\nHave you implemented get_request function in restapis.py?\n\nDo you understand?.\n\nI understand\n\nYes\n\nNo\n\nNice work\n1 / 1 point\n8.\nQuestion 8\n\nHave you created get_dealerships view and configured the route?\n\nDo you understand?.\n\nI understand\n\nYes\n\nNo\n\nNice work\n1 / 1 point\n9.\nQuestion 9\n\nHave you implemented the post_review method in restapis.py?\n\nDo you understand?.\n\nI understand\n\nYes\n\nNo\n\nNice work\n1 / 1 point\n10.\nQuestion 10\n\nHave you created get_dealer_details view and configured the route?\n\nDo you understand?.\n\nI understand\n\nYes\n\nNo\n\nNice work\n1 / 1 point\n11.\nQuestion 11\n\nHave you created get_dealer_reviews view and configured the route?\n\nDo you understand?.\n\nI understand\n\nYes\n\nNo\n\nNice work\n1 / 1 point\n12.\nQuestion 12\n\nHave you created add_review view and configured the route?\n\nDo you understand?.\n\nI understand\n\nYes\n\nNo\n\nNice work\n1 / 1 point"
+    },
+    {
+      "title": "Checklist: Dynamic Pages Graded Assignment • Submitted • Grade: 100% • Status: Graded Graded",
+      "page_title": "Checklist: Dynamic Pages",
+      "source": "Module 4",
+      "kind": "graded_quiz",
+      "url": "https://www.coursera.org/learn/ibm-cloud-native-full-stack-development-capstone/assignment-submission/1EPSW/checklist-dynamic-pages",
+      "final_url": "https://www.coursera.org/learn/ibm-cloud-native-full-stack-development-capstone/assignment-submission/1EPSW/checklist-dynamic-pages/view-feedback",
+      "status": "opened_via_button",
+      "question_count": 6,
+      "questions": [
+        {
+          "index": 1,
+          "question_type": "single_choice",
+          "prompt_text": "Have you added a “Dealers” REACT component to render the dealerships?",
+          "options": [
+            {
+              "text": "Yes",
+              "checked": true
+            },
+            {
+              "text": "No",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "1.\nQuestion 1\n\nHave you added a “Dealers” REACT component to render the dealerships?\n\nDo you understand?.\n\nI understand\n\nYes\n\nNo\n\nNice work\n1 / 1 point"
+        },
+        {
+          "index": 2,
+          "question_type": "single_choice",
+          "prompt_text": "Have you added “PostReview” button to “Dealers” component for logged in users?",
+          "options": [
+            {
+              "text": "Yes",
+              "checked": true
+            },
+            {
+              "text": "No",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "2.\nQuestion 2\n\nHave you added “PostReview” button to “Dealers” component for logged in users?\n\nDo you understand?.\n\nI understand\n\nYes\n\nNo\n\nNice work\n1 / 1 point"
+        },
+        {
+          "index": 3,
+          "question_type": "single_choice",
+          "prompt_text": "Have you added a “Dealer” Reviews REACT component to retrieve specific dealer information?",
+          "options": [
+            {
+              "text": "Yes",
+              "checked": true
+            },
+            {
+              "text": "No",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "3.\nQuestion 3\n\nHave you added a “Dealer” Reviews REACT component to retrieve specific dealer information?\n\nDo you understand?.\n\nI understand\n\nYes\n\nNo\n\nNice work\n1 / 1 point"
+        },
+        {
+          "index": 4,
+          "question_type": "single_choice",
+          "prompt_text": "Have you added “PostReview” link to the “Dealer” component for the users who are logged in?",
+          "options": [
+            {
+              "text": "Yes",
+              "checked": true
+            },
+            {
+              "text": "No",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "4.\nQuestion 4\n\nHave you added “PostReview” link to the “Dealer” component for the users who are logged in?\n\nDo you understand?.\n\nI understand\n\nYes\n\nNo\n\nNice work\n1 / 1 point"
+        },
+        {
+          "index": 5,
+          "question_type": "single_choice",
+          "prompt_text": "Have you created a submission page for reviews that includes fields for Review, Purchase Date, Car Make, Year, and a Post Review button?\"",
+          "options": [
+            {
+              "text": "Yes",
+              "checked": true
+            },
+            {
+              "text": "No",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "5.\nQuestion 5\n\nHave you created a submission page for reviews that includes fields for Review, Purchase Date, Car Make, Year, and a Post Review button?\"  \n\nDo you understand?.\n\nI understand\n\nYes\n\nNo\n\nNice work\n1 / 1 point"
+        },
+        {
+          "index": 6,
+          "question_type": "single_choice",
+          "prompt_text": "Does the review get updated after you add a new review?",
+          "options": [
+            {
+              "text": "Yes",
+              "checked": true
+            },
+            {
+              "text": "No",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "6.\nQuestion 6\n\nDoes the review get updated after you add a new review?\n\nDo you understand?.\n\nI understand\n\nYes\n\nNo\n\nNice work\n1 / 1 point"
+        }
+      ],
+      "raw_page_text": "N\nFull Stack Application Development Capstone Project\nToday's goal • 0/3 items\n\nComplete 3 items today to stay at a good pace!\n\nModule 1\nApplication - Static Pages\nModule 2\nApplication - User Management\nModule 3\nBack End Services\nModule 4\nApplication - Dynamic Pages\nDynamic Pages Overview\nReading\n. Duration: 1 minute\n1 min\nHands-on Lab: Add Dynamic Pages\nUngraded App Item\n. Duration: 1 hour\n1h\nChecklist: Dynamic Pages\nGraded AssignmentGrade: 100%\nModule 5\nCI/CD, Containerize & Deploy to Kubernetes\nModule 6\nShare Your Project\nModule 7\nEnhancement of Car Dealership Portal\n\nGraded Assignment\n\nChecklist: Dynamic Pages\n\nAssessment monitored for academic integrity and AI-usage. Privacy Notice\n\nGo to next item\nTry again\nWhat to expect\nDue Nov 22, 11:59 PM +07\n3 attempts\n\nevery 8 hours\n\nYou passed!\n\nTo pass you need a grade of at least 66%.\n\n100%\nView feedback\n\nSubmitted Nov 9, 8:56 PM +07.\n\nReport an issue\nGo to next item\nBack\nChecklist: Dynamic Pages\n\nGraded Assignment • 12 min\n\nDueNov 22, 11:59 PM +07\nYour grade: 100%\nYour latest: 100%•\nYour highest: 100%•\nTo pass you need at least 66%. We keep your highest score.\nNext item\n1.\nQuestion 1\n\nHave you added a “Dealers” REACT component to render the dealerships?\n\nDo you understand?.\n\nI understand\n\nYes\n\nNo\n\nNice work\n1 / 1 point\n2.\nQuestion 2\n\nHave you added “PostReview” button to “Dealers” component for logged in users?\n\nDo you understand?.\n\nI understand\n\nYes\n\nNo\n\nNice work\n1 / 1 point\n3.\nQuestion 3\n\nHave you added a “Dealer” Reviews REACT component to retrieve specific dealer information?\n\nDo you understand?.\n\nI understand\n\nYes\n\nNo\n\nNice work\n1 / 1 point\n4.\nQuestion 4\n\nHave you added “PostReview” link to the “Dealer” component for the users who are logged in?\n\nDo you understand?.\n\nI understand\n\nYes\n\nNo\n\nNice work\n1 / 1 point\n5.\nQuestion 5\n\nHave you created a submission page for reviews that includes fields for Review, Purchase Date, Car Make, Year, and a Post Review button?\"  \n\nDo you understand?.\n\nI understand\n\nYes\n\nNo\n\nNice work\n1 / 1 point\n6.\nQuestion 6\n\nDoes the review get updated after you add a new review?\n\nDo you understand?.\n\nI understand\n\nYes\n\nNo\n\nNice work\n1 / 1 point"
+    },
+    {
+      "title": "Checklist: CI & Containerize Graded Assignment • Submitted • Grade: 100% • Status: Graded Graded",
+      "page_title": "Checklist: CI & Containerize",
+      "source": "Module 5",
+      "kind": "graded_quiz",
+      "url": "https://www.coursera.org/learn/ibm-cloud-native-full-stack-development-capstone/assignment-submission/ZHmYz/checklist-ci-containerize",
+      "final_url": "https://www.coursera.org/learn/ibm-cloud-native-full-stack-development-capstone/assignment-submission/ZHmYz/checklist-ci-containerize/view-feedback",
+      "status": "opened_via_button",
+      "question_count": 9,
+      "questions": [
+        {
+          "index": 1,
+          "question_type": "single_choice",
+          "prompt_text": "Have you added CI/CD to your project using GitHub actions?",
+          "options": [
+            {
+              "text": "Yes",
+              "checked": true
+            },
+            {
+              "text": "No",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "1.\nQuestion 1\n\nHave you added CI/CD to your project using GitHub actions?\n\nDo you understand?.\n\nI understand\n\nYes\n\nNo\n\nNice work\n\nCorrect\n\n1 / 1 point"
+        },
+        {
+          "index": 2,
+          "question_type": "single_choice",
+          "prompt_text": "Have you run code linting, explored its results and made corrections to ensure the workflow succeeds?",
+          "options": [
+            {
+              "text": "Yes",
+              "checked": true
+            },
+            {
+              "text": "No",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "2.\nQuestion 2\n\nHave you run code linting, explored its results and made corrections to ensure the workflow succeeds?\n\nDo you understand?.\n\nI understand\n\nYes\n\nNo\n\nNice work\n\nCorrect\n\n1 / 1 point"
+        },
+        {
+          "index": 3,
+          "question_type": "single_choice",
+          "prompt_text": "Have you configured the mongo-express application, and is it running in a dockerized container?",
+          "options": [
+            {
+              "text": "Yes",
+              "checked": true
+            },
+            {
+              "text": "No",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "3.\nQuestion 3\n\nHave you configured the mongo-express application, and is it running in a dockerized container?\n\nDo you understand?.\n\nI understand\n\nYes\n\nNo\n\nNice work\n1 / 1 point"
+        },
+        {
+          "index": 4,
+          "question_type": "single_choice",
+          "prompt_text": "Have you deployed the sentiment analyzer on IBM Code Engine, and is it accessible?",
+          "options": [
+            {
+              "text": "Yes",
+              "checked": true
+            },
+            {
+              "text": "No",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "4.\nQuestion 4\n\nHave you deployed the sentiment analyzer on IBM Code Engine, and is it accessible?\n\nDo you understand?.\n\nI understand\n\nYes\n\nNo\n\nNice work\n1 / 1 point"
+        },
+        {
+          "index": 5,
+          "question_type": "single_choice",
+          "prompt_text": "Have you added a Dockerfile?",
+          "options": [
+            {
+              "text": "Yes",
+              "checked": true
+            },
+            {
+              "text": "No",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "5.\nQuestion 5\n\nHave you added a Dockerfile?\n\nDo you understand?.\n\nI understand\n\nYes\n\nNo\n\nNice work\n1 / 1 point"
+        },
+        {
+          "index": 6,
+          "question_type": "single_choice",
+          "prompt_text": "Have you built the docker image, run the container, and tested it locally?",
+          "options": [
+            {
+              "text": "Yes",
+              "checked": true
+            },
+            {
+              "text": "No",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "6.\nQuestion 6\n\nHave you built the docker image, run the container, and tested it locally?\n\nDo you understand?.\n\nI understand\n\nYes\n\nNo\n\nNice work\n1 / 1 point"
+        },
+        {
+          "index": 7,
+          "question_type": "single_choice",
+          "prompt_text": "Have you added a deployment.yml with the required services?",
+          "options": [
+            {
+              "text": "Yes",
+              "checked": true
+            },
+            {
+              "text": "No",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "7.\nQuestion 7\n\nHave you added a deployment.yml with the required services?\n\nDo you understand?.\n\nI understand\n\nYes\n\nNo\n\nNice work\n1 / 1 point"
+        },
+        {
+          "index": 8,
+          "question_type": "single_choice",
+          "prompt_text": "Have you deployed the application to Kubernetes?",
+          "options": [
+            {
+              "text": "Yes",
+              "checked": true
+            },
+            {
+              "text": "No",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "8.\nQuestion 8\n\nHave you deployed the application to Kubernetes?\n\nDo you understand?.\n\nI understand\n\nYes\n\nNo\n\nNice work\n1 / 1 point"
+        },
+        {
+          "index": 9,
+          "question_type": "single_choice",
+          "prompt_text": "Have you tested the deployed application from end to end?",
+          "options": [
+            {
+              "text": "Yes",
+              "checked": true
+            },
+            {
+              "text": "No",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "9.\nQuestion 9\n\nHave you tested the deployed application from end to end?\n\nDo you understand?.\n\nI understand\n\nYes\n\nNo\n\nNice work\n1 / 1 point"
+        }
+      ],
+      "raw_page_text": "N\nFull Stack Application Development Capstone Project\nToday's goal • 0/3 items\n\nComplete 3 items today to stay at a good pace!\n\nModule 1\nApplication - Static Pages\nModule 2\nApplication - User Management\nModule 3\nBack End Services\nModule 4\nApplication - Dynamic Pages\nModule 5\nCI/CD, Containerize & Deploy to Kubernetes\nOverview: CI/CD\nCI/CD Overview\nReading\n. Duration: 1 minute\n1 min\nHands-on Lab: Add Continuous Integration and Continuous Deployment\nUngraded App Item\n. Duration: 1 hour\n1h\nContainerize & Deploy to Kubernetes\nOverview: Containerize & Deploy to Kubernetes\nReading\n. Duration: 10 minutes\n10 min\nHands-on Lab: Containerize your Application\nUngraded App Item\n. Duration: 1 hour\n1h\nChecklist: CI & Containerize\nGraded AssignmentGrade: 100%\nModule 6\nShare Your Project\nModule 7\nEnhancement of Car Dealership Portal\n\nGraded Assignment\n\nChecklist: CI & Containerize\n\nAssessment monitored for academic integrity and AI-usage. Privacy Notice\n\nGo to next item\nTry again\nWhat to expect\nDue Nov 29, 11:59 PM +07\n3 attempts\n\nevery 8 hours\n\nYou passed!\n\nTo pass you need a grade of at least 71%.\n\n100%\nView feedback\n\nSubmitted Nov 11, 7:54 AM +07.\n\nReport an issue\nGo to next item\nBack\nChecklist: CI & Containerize\n\nGraded Assignment • 14 min\n\nDueNov 29, 11:59 PM +07\nYour grade: 100%\nYour latest: 100%•\nYour highest: 100%•\nTo pass you need at least 71%. We keep your highest score.\nNext item\n1.\nQuestion 1\n\nHave you added CI/CD to your project using GitHub actions?\n\nDo you understand?.\n\nI understand\n\nYes\n\nNo\n\nNice work\n\nCorrect\n\n1 / 1 point\n2.\nQuestion 2\n\nHave you run code linting, explored its results and made corrections to ensure the workflow succeeds?\n\nDo you understand?.\n\nI understand\n\nYes\n\nNo\n\nNice work\n\nCorrect\n\n1 / 1 point\n3.\nQuestion 3\n\nHave you configured the mongo-express application, and is it running in a dockerized container?\n\nDo you understand?.\n\nI understand\n\nYes\n\nNo\n\nNice work\n1 / 1 point\n4.\nQuestion 4\n\nHave you deployed the sentiment analyzer on IBM Code Engine, and is it accessible?\n\nDo you understand?.\n\nI understand\n\nYes\n\nNo\n\nNice work\n1 / 1 point\n5.\nQuestion 5\n\nHave you added a Dockerfile?\n\nDo you understand?.\n\nI understand\n\nYes\n\nNo\n\nNice work\n1 / 1 point\n6.\nQuestion 6\n\nHave you built the docker image, run the container, and tested it locally?\n\nDo you understand?.\n\nI understand\n\nYes\n\nNo\n\nNice work\n1 / 1 point\n7.\nQuestion 7\n\nHave you added a deployment.yml with the required services?\n\nDo you understand?.\n\nI understand\n\nYes\n\nNo\n\nNice work\n1 / 1 point\n8.\nQuestion 8\n\nHave you deployed the application to Kubernetes?\n\nDo you understand?.\n\nI understand\n\nYes\n\nNo\n\nNice work\n1 / 1 point\n9.\nQuestion 9\n\nHave you tested the deployed application from end to end?\n\nDo you understand?.\n\nI understand\n\nYes\n\nNo\n\nNice work\n1 / 1 point"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.browser_profile/
+*.log
+.DS_Store
+ios_app/build/
+ios_app/DWP301cCodex.xcodeproj/

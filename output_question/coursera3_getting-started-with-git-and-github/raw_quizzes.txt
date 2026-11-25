@@ -1,0 +1,230 @@
+================================================================================
+COURSE: Getting Started with Git and GitHub
+URL: https://www.coursera.org/learn/getting-started-with-git-and-github
+CRAWLED AT: 2026-11-24T14:23:52.714179
+SUMMARY: 5/5 MC quizzes | 27 questions
+================================================================================
+
+--------------------------------------------------------------------------------
+[QUIZ 1] Practice Quiz: Getting Started with Git and GitHub Practice Assignment • 10 min • Grade: --
+Source: Module 1 | Kind: practice_quiz | Status: opened_via_button:Start assignment
+URL: https://www.coursera.org/learn/getting-started-with-git-and-github/assignment-submission/PEiE8/practice-quiz-getting-started-with-git-and-github/attempt
+Questions extracted: 5
+--------------------------------------------------------------------------------
+
+Q1 (single_choice):
+Which of the following options do you use to request someone to review and approve your project changes before they become final?
+   1. [ ] Commit changes
+   2. [ ] Repository
+   3. [ ] Pull request
+   4. [ ] Fork
+
+Q2 (single_choice):
+What is the primary purpose of version control?
+   1. [ ] Allows you to keep track of changes to your documents
+   2. [ ] Creates a backup of the documents
+   3. [ ] Allows you to securely log in from one computer to another
+   4. [ ] Alters the formatting of the documents
+
+Q3 (single_choice):
+Which of the following is a feature of the Git Repository model?
+   1. [ ] It sorts code into folders and subfolders
+   2. [ ] It is a distributed version control system
+   3. [ ] It is based on a binary tree
+   4. [ ] It corrects bad code in a project
+
+Q4 (single_choice):
+What is an “organization” in reference to GitHub?
+   1. [ ] The top level of a repository tree
+   2. [ ] A name you must specify for your repository
+   3. [ ] A collection of user accounts that own repositories
+   4. [ ] A path to the code files in a project
+
+Q5 (single_choice):
+How will you create a python file in GitHub?
+   1. [ ] Settings > Select Create New File> Pull Requests
+   2. [ ] Settings > Select Create New File> Commit changes
+   3. [ ] Select Add File > Select upload files > Choose Your Files > Add File > Add the code > Commit changes to the repository
+   4. [ ] Select Add File > Select Create New File> Provide the file name > Add a comment > Add the code > Commit changes to the repository
+
+--------------------------------------------------------------------------------
+[QUIZ 2] Practice Quiz: Branches with GitHub Practice Assignment • 6 min • Grade: --
+Source: Module 1 | Kind: practice_quiz | Status: opened_via_button:Start assignment
+URL: https://www.coursera.org/learn/getting-started-with-git-and-github/assignment-submission/LzCdF/practice-quiz-branches-with-github/attempt
+Questions extracted: 3
+--------------------------------------------------------------------------------
+
+Q1 (single_choice):
+Which of the following does the main branch store?
+   1. [ ] The deployable version of the project code
+   2. [ ] The original and unchanged versions of the code
+   3. [ ] The files that contain documentation only
+   4. [ ] The project files, including files from forks
+
+Q2 (single_choice):
+Which of the following best describes the function of a pull request?
+   1. [ ] Makes the proposed committed changes available for others to review and merge into the main branch
+   2. [ ] Helps to create a copy of the main branch
+   3. [ ] Shows the difference in the content between the child branch and the main branch
+   4. [ ] Facilitates the creation of a child branch
+
+Q3 (single_choice):
+Identify the correct statement.
+   1. [ ] To add a file to the child branch, you need to add it to the main branch first.
+   2. [ ] If you add a file to the child branch, it will automatically reflect in the main branch.
+   3. [ ] It is not possible to add a file to the child branch.
+   4. [ ] You can add files in the child branch without adding any to the main branch.
+
+--------------------------------------------------------------------------------
+[QUIZ 3] Graded Quiz: Git and GitHub Fundamentals, Graded
+Source: Module 1 | Kind: graded_quiz | Status: opened_via_button
+URL: https://www.coursera.org/learn/getting-started-with-git-and-github/assignment-submission/YztLf/graded-quiz-git-and-github-fundamentals/view-feedback
+Questions extracted: 7
+--------------------------------------------------------------------------------
+
+Q1 (single_choice):
+What is the relation between Git and GitHub?
+   1. [ ] GitHub is a main section in the Git project workflow.
+   2. [ ] GitHub is an open-source tool used to create Git.
+   3. [x] GitHub is an online hosting service for Git repositories.
+   4. [ ] GitHub is a program required for version control on Git.
+
+Q2 (single_choice):
+Which of the following describes a repository?
+   1. [ ] A collection of user accounts that are connected to a pull request
+   2. [ ] A basic unit of storage in Git that cannot be changed
+   3. [ ] A plain text file that explains the purpose of a project
+   4. [x] A data structure that stores documents and source code
+
+Q3 (single_choice):
+What is the purpose of a license?
+   1. [ ] To record all changes made to a repository
+   2. [x] To express how people can use your code
+   3. [ ] To establish a secure remote login between computers
+   4. [ ] To describe the purpose of the project
+
+Q4 (single_choice):
+What is the role of “commit” in GitHub?
+   1. [x] To save changes
+   2. [ ] To merge
+   3. [ ] To pull requests
+   4. [ ] To undo changes
+
+Q5 (single_choice):
+What type of version control system is Git?
+   1. [ ] Centralized
+   2. [x] Distributed
+   3. [ ] Local
+   4. [ ] Remote
+
+Q6 (single_choice):
+Which of the following statements is associated with a working directory?
+   1. [ ] Contains project folders that are set up for version control
+   2. [x] Contains the files and subdirectories on the computer that are associated with a Git repository
+   3. [ ] A separate line of development that allows one to work independently
+   4. [ ] Copy of a repository
+
+Q7 (single_choice):
+What happens if you make a change on a repository branch that you don't own?
+   1. [x] GitHub makes a pull request
+   2. [ ] GitHub undoes the changes.
+   3. [ ] GitHub issues a push request for the owner.
+   4. [ ] GitHub generates an error message.
+
+--------------------------------------------------------------------------------
+[QUIZ 4] Practice Quiz: Git Workflows with Git Commands Practice Assignment • Submitted • Grade: 100% • Status: Graded Graded
+Source: Module 2 | Kind: practice_quiz | Status: opened_via_button
+URL: https://www.coursera.org/learn/getting-started-with-git-and-github/assignment-submission/IvefF/practice-quiz-git-workflows-with-git-commands/view-feedback
+Questions extracted: 5
+--------------------------------------------------------------------------------
+
+Q1 (single_choice):
+What is meant by an initial commit in a Git workflow?
+   1. [ ] A request to your team to review and approve changes
+   2. [x] Officially recording the current state of your project’s files in the local Git repository
+   3. [ ] Retrieving changes made by the team and updating your local repository
+   4. [ ] Creating a local copy of the project’s code from the remote repository
+
+Q2 (single_choice):
+Which git command allows you to see the state of your working directory and the staged snapshot of your changes?
+   1. [x] git status
+   2. [ ] git reset
+   3. [ ] git checkout
+   4. [ ] git log
+
+Q3 (single_choice):
+Why do you fork a project?
+   1. [ ] To create a backup of the main branch of the project
+   2. [ ] To give a new user permission to the project
+   3. [x] To use an existing repository as the base for a new project
+   4. [ ] To add a branch to an existing tree in the project
+
+Q4 (single_choice):
+Which of the following options should be used to fork a repository?
+   1. [x] Navigate to the GitHub project and select Fork at the top of the page.
+   2. [ ] git copy
+   3. [ ] Click the “Copy” button on the project page
+   4. [ ] git fork
+
+Q5 (single_choice):
+Which Git command can an integrator use to undo any botched commits?
+   1. [x] git revert
+   2. [ ] git pull
+   3. [ ] git request-pull
+   4. [ ] git push
+
+--------------------------------------------------------------------------------
+[QUIZ 5] Graded Quiz: Git Commands and Managing GitHub Projects Graded Assignment • Submitted • Grade: 100% • Status: Graded Graded
+Source: Module 2 | Kind: graded_quiz | Status: opened_via_button
+URL: https://www.coursera.org/learn/getting-started-with-git-and-github/assignment-submission/eTeLl/graded-quiz-git-commands-and-managing-github-projects/view-feedback
+Questions extracted: 7
+--------------------------------------------------------------------------------
+
+Q1 (single_choice):
+You need to run three commands to push local changes to the GitHub repository. Which command will you use when your changes are ready to be moved to the GitHub repository?
+   1. [ ] git remove -v
+   2. [ ] git add
+   3. [ ] git commit -m
+   4. [x] git push
+
+Q2 (single_choice):
+What are three commonly used commands for working with remote repositories?
+   1. [ ] open, close, send
+   2. [ ] open, edit, push
+   3. [x] push, pull, fetch
+   4. [ ] create, delete, copy
+
+Q3 (single_choice):
+When managing forks, which command can you use to fetch and merge the remote branch in a single step?
+   1. [ ] git pull downstream
+   2. [ ] git merge upstream/main
+   3. [ ] git fetch upstream
+   4. [x] git pull <upstream>
+
+Q4 (single_choice):
+Which of the following commands is used to make a branch active?
+   1. [x] git checkout
+   2. [ ] git commit
+   3. [ ] git add
+   4. [ ] git branch
+
+Q5 (single_choice):
+Which command can a developer use to keep up-to-date with the upstream?
+   1. [x] git pull <upstream> and git fetch <upstream>
+   2. [ ] git request pull
+   3. [ ] git revert
+   4. [ ] git push
+
+Q6 (single_choice):
+In Git workflow, which step involves creating a separate workspace for making changes and developing features without interfering with the main codebase?
+   1. [x] Creating a branch from the main repository and working on the branch
+   2. [ ] Performing an initial commit after selecting the required files
+   3. [ ] Initializing a Git repository in your project's local directory
+   4. [ ] Selecting and moving files to the staging area
+
+Q7 (single_choice):
+Which of the following commands helps you to view the commit history?
+   1. [ ] git checkout
+   2. [ ] git history
+   3. [ ] git commit
+   4. [x] git log

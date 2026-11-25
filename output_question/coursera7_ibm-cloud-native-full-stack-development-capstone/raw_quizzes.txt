@@ -1,0 +1,231 @@
+================================================================================
+COURSE: Full Stack Application Development Capstone Project
+URL: https://www.coursera.org/learn/ibm-cloud-native-full-stack-development-capstone
+CRAWLED AT: 2026-11-24T14:39:02.109391
+SUMMARY: 5/5 MC quizzes | 38 questions
+================================================================================
+
+--------------------------------------------------------------------------------
+[QUIZ 1] Checklist: Static Pages Graded Assignment • Submitted • Grade: 100% • Status: Graded Graded
+Source: Module 1 | Kind: graded_quiz | Status: opened_via_button
+URL: https://www.coursera.org/learn/ibm-cloud-native-full-stack-development-capstone/assignment-submission/YSuU2/checklist-static-pages/view-feedback
+Questions extracted: 5
+--------------------------------------------------------------------------------
+
+Q1 (single_choice):
+Have you forked the GitHub repo containing the project template?
+   1. [x] Yes
+   2. [ ] No
+
+Q2 (single_choice):
+Have you added the "About Us" static page?
+   1. [x] Yes
+   2. [ ] No
+
+Q3 (single_choice):
+Have you added the "Contact Us" static page?
+   1. [x] Yes
+   2. [ ] No
+
+Q4 (single_choice):
+Have you run and tested your Django application?
+   1. [x] Yes
+   2. [ ] No
+
+Q5 (single_choice):
+Have you updated your repository with all the changes?
+   1. [x] Yes
+   2. [ ] No
+
+--------------------------------------------------------------------------------
+[QUIZ 2] Checklist: User Management Graded Assignment • Submitted • Grade: 100% • Status: Graded Graded
+Source: Module 2 | Kind: graded_quiz | Status: opened_via_button
+URL: https://www.coursera.org/learn/ibm-cloud-native-full-stack-development-capstone/assignment-submission/b8CmR/checklist-user-management/view-feedback
+Questions extracted: 6
+--------------------------------------------------------------------------------
+
+Q1 (single_choice):
+Have you created a superuser for your Django Admin site?
+   1. [x] Yes
+   2. [ ] No
+
+Q2 (single_choice):
+Have you added the user login or logout and signup menu items to the navigation bar?
+   1. [x] Yes
+   2. [ ] No
+
+Q3 (single_choice):
+Have you added a login view to handle login request?
+   1. [x] Yes
+   2. [ ] No
+
+Q4 (single_choice):
+Have you added a logout view to handle logout request?
+   1. [x] Yes
+   2. [ ] No
+
+Q5 (single_choice):
+Have you added a registration REACT page?
+   1. [x] Yes
+   2. [ ] No
+
+Q6 (single_choice):
+Have you added a register view to handle registration request?
+   1. [x] Yes
+   2. [ ] No
+
+--------------------------------------------------------------------------------
+[QUIZ 3] Checklist: Back End Graded Assignment • Submitted • Grade: 100% • Status: Graded Graded
+Source: Module 3 | Kind: graded_quiz | Status: opened_via_button
+URL: https://www.coursera.org/learn/ibm-cloud-native-full-stack-development-capstone/assignment-submission/NzvfG/checklist-back-end/view-feedback
+Questions extracted: 12
+--------------------------------------------------------------------------------
+
+Q1 (single_choice):
+Have you implemented fetchDealers endpoint in your Express server?
+   1. [x] Yes
+   2. [ ] No
+
+Q2 (single_choice):
+Have you implemented fetchDealers by state endpoint in your Express server?
+   1. [x] Yes
+   2. [ ] No
+
+Q3 (single_choice):
+Have you implemented fetchDealer by ID endpoint in your Express server?
+   1. [x] Yes
+   2. [ ] No
+
+Q4 (single_choice):
+Have you created CarModel and CarMake Django models?
+   1. [x] Yes
+   2. [ ] No
+
+Q5 (single_choice):
+Have you registered CarModel and CarMake models with the Admin site?
+   1. [x] Yes
+   2. [ ] No
+
+Q6 (single_choice):
+Have you created new car models objects with associated car makes?
+   1. [x] Yes
+   2. [ ] No
+
+Q7 (single_choice):
+Have you implemented get_request function in restapis.py?
+   1. [x] Yes
+   2. [ ] No
+
+Q8 (single_choice):
+Have you created get_dealerships view and configured the route?
+   1. [x] Yes
+   2. [ ] No
+
+Q9 (single_choice):
+Have you implemented the post_review method in restapis.py?
+   1. [x] Yes
+   2. [ ] No
+
+Q10 (single_choice):
+Have you created get_dealer_details view and configured the route?
+   1. [x] Yes
+   2. [ ] No
+
+Q11 (single_choice):
+Have you created get_dealer_reviews view and configured the route?
+   1. [x] Yes
+   2. [ ] No
+
+Q12 (single_choice):
+Have you created add_review view and configured the route?
+   1. [x] Yes
+   2. [ ] No
+
+--------------------------------------------------------------------------------
+[QUIZ 4] Checklist: Dynamic Pages Graded Assignment • Submitted • Grade: 100% • Status: Graded Graded
+Source: Module 4 | Kind: graded_quiz | Status: opened_via_button
+URL: https://www.coursera.org/learn/ibm-cloud-native-full-stack-development-capstone/assignment-submission/1EPSW/checklist-dynamic-pages/view-feedback
+Questions extracted: 6
+--------------------------------------------------------------------------------
+
+Q1 (single_choice):
+Have you added a “Dealers” REACT component to render the dealerships?
+   1. [x] Yes
+   2. [ ] No
+
+Q2 (single_choice):
+Have you added “PostReview” button to “Dealers” component for logged in users?
+   1. [x] Yes
+   2. [ ] No
+
+Q3 (single_choice):
+Have you added a “Dealer” Reviews REACT component to retrieve specific dealer information?
+   1. [x] Yes
+   2. [ ] No
+
+Q4 (single_choice):
+Have you added “PostReview” link to the “Dealer” component for the users who are logged in?
+   1. [x] Yes
+   2. [ ] No
+
+Q5 (single_choice):
+Have you created a submission page for reviews that includes fields for Review, Purchase Date, Car Make, Year, and a Post Review button?"
+   1. [x] Yes
+   2. [ ] No
+
+Q6 (single_choice):
+Does the review get updated after you add a new review?
+   1. [x] Yes
+   2. [ ] No
+
+--------------------------------------------------------------------------------
+[QUIZ 5] Checklist: CI & Containerize Graded Assignment • Submitted • Grade: 100% • Status: Graded Graded
+Source: Module 5 | Kind: graded_quiz | Status: opened_via_button
+URL: https://www.coursera.org/learn/ibm-cloud-native-full-stack-development-capstone/assignment-submission/ZHmYz/checklist-ci-containerize/view-feedback
+Questions extracted: 9
+--------------------------------------------------------------------------------
+
+Q1 (single_choice):
+Have you added CI/CD to your project using GitHub actions?
+   1. [x] Yes
+   2. [ ] No
+
+Q2 (single_choice):
+Have you run code linting, explored its results and made corrections to ensure the workflow succeeds?
+   1. [x] Yes
+   2. [ ] No
+
+Q3 (single_choice):
+Have you configured the mongo-express application, and is it running in a dockerized container?
+   1. [x] Yes
+   2. [ ] No
+
+Q4 (single_choice):
+Have you deployed the sentiment analyzer on IBM Code Engine, and is it accessible?
+   1. [x] Yes
+   2. [ ] No
+
+Q5 (single_choice):
+Have you added a Dockerfile?
+   1. [x] Yes
+   2. [ ] No
+
+Q6 (single_choice):
+Have you built the docker image, run the container, and tested it locally?
+   1. [x] Yes
+   2. [ ] No
+
+Q7 (single_choice):
+Have you added a deployment.yml with the required services?
+   1. [x] Yes
+   2. [ ] No
+
+Q8 (single_choice):
+Have you deployed the application to Kubernetes?
+   1. [x] Yes
+   2. [ ] No
+
+Q9 (single_choice):
+Have you tested the deployed application from end to end?
+   1. [x] Yes
+   2. [ ] No

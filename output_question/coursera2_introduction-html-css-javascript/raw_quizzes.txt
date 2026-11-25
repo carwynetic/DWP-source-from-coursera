@@ -1,0 +1,438 @@
+================================================================================
+COURSE: Introduction to HTML, CSS, & JavaScript
+URL: https://www.coursera.org/learn/introduction-html-css-javascript
+CRAWLED AT: 2026-11-24T14:21:20.792245
+SUMMARY: 7/7 MC quizzes | 50 questions
+================================================================================
+
+--------------------------------------------------------------------------------
+[QUIZ 1] Practice Quiz: HTML Overview Practice Assignment • Submitted • Grade: 100% • Status: Graded Graded
+Source: Module 1 | Kind: practice_quiz | Status: opened_via_button
+URL: https://www.coursera.org/learn/introduction-html-css-javascript/assignment-submission/HxC5R/practice-quiz-html-overview/view-feedback
+Questions extracted: 5
+--------------------------------------------------------------------------------
+
+Q1 (single_choice):
+What are the building blocks of HTML called?
+   1. [x] Elements
+   2. [ ] Nodes
+   3. [ ] Attributes
+   4. [ ] Tags
+
+Q2 (single_choice):
+Which tag is used to provide keywords for search engines?
+   1. [ ] <footer>
+   2. [ ] <title>
+   3. [ ] <header>
+   4. [x] <meta>
+
+Q3 (single_choice):
+Fill in the blank: In HTML5, ______________ allow you to run processing intensive tasks without blocking the user interface.
+   1. [ ] Structural elements
+   2. [ ] Non-blocking feeds
+   3. [ ] DOM accessors
+   4. [x] Web workers
+
+Q4 (single_choice):
+How do you properly recreate the following table using HTML code?
+
+Date
+
+	
+
+Language
+
+
+
+
+2014
+
+	
+
+HTML5
+
+
+
+
+1999
+
+	
+
+CSS3
+
+
+
+
+1995
+
+	
+
+JavaScript
+   1. [ ] <table> <tc> <th>Date</th> <th>Language</th> </tc> <tc> <td>2014</td> <td>HTML5</td> </tc> <tc> <td>1999</td> <td>CSS3</td> </tc> <tc> <td>1995</td> <td>JavaScript</td> </tc> </table>
+   2. [ ] <table> <td> <th>Date</th> <th>Language</th> </td> <td> <tr>2014</tr> <tr>HTML5</tr> </td> <td> <tr>1999</tr> <tr>CSS3</tr> </td> <td> <tr>1995</tr> <tr>JavaScript</tr> </td> </table>
+   3. [ ] <table> <tr> <td>Date</td> <td>Language</td> </tr> <tr> <th>2014</th> <th>HTML5</th> </tr> <tr> <th>1999</th> <th>CSS3</th> </tr> <tr> <th>1995</th> <th>JavaScript</th> </tr> </table>
+   4. [x] <table> <tr> <th>Date</th> <th>Language</th> </tr> <tr> <td>2014</td> <td>HTML5</td> </tr> <tr> <td>1999</td> <td>CSS3</td> </tr> <tr> <td>1995</td> <td>JavaScript</td> </tr> </table>
+
+Q5 (single_choice):
+Which of the following statements about document.images is correct?
+   1. [ ] document.images is a DOM property
+   2. [ ] document.images returns a collection of image elements in a document
+   3. [ ] document.images is part of the HTML document API
+   4. [x] All of the above
+
+--------------------------------------------------------------------------------
+[QUIZ 2] Graded Quiz: HTML Overview Graded Assignment • Submitted • Grade: 100% • Status: Graded Graded
+Source: Module 1 | Kind: graded_quiz | Status: opened_via_button
+URL: https://www.coursera.org/learn/introduction-html-css-javascript/assignment-submission/QjSYE/graded-quiz-html-overview/view-feedback
+Questions extracted: 10
+--------------------------------------------------------------------------------
+
+Q1 (single_choice):
+Your client wants to add a company logo to the homepage using the image path ‘assets/logo.png’. Which HTML tag embeds this image?
+   1. [ ] <figure src=”image URL”>image name</figure>
+   2. [ ] <img href=”image URL”>image name</img>
+   3. [ ] <image>link_to_image</image>
+   4. [x] <img src=”image URL”>
+
+Q2 (single_choice):
+Which of the following are the standard bodies in HTML5 development?
+   1. [ ] IETF and CERN created a draft of HTML5 specifications and documented them scientifically.
+   2. [x] The development of HTML5 is a collaboration between W3C and WHATWG after they started joint efforts in 2007.
+   3. [ ] W3C developed HTML5 specifications alone for public use.
+   4. [ ] W3C only focused on XML support; however, WHATWG authored HTML5 specifications.
+
+Q3 (single_choice):
+A developer wants to add media features to the web application. Why is HTML5 specifically suitable for this task?
+   1. [x] HTML5 requires markup and APIs for adding media features like video and storage.
+   2. [ ] HTML5 limits support for static text and layout content for adding media features.
+   3. [ ] HTML5 uses external plug-ins for adding media content to the website.
+   4. [ ] HTML5 displays scientific document content for adding media features.
+
+Q4 (single_choice):
+A student is editing an HTML file and wants to add comments that won’t show on the webpage. Which syntax should they use?
+   1. [ ] """This is a comment"""
+   2. [x] <!-- This is a comment -->
+   3. [ ] #This is a comment
+   4. [ ] /*This is a comment*/
+
+Q5 (single_choice):
+A software development company wants to build a rich, interactive website that provides consistent behavior for both mobile and desktop computers. Which HTML5 capabilities will they leverage?
+   1. [ ] Requires external APIs
+   2. [ ] Allows strict multimedia support
+   3. [ ] Leverage weak documents
+   4. [x] Supports cross-device compatibility
+
+Q6 (single_choice):
+A web developer wants to ensure that their web app runs smoothly across devices with modern browsers while using built-in support for video and structured page layout. Which of the following is best suitable for this scenario?
+   1. [ ] Maintains video elements and page organization for modern browser
+   2. [x] Includes native support for video and improves page structure compatibility
+   3. [ ] Offers built-in elements and structure rules compatible with browsers
+   4. [ ] Supports defined video and layout tools for consistency
+
+Q7 (single_choice):
+What is the <br> tag used for?
+   1. [x] To add a line break
+   2. [ ] To change the text color to brown
+   3. [ ] To make text bold
+   4. [ ] To change the border
+
+Q8 (single_choice):
+Which of the following JavaScript methods should you leverage to build a web form, where you want to retrieve the value entered by a user in a specific text field after clicking a button?
+   1. [ ] document.scripts
+   2. [ ] document.getElementByTagName
+   3. [x] document.getElementByld
+   4. [ ] document.head
+
+Q9 (single_choice):
+You want to test a web form that includes an input type="date" field. When you open this form in Microsoft Edge, you see spinning boxes to select the date. Which of the following describes Edge’s support for input type in this case?
+   1. [ ] Edge restricts the input type= “date”
+   2. [ ] Edge partially supports the input type=“date”
+   3. [ ] Edge shows fallback text field
+   4. [x] Edge supports the input type=“date”
+
+Q10 (single_choice):
+Which of the following conditions must be met to enable scripting in browsers?
+   1. [ ] The user has disabled scripting for the current browser context
+   2. [ ] An embedded object is used without the sandbox attribute
+   3. [x] The browser supports scripting
+   4. [ ] The browser context has the sandboxed browsing context flag set
+
+--------------------------------------------------------------------------------
+[QUIZ 3] Practice Quiz Practice Assignment • Submitted • Grade: 95% • Status: Graded Graded
+Source: Module 2 | Kind: practice_quiz | Status: opened_via_button
+URL: https://www.coursera.org/learn/introduction-html-css-javascript/assignment-submission/nXo83/practice-quiz/view-feedback
+Questions extracted: 5
+--------------------------------------------------------------------------------
+
+Q1 (single_choice):
+What makes a Style Sheet “Cascading”?
+   1. [x] Child elements inherit styles that are defined for parent elements
+   2. [ ] Each element has a unique style, unrelated to its’ parent
+   3. [ ] Elements inherit styles that are defined before them in a CSS document
+   4. [ ] Parent elements inherit styles that are defined for child elements
+
+Q2 (multiple_select):
+Which of the following describes a Utility-first Framework? Select all that apply.
+   1. [ ] Provides pre-styled components and templates
+   2. [x] References CSS properties via Utility Classes
+   3. [x] Makes HTML markup more verbose by mixing styles with content
+   4. [x] Provides complete freedom when styling elements
+
+Q3 (single_choice):
+Which of the following tags is used to separate areas in a document?
+   1. [ ] <body>
+   2. [ ] <input>
+   3. [x] <div>
+   4. [ ] <nav>
+
+Q4 (single_choice):
+What type of element is <article>?
+   1. [ ] A multimedia element
+   2. [ ] A graphic element
+   3. [x] A semantic element
+   4. [ ] An input element
+
+Q5 (single_choice):
+Which tag is used to specify self-contained content like an image, illustration, or diagram?
+   1. [ ] <img>
+   2. [ ] <figcaption>
+   3. [ ] <image>
+   4. [x] <figure>
+
+--------------------------------------------------------------------------------
+[QUIZ 4] Graded Quiz: CSS Overview & HTML5 Elements Graded Assignment • Submitted • Grade: 100% • Status: Graded Graded
+Source: Module 2 | Kind: graded_quiz | Status: opened_via_button
+URL: https://www.coursera.org/learn/introduction-html-css-javascript/assignment-submission/TabpW/graded-quiz-css-overview-html5-elements/view-feedback
+Questions extracted: 10
+--------------------------------------------------------------------------------
+
+Q1 (single_choice):
+Ryan, a web developer, is troubleshooting a webpage where an external CSS file does not apply the expected styles. On checking, he noticed that some elements have styles defined using different methods. Which method of applying CSS has the highest priority and will override others?
+   1. [ ] CSS rules defined in the browser’s default stylesheet
+   2. [ ] An external CSS file linked in the HTML document
+   3. [ ] Internal CSS defined within a tag in the HTML document
+   4. [x] Inline CSS applied directly to each HTML element
+
+Q2 (multiple_select):
+Which of the following statements accurately describes the behavior of fixed and fluid layouts? Select all that apply.
+   1. [x] Fluid layouts use relative units to allow elements to scale dynamically.
+   2. [x] Fixed layouts do not change their dimensions regardless of the device.
+   3. [ ] Fluid layouts use pixels to define element sizes.
+   4. [ ] Fixed layouts adapt automatically to different screen sizes.
+
+Q3 (single_choice):
+A web designer has inserted input type= “email” in a form; however, the form still accepts the value like “hello@com” without any error. What is missing in this scenario?
+   1. [ ] The required attributes are missing from the field.
+   2. [ ] The browser restricts support for input type= “color”.
+   3. [ ] The input type="tel" stops numeric-only input.
+   4. [x] The input value follows incorrect email format
+
+Q4 (single_choice):
+You are working on a responsive web design using a CSS framework and need to apply styles based on different states, such as hover or focus. To achieve this, you use a modifier. What is the purpose of a modifier?
+   1. [ ] A term used for a JavaScript class that dynamically updates webpage content
+   2. [x] A specialized class that adjusts an element’s appearance by applying CSS based on a specified condition
+   3. [ ] A type of button that enables users to edit form content
+   4. [ ] A technique for altering CSS styles applied to an HTML element
+
+Q5 (single_choice):
+You want to create a document page with different themed parts, each with its own heading. What HTML5 tag should you use to group related content with a common theme?
+   1. [ ] <aside>
+   2. [ ] <details>
+   3. [x] <section>
+   4. [ ] <article>
+
+Q6 (single_choice):
+In a web form, you are asking users to enter their age, limited to 5 to 25 years only. Which HTML5 attributes has the developer used to limit the age field?
+   1. [ ] range
+   2. [x] number
+   3. [ ] tel
+   4. [ ] list
+
+Q7 (single_choice):
+A startup is considering using Bootstrap for its new e-commerce platform. What limitations should they be aware of when adopting this component framework?
+   1. [x] The pre-built elements may limit design customization.
+   2. [ ] The HTML file size becomes bloated with additional markup.
+   3. [ ] The HTML structure becomes cluttered with numerous class attributes.
+   4. [ ] Maintaining visual consistency across pages becomes challenging.
+
+Q8 (single_choice):
+Which tag is used to represent an independent item of content in a document, which can be meaningful on its own?
+   1. [x] <article>
+   2. [ ] <div>
+   3. [ ] <details>
+   4. [ ] <section>
+
+Q9 (single_choice):
+You are creating a structure for a webpage and want it to be accessible and indexable by search engines. Which technology should you use?
+   1. [ ] CSS
+   2. [ ] Flash
+   3. [ ] JavaScript
+   4. [x] HTML
+
+Q10 (single_choice):
+Sana wants to add a standalone image in the blog post with accompanying text related to the main content that exists independently. Which of the HTML5 elements should Sana use to group this visual content?
+   1. [ ] Footer
+   2. [x] Figure
+   3. [ ] Figcaption
+   4. [ ] Header
+
+--------------------------------------------------------------------------------
+[QUIZ 5] Practice Quiz Practice Assignment • Submitted • Grade: 100% • Status: Graded Graded
+Source: Module 3 | Kind: practice_quiz | Status: opened_via_button
+URL: https://www.coursera.org/learn/introduction-html-css-javascript/assignment-submission/nSdnT/practice-quiz/view-feedback
+Questions extracted: 5
+--------------------------------------------------------------------------------
+
+Q1 (single_choice):
+Why is JavaScript considered an important part of web development?
+   1. [x] Because it enables websites to be interactive and responsive by dynamically updating content without full page reloads.
+   2. [ ] Because it replaces all HTML elements on the page.
+   3. [ ] Because it allows browsers to style HTML with CSS.
+   4. [ ] Because it is only used for server-side data management.
+
+Q2 (single_choice):
+Which of the following is true about let and const in JavaScript?
+   1. [ ] let variables have function-level scope, and const variables can be reassigned.
+   2. [ ] let variables cannot be reassigned, and const variables have function-level scope.
+   3. [x] let variables have block-level scope, and const variables cannot be reassigned once initialized.
+   4. [ ] Both let and const must be declared outside of all blocks.
+
+Q3 (single_choice):
+What is the primary difference between parameterized and non-parameterized functions in JavaScript?
+   1. [x] Parameterized functions require arguments when called, while non-parameterized functions do not need any arguments.
+   2. [ ] Non-parameterized functions must return a value, but parameterized functions cannot.
+   3. [ ] Parameterized functions cannot use the function keyword.
+   4. [ ] Non-parameterized functions cannot contain any variables.
+
+Q4 (single_choice):
+Which of the following statements is the correct way to include a script in an HTML?
+   1. [x] <script src = “/source/script.js”> </script>
+   2. [ ] <script ref= “/source/script.js”> </script>
+   3. [ ] <script name = “/source/script.js”> </script>
+   4. [ ] <include script = “/source/script.js”> </script>
+
+Q5 (single_choice):
+True or False: 10car is a valid variable name in JavaScript.
+   1. [ ] True
+   2. [x] False
+
+--------------------------------------------------------------------------------
+[QUIZ 6] Practice Quiz Practice Assignment • Submitted • Grade: 100% • Status: Graded Graded
+Source: Module 3 | Kind: practice_quiz | Status: opened_via_button
+URL: https://www.coursera.org/learn/introduction-html-css-javascript/assignment-submission/2dxP0/practice-quiz/view-feedback
+Questions extracted: 5
+--------------------------------------------------------------------------------
+
+Q1 (single_choice):
+What JavaScript function would you use to retrieve all elements with a specified tag name from a web page?
+   1. [x] document.getElementsByTagName()
+   2. [ ] document.createElement()
+   3. [ ] document.getElementById()
+   4. [ ] document.innerHTML()
+
+Q2 (single_choice):
+What is the purpose of the <noscript> tag in an HTML document?
+   1. [ ] To display a custom error message when a script contains a syntax error.
+   2. [ ] To bind JavaScript event handlers to page elements.
+   3. [x] To insert an alternative path or content for users if their browser does not support or has disabled scripts.
+   4. [ ] To hide all the scripts in the browser console.
+
+Q3 (single_choice):
+Which of the following is a recommended best practice when working with JavaScript?
+   1. [ ] Declare all variables as global so they can be easily accessed.
+   2. [ ] Always write all scripts at the top of the HTML file.
+   3. [ ] Avoid using linters because they slow down your workflow.
+   4. [x] Optimize loops by storing length attributes in variables before the loop.
+
+Q4 (single_choice):
+What is the proper way to access a form field named field1 inside a form named form1?
+   1. [ ] document.getElementByClassName("field1")
+   2. [ ] document.forms["field1"].elements["form1"]
+   3. [ ] document.field1
+   4. [x] document.forms["form1"].elements["field1"]
+
+Q5 (single_choice):
+Which of the following is the correct integer value representation for a TEXT_NODE type in the DOM?
+   1. [ ] 1
+   2. [x] 3
+   3. [ ] 2
+   4. [ ] 8
+
+--------------------------------------------------------------------------------
+[QUIZ 7] Graded Quiz Graded Assignment • Submitted • Grade: 95% • Status: Graded Graded
+Source: Module 3 | Kind: graded_quiz | Status: opened_via_button
+URL: https://www.coursera.org/learn/introduction-html-css-javascript/assignment-submission/XV40a/graded-quiz/view-feedback
+Questions extracted: 10
+--------------------------------------------------------------------------------
+
+Q1 (single_choice):
+Which of the following is NOT a method JavaScript uses to display or output information to users?
+   1. [ ] Showing pop-up dialogs such as alerts and prompts
+   2. [ ] Modifying the DOM to update visible page content
+   3. [x] Changing the server's HTML files automatically
+   4. [ ] Using console.log to print messages in the browser console
+
+Q2 (single_choice):
+Your task is to identify why a JavaScript function returns either a number or a string depending on its inputs. Which of the following is a correct statement for this?
+   1. [ ] JavaScript allows only a string value for return.
+   2. [ ] JavaScript automatically converts every input to a number.
+   3. [ ] JavaScript function requires predefined return types.
+   4. [x] JavaScript adapts the return value to the input types without type declarations.
+
+Q3 (single_choice):
+A developer applies a red border to a <div> element with the ID “example_id” using JavaScript. Which of the following functions should he use to retrieve this element?
+   1. [x] document.getElementById(“example_id”)
+   2. [ ] document.getElementById(div, “example_id”)
+   3. [ ] element.getNodeById(“example_id”)
+   4. [ ] div.getValueOf(“example_id”)
+
+Q4 (single_choice):
+When creating a function expression in JavaScript, what must you do?
+   1. [ ] Use only let to declare the function
+   2. [ ] Declare it without a variable
+   3. [x] Assign the function to a variable
+   4. [ ] Wrap the whole file in parentheses
+
+Q5 (single_choice):
+What is the value of ‘total’ after the following statement is executed?
+
+var total = 10 + 1 + “3”;
+   1. [ ] This results in an error
+   2. [ ] “1013”
+   3. [x] “113”
+   4. [ ] 14
+
+Q6 (single_choice):
+Cristy is reviewing a DOM tree in a browser’s developer tools; a node is labeled with the value eight and contains a descriptive message not rendered on the page. Which type of node is this?
+   1. [ ] Attributes
+   2. [ ] Text
+   3. [ ] Element
+   4. [x] Comment
+
+Q7 (single_choice):
+Which array method would you use if you want to calculate the sum of all order prices in an array?
+   1. [ ] map()
+   2. [ ] find()
+   3. [ ] filter()
+   4. [x] reduce()
+
+Q8 (multiple_select):
+Kevin is working with JavaScript objects and wants to add a color property to his custom “House” object. Which of the following are valid ways to do this? Select all that apply.
+   1. [x] House.color = “Beige”
+   2. [x] House.prototype.color = “Beige”
+   3. [ ] Modify the House object directly by adding a “color” parameter in its constructor
+   4. [ ] House.prototype(Color, “Beige”)
+
+Q9 (single_choice):
+Which of the following JavaScript functions will you use to change the text and formatting inside a div element dynamically?
+   1. [ ] document.getElementById
+   2. [ ] appendChild
+   3. [x] innerHTML
+   4. [ ] window.open
+
+Q10 (single_choice):
+Which keyword would you use to declare a variable that cannot be reassigned after its initial value is set?
+   1. [ ] let
+   2. [x] const
+   3. [ ] var
+   4. [ ] function

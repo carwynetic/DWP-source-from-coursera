@@ -1,0 +1,1785 @@
+{
+  "crawled_at": "2026-11-24T13:58:51.913188",
+  "course": {
+    "key": "coursera1",
+    "name": "Django Application Development with SQL and Databases",
+    "slug": "developing-applications-with-sql-databases-and-django",
+    "url": "https://www.coursera.org/learn/developing-applications-with-sql-databases-and-django"
+  },
+  "total_quizzes_discovered": 11,
+  "total_mc_quizzes_extracted": 11,
+  "total_mc_questions": 71,
+  "quizzes": [
+    {
+      "title": "Practice Quiz: Introduction to Databases Practice Assignment • 8 min • Grade: --",
+      "page_title": "Practice Quiz: Introduction to Databases",
+      "source": "Module 1",
+      "kind": "practice_quiz",
+      "url": "https://www.coursera.org/learn/developing-applications-with-sql-databases-and-django/assignment-submission/ZZ8f0/practice-quiz-introduction-to-databases",
+      "final_url": "https://www.coursera.org/learn/developing-applications-with-sql-databases-and-django/assignment-submission/ZZ8f0/practice-quiz-introduction-to-databases/attempt",
+      "status": "opened_after_step_1",
+      "question_count": 5,
+      "questions": [
+        {
+          "index": 1,
+          "question_type": "single_choice",
+          "prompt_text": "What are the five basic SQL commands?",
+          "options": [
+            {
+              "text": "CREATE, SELECT, INSERT, UPDATE, DELETE",
+              "checked": false
+            },
+            {
+              "text": "SELECT, COPY, PASTE, INSERT, ALTER",
+              "checked": false
+            },
+            {
+              "text": "CREATE, INSERT, RETRIEVE, MODIFY, DELETE",
+              "checked": false
+            },
+            {
+              "text": "None of the above",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "1.\nQuestion 1\n\nWhat are the five basic SQL commands?\n\nDo you understand?.\n\nI understand\n\nCREATE, SELECT, INSERT, UPDATE, DELETE\n\nSELECT, COPY, PASTE, INSERT, ALTER \n\nCREATE, INSERT, RETRIEVE, MODIFY, DELETE\n\nNone of the above\n\n1 point"
+        },
+        {
+          "index": 2,
+          "question_type": "single_choice",
+          "prompt_text": "In use cases for RDBMS, what is one of the reasons that relational databases are so well suited for Online Transaction Processing (OLTP) applications?",
+          "options": [
+            {
+              "text": "It’s easy to migrate data between two RDBMSs",
+              "checked": false
+            },
+            {
+              "text": "They support unlimited length of data fields.",
+              "checked": false
+            },
+            {
+              "text": "They support the ability to insert, update, or delete small amounts of data",
+              "checked": false
+            },
+            {
+              "text": "All of the above.",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "2.\nQuestion 2\n\nIn use cases for RDBMS, what is one of the reasons that relational databases are so well suited for Online Transaction Processing (OLTP) applications?\n\nDo you understand?.\n\nI understand\n\nIt’s easy to migrate data between two RDBMSs\n\nThey support unlimited length of data fields. \n\nThey support the ability to insert, update, or delete small amounts of data\n\nAll of the above.\n\n1 point"
+        },
+        {
+          "index": 3,
+          "question_type": "single_choice",
+          "prompt_text": "The Relational Model stores data in tables, which allows for data independence. What type of data independence does it provide?",
+          "options": [
+            {
+              "text": "Logical data independence",
+              "checked": false
+            },
+            {
+              "text": "Physical data independence",
+              "checked": false
+            },
+            {
+              "text": "Physical storage independence",
+              "checked": false
+            },
+            {
+              "text": "All of the above",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "3.\nQuestion 3\n\nThe Relational Model stores data in tables, which allows for data independence. What type of data independence does it provide?\n\nDo you understand?.\n\nI understand\n\nLogical data independence\n\nPhysical data independence\n\nPhysical storage independence\n\nAll of the above\n\n1 point"
+        },
+        {
+          "index": 4,
+          "question_type": "single_choice",
+          "prompt_text": "In a relational data model, a primary key uniquely identifies each row in a table. What is the function of a foreign key?",
+          "options": [
+            {
+              "text": "A foreign key allows tables to be joined based on a relationship between certain columns in the tables.",
+              "checked": false
+            },
+            {
+              "text": "A foreign key is a set of columns referring to a primary key of another entity.",
+              "checked": false
+            },
+            {
+              "text": "A foreign key allows you to use certain attributes as a link between tables.",
+              "checked": false
+            },
+            {
+              "text": "All of the above.",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "4.\nQuestion 4\n\nIn a relational data model, a primary key uniquely identifies each row in a table. What is the function of a foreign key? \n\nDo you understand?.\n\nI understand\n\nA foreign key allows tables to be joined based on a relationship between certain columns in the tables.\n\nA foreign key is a set of columns referring to a primary key of another entity.\n\nA foreign key allows you to use certain attributes as a link between tables. \n\nAll of the above. \n\n1 point"
+        },
+        {
+          "index": 5,
+          "question_type": "multiple_select",
+          "prompt_text": "",
+          "options": [
+            {
+              "text": "I, NGUYEN PHUC, understand and agree.",
+              "checked": false
+            }
+          ],
+          "raw_block_text": ""
+        }
+      ],
+      "raw_page_text": "N\nDjango Application Development with SQL and Databases\nToday's goal • 0/3 items\n\nComplete 3 items today to stay at a good pace!\n\nModule 1\nGetting Started with SQL & Relational Databases\nWelcome\nCourse Introduction\nVideo\n. Duration: 2 minutes\n2 min\nHelpful Tips for Course Completion\nReading\n. Duration: 2 minutes\n2 min\nSyllabus and Prerequisites\nReading\n. Duration: 3 minutes\n3 min\nIntroduction to Databases\nIntroduction to Data and Databases\nVideo\n. Duration: 2 minutes\n2 min\nRelational Databases\nVideo\n. Duration: 7 minutes\n7 min\nNon-relational Databases\nVideo\n. Duration: 7 minutes\n7 min\nRelational Data Concepts\nVideo\n. Duration: 5 minutes\n5 min\nHands-on Lab: Relational Data Concepts\nUngraded Plugin\n. Duration: 15 minutes\n15 min\nModule 1 Lesson 1 Summary\nReading\n. Duration: 2 minutes\n2 min\nPractice Quiz: Introduction to Databases\nPractice Assignment\n. Duration: 8 minutes\n8 min\nGraded Quiz: Introduction to Databases\nGraded AssignmentGrade: 100%\nBasic SQL Statements\nSELECT Statement\nVideo\n. Duration: 3 minutes\n3 min\nHands-on Lab: Simple SELECT Statements\nUngraded App Item\n. Duration: 20 minutes\n20 min\nCOUNT, DISTINCT, LIMIT\nVideo\n. Duration: 2 minutes\n2 min\nINSERT Statement\nVideo\n. Duration: 2 minutes\n2 min\nUPDATE and DELETE Statements\nVideo\n. Duration: 3 minutes\n3 min\nHands-on Lab: INSERT, UPDATE, and DELETE\nUngraded App Item\n. Duration: 20 minutes\n20 min\nModule 1 Lesson 2 Summary\nReading\n. Duration: 2 minutes\n2 min\nPractice Quiz: Basic SQL Statements\nPractice Assignment\n. Duration: 10 minutes\n10 min\nModule 1 Cheat Sheet: Getting Started with SQL & Relational Databases\nReading\n. Duration: 5 minutes\n5 min\nGraded Quiz: Basic SQL Statements\nGraded AssignmentGrade: 100%\n(Optional) Creating Tables, Sorting Results, and Join\nBonus Lesson Overview\nReading\n. Duration: 2 minutes\n2 min\nCREATE Table Statement\nVideo\n. Duration: 3 minutes\n3 min\nALTER, DROP, and Truncate Tables\nVideo\n. Duration: 4 minutes\n4 min\nSorting Result Sets\nVideo\n. Duration: 2 minutes\n2 min\nJoin Overview\nVideo\n. Duration: 4 minutes\n4 min\nModule 1 Bonus Lesson 3 Summary\nReading\n. Duration: 2 minutes\n2 min\nPractice Quiz: Creating Tables, Sorting Results, and Join\nPractice Assignment\n. Duration: 6 minutes\n6 min\nModule 1 Summary\nModule 1 Summary: Getting Started with SQL & Relational Databases\nReading\n. Duration: 2 minutes\n2 min\nModule 2\nORM: Bridging the Gap Between the Real World and Relational Model\nModule 3\nFull-stack Django Development\nModule 4\nConsolidate and Deploy Your Django App\nModule 5\nFinal Project: Enhance Online Course App with New Features\n\nPractice Assignment\n\nPractice Quiz: Introduction to Databases\nResume assignment\nHelp me practice\nWhat to expect\nDue Nov 22, 11:59 PM +07\nUnlimited attempts\n\nThis is a practice assignment to help you check your understanding. It doesn’t count toward your course grade.\n\nReport an issue\nGo to next item\nBack\nPractice Quiz: Introduction to Databases\n\nPractice Assignment • 8 min\n\nDueNov 22, 11:59 PM +07\n1.\nQuestion 1\n\nWhat are the five basic SQL commands?\n\nDo you understand?.\n\nI understand\n\nCREATE, SELECT, INSERT, UPDATE, DELETE\n\nSELECT, COPY, PASTE, INSERT, ALTER \n\nCREATE, INSERT, RETRIEVE, MODIFY, DELETE\n\nNone of the above\n\n1 point\n2.\nQuestion 2\n\nIn use cases for RDBMS, what is one of the reasons that relational databases are so well suited for Online Transaction Processing (OLTP) applications?\n\nDo you understand?.\n\nI understand\n\nIt’s easy to migrate data between two RDBMSs\n\nThey support unlimited length of data fields. \n\nThey support the ability to insert, update, or delete small amounts of data\n\nAll of the above.\n\n1 point\n3.\nQuestion 3\n\nThe Relational Model stores data in tables, which allows for data independence. What type of data independence does it provide?\n\nDo you understand?.\n\nI understand\n\nLogical data independence\n\nPhysical data independence\n\nPhysical storage independence\n\nAll of the above\n\n1 point\n4.\nQuestion 4\n\nIn a relational data model, a primary key uniquely identifies each row in a table. What is the function of a foreign key? \n\nDo you understand?.\n\nI understand\n\nA foreign key allows tables to be joined based on a relationship between certain columns in the tables.\n\nA foreign key is a set of columns referring to a primary key of another entity.\n\nA foreign key allows you to use certain attributes as a link between tables. \n\nAll of the above. \n\n1 point\nCoursera Honor Code\n\nBy clicking Submit, you confirm this work is your own. Submitting work created with AI tools may result in course failure or account deactivation according to Coursera Honor Code policy.\n\nI, NGUYEN PHUC, understand and agree.\nYou must select the checkbox in order to submit the assignment\nSubmit\nSave draft\n\nLast saved on Nov 24, 1:55 PM +07\n\nLike\nDislike\nReport an issue"
+    },
+    {
+      "title": "Graded Quiz: Introduction to Databases Graded Assignment • Submitted • Grade: 100% • Status: Graded Graded",
+      "page_title": "Graded Quiz: Introduction to Databases",
+      "source": "Module 1",
+      "kind": "graded_quiz",
+      "url": "https://www.coursera.org/learn/developing-applications-with-sql-databases-and-django/assignment-submission/E0uwq/graded-quiz-introduction-to-databases",
+      "final_url": "https://www.coursera.org/learn/developing-applications-with-sql-databases-and-django/assignment-submission/E0uwq/graded-quiz-introduction-to-databases/view-feedback",
+      "status": "opened_via_button",
+      "question_count": 5,
+      "questions": [
+        {
+          "index": 1,
+          "question_type": "single_choice",
+          "prompt_text": "You’re building a website for an online store. You need to store product information, customer details, and order history. Which of the following best describes the role of a database in this scenario?",
+          "options": [
+            {
+              "text": "A programming language for data analysis",
+              "checked": false
+            },
+            {
+              "text": "A physical device for storing data",
+              "checked": false
+            },
+            {
+              "text": "A collection of related tables",
+              "checked": true
+            },
+            {
+              "text": "A graphical user interface for data visualization",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "1.\nQuestion 1\n\nYou’re building a website for an online store. You need to store product information, customer details, and order history. Which of the following best describes the role of a database in this scenario?\n\nDo you understand?.\n\nI understand\n\nA programming language for data analysis\n\nA physical device for storing data\n\nA collection of related tables\n\nA graphical user interface for data visualization\n\nNice work\n\nCorrect! In this scenario, a database serves as a collection of related tables. It provides a structured way to store product information, customer details, and order history in separate tables, allowing efficient management and data retrieval.\n\n1 / 1 point"
+        },
+        {
+          "index": 2,
+          "question_type": "single_choice",
+          "prompt_text": "Which of the following is the most significant advantage of an RDBMS?",
+          "options": [
+            {
+              "text": "It requires source and destination tables to be identical for migrating data",
+              "checked": false
+            },
+            {
+              "text": "It’s ACID-Compliant",
+              "checked": true
+            },
+            {
+              "text": "It can store only structured data",
+              "checked": false
+            },
+            {
+              "text": "It enforces a limit on the length of data fields",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "2.\nQuestion 2\n\nWhich of the following is the most significant advantage of an RDBMS?\n\nDo you understand?.\n\nI understand\n\nIt requires source and destination tables to be identical for migrating data\n\nIt’s ACID-Compliant\n\nIt can store only structured data\n\nIt enforces a limit on the length of data fields\n\nNice work\n\nCorrect! ACID-Compliance is one of the significant advantages of an RDBMS. ACID stands for Atomicity, Consistency, Isolation, and Durability, ensuring that data transactions are processed reliably.\n\n1 / 1 point"
+        },
+        {
+          "index": 3,
+          "question_type": "single_choice",
+          "prompt_text": "In a library entity-relationship data model, a book is an example of _____, and the book’s title, edition, and publication date are examples of _______.",
+          "options": [
+            {
+              "text": "an entity, attributes",
+              "checked": true
+            },
+            {
+              "text": "an attribute, entities",
+              "checked": false
+            },
+            {
+              "text": "an entity, properties",
+              "checked": false
+            },
+            {
+              "text": "a row, columns",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "3.\nQuestion 3\n\nIn a library entity-relationship data model, a book is an example of _____, and the book’s title, edition, and publication date are examples of _______.\n\nDo you understand?.\n\nI understand\n\nan entity, attributes\n\nan attribute, entities\n\nan entity, properties\n\na row, columns\n\nNice work\n\nCorrect! In an E-R model, an entity is a noun (person, place, or thing). An attribute is a property or characteristic of the entity.\n\n1 / 1 point"
+        },
+        {
+          "index": 4,
+          "question_type": "single_choice",
+          "prompt_text": "Which of the following statements about a database is/are correct?",
+          "options": [
+            {
+              "text": "A database is a logically coherent data collection with some inherent meaning.",
+              "checked": true
+            },
+            {
+              "text": "Data can only be added and queried from a database but not modified.",
+              "checked": false
+            },
+            {
+              "text": "Only SQL can be used to query data in a database.",
+              "checked": false
+            },
+            {
+              "text": "A database collects unrelated data stored in separate files.",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "4.\nQuestion 4\n\nWhich of the following statements about a database is/are correct?\n\nDo you understand?.\n\nI understand\n\nA database is a logically coherent data collection with some inherent meaning.\n\nData can only be added and queried from a database but not modified.\n\nOnly SQL can be used to query data in a database.\n\nA database collects unrelated data stored in separate files.\n\nNice work\n\nCorrect! A database is a logically coherent collection of data with some inherent meaning.\n\n1 / 1 point"
+        },
+        {
+          "index": 5,
+          "question_type": "single_choice",
+          "prompt_text": "What is the key advantage of the relational model in databases?",
+          "options": [
+            {
+              "text": "Physical data independence",
+              "checked": false
+            },
+            {
+              "text": "Data security",
+              "checked": false
+            },
+            {
+              "text": "Unstructured data handling",
+              "checked": false
+            },
+            {
+              "text": "Logical and physical data independence",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "5.\nQuestion 5\n\nWhat is the key advantage of the relational model in databases?\n\nDo you understand?.\n\nI understand\n\nPhysical data independence\n\nData security\n\nUnstructured data handling\n\nLogical and physical data independence\n\nNice work\n\nCorrect! The relational model offers logical and physical data independence, allowing data to be accessed and modified without affecting the underlying database structure.\n\n1 / 1 point"
+        }
+      ],
+      "raw_page_text": "N\nDjango Application Development with SQL and Databases\nToday's goal • 0/3 items\n\nComplete 3 items today to stay at a good pace!\n\nModule 1\nGetting Started with SQL & Relational Databases\nWelcome\nCourse Introduction\nVideo\n. Duration: 2 minutes\n2 min\nHelpful Tips for Course Completion\nReading\n. Duration: 2 minutes\n2 min\nSyllabus and Prerequisites\nReading\n. Duration: 3 minutes\n3 min\nIntroduction to Databases\nIntroduction to Data and Databases\nVideo\n. Duration: 2 minutes\n2 min\nRelational Databases\nVideo\n. Duration: 7 minutes\n7 min\nNon-relational Databases\nVideo\n. Duration: 7 minutes\n7 min\nRelational Data Concepts\nVideo\n. Duration: 5 minutes\n5 min\nHands-on Lab: Relational Data Concepts\nUngraded Plugin\n. Duration: 15 minutes\n15 min\nModule 1 Lesson 1 Summary\nReading\n. Duration: 2 minutes\n2 min\nPractice Quiz: Introduction to Databases\nPractice Assignment\n. Duration: 8 minutes\n8 min\nGraded Quiz: Introduction to Databases\nGraded AssignmentGrade: 100%\nBasic SQL Statements\nSELECT Statement\nVideo\n. Duration: 3 minutes\n3 min\nHands-on Lab: Simple SELECT Statements\nUngraded App Item\n. Duration: 20 minutes\n20 min\nCOUNT, DISTINCT, LIMIT\nVideo\n. Duration: 2 minutes\n2 min\nINSERT Statement\nVideo\n. Duration: 2 minutes\n2 min\nUPDATE and DELETE Statements\nVideo\n. Duration: 3 minutes\n3 min\nHands-on Lab: INSERT, UPDATE, and DELETE\nUngraded App Item\n. Duration: 20 minutes\n20 min\nModule 1 Lesson 2 Summary\nReading\n. Duration: 2 minutes\n2 min\nPractice Quiz: Basic SQL Statements\nPractice Assignment\n. Duration: 10 minutes\n10 min\nModule 1 Cheat Sheet: Getting Started with SQL & Relational Databases\nReading\n. Duration: 5 minutes\n5 min\nGraded Quiz: Basic SQL Statements\nGraded AssignmentGrade: 100%\n(Optional) Creating Tables, Sorting Results, and Join\nBonus Lesson Overview\nReading\n. Duration: 2 minutes\n2 min\nCREATE Table Statement\nVideo\n. Duration: 3 minutes\n3 min\nALTER, DROP, and Truncate Tables\nVideo\n. Duration: 4 minutes\n4 min\nSorting Result Sets\nVideo\n. Duration: 2 minutes\n2 min\nJoin Overview\nVideo\n. Duration: 4 minutes\n4 min\nModule 1 Bonus Lesson 3 Summary\nReading\n. Duration: 2 minutes\n2 min\nPractice Quiz: Creating Tables, Sorting Results, and Join\nPractice Assignment\n. Duration: 6 minutes\n6 min\nModule 1 Summary\nModule 1 Summary: Getting Started with SQL & Relational Databases\nReading\n. Duration: 2 minutes\n2 min\nModule 2\nORM: Bridging the Gap Between the Real World and Relational Model\nModule 3\nFull-stack Django Development\nModule 4\nConsolidate and Deploy Your Django App\nModule 5\nFinal Project: Enhance Online Course App with New Features\n\nGraded Assignment\n\nGraded Quiz: Introduction to Databases\n\nAssessment monitored for academic integrity and AI-usage. Privacy Notice\n\nGo to next item\nResume assignment\nWhat to expect\nDue Nov 22, 11:59 PM +07\n2 of 3 attempts\n\nevery 8 hours\n\nYou passed!\n\nTo pass you need a grade of at least 60%.\n\n100%\nView feedback\n\nSubmitted Nov 9, 8:27 PM +07.\n\nReport an issue\nGo to next item\nBack\nGraded Quiz: Introduction to Databases\n\nGraded Assignment • 10 min\n\nDueNov 22, 11:59 PM +07\nYour grade: 100%\nYour latest: 100%•\nYour highest: 100%•\nTo pass you need at least 60%. We keep your highest score.\nNext item\n1.\nQuestion 1\n\nYou’re building a website for an online store. You need to store product information, customer details, and order history. Which of the following best describes the role of a database in this scenario?\n\nDo you understand?.\n\nI understand\n\nA programming language for data analysis\n\nA physical device for storing data\n\nA collection of related tables\n\nA graphical user interface for data visualization\n\nNice work\n\nCorrect! In this scenario, a database serves as a collection of related tables. It provides a structured way to store product information, customer details, and order history in separate tables, allowing efficient management and data retrieval.\n\n1 / 1 point\n2.\nQuestion 2\n\nWhich of the following is the most significant advantage of an RDBMS?\n\nDo you understand?.\n\nI understand\n\nIt requires source and destination tables to be identical for migrating data\n\nIt’s ACID-Compliant\n\nIt can store only structured data\n\nIt enforces a limit on the length of data fields\n\nNice work\n\nCorrect! ACID-Compliance is one of the significant advantages of an RDBMS. ACID stands for Atomicity, Consistency, Isolation, and Durability, ensuring that data transactions are processed reliably.\n\n1 / 1 point\n3.\nQuestion 3\n\nIn a library entity-relationship data model, a book is an example of _____, and the book’s title, edition, and publication date are examples of _______.\n\nDo you understand?.\n\nI understand\n\nan entity, attributes\n\nan attribute, entities\n\nan entity, properties\n\na row, columns\n\nNice work\n\nCorrect! In an E-R model, an entity is a noun (person, place, or thing). An attribute is a property or characteristic of the entity.\n\n1 / 1 point\n4.\nQuestion 4\n\nWhich of the following statements about a database is/are correct?\n\nDo you understand?.\n\nI understand\n\nA database is a logically coherent data collection with some inherent meaning.\n\nData can only be added and queried from a database but not modified.\n\nOnly SQL can be used to query data in a database.\n\nA database collects unrelated data stored in separate files.\n\nNice work\n\nCorrect! A database is a logically coherent collection of data with some inherent meaning.\n\n1 / 1 point\n5.\nQuestion 5\n\nWhat is the key advantage of the relational model in databases?\n\nDo you understand?.\n\nI understand\n\nPhysical data independence\n\nData security\n\nUnstructured data handling\n\nLogical and physical data independence\n\nNice work\n\nCorrect! The relational model offers logical and physical data independence, allowing data to be accessed and modified without affecting the underlying database structure.\n\n1 / 1 point"
+    },
+    {
+      "title": "Practice Quiz: Basic SQL Statements Practice Assignment • 10 min • Grade: --",
+      "page_title": "Practice Quiz: Basic SQL Statements",
+      "source": "Module 1",
+      "kind": "practice_quiz",
+      "url": "https://www.coursera.org/learn/developing-applications-with-sql-databases-and-django/assignment-submission/oMQfz/practice-quiz-basic-sql-statements",
+      "final_url": "https://www.coursera.org/learn/developing-applications-with-sql-databases-and-django/assignment-submission/oMQfz/practice-quiz-basic-sql-statements/attempt",
+      "status": "opened_after_step_1",
+      "question_count": 5,
+      "questions": [
+        {
+          "index": 1,
+          "question_type": "single_choice",
+          "prompt_text": "What is the function of a predicate when reading and modifying data?",
+          "options": [
+            {
+              "text": "It is a condition that evaluates to true, false, or unknown.",
+              "checked": false
+            },
+            {
+              "text": "It is always required when using the Where clause.",
+              "checked": false
+            },
+            {
+              "text": "It allows us to restrict the result set using the Where clause",
+              "checked": false
+            },
+            {
+              "text": "All of the above",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "1.\nQuestion 1\n\nWhat is the function of a predicate when reading and modifying data?\n\nDo you understand?.\n\nI understand\n\nIt is a condition that evaluates to true, false, or unknown.\n\nIt is always required when using the Where clause.\n\nIt allows us to restrict the result set using the Where clause\n\nAll of the above \n\n1 point"
+        },
+        {
+          "index": 2,
+          "question_type": "single_choice",
+          "prompt_text": "Which of the following INSERT statements will add one row containing a student’s identification number, first name, and last name?",
+          "options": [
+            {
+              "text": "INSERT INTO STUDENT\n\n                 (STUDENT_ID, LASTNAME, FIRSTNAME)\n\n        VALUES (STUDENT ID = ‘345DT2000’, LASTNAME = ‘Morales’, FIRSTNAME = ‘Raul’)",
+              "checked": false
+            },
+            {
+              "text": "INSERT INTO STUDENT \n\n             (STUDENT_ID, LASTNAME, FIRSTNAME, DOB) \n\n     VALUES (‘345DT2000’, ‘Morales’, ‘Raul’)",
+              "checked": false
+            },
+            {
+              "text": "INSERT INTO STUDENT \n\n             (STUDENT_ID, LASTNAME, FIRSTNAME) \n\n     STUDENT_ID (‘345DT2000’), LASTNAME (‘Morales’), FIRSTNAME (‘Raul’)",
+              "checked": false
+            },
+            {
+              "text": "INSERT INTO STUDENT \n\n             (STUDENT_ID, LASTNAME, FIRSTNAME) \n\n     VALUES (‘345DT2000’, ‘Morales’, ‘Raul’)",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "2.\nQuestion 2\n\nWhich of the following INSERT statements will add one row containing a student’s identification number, first name, and last name?\n\nDo you understand?.\n\nI understand\n\nINSERT INTO STUDENT\n\n                 (STUDENT_ID, LASTNAME, FIRSTNAME)\n\n        VALUES (STUDENT ID = ‘345DT2000’, LASTNAME = ‘Morales’, FIRSTNAME = ‘Raul’)\n\nINSERT INTO STUDENT \n\n             (STUDENT_ID, LASTNAME, FIRSTNAME, DOB) \n\n     VALUES (‘345DT2000’, ‘Morales’, ‘Raul’) \n\nINSERT INTO STUDENT \n\n             (STUDENT_ID, LASTNAME, FIRSTNAME) \n\n     STUDENT_ID (‘345DT2000’), LASTNAME (‘Morales’), FIRSTNAME (‘Raul’) \n\nINSERT INTO STUDENT \n\n             (STUDENT_ID, LASTNAME, FIRSTNAME) \n\n     VALUES (‘345DT2000’, ‘Morales’, ‘Raul’) \n\n1 point"
+        },
+        {
+          "index": 3,
+          "question_type": "single_choice",
+          "prompt_text": "You want to update a row in the Student table to change a student’s first name from “Kristen” to “Christine.” What will happen if you leave out the Where clause in the UPDATE statement?",
+          "options": [
+            {
+              "text": "Every student’s first name would change to “Christine” in the table.",
+              "checked": false
+            },
+            {
+              "text": "Nothing. The UPDATE clause won’t work without the WHERE clause.",
+              "checked": false
+            },
+            {
+              "text": "The update would take longer because SQL would need to search through the whole database for a student with a first name of “Kristen.”",
+              "checked": false
+            },
+            {
+              "text": "Student(s) with the first name of “Kristen” would be deleted from the database.",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "3.\nQuestion 3\n\nYou want to update a row in the Student table to change a student’s first name from “Kristen” to “Christine.” What will happen if you leave out the Where clause in the UPDATE statement?\n\nDo you understand?.\n\nI understand\n\nEvery student’s first name would change to “Christine” in the table.  \n\nNothing. The UPDATE clause won’t work without the WHERE clause.\n\nThe update would take longer because SQL would need to search through the whole database for a student with a first name of “Kristen.”\n\nStudent(s) with the first name of “Kristen” would be deleted from the database.\n\n1 point"
+        },
+        {
+          "index": 4,
+          "question_type": "single_choice",
+          "prompt_text": "Which expression below is used with a SELECT statement to retrieve the number of rows that match the query criteria?",
+          "options": [
+            {
+              "text": "LIMIT",
+              "checked": false
+            },
+            {
+              "text": "COUNT",
+              "checked": false
+            },
+            {
+              "text": "DISTINCT",
+              "checked": false
+            },
+            {
+              "text": "All of the above",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "4.\nQuestion 4\n\nWhich expression below is used with a SELECT statement to retrieve the number of rows that match the query criteria?\n\nDo you understand?.\n\nI understand\n\nLIMIT\n\nCOUNT\n\nDISTINCT\n\nAll of the above\n\n1 point"
+        },
+        {
+          "index": 5,
+          "question_type": "multiple_select",
+          "prompt_text": "",
+          "options": [
+            {
+              "text": "I, NGUYEN PHUC, understand and agree.",
+              "checked": false
+            }
+          ],
+          "raw_block_text": ""
+        }
+      ],
+      "raw_page_text": "N\nDjango Application Development with SQL and Databases\nToday's goal • 0/3 items\n\nComplete 3 items today to stay at a good pace!\n\nModule 1\nGetting Started with SQL & Relational Databases\nWelcome\nCourse Introduction\nVideo\n. Duration: 2 minutes\n2 min\nHelpful Tips for Course Completion\nReading\n. Duration: 2 minutes\n2 min\nSyllabus and Prerequisites\nReading\n. Duration: 3 minutes\n3 min\nIntroduction to Databases\nIntroduction to Data and Databases\nVideo\n. Duration: 2 minutes\n2 min\nRelational Databases\nVideo\n. Duration: 7 minutes\n7 min\nNon-relational Databases\nVideo\n. Duration: 7 minutes\n7 min\nRelational Data Concepts\nVideo\n. Duration: 5 minutes\n5 min\nHands-on Lab: Relational Data Concepts\nUngraded Plugin\n. Duration: 15 minutes\n15 min\nModule 1 Lesson 1 Summary\nReading\n. Duration: 2 minutes\n2 min\nPractice Quiz: Introduction to Databases\nPractice Assignment\n. Duration: 8 minutes\n8 min\nGraded Quiz: Introduction to Databases\nGraded AssignmentGrade: 100%\nBasic SQL Statements\nSELECT Statement\nVideo\n. Duration: 3 minutes\n3 min\nHands-on Lab: Simple SELECT Statements\nUngraded App Item\n. Duration: 20 minutes\n20 min\nCOUNT, DISTINCT, LIMIT\nVideo\n. Duration: 2 minutes\n2 min\nINSERT Statement\nVideo\n. Duration: 2 minutes\n2 min\nUPDATE and DELETE Statements\nVideo\n. Duration: 3 minutes\n3 min\nHands-on Lab: INSERT, UPDATE, and DELETE\nUngraded App Item\n. Duration: 20 minutes\n20 min\nModule 1 Lesson 2 Summary\nReading\n. Duration: 2 minutes\n2 min\nPractice Quiz: Basic SQL Statements\nPractice Assignment\n. Duration: 10 minutes\n10 min\nModule 1 Cheat Sheet: Getting Started with SQL & Relational Databases\nReading\n. Duration: 5 minutes\n5 min\nGraded Quiz: Basic SQL Statements\nGraded AssignmentGrade: 100%\n(Optional) Creating Tables, Sorting Results, and Join\nBonus Lesson Overview\nReading\n. Duration: 2 minutes\n2 min\nCREATE Table Statement\nVideo\n. Duration: 3 minutes\n3 min\nALTER, DROP, and Truncate Tables\nVideo\n. Duration: 4 minutes\n4 min\nSorting Result Sets\nVideo\n. Duration: 2 minutes\n2 min\nJoin Overview\nVideo\n. Duration: 4 minutes\n4 min\nModule 1 Bonus Lesson 3 Summary\nReading\n. Duration: 2 minutes\n2 min\nPractice Quiz: Creating Tables, Sorting Results, and Join\nPractice Assignment\n. Duration: 6 minutes\n6 min\nModule 1 Summary\nModule 1 Summary: Getting Started with SQL & Relational Databases\nReading\n. Duration: 2 minutes\n2 min\nModule 2\nORM: Bridging the Gap Between the Real World and Relational Model\nModule 3\nFull-stack Django Development\nModule 4\nConsolidate and Deploy Your Django App\nModule 5\nFinal Project: Enhance Online Course App with New Features\n\nPractice Assignment\n\nPractice Quiz: Basic SQL Statements\nResume assignment\nHelp me practice\nWhat to expect\nDue Nov 29, 11:59 PM +07\nUnlimited attempts\n\nThis is a practice assignment to help you check your understanding. It doesn’t count toward your course grade.\n\nReport an issue\nGo to next item\nBack\nPractice Quiz: Basic SQL Statements\n\nPractice Assignment • 10 min\n\nDueNov 29, 11:59 PM +07\n1.\nQuestion 1\n\nWhat is the function of a predicate when reading and modifying data?\n\nDo you understand?.\n\nI understand\n\nIt is a condition that evaluates to true, false, or unknown.\n\nIt is always required when using the Where clause.\n\nIt allows us to restrict the result set using the Where clause\n\nAll of the above \n\n1 point\n2.\nQuestion 2\n\nWhich of the following INSERT statements will add one row containing a student’s identification number, first name, and last name?\n\nDo you understand?.\n\nI understand\n\nINSERT INTO STUDENT\n\n                 (STUDENT_ID, LASTNAME, FIRSTNAME)\n\n        VALUES (STUDENT ID = ‘345DT2000’, LASTNAME = ‘Morales’, FIRSTNAME = ‘Raul’)\n\nINSERT INTO STUDENT \n\n             (STUDENT_ID, LASTNAME, FIRSTNAME, DOB) \n\n     VALUES (‘345DT2000’, ‘Morales’, ‘Raul’) \n\nINSERT INTO STUDENT \n\n             (STUDENT_ID, LASTNAME, FIRSTNAME) \n\n     STUDENT_ID (‘345DT2000’), LASTNAME (‘Morales’), FIRSTNAME (‘Raul’) \n\nINSERT INTO STUDENT \n\n             (STUDENT_ID, LASTNAME, FIRSTNAME) \n\n     VALUES (‘345DT2000’, ‘Morales’, ‘Raul’) \n\n1 point\n3.\nQuestion 3\n\nYou want to update a row in the Student table to change a student’s first name from “Kristen” to “Christine.” What will happen if you leave out the Where clause in the UPDATE statement?\n\nDo you understand?.\n\nI understand\n\nEvery student’s first name would change to “Christine” in the table.  \n\nNothing. The UPDATE clause won’t work without the WHERE clause.\n\nThe update would take longer because SQL would need to search through the whole database for a student with a first name of “Kristen.”\n\nStudent(s) with the first name of “Kristen” would be deleted from the database.\n\n1 point\n4.\nQuestion 4\n\nWhich expression below is used with a SELECT statement to retrieve the number of rows that match the query criteria?\n\nDo you understand?.\n\nI understand\n\nLIMIT\n\nCOUNT\n\nDISTINCT\n\nAll of the above\n\n1 point\nCoursera Honor Code\n\nBy clicking Submit, you confirm this work is your own. Submitting work created with AI tools may result in course failure or account deactivation according to Coursera Honor Code policy.\n\nI, NGUYEN PHUC, understand and agree.\nYou must select the checkbox in order to submit the assignment\nSubmit\nSave draft\n\nLast saved on Nov 24, 1:56 PM +07\n\nLike\nDislike\nReport an issue"
+    },
+    {
+      "title": "Graded Quiz: Basic SQL Statements Graded Assignment • Submitted • Grade: 100% • Status: Graded Graded",
+      "page_title": "Graded Quiz: Basic SQL Statements",
+      "source": "Module 1",
+      "kind": "graded_quiz",
+      "url": "https://www.coursera.org/learn/developing-applications-with-sql-databases-and-django/assignment-submission/Po367/graded-quiz-basic-sql-statements",
+      "final_url": "https://www.coursera.org/learn/developing-applications-with-sql-databases-and-django/assignment-submission/Po367/graded-quiz-basic-sql-statements/view-feedback",
+      "status": "opened_via_button",
+      "question_count": 5,
+      "questions": [
+        {
+          "index": 1,
+          "question_type": "single_choice",
+          "prompt_text": "What is the correct syntax for inserting data into a table named Members?",
+          "options": [
+            {
+              "text": "INSERT INTO MEMBERS\n\n      (MEMBER_ID, LASTNAME, FIRSTNAME)\n\n   VALUES (MEMBER_ID is 345DT2000, LASTNAME is Smith, FIRSTNAME is Charles)",
+              "checked": false
+            },
+            {
+              "text": "INSERT INTO MEMBERS\n\n      (MEMBER_ID, LASTNAME, FIRSTNAME)\n\n   VALUES (‘1432’, ‘Smith’, ‘Charles’)",
+              "checked": true
+            },
+            {
+              "text": "INSERT INTO MEMBERS\n\n      (MEMBER_ID, LASTNAME, FIRSTNAME, OCCUPATION)\n\n   VALUES (‘1432’, ‘Smith’, ‘Charles’)",
+              "checked": false
+            },
+            {
+              "text": "INSERT MEMBERS\n\n      (MEMBER_ID, LASTNAME, FIRSTNAME)\n\n   VALUES (‘1432’, ‘Smith’, ‘Charles’)",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "1.\nQuestion 1\n\nWhat is the correct syntax for inserting data into a table named Members?\n\nDo you understand?.\n\nI understand\n\nINSERT INTO MEMBERS\n\n      (MEMBER_ID, LASTNAME, FIRSTNAME)\n\n   VALUES (MEMBER_ID is 345DT2000, LASTNAME is Smith, FIRSTNAME is Charles)\n\nINSERT INTO MEMBERS\n\n      (MEMBER_ID, LASTNAME, FIRSTNAME)\n\n   VALUES (‘1432’, ‘Smith’, ‘Charles’)\n\nINSERT INTO MEMBERS\n\n      (MEMBER_ID, LASTNAME, FIRSTNAME, OCCUPATION)\n\n   VALUES (‘1432’, ‘Smith’, ‘Charles’)\n\nINSERT MEMBERS\n\n      (MEMBER_ID, LASTNAME, FIRSTNAME)\n\n   VALUES (‘1432’, ‘Smith’, ‘Charles’)\n\nNice work\n\nCorrect. This statement creates a row in the Members table that contains Charles Smith’s member id, last name, and first name.\n\n1 / 1 point"
+        },
+        {
+          "index": 2,
+          "question_type": "single_choice",
+          "prompt_text": "When using the DELETE statement to remove data from a database, what does the WHERE clause do?",
+          "options": [
+            {
+              "text": "It limits the amount of data that is deleted to a certain number of characters.",
+              "checked": false
+            },
+            {
+              "text": "It specifies where to find the data to delete, by column number and row number.",
+              "checked": false
+            },
+            {
+              "text": "It indicates the condition under which the data should be deleted; for example, which rows should have their contents deleted.",
+              "checked": true
+            },
+            {
+              "text": "It specifies the server where the database is located.",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "2.\nQuestion 2\n\nWhen using the DELETE statement to remove data from a database, what does the WHERE clause do?\n\nDo you understand?.\n\nI understand\n\nIt limits the amount of data that is deleted to a certain number of characters.\n\nIt specifies where to find the data to delete, by column number and row number.\n\nIt indicates the condition under which the data should be deleted; for example, which rows should have their contents deleted.\n\nIt specifies the server where the database is located.\n\nNice work\n\nCorrect! The WHERE clause used with the DELETE statement specifies the condition under which data in a database should be deleted.\n\n1 / 1 point"
+        },
+        {
+          "index": 3,
+          "question_type": "single_choice",
+          "prompt_text": "A single INSERT statement can be used to insert multiple rows in a table. True or False?",
+          "options": [
+            {
+              "text": "True",
+              "checked": true
+            },
+            {
+              "text": "False",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "3.\nQuestion 3\n\nA single INSERT statement can be used to insert multiple rows in a table. True or False?\n\nDo you understand?.\n\nI understand\n\nTrue\n\nFalse\n\nNice work\n\nThis statement is True. Multiple rows can be inserted using a single INSERT statement.\n\n1 / 1 point"
+        },
+        {
+          "index": 4,
+          "question_type": "single_choice",
+          "prompt_text": "Which SELECT statement eliminates duplicates in the result set?",
+          "options": [
+            {
+              "text": "SELECT country FROM author ORDER BY 1",
+              "checked": false
+            },
+            {
+              "text": "SELECT DISTINCT(country) FROM author",
+              "checked": true
+            },
+            {
+              "text": "SELECT country FROM author LIMIT DUPLICATES",
+              "checked": false
+            },
+            {
+              "text": "None of the above",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "4.\nQuestion 4\n\nWhich SELECT statement eliminates duplicates in the result set?\n\nDo you understand?.\n\nI understand\n\nSELECT country FROM author ORDER BY 1\n\n SELECT DISTINCT(country) FROM author\n\nSELECT country FROM author LIMIT DUPLICATES\n\nNone of the above  \n\nNice work\n\nCorrect. You use the DISTINCT keyword to return only distinct, or different, rows.\n\n1 / 1 point"
+        },
+        {
+          "index": 5,
+          "question_type": "single_choice",
+          "prompt_text": "The SELECT statement is called a query, and the output we get from executing the query is called a result set. True or False?",
+          "options": [
+            {
+              "text": "True",
+              "checked": true
+            },
+            {
+              "text": "False",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "5.\nQuestion 5\n\nThe SELECT statement is called a query, and the output we get from executing the query is called a result set. True or False?\n\nDo you understand?.\n\nI understand\n\nTrue\n\nFalse\n\nNice work\n\nThis statement is true. The SELECT statement is called a query, and the output we get from executing the query is called a result set. \n\n1 / 1 point"
+        }
+      ],
+      "raw_page_text": "N\nDjango Application Development with SQL and Databases\nToday's goal • 0/3 items\n\nComplete 3 items today to stay at a good pace!\n\nModule 1\nGetting Started with SQL & Relational Databases\nWelcome\nCourse Introduction\nVideo\n. Duration: 2 minutes\n2 min\nHelpful Tips for Course Completion\nReading\n. Duration: 2 minutes\n2 min\nSyllabus and Prerequisites\nReading\n. Duration: 3 minutes\n3 min\nIntroduction to Databases\nIntroduction to Data and Databases\nVideo\n. Duration: 2 minutes\n2 min\nRelational Databases\nVideo\n. Duration: 7 minutes\n7 min\nNon-relational Databases\nVideo\n. Duration: 7 minutes\n7 min\nRelational Data Concepts\nVideo\n. Duration: 5 minutes\n5 min\nHands-on Lab: Relational Data Concepts\nUngraded Plugin\n. Duration: 15 minutes\n15 min\nModule 1 Lesson 1 Summary\nReading\n. Duration: 2 minutes\n2 min\nPractice Quiz: Introduction to Databases\nPractice Assignment\n. Duration: 8 minutes\n8 min\nGraded Quiz: Introduction to Databases\nGraded AssignmentGrade: 100%\nBasic SQL Statements\nSELECT Statement\nVideo\n. Duration: 3 minutes\n3 min\nHands-on Lab: Simple SELECT Statements\nUngraded App Item\n. Duration: 20 minutes\n20 min\nCOUNT, DISTINCT, LIMIT\nVideo\n. Duration: 2 minutes\n2 min\nINSERT Statement\nVideo\n. Duration: 2 minutes\n2 min\nUPDATE and DELETE Statements\nVideo\n. Duration: 3 minutes\n3 min\nHands-on Lab: INSERT, UPDATE, and DELETE\nUngraded App Item\n. Duration: 20 minutes\n20 min\nModule 1 Lesson 2 Summary\nReading\n. Duration: 2 minutes\n2 min\nPractice Quiz: Basic SQL Statements\nPractice Assignment\n. Duration: 10 minutes\n10 min\nModule 1 Cheat Sheet: Getting Started with SQL & Relational Databases\nReading\n. Duration: 5 minutes\n5 min\nGraded Quiz: Basic SQL Statements\nGraded AssignmentGrade: 100%\n(Optional) Creating Tables, Sorting Results, and Join\nBonus Lesson Overview\nReading\n. Duration: 2 minutes\n2 min\nCREATE Table Statement\nVideo\n. Duration: 3 minutes\n3 min\nALTER, DROP, and Truncate Tables\nVideo\n. Duration: 4 minutes\n4 min\nSorting Result Sets\nVideo\n. Duration: 2 minutes\n2 min\nJoin Overview\nVideo\n. Duration: 4 minutes\n4 min\nModule 1 Bonus Lesson 3 Summary\nReading\n. Duration: 2 minutes\n2 min\nPractice Quiz: Creating Tables, Sorting Results, and Join\nPractice Assignment\n. Duration: 6 minutes\n6 min\nModule 1 Summary\nModule 1 Summary: Getting Started with SQL & Relational Databases\nReading\n. Duration: 2 minutes\n2 min\nModule 2\nORM: Bridging the Gap Between the Real World and Relational Model\nModule 3\nFull-stack Django Development\nModule 4\nConsolidate and Deploy Your Django App\nModule 5\nFinal Project: Enhance Online Course App with New Features\n\nGraded Assignment\n\nGraded Quiz: Basic SQL Statements\n\nAssessment monitored for academic integrity and AI-usage. Privacy Notice\n\nGo to next item\nTry again\nWhat to expect\nDue Nov 29, 11:59 PM +07\n3 attempts\n\nevery 8 hours\n\nYou passed!\n\nTo pass you need a grade of at least 70%.\n\n100%\nView feedback\n\nSubmitted Nov 9, 8:30 PM +07.\n\nReport an issue\nGo to next item\nBack\nGraded Quiz: Basic SQL Statements\n\nGraded Assignment • 10 min\n\nDueNov 29, 11:59 PM +07\nYour grade: 100%\nYour latest: 100%•\nYour highest: 100%•\nTo pass you need at least 70%. We keep your highest score.\nNext item\n1.\nQuestion 1\n\nWhat is the correct syntax for inserting data into a table named Members?\n\nDo you understand?.\n\nI understand\n\nINSERT INTO MEMBERS\n\n      (MEMBER_ID, LASTNAME, FIRSTNAME)\n\n   VALUES (MEMBER_ID is 345DT2000, LASTNAME is Smith, FIRSTNAME is Charles)\n\nINSERT INTO MEMBERS\n\n      (MEMBER_ID, LASTNAME, FIRSTNAME)\n\n   VALUES (‘1432’, ‘Smith’, ‘Charles’)\n\nINSERT INTO MEMBERS\n\n      (MEMBER_ID, LASTNAME, FIRSTNAME, OCCUPATION)\n\n   VALUES (‘1432’, ‘Smith’, ‘Charles’)\n\nINSERT MEMBERS\n\n      (MEMBER_ID, LASTNAME, FIRSTNAME)\n\n   VALUES (‘1432’, ‘Smith’, ‘Charles’)\n\nNice work\n\nCorrect. This statement creates a row in the Members table that contains Charles Smith’s member id, last name, and first name.\n\n1 / 1 point\n2.\nQuestion 2\n\nWhen using the DELETE statement to remove data from a database, what does the WHERE clause do?\n\nDo you understand?.\n\nI understand\n\nIt limits the amount of data that is deleted to a certain number of characters.\n\nIt specifies where to find the data to delete, by column number and row number.\n\nIt indicates the condition under which the data should be deleted; for example, which rows should have their contents deleted.\n\nIt specifies the server where the database is located.\n\nNice work\n\nCorrect! The WHERE clause used with the DELETE statement specifies the condition under which data in a database should be deleted.\n\n1 / 1 point\n3.\nQuestion 3\n\nA single INSERT statement can be used to insert multiple rows in a table. True or False?\n\nDo you understand?.\n\nI understand\n\nTrue\n\nFalse\n\nNice work\n\nThis statement is True. Multiple rows can be inserted using a single INSERT statement.\n\n1 / 1 point\n4.\nQuestion 4\n\nWhich SELECT statement eliminates duplicates in the result set?\n\nDo you understand?.\n\nI understand\n\nSELECT country FROM author ORDER BY 1\n\n SELECT DISTINCT(country) FROM author\n\nSELECT country FROM author LIMIT DUPLICATES\n\nNone of the above  \n\nNice work\n\nCorrect. You use the DISTINCT keyword to return only distinct, or different, rows.\n\n1 / 1 point\n5.\nQuestion 5\n\nThe SELECT statement is called a query, and the output we get from executing the query is called a result set. True or False?\n\nDo you understand?.\n\nI understand\n\nTrue\n\nFalse\n\nNice work\n\nThis statement is true. The SELECT statement is called a query, and the output we get from executing the query is called a result set. \n\n1 / 1 point"
+    },
+    {
+      "title": "Practice Quiz: Creating Tables, Sorting Results, and Join Practice Assignment • 6 min • Grade: --",
+      "page_title": "Practice Quiz: Creating Tables, Sorting Results, and Join",
+      "source": "Module 1",
+      "kind": "practice_quiz",
+      "url": "https://www.coursera.org/learn/developing-applications-with-sql-databases-and-django/assignment-submission/r8Ygx/practice-quiz-creating-tables-sorting-results-and-join",
+      "final_url": "https://www.coursera.org/learn/developing-applications-with-sql-databases-and-django/assignment-submission/r8Ygx/practice-quiz-creating-tables-sorting-results-and-join/attempt",
+      "status": "opened_via_button:Start assignment",
+      "question_count": 4,
+      "questions": [
+        {
+          "index": 1,
+          "question_type": "single_choice",
+          "prompt_text": "Which attributes of columns in a table must always be defined in a CREATE TABLE statement?",
+          "options": [
+            {
+              "text": "Datatype and Primary Key constraint",
+              "checked": false
+            },
+            {
+              "text": "Name and Primary Key constraint",
+              "checked": false
+            },
+            {
+              "text": "Name and datatype",
+              "checked": false
+            },
+            {
+              "text": "Datatype and number of columns",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "1.\nQuestion 1\n\nWhich attributes of columns in a table must always be defined in a CREATE TABLE statement?\n\nDo you understand?.\n\nI understand\n\nDatatype and Primary Key constraint \n\nName and Primary Key constraint\n\nName and datatype\n\nDatatype and number of columns \n\n1 point"
+        },
+        {
+          "index": 2,
+          "question_type": "single_choice",
+          "prompt_text": "What would you add to this SELECT statement to sort the result set alphabetically by author’s last name? \nSELECT title, lastname from Author",
+          "options": [
+            {
+              "text": "SORT BY lastname",
+              "checked": false
+            },
+            {
+              "text": "ORDER BY lastname",
+              "checked": false
+            },
+            {
+              "text": "ORDER BY column 1",
+              "checked": false
+            },
+            {
+              "text": "DESC lastname",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "2.\nQuestion 2\n\nWhat would you add to this SELECT statement to sort the result set alphabetically by author’s last name? \nSELECT title, lastname from Author\n\nDo you understand?.\n\nI understand\n\nSORT BY lastname\n\nORDER BY lastname\n\nORDER BY column 1 \n\nDESC lastname\n\n1 point"
+        },
+        {
+          "index": 3,
+          "question_type": "single_choice",
+          "prompt_text": "What is the best definition of a JOIN operator?",
+          "options": [
+            {
+              "text": "It combines the rows from two or more tables that are related by a common row.",
+              "checked": false
+            },
+            {
+              "text": "It combines the rows from two or more tables that are related by a common column.",
+              "checked": false
+            },
+            {
+              "text": "It combines all the data in two or more tables and replaces the tables with a new table.",
+              "checked": false
+            },
+            {
+              "text": "It retrieves data from one or more columns of a single table.",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "3.\nQuestion 3\n\nWhat is the best definition of a JOIN operator?\n\nDo you understand?.\n\nI understand\n\nIt combines the rows from two or more tables that are related by a common row.\n\nIt combines the rows from two or more tables that are related by a common column.\n\nIt combines all the data in two or more tables and replaces the tables with a new table.\n\nIt retrieves data from one or more columns of a single table.\n\n1 point"
+        },
+        {
+          "index": 4,
+          "question_type": "multiple_select",
+          "prompt_text": "",
+          "options": [
+            {
+              "text": "I, NGUYEN PHUC, understand and agree.",
+              "checked": false
+            }
+          ],
+          "raw_block_text": ""
+        }
+      ],
+      "raw_page_text": "N\nDjango Application Development with SQL and Databases\nToday's goal • 0/3 items\n\nComplete 3 items today to stay at a good pace!\n\nModule 1\nGetting Started with SQL & Relational Databases\nWelcome\nCourse Introduction\nVideo\n. Duration: 2 minutes\n2 min\nHelpful Tips for Course Completion\nReading\n. Duration: 2 minutes\n2 min\nSyllabus and Prerequisites\nReading\n. Duration: 3 minutes\n3 min\nIntroduction to Databases\nIntroduction to Data and Databases\nVideo\n. Duration: 2 minutes\n2 min\nRelational Databases\nVideo\n. Duration: 7 minutes\n7 min\nNon-relational Databases\nVideo\n. Duration: 7 minutes\n7 min\nRelational Data Concepts\nVideo\n. Duration: 5 minutes\n5 min\nHands-on Lab: Relational Data Concepts\nUngraded Plugin\n. Duration: 15 minutes\n15 min\nModule 1 Lesson 1 Summary\nReading\n. Duration: 2 minutes\n2 min\nPractice Quiz: Introduction to Databases\nPractice Assignment\n. Duration: 8 minutes\n8 min\nGraded Quiz: Introduction to Databases\nGraded AssignmentGrade: 100%\nBasic SQL Statements\nSELECT Statement\nVideo\n. Duration: 3 minutes\n3 min\nHands-on Lab: Simple SELECT Statements\nUngraded App Item\n. Duration: 20 minutes\n20 min\nCOUNT, DISTINCT, LIMIT\nVideo\n. Duration: 2 minutes\n2 min\nINSERT Statement\nVideo\n. Duration: 2 minutes\n2 min\nUPDATE and DELETE Statements\nVideo\n. Duration: 3 minutes\n3 min\nHands-on Lab: INSERT, UPDATE, and DELETE\nUngraded App Item\n. Duration: 20 minutes\n20 min\nModule 1 Lesson 2 Summary\nReading\n. Duration: 2 minutes\n2 min\nPractice Quiz: Basic SQL Statements\nPractice Assignment\n. Duration: 10 minutes\n10 min\nModule 1 Cheat Sheet: Getting Started with SQL & Relational Databases\nReading\n. Duration: 5 minutes\n5 min\nGraded Quiz: Basic SQL Statements\nGraded AssignmentGrade: 100%\n(Optional) Creating Tables, Sorting Results, and Join\nBonus Lesson Overview\nReading\n. Duration: 2 minutes\n2 min\nCREATE Table Statement\nVideo\n. Duration: 3 minutes\n3 min\nALTER, DROP, and Truncate Tables\nVideo\n. Duration: 4 minutes\n4 min\nSorting Result Sets\nVideo\n. Duration: 2 minutes\n2 min\nJoin Overview\nVideo\n. Duration: 4 minutes\n4 min\nModule 1 Bonus Lesson 3 Summary\nReading\n. Duration: 2 minutes\n2 min\nPractice Quiz: Creating Tables, Sorting Results, and Join\nPractice Assignment\n. Duration: 6 minutes\n6 min\nModule 1 Summary\nModule 1 Summary: Getting Started with SQL & Relational Databases\nReading\n. Duration: 2 minutes\n2 min\nModule 2\nORM: Bridging the Gap Between the Real World and Relational Model\nModule 3\nFull-stack Django Development\nModule 4\nConsolidate and Deploy Your Django App\nModule 5\nFinal Project: Enhance Online Course App with New Features\n\nPractice Assignment\n\nPractice Quiz: Creating Tables, Sorting Results, and Join\nResume assignment\nHelp me practice\nWhat to expect\nDue Dec 6, 11:59 PM +07\nUnlimited attempts\n\nThis is a practice assignment to help you check your understanding. It doesn’t count toward your course grade.\n\nReport an issue\nGo to next item\nBack\nPractice Quiz: Creating Tables, Sorting Results, and Join\n\nPractice Assignment • 6 min\n\nDueDec 6, 11:59 PM +07\n1.\nQuestion 1\n\nWhich attributes of columns in a table must always be defined in a CREATE TABLE statement?\n\nDo you understand?.\n\nI understand\n\nDatatype and Primary Key constraint \n\nName and Primary Key constraint\n\nName and datatype\n\nDatatype and number of columns \n\n1 point\n2.\nQuestion 2\n\nWhat would you add to this SELECT statement to sort the result set alphabetically by author’s last name? \nSELECT title, lastname from Author\n\nDo you understand?.\n\nI understand\n\nSORT BY lastname\n\nORDER BY lastname\n\nORDER BY column 1 \n\nDESC lastname\n\n1 point\n3.\nQuestion 3\n\nWhat is the best definition of a JOIN operator?\n\nDo you understand?.\n\nI understand\n\nIt combines the rows from two or more tables that are related by a common row.\n\nIt combines the rows from two or more tables that are related by a common column.\n\nIt combines all the data in two or more tables and replaces the tables with a new table.\n\nIt retrieves data from one or more columns of a single table.\n\n1 point\nCoursera Honor Code\n\nBy clicking Submit, you confirm this work is your own. Submitting work created with AI tools may result in course failure or account deactivation according to Coursera Honor Code policy.\n\nI, NGUYEN PHUC, understand and agree.\nYou must select the checkbox in order to submit the assignment\nSubmit\nSave draft\n\nLast saved on Nov 24, 1:57 PM +07\n\nLike\nDislike\nReport an issue"
+    },
+    {
+      "title": "Module 2 Practice Quiz: ORM - Bridging the Gap Between the Real World and Relational Model Practice Assignment • 10 min • Grade: --",
+      "page_title": "Module 2 Practice Quiz: ORM - Bridging the Gap Between the Real World and Relational Model",
+      "source": "Module 2",
+      "kind": "practice_quiz",
+      "url": "https://www.coursera.org/learn/developing-applications-with-sql-databases-and-django/assignment-submission/kTEP2/module-2-practice-quiz-orm-bridging-the-gap-between-the-real-world-and",
+      "final_url": "https://www.coursera.org/learn/developing-applications-with-sql-databases-and-django/assignment-submission/kTEP2/module-2-practice-quiz-orm-bridging-the-gap-between-the-real-world-and/attempt",
+      "status": "opened_after_step_1",
+      "question_count": 5,
+      "questions": [
+        {
+          "index": 1,
+          "question_type": "single_choice",
+          "prompt_text": "What does Django map each field to in a database table?",
+          "options": [
+            {
+              "text": "Parameter",
+              "checked": false
+            },
+            {
+              "text": "Column",
+              "checked": false
+            },
+            {
+              "text": "Schema",
+              "checked": false
+            },
+            {
+              "text": "Field class",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "1.\nQuestion 1\n\nWhat does Django map each field to in a database table?\n\nDo you understand?.\n\nI understand\n\nParameter\n\nColumn\n\nSchema\n\nField class\n\n1 point"
+        },
+        {
+          "index": 2,
+          "question_type": "single_choice",
+          "prompt_text": "Which of the following relationships between entities does Django ORM support?",
+          "options": [
+            {
+              "text": "One-to-one",
+              "checked": false
+            },
+            {
+              "text": "Many-to-One",
+              "checked": false
+            },
+            {
+              "text": "Many-to-Many",
+              "checked": false
+            },
+            {
+              "text": "All of the above",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "2.\nQuestion 2\n\nWhich of the following relationships between entities does Django ORM support?\n\nDo you understand?.\n\nI understand\n\nOne-to-one\n\nMany-to-One\n\nMany-to-Many\n\n All of the above  \n\n1 point"
+        },
+        {
+          "index": 3,
+          "question_type": "single_choice",
+          "prompt_text": "Which of the following explains how OOP models entities?",
+          "options": [
+            {
+              "text": "Using tables, rows, and columns",
+              "checked": false
+            },
+            {
+              "text": "Using methods, strings, and variables",
+              "checked": false
+            },
+            {
+              "text": "Using classes and objects",
+              "checked": false
+            },
+            {
+              "text": "Using cells, sparklines, and filters",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "3.\nQuestion 3\n\nWhich of the following explains how OOP models entities?\n\nDo you understand?.\n\nI understand\n\nUsing tables, rows, and columns\n\nUsing methods, strings, and variables\n\nUsing classes and objects\n\nUsing cells, sparklines, and filters\n\n1 point"
+        },
+        {
+          "index": 4,
+          "question_type": "single_choice",
+          "prompt_text": "What can you use to perform actions on data in databases without writing SQL queries?",
+          "options": [
+            {
+              "text": "SQL object model",
+              "checked": false
+            },
+            {
+              "text": "Django Models APIs",
+              "checked": false
+            },
+            {
+              "text": "Python object model",
+              "checked": false
+            },
+            {
+              "text": "SQL queries",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "4.\nQuestion 4\n\nWhat can you use to perform actions on data in databases without writing SQL queries?\n\nDo you understand?.\n\nI understand\n\nSQL object model\n\nDjango Models APIs\n\nPython object model\n\nSQL queries\n\n1 point"
+        },
+        {
+          "index": 5,
+          "question_type": "single_choice",
+          "prompt_text": "Which of the following terms defines when Django only requires relationships to be defined on one side?",
+          "options": [
+            {
+              "text": "Related object",
+              "checked": false
+            },
+            {
+              "text": "Singular access",
+              "checked": false
+            },
+            {
+              "text": "Child object",
+              "checked": false
+            },
+            {
+              "text": "Forward access",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "5.\nQuestion 5\n\nWhich of the following terms defines when Django only requires relationships to be defined on one side?\n\nDo you understand?.\n\nI understand\n\nRelated object\n\nSingular access\n\nChild object\n\nForward access\n\n1 point"
+        }
+      ],
+      "raw_page_text": "N\nDjango Application Development with SQL and Databases\nToday's goal • 0/3 items\n\nComplete 3 items today to stay at a good pace!\n\nModule 1\nGetting Started with SQL & Relational Databases\nModule 2\nORM: Bridging the Gap Between the Real World and Relational Model\nORM: Bridging the Gap Between the Real World and Relational Model\nIntroduction to Django\nVideo\n. Duration: 6 minutes\n6 min\nObject-Oriented Analysis and Design\nVideo\n. Duration: 4 minutes\n4 min\nReading: ORM Tools\nUngraded Plugin\n. Duration: 5 minutes\n5 min\nObject-Relational Mapping (ORM)\nVideo\n. Duration: 7 minutes\n7 min\nDjango Model\nVideo\n. Duration: 7 minutes\n7 min\nHands-on Lab: Create Your First Django Model\nUngraded App Item\n. Duration: 15 minutes\n15 min\nOptional Hands-on Lab: Create a Standalone Django ORM Project Template\nUngraded App Item\n. Duration: 20 minutes\n20 min\nDjango Models CRUD\nVideo\n. Duration: 6 minutes\n6 min\nHands-on Lab: CRUD on Django Model Objects\nUngraded App Item\n. Duration: 30 minutes\n30 min\nRelated Objects\nVideo\n. Duration: 5 minutes\n5 min\nQuery Spanning Relationships\nUngraded App Item\n. Duration: 15 minutes\n15 min\nModule 2 Summary and Graded Quiz\nModule 2 Summary: ORM: Bridging the Gap Between the Real World and Relational Model\nReading\n. Duration: 2 minutes\n2 min\nModule 2 Practice Quiz: ORM - Bridging the Gap Between the Real World and Relational Model\nPractice Assignment\n. Duration: 10 minutes\n10 min\nModule 2 Cheat Sheet: ORM: Bridging the Gap Between the Real World and Relational Model\nReading\n. Duration: 10 minutes\n10 min\nModule 2 Graded Quiz: ORM - Bridging the Gap Between the Real World and Relational Model\nGraded AssignmentGrade: 100%\nModule 3\nFull-stack Django Development\nModule 4\nConsolidate and Deploy Your Django App\nModule 5\nFinal Project: Enhance Online Course App with New Features\n\nPractice Assignment\n\nModule 2 Practice Quiz: ORM - Bridging the Gap Between the Real World and Relational Model\nResume assignment\nHelp me practice\nWhat to expect\nDue Dec 13, 11:59 PM +07\nUnlimited attempts\n\nThis is a practice assignment to help you check your understanding. It doesn’t count toward your course grade.\n\nReport an issue\nGo to next item\nBack\nModule 2 Practice Quiz: ORM - Bridging the Gap Between the Real World and Relational Model\n\nPractice Assignment • 10 min\n\nDueDec 13, 11:59 PM +07\n1.\nQuestion 1\n\nWhat does Django map each field to in a database table?\n\nDo you understand?.\n\nI understand\n\nParameter\n\nColumn\n\nSchema\n\nField class\n\n1 point\n2.\nQuestion 2\n\nWhich of the following relationships between entities does Django ORM support?\n\nDo you understand?.\n\nI understand\n\nOne-to-one\n\nMany-to-One\n\nMany-to-Many\n\n All of the above  \n\n1 point\n3.\nQuestion 3\n\nWhich of the following explains how OOP models entities?\n\nDo you understand?.\n\nI understand\n\nUsing tables, rows, and columns\n\nUsing methods, strings, and variables\n\nUsing classes and objects\n\nUsing cells, sparklines, and filters\n\n1 point\n4.\nQuestion 4\n\nWhat can you use to perform actions on data in databases without writing SQL queries?\n\nDo you understand?.\n\nI understand\n\nSQL object model\n\nDjango Models APIs\n\nPython object model\n\nSQL queries\n\n1 point\n5.\nQuestion 5\n\nWhich of the following terms defines when Django only requires relationships to be defined on one side?\n\nDo you understand?.\n\nI understand\n\nRelated object\n\nSingular access\n\nChild object\n\nForward access\n\n1 point\nSubmit\nSave draft\n\nLast saved on Nov 24, 1:57 PM +07\n\nLike\nDislike\nReport an issue"
+    },
+    {
+      "title": "Module 2 Graded Quiz: ORM - Bridging the Gap Between the Real World and Relational Model Graded Assignment • Submitted • Grade: 100% • Status: Graded Graded",
+      "page_title": "Module 2 Graded Quiz: ORM - Bridging the Gap Between the Real World and Relational Model",
+      "source": "Module 2",
+      "kind": "graded_quiz",
+      "url": "https://www.coursera.org/learn/developing-applications-with-sql-databases-and-django/assignment-submission/wrZyS/module-2-graded-quiz-orm-bridging-the-gap-between-the-real-world-and-relational",
+      "final_url": "https://www.coursera.org/learn/developing-applications-with-sql-databases-and-django/assignment-submission/wrZyS/module-2-graded-quiz-orm-bridging-the-gap-between-the-real-world-and-relational/view-feedback",
+      "status": "opened_via_button",
+      "question_count": 10,
+      "questions": [
+        {
+          "index": 1,
+          "question_type": "single_choice",
+          "prompt_text": "When you create an object (an instance of a class) in Django, what does it represent?",
+          "options": [
+            {
+              "text": "Table column",
+              "checked": false
+            },
+            {
+              "text": "Table row",
+              "checked": true
+            },
+            {
+              "text": "Table cell",
+              "checked": false
+            },
+            {
+              "text": "Database table",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "1.\nQuestion 1\n\nWhen you create an object (an instance of a class) in Django, what does it represent?\n\nDo you understand?.\n\nI understand\n\nTable column\n\nTable row\n\nTable cell\n\nDatabase table\n\nNice work\n\nCorrect! In Django, each class object represents a database table row.\n\n1 / 1 point"
+        },
+        {
+          "index": 2,
+          "question_type": "single_choice",
+          "prompt_text": "Which of the following is a benefit of using ORM?",
+          "options": [
+            {
+              "text": "It removes data access complexity from the application code",
+              "checked": false
+            },
+            {
+              "text": "It speeds up application development",
+              "checked": true
+            },
+            {
+              "text": "It’s easier to debug",
+              "checked": false
+            },
+            {
+              "text": "It increases performance",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "2.\nQuestion 2\n\nWhich of the following is a benefit of using ORM?\n\nDo you understand?.\n\nI understand\n\nIt removes data access complexity from the application code\n\nIt speeds up application development\n\nIt’s easier to debug\n\nIt increases performance\n\nNice work\n\nCorrect! ORM tools map data stored in RDBMS into objects so developers can focus on object operations without writing SQL code.\n\n1 / 1 point"
+        },
+        {
+          "index": 3,
+          "question_type": "single_choice",
+          "prompt_text": "When you define a forward relationship between tables, which of the following does Django automatically create?",
+          "options": [
+            {
+              "text": "Backward access",
+              "checked": true
+            },
+            {
+              "text": "Comparative clause",
+              "checked": false
+            },
+            {
+              "text": "Explicit reference",
+              "checked": false
+            },
+            {
+              "text": "Django doesn’t automatically create anything",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "3.\nQuestion 3\n\nWhen you define a forward relationship between tables, which of the following does Django automatically create?\n\nDo you understand?.\n\nI understand\n\nBackward access\n\nComparative clause\n\nExplicit reference\n\nDjango doesn’t automatically create anything\n\nNice work\n\nCorrect! When you define a forward relationship between tables, Django automatically creates backward access.\n\n1 / 1 point"
+        },
+        {
+          "index": 4,
+          "question_type": "single_choice",
+          "prompt_text": "Which of the following built-in features in Django allows you to manage user accounts, including registration, login, and password management?",
+          "options": [
+            {
+              "text": "Administration interface",
+              "checked": false
+            },
+            {
+              "text": "Template engine",
+              "checked": false
+            },
+            {
+              "text": "Shared nothing architecture",
+              "checked": false
+            },
+            {
+              "text": "Authentication and authorization",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "4.\nQuestion 4\n\nWhich of the following built-in features in Django allows you to manage user accounts, including registration, login, and password management?\n\nDo you understand?.\n\nI understand\n\nAdministration interface\n\nTemplate engine\n\nShared nothing architecture\n\nAuthentication and authorization\n\nNice work\n\nCorrect! Django has built-in authentication and authorization mechanisms that allow you to manage user accounts, including registration, login, and password management. It also allows you to define user permissions and access restrictions.\n\n1 / 1 point"
+        },
+        {
+          "index": 5,
+          "question_type": "single_choice",
+          "prompt_text": "Which objects would you call the Delete method on to delete records in a database?",
+          "options": [
+            {
+              "text": "Foreign Key field or Many-to-many field",
+              "checked": false
+            },
+            {
+              "text": "Model object or QuerySet",
+              "checked": true
+            },
+            {
+              "text": "Filter chain or primitive field",
+              "checked": false
+            },
+            {
+              "text": "Child object or lookup parameter",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "5.\nQuestion 5\n\nWhich objects would you call the Delete method on to delete records in a database?\n\nDo you understand?.\n\nI understand\n\nForeign Key field or Many-to-many field\n\nModel object or QuerySet\n\nFilter chain or primitive field\n\nChild object or lookup parameter\n\nNice work\n\nCorrect! To delete records in a database, you would call the Delete method on a model object or QuerySet.\n\n1 / 1 point"
+        },
+        {
+          "index": 6,
+          "question_type": "single_choice",
+          "prompt_text": "What are the two main components of an object in Object-Oriented Analysis and Design (OOAD)?",
+          "options": [
+            {
+              "text": "Methods and functions",
+              "checked": false
+            },
+            {
+              "text": "Variables and functions",
+              "checked": false
+            },
+            {
+              "text": "Properties and attributes",
+              "checked": false
+            },
+            {
+              "text": "Data and behaviors",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "6.\nQuestion 6\n\nWhat are the two main components of an object in Object-Oriented Analysis and Design (OOAD)?\n\nDo you understand?.\n\nI understand\n\nMethods and functions\n\nVariables and functions\n\nProperties and attributes\n\nData and behaviors\n\nNice work\n\nCorrect! In OOAD, objects contain data (or properties and attributes) and behaviors (or methods) that assign the actions the object can take.\n\n1 / 1 point"
+        },
+        {
+          "index": 7,
+          "question_type": "single_choice",
+          "prompt_text": "Multi-table inheritance is like which of the following relationships?",
+          "options": [
+            {
+              "text": "Many-to-many",
+              "checked": false
+            },
+            {
+              "text": "One-to-one",
+              "checked": true
+            },
+            {
+              "text": "Many-to-one",
+              "checked": false
+            },
+            {
+              "text": "One-to-many",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "7.\nQuestion 7\n\nMulti-table inheritance is like which of the following relationships?\n\nDo you understand?.\n\nI understand\n\nMany-to-many\n\nOne-to-one\n\nMany-to-one\n\nOne-to-many\n\nNice work\n\nCorrect! Multi-table inheritance is like a one-to-one relationship.\n\n1 / 1 point"
+        },
+        {
+          "index": 8,
+          "question_type": "single_choice",
+          "prompt_text": "What is the main reason ORM was invented?",
+          "options": [
+            {
+              "text": "To bridge the gap between object-oriented programming (OOP) and SQL",
+              "checked": true
+            },
+            {
+              "text": "To use a different set of APIs for each database",
+              "checked": false
+            },
+            {
+              "text": "To use methods",
+              "checked": false
+            },
+            {
+              "text": "To promote SQL",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "8.\nQuestion 8\n\nWhat is the main reason ORM was invented?\n\nDo you understand?.\n\nI understand\n\nTo bridge the gap between object-oriented programming (OOP) and SQL\n\nTo use a different set of APIs for each database\n\nTo use methods\n\nTo promote SQL\n\nNice work\n\nCorrect! ORM makes it possible to use OOP languages to access databases.\n\n1 / 1 point"
+        },
+        {
+          "index": 9,
+          "question_type": "single_choice",
+          "prompt_text": "Django only requires that model relationships be defined on one side. What is this called?",
+          "options": [
+            {
+              "text": "Forward access",
+              "checked": true
+            },
+            {
+              "text": "Related object",
+              "checked": false
+            },
+            {
+              "text": "Child object",
+              "checked": false
+            },
+            {
+              "text": "Singular access",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "9.\nQuestion 9\n\nDjango only requires that model relationships be defined on one side. What is this called?\n\nDo you understand?.\n\nI understand\n\nForward access\n\nRelated object\n\nChild object\n\nSingular access\n\nNice work\n\nCorrect! Forward access requires that model relationships be defined on one side.\n\n1 / 1 point"
+        },
+        {
+          "index": 10,
+          "question_type": "single_choice",
+          "prompt_text": "Which of the following items does Django provide, allowing you to define your data models using Python classes?",
+          "options": [
+            {
+              "text": "Object-Relational Mapping or ORM",
+              "checked": true
+            },
+            {
+              "text": "Authentication and authorization mechanisms",
+              "checked": false
+            },
+            {
+              "text": "Django apps or packages",
+              "checked": false
+            },
+            {
+              "text": "Template engine",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "10.\nQuestion 10\n\nWhich of the following items does Django provide, allowing you to define your data models using Python classes?\n\nDo you understand?.\n\nI understand\n\nObject-Relational Mapping or ORM\n\nAuthentication and authorization mechanisms\n\nDjango apps or packages\n\nTemplate engine\n\nNice work\n\nCorrect! Django provides an ORM layer that allows you to define your data models using Python classes. This makes it easier to work with databases and perform operations like querying, inserting, updating, and deleting records.\n\n1 / 1 point"
+        }
+      ],
+      "raw_page_text": "N\nDjango Application Development with SQL and Databases\nToday's goal • 0/3 items\n\nComplete 3 items today to stay at a good pace!\n\nModule 1\nGetting Started with SQL & Relational Databases\nModule 2\nORM: Bridging the Gap Between the Real World and Relational Model\nORM: Bridging the Gap Between the Real World and Relational Model\nIntroduction to Django\nVideo\n. Duration: 6 minutes\n6 min\nObject-Oriented Analysis and Design\nVideo\n. Duration: 4 minutes\n4 min\nReading: ORM Tools\nUngraded Plugin\n. Duration: 5 minutes\n5 min\nObject-Relational Mapping (ORM)\nVideo\n. Duration: 7 minutes\n7 min\nDjango Model\nVideo\n. Duration: 7 minutes\n7 min\nHands-on Lab: Create Your First Django Model\nUngraded App Item\n. Duration: 15 minutes\n15 min\nOptional Hands-on Lab: Create a Standalone Django ORM Project Template\nUngraded App Item\n. Duration: 20 minutes\n20 min\nDjango Models CRUD\nVideo\n. Duration: 6 minutes\n6 min\nHands-on Lab: CRUD on Django Model Objects\nUngraded App Item\n. Duration: 30 minutes\n30 min\nRelated Objects\nVideo\n. Duration: 5 minutes\n5 min\nQuery Spanning Relationships\nUngraded App Item\n. Duration: 15 minutes\n15 min\nModule 2 Summary and Graded Quiz\nModule 2 Summary: ORM: Bridging the Gap Between the Real World and Relational Model\nReading\n. Duration: 2 minutes\n2 min\nModule 2 Practice Quiz: ORM - Bridging the Gap Between the Real World and Relational Model\nPractice Assignment\n. Duration: 10 minutes\n10 min\nModule 2 Cheat Sheet: ORM: Bridging the Gap Between the Real World and Relational Model\nReading\n. Duration: 10 minutes\n10 min\nModule 2 Graded Quiz: ORM - Bridging the Gap Between the Real World and Relational Model\nGraded AssignmentGrade: 100%\nModule 3\nFull-stack Django Development\nModule 4\nConsolidate and Deploy Your Django App\nModule 5\nFinal Project: Enhance Online Course App with New Features\n\nGraded Assignment\n\nModule 2 Graded Quiz: ORM - Bridging the Gap Between the Real World and Relational Model\n\nAssessment monitored for academic integrity and AI-usage. Privacy Notice\n\nGo to next item\nTry again\nWhat to expect\nDue Dec 13, 11:59 PM +07\n3 attempts\n\nevery 8 hours\n\nYou passed!\n\nTo pass you need a grade of at least 70%.\n\n100%\nView feedback\n\nSubmitted Nov 9, 8:49 PM +07.\n\nReport an issue\nGo to next item\nBack\nModule 2 Graded Quiz: ORM - Bridging the Gap Between the Real World and Relational Model\n\nGraded Assignment • 30 min\n\nDueDec 13, 11:59 PM +07\nYour grade: 100%\nYour latest: 100%•\nYour highest: 100%•\nTo pass you need at least 70%. We keep your highest score.\nNext item\n1.\nQuestion 1\n\nWhen you create an object (an instance of a class) in Django, what does it represent?\n\nDo you understand?.\n\nI understand\n\nTable column\n\nTable row\n\nTable cell\n\nDatabase table\n\nNice work\n\nCorrect! In Django, each class object represents a database table row.\n\n1 / 1 point\n2.\nQuestion 2\n\nWhich of the following is a benefit of using ORM?\n\nDo you understand?.\n\nI understand\n\nIt removes data access complexity from the application code\n\nIt speeds up application development\n\nIt’s easier to debug\n\nIt increases performance\n\nNice work\n\nCorrect! ORM tools map data stored in RDBMS into objects so developers can focus on object operations without writing SQL code.\n\n1 / 1 point\n3.\nQuestion 3\n\nWhen you define a forward relationship between tables, which of the following does Django automatically create?\n\nDo you understand?.\n\nI understand\n\nBackward access\n\nComparative clause\n\nExplicit reference\n\nDjango doesn’t automatically create anything\n\nNice work\n\nCorrect! When you define a forward relationship between tables, Django automatically creates backward access.\n\n1 / 1 point\n4.\nQuestion 4\n\nWhich of the following built-in features in Django allows you to manage user accounts, including registration, login, and password management?\n\nDo you understand?.\n\nI understand\n\nAdministration interface\n\nTemplate engine\n\nShared nothing architecture\n\nAuthentication and authorization\n\nNice work\n\nCorrect! Django has built-in authentication and authorization mechanisms that allow you to manage user accounts, including registration, login, and password management. It also allows you to define user permissions and access restrictions.\n\n1 / 1 point\n5.\nQuestion 5\n\nWhich objects would you call the Delete method on to delete records in a database?\n\nDo you understand?.\n\nI understand\n\nForeign Key field or Many-to-many field\n\nModel object or QuerySet\n\nFilter chain or primitive field\n\nChild object or lookup parameter\n\nNice work\n\nCorrect! To delete records in a database, you would call the Delete method on a model object or QuerySet.\n\n1 / 1 point\n6.\nQuestion 6\n\nWhat are the two main components of an object in Object-Oriented Analysis and Design (OOAD)?\n\nDo you understand?.\n\nI understand\n\nMethods and functions\n\nVariables and functions\n\nProperties and attributes\n\nData and behaviors\n\nNice work\n\nCorrect! In OOAD, objects contain data (or properties and attributes) and behaviors (or methods) that assign the actions the object can take.\n\n1 / 1 point\n7.\nQuestion 7\n\nMulti-table inheritance is like which of the following relationships?\n\nDo you understand?.\n\nI understand\n\nMany-to-many\n\nOne-to-one\n\nMany-to-one\n\nOne-to-many\n\nNice work\n\nCorrect! Multi-table inheritance is like a one-to-one relationship.\n\n1 / 1 point\n8.\nQuestion 8\n\nWhat is the main reason ORM was invented?\n\nDo you understand?.\n\nI understand\n\nTo bridge the gap between object-oriented programming (OOP) and SQL\n\nTo use a different set of APIs for each database\n\nTo use methods\n\nTo promote SQL\n\nNice work\n\nCorrect! ORM makes it possible to use OOP languages to access databases.\n\n1 / 1 point\n9.\nQuestion 9\n\nDjango only requires that model relationships be defined on one side. What is this called?\n\nDo you understand?.\n\nI understand\n\nForward access\n\nRelated object\n\nChild object\n\nSingular access\n\nNice work\n\nCorrect! Forward access requires that model relationships be defined on one side.\n\n1 / 1 point\n10.\nQuestion 10\n\nWhich of the following items does Django provide, allowing you to define your data models using Python classes?\n\nDo you understand?.\n\nI understand\n\nObject-Relational Mapping or ORM\n\nAuthentication and authorization mechanisms\n\nDjango apps or packages\n\nTemplate engine\n\nNice work\n\nCorrect! Django provides an ORM layer that allows you to define your data models using Python classes. This makes it easier to work with databases and perform operations like querying, inserting, updating, and deleting records.\n\n1 / 1 point"
+    },
+    {
+      "title": "Practice Quiz: Full-stack Django Development Practice Assignment • 10 min • Grade: --",
+      "page_title": "Practice Quiz: Full-stack Django Development",
+      "source": "Module 3",
+      "kind": "practice_quiz",
+      "url": "https://www.coursera.org/learn/developing-applications-with-sql-databases-and-django/assignment-submission/o1FuA/practice-quiz-full-stack-django-development",
+      "final_url": "https://www.coursera.org/learn/developing-applications-with-sql-databases-and-django/assignment-submission/o1FuA/practice-quiz-full-stack-django-development/attempt",
+      "status": "opened_after_step_1",
+      "question_count": 6,
+      "questions": [
+        {
+          "index": 1,
+          "question_type": "single_choice",
+          "prompt_text": "MVC design pattern includes three components. Which component routes requests?",
+          "options": [
+            {
+              "text": "Access",
+              "checked": false
+            },
+            {
+              "text": "View",
+              "checked": false
+            },
+            {
+              "text": "Controller",
+              "checked": false
+            },
+            {
+              "text": "Model",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "1.\nQuestion 1\n\nMVC design pattern includes three components. Which component routes requests?\n\nDo you understand?.\n\nI understand\n\nAccess\n\nView\n\nController\n\nModel\n\n1 point"
+        },
+        {
+          "index": 2,
+          "question_type": "single_choice",
+          "prompt_text": "What do templates do in Django?",
+          "options": [
+            {
+              "text": "Arranges Django project structure",
+              "checked": false
+            },
+            {
+              "text": "Defines the structure and layout of the final output",
+              "checked": false
+            },
+            {
+              "text": "Determines which data the files should present",
+              "checked": false
+            },
+            {
+              "text": "Lists tasks",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "2.\nQuestion 2\n\nWhat do templates do in Django?\n\nDo you understand?.\n\nI understand\n\nArranges Django project structure\n\nDefines the structure and layout of the final output\n\nDetermines which data the files should present\n\nLists tasks\n\n1 point"
+        },
+        {
+          "index": 3,
+          "question_type": "single_choice",
+          "prompt_text": "After the core development work is done in Django apps, what is one thing that could be done to facilitate app content management?",
+          "options": [
+            {
+              "text": "Use a third-party backend library",
+              "checked": false
+            },
+            {
+              "text": "Add a client site",
+              "checked": false
+            },
+            {
+              "text": "Add another server",
+              "checked": false
+            },
+            {
+              "text": "Add an admin site",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "3.\nQuestion 3\n\nAfter the core development work is done in Django apps, what is one thing that could be done to facilitate app content management?\n\nDo you understand?.\n\nI understand\n\nUse a third-party backend library\n\nAdd a client site\n\nAdd another server\n\nAdd an admin site\n\n1 point"
+        },
+        {
+          "index": 4,
+          "question_type": "single_choice",
+          "prompt_text": "Creating an admin user is one of the first steps when building a Django admin site. What command would you use to do this in the Django Admin video?",
+          "options": [
+            {
+              "text": "python manage.py adduser",
+              "checked": false
+            },
+            {
+              "text": "python config.py createadmin",
+              "checked": false
+            },
+            {
+              "text": "python manage.py createsuperuser",
+              "checked": false
+            },
+            {
+              "text": "python manage.py addusername",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "4.\nQuestion 4\n\nCreating an admin user is one of the first steps when building a Django admin site. What command would you use to do this in the Django Admin video?\n\nDo you understand?.\n\nI understand\n\npython manage.py adduser \n\npython config.py createadmin\n\npython manage.py createsuperuser\n\npython manage.py addusername\n\n1 point"
+        },
+        {
+          "index": 5,
+          "question_type": "single_choice",
+          "prompt_text": "A view takes an HTTP request and returns an HTTP response. The HTTP response can be a string, a JSON/XML file, or an HTML page with what response status?",
+          "options": [
+            {
+              "text": "Success status",
+              "checked": false
+            },
+            {
+              "text": "Error status",
+              "checked": false
+            },
+            {
+              "text": "Informational status",
+              "checked": false
+            },
+            {
+              "text": "All of the above",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "5.\nQuestion 5\n\nA view takes an HTTP request and returns an HTTP response. The HTTP response can be a string, a JSON/XML file, or an HTML page with what response status?\n\nDo you understand?.\n\nI understand\n\nSuccess status\n\nError status\n\nInformational status\n\nAll of the above\n\n1 point"
+        },
+        {
+          "index": 6,
+          "question_type": "multiple_select",
+          "prompt_text": "",
+          "options": [
+            {
+              "text": "I, NGUYEN PHUC, understand and agree.",
+              "checked": false
+            }
+          ],
+          "raw_block_text": ""
+        }
+      ],
+      "raw_page_text": "N\nDjango Application Development with SQL and Databases\nToday's goal • 0/3 items\n\nComplete 3 items today to stay at a good pace!\n\nModule 1\nGetting Started with SQL & Relational Databases\nModule 2\nORM: Bridging the Gap Between the Real World and Relational Model\nModule 3\nFull-stack Django Development\nFull-stack Django Development\nDjango Model-View-Template (MVT) Pattern\nVideo\n. Duration: 3 minutes\n3 min\nCreate a Django App\nVideo\n. Duration: 7 minutes\n7 min\nHands-on Lab: Create Your First Django App and Deploy using Docker\nUngraded App Item\n. Duration: 20 minutes\n20 min\nDjango Admin\nVideo\n. Duration: 6 minutes\n6 min\nHands-on Lab: Django Admin\nUngraded App Item\n. Duration: 20 minutes\n20 min\nDjango Views\nVideo\n. Duration: 3 minutes\n3 min\nDjango Template\nVideo\n. Duration: 5 minutes\n5 min\nHands-on Lab: Views and Templates\nUngraded App Item\n. Duration: 40 minutes\n40 min\nAdvanced Features of the Django Template\nUngraded Plugin\n. Duration: 5 minutes\n5 min\nModule 3 Summary and Graded Quiz\nModule 3 Summary: Full-stack Django Development\nReading\n. Duration: 2 minutes\n2 min\nPractice Quiz: Full-stack Django Development\nPractice Assignment\n. Duration: 10 minutes\n10 min\nModule 3 Cheat Sheet: Full-stack Django Development\nReading\n. Duration: 10 minutes\n10 min\nGraded Quiz: Full-stack Django Development\nGraded AssignmentGrade: 100%\nModule 4\nConsolidate and Deploy Your Django App\nModule 5\nFinal Project: Enhance Online Course App with New Features\n\nPractice Assignment\n\nPractice Quiz: Full-stack Django Development\nResume assignment\nHelp me practice\nWhat to expect\nDue Dec 27, 11:59 PM +07\nUnlimited attempts\n\nThis is a practice assignment to help you check your understanding. It doesn’t count toward your course grade.\n\nReport an issue\nGo to next item\nBack\nPractice Quiz: Full-stack Django Development\n\nPractice Assignment • 10 min\n\nDueDec 27, 11:59 PM +07\n1.\nQuestion 1\n\nMVC design pattern includes three components. Which component routes requests?\n\nDo you understand?.\n\nI understand\n\nAccess\n\nView\n\nController\n\nModel\n\n1 point\n2.\nQuestion 2\n\nWhat do templates do in Django?\n\nDo you understand?.\n\nI understand\n\nArranges Django project structure\n\nDefines the structure and layout of the final output\n\nDetermines which data the files should present\n\nLists tasks\n\n1 point\n3.\nQuestion 3\n\nAfter the core development work is done in Django apps, what is one thing that could be done to facilitate app content management?\n\nDo you understand?.\n\nI understand\n\nUse a third-party backend library\n\nAdd a client site\n\nAdd another server\n\nAdd an admin site\n\n1 point\n4.\nQuestion 4\n\nCreating an admin user is one of the first steps when building a Django admin site. What command would you use to do this in the Django Admin video?\n\nDo you understand?.\n\nI understand\n\npython manage.py adduser \n\npython config.py createadmin\n\npython manage.py createsuperuser\n\npython manage.py addusername\n\n1 point\n5.\nQuestion 5\n\nA view takes an HTTP request and returns an HTTP response. The HTTP response can be a string, a JSON/XML file, or an HTML page with what response status?\n\nDo you understand?.\n\nI understand\n\nSuccess status\n\nError status\n\nInformational status\n\nAll of the above\n\n1 point\nCoursera Honor Code\n\nBy clicking Submit, you confirm this work is your own. Submitting work created with AI tools may result in course failure or account deactivation according to Coursera Honor Code policy.\n\nI, NGUYEN PHUC, understand and agree.\nYou must select the checkbox in order to submit the assignment\nSubmit\nSave draft\n\nLast saved on Nov 24, 1:57 PM +07\n\nLike\nDislike\nReport an issue"
+    },
+    {
+      "title": "Graded Quiz: Full-stack Django Development Graded Assignment • Submitted • Grade: 100% • Status: Graded Graded",
+      "page_title": "Graded Quiz: Full-stack Django Development",
+      "source": "Module 3",
+      "kind": "graded_quiz",
+      "url": "https://www.coursera.org/learn/developing-applications-with-sql-databases-and-django/assignment-submission/hdVGE/graded-quiz-full-stack-django-development",
+      "final_url": "https://www.coursera.org/learn/developing-applications-with-sql-databases-and-django/assignment-submission/hdVGE/graded-quiz-full-stack-django-development/view-feedback",
+      "status": "opened_via_button",
+      "question_count": 10,
+      "questions": [
+        {
+          "index": 1,
+          "question_type": "single_choice",
+          "prompt_text": "What does the Django template contain besides Python code?",
+          "options": [
+            {
+              "text": "Static HTML elements",
+              "checked": true
+            },
+            {
+              "text": "Markdown elements",
+              "checked": false
+            },
+            {
+              "text": "XML elements",
+              "checked": false
+            },
+            {
+              "text": "Dynamic HTML elements",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "1.\nQuestion 1\n\nWhat does the Django template contain besides Python code?\n\nDo you understand?.\n\nI understand\n\nStatic HTML elements\n\nMarkdown elements\n\nXML elements\n\nDynamic HTML elements\n\nNice work\n\nCorrect! The static HTML elements generate dynamic web pages with special Python code. \n\n1 / 1 point"
+        },
+        {
+          "index": 2,
+          "question_type": "single_choice",
+          "prompt_text": "Django creates three files after you’ve created a project. Which of these files is a command interface that interacts with the Django project?",
+          "options": [
+            {
+              "text": "settings.py",
+              "checked": false
+            },
+            {
+              "text": "urls.py",
+              "checked": false
+            },
+            {
+              "text": "manage.py",
+              "checked": true
+            },
+            {
+              "text": "access.py",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "2.\nQuestion 2\n\nDjango creates three files after you’ve created a project. Which of these files is a command interface that interacts with the Django project?\n\nDo you understand?.\n\nI understand\n\nsettings.py\n\nurls.py \n\nmanage.py\n\naccess.py\n\nNice work\n\nCorrect! The manage.py command interface interacts with the Django project to start the server, migrate models, and so on. \n\n1 / 1 point"
+        },
+        {
+          "index": 3,
+          "question_type": "single_choice",
+          "prompt_text": "For the online course example, when registering the course and instructor models in the Django admin site, you would write and run “admin.site.register(Course)” and what other code statement.",
+          "options": [
+            {
+              "text": "admin.site.register(App)",
+              "checked": false
+            },
+            {
+              "text": "admin.site.register(Superuser)",
+              "checked": false
+            },
+            {
+              "text": "admin.site.register(Admin)",
+              "checked": false
+            },
+            {
+              "text": "admin.site.register(Instructor)",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "3.\nQuestion 3\n\nFor the online course example, when registering the course and instructor models in the Django admin site, you would write and run “admin.site.register(Course)” and what other code statement.\n\nDo you understand?.\n\nI understand\n\nadmin.site.register(App) \n\nadmin.site.register(Superuser)\n\nadmin.site.register(Admin)\n\nadmin.site.register(Instructor)\n\nNice work\n\nCorrect! You would write “admin.site.register(Course)” and “admin.site.register(Instructor)” to register the Course and Instructor models.\n\n1 / 1 point"
+        },
+        {
+          "index": 4,
+          "question_type": "single_choice",
+          "prompt_text": "When you map a URL to the course view, what file do you add path objects to?",
+          "options": [
+            {
+              "text": "urls.py",
+              "checked": true
+            },
+            {
+              "text": "config.py",
+              "checked": false
+            },
+            {
+              "text": "settings.py",
+              "checked": false
+            },
+            {
+              "text": "manage.py",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "4.\nQuestion 4\n\nWhen you map a URL to the course view, what file do you add path objects to?\n\nDo you understand?.\n\nI understand\n\nurls.py\n\nconfig.py\n\nsettings.py \n\nmanage.py\n\nNice work\n\nCorrect! You add path objects to the URLConf file, normally called urls.py.\n\n1 / 1 point"
+        },
+        {
+          "index": 5,
+          "question_type": "single_choice",
+          "prompt_text": "Django template files display content such as course names and descriptions. How is the content displayed?",
+          "options": [
+            {
+              "text": "HTML",
+              "checked": true
+            },
+            {
+              "text": "Markdown",
+              "checked": false
+            },
+            {
+              "text": "XML",
+              "checked": false
+            },
+            {
+              "text": "Plain text",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "5.\nQuestion 5\n\nDjango template files display content such as course names and descriptions. How is the content displayed?\n\nDo you understand?.\n\nI understand\n\nHTML\n\nMarkdown\n\nXML\n\nPlain text\n\nNice work\n\nCorrect! Django templates present the data provided by Django views as HTML files.\n\n1 / 1 point"
+        },
+        {
+          "index": 6,
+          "question_type": "single_choice",
+          "prompt_text": "What is one difference between the Django MVT and the MVC design pattern?",
+          "options": [
+            {
+              "text": "There is no difference",
+              "checked": false
+            },
+            {
+              "text": "The Django framework or Django server itself acts as controller",
+              "checked": true
+            },
+            {
+              "text": "MVC has a Model",
+              "checked": false
+            },
+            {
+              "text": "MVT has a View",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "6.\nQuestion 6\n\nWhat is one difference between the Django MVT and the MVC design pattern?\n\nDo you understand?.\n\nI understand\n\nThere is no difference\n\nThe Django framework or Django server itself acts as controller\n\nMVC has a Model\n\nMVT has a View\n\nNice work\n\nCorrect! In the MVC design pattern, a controller routes requests, processes input, requests data CRUD, and updates View. In the Django framework, Django performs these functions. \n\n1 / 1 point"
+        },
+        {
+          "index": 7,
+          "question_type": "single_choice",
+          "prompt_text": "What two development tasks must be performed to manage and determine which data will be presented to the UI?",
+          "options": [
+            {
+              "text": "Sort data and sort views",
+              "checked": false
+            },
+            {
+              "text": "Model data and create views",
+              "checked": true
+            },
+            {
+              "text": "Control the project",
+              "checked": false
+            },
+            {
+              "text": "Access data and build tables",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "7.\nQuestion 7\n\nWhat two development tasks must be performed to manage and determine which data will be presented to the UI? \n\nDo you understand?.\n\nI understand\n\nSort data and sort views\n\nModel data and create views\n\nControl the project\n\nAccess data and build tables\n\nNice work\n\nCorrect! In the Django app development process, developers create Django models to model the data and create views to determine which data needs to be presented to the UI. \n\n1 / 1 point"
+        },
+        {
+          "index": 8,
+          "question_type": "single_choice",
+          "prompt_text": "Which command is used in the Django Admin video to start the server?",
+          "options": [
+            {
+              "text": "python manage.py run",
+              "checked": false
+            },
+            {
+              "text": "python manage.py startDjango",
+              "checked": false
+            },
+            {
+              "text": "python manage.py startserver",
+              "checked": false
+            },
+            {
+              "text": "python manage.py runserver",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "8.\nQuestion 8\n\nWhich command is used in the Django Admin video to start the server?\n\nDo you understand?.\n\nI understand\n\n python manage.py run\n\npython manage.py startDjango\n\npython manage.py startserver\n\npython manage.py runserver\n\nNice work\n\nCorrect! The python manage.py runserver command starts the server in the Django Admin video.\n\n1 / 1 point"
+        },
+        {
+          "index": 9,
+          "question_type": "single_choice",
+          "prompt_text": "Django functions, like View, accept arguments as input and return something. Typically, View needs an HTTP request object as the first argument. What does this request object contain?",
+          "options": [
+            {
+              "text": "Python commands",
+              "checked": false
+            },
+            {
+              "text": "Django static files",
+              "checked": false
+            },
+            {
+              "text": "Python scripts",
+              "checked": false
+            },
+            {
+              "text": "Read-only HTTP metadata",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "9.\nQuestion 9\n\nDjango functions, like View, accept arguments as input and return something. Typically, View needs an HTTP request object as the first argument. What does this request object contain? \n\nDo you understand?.\n\nI understand\n\nPython commands\n\nDjango static files\n\nPython scripts\n\nRead-only HTTP metadata\n\nNice work\n\nCorrect! The HTTP request object contains read-only HTTP metadata about the request, such as method type, HTTP header, parameters, or payload. \n\n1 / 1 point"
+        },
+        {
+          "index": 10,
+          "question_type": "single_choice",
+          "prompt_text": "Django template file structures sometimes have two files created with the same name. How do you ensure Django points to the correct file?",
+          "options": [
+            {
+              "text": "Name spacing",
+              "checked": true
+            },
+            {
+              "text": "Add metadata",
+              "checked": false
+            },
+            {
+              "text": "Note the differences",
+              "checked": false
+            },
+            {
+              "text": "Add an identifier",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "10.\nQuestion 10\n\nDjango template file structures sometimes have two files created with the same name. How do you ensure Django points to the correct file? \n\nDo you understand?.\n\nI understand\n\nName spacing\n\nAdd metadata\n\nNote the differences\n\n Add an identifier\n\nNice work\n\nCorrect! You create two folders named for the app in the template path. The second folder acts as a name space to distinguish template files with the same name in other apps.\n\n1 / 1 point"
+        }
+      ],
+      "raw_page_text": "N\nDjango Application Development with SQL and Databases\nToday's goal • 0/3 items\n\nComplete 3 items today to stay at a good pace!\n\nModule 1\nGetting Started with SQL & Relational Databases\nModule 2\nORM: Bridging the Gap Between the Real World and Relational Model\nModule 3\nFull-stack Django Development\nFull-stack Django Development\nDjango Model-View-Template (MVT) Pattern\nVideo\n. Duration: 3 minutes\n3 min\nCreate a Django App\nVideo\n. Duration: 7 minutes\n7 min\nHands-on Lab: Create Your First Django App and Deploy using Docker\nUngraded App Item\n. Duration: 20 minutes\n20 min\nDjango Admin\nVideo\n. Duration: 6 minutes\n6 min\nHands-on Lab: Django Admin\nUngraded App Item\n. Duration: 20 minutes\n20 min\nDjango Views\nVideo\n. Duration: 3 minutes\n3 min\nDjango Template\nVideo\n. Duration: 5 minutes\n5 min\nHands-on Lab: Views and Templates\nUngraded App Item\n. Duration: 40 minutes\n40 min\nAdvanced Features of the Django Template\nUngraded Plugin\n. Duration: 5 minutes\n5 min\nModule 3 Summary and Graded Quiz\nModule 3 Summary: Full-stack Django Development\nReading\n. Duration: 2 minutes\n2 min\nPractice Quiz: Full-stack Django Development\nPractice Assignment\n. Duration: 10 minutes\n10 min\nModule 3 Cheat Sheet: Full-stack Django Development\nReading\n. Duration: 10 minutes\n10 min\nGraded Quiz: Full-stack Django Development\nGraded AssignmentGrade: 100%\nModule 4\nConsolidate and Deploy Your Django App\nModule 5\nFinal Project: Enhance Online Course App with New Features\n\nGraded Assignment\n\nGraded Quiz: Full-stack Django Development\n\nAssessment monitored for academic integrity and AI-usage. Privacy Notice\n\nGo to next item\nTry again\nWhat to expect\nDue Dec 27, 11:59 PM +07\n3 attempts\n\nevery 8 hours\n\nYou passed!\n\nTo pass you need a grade of at least 70%.\n\n100%\nView feedback\n\nSubmitted Nov 9, 8:56 PM +07.\n\nReport an issue\nGo to next item\nBack\nGraded Quiz: Full-stack Django Development\n\nGraded Assignment • 30 min\n\nDueDec 27, 11:59 PM +07\nYour grade: 100%\nYour latest: 100%•\nYour highest: 100%•\nTo pass you need at least 70%. We keep your highest score.\nNext item\n1.\nQuestion 1\n\nWhat does the Django template contain besides Python code?\n\nDo you understand?.\n\nI understand\n\nStatic HTML elements\n\nMarkdown elements\n\nXML elements\n\nDynamic HTML elements\n\nNice work\n\nCorrect! The static HTML elements generate dynamic web pages with special Python code. \n\n1 / 1 point\n2.\nQuestion 2\n\nDjango creates three files after you’ve created a project. Which of these files is a command interface that interacts with the Django project?\n\nDo you understand?.\n\nI understand\n\nsettings.py\n\nurls.py \n\nmanage.py\n\naccess.py\n\nNice work\n\nCorrect! The manage.py command interface interacts with the Django project to start the server, migrate models, and so on. \n\n1 / 1 point\n3.\nQuestion 3\n\nFor the online course example, when registering the course and instructor models in the Django admin site, you would write and run “admin.site.register(Course)” and what other code statement.\n\nDo you understand?.\n\nI understand\n\nadmin.site.register(App) \n\nadmin.site.register(Superuser)\n\nadmin.site.register(Admin)\n\nadmin.site.register(Instructor)\n\nNice work\n\nCorrect! You would write “admin.site.register(Course)” and “admin.site.register(Instructor)” to register the Course and Instructor models.\n\n1 / 1 point\n4.\nQuestion 4\n\nWhen you map a URL to the course view, what file do you add path objects to?\n\nDo you understand?.\n\nI understand\n\nurls.py\n\nconfig.py\n\nsettings.py \n\nmanage.py\n\nNice work\n\nCorrect! You add path objects to the URLConf file, normally called urls.py.\n\n1 / 1 point\n5.\nQuestion 5\n\nDjango template files display content such as course names and descriptions. How is the content displayed?\n\nDo you understand?.\n\nI understand\n\nHTML\n\nMarkdown\n\nXML\n\nPlain text\n\nNice work\n\nCorrect! Django templates present the data provided by Django views as HTML files.\n\n1 / 1 point\n6.\nQuestion 6\n\nWhat is one difference between the Django MVT and the MVC design pattern?\n\nDo you understand?.\n\nI understand\n\nThere is no difference\n\nThe Django framework or Django server itself acts as controller\n\nMVC has a Model\n\nMVT has a View\n\nNice work\n\nCorrect! In the MVC design pattern, a controller routes requests, processes input, requests data CRUD, and updates View. In the Django framework, Django performs these functions. \n\n1 / 1 point\n7.\nQuestion 7\n\nWhat two development tasks must be performed to manage and determine which data will be presented to the UI? \n\nDo you understand?.\n\nI understand\n\nSort data and sort views\n\nModel data and create views\n\nControl the project\n\nAccess data and build tables\n\nNice work\n\nCorrect! In the Django app development process, developers create Django models to model the data and create views to determine which data needs to be presented to the UI. \n\n1 / 1 point\n8.\nQuestion 8\n\nWhich command is used in the Django Admin video to start the server?\n\nDo you understand?.\n\nI understand\n\n python manage.py run\n\npython manage.py startDjango\n\npython manage.py startserver\n\npython manage.py runserver\n\nNice work\n\nCorrect! The python manage.py runserver command starts the server in the Django Admin video.\n\n1 / 1 point\n9.\nQuestion 9\n\nDjango functions, like View, accept arguments as input and return something. Typically, View needs an HTTP request object as the first argument. What does this request object contain? \n\nDo you understand?.\n\nI understand\n\nPython commands\n\nDjango static files\n\nPython scripts\n\nRead-only HTTP metadata\n\nNice work\n\nCorrect! The HTTP request object contains read-only HTTP metadata about the request, such as method type, HTTP header, parameters, or payload. \n\n1 / 1 point\n10.\nQuestion 10\n\nDjango template file structures sometimes have two files created with the same name. How do you ensure Django points to the correct file? \n\nDo you understand?.\n\nI understand\n\nName spacing\n\nAdd metadata\n\nNote the differences\n\n Add an identifier\n\nNice work\n\nCorrect! You create two folders named for the app in the template path. The second folder acts as a name space to distinguish template files with the same name in other apps.\n\n1 / 1 point"
+    },
+    {
+      "title": "Practice Quiz: Consolidate and Deploy Your Django App Practice Assignment • 10 min • Grade: --",
+      "page_title": "Practice Quiz: Consolidate and Deploy Your Django App",
+      "source": "Module 4",
+      "kind": "practice_quiz",
+      "url": "https://www.coursera.org/learn/developing-applications-with-sql-databases-and-django/assignment-submission/nlMpY/practice-quiz-consolidate-and-deploy-your-django-app",
+      "final_url": "https://www.coursera.org/learn/developing-applications-with-sql-databases-and-django/assignment-submission/nlMpY/practice-quiz-consolidate-and-deploy-your-django-app/attempt",
+      "status": "opened_after_step_1",
+      "question_count": 6,
+      "questions": [
+        {
+          "index": 1,
+          "question_type": "single_choice",
+          "prompt_text": "Which of the following views was the initially implemented view in Django?",
+          "options": [
+            {
+              "text": "Function-based view",
+              "checked": false
+            },
+            {
+              "text": "Expression-based view",
+              "checked": false
+            },
+            {
+              "text": "Feature-based view",
+              "checked": false
+            },
+            {
+              "text": "Class-based view",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "1.\nQuestion 1\n\nWhich of the following views was the initially implemented view in Django?\n\nDo you understand?.\n\nI understand\n\nFunction-based view\n\nExpression-based view\n\nFeature-based view\n\nClass-based view\n\n1 point"
+        },
+        {
+          "index": 2,
+          "question_type": "single_choice",
+          "prompt_text": "Which of the following describes the Authentication process?",
+          "options": [
+            {
+              "text": "It groups users based on permissions",
+              "checked": false
+            },
+            {
+              "text": "It creates user credentials",
+              "checked": false
+            },
+            {
+              "text": "It checks users’ access permissions",
+              "checked": false
+            },
+            {
+              "text": "It validates user identity",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "2.\nQuestion 2\n\nWhich of the following describes the Authentication process?\n\nDo you understand?.\n\nI understand\n\nIt groups users based on permissions\n\nIt creates user credentials\n\nIt checks users’ access permissions\n\nIt validates user identity\n\n1 point"
+        },
+        {
+          "index": 3,
+          "question_type": "single_choice",
+          "prompt_text": "Bootstrap is a free web front-end framework that helps develop web apps. What does it provide Django?",
+          "options": [
+            {
+              "text": "Databases",
+              "checked": false
+            },
+            {
+              "text": "HTML and CSS templates",
+              "checked": false
+            },
+            {
+              "text": "Server interfaces",
+              "checked": false
+            },
+            {
+              "text": "Code examples",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "3.\nQuestion 3\n\nBootstrap is a free web front-end framework that helps develop web apps. What does it provide Django?\n\nDo you understand?.\n\nI understand\n\nDatabases\n\nHTML and CSS templates \n\nServer interfaces\n\nCode examples\n\n1 point"
+        },
+        {
+          "index": 4,
+          "question_type": "single_choice",
+          "prompt_text": "What does Django use namespacing for when you add static files to an app?",
+          "options": [
+            {
+              "text": "It uniquely refers to static files that use the same name across multiple apps",
+              "checked": false
+            },
+            {
+              "text": "It tracks static files in each app",
+              "checked": false
+            },
+            {
+              "text": "It limits the number of static files in an app",
+              "checked": false
+            },
+            {
+              "text": "It sorts static files",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "4.\nQuestion 4\n\nWhat does Django use namespacing for when you add static files to an app?\n\nDo you understand?.\n\nI understand\n\nIt uniquely refers to static files that use the same name across multiple apps\n\nIt tracks static files in each app \n\nIt limits the number of static files in an app\n\nIt sorts static files\n\n1 point"
+        },
+        {
+          "index": 5,
+          "question_type": "single_choice",
+          "prompt_text": "When Django developers run a runserver command, what does it start?",
+          "options": [
+            {
+              "text": "Minimal development of web server",
+              "checked": false
+            },
+            {
+              "text": "Storage server",
+              "checked": false
+            },
+            {
+              "text": "File server",
+              "checked": false
+            },
+            {
+              "text": "Barebones backend server",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "5.\nQuestion 5\n\nWhen Django developers run a runserver command, what does it start?\n\nDo you understand?.\n\nI understand\n\nMinimal development of web server\n\nStorage server\n\nFile server\n\nBarebones backend server\n\n1 point"
+        },
+        {
+          "index": 6,
+          "question_type": "multiple_select",
+          "prompt_text": "",
+          "options": [
+            {
+              "text": "I, NGUYEN PHUC, understand and agree.",
+              "checked": false
+            }
+          ],
+          "raw_block_text": ""
+        }
+      ],
+      "raw_page_text": "N\nDjango Application Development with SQL and Databases\nToday's goal • 0/3 items\n\nComplete 3 items today to stay at a good pace!\n\nModule 1\nGetting Started with SQL & Relational Databases\nModule 2\nORM: Bridging the Gap Between the Real World and Relational Model\nModule 3\nFull-stack Django Development\nModule 4\nConsolidate and Deploy Your Django App\nConsolidate and Deploy Your Django App\nClass-based and Generic Class Views\nVideo\n. Duration: 5 minutes\n5 min\nHands-on Lab: Class-based and Generic Views\nUngraded App Item\n. Duration: 30 minutes\n30 min\nDjango Authentication System\nVideo\n. Duration: 6 minutes\n6 min\nHands-on Lab: Django Authentication\nUngraded App Item\n. Duration: 30 minutes\n30 min\nBootstrap\nVideo\n. Duration: 5 minutes\n5 min\nHands-on Lab: Bootstrap Integration\nUngraded App Item\n. Duration: 30 minutes\n30 min\nDjango Static Files\nVideo\n. Duration: 4 minutes\n4 min\nDeploy Your Django Apps\nVideo\n. Duration: 6 minutes\n6 min\nModule 4 Summary and Graded Quiz\nModule 4 Summary: Consolidate and Deploy Your Django App\nReading\n. Duration: 10 minutes\n10 min\nPractice Quiz: Consolidate and Deploy Your Django App\nPractice Assignment\n. Duration: 10 minutes\n10 min\nModule 4 Cheat Sheet: Consolidate and Deploy Your Django App\nReading\n. Duration: 10 minutes\n10 min\nGraded Quiz: Consolidate and Deploy Your Django App\nGraded AssignmentGrade: 100%\nModule 5\nFinal Project: Enhance Online Course App with New Features\n\nPractice Assignment\n\nPractice Quiz: Consolidate and Deploy Your Django App\nResume assignment\nHelp me practice\nWhat to expect\nDue Jan 3, 11:59 PM +07\nUnlimited attempts\n\nThis is a practice assignment to help you check your understanding. It doesn’t count toward your course grade.\n\nReport an issue\nGo to next item\nBack\nPractice Quiz: Consolidate and Deploy Your Django App\n\nPractice Assignment • 10 min\n\nDueJan 3, 11:59 PM +07\n1.\nQuestion 1\n\nWhich of the following views was the initially implemented view in Django?\n\nDo you understand?.\n\nI understand\n\nFunction-based view\n\nExpression-based view\n\nFeature-based view\n\nClass-based view\n\n1 point\n2.\nQuestion 2\n\nWhich of the following describes the Authentication process?\n\nDo you understand?.\n\nI understand\n\nIt groups users based on permissions\n\nIt creates user credentials\n\nIt checks users’ access permissions\n\nIt validates user identity\n\n1 point\n3.\nQuestion 3\n\nBootstrap is a free web front-end framework that helps develop web apps. What does it provide Django?\n\nDo you understand?.\n\nI understand\n\nDatabases\n\nHTML and CSS templates \n\nServer interfaces\n\nCode examples\n\n1 point\n4.\nQuestion 4\n\nWhat does Django use namespacing for when you add static files to an app?\n\nDo you understand?.\n\nI understand\n\nIt uniquely refers to static files that use the same name across multiple apps\n\nIt tracks static files in each app \n\nIt limits the number of static files in an app\n\nIt sorts static files\n\n1 point\n5.\nQuestion 5\n\nWhen Django developers run a runserver command, what does it start?\n\nDo you understand?.\n\nI understand\n\nMinimal development of web server\n\nStorage server\n\nFile server\n\nBarebones backend server\n\n1 point\nCoursera Honor Code\n\nBy clicking Submit, you confirm this work is your own. Submitting work created with AI tools may result in course failure or account deactivation according to Coursera Honor Code policy.\n\nI, NGUYEN PHUC, understand and agree.\nYou must select the checkbox in order to submit the assignment\nSubmit\nSave draft\n\nLast saved on Nov 24, 1:58 PM +07\n\nLike\nDislike\nReport an issue"
+    },
+    {
+      "title": "Graded Quiz: Consolidate and Deploy Your Django App Graded Assignment • Submitted • Grade: 100% • Status: Graded Graded",
+      "page_title": "Graded Quiz: Consolidate and Deploy Your Django App",
+      "source": "Module 4",
+      "kind": "graded_quiz",
+      "url": "https://www.coursera.org/learn/developing-applications-with-sql-databases-and-django/assignment-submission/X4iFz/graded-quiz-consolidate-and-deploy-your-django-app",
+      "final_url": "https://www.coursera.org/learn/developing-applications-with-sql-databases-and-django/assignment-submission/X4iFz/graded-quiz-consolidate-and-deploy-your-django-app/view-feedback",
+      "status": "opened_via_button",
+      "question_count": 10,
+      "questions": [
+        {
+          "index": 1,
+          "question_type": "single_choice",
+          "prompt_text": "Django class-based view must be mapped with a URL pattern, almost like configuring the URL for the function-based view. The only difference is you need to specify which of the following?",
+          "options": [
+            {
+              "text": "The as_class method",
+              "checked": false
+            },
+            {
+              "text": "The view_base method",
+              "checked": false
+            },
+            {
+              "text": "The as_config function",
+              "checked": false
+            },
+            {
+              "text": "The as_view function",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "1.\nQuestion 1\n\nDjango class-based view must be mapped with a URL pattern, almost like configuring the URL for the function-based view. The only difference is you need to specify which of the following? \n\nDo you understand?.\n\nI understand\n\nThe as_class method \n\nThe view_base method \n\nThe as_config function \n\nThe as_view function \n\nNice work\n\nCorrect! For the view argument, specify the as_view function for the class you defined. \n\n1 / 1 point"
+        },
+        {
+          "index": 2,
+          "question_type": "single_choice",
+          "prompt_text": "A username and password can be received from a user via a login HTML template. Which HTTP method sends the username or password to the online course log in view to authenticate the user?",
+          "options": [
+            {
+              "text": "GET request",
+              "checked": false
+            },
+            {
+              "text": "POST request",
+              "checked": true
+            },
+            {
+              "text": "DELETE request",
+              "checked": false
+            },
+            {
+              "text": "PUT request",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "2.\nQuestion 2\n\nA username and password can be received from a user via a login HTML template. Which HTTP method sends the username or password to the online course log in view to authenticate the user? \n\nDo you understand?.\n\nI understand\n\nGET request \n\nPOST request \n\nDELETE request \n\nPUT request \n\nNice work\n\nCorrect! POST sends a POST request with the username and password wrapped in the request to the online course login view to authenticate the user. \n\n1 / 1 point"
+        },
+        {
+          "index": 3,
+          "question_type": "single_choice",
+          "prompt_text": "In the Bootstrap Integration video, a course index page is designed that contains courses represented as cards. The multiple course cards are then added to a container. How are the multiple course cards managed?",
+          "options": [
+            {
+              "text": "They are placed in a list",
+              "checked": false
+            },
+            {
+              "text": "They are added to a table",
+              "checked": false
+            },
+            {
+              "text": "They are wrapped in a card deck",
+              "checked": true
+            },
+            {
+              "text": "They are shuffled",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "3.\nQuestion 3\n\nIn the Bootstrap Integration video, a course index page is designed that contains courses represented as cards. The multiple course cards are then added to a container. How are the multiple course cards managed? \n\nDo you understand?.\n\nI understand\n\nThey are placed in a list \n\nThey are added to a table \n\nThey are wrapped in a card deck \n\nThey are shuffled \n\nNice work\n\nCorrect! The course cards are wrapped in a card deck that creates a grid of cards with equal height and width. \n\n1 / 1 point"
+        },
+        {
+          "index": 4,
+          "question_type": "single_choice",
+          "prompt_text": "Django provides a default static files app that collects all static files in a single directory. When you deploy your app to a production web server, you can move all static files to this directory. There are several steps to do this. What call do you make in the last step?",
+          "options": [
+            {
+              "text": "Run the ‘collectstatic’ command",
+              "checked": true
+            },
+            {
+              "text": "STATIC_ROOT",
+              "checked": false
+            },
+            {
+              "text": "STATIC_URL",
+              "checked": false
+            },
+            {
+              "text": "Run the “importstatic” command",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "4.\nQuestion 4\n\nDjango provides a default static files app that collects all static files in a single directory. When you deploy your app to a production web server, you can move all static files to this directory. There are several steps to do this. What call do you make in the last step? \n\nDo you understand?.\n\nI understand\n\nRun the ‘collectstatic’ command \n\nSTATIC_ROOT \n\nSTATIC_URL \n\nRun the “importstatic” command \n\nNice work\n\nCorrect! Calling the ‘collectstatic’ command will collect the static files to the STATIC_ROOT folder. \n\n1 / 1 point"
+        },
+        {
+          "index": 5,
+          "question_type": "single_choice",
+          "prompt_text": "ASGI is a web server interface that Django apps support. What is the main difference between WSGI and ASGI?",
+          "options": [
+            {
+              "text": "ASGI supports Python",
+              "checked": false
+            },
+            {
+              "text": "WSGI supports Python",
+              "checked": false
+            },
+            {
+              "text": "There is no difference between WSGI and ASGI",
+              "checked": false
+            },
+            {
+              "text": "ASGI supports asynchronous code, and WSGI is suitable for synchronous web applications",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "5.\nQuestion 5\n\nASGI is a web server interface that Django apps support. What is the main difference between WSGI and ASGI? \n\nDo you understand?.\n\nI understand\n\nASGI supports Python \n\nWSGI supports Python \n\nThere is no difference between WSGI and ASGI \n\nASGI supports asynchronous code, and WSGI is suitable for synchronous web applications \n\nNice work\n\nCorrect! ASGI stands for Asynchronous Server Gateway Interface and supports asynchronous code. WSGI stands for Web Server Gateway Interface and is suitable for synchronous web applications. \n\n1 / 1 point"
+        },
+        {
+          "index": 6,
+          "question_type": "single_choice",
+          "prompt_text": "Which type of view was created for Django to address the extensibility and reusability of views?",
+          "options": [
+            {
+              "text": "Method-based view",
+              "checked": false
+            },
+            {
+              "text": "Class-based view",
+              "checked": true
+            },
+            {
+              "text": "Function-based view",
+              "checked": false
+            },
+            {
+              "text": "HTTP-based view",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "6.\nQuestion 6\n\nWhich type of view was created for Django to address the extensibility and reusability of views? \n\nDo you understand?.\n\nI understand\n\nMethod-based view \n\nClass-based view \n\nFunction-based view \n\nHTTP-based view \n\nNice work\n\nCorrect! The function-based view was the original view, and the class-based view was created to improve the extensibility and reusability of views. \n\n1 / 1 point"
+        },
+        {
+          "index": 7,
+          "question_type": "single_choice",
+          "prompt_text": "Does authorization occur before, after, or during the authentication process?",
+          "options": [
+            {
+              "text": "Before authentication",
+              "checked": false
+            },
+            {
+              "text": "After authentication",
+              "checked": true
+            },
+            {
+              "text": "During authentication",
+              "checked": false
+            },
+            {
+              "text": "Authentication doesn’t affect authorization",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "7.\nQuestion 7\n\nDoes authorization occur before, after, or during the authentication process? \n\nDo you understand?.\n\nI understand\n\nBefore authentication \n\nAfter authentication \n\nDuring authentication \n\nAuthentication doesn’t affect authorization \n\nNice work\n\nCorrect! Django authorization occurs after the authentication process. \n\n1 / 1 point"
+        },
+        {
+          "index": 8,
+          "question_type": "single_choice",
+          "prompt_text": "How can you use Bootstrap CSS-style classes without manually downloading and importing them?",
+          "options": [
+            {
+              "text": "Link to the Bootstrap web page before you develop your webpage",
+              "checked": false
+            },
+            {
+              "text": "Copy and paste the CSS style class",
+              "checked": false
+            },
+            {
+              "text": "Download Bootstrap",
+              "checked": false
+            },
+            {
+              "text": "Add a link to the latest Bootstrap version into the head element of your HTML template",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "8.\nQuestion 8\n\nHow can you use Bootstrap CSS-style classes without manually downloading and importing them? \n\nDo you understand?.\n\nI understand\n\nLink to the Bootstrap web page before you develop your webpage \n\nCopy and paste the CSS style class \n\nDownload Bootstrap \n\nAdd a link to the latest Bootstrap version into the head element of your HTML template \n\nNice work\n\nCorrect! Adding a link to the latest Bootstrap version lets you use Bootstrap CSS-style classes. \n\n1 / 1 point"
+        },
+        {
+          "index": 9,
+          "question_type": "single_choice",
+          "prompt_text": "Django apps can have app-specific static files and external static files. Where do you define the directories for external static files, so that you can find them?",
+          "options": [
+            {
+              "text": "In the EX_DIRS list in the settings.py file",
+              "checked": false
+            },
+            {
+              "text": "In the STATICFILES_DIRS list in settings.py file",
+              "checked": true
+            },
+            {
+              "text": "In the STATIC list in manage.py file",
+              "checked": false
+            },
+            {
+              "text": "In the PROPERTIES list in manage.py",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "9.\nQuestion 9\n\nDjango apps can have app-specific static files and external static files. Where do you define the directories for external static files, so that you can find them? \n\nDo you understand?.\n\nI understand\n\nIn the EX_DIRS list in the settings.py file \n\nIn the STATICFILES_DIRS list in settings.py file \n\nIn the STATIC list in manage.py file \n\nIn the PROPERTIES list in manage.py \n\nNice work\n\nCorrect! You define the directories for external static files in the STATICFILES_DIRS list in the settings.py file. \n\n1 / 1 point"
+        },
+        {
+          "index": 10,
+          "question_type": "single_choice",
+          "prompt_text": "WSGI is the primary Python standard for communicating between web servers and applications. To make Django apps work with WSGI, the start project command creates a file that declares an application callable by default. What is this file named?",
+          "options": [
+            {
+              "text": "sgi.py",
+              "checked": false
+            },
+            {
+              "text": "giws.py",
+              "checked": false
+            },
+            {
+              "text": "django.py",
+              "checked": false
+            },
+            {
+              "text": "wsgi.py",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "10.\nQuestion 10\n\nWSGI is the primary Python standard for communicating between web servers and applications. To make Django apps work with WSGI, the start project command creates a file that declares an application callable by default. What is this file named? \n\nDo you understand?.\n\nI understand\n\nsgi.py \n\ngiws.py \n\ndjango.py \n\nwsgi.py \n\nNice work\n\nCorrect! WSGI servers try to find wsgi.py and use it as an entry point to communicate with your Django app. \n\n1 / 1 point"
+        }
+      ],
+      "raw_page_text": "N\nDjango Application Development with SQL and Databases\nToday's goal • 0/3 items\n\nComplete 3 items today to stay at a good pace!\n\nModule 1\nGetting Started with SQL & Relational Databases\nModule 2\nORM: Bridging the Gap Between the Real World and Relational Model\nModule 3\nFull-stack Django Development\nModule 4\nConsolidate and Deploy Your Django App\nConsolidate and Deploy Your Django App\nClass-based and Generic Class Views\nVideo\n. Duration: 5 minutes\n5 min\nHands-on Lab: Class-based and Generic Views\nUngraded App Item\n. Duration: 30 minutes\n30 min\nDjango Authentication System\nVideo\n. Duration: 6 minutes\n6 min\nHands-on Lab: Django Authentication\nUngraded App Item\n. Duration: 30 minutes\n30 min\nBootstrap\nVideo\n. Duration: 5 minutes\n5 min\nHands-on Lab: Bootstrap Integration\nUngraded App Item\n. Duration: 30 minutes\n30 min\nDjango Static Files\nVideo\n. Duration: 4 minutes\n4 min\nDeploy Your Django Apps\nVideo\n. Duration: 6 minutes\n6 min\nModule 4 Summary and Graded Quiz\nModule 4 Summary: Consolidate and Deploy Your Django App\nReading\n. Duration: 10 minutes\n10 min\nPractice Quiz: Consolidate and Deploy Your Django App\nPractice Assignment\n. Duration: 10 minutes\n10 min\nModule 4 Cheat Sheet: Consolidate and Deploy Your Django App\nReading\n. Duration: 10 minutes\n10 min\nGraded Quiz: Consolidate and Deploy Your Django App\nGraded AssignmentGrade: 100%\nModule 5\nFinal Project: Enhance Online Course App with New Features\n\nGraded Assignment\n\nGraded Quiz: Consolidate and Deploy Your Django App\n\nAssessment monitored for academic integrity and AI-usage. Privacy Notice\n\nGo to next item\nTry again\nWhat to expect\nDue Jan 3, 11:59 PM +07\n3 attempts\n\nevery 8 hours\n\nYou passed!\n\nTo pass you need a grade of at least 70%.\n\n100%\nView feedback\n\nSubmitted Nov 11, 7:36 AM +07.\n\nReport an issue\nGo to next item\nBack\nGraded Quiz: Consolidate and Deploy Your Django App\n\nGraded Assignment • 30 min\n\nDueJan 3, 11:59 PM +07\nYour grade: 100%\nYour latest: 100%•\nYour highest: 100%•\nTo pass you need at least 70%. We keep your highest score.\nNext item\n1.\nQuestion 1\n\nDjango class-based view must be mapped with a URL pattern, almost like configuring the URL for the function-based view. The only difference is you need to specify which of the following? \n\nDo you understand?.\n\nI understand\n\nThe as_class method \n\nThe view_base method \n\nThe as_config function \n\nThe as_view function \n\nNice work\n\nCorrect! For the view argument, specify the as_view function for the class you defined. \n\n1 / 1 point\n2.\nQuestion 2\n\nA username and password can be received from a user via a login HTML template. Which HTTP method sends the username or password to the online course log in view to authenticate the user? \n\nDo you understand?.\n\nI understand\n\nGET request \n\nPOST request \n\nDELETE request \n\nPUT request \n\nNice work\n\nCorrect! POST sends a POST request with the username and password wrapped in the request to the online course login view to authenticate the user. \n\n1 / 1 point\n3.\nQuestion 3\n\nIn the Bootstrap Integration video, a course index page is designed that contains courses represented as cards. The multiple course cards are then added to a container. How are the multiple course cards managed? \n\nDo you understand?.\n\nI understand\n\nThey are placed in a list \n\nThey are added to a table \n\nThey are wrapped in a card deck \n\nThey are shuffled \n\nNice work\n\nCorrect! The course cards are wrapped in a card deck that creates a grid of cards with equal height and width. \n\n1 / 1 point\n4.\nQuestion 4\n\nDjango provides a default static files app that collects all static files in a single directory. When you deploy your app to a production web server, you can move all static files to this directory. There are several steps to do this. What call do you make in the last step? \n\nDo you understand?.\n\nI understand\n\nRun the ‘collectstatic’ command \n\nSTATIC_ROOT \n\nSTATIC_URL \n\nRun the “importstatic” command \n\nNice work\n\nCorrect! Calling the ‘collectstatic’ command will collect the static files to the STATIC_ROOT folder. \n\n1 / 1 point\n5.\nQuestion 5\n\nASGI is a web server interface that Django apps support. What is the main difference between WSGI and ASGI? \n\nDo you understand?.\n\nI understand\n\nASGI supports Python \n\nWSGI supports Python \n\nThere is no difference between WSGI and ASGI \n\nASGI supports asynchronous code, and WSGI is suitable for synchronous web applications \n\nNice work\n\nCorrect! ASGI stands for Asynchronous Server Gateway Interface and supports asynchronous code. WSGI stands for Web Server Gateway Interface and is suitable for synchronous web applications. \n\n1 / 1 point\n6.\nQuestion 6\n\nWhich type of view was created for Django to address the extensibility and reusability of views? \n\nDo you understand?.\n\nI understand\n\nMethod-based view \n\nClass-based view \n\nFunction-based view \n\nHTTP-based view \n\nNice work\n\nCorrect! The function-based view was the original view, and the class-based view was created to improve the extensibility and reusability of views. \n\n1 / 1 point\n7.\nQuestion 7\n\nDoes authorization occur before, after, or during the authentication process? \n\nDo you understand?.\n\nI understand\n\nBefore authentication \n\nAfter authentication \n\nDuring authentication \n\nAuthentication doesn’t affect authorization \n\nNice work\n\nCorrect! Django authorization occurs after the authentication process. \n\n1 / 1 point\n8.\nQuestion 8\n\nHow can you use Bootstrap CSS-style classes without manually downloading and importing them? \n\nDo you understand?.\n\nI understand\n\nLink to the Bootstrap web page before you develop your webpage \n\nCopy and paste the CSS style class \n\nDownload Bootstrap \n\nAdd a link to the latest Bootstrap version into the head element of your HTML template \n\nNice work\n\nCorrect! Adding a link to the latest Bootstrap version lets you use Bootstrap CSS-style classes. \n\n1 / 1 point\n9.\nQuestion 9\n\nDjango apps can have app-specific static files and external static files. Where do you define the directories for external static files, so that you can find them? \n\nDo you understand?.\n\nI understand\n\nIn the EX_DIRS list in the settings.py file \n\nIn the STATICFILES_DIRS list in settings.py file \n\nIn the STATIC list in manage.py file \n\nIn the PROPERTIES list in manage.py \n\nNice work\n\nCorrect! You define the directories for external static files in the STATICFILES_DIRS list in the settings.py file. \n\n1 / 1 point\n10.\nQuestion 10\n\nWSGI is the primary Python standard for communicating between web servers and applications. To make Django apps work with WSGI, the start project command creates a file that declares an application callable by default. What is this file named? \n\nDo you understand?.\n\nI understand\n\nsgi.py \n\ngiws.py \n\ndjango.py \n\nwsgi.py \n\nNice work\n\nCorrect! WSGI servers try to find wsgi.py and use it as an entry point to communicate with your Django app. \n\n1 / 1 point"
+    }
+  ]
+}

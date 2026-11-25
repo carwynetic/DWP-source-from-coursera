@@ -1,0 +1,580 @@
+================================================================================
+COURSE: Application Development using Microservices and Serverless
+URL: https://www.coursera.org/learn/applications-development-microservices-serverless-openshift
+CRAWLED AT: 2026-11-24T14:35:57.530398
+SUMMARY: 10/10 MC quizzes | 70 questions
+================================================================================
+
+--------------------------------------------------------------------------------
+[QUIZ 1] Practice Quiz: Introduction to Microservices Practice Assignment • 10 min • Grade: -- Resume
+Source: Module 1 | Kind: practice_quiz | Status: opened_after_step_1
+URL: https://www.coursera.org/learn/applications-development-microservices-serverless-openshift/assignment-submission/xMyGD/practice-quiz-introduction-to-microservices/attempt
+Questions extracted: 5
+--------------------------------------------------------------------------------
+
+Q1 (multiple_select):
+Twelve factor methodology expects the processes to be: Select two answers.
+   1. [ ] Embedding config details
+   2. [ ] Generating and maintaining logging mechanism
+   3. [ ] Centrally store the data
+   4. [ ] Stateless and share nothing
+
+Q2 (single_choice):
+In a microservices architecture you should segregate services based on ______
+   1. [ ] Dependencies
+   2. [ ] Release cycles
+   3. [ ] Functional requirements
+   4. [ ] Different configuration
+
+Q3 (single_choice):
+SOA components are:
+   1. [ ] Reusable
+   2. [ ] Agile
+   3. [ ] Tightly coupled
+   4. [ ] Simple
+
+Q4 (multiple_select):
+Single page application (SPA): Select two answers:
+   1. [ ] Is built using HTML, CSS and JavaScript
+   2. [ ] Updates dynamically using calls to backing REST-based services
+   3. [ ] Supports side-by-side implementation
+   4. [ ] Inserts a layer between user experience and the resource that calls it
+
+Q5 (single_choice):
+Microservices should have:
+   1. [ ] Custom logging functionality
+   2. [ ] Shared storage
+   3. [ ] Dependencies on other services
+   4. [ ] Automation for deployment and monitoring
+
+--------------------------------------------------------------------------------
+[QUIZ 2] Graded Quiz: Introduction to Microservices Graded Assignment • Submitted • Grade: 90% • Status: Graded Graded
+Source: Module 1 | Kind: graded_quiz | Status: opened_via_button
+URL: https://www.coursera.org/learn/applications-development-microservices-serverless-openshift/assignment-submission/sYiYo/graded-quiz-introduction-to-microservices/view-feedback
+Questions extracted: 10
+--------------------------------------------------------------------------------
+
+Q1 (single_choice):
+Which phase of the Twelve-Factor Methodology contains Port binding?
+   1. [ ] Operate
+   2. [x] Deploy
+   3. [ ] Code
+   4. [ ] Configure
+
+Q2 (single_choice):
+What makes an application concurrent?
+   1. [ ] It should store config in environment variables
+   2. [x] It should have a minimal process start time
+   3. [ ] It should be stateless
+   4. [ ] It should contain the same backend services across environments
+
+Q3 (single_choice):
+In a microservice architecture, you can
+   1. [x] Use a different technology stack for each service
+   2. [ ] Scale all services together
+   3. [ ] Deploy all services together
+   4. [ ] Create interdependency among services
+
+Q4 (single_choice):
+Select the correct answer that completes this sentence: 
+
+Monolith application has __________ components.
+   1. [ ] Reusable
+   2. [ ] Scalable
+   3. [ ] Independent
+   4. [x] Interconnected
+
+Q5 (single_choice):
+Which component of services design in an SOA architecture defines how the service provider and service consumer should interact?
+   1. [ ] Implementation
+   2. [ ] Interface
+   3. [x] Contract
+   4. [ ] Own storage
+
+Q6 (single_choice):
+What is the purpose of Backend For Frontend?
+   1. [x] Customized user experiences
+   2. [ ] Refactoring in stages
+   3. [ ] Loading one interface that never reloads
+   4. [ ] Service discovery
+
+Q7 (single_choice):
+What is the purpose of the Strangler pattern?
+   1. [ ] Combine functional domains
+   2. [ ] Simplifies the front-end experience
+   3. [x] Supports refactoring in stages
+   4. [ ] Helps with third-party API integrations
+
+Q8 (single_choice):
+Larger services should be broken into smaller services when:
+   1. [ ] Functional reusability is required
+   2. [ ] Automation is required
+   3. [x] Common data model becomes overly complex
+   4. [ ] Refactoring is required
+
+Q9 (single_choice):
+What is the requirement of Microservices?
+   1. [ ] Its own implementation of auxiliary services like loggings, security, throttling, and so on
+   2. [ ] Manual deployment process
+   3. [ ] Coarse-grained functionality
+   4. [x] Independent storage
+
+Q10 (single_choice):
+What is the requirement of a development and production environment?
+   1. [x] Similar backing services across the environments.
+   2. [ ] Different source control
+   3. [ ] Different dependencies
+   4. [ ] Embedded access details in code
+
+--------------------------------------------------------------------------------
+[QUIZ 3] Practice Quiz: Web API Essentials - REST API and GraphQL Practice Assignment • 10 min • Grade: --
+Source: Module 2 | Kind: practice_quiz | Status: opened_after_step_1
+URL: https://www.coursera.org/learn/applications-development-microservices-serverless-openshift/assignment-submission/PKwlx/practice-quiz-web-api-essentials-rest-api-and-graphql/attempt
+Questions extracted: 5
+--------------------------------------------------------------------------------
+
+Q1 (single_choice):
+Which HTTP method and endpoint should be used to get a resource from a REST endpoint?
+   1. [ ] GET /products/145/a4-notebook
+   2. [ ] GET /products?productId=145
+   3. [ ] GET /products/productId/145
+   4. [ ] GET /products/145
+
+Q2 (single_choice):
+Which microservice identifies the users on the platform?
+   1. [ ] Product information
+   2. [ ] Inventory service
+   3. [ ] Order service
+   4. [ ] Authentication service
+
+Q3 (single_choice):
+What does an OpenAPI specification define?
+   1. [ ] Documentation standard
+   2. [ ] Only input parameters of your API
+   3. [ ] Anonymous access for all operations
+   4. [ ] Supported operations by your API
+
+Q4 (single_choice):
+What is a key feature of Postman?
+   1. [ ] It only supports the GET request
+   2. [ ] It is an online-only tool
+   3. [ ] It is a tool to test APIs
+   4. [ ] It only shows output in JSON
+
+Q5 (single_choice):
+What is the SciPy library in Python used for?
+   1. [ ] Artificial intelligence
+   2. [ ] Web development
+   3. [ ] Scientific and numeric computing
+   4. [ ] Machine learning
+
+--------------------------------------------------------------------------------
+[QUIZ 4] Graded Quiz: Web API Essentials - REST API and GraphQL Graded Assignment • Submitted • Grade: 90% • Status: Graded Graded
+Source: Module 2 | Kind: graded_quiz | Status: opened_via_button
+URL: https://www.coursera.org/learn/applications-development-microservices-serverless-openshift/assignment-submission/XbyPf/graded-quiz-web-api-essentials-rest-api-and-graphql/view-feedback
+Questions extracted: 10
+--------------------------------------------------------------------------------
+
+Q1 (multiple_select):
+What are the key characteristics of a RESTful API? Select two answers.
+   1. [ ] It works on HTTP
+   2. [ ] Stateless communication between client and server
+   3. [ ] One API to access all resources
+   4. [ ] Unique interface for each component
+
+Q2 (single_choice):
+What does an API Gateway act as?
+   1. [ ] A load balancer for your hosted services
+   2. [x] An API management tool
+   3. [ ] A firewall to protect your microservices
+   4. [ ] A streaming service
+
+Q3 (single_choice):
+Which syntax is used to make an update request to a product REST API?
+   1. [ ] POST /products (product data in the body)
+   2. [ ] GET /products/114?updatedName=Calendar2023
+   3. [ ] PUT /products/114/name/Calendar2023
+   4. [x] PUT /products/114 (product data in the body)
+
+Q4 (single_choice):
+Which type of framework is Flask?
+   1. [ ] Database
+   2. [x] Micro web
+   3. [ ] Frontend
+   4. [ ] REST API
+
+Q5 (single_choice):
+Which one of the following statements is true about communication in a RESTful API?
+   1. [ ] Session state is kept entirely on the REST API.
+   2. [ ] Each request does not contain all information.
+   3. [x] Resources are uniquely identified at individual endpoints.
+   4. [ ] A request can take advantage of any stored context on the server.
+
+Q6 (multiple_select):
+What are the potential drawbacks of an API Gateway? Select two answers.
+   1. [ ] Single point of failure
+   2. [ ] Increases requests to the backend
+   3. [ ] Exposes the implementation details
+   4. [ ] Bottleneck in scalability
+
+Q7 (single_choice):
+Which specification is followed by Swagger?
+   1. [ ] SOA
+   2. [ ] WebAPI
+   3. [x] OpenAPI
+   4. [ ] GraphQL
+
+Q8 (single_choice):
+Which cURL command should be used to query a list of products?
+   1. [x] curl -X 'GET' \
+
+ 'http://127.0.0.1:5000/products' \
+
+ -H 'accept: application/json'
+   2. [ ] curl -X 'PUT' \
+
+ 'http://127.0.0.1:5000/products' \
+
+ -H 'accept: application/json'
+   3. [ ] curl -X 'PATCH' \
+
+ 'http://127.0.0.1:5000/products' \
+
+ -H 'accept: application/json'
+   4. [ ] curl -X 'POST' \
+
+ 'http://127.0.0.1:5000/products' \
+
+ -H 'accept: application/json'
+
+Q9 (single_choice):
+Which HTTP method is used to create new data in a REST API?
+   1. [ ] PUT
+   2. [ ] UPDATE
+   3. [ ] PATCH
+   4. [x] POST
+
+Q10 (single_choice):
+What is the purpose of Postman?
+   1. [ ] Command line tool to get data
+   2. [ ] Transfers applications
+   3. [ ] Uniform interface for different components
+   4. [x] Tests APIs
+
+--------------------------------------------------------------------------------
+[QUIZ 5] Practice Quiz: Serverless Overview Practice Assignment • 10 min • Grade: --
+Source: Module 3 | Kind: practice_quiz | Status: opened_after_step_1
+URL: https://www.coursera.org/learn/applications-development-microservices-serverless-openshift/assignment-submission/Qcg6y/practice-quiz-serverless-overview/attempt
+Questions extracted: 5
+--------------------------------------------------------------------------------
+
+Q1 (multiple_select):
+A Serverless computer is a combination of which of the following services? Select two answers.
+   1. [ ] Platform as a Service
+   2. [ ] Infrastructure as a Service
+   3. [ ] Function as a Service
+   4. [ ] Backend as a Service
+
+Q2 (single_choice):
+Which of the following is a benefit of a Serverless computing model?
+   1. [ ] Only paying for use
+   2. [ ] Fine grain hardware control
+   3. [ ] Low latency
+   4. [ ] Persistent state
+
+Q3 (single_choice):
+Which service is provided by Function-as-a-Service or FaaS, a Cloud Computing service?
+   1. [ ] Provides notifications
+   2. [ ] Executes code in response to events
+   3. [ ] Stores data in file storage
+   4. [ ] Identifies and forwards requests
+
+Q4 (single_choice):
+Which language writes Serverless Framework?
+   1. [ ] C#
+   2. [ ] Node.js
+   3. [ ] Java
+   4. [ ] Python
+
+Q5 (multiple_select):
+How can you utilize Serverless Reference Architecture for an Event streaming use case? Select two answers.
+   1. [ ] Create dependencies on other resources
+   2. [ ] You can trigger your application using HTTP events
+   3. [ ] You can update secondary data stores and caches
+   4. [ ] You can trigger your application using publisher-subscriber topics
+
+--------------------------------------------------------------------------------
+[QUIZ 6] Graded Quiz: Serverless Overview Graded Assignment • Submitted • Grade: 92.50% • Status: Graded Graded
+Source: Module 3 | Kind: graded_quiz | Status: opened_via_button
+URL: https://www.coursera.org/learn/applications-development-microservices-serverless-openshift/assignment-submission/z1tvE/graded-quiz-serverless-overview/view-feedback
+Questions extracted: 10
+--------------------------------------------------------------------------------
+
+Q1 (single_choice):
+Cloud Native Computing Foundation (CNCF) defines ‘serverless’ as the concept of building and running applications that do not require _______ management.
+   1. [ ] backend
+   2. [ ] network
+   3. [x] server
+   4. [ ] database
+
+Q2 (multiple_select):
+Cloud provider is responsible for which of the following components in the Serverless model? Select three answers.
+   1. [ ] OS
+   2. [ ] Network
+   3. [ ] Application
+   4. [ ] Storage
+
+Q3 (single_choice):
+___________ is a Serverless computing constraint.
+   1. [ ] Idle time
+   2. [x] Vendor lock-in
+   3. [ ] Language independence
+   4. [ ] Scalability
+
+Q4 (single_choice):
+Managing which one of the following is your responsibility in a Serverless computing model?
+   1. [ ] Operating System
+   2. [x] Code
+   3. [ ] Deployment
+   4. [ ] Hardware
+
+Q5 (single_choice):
+Which one is the key characteristic of a function in FaaS model?
+   1. [ ] Keep running even when there are no requests
+   2. [x] Scale automatically and independently as required
+   3. [ ] Be stateful
+   4. [ ] Let you define your infrastructure
+
+Q6 (single_choice):
+A _________ is an independent unit of execution and deployment in the Serverless Framework.
+   1. [x] Function
+   2. [ ] Service
+   3. [ ] Event
+   4. [ ] Resource
+
+Q7 (single_choice):
+What is the responsibility of the Front End in a Serverless Architecture?
+   1. [ ] Provide scaling
+   2. [ ] Store data
+   3. [x] Host static content and scripts
+   4. [ ] Host business logic
+
+Q8 (single_choice):
+Which is an example of post-processing in the Serverless Reference Architecture?
+   1. [ ] You could use messaging to notify multiple subscribers
+   2. [ ] You could provide user registration and authentication
+   3. [ ] You enable access to backend
+   4. [x] You could apply artificial intelligence or image recognition to upload images
+
+Q9 (single_choice):
+Which is the key characteristic of IBM Cloud Functions?
+   1. [ ] No debugging capabilities
+   2. [ ] No disaster recovery
+   3. [ ] Limited integration options
+   4. [x] Cost-Effective and Highly Available
+
+Q10 (single_choice):
+The Knative platform is offered by which service provider?
+   1. [ ] Offered by Microsoft Azure
+   2. [x] Open-source option for Serverless
+   3. [ ] Offered by Google
+   4. [ ] Offered by Amazon AWS
+
+--------------------------------------------------------------------------------
+[QUIZ 7] Practice Quiz: Create and Deploy Microservices Practice Assignment • 10 min • Grade: --
+Source: Module 4 | Kind: practice_quiz | Status: opened_after_step_1
+URL: https://www.coursera.org/learn/applications-development-microservices-serverless-openshift/assignment-submission/MDuGl/practice-quiz-create-and-deploy-microservices/attempt
+Questions extracted: 5
+--------------------------------------------------------------------------------
+
+Q1 (single_choice):
+Which of the following is a challenge of deploying microservices?
+   1. [ ] Require you to connect two microservices via REST APIs
+   2. [ ] Need to create publicly accessible entry points/URLs for your microservices
+   3. [ ] Require dynamic scaling of your microservice instances
+   4. [ ] Require building and testing of your microservices
+
+Q2 (single_choice):
+Which of the following statements about IBM Cloud Code Engine project and application is correct?
+   1. [ ] You are allowed to create only one project under your IBM Cloud account.
+   2. [ ] You can have two applications with the same name in one project.
+   3. [ ] You are allowed to create only one application for each project.
+   4. [ ] You can have two applications with the same name in two different projects.
+
+Q3 (single_choice):
+Which of the following is a feature of containers?
+   1. [ ] It runs on specific devices
+   2. [ ] It is suitable for microservice architecture
+   3. [ ] It is not portable
+   4. [ ] It is dependent on other software for execution
+
+Q4 (single_choice):
+Which are the two main interfaces to deploy applications on IBM Cloud Code Engine?
+   1. [ ] IBM Cloud Console and IBM Cloud CLI
+   2. [ ] Secure Copy Protocol (SCP) and REST API
+   3. [ ] IBM Cloud CLI and REST APIs
+   4. [ ] REST APIs and IBM Cloud Console
+
+Q5 (single_choice):
+Which is a feature of Code Engine Jobs?
+   1. [ ] Once deployed, Job provides publicly accessible web end points
+   2. [ ] Only one job instance can be deployed.
+   3. [ ] Data processing tasks cannot be deployed as Jobs.
+   4. [ ] Designed for one-time execution of your code
+
+--------------------------------------------------------------------------------
+[QUIZ 8] Graded Quiz: Create and Deploy Microservices Graded Assignment • Submitted • Grade: 100% • Status: Graded Graded
+Source: Module 4 | Kind: graded_quiz | Status: opened_via_button
+URL: https://www.coursera.org/learn/applications-development-microservices-serverless-openshift/assignment-submission/F5PKA/graded-quiz-create-and-deploy-microservices/view-feedback
+Questions extracted: 10
+--------------------------------------------------------------------------------
+
+Q1 (single_choice):
+What is the main benefit of using PaaS, such as IBM Cloud Code Engine, to deploy your microservices?
+   1. [x] Provides fully managed deployment services to help your deployment process with minimal efforts
+   2. [ ] Enables handling of the full deployment process by a single user
+   3. [ ] Provides a design to run a single type of workload
+   4. [ ] Scales your microservices manually based on predefined rules and configurations
+
+Q2 (single_choice):
+What are the three deployment modes of IBM Cloud Code Engine?
+   1. [x] (1) Build and deploy applications from source code. (2) Deploy container image-based applications, and (3) Run Jobs
+   2. [ ] (1) SCP. (2) TCP, and (3) HTTP
+   3. [ ] (1) Run REST APIs, (2) Build and Run Source Code, and (3) Run Jobs
+   4. [ ] (1) Build and deploy applications from source code. (2) Deploy container image-based applications and (3) REST APIs
+
+Q3 (single_choice):
+Which of the following statement is correct about Code Engine project and application?
+   1. [ ] A project can only contain one application.
+   2. [ ] You can have two applications sharing the same name in the same project.
+   3. [ ] A project in IBM Cloud Code Engine acts like a namespace so that you can only create one project under your account.
+   4. [x] A project in IBM Cloud Code Engine acts like a namespace so that you can create and deploy multiple applications even with the same name across projects.
+
+Q4 (single_choice):
+What are the two main application-building methods supported in IBM Cloud Code Engine?
+   1. [ ] Building container image with Dockerpack and Buildpack.
+   2. [x] Building container image with Dockerfile and Buildpack.
+   3. [ ] Building container image with DockerHub and Buildpack.
+   4. [ ] Building container image with Github Action and DockerHuB:
+
+Q5 (single_choice):
+What is the role of docker in container technology?
+   1. [ ] An application development and testing IDE
+   2. [ ] A cloud tool to scan your container images for security vulnerabilities
+   3. [x] A software platform for building and running applications as containers
+   4. [ ] A container orchestration platform
+
+Q6 (single_choice):
+What is normally the first command of a Dockerfile?
+   1. [x] FROM
+   2. [ ] EXPOSE
+   3. [ ] COPY
+   4. [ ] CMD
+
+Q7 (single_choice):
+What is a container registry?
+   1. [x] A container repository where your pushed container images are curated
+   2. [ ] A cloud platform to deploy container images.
+   3. [ ] A cloud IDE to develop container
+   4. [ ] A software platform to build a container image
+
+Q8 (single_choice):
+Once your microservice or web application is deployed, how can you test it?
+   1. [ ] You can only verify your application’s running status via log files.
+   2. [ ] IBM Cloud Code Engine will provide a URL to download your microservice, and then you can unzip and run it.
+   3. [x] IBM Cloud Code Engine will provide a URL for you to run or test your service or application.
+   4. [ ] IBM Cloud Code Engine will provide a container image reference for you to test your application.
+
+Q9 (single_choice):
+What is the correct IBM Cloud CLI command to create and deploy an application?
+   1. [ ] “app create --name helloworldapp --image us.icr.io/mynamespace/hello_repo --registry-secret myregistry”
+   2. [x] “ibmcloud ce app create --name helloworldapp --image us.icr.io/mynamespace/hello_repo --registry-secret myregistry”
+   3. [ ] “ibmcloud ce app create –image us.icr.io/mynamespace/hello_repo --registry-secret myregistry.”
+   4. [ ] “ ibmcloud ce createapp --n helloworldapp --i us.icr.io/mynamespace/hello_repo”
+
+Q10 (single_choice):
+Which method is used by the IBM Cloud Code Engine to access your container image?
+   1. [ ] From the Private container registry only
+   2. [x] From both public and private container registry
+   3. [ ] From the public container registry only
+   4. [ ] From the source code
+
+--------------------------------------------------------------------------------
+[QUIZ 9] Practice Quiz Practice Assignment • Submitted • Grade: 100% • Status: Graded Graded
+Source: Module 6 | Kind: practice_quiz | Status: opened_via_button
+URL: https://www.coursera.org/learn/applications-development-microservices-serverless-openshift/assignment-submission/w7LKk/practice-quiz/view-feedback
+Questions extracted: 5
+--------------------------------------------------------------------------------
+
+Q1 (multiple_select):
+Red Hat OpenShift is a Kubernetes application platform. Where can Red Hat OpenShift run?
+   1. [x] On-premises
+   2. [x] Private cloud
+   3. [ ] On Red Hat infrastructure only
+   4. [x] Public cloud
+
+Q2 (multiple_select):
+Which of the following are features provided by Istio?
+   1. [ ] Application development platform
+   2. [x] Encryption of traffic between services
+   3. [x] Traffic management
+   4. [x] Observability of service behavior
+
+Q3 (single_choice):
+What job does OpenShift create to automatically build microservices into containers?
+   1. [ ] Atkins job
+   2. [ ] Container job
+   3. [ ] Open-source job
+   4. [x] Jenkins job
+
+Q4 (single_choice):
+What does OpenShift do with the built containers?
+   1. [ ] Sends them to the developer
+   2. [x] Deploys them to the cluster
+   3. [ ] Deletes them
+   4. [ ] Stores them on the local machine
+
+Q5 (multiple_select):
+What are the main resources used to configure Istio?
+   1. [x] Virtual Service
+   2. [x] Destination Rules
+   3. [ ] Deployment
+   4. [x] Gateway
+
+--------------------------------------------------------------------------------
+[QUIZ 10] Practice Quiz: OpenShift Essentials/Working with OpenShift and Istio Practice Assignment • Submitted • Grade: 100% • Status: Graded Graded
+Source: Module 6 | Kind: practice_quiz | Status: opened_via_button
+URL: https://www.coursera.org/learn/applications-development-microservices-serverless-openshift/assignment-submission/2aSCy/practice-quiz-openshift-essentials-working-with-openshift-and-istio/view-feedback
+Questions extracted: 5
+--------------------------------------------------------------------------------
+
+Q1 (multiple_select):
+OpenShift is a platform for running microservices. Select three features you’ll find on the OpenShift platform.
+   1. [x] Integrate with serverless architectures
+   2. [x] Deploy cloud-native applications
+   3. [ ] Sell third-party software
+   4. [x] Orchestrate containerized workloads
+
+Q2 (single_choice):
+In the analogy described in the Red Hat OpenShift Recap video, which of the following terms is analogous to Kubernetes?
+   1. [x] Linux kernel
+   2. [ ] Fedora
+   3. [ ] Debian
+   4. [ ] Ubuntu
+
+Q3 (single_choice):
+Istio doesn't encrypt traffic among services because OpenShift does this already.
+   1. [ ] True
+   2. [x] False
+
+Q4 (multiple_select):
+Select three capabilities that a service mesh enables.
+   1. [ ] Third-party software procurement
+   2. [x] Traffic management
+   3. [x] Troubleshooting
+   4. [x] Secure service-to-service communication
+
+Q5 (single_choice):
+A service mesh is a dedicated layer that supplies logging capabilities in an OpenShift cluster.
+   1. [ ] True
+   2. [x] False

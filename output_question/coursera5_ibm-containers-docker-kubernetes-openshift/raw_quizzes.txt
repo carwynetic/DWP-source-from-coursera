@@ -1,0 +1,482 @@
+================================================================================
+COURSE: Introduction to Containers w/ Docker, Kubernetes & OpenShift
+URL: https://www.coursera.org/learn/ibm-containers-docker-kubernetes-openshift
+CRAWLED AT: 2026-11-24T14:31:06.556985
+SUMMARY: 8/8 MC quizzes | 60 questions
+================================================================================
+
+--------------------------------------------------------------------------------
+[QUIZ 1] Practice Quiz: Understanding the Benefits of Containers Practice Assignment • 15 min • Grade: -- Resume
+Source: Module 1 | Kind: practice_quiz | Status: opened_via_button:Start assignment
+URL: https://www.coursera.org/learn/ibm-containers-docker-kubernetes-openshift/assignment-submission/jWQSc/practice-quiz-understanding-the-benefits-of-containers/attempt
+Questions extracted: 5
+--------------------------------------------------------------------------------
+
+Q1 (single_choice):
+What is Docker?
+   1. [ ] An enterprise security tool that prevents malware from accessing containers
+   2. [ ] Deep storage for digital containers
+   3. [ ] A network connector that allows containers to travel from one platform to another
+   4. [ ] An open platform used for developing, shipping, and running applications in containers
+
+Q2 (single_choice):
+What does an image name consist of?
+   1. [ ] The network, the repository, and the template
+   2. [ ] The Dockerfile, the running container, and the storage plugin
+   3. [ ] The hostname, the repository, and the tag
+   4. [ ] Only tags
+
+Q3 (single_choice):
+What is a container?
+   1. [ ] A standard unit of software that packages code and all its dependencies
+   2. [ ] A special method of designing more efficient code
+   3. [ ] A digital platform designed to store files developed in different operating systems
+   4. [ ] A data center server that stores cloud files
+
+Q4 (multiple_select):
+What are the three parts of the Docker architecture?
+   1. [ ] Virtual machines
+   2. [ ] Host
+   3. [ ] Registry
+   4. [ ] Client
+
+Q5 (single_choice):
+What are some of the traits of containers?
+   1. [ ] Containers are more expensive but save time during deployment.
+   2. [ ] Containers save both time and money at the expense of utilization and automation.
+   3. [ ] Containers save both time and money and improve utilization.
+   4. [ ] Containers lower costs, but add time.
+
+--------------------------------------------------------------------------------
+[QUIZ 2] Graded Quiz: Containers and Containerization Graded Assignment • Submitted • Grade: --
+Source: Module 1 | Kind: graded_quiz | Status: opened_via_button
+URL: https://www.coursera.org/learn/ibm-containers-docker-kubernetes-openshift/assignment-submission/2jajs/graded-quiz-containers-and-containerization/view-feedback
+Questions extracted: 10
+--------------------------------------------------------------------------------
+
+Q1 (single_choice):
+What are the steps used to create and run containers?
+   1. [ ] Create a container image, use it to create a Dockerfile, and then use the Dockerfile to create a running container.
+   2. [ ] Create a Dockerfile and use it with the pull command to create a running container.
+   3. [x] Create a Dockerfile, use it to create a container image, and then use the container image to create a running container.
+   4. [ ] Input the container image name and tag.
+
+Q2 (single_choice):
+What is the function of the Docker ‘run’ command?
+   1. [ ] Stores images in a configured registry
+   2. [ ] Lists all images, repositories, tags, and sizes
+   3. [ ] Retrieves images from a configured registry
+   4. [x] Creates a container from an image
+
+Q3 (single_choice):
+What applications are a good fit for Docker?
+   1. [ ] Applications that need a lot of security
+   2. [x] Applications that require flexible scaling and portability
+   3. [ ] Applications with rich GUI features
+   4. [ ] Applications with high performance requirements
+
+Q4 (single_choice):
+What is a Docker container?
+   1. [ ] A persistent set of data that can be transferred
+   2. [ ] A read-only template
+   3. [x] A runnable instance of an image
+   4. [ ] A method of isolating communication
+
+Q5 (single_choice):
+Do containers have to be on a specific operating system or platform?
+   1. [ ] Yes, containers only work on Windows-based operating systems and platforms.
+   2. [ ] No, containers don’t run on operating systems or platforms.
+   3. [ ] Yes, containers only work on Linux-based operating systems and platforms.
+   4. [x] No, containers work on many types of operating systems and platforms.
+
+Q6 (multiple_select):
+What are three parts of Docker’s underlying technology?
+   1. [x] Linux kernel features
+   2. [ ] GitHub
+   3. [x] Namespaces
+   4. [x] The Go programming language
+
+Q7 (single_choice):
+What does the Docker client-server architecture provide?
+   1. [ ] Cloud storage
+   2. [x] An application environment
+   3. [ ] A communication channel
+   4. [ ] Code checking
+
+Q8 (single_choice):
+What are volumes and bind mounts used for in Docker?
+   1. [x] Persisting data
+   2. [ ] Erasing data
+   3. [ ] Connecting to external storage platforms
+   4. [ ] Isolating communication
+
+Q9 (single_choice):
+How are digital containers like shipping containers?
+   1. [x] Container size and specs are standardized, which makes them easier to move around.
+   2. [ ] Digital containers are not like shipping containers.
+   3. [ ] Both digital and shipping containers have to travel internationally.
+   4. [ ] Digital containers must be welded to computer motherboards, just like shipping containers must be welded.
+
+Q10 (single_choice):
+What Docker features create a container image?
+   1. [ ] The image command and a Dockerfile
+   2. [ ] The copy command and an existing image
+   3. [x] The build command and a Dockerfile
+   4. [ ] The run command and a Dockerfile
+
+--------------------------------------------------------------------------------
+[QUIZ 3] Practice Quiz: Kubernetes Basics Practice Assignment • 15 min • Grade: --
+Source: Module 2 | Kind: practice_quiz | Status: opened_via_button:Start assignment
+URL: https://www.coursera.org/learn/ibm-containers-docker-kubernetes-openshift/assignment-submission/tV0pT/practice-quiz-kubernetes-basics/attempt
+Questions extracted: 5
+--------------------------------------------------------------------------------
+
+Q1 (single_choice):
+What is a Kubernetes Cluster?
+   1. [ ] A controller manager
+   2. [ ] A cluster of nodes that run containerized applications
+   3. [ ] A distributed key value store
+   4. [ ] An image downloader
+
+Q2 (multiple_select):
+What are three examples of Kubernetes objects?
+   1. [ ] Containers
+   2. [ ] ReplicaSets
+   3. [ ] Namespaces
+   4. [ ] Pods
+
+Q3 (single_choice):
+What is Kubernetes?
+   1. [ ] A continuous integration and delivery pipeline for applications
+   2. [ ] A built-in middleware and database provider
+   3. [ ] An all-inclusive platform as a service
+   4. [ ] An open source containerization orchestration platform
+
+Q4 (single_choice):
+What languages are used to create the container orchestration configuration file?
+   1. [ ] YAML only
+   2. [ ] Python or Node.js
+   3. [ ] JSON only
+   4. [ ] YAML or JSON
+
+Q5 (single_choice):
+What is the function of a ClusterIP Service?
+   1. [ ] Provides inter-service communication within the Cluster
+   2. [ ] Automatically creates and routes incoming requests to the ClusterIP Service
+   3. [ ] Directs traffic to the NodePort Service
+   4. [ ] Maps to a DNS name
+
+--------------------------------------------------------------------------------
+[QUIZ 4] Graded Quiz: Kubernetes Basics Graded Assignment • Submitted • Grade: --
+Source: Module 2 | Kind: graded_quiz | Status: opened_via_button
+URL: https://www.coursera.org/learn/ibm-containers-docker-kubernetes-openshift/assignment-submission/f8QO2/graded-quiz-kubernetes-basics/view-feedback
+Questions extracted: 10
+--------------------------------------------------------------------------------
+
+Q1 (single_choice):
+What is automated bin packing?
+   1. [ ] A Kubernetes capability that scales workloads based on metrics or commands
+   2. [ ] A Kubernetes capability that applies automatic changes
+   3. [x] A Kubernetes capability that performs container auto-placement based on resource requirements and conditions without sacrificing high availability
+   4. [ ] A Kubernetes capability that mounts a chosen storage system
+
+Q2 (single_choice):
+What component of a worker node ensures containers are running as desired?
+   1. [ ] The Kubernetes proxy
+   2. [x] The kubelet
+   3. [ ] Container runtime
+   4. [ ] Etcd
+
+Q3 (multiple_select):
+What are three Kubernetes capabilities?
+   1. [ ] Automated rollouts
+   2. [ ] CI/CD pipelines
+   3. [ ] Secret and configuration management
+   4. [ ] Storage orchestration
+
+Q4 (multiple_select):
+In what three environments can container orchestration be implemented?
+   1. [ ] On-premises environments
+   2. [ ] A single device
+   3. [ ] Private cloud environments
+   4. [ ] Public cloud environments
+
+Q5 (single_choice):
+What does a control plane do?
+   1. [x] Maintains the intended Cluster state by making decisions about the Cluster and detecting and responding to events in the Cluster
+   2. [ ] Assigns newly created Pods to nodes
+   3. [ ] Shares all the resources of a node
+   4. [ ] Contains Pods
+
+Q6 (single_choice):
+What is Kubectl?
+   1. [x] Kubernetes command line interface (CLI)
+   2. [ ] OpenShift command line interface (oc)
+   3. [ ] Cloud command line interface
+   4. [ ] Docker command line interface
+
+Q7 (single_choice):
+What is a label?
+   1. [ ] A mechanism for isolating groups of resources within a single Cluster
+   2. [ ] A set of identical running Pod replicas that are horizontally scaled
+   3. [ ] The simplest unit in Kubernetes
+   4. [x] A key-value pair attached to an object
+
+Q8 (single_choice):
+What Kubernetes object should be used for stateless applications?
+   1. [ ] StatefulSet
+   2. [ ] ReplicaSet
+   3. [x] Deployment
+   4. [ ] DaemonSet
+
+Q9 (single_choice):
+What is the most popular container orchestration tool used as of 2022?
+   1. [ ] Docker Swarm
+   2. [ ] Marathon
+   3. [ ] Nomad
+   4. [x] Kubernetes
+
+Q10 (single_choice):
+What is the function of an External Name Service?
+   1. [x] Maps to a DNS name
+   2. [ ] Directs traffic to the NodePort Service
+   3. [ ] Provides inter-service communication within the Cluster
+   4. [ ] Creates and routes the incoming requests automatically to the ClusterIP Service
+
+--------------------------------------------------------------------------------
+[QUIZ 5] Practice Quiz: Managing Applications with Kubernetes Practice Assignment • 15 min • Grade: --
+Source: Module 3 | Kind: practice_quiz | Status: opened_after_step_1
+URL: https://www.coursera.org/learn/ibm-containers-docker-kubernetes-openshift/assignment-submission/rKS3P/practice-quiz-managing-applications-with-kubernetes/attempt
+Questions extracted: 5
+--------------------------------------------------------------------------------
+
+Q1 (single_choice):
+What rollout command do you use to implement a rollback to a previous version in Kubernetes?
+   1. [ ] A ‘delete’ command
+   2. [ ] A ‘history’ command
+   3. [ ] A ‘status’ command
+   4. [ ] An ‘undo’ command
+
+Q2 (multiple_select):
+Which three statements about ConfigMaps are correct?
+   1. [ ] A ConfigMap provides configuration data to pods and deployments.
+   2. [ ] A ConfigMap is meant for sensitive information (encrypted).
+   3. [ ] Data stored in a ConfigMap must not exceed one megabyte.
+   4. [ ] A ConfigMap object stores non-confidential data in key-value pairs.
+
+Q3 (single_choice):
+What Kubernetes object adds or deletes pods for scaling and redundancy?
+   1. [ ] A Secret
+   2. [ ] A DaemonSet
+   3. [ ] A ReplicaSet
+   4. [ ] A ConfigMap
+
+Q4 (single_choice):
+What are the autoscaling types in Kubernetes?
+   1. [ ] Deployment, Node, and Pod
+   2. [ ] Horizontal, Vertical, Node
+   3. [ ] Horizontal, Vertical, and Cluster
+   4. [ ] Horizontal and Vertical
+
+Q5 (single_choice):
+What is Service binding?
+   1. [ ] The process needed to consume external Service or backing Services, including REST APIs, databases, and event buses in your applications
+   2. [ ] The process of attaching key-value pairs to objects
+   3. [ ] A Kubernetes capability that performs container auto-placement based on resource requirements and conditions without sacrificing high availability
+   4. [ ] The process of storing non-confidential data
+
+--------------------------------------------------------------------------------
+[QUIZ 6] Graded Quiz: Managing Applications with Kubernetes Graded Assignment • Submitted • Grade: --
+Source: Module 3 | Kind: graded_quiz | Status: opened_via_button
+URL: https://www.coursera.org/learn/ibm-containers-docker-kubernetes-openshift/assignment-submission/fP8Uy/graded-quiz-managing-applications-with-kubernetes/view-feedback
+Questions extracted: 10
+--------------------------------------------------------------------------------
+
+Q1 (single_choice):
+What Kubernetes object adds or deletes pods for scaling and redundancy?
+   1. [ ] A Config Map
+   2. [ ] A DaemonSet
+   3. [ ] A Secret
+   4. [x] A ReplicaSet
+
+Q2 (multiple_select):
+What are the three required steps to bind the IBM Cloud Service to your Cluster?
+   1. [x] Configure your app to access the credentials.
+   2. [ ] Erase the credential configuration file after credential setup.
+   3. [x] Bind the Service to your Cluster to create credentials.
+   4. [x] Provision an instance of the Service.
+
+Q3 (single_choice):
+Which rolling update types ensure 100% app availability?
+   1. [ ] Both all-at-once and one-at-a-time updates and rollbacks ensure 100% app availability.
+   2. [ ] All-at-once updates and rollbacks ensure 100% app availability.
+   3. [ ] No rolling update types can ensure 100% app availability.
+   4. [x] One-at-a-time updates and rollbacks ensure 100% app availability.
+
+Q4 (multiple_select):
+What are three ways to create a ConfigMap?
+   1. [x] By providing a ConfigMap YAML descriptor file
+   2. [x] By using an existing property or ‘key’ = ‘value’ file
+   3. [ ] By adding another environment to the deployment descriptor
+   4. [x] By using string literals
+
+Q5 (single_choice):
+What does a ConfigMap do?
+   1. [ ] Verifies that a Secret was created
+   2. [x] Provides variables for your application
+   3. [ ] Provides sensitive information to your application
+   4. [ ] Mounts a file using the volumes plugin
+
+Q6 (single_choice):
+Which Kubernetes autoscaler type scales the Cluster?
+   1. [ ] You cannot autoscale a Kubernetes Cluster.
+   2. [ ] Vertical Pod Autoscaler (VPA)
+   3. [ ] Horizontal Pod Autoscaler (HPA)
+   4. [x] Cluster Autoscaler (CA)
+
+Q7 (single_choice):
+How do you create a ReplicaSet from scratch?
+   1. [ ] Apply a JSON file that includes the number of desired replicas.
+   2. [x] Apply a YAML file with the ‘kind’ attribute set to ‘ReplicaSet’.
+   3. [ ] Use the ‘get pods’ command.
+   4. [ ] Use the ‘scale’ command to scale the deployment.
+
+Q8 (single_choice):
+What does Service binding do?
+   1. [ ] Provides variables for your application
+   2. [x] Manages configuration and credentials for back-end Services while protecting sensitive data
+   3. [ ] Calls the service without using binding credentials.
+   4. [ ] Makes Service credentials hidden.
+
+Q9 (single_choice):
+How do you prepare your application to enable rolling updates?
+   1. [ ] Set the maxSurge to 50%.
+   2. [ ] Use autoscaling.
+   3. [ ] Set the maxSurge to 100%.
+   4. [x] Add liveness and readiness probes to deployments.
+
+Q10 (multiple_select):
+What are three ways to create a Secret?
+   1. [ ] By using volume mounts
+   2. [x] By using a string literal
+   3. [x] By providing a ConfigMap YAML descriptor file
+   4. [x] By using environment variables
+
+--------------------------------------------------------------------------------
+[QUIZ 7] Practice Quiz: The Kubernetes Ecosystem: OpenShift, Istio, etc. Practice Assignment • 15 min • Grade: --
+Source: Module 4 | Kind: practice_quiz | Status: opened_after_step_1
+URL: https://www.coursera.org/learn/ibm-containers-docker-kubernetes-openshift/assignment-submission/OsP0R/practice-quiz-the-kubernetes-ecosystem-openshift-istio-etc/attempt
+Questions extracted: 5
+--------------------------------------------------------------------------------
+
+Q1 (single_choice):
+What is a valid Istio feature?
+   1. [ ] Regular full-system health checks
+   2. [ ] Istio provides Service communication metrics for basic Service monitoring needs: latency, traffic, errors, and saturation.
+   3. [ ] Integration with APIs and CLI tools
+   4. [ ] Ease of repeatable installation and upgrade processes
+
+Q2 (multiple_select):
+What are three functions of a service mesh?
+   1. [ ] Reduces container size for faster Services
+   2. [ ] Encrypts traffic between Services
+   3. [ ] Provides Service behavior metrics for optimization
+   4. [ ] Manages traffic between Services
+
+Q3 (multiple_select):
+What are three true statements about Red Hat OpenShift?
+   1. [ ] Red Hat OpenShift is a consistent application platform used to manage hybrid, multi-cloud, and edge deployments.
+   2. [ ] Red Hat OpenShift provides full-stack automated operations and self-service provisioning for developers to efficiently move ideas from development to production.
+   3. [ ] Red Hat OpenShift provides additional tooling around the complete lifecycle of applications, from Build to CI/CD, to monitoring and logs.
+   4. [ ] Red Hat OpenShift uses kubectl CLI, the most commonly used CLI tool to perform end-to-end operations.
+
+Q4 (multiple_select):
+What are three examples of Build input sources?
+   1. [ ] External artifacts
+   2. [ ] Inline Dockerfile definitions
+   3. [ ] Pods
+   4. [ ] Input Secrets
+
+Q5 (single_choice):
+What do Operators provide?
+   1. [ ] Integration with APIs and CLI tools
+   2. [ ] Customizations and parameterization, but only at the time of installations
+   3. [ ] Service communication metrics for basic Service monitoring needs: latency, traffic, errors, and saturation.
+   4. [ ] Support for connection, security, enforcement, and observability.
+
+--------------------------------------------------------------------------------
+[QUIZ 8] Graded Quiz: The Kubernetes Ecosystem: OpenShift, Istio, etc. Graded Assignment • Submitted • Grade: --
+Source: Module 4 | Kind: graded_quiz | Status: opened_via_button
+URL: https://www.coursera.org/learn/ibm-containers-docker-kubernetes-openshift/assignment-submission/No0KH/graded-quiz-the-kubernetes-ecosystem-openshift-istio-etc/view-feedback
+Questions extracted: 10
+--------------------------------------------------------------------------------
+
+Q1 (multiple_select):
+What are the two features of an ImageStream?
+   1. [ ] Provides content for Builds
+   2. [ ] Tracks and updates references to container images.
+   3. [x] Provides a trigger capability when a new version of an image is available
+   4. [ ] Stores images
+
+Q2 (multiple_select):
+What are the three Build triggers used in OpenShift?
+   1. [x] Configuration change
+   2. [x] Webhook
+   3. [x] Image change
+   4. [ ] ImageStream
+
+Q3 (multiple_select):
+Which three statements are true?
+   1. [x] The oc lets you work directly with project source code using command script.
+   2. [x] The oc lets you manage projects during restricted bandwidth or availability of the web console.
+   3. [ ] The oc and kubectl binary offer different capabilities.
+   4. [x] The oc lets you script OpenShift operations.
+
+Q4 (single_choice):
+What packages, deploys, and manages native apps in Kubernetes?
+   1. [ ] A ReplicaSet
+   2. [ ] A Container
+   3. [x] An Operator
+   4. [ ] A Deployment
+
+Q5 (single_choice):
+What strategy was Red Hat OpenShift designed for?
+   1. [ ] An on-premises strategy.
+   2. [x] A hybrid-cloud strategy.
+   3. [ ] A public cloud strategy
+   4. [ ] A private cloud strategy.
+
+Q6 (single_choice):
+What provides traffic management to control the flow of traffic between Services?
+   1. [ ] An autoscaler
+   2. [ ] Kubectl
+   3. [x] A service mesh
+   4. [ ] A container
+
+Q7 (multiple_select):
+What three processes are performed by the Operator Framework tool set?
+   1. [ ] Building
+   2. [x] Package
+   3. [x] Testing
+   4. [x] Coding
+
+Q8 (multiple_select):
+What are the three features of Custom Resource Definitions (CRDs)?
+   1. [x] Can be engaged with kubectl
+   2. [x] Extend Kubernetes functionality
+   3. [x] Make Kubernetes API more modular
+   4. [ ] Control the install, upgrade, and role-based access control (RBAC) of Operators in a cluster
+
+Q9 (single_choice):
+In Istio, what handles communication between services?
+   1. [x] The data plane
+   2. [ ] The control plane
+   3. [ ] Environmental changes
+   4. [ ] The proxy server
+
+Q10 (multiple_select):
+What are three added features that OpenShift provides?
+   1. [x] Better user experience
+   2. [ ] More flexible
+   3. [x] Good networking solutions out of the box
+   4. [x] Better management through image streams

@@ -1,0 +1,58 @@
+name: Build Unsigned iOS IPA
+
+on:
+  push:
+    branches: [main, master]
+    paths:
+      - "ios_app/**"
+      - "web_app/DWP301c_Offline.html"
+      - ".github/workflows/build-ipa.yml"
+  workflow_dispatch:
+
+jobs:
+  build-ipa:
+    name: Build DWP301cCodex.ipa (iOS 15+)
+    runs-on: macos-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Ensure latest offline HTML is bundled
+        run: |
+          cp -f web_app/DWP301c_Offline.html ios_app/DWP301cCodex/DWP301c_Offline.html
+
+      - name: Install XcodeGen
+        run: brew install xcodegen
+
+      - name: Generate Xcode project
+        working-directory: ios_app
+        run: xcodegen generate
+
+      - name: Archive unsigned iOS app
+        working-directory: ios_app
+        run: |
+          xcodebuild archive \
+            -project DWP301cCodex.xcodeproj \
+            -scheme DWP301cCodex \
+            -configuration Release \
+            -sdk iphoneos \
+            -archivePath build/DWP301cCodex.xcarchive \
+            CODE_SIGNING_ALLOWED=NO \
+            CODE_SIGNING_REQUIRED=NO \
+            CODE_SIGN_IDENTITY=""
+
+      - name: Package unsigned .ipa
+        working-directory: ios_app
+        run: |
+          mkdir -p build/Payload
+          cp -r build/DWP301cCodex.xcarchive/Products/Applications/DWP301cCodex.app build/Payload/
+          cd build
+          zip -r -y DWP301cCodex.ipa Payload
+
+      - name: Upload DWP301cCodex.ipa artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: DWP301cCodex-ipa
+          path: ios_app/build/DWP301cCodex.ipa
+          retention-days: 30

@@ -1,0 +1,1811 @@
+{
+  "crawled_at": "2026-11-24T14:27:17.521977",
+  "course": {
+    "key": "coursera4",
+    "name": "Developing Front-End Apps with React",
+    "slug": "developing-frontend-apps-with-react",
+    "url": "https://www.coursera.org/learn/developing-frontend-apps-with-react"
+  },
+  "total_quizzes_discovered": 9,
+  "total_mc_quizzes_extracted": 9,
+  "total_mc_questions": 70,
+  "quizzes": [
+    {
+      "title": "Lesson 1 Practice Quiz: Building Rich Front-End Applications with React and ES6 Practice Assignment • 30 min • Grade: -- Resume",
+      "page_title": "Lesson 1 Practice Quiz: Building Rich Front-End Applications with React and ES6",
+      "source": "Module 1",
+      "kind": "practice_quiz",
+      "url": "https://www.coursera.org/learn/developing-frontend-apps-with-react/assignment-submission/W3QQP/lesson-1-practice-quiz-building-rich-front-end-applications-with-react-and-es6",
+      "final_url": "https://www.coursera.org/learn/developing-frontend-apps-with-react/assignment-submission/W3QQP/lesson-1-practice-quiz-building-rich-front-end-applications-with-react-and-es6/attempt",
+      "status": "opened_after_step_1",
+      "question_count": 10,
+      "questions": [
+        {
+          "index": 1,
+          "question_type": "single_choice",
+          "prompt_text": "Which statement best explains the purpose of JSX in React?",
+          "options": [
+            {
+              "text": "JSX is a CSS pre-processor used in React applications.",
+              "checked": false
+            },
+            {
+              "text": "JSX allows developers to write HTML elements within JavaScript code.",
+              "checked": false
+            },
+            {
+              "text": "JSX provides data-binding capabilities similar to Angular.",
+              "checked": false
+            },
+            {
+              "text": "JSX compiles JavaScript code into high-performance assembly language.",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "1.\nQuestion 1\n\nWhich statement best explains the purpose of JSX in React?\n\nDo you understand?.\n\nI understand\n\nJSX is a CSS pre-processor used in React applications.\n\nJSX allows developers to write HTML elements within JavaScript code.\n\nJSX provides data-binding capabilities similar to Angular.\n\nJSX compiles JavaScript code into high-performance assembly language.\n\n1 point"
+        },
+        {
+          "index": 2,
+          "question_type": "single_choice",
+          "prompt_text": "What defines the primary difference between a library and a framework in web development?",
+          "options": [
+            {
+              "text": "A library offers only UI components, whereas a framework manages database connections.",
+              "checked": false
+            },
+            {
+              "text": "A library provides specific functionality to be used, while a framework dictates the architecture and flow.",
+              "checked": false
+            },
+            {
+              "text": "A library is always smaller in size compared to a framework.",
+              "checked": false
+            },
+            {
+              "text": "A library requires more configuration than a framework.",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "2.\nQuestion 2\n\nWhat defines the primary difference between a library and a framework in web development?\n\nDo you understand?.\n\nI understand\n\nA library offers only UI components, whereas a framework manages database connections.\n\nA library provides specific functionality to be used, while a framework dictates the architecture and flow.\n\nA library is always smaller in size compared to a framework.\n\nA library requires more configuration than a framework.\n\n1 point"
+        },
+        {
+          "index": 3,
+          "question_type": "single_choice",
+          "prompt_text": "How does the Vite tool differ from the Create React App (CRA) tool?",
+          "options": [
+            {
+              "text": "Vite automatically writes unit tests for React components during development.",
+              "checked": false
+            },
+            {
+              "text": "Vite offers faster build times and a more modern development experience.",
+              "checked": false
+            },
+            {
+              "text": "Vite and CRA are identical in functionality and purpose.",
+              "checked": false
+            },
+            {
+              "text": "Vite is exclusively used for server-side rendering of React applications.",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "3.\nQuestion 3\n\nHow does the Vite tool differ from the Create React App (CRA) tool?\n\nDo you understand?.\n\nI understand\n\nVite automatically writes unit tests for React components during development.\n\nVite offers faster build times and a more modern development experience.\n\nVite and CRA are identical in functionality and purpose.\n\nVite is exclusively used for server-side rendering of React applications.\n\n1 point"
+        },
+        {
+          "index": 4,
+          "question_type": "single_choice",
+          "prompt_text": "Which feature of React allows you to encapsulate a part of the UI into a reusable piece?",
+          "options": [
+            {
+              "text": "Hooks",
+              "checked": false
+            },
+            {
+              "text": "Props",
+              "checked": false
+            },
+            {
+              "text": "Components",
+              "checked": false
+            },
+            {
+              "text": "State",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "4.\nQuestion 4\n\nWhich feature of React allows you to encapsulate a part of the UI into a reusable piece?\n\nDo you understand?.\n\nI understand\n\nHooks\n\nProps\n\nComponents\n\nState\n\n1 point"
+        },
+        {
+          "index": 5,
+          "question_type": "single_choice",
+          "prompt_text": "What is the primary purpose of the Create React App (CRA) tool in React development?",
+          "options": [
+            {
+              "text": "To set up a new modern web app by providing a solid foundation and standard configuration.",
+              "checked": false
+            },
+            {
+              "text": "To convert JavaScript code into TypeScript automatically.",
+              "checked": false
+            },
+            {
+              "text": "To deploy React applications directly to production servers.",
+              "checked": false
+            },
+            {
+              "text": "To build complex server-side logic using React.",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "5.\nQuestion 5\n\nWhat is the primary purpose of the Create React App (CRA) tool in React development?\n\nDo you understand?.\n\nI understand\n\nTo set up a new modern web app by providing a solid foundation and standard configuration.\n\nTo convert JavaScript code into TypeScript automatically.\n\nTo deploy React applications directly to production servers.\n\nTo build complex server-side logic using React.\n\n1 point"
+        },
+        {
+          "index": 6,
+          "question_type": "single_choice",
+          "prompt_text": "Which of the following best describes ECMAScript 6 (ES6)?",
+          "options": [
+            {
+              "text": "ES6 is a framework for building front-end applications.",
+              "checked": false
+            },
+            {
+              "text": "ES6 is a tool for compiling JavaScript code.",
+              "checked": false
+            },
+            {
+              "text": "ES6 is a specification that adds new features to JavaScript.",
+              "checked": false
+            },
+            {
+              "text": "ES6 is a library that provides additional UI components.",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "6.\nQuestion 6\n\nWhich of the following best describes ECMAScript 6 (ES6)?\n\nDo you understand?.\n\nI understand\n\nES6 is a framework for building front-end applications.\n\nES6 is a tool for compiling JavaScript code.\n\nES6 is a specification that adds new features to JavaScript.\n\nES6 is a library that provides additional UI components.\n\n1 point"
+        },
+        {
+          "index": 7,
+          "question_type": "single_choice",
+          "prompt_text": "How does the Vite tool benefit React developers when creating projects?",
+          "options": [
+            {
+              "text": "Vite provides a complete set of UI components for React.",
+              "checked": false
+            },
+            {
+              "text": "Vite greatly improves development speed with fast HMR.",
+              "checked": false
+            },
+            {
+              "text": "Vite allows direct database connections for React applications.",
+              "checked": false
+            },
+            {
+              "text": "Vite includes a testing library out of the box.",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "7.\nQuestion 7\n\nHow does the Vite tool benefit React developers when creating projects?\n\nDo you understand?.\n\nI understand\n\nVite provides a complete set of UI components for React.\n\nVite greatly improves development speed with fast HMR.\n\nVite allows direct database connections for React applications.\n\nVite includes a testing library out of the box.\n\n1 point"
+        },
+        {
+          "index": 8,
+          "question_type": "single_choice",
+          "prompt_text": "What is a key advantage of using React compared to Angular and Vue according to developer preferences?",
+          "options": [
+            {
+              "text": "React has a strong community and ecosystem.",
+              "checked": false
+            },
+            {
+              "text": "React automatically optimizes performance without configuration.",
+              "checked": false
+            },
+            {
+              "text": "React offers a complete MVC framework out of the box.",
+              "checked": false
+            },
+            {
+              "text": "React has built-in state management tools.",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "8.\nQuestion 8\n\nWhat is a key advantage of using React compared to Angular and Vue according to developer preferences?\n\nDo you understand?.\n\nI understand\n\nReact has a strong community and ecosystem.\n\nReact automatically optimizes performance without configuration.\n\nReact offers a complete MVC framework out of the box.\n\nReact has built-in state management tools.\n\n1 point"
+        },
+        {
+          "index": 9,
+          "question_type": "single_choice",
+          "prompt_text": "Which of the following best describes the significance of ECMAScript 6 (ES6) in JavaScript?",
+          "options": [
+            {
+              "text": "ES6 is a framework for building JavaScript applications.",
+              "checked": false
+            },
+            {
+              "text": "ES6 only introduced changes to the JavaScript runtime environment.",
+              "checked": false
+            },
+            {
+              "text": "ES6 introduced new syntax and features that modernized JavaScript.",
+              "checked": false
+            },
+            {
+              "text": "ES6 deprecated all the older JavaScript features.",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "9.\nQuestion 9\n\nWhich of the following best describes the significance of ECMAScript 6 (ES6) in JavaScript?\n\nDo you understand?.\n\nI understand\n\nES6 is a framework for building JavaScript applications.\n\nES6 only introduced changes to the JavaScript runtime environment.\n\nES6 introduced new syntax and features that modernized JavaScript.\n\nES6 deprecated all the older JavaScript features.\n\n1 point"
+        },
+        {
+          "index": 10,
+          "question_type": "single_choice",
+          "prompt_text": "What is one of the primary benefits of using JSX in React applications?",
+          "options": [
+            {
+              "text": "JSX automatically optimizes code for better performance.",
+              "checked": false
+            },
+            {
+              "text": "JSX is required for debugging React applications.",
+              "checked": false
+            },
+            {
+              "text": "JSX allows for writing HTML elements directly within JavaScript code.",
+              "checked": false
+            },
+            {
+              "text": "JSX enforces strict typing similar to TypeScript.",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "10.\nQuestion 10\n\nWhat is one of the primary benefits of using JSX in React applications?\n\nDo you understand?.\n\nI understand\n\nJSX automatically optimizes code for better performance.\n\nJSX is required for debugging React applications.\n\nJSX allows for writing HTML elements directly within JavaScript code.\n\nJSX enforces strict typing similar to TypeScript.\n\n1 point"
+        }
+      ],
+      "raw_page_text": "N\nDeveloping Front-End Apps with React\nToday's goal • 0/3 items\n\nComplete 3 items today to stay at a good pace!\n\nModule 1\nIntroduction to React and Class Components\nWelcome to the Course\nCourse Introduction\nVideo\n. Duration: 3 minutes\n3 min\nCourse Overview\nReading\n. Duration: 5 minutes\n5 min\nHelpful Tips for Course Completion\nReading\n. Duration: 5 minutes\n5 min\nBuilding Rich Front-End Applications with React and ES6\nYour Path to React: Building on What You Know\nDialogue\n. Duration: 15 minutes\n15 min\nIntroduction to Front-End Frameworks and React\nVideo\n. Duration: 5 minutes\n5 min\nUnderstand React Structure\nVideo\n. Duration: 5 minutes\n5 min\nExpert Viewpoints: Using Front-end JavaScript Frameworks\nVideo\n. Duration: 3 minutes\n3 min\nIntroduction to ES6\nVideo\n. Duration: 6 minutes\n6 min\nIntroduction to JSX\nVideo\n. Duration: 3 minutes\n3 min\nCRA versus Vite Tool\nReading\n. Duration: 5 minutes\n5 min\nLab: Hello World with React\nUngraded App Item\n. Duration: 20 minutes\n20 min\nLesson 1 Summary: Building Rich Front-End Applications with React and ES6\nReading\n. Duration: 1 minute\n1 min\nLesson 1 Practice Quiz: Building Rich Front-End Applications with React and ES6\nPractice Assignment\n. Duration: 30 minutes\n30 min\nIntroduction to Class Components\nIntroduction to Components\nVideo\n. Duration: 3 minutes\n3 min\nWorking with React Class Components: Props and Event Handling\nVideo\n. Duration: 7 minutes\n7 min\nIntroduction to States\nVideo\n. Duration: 4 minutes\n4 min\nClass Component Lifecycle\nVideo\n. Duration: 3 minutes\n3 min\nPassing Data and States between Components\nVideo\n. Duration: 6 minutes\n6 min\nLab: Content Rating Application to Like or Dislike Content\nUngraded App Item\n. Duration: 40 minutes\n40 min\nLesson 2 Summary: Introduction to Class Components\nReading\n. Duration: 1 minute\n1 min\nLesson 2 Practice Quiz: Introduction to Class Components\nPractice Assignment\n. Duration: 30 minutes\n30 min\nModule 1 Cheat Sheet, Glossary, and Graded Quiz\nCheat Sheet: Introduction to React and Class Components\nReading\n. Duration: 10 minutes\n10 min\nGlossary: Introduction to React and Class Components\nReading\n. Duration: 10 minutes\n10 min\nModule 1 Graded Quiz: Introduction to React and Class Components\nGraded AssignmentGrade: 90%\nModule 2\nUnderstanding Function Components with Array and DOM Manipulation\nModule 3\nIn-depth Understanding of Advanced React Functionality\nModule 4\nPractice, Final Project, and Submission and Evaluation\n\nPractice Assignment\n\nLesson 1 Practice Quiz: Building Rich Front-End Applications with React and ES6\nResume assignment\nHelp me practice\nWhat to expect\nDue Nov 22, 11:59 PM +07\nUnlimited attempts\n\nThis is a practice assignment to help you check your understanding. It doesn’t count toward your course grade.\n\nReport an issue\nGo to next item\nBack\nLesson 1 Practice Quiz: Building Rich Front-End Applications with React and ES6\n\nPractice Assignment • 30 min\n\nDueNov 22, 11:59 PM +07\n1.\nQuestion 1\n\nWhich statement best explains the purpose of JSX in React?\n\nDo you understand?.\n\nI understand\n\nJSX is a CSS pre-processor used in React applications.\n\nJSX allows developers to write HTML elements within JavaScript code.\n\nJSX provides data-binding capabilities similar to Angular.\n\nJSX compiles JavaScript code into high-performance assembly language.\n\n1 point\n2.\nQuestion 2\n\nWhat defines the primary difference between a library and a framework in web development?\n\nDo you understand?.\n\nI understand\n\nA library offers only UI components, whereas a framework manages database connections.\n\nA library provides specific functionality to be used, while a framework dictates the architecture and flow.\n\nA library is always smaller in size compared to a framework.\n\nA library requires more configuration than a framework.\n\n1 point\n3.\nQuestion 3\n\nHow does the Vite tool differ from the Create React App (CRA) tool?\n\nDo you understand?.\n\nI understand\n\nVite automatically writes unit tests for React components during development.\n\nVite offers faster build times and a more modern development experience.\n\nVite and CRA are identical in functionality and purpose.\n\nVite is exclusively used for server-side rendering of React applications.\n\n1 point\n4.\nQuestion 4\n\nWhich feature of React allows you to encapsulate a part of the UI into a reusable piece?\n\nDo you understand?.\n\nI understand\n\nHooks\n\nProps\n\nComponents\n\nState\n\n1 point\n5.\nQuestion 5\n\nWhat is the primary purpose of the Create React App (CRA) tool in React development?\n\nDo you understand?.\n\nI understand\n\nTo set up a new modern web app by providing a solid foundation and standard configuration.\n\nTo convert JavaScript code into TypeScript automatically.\n\nTo deploy React applications directly to production servers.\n\nTo build complex server-side logic using React.\n\n1 point\n6.\nQuestion 6\n\nWhich of the following best describes ECMAScript 6 (ES6)?\n\nDo you understand?.\n\nI understand\n\nES6 is a framework for building front-end applications.\n\nES6 is a tool for compiling JavaScript code.\n\nES6 is a specification that adds new features to JavaScript.\n\nES6 is a library that provides additional UI components.\n\n1 point\n7.\nQuestion 7\n\nHow does the Vite tool benefit React developers when creating projects?\n\nDo you understand?.\n\nI understand\n\nVite provides a complete set of UI components for React.\n\nVite greatly improves development speed with fast HMR.\n\nVite allows direct database connections for React applications.\n\nVite includes a testing library out of the box.\n\n1 point\n8.\nQuestion 8\n\nWhat is a key advantage of using React compared to Angular and Vue according to developer preferences?\n\nDo you understand?.\n\nI understand\n\nReact has a strong community and ecosystem.\n\nReact automatically optimizes performance without configuration.\n\nReact offers a complete MVC framework out of the box.\n\nReact has built-in state management tools.\n\n1 point\n9.\nQuestion 9\n\nWhich of the following best describes the significance of ECMAScript 6 (ES6) in JavaScript?\n\nDo you understand?.\n\nI understand\n\nES6 is a framework for building JavaScript applications.\n\nES6 only introduced changes to the JavaScript runtime environment.\n\nES6 introduced new syntax and features that modernized JavaScript.\n\nES6 deprecated all the older JavaScript features.\n\n1 point\n10.\nQuestion 10\n\nWhat is one of the primary benefits of using JSX in React applications?\n\nDo you understand?.\n\nI understand\n\nJSX automatically optimizes code for better performance.\n\nJSX is required for debugging React applications.\n\nJSX allows for writing HTML elements directly within JavaScript code.\n\nJSX enforces strict typing similar to TypeScript.\n\n1 point\nCoursera Honor Code\n\nBy clicking Submit, you confirm this work is your own. Submitting work created with AI tools may result in course failure or account deactivation according to Coursera Honor Code policy.\n\nI, NGUYEN PHUC, understand and agree.\nYou must select the checkbox in order to submit the assignment\nSubmit\nSave draft\n\nLast saved on Nov 24, 2:24 PM +07\n\nLike\nDislike\nReport an issue"
+    },
+    {
+      "title": "Lesson 2 Practice Quiz: Introduction to Class Components Practice Assignment • 30 min • Grade: --",
+      "page_title": "Lesson 2 Practice Quiz: Introduction to Class Components",
+      "source": "Module 1",
+      "kind": "practice_quiz",
+      "url": "https://www.coursera.org/learn/developing-frontend-apps-with-react/assignment-submission/i7LRJ/lesson-2-practice-quiz-introduction-to-class-components",
+      "final_url": "https://www.coursera.org/learn/developing-frontend-apps-with-react/assignment-submission/i7LRJ/lesson-2-practice-quiz-introduction-to-class-components/attempt",
+      "status": "opened_after_step_1",
+      "question_count": 10,
+      "questions": [
+        {
+          "index": 1,
+          "question_type": "single_choice",
+          "prompt_text": "In React, what distinguishes a class component from a functional component?",
+          "options": [
+            {
+              "text": "Class components can manage state while functional components use hooks",
+              "checked": false
+            },
+            {
+              "text": "Functional components are not meant to return JSX",
+              "checked": false
+            },
+            {
+              "text": "Class components must use useState; functional components do not",
+              "checked": false
+            },
+            {
+              "text": "Functional components have lifecycle methods; class components do not",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "1.\nQuestion 1\n\nIn React, what distinguishes a class component from a functional component?\n\nDo you understand?.\n\nI understand\n\nClass components can manage state while functional components use hooks\n\nFunctional components are not meant to return JSX\n\nClass components must use useState; functional components do not\n\nFunctional components have lifecycle methods; class components do not\n\n1 point"
+        },
+        {
+          "index": 2,
+          "question_type": "single_choice",
+          "prompt_text": "What is the primary use of state in React class components?",
+          "options": [
+            {
+              "text": "To pass data from a parent component down to child components",
+              "checked": false
+            },
+            {
+              "text": "To directly manipulate the DOM outside of the React ecosystem",
+              "checked": false
+            },
+            {
+              "text": "To store and manage dynamic data that changes over time and triggers re-renders",
+              "checked": false
+            },
+            {
+              "text": "To share global variables across every component in the application",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "2.\nQuestion 2\n\nWhat is the primary use of state in React class components?\n\nDo you understand?.\n\nI understand\n\nTo pass data from a parent component down to child components\n\nTo directly manipulate the DOM outside of the React ecosystem\n\nTo store and manage dynamic data that changes over time and triggers re-renders\n\nTo share global variables across every component in the application\n\n1 point"
+        },
+        {
+          "index": 3,
+          "question_type": "single_choice",
+          "prompt_text": "What is a key difference between state and props in React components?",
+          "options": [
+            {
+              "text": "Props are mutable and managed within the component, while state is immutable and passed from a parent.",
+              "checked": false
+            },
+            {
+              "text": "State is mutable (can be changed) and managed within the component, while props are immutable (read-only) and passed from a parent.",
+              "checked": false
+            },
+            {
+              "text": "Both state and props can be modified directly by the child component that receives them.",
+              "checked": false
+            },
+            {
+              "text": "State is only used for styling components, while props are used for rendering data.",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "3.\nQuestion 3\n\nWhat is a key difference between state and props in React components?\n\nDo you understand?.\n\nI understand\n\nProps are mutable and managed within the component, while state is immutable and passed from a parent.\n\nState is mutable (can be changed) and managed within the component, while props are immutable (read-only) and passed from a parent.\n\nBoth state and props can be modified directly by the child component that receives them.\n\nState is only used for styling components, while props are used for rendering data.\n\n1 point"
+        },
+        {
+          "index": 4,
+          "question_type": "single_choice",
+          "prompt_text": "Which of the following is used to define a class component in React?",
+          "options": [
+            {
+              "text": "React.StateComponent",
+              "checked": false
+            },
+            {
+              "text": "React.Class",
+              "checked": false
+            },
+            {
+              "text": "React.FunctionComponent",
+              "checked": false
+            },
+            {
+              "text": "React.Component",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "4.\nQuestion 4\n\nWhich of the following is used to define a class component in React?\n\nDo you understand?.\n\nI understand\n\nReact.StateComponent\n\nReact.Class\n\nReact.FunctionComponent\n\nReact.Component\n\n1 point"
+        },
+        {
+          "index": 5,
+          "question_type": "single_choice",
+          "prompt_text": "Which method is used to pass data from a parent component to a child component in React?",
+          "options": [
+            {
+              "text": "Using props",
+              "checked": false
+            },
+            {
+              "text": "Using context APIs",
+              "checked": false
+            },
+            {
+              "text": "Using state",
+              "checked": false
+            },
+            {
+              "text": "Using the component lifecycle methods",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "5.\nQuestion 5\n\nWhich method is used to pass data from a parent component to a child component in React?\n\nDo you understand?.\n\nI understand\n\nUsing props\n\nUsing context APIs\n\nUsing state\n\nUsing the component lifecycle methods\n\n1 point"
+        },
+        {
+          "index": 6,
+          "question_type": "single_choice",
+          "prompt_text": "What are the lifecycle phases of a React component?",
+          "options": [
+            {
+              "text": "Start, Process, End",
+              "checked": false
+            },
+            {
+              "text": "Initialization, Mounting, Updating, Unmounting",
+              "checked": false
+            },
+            {
+              "text": "Creation, Execution, Destruction",
+              "checked": false
+            },
+            {
+              "text": "Initialize, Execute, Terminate",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "6.\nQuestion 6\n\nWhat are the lifecycle phases of a React component?\n\nDo you understand?.\n\nI understand\n\nStart, Process, End\n\nInitialization, Mounting, Updating, Unmounting\n\nCreation, Execution, Destruction\n\nInitialize, Execute, Terminate\n\n1 point"
+        },
+        {
+          "index": 7,
+          "question_type": "single_choice",
+          "prompt_text": "What is the main role of the componentDidMount lifecycle method in React?",
+          "options": [
+            {
+              "text": "To perform operations right after the component is added to the DOM",
+              "checked": false
+            },
+            {
+              "text": "To update the component every time it receives new props",
+              "checked": false
+            },
+            {
+              "text": "To handle cleanup tasks just before the component is unmounted",
+              "checked": false
+            },
+            {
+              "text": "To initialize state before the component mounts",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "7.\nQuestion 7\n\nWhat is the main role of the componentDidMount lifecycle method in React?\n\nDo you understand?.\n\nI understand\n\nTo perform operations right after the component is added to the DOM\n\nTo update the component every time it receives new props\n\nTo handle cleanup tasks just before the component is unmounted\n\nTo initialize state before the component mounts\n\n1 point"
+        },
+        {
+          "index": 8,
+          "question_type": "single_choice",
+          "prompt_text": "What is the purpose of the render method in a React class component?",
+          "options": [
+            {
+              "text": "To define the UI layout that the component will display",
+              "checked": false
+            },
+            {
+              "text": "To handle event listeners within the component",
+              "checked": false
+            },
+            {
+              "text": "To manage the component's internal state",
+              "checked": false
+            },
+            {
+              "text": "To pass data and props to child components",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "8.\nQuestion 8\n\nWhat is the purpose of the render method in a React class component?\n\nDo you understand?.\n\nI understand\n\nTo define the UI layout that the component will display\n\nTo handle event listeners within the component\n\nTo manage the component's internal state\n\nTo pass data and props to child components\n\n1 point"
+        },
+        {
+          "index": 9,
+          "question_type": "single_choice",
+          "prompt_text": "What is a key difference between states and props in React components?",
+          "options": [
+            {
+              "text": "Both states and props are mutable",
+              "checked": false
+            },
+            {
+              "text": "Props are immutable while states are mutable",
+              "checked": false
+            },
+            {
+              "text": "Both states and props are immutable",
+              "checked": false
+            },
+            {
+              "text": "States are immutable while props are mutable",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "9.\nQuestion 9\n\nWhat is a key difference between states and props in React components?\n\nDo you understand?.\n\nI understand\n\nBoth states and props are mutable\n\nProps are immutable while states are mutable\n\nBoth states and props are immutable\n\nStates are immutable while props are mutable\n\n1 point"
+        },
+        {
+          "index": 10,
+          "question_type": "single_choice",
+          "prompt_text": "Which of the following best describes the difference between state and props in a React component?",
+          "options": [
+            {
+              "text": "Both state and props are used to manage dynamic data within a single component",
+              "checked": false
+            },
+            {
+              "text": "State and props are identical in functionality",
+              "checked": false
+            },
+            {
+              "text": "State is used for dynamic data management while props are for passing data to children",
+              "checked": false
+            },
+            {
+              "text": "Props are used for dynamic data management while state is for passing data to children",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "10.\nQuestion 10\n\nWhich of the following best describes the difference between state and props in a React component?\n\nDo you understand?.\n\nI understand\n\nBoth state and props are used to manage dynamic data within a single component\n\nState and props are identical in functionality\n\nState is used for dynamic data management while props are for passing data to children\n\nProps are used for dynamic data management while state is for passing data to children\n\n1 point"
+        }
+      ],
+      "raw_page_text": "N\nDeveloping Front-End Apps with React\nToday's goal • 0/3 items\n\nComplete 3 items today to stay at a good pace!\n\nModule 1\nIntroduction to React and Class Components\nWelcome to the Course\nCourse Introduction\nVideo\n. Duration: 3 minutes\n3 min\nCourse Overview\nReading\n. Duration: 5 minutes\n5 min\nHelpful Tips for Course Completion\nReading\n. Duration: 5 minutes\n5 min\nBuilding Rich Front-End Applications with React and ES6\nYour Path to React: Building on What You Know\nDialogue\n. Duration: 15 minutes\n15 min\nIntroduction to Front-End Frameworks and React\nVideo\n. Duration: 5 minutes\n5 min\nUnderstand React Structure\nVideo\n. Duration: 5 minutes\n5 min\nExpert Viewpoints: Using Front-end JavaScript Frameworks\nVideo\n. Duration: 3 minutes\n3 min\nIntroduction to ES6\nVideo\n. Duration: 6 minutes\n6 min\nIntroduction to JSX\nVideo\n. Duration: 3 minutes\n3 min\nCRA versus Vite Tool\nReading\n. Duration: 5 minutes\n5 min\nLab: Hello World with React\nUngraded App Item\n. Duration: 20 minutes\n20 min\nLesson 1 Summary: Building Rich Front-End Applications with React and ES6\nReading\n. Duration: 1 minute\n1 min\nLesson 1 Practice Quiz: Building Rich Front-End Applications with React and ES6\nPractice Assignment\n. Duration: 30 minutes\n30 min\nIntroduction to Class Components\nIntroduction to Components\nVideo\n. Duration: 3 minutes\n3 min\nWorking with React Class Components: Props and Event Handling\nVideo\n. Duration: 7 minutes\n7 min\nIntroduction to States\nVideo\n. Duration: 4 minutes\n4 min\nClass Component Lifecycle\nVideo\n. Duration: 3 minutes\n3 min\nPassing Data and States between Components\nVideo\n. Duration: 6 minutes\n6 min\nLab: Content Rating Application to Like or Dislike Content\nUngraded App Item\n. Duration: 40 minutes\n40 min\nLesson 2 Summary: Introduction to Class Components\nReading\n. Duration: 1 minute\n1 min\nLesson 2 Practice Quiz: Introduction to Class Components\nPractice Assignment\n. Duration: 30 minutes\n30 min\nModule 1 Cheat Sheet, Glossary, and Graded Quiz\nCheat Sheet: Introduction to React and Class Components\nReading\n. Duration: 10 minutes\n10 min\nGlossary: Introduction to React and Class Components\nReading\n. Duration: 10 minutes\n10 min\nModule 1 Graded Quiz: Introduction to React and Class Components\nGraded AssignmentGrade: 90%\nModule 2\nUnderstanding Function Components with Array and DOM Manipulation\nModule 3\nIn-depth Understanding of Advanced React Functionality\nModule 4\nPractice, Final Project, and Submission and Evaluation\n\nPractice Assignment\n\nLesson 2 Practice Quiz: Introduction to Class Components\nResume assignment\nHelp me practice\nWhat to expect\nDue Nov 29, 11:59 PM +07\nUnlimited attempts\n\nThis is a practice assignment to help you check your understanding. It doesn’t count toward your course grade.\n\nReport an issue\nGo to next item\nBack\nLesson 2 Practice Quiz: Introduction to Class Components\n\nPractice Assignment • 30 min\n\nDueNov 29, 11:59 PM +07\n1.\nQuestion 1\n\nIn React, what distinguishes a class component from a functional component?\n\nDo you understand?.\n\nI understand\n\nClass components can manage state while functional components use hooks\n\nFunctional components are not meant to return JSX\n\nClass components must use useState; functional components do not\n\nFunctional components have lifecycle methods; class components do not\n\n1 point\n2.\nQuestion 2\n\nWhat is the primary use of state in React class components?\n\nDo you understand?.\n\nI understand\n\nTo pass data from a parent component down to child components\n\nTo directly manipulate the DOM outside of the React ecosystem\n\nTo store and manage dynamic data that changes over time and triggers re-renders\n\nTo share global variables across every component in the application\n\n1 point\n3.\nQuestion 3\n\nWhat is a key difference between state and props in React components?\n\nDo you understand?.\n\nI understand\n\nProps are mutable and managed within the component, while state is immutable and passed from a parent.\n\nState is mutable (can be changed) and managed within the component, while props are immutable (read-only) and passed from a parent.\n\nBoth state and props can be modified directly by the child component that receives them.\n\nState is only used for styling components, while props are used for rendering data.\n\n1 point\n4.\nQuestion 4\n\nWhich of the following is used to define a class component in React?\n\nDo you understand?.\n\nI understand\n\nReact.StateComponent\n\nReact.Class\n\nReact.FunctionComponent\n\nReact.Component\n\n1 point\n5.\nQuestion 5\n\nWhich method is used to pass data from a parent component to a child component in React?\n\nDo you understand?.\n\nI understand\n\nUsing props\n\nUsing context APIs\n\nUsing state\n\nUsing the component lifecycle methods\n\n1 point\n6.\nQuestion 6\n\nWhat are the lifecycle phases of a React component?\n\nDo you understand?.\n\nI understand\n\nStart, Process, End\n\nInitialization, Mounting, Updating, Unmounting\n\nCreation, Execution, Destruction\n\nInitialize, Execute, Terminate\n\n1 point\n7.\nQuestion 7\n\nWhat is the main role of the componentDidMount lifecycle method in React?\n\nDo you understand?.\n\nI understand\n\nTo perform operations right after the component is added to the DOM\n\nTo update the component every time it receives new props\n\nTo handle cleanup tasks just before the component is unmounted\n\nTo initialize state before the component mounts\n\n1 point\n8.\nQuestion 8\n\nWhat is the purpose of the render method in a React class component?\n\nDo you understand?.\n\nI understand\n\nTo define the UI layout that the component will display\n\nTo handle event listeners within the component\n\nTo manage the component's internal state\n\nTo pass data and props to child components\n\n1 point\n9.\nQuestion 9\n\nWhat is a key difference between states and props in React components?\n\nDo you understand?.\n\nI understand\n\nBoth states and props are mutable\n\nProps are immutable while states are mutable\n\nBoth states and props are immutable\n\nStates are immutable while props are mutable\n\n1 point\n10.\nQuestion 10\n\nWhich of the following best describes the difference between state and props in a React component?\n\nDo you understand?.\n\nI understand\n\nBoth state and props are used to manage dynamic data within a single component\n\nState and props are identical in functionality\n\nState is used for dynamic data management while props are for passing data to children\n\nProps are used for dynamic data management while state is for passing data to children\n\n1 point\nCoursera Honor Code\n\nBy clicking Submit, you confirm this work is your own. Submitting work created with AI tools may result in course failure or account deactivation according to Coursera Honor Code policy.\n\nI, NGUYEN PHUC, understand and agree.\nYou must select the checkbox in order to submit the assignment\nSubmit\nSave draft\n\nLast saved on Nov 24, 2:25 PM +07\n\nLike\nDislike\nReport an issue"
+    },
+    {
+      "title": "Module 1 Graded Quiz: Introduction to React and Class Components Graded Assignment • Submitted • Grade: 90% • Status: Graded Graded",
+      "page_title": "Module 1 Graded Quiz: Introduction to React and Class Components",
+      "source": "Module 1",
+      "kind": "graded_quiz",
+      "url": "https://www.coursera.org/learn/developing-frontend-apps-with-react/assignment-submission/xkpoS/module-1-graded-quiz-introduction-to-react-and-class-components",
+      "final_url": "https://www.coursera.org/learn/developing-frontend-apps-with-react/assignment-submission/xkpoS/module-1-graded-quiz-introduction-to-react-and-class-components/view-feedback",
+      "status": "opened_via_button",
+      "question_count": 10,
+      "questions": [
+        {
+          "index": 1,
+          "question_type": "single_choice",
+          "prompt_text": "Which of the following describes JSX?",
+          "options": [
+            {
+              "text": "A JavaScript library",
+              "checked": false
+            },
+            {
+              "text": "An error object",
+              "checked": false
+            },
+            {
+              "text": "An add-on for JavaScript",
+              "checked": false
+            },
+            {
+              "text": "JavaScript XML, a syntax extension for JavaScript",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "1.\nQuestion 1\n\nWhich of the following describes JSX?\n\nDo you understand?.\n\nI understand\n\nA JavaScript library\n\nAn error object\n\nAn add-on for JavaScript\n\nJavaScript XML, a syntax extension for JavaScript\n\nNice work\n\nCorrect! JavaScript extends JSX to let you write HTML-like code inside of JavaScript. This code makes it easier for you to describe the structure of UI components.\n\n1 / 1 point"
+        },
+        {
+          "index": 2,
+          "question_type": "single_choice",
+          "prompt_text": "What tool quickly sets up a new React project with current features like fast refresh and current module replacement?",
+          "options": [
+            {
+              "text": "CRA",
+              "checked": false
+            },
+            {
+              "text": "Webpack",
+              "checked": false
+            },
+            {
+              "text": "Babel",
+              "checked": false
+            },
+            {
+              "text": "Vite",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "2.\nQuestion 2\n\nWhat tool quickly sets up a new React project with current features like fast refresh and current module replacement?\n\nDo you understand?.\n\nI understand\n\nCRA\n\nWebpack\n\nBabel\n\nVite\n\nNice work\n\nCorrect! JSX Vite allows you to set up new React apps quickly. It gives you a quick development server with hot module replacement and fast refresh, which makes it simple to make current React apps.\n\n1 / 1 point"
+        },
+        {
+          "index": 3,
+          "question_type": "single_choice",
+          "prompt_text": "Which describes \"one-way binding\" in React?",
+          "options": [
+            {
+              "text": "Data can only flow from parent components to child components.",
+              "checked": true
+            },
+            {
+              "text": "Data can only flow from child components to parent components.",
+              "checked": false
+            },
+            {
+              "text": "Data can flow both ways between components.",
+              "checked": false
+            },
+            {
+              "text": "Data can't flow between components.",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "3.\nQuestion 3\n\nWhich describes \"one-way binding\" in React?\n\nDo you understand?.\n\nI understand\n\nData can only flow from parent components to child components.\n\nData can only flow from child components to parent components.\n\nData can flow both ways between components.\n\nData can't flow between components.\n\nNice work\n\nCorrect! React only allows data to move from parent components to child components. Child components can't change their parent's data sent to them via props, so React's employs unidirectional data flow.\n\n1 / 1 point"
+        },
+        {
+          "index": 4,
+          "question_type": "single_choice",
+          "prompt_text": "What role does a Virtual DOM have in React?",
+          "options": [
+            {
+              "text": "It lets React components directly change the DOM.",
+              "checked": false
+            },
+            {
+              "text": "It replaces the browser's native DOM with a virtual copy.",
+              "checked": false
+            },
+            {
+              "text": "It provides each React component its own DOM.",
+              "checked": false
+            },
+            {
+              "text": "It changes just the parts of the DOM that need updating.",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "4.\nQuestion 4\n\nWhat role does a Virtual DOM have in React?\n\nDo you understand?.\n\nI understand\n\nIt lets React components directly change the DOM.\n\nIt replaces the browser's native DOM with a virtual copy.\n\nIt provides each React component its own DOM.\n\nIt changes just the parts of the DOM that need updating.\n\nNice work\n\nCorrect! The Virtual DOM in React is a small copy of the real DOM stored in memory. When you make changes to the UI, the Virtual DOM compares them to the real DOM and only updates the parts that changed. This makes the re-rendering process faster.\n\n1 / 1 point"
+        },
+        {
+          "index": 5,
+          "question_type": "single_choice",
+          "prompt_text": "How does React send data from one class component to another?",
+          "options": [
+            {
+              "text": "By using global variables",
+              "checked": false
+            },
+            {
+              "text": "By using props",
+              "checked": true
+            },
+            {
+              "text": "By adding data from outside files",
+              "checked": false
+            },
+            {
+              "text": "By using hooks",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "5.\nQuestion 5\n\nHow does React send data from one class component to another?\n\nDo you understand?.\n\nI understand\n\nBy using global variables\n\nBy using props\n\nBy adding data from outside files\n\nBy using hooks\n\nNice work\n\nCorrect! In React, data can be sent from one class component to another using props. With props, parent components can send data to child components, which lets different parts of the program talk to each other.\n\n1 / 1 point"
+        },
+        {
+          "index": 6,
+          "question_type": "single_choice",
+          "prompt_text": "In addition to componentDidMount(), which method does React invoke to mount a class component?",
+          "options": [
+            {
+              "text": "componentDidUpdate()",
+              "checked": false
+            },
+            {
+              "text": "getDerivedStateFromProps()",
+              "checked": true
+            },
+            {
+              "text": "componentWillUnmount()",
+              "checked": false
+            },
+            {
+              "text": "componentWillMount()",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "6.\nQuestion 6\n\nIn addition to componentDidMount(), which method does React invoke to mount a class component?\n\nDo you understand?.\n\nI understand\n\ncomponentDidUpdate()\n\ngetDerivedStateFromProps()\n\ncomponentWillUnmount()\n\ncomponentWillMount()\n\nTry again\n\nIncorrect. Review the Class Components Lifecycle video.\n\n0 / 1 point"
+        },
+        {
+          "index": 7,
+          "question_type": "single_choice",
+          "prompt_text": "Which method does React call when updating props to reflect that update in the component's state?",
+          "options": [
+            {
+              "text": "componentDidUpdate()",
+              "checked": false
+            },
+            {
+              "text": "getSnapshotBeforeUpdate()",
+              "checked": false
+            },
+            {
+              "text": "getDerivedStateFromProps()",
+              "checked": true
+            },
+            {
+              "text": "render()",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "7.\nQuestion 7\n\nWhich method does React call when updating props to reflect that update in the component's state?\n\nDo you understand?.\n\nI understand\n\ncomponentDidUpdate()\n\ngetSnapshotBeforeUpdate()\n\ngetDerivedStateFromProps()\n\nrender()\n\nNice work\n\nCorrect! You use the getDerivedStateFromProps() method if you have updated props and you want to reflect that update in the component's state.\n\n1 / 1 point"
+        },
+        {
+          "index": 8,
+          "question_type": "single_choice",
+          "prompt_text": "What happens in React when you attempt to change a state object directly?",
+          "options": [
+            {
+              "text": "It issues a warning but doesn't change anything in the application.",
+              "checked": false
+            },
+            {
+              "text": "It changes the state and re-renders the component.",
+              "checked": false
+            },
+            {
+              "text": "It doesn't change the state or cause a re-render.",
+              "checked": true
+            },
+            {
+              "text": "Issues an error, and the application stops.",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "8.\nQuestion 8\n\nWhat happens in React when you attempt to change a state object directly?\n\nDo you understand?.\n\nI understand\n\nIt issues a warning but doesn't change anything in the application.\n\nIt changes the state and re-renders the component.\n\nIt doesn't change the state or cause a re-render.\n\nIssues an error, and the application stops.\n\nNice work\n\nCorrect! When you change the state object directly in React, you skip over the systems meant to discover the change in the state.\n\n1 / 1 point"
+        },
+        {
+          "index": 9,
+          "question_type": "single_choice",
+          "prompt_text": "Which type of syntax does React use to update how the UI should behave when data or states change?",
+          "options": [
+            {
+              "text": "Imperative",
+              "checked": false
+            },
+            {
+              "text": "Declarative",
+              "checked": true
+            },
+            {
+              "text": "JSX",
+              "checked": false
+            },
+            {
+              "text": "HTML",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "9.\nQuestion 9\n\nWhich type of syntax does React use to update how the UI should behave when data or states change?\n\nDo you understand?.\n\nI understand\n\nImperative\n\nDeclarative\n\nJSX\n\nHTML\n\nNice work\n\nCorrect! React uses declarative syntax because it lets developers describe the UI state they want, and React updates the DOM to fit that state.\n\n1 / 1 point"
+        },
+        {
+          "index": 10,
+          "question_type": "single_choice",
+          "prompt_text": "Which of the following shows JSX syntax?",
+          "options": [
+            {
+              "text": "const MyComponent = () => {\n\n return (\n\n   <h1>Hello, World!</h1>\n\n   <p>This is a JSX component.</p>\n\n )\n\n};",
+              "checked": false
+            },
+            {
+              "text": "const MyComponent = () => {\n\n <h1>Hello, World!</h1>\n\n <p>This is a JSX component.</p>\n\n};",
+              "checked": false
+            },
+            {
+              "text": "const MyComponent = () => {\n\n return (\n\n   <>\n\n     <h1>Hello, World!</h1>\n\n     <p>This is a JSX component.</p>\n\n   </>\n\n );\n\n}",
+              "checked": true
+            },
+            {
+              "text": "const MyComponent = () => {\n\n <>\n\n   <h1>Hello, World!</h1>\n\n   <p>This is a JSX component.</p>\n\n </>\n\n};",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "10.\nQuestion 10\n\nWhich of the following shows JSX syntax?\n\nDo you understand?.\n\nI understand\n\nconst MyComponent = () => {\n\n return (\n\n   <h1>Hello, World!</h1>\n\n   <p>This is a JSX component.</p>\n\n )\n\n};\n\nconst MyComponent = () => {\n\n <h1>Hello, World!</h1>\n\n <p>This is a JSX component.</p>\n\n};\n\nconst MyComponent = () => {\n\n return (\n\n   <>\n\n     <h1>Hello, World!</h1>\n\n     <p>This is a JSX component.</p>\n\n   </>\n\n );\n\n}\n\nconst MyComponent = () => {\n\n <>\n\n   <h1>Hello, World!</h1>\n\n   <p>This is a JSX component.</p>\n\n </>\n\n};\n\nNice work\n\nCorrect! JSX syntax requires one common parent element. It can be a fragment or a tag. \n\n1 / 1 point"
+        }
+      ],
+      "raw_page_text": "N\nDeveloping Front-End Apps with React\nToday's goal • 0/3 items\n\nComplete 3 items today to stay at a good pace!\n\nModule 1\nIntroduction to React and Class Components\nWelcome to the Course\nCourse Introduction\nVideo\n. Duration: 3 minutes\n3 min\nCourse Overview\nReading\n. Duration: 5 minutes\n5 min\nHelpful Tips for Course Completion\nReading\n. Duration: 5 minutes\n5 min\nBuilding Rich Front-End Applications with React and ES6\nYour Path to React: Building on What You Know\nDialogue\n. Duration: 15 minutes\n15 min\nIntroduction to Front-End Frameworks and React\nVideo\n. Duration: 5 minutes\n5 min\nUnderstand React Structure\nVideo\n. Duration: 5 minutes\n5 min\nExpert Viewpoints: Using Front-end JavaScript Frameworks\nVideo\n. Duration: 3 minutes\n3 min\nIntroduction to ES6\nVideo\n. Duration: 6 minutes\n6 min\nIntroduction to JSX\nVideo\n. Duration: 3 minutes\n3 min\nCRA versus Vite Tool\nReading\n. Duration: 5 minutes\n5 min\nLab: Hello World with React\nUngraded App Item\n. Duration: 20 minutes\n20 min\nLesson 1 Summary: Building Rich Front-End Applications with React and ES6\nReading\n. Duration: 1 minute\n1 min\nLesson 1 Practice Quiz: Building Rich Front-End Applications with React and ES6\nPractice Assignment\n. Duration: 30 minutes\n30 min\nIntroduction to Class Components\nIntroduction to Components\nVideo\n. Duration: 3 minutes\n3 min\nWorking with React Class Components: Props and Event Handling\nVideo\n. Duration: 7 minutes\n7 min\nIntroduction to States\nVideo\n. Duration: 4 minutes\n4 min\nClass Component Lifecycle\nVideo\n. Duration: 3 minutes\n3 min\nPassing Data and States between Components\nVideo\n. Duration: 6 minutes\n6 min\nLab: Content Rating Application to Like or Dislike Content\nUngraded App Item\n. Duration: 40 minutes\n40 min\nLesson 2 Summary: Introduction to Class Components\nReading\n. Duration: 1 minute\n1 min\nLesson 2 Practice Quiz: Introduction to Class Components\nPractice Assignment\n. Duration: 30 minutes\n30 min\nModule 1 Cheat Sheet, Glossary, and Graded Quiz\nCheat Sheet: Introduction to React and Class Components\nReading\n. Duration: 10 minutes\n10 min\nGlossary: Introduction to React and Class Components\nReading\n. Duration: 10 minutes\n10 min\nModule 1 Graded Quiz: Introduction to React and Class Components\nGraded AssignmentGrade: 90%\nModule 2\nUnderstanding Function Components with Array and DOM Manipulation\nModule 3\nIn-depth Understanding of Advanced React Functionality\nModule 4\nPractice, Final Project, and Submission and Evaluation\n\nGraded Assignment\n\nModule 1 Graded Quiz: Introduction to React and Class Components\n\nAssessment monitored for academic integrity and AI-usage. Privacy Notice\n\nGo to next item\nTry again\nWhat to expect\nDue Nov 29, 11:59 PM +07\n3 attempts\n\nevery 8 hours\n\nYou passed!\n\nTo pass you need a grade of at least 70%.\n\n90%\nView feedback\n\nSubmitted Nov 9, 8:28 PM +07.\n\nReport an issue\nGo to next item\nBack\nModule 1 Graded Quiz: Introduction to React and Class Components\n\nGraded Assignment • 30 min\n\nDueNov 29, 11:59 PM +07\nYour grade: 90%\nYour latest: 90%•\nYour highest: 90%•\nTo pass you need at least 70%. We keep your highest score.\nNext item\n1.\nQuestion 1\n\nWhich of the following describes JSX?\n\nDo you understand?.\n\nI understand\n\nA JavaScript library\n\nAn error object\n\nAn add-on for JavaScript\n\nJavaScript XML, a syntax extension for JavaScript\n\nNice work\n\nCorrect! JavaScript extends JSX to let you write HTML-like code inside of JavaScript. This code makes it easier for you to describe the structure of UI components.\n\n1 / 1 point\n2.\nQuestion 2\n\nWhat tool quickly sets up a new React project with current features like fast refresh and current module replacement?\n\nDo you understand?.\n\nI understand\n\nCRA\n\nWebpack\n\nBabel\n\nVite\n\nNice work\n\nCorrect! JSX Vite allows you to set up new React apps quickly. It gives you a quick development server with hot module replacement and fast refresh, which makes it simple to make current React apps.\n\n1 / 1 point\n3.\nQuestion 3\n\nWhich describes \"one-way binding\" in React?\n\nDo you understand?.\n\nI understand\n\nData can only flow from parent components to child components.\n\nData can only flow from child components to parent components.\n\nData can flow both ways between components.\n\nData can't flow between components.\n\nNice work\n\nCorrect! React only allows data to move from parent components to child components. Child components can't change their parent's data sent to them via props, so React's employs unidirectional data flow.\n\n1 / 1 point\n4.\nQuestion 4\n\nWhat role does a Virtual DOM have in React?\n\nDo you understand?.\n\nI understand\n\nIt lets React components directly change the DOM.\n\nIt replaces the browser's native DOM with a virtual copy.\n\nIt provides each React component its own DOM.\n\nIt changes just the parts of the DOM that need updating.\n\nNice work\n\nCorrect! The Virtual DOM in React is a small copy of the real DOM stored in memory. When you make changes to the UI, the Virtual DOM compares them to the real DOM and only updates the parts that changed. This makes the re-rendering process faster.\n\n1 / 1 point\n5.\nQuestion 5\n\nHow does React send data from one class component to another?\n\nDo you understand?.\n\nI understand\n\nBy using global variables\n\nBy using props\n\nBy adding data from outside files\n\nBy using hooks\n\nNice work\n\nCorrect! In React, data can be sent from one class component to another using props. With props, parent components can send data to child components, which lets different parts of the program talk to each other.\n\n1 / 1 point\n6.\nQuestion 6\n\nIn addition to componentDidMount(), which method does React invoke to mount a class component?\n\nDo you understand?.\n\nI understand\n\ncomponentDidUpdate()\n\ngetDerivedStateFromProps()\n\ncomponentWillUnmount()\n\ncomponentWillMount()\n\nTry again\n\nIncorrect. Review the Class Components Lifecycle video.\n\n0 / 1 point\n7.\nQuestion 7\n\nWhich method does React call when updating props to reflect that update in the component's state?\n\nDo you understand?.\n\nI understand\n\ncomponentDidUpdate()\n\ngetSnapshotBeforeUpdate()\n\ngetDerivedStateFromProps()\n\nrender()\n\nNice work\n\nCorrect! You use the getDerivedStateFromProps() method if you have updated props and you want to reflect that update in the component's state.\n\n1 / 1 point\n8.\nQuestion 8\n\nWhat happens in React when you attempt to change a state object directly?\n\nDo you understand?.\n\nI understand\n\nIt issues a warning but doesn't change anything in the application.\n\nIt changes the state and re-renders the component.\n\nIt doesn't change the state or cause a re-render.\n\nIssues an error, and the application stops.\n\nNice work\n\nCorrect! When you change the state object directly in React, you skip over the systems meant to discover the change in the state.\n\n1 / 1 point\n9.\nQuestion 9\n\nWhich type of syntax does React use to update how the UI should behave when data or states change?\n\nDo you understand?.\n\nI understand\n\nImperative\n\nDeclarative\n\nJSX\n\nHTML\n\nNice work\n\nCorrect! React uses declarative syntax because it lets developers describe the UI state they want, and React updates the DOM to fit that state.\n\n1 / 1 point\n10.\nQuestion 10\n\nWhich of the following shows JSX syntax?\n\nDo you understand?.\n\nI understand\n\nconst MyComponent = () => {\n\n return (\n\n   <h1>Hello, World!</h1>\n\n   <p>This is a JSX component.</p>\n\n )\n\n};\n\nconst MyComponent = () => {\n\n <h1>Hello, World!</h1>\n\n <p>This is a JSX component.</p>\n\n};\n\nconst MyComponent = () => {\n\n return (\n\n   <>\n\n     <h1>Hello, World!</h1>\n\n     <p>This is a JSX component.</p>\n\n   </>\n\n );\n\n}\n\nconst MyComponent = () => {\n\n <>\n\n   <h1>Hello, World!</h1>\n\n   <p>This is a JSX component.</p>\n\n </>\n\n};\n\nNice work\n\nCorrect! JSX syntax requires one common parent element. It can be a fragment or a tag. \n\n1 / 1 point"
+    },
+    {
+      "title": "Lesson 1 Practice Quiz: Introduction to Function Components Practice Assignment • 10 min • Grade: --",
+      "page_title": "Lesson 1 Practice Quiz: Introduction to Function Components",
+      "source": "Module 2",
+      "kind": "practice_quiz",
+      "url": "https://www.coursera.org/learn/developing-frontend-apps-with-react/assignment-submission/BVzbK/lesson-1-practice-quiz-introduction-to-function-components",
+      "final_url": "https://www.coursera.org/learn/developing-frontend-apps-with-react/assignment-submission/BVzbK/lesson-1-practice-quiz-introduction-to-function-components/attempt",
+      "status": "opened_via_button:Start assignment",
+      "question_count": 5,
+      "questions": [
+        {
+          "index": 1,
+          "question_type": "single_choice",
+          "prompt_text": "How do props contribute to component composition in building complex UIs?",
+          "options": [
+            {
+              "text": "By allowing unidirectional flow of data",
+              "checked": false
+            },
+            {
+              "text": "By preserving the state of the component",
+              "checked": false
+            },
+            {
+              "text": "By creating variations of the same component",
+              "checked": false
+            },
+            {
+              "text": "By customizing the behavior and appearance of your components",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "1.\nQuestion 1\n\nHow do props contribute to component composition in building complex UIs?\n\nDo you understand?.\n\nI understand\n\nBy allowing unidirectional flow of data\n\nBy preserving the state of the component\n\nBy creating variations of the same component\n\nBy customizing the behavior and appearance of your components\n\n1 point"
+        },
+        {
+          "index": 2,
+          "question_type": "single_choice",
+          "prompt_text": "Which component composition principle focuses on making reusable components that encapsulate UI features?",
+          "options": [
+            {
+              "text": "Reusability",
+              "checked": false
+            },
+            {
+              "text": "Props and children",
+              "checked": false
+            },
+            {
+              "text": "Abstraction",
+              "checked": false
+            },
+            {
+              "text": "Hierarchy",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "2.\nQuestion 2\n\nWhich component composition principle focuses on making reusable components that encapsulate UI features?\n\nDo you understand?.\n\nI understand\n\nReusability\n\nProps and children\n\nAbstraction\n\nHierarchy\n\n1 point"
+        },
+        {
+          "index": 3,
+          "question_type": "single_choice",
+          "prompt_text": "How is the state managed in function components in React?",
+          "options": [
+            {
+              "text": "With stateName",
+              "checked": false
+            },
+            {
+              "text": "With side effects",
+              "checked": false
+            },
+            {
+              "text": "With the onClick event handler",
+              "checked": false
+            },
+            {
+              "text": "With the useState hook",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "3.\nQuestion 3\n\nHow is the state managed in function components in React?\n\nDo you understand?.\n\nI understand\n\nWith stateName\n\nWith side effects\n\nWith the onClick event handler\n\nWith the useState hook\n\n1 point"
+        },
+        {
+          "index": 4,
+          "question_type": "single_choice",
+          "prompt_text": "Which phase of the functional component's lifecycle involves responding to changes in the component's state or props and reinvoking the function body?",
+          "options": [
+            {
+              "text": "Mounting phase",
+              "checked": false
+            },
+            {
+              "text": "Unmounting phase",
+              "checked": false
+            },
+            {
+              "text": "Updating phase",
+              "checked": false
+            },
+            {
+              "text": "Error Handling phase",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "4.\nQuestion 4\n\nWhich phase of the functional component's lifecycle involves responding to changes in the component's state or props and reinvoking the function body?\n\nDo you understand?.\n\nI understand\n\nMounting phase\n\nUnmounting phase\n\nUpdating phase\n\nError Handling phase\n\n1 point"
+        },
+        {
+          "index": 5,
+          "question_type": "multiple_select",
+          "prompt_text": "Which two phases of  functional component's lifecycle are involved in initializing the component and ensuring that errors don't crash the entire application?",
+          "options": [
+            {
+              "text": "Unmounting phase",
+              "checked": false
+            },
+            {
+              "text": "Error-handling phase",
+              "checked": false
+            },
+            {
+              "text": "Mounting phase",
+              "checked": false
+            },
+            {
+              "text": "Updating phase",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "5.\nQuestion 5\n\nWhich two phases of  functional component's lifecycle are involved in initializing the component and ensuring that errors don't crash the entire application?  \n\nDo you understand?.\n\nI understand\n\nUnmounting phase\n\nError-handling phase\n\nMounting phase\n\nUpdating phase\n\n1 point"
+        }
+      ],
+      "raw_page_text": "N\nDeveloping Front-End Apps with React\nToday's goal • 0/3 items\n\nComplete 3 items today to stay at a good pace!\n\nModule 1\nIntroduction to React and Class Components\nModule 2\nUnderstanding Function Components with Array and DOM Manipulation\nIntroduction to Function Components\nWorking with Function Components: Props and Event Handling \nVideo\n. Duration: 6 minutes\n6 min\nComponent Composition\nVideo\n. Duration: 4 minutes\n4 min\nState Management in Function Components \nVideo\n. Duration: 7 minutes\n7 min\nFunction Component Lifecycle \nVideo\n. Duration: 6 minutes\n6 min\nLab: Function Component Event Planner Landing Page\nUngraded App Item\n. Duration: 40 minutes\n40 min\nTesting React Components\nVideo\n. Duration: 7 minutes\n7 min\nLesson 1 Summary: Introduction to Function Components\nReading\n. Duration: 3 minutes\n3 min\nLesson 1 Practice Quiz: Introduction to Function Components\nPractice Assignment\n. Duration: 10 minutes\n10 min\nArray in React and DOM Manipulation\nWorking with Arrays in React Components \nVideo\n. Duration: 7 minutes\n7 min\nVirtual DOM Manipulation in React \nVideo\n. Duration: 7 minutes\n7 min\nStyle in React\nReading\n. Duration: 5 minutes\n5 min\nLab: Todo List Application\nUngraded App Item\n. Duration: 40 minutes\n40 min\nLesson 2 Summary: Array in React and DOM Manipulation\nReading\n. Duration: 3 minutes\n3 min\nLesson 2 Practice Quiz: Array in React and DOM Manipulation\nPractice Assignment\n. Duration: 10 minutes\n10 min\nModule 2 Cheat Sheet, Glossary, and Graded Quiz\nCheatSheet: Understanding Function Components with Array and DOM Manipulation\nReading\n. Duration: 10 minutes\n10 min\nGlossary: Understanding Function Components with Array and DOM Manipulation\nReading\n. Duration: 8 minutes\n8 min\nModule 2 Graded Quiz: Understanding Function Components with Array and DOM Manipulation\nGraded AssignmentGrade: 100%\nModule 3\nIn-depth Understanding of Advanced React Functionality\nModule 4\nPractice, Final Project, and Submission and Evaluation\n\nPractice Assignment\n\nLesson 1 Practice Quiz: Introduction to Function Components\nResume assignment\nHelp me practice\nWhat to expect\nDue Dec 6, 11:59 PM +07\nUnlimited attempts\n\nThis is a practice assignment to help you check your understanding. It doesn’t count toward your course grade.\n\nReport an issue\nGo to next item\nBack\nLesson 1 Practice Quiz: Introduction to Function Components\n\nPractice Assignment • 10 min\n\nDueDec 6, 11:59 PM +07\n1.\nQuestion 1\n\nHow do props contribute to component composition in building complex UIs?\n\nDo you understand?.\n\nI understand\n\nBy allowing unidirectional flow of data\n\nBy preserving the state of the component\n\nBy creating variations of the same component\n\nBy customizing the behavior and appearance of your components\n\n1 point\n2.\nQuestion 2\n\nWhich component composition principle focuses on making reusable components that encapsulate UI features?\n\nDo you understand?.\n\nI understand\n\nReusability\n\nProps and children\n\nAbstraction\n\nHierarchy\n\n1 point\n3.\nQuestion 3\n\nHow is the state managed in function components in React?\n\nDo you understand?.\n\nI understand\n\nWith stateName\n\nWith side effects\n\nWith the onClick event handler\n\nWith the useState hook\n\n1 point\n4.\nQuestion 4\n\nWhich phase of the functional component's lifecycle involves responding to changes in the component's state or props and reinvoking the function body?\n\nDo you understand?.\n\nI understand\n\nMounting phase\n\nUnmounting phase\n\nUpdating phase\n\nError Handling phase\n\n1 point\n5.\nQuestion 5\n\nWhich two phases of  functional component's lifecycle are involved in initializing the component and ensuring that errors don't crash the entire application?  \n\nDo you understand?.\n\nI understand\n\nUnmounting phase\n\nError-handling phase\n\nMounting phase\n\nUpdating phase\n\n1 point\nCoursera Honor Code\n\nBy clicking Submit, you confirm this work is your own. Submitting work created with AI tools may result in course failure or account deactivation according to Coursera Honor Code policy.\n\nI, NGUYEN PHUC, understand and agree.\nYou must select the checkbox in order to submit the assignment\nSubmit\nSave draft\n\nLast saved on Nov 24, 2:25 PM +07\n\nLike\nDislike\nReport an issue"
+    },
+    {
+      "title": "Lesson 2 Practice Quiz: Array in React and DOM Manipulation Practice Assignment • 10 min • Grade: --",
+      "page_title": "Lesson 2 Practice Quiz: Array in React and DOM Manipulation",
+      "source": "Module 2",
+      "kind": "practice_quiz",
+      "url": "https://www.coursera.org/learn/developing-frontend-apps-with-react/assignment-submission/aS2lO/lesson-2-practice-quiz-array-in-react-and-dom-manipulation",
+      "final_url": "https://www.coursera.org/learn/developing-frontend-apps-with-react/assignment-submission/aS2lO/lesson-2-practice-quiz-array-in-react-and-dom-manipulation/attempt",
+      "status": "opened_after_step_1",
+      "question_count": 5,
+      "questions": [
+        {
+          "index": 1,
+          "question_type": "single_choice",
+          "prompt_text": "In JavaScript, what method should you use to add new items to the end of an array?",
+          "options": [
+            {
+              "text": "pop()",
+              "checked": false
+            },
+            {
+              "text": "push()",
+              "checked": false
+            },
+            {
+              "text": "shift()",
+              "checked": false
+            },
+            {
+              "text": "unshift()",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "1.\nQuestion 1\n\nIn JavaScript, what method should you use to add new items to the end of an array?\n\nDo you understand?.\n\nI understand\n\npop()\n\npush()\n\nshift()\n\nunshift()\n\n1 point"
+        },
+        {
+          "index": 2,
+          "question_type": "single_choice",
+          "prompt_text": "How do you access the first element of an array in JavaScript?",
+          "options": [
+            {
+              "text": "arr[1]",
+              "checked": false
+            },
+            {
+              "text": "arr.start()",
+              "checked": false
+            },
+            {
+              "text": "arr[0]",
+              "checked": false
+            },
+            {
+              "text": "arr.first()",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "2.\nQuestion 2\n\nHow do you access the first element of an array in JavaScript?\n\nDo you understand?.\n\nI understand\n\narr[1]\n\narr.start()\n\narr[0]\n\narr.first()\n\n1 point"
+        },
+        {
+          "index": 3,
+          "question_type": "single_choice",
+          "prompt_text": "In React, what method would you commonly use to render lists of elements dynamically?",
+          "options": [
+            {
+              "text": "forEach()",
+              "checked": false
+            },
+            {
+              "text": "reduce()",
+              "checked": false
+            },
+            {
+              "text": "filter()",
+              "checked": false
+            },
+            {
+              "text": "map()",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "3.\nQuestion 3\n\nIn React, what method would you commonly use to render lists of elements dynamically?\n\nDo you understand?.\n\nI understand\n\nforEach()\n\nreduce()\n\nfilter()\n\nmap()\n\n1 point"
+        },
+        {
+          "index": 4,
+          "question_type": "single_choice",
+          "prompt_text": "How does React quickly update the DOM when props or state changes?",
+          "options": [
+            {
+              "text": "By replacing the entire DOM with a new version",
+              "checked": false
+            },
+            {
+              "text": "By delegating DOM manipulation to the browser",
+              "checked": false
+            },
+            {
+              "text": "By using the Virtual DOM to compute the minimal set of changes needed",
+              "checked": false
+            },
+            {
+              "text": "By directly manipulating the DOM elements",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "4.\nQuestion 4\n\nHow does React quickly update the DOM when props or state changes?\n\nDo you understand?.\n\nI understand\n\nBy replacing the entire DOM with a new version\n\nBy delegating DOM manipulation to the browser\n\nBy using the Virtual DOM to compute the minimal set of changes needed\n\nBy directly manipulating the DOM elements\n\n1 point"
+        },
+        {
+          "index": 5,
+          "question_type": "single_choice",
+          "prompt_text": "Which of these is true about React's Virtual DOM?",
+          "options": [
+            {
+              "text": "It represents the actual DOM structure of the web page.",
+              "checked": false
+            },
+            {
+              "text": "It's a lightweight, in-memory representation of the actual DOM.",
+              "checked": false
+            },
+            {
+              "text": "It relies on browser-specific implementations for optimization.",
+              "checked": false
+            },
+            {
+              "text": "It eliminates the need for React components.",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "5.\nQuestion 5\n\nWhich of these is true about React's Virtual DOM?\n\nDo you understand?.\n\nI understand\n\nIt represents the actual DOM structure of the web page.\n\nIt's a lightweight, in-memory representation of the actual DOM.\n\nIt relies on browser-specific implementations for optimization.\n\nIt eliminates the need for React components.\n\n1 point"
+        }
+      ],
+      "raw_page_text": "N\nDeveloping Front-End Apps with React\nToday's goal • 0/3 items\n\nComplete 3 items today to stay at a good pace!\n\nModule 1\nIntroduction to React and Class Components\nModule 2\nUnderstanding Function Components with Array and DOM Manipulation\nIntroduction to Function Components\nWorking with Function Components: Props and Event Handling \nVideo\n. Duration: 6 minutes\n6 min\nComponent Composition\nVideo\n. Duration: 4 minutes\n4 min\nState Management in Function Components \nVideo\n. Duration: 7 minutes\n7 min\nFunction Component Lifecycle \nVideo\n. Duration: 6 minutes\n6 min\nLab: Function Component Event Planner Landing Page\nUngraded App Item\n. Duration: 40 minutes\n40 min\nTesting React Components\nVideo\n. Duration: 7 minutes\n7 min\nLesson 1 Summary: Introduction to Function Components\nReading\n. Duration: 3 minutes\n3 min\nLesson 1 Practice Quiz: Introduction to Function Components\nPractice Assignment\n. Duration: 10 minutes\n10 min\nArray in React and DOM Manipulation\nWorking with Arrays in React Components \nVideo\n. Duration: 7 minutes\n7 min\nVirtual DOM Manipulation in React \nVideo\n. Duration: 7 minutes\n7 min\nStyle in React\nReading\n. Duration: 5 minutes\n5 min\nLab: Todo List Application\nUngraded App Item\n. Duration: 40 minutes\n40 min\nLesson 2 Summary: Array in React and DOM Manipulation\nReading\n. Duration: 3 minutes\n3 min\nLesson 2 Practice Quiz: Array in React and DOM Manipulation\nPractice Assignment\n. Duration: 10 minutes\n10 min\nModule 2 Cheat Sheet, Glossary, and Graded Quiz\nCheatSheet: Understanding Function Components with Array and DOM Manipulation\nReading\n. Duration: 10 minutes\n10 min\nGlossary: Understanding Function Components with Array and DOM Manipulation\nReading\n. Duration: 8 minutes\n8 min\nModule 2 Graded Quiz: Understanding Function Components with Array and DOM Manipulation\nGraded AssignmentGrade: 100%\nModule 3\nIn-depth Understanding of Advanced React Functionality\nModule 4\nPractice, Final Project, and Submission and Evaluation\n\nPractice Assignment\n\nLesson 2 Practice Quiz: Array in React and DOM Manipulation\nResume assignment\nHelp me practice\nWhat to expect\nDue Dec 13, 11:59 PM +07\nUnlimited attempts\n\nThis is a practice assignment to help you check your understanding. It doesn’t count toward your course grade.\n\nReport an issue\nGo to next item\nBack\nLesson 2 Practice Quiz: Array in React and DOM Manipulation\n\nPractice Assignment • 10 min\n\nDueDec 13, 11:59 PM +07\n1.\nQuestion 1\n\nIn JavaScript, what method should you use to add new items to the end of an array?\n\nDo you understand?.\n\nI understand\n\npop()\n\npush()\n\nshift()\n\nunshift()\n\n1 point\n2.\nQuestion 2\n\nHow do you access the first element of an array in JavaScript?\n\nDo you understand?.\n\nI understand\n\narr[1]\n\narr.start()\n\narr[0]\n\narr.first()\n\n1 point\n3.\nQuestion 3\n\nIn React, what method would you commonly use to render lists of elements dynamically?\n\nDo you understand?.\n\nI understand\n\nforEach()\n\nreduce()\n\nfilter()\n\nmap()\n\n1 point\n4.\nQuestion 4\n\nHow does React quickly update the DOM when props or state changes?\n\nDo you understand?.\n\nI understand\n\nBy replacing the entire DOM with a new version\n\nBy delegating DOM manipulation to the browser\n\nBy using the Virtual DOM to compute the minimal set of changes needed\n\nBy directly manipulating the DOM elements\n\n1 point\n5.\nQuestion 5\n\nWhich of these is true about React's Virtual DOM?\n\nDo you understand?.\n\nI understand\n\nIt represents the actual DOM structure of the web page.\n\nIt's a lightweight, in-memory representation of the actual DOM.\n\nIt relies on browser-specific implementations for optimization.\n\nIt eliminates the need for React components.\n\n1 point\nSubmit\nSave draft\n\nLast saved on Nov 24, 2:25 PM +07\n\nLike\nDislike\nReport an issue"
+    },
+    {
+      "title": "Module 2 Graded Quiz: Understanding Function Components with Array and DOM Manipulation Graded Assignment • Submitted • Grade: 100% • Status: Graded Graded",
+      "page_title": "Module 2 Graded Quiz: Understanding Function Components with Array and DOM Manipulation",
+      "source": "Module 2",
+      "kind": "graded_quiz",
+      "url": "https://www.coursera.org/learn/developing-frontend-apps-with-react/assignment-submission/FAaJN/module-2-graded-quiz-understanding-function-components-with-array-and-dom",
+      "final_url": "https://www.coursera.org/learn/developing-frontend-apps-with-react/assignment-submission/FAaJN/module-2-graded-quiz-understanding-function-components-with-array-and-dom/view-feedback",
+      "status": "opened_via_button",
+      "question_count": 10,
+      "questions": [
+        {
+          "index": 1,
+          "question_type": "single_choice",
+          "prompt_text": "Which of the following function component principles helps you identify errors well?",
+          "options": [
+            {
+              "text": "Composition",
+              "checked": false
+            },
+            {
+              "text": "Customization",
+              "checked": false
+            },
+            {
+              "text": "Reusability",
+              "checked": false
+            },
+            {
+              "text": "Unidirectional data flow",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "1.\nQuestion 1\n\nWhich of the following function component principles helps you identify errors well?\n\nDo you understand?.\n\nI understand\n\nComposition\n\nCustomization\n\nReusability\n\nUnidirectional data flow\n\nNice work\n\nCorrect! The unidirectional data flow makes it easy to follow how data gets passed and updated throughout your application, enabling errors to be spotted easily.\n\n1 / 1 point"
+        },
+        {
+          "index": 2,
+          "question_type": "single_choice",
+          "prompt_text": "What purpose does higher-order function component composition serve?",
+          "options": [
+            {
+              "text": "Passing data from a parent component to its child",
+              "checked": false
+            },
+            {
+              "text": "Transferring data between components",
+              "checked": false
+            },
+            {
+              "text": "Adding features without rewriting code",
+              "checked": true
+            },
+            {
+              "text": "Arranging components in a hierarchy",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "2.\nQuestion 2\n\nWhat purpose does higher-order function component composition serve?\n\nDo you understand?.\n\nI understand\n\nPassing data from a parent component to its child\n\nTransferring data between components\n\nAdding features without rewriting code\n\nArranging components in a hierarchy\n\nNice work\n\nCorrect! Higher-order components allow you to add features such as state management or logic without modifying its implementation or duplicating code.\n\n1 / 1 point"
+        },
+        {
+          "index": 3,
+          "question_type": "single_choice",
+          "prompt_text": "How does the hierarchy principle benefit component organization in React?",
+          "options": [
+            {
+              "text": "It allows easy manipulation of component states.",
+              "checked": false
+            },
+            {
+              "text": "It provides modular design using parent-child components.",
+              "checked": true
+            },
+            {
+              "text": "It enables efficient data passing.",
+              "checked": false
+            },
+            {
+              "text": "It enables component manipulation by the virtual DOM.",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "3.\nQuestion 3\n\nHow does the hierarchy principle benefit component organization in React?\n\nDo you understand?.\n\nI understand\n\nIt allows easy manipulation of component states.\n\nIt provides modular design using parent-child components.\n\nIt enables efficient data passing.\n\nIt enables component manipulation by the virtual DOM. \n\nNice work\n\nCorrect! The hierarchy principle allows you to arrange components in a hierarchy with parent and child components. This hierarchical structure also assists with organization and modular design.\n\n1 / 1 point"
+        },
+        {
+          "index": 4,
+          "question_type": "single_choice",
+          "prompt_text": "Which hook function should you use to update the user's name from \"Marie\" to \"Marie Torres\" in React?",
+          "options": [
+            {
+              "text": "useState(\"Marie Torres \")",
+              "checked": false
+            },
+            {
+              "text": "setName(\"Marie Torres \")",
+              "checked": true
+            },
+            {
+              "text": "setButtonClicked(\"Marie Torres \")",
+              "checked": false
+            },
+            {
+              "text": "updateName(\"Marie Torres \")",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "4.\nQuestion 4\n\nWhich hook function should you use to update the user's name from \"Marie\" to \"Marie Torres\" in React?\n\nDo you understand?.\n\nI understand\n\nuseState(\"Marie Torres \")\n\nsetName(\"Marie Torres \")\n\nsetButtonClicked(\"Marie Torres \")\n\nupdateName(\"Marie Torres \")\n\nNice work\n\nCorrect. In React class components, you use the setState function to update state variables. \n\n1 / 1 point"
+        },
+        {
+          "index": 5,
+          "question_type": "single_choice",
+          "prompt_text": "If you allow users to collapse or expand a section for better readability, which approach would provide the best user experience to control screen clutter?",
+          "options": [
+            {
+              "text": "Create a separate component with a toggle button.",
+              "checked": true
+            },
+            {
+              "text": "Use useState for rendering the conditional information.",
+              "checked": false
+            },
+            {
+              "text": "Display the information alongside the other content.",
+              "checked": false
+            },
+            {
+              "text": "Use setName to update the information.",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "5.\nQuestion 5\n\nIf you allow users to collapse or expand a section for better readability, which approach would provide the best user experience to control screen clutter?\n\nDo you understand?.\n\nI understand\n\nCreate a separate component with a toggle button.\n\nUse useState for rendering the conditional information. \n\nDisplay the information alongside the other content.\n\nUse setName to update the information.\n\nNice work\n\nCorrect! Creating a separate component dedicated to the nutritional information with a button to toggle visibility allows users to expand or collapse the section as needed without cluttering the main recipe view. This approach enhances user experience by offering flexibility while maintaining readability and accessibility.\n\n1 / 1 point"
+        },
+        {
+          "index": 6,
+          "question_type": "single_choice",
+          "prompt_text": "Which phase of a functional component's lifecycle does React use to initialize a component and prepare it for rendering on the DOM?",
+          "options": [
+            {
+              "text": "Mounting phase",
+              "checked": true
+            },
+            {
+              "text": "Unmounting phase",
+              "checked": false
+            },
+            {
+              "text": "Updating phase",
+              "checked": false
+            },
+            {
+              "text": "Error-handling phase",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "6.\nQuestion 6\n\nWhich phase of a functional component's lifecycle does React use to initialize a component and prepare it for rendering on the DOM?\n\nDo you understand?.\n\nI understand\n\nMounting phase\n\nUnmounting phase\n\nUpdating phase\n\nError-handling phase\n\nNice work\n\nCorrect! During the mounting phase, React initializes the functional component, preparing it for rendering on the DOM.\n\n1 / 1 point"
+        },
+        {
+          "index": 7,
+          "question_type": "single_choice",
+          "prompt_text": "Examine the following code:\n\nuseEffect(() => {\n\n fetch('https://api.example.com/products')\n\n .then(response => response.json())\n\n .then(data => setProducts(data))\n\n .catch(error => console.error('Error fetching products:', error));\n\n}, [ ]);\n\nWhat purpose does the empty dependency array, [], serve?",
+          "options": [
+            {
+              "text": "It responds to user actions and state modifications.",
+              "checked": false
+            },
+            {
+              "text": "It fetches the product data only once when the component mounts.",
+              "checked": true
+            },
+            {
+              "text": "It declares and initializes state variables within the component.",
+              "checked": false
+            },
+            {
+              "text": "It triggers a re-render of the component whenever the data changes.",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "7.\nQuestion 7\n\nExamine the following code:\n\nuseEffect(() => {\n\n fetch('https://api.example.com/products')\n\n .then(response => response.json())\n\n .then(data => setProducts(data))\n\n .catch(error => console.error('Error fetching products:', error));\n\n}, [ ]);\n\nWhat purpose does the empty dependency array, [], serve?\n\nDo you understand?.\n\nI understand\n\nIt responds to user actions and state modifications.\n\nIt fetches the product data only once when the component mounts.\n\nIt declares and initializes state variables within the component.\n\nIt triggers a re-render of the component whenever the data changes.\n\nNice work\n\nCorrect! useEffect hook with an empty dependency array [] ensures that side effects execute only once after the initial render, optimizing performance and preventing unnecessary re-execution.\n\n1 / 1 point"
+        },
+        {
+          "index": 8,
+          "question_type": "single_choice",
+          "prompt_text": "Which of the following methods directly removes elements from an array by modifying the original array?",
+          "options": [
+            {
+              "text": "filter",
+              "checked": false
+            },
+            {
+              "text": "slice",
+              "checked": false
+            },
+            {
+              "text": "splice",
+              "checked": true
+            },
+            {
+              "text": "map",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "8.\nQuestion 8\n\n Which of the following methods directly removes elements from an array by modifying the original array?  \n\nDo you understand?.\n\nI understand\n\nfilter\n\nslice\n\nsplice\n\nmap\n\nNice work\n\nCorrect.  The splice() method is used to directly remove an element from the array by modifying the original items array in the removeItem function.  \n\n1 / 1 point"
+        },
+        {
+          "index": 9,
+          "question_type": "single_choice",
+          "prompt_text": "Which of the following can you use to provide additional data about an HTML element?",
+          "options": [
+            {
+              "text": "Nodes",
+              "checked": false
+            },
+            {
+              "text": "Attributes",
+              "checked": true
+            },
+            {
+              "text": "Events",
+              "checked": false
+            },
+            {
+              "text": "Props",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "9.\nQuestion 9\n\nWhich of the following can you use to provide additional data about an HTML element?\n\nDo you understand?.\n\nI understand\n\nNodes \n\nAttributes\n\nEvents\n\nProps\n\nNice work\n\nCorrect! Attributes provide additional information about elements. They can specify properties, styles, or behavior.\n\n1 / 1 point"
+        },
+        {
+          "index": 10,
+          "question_type": "single_choice",
+          "prompt_text": "Which key benefit of React's virtual DOM enables efficient updates?",
+          "options": [
+            {
+              "text": "Simple development",
+              "checked": false
+            },
+            {
+              "text": "Cross-platform compatibility",
+              "checked": false
+            },
+            {
+              "text": "Debugging and testing",
+              "checked": false
+            },
+            {
+              "text": "Re-rendering only the updated component",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "10.\nQuestion 10\n\nWhich key benefit of React's virtual DOM enables efficient updates?\n\nDo you understand?.\n\nI understand\n\nSimple development\n\nCross-platform compatibility\n\nDebugging and testing\n\nRe-rendering only the updated component\n\nNice work\n\nCorrect! Because of React’s state management, in conjunction with the virtual DOM, React notifies the actual DOM to only re-render the updated component.\n\n1 / 1 point"
+        }
+      ],
+      "raw_page_text": "N\nDeveloping Front-End Apps with React\nToday's goal • 0/3 items\n\nComplete 3 items today to stay at a good pace!\n\nModule 1\nIntroduction to React and Class Components\nModule 2\nUnderstanding Function Components with Array and DOM Manipulation\nIntroduction to Function Components\nWorking with Function Components: Props and Event Handling \nVideo\n. Duration: 6 minutes\n6 min\nComponent Composition\nVideo\n. Duration: 4 minutes\n4 min\nState Management in Function Components \nVideo\n. Duration: 7 minutes\n7 min\nFunction Component Lifecycle \nVideo\n. Duration: 6 minutes\n6 min\nLab: Function Component Event Planner Landing Page\nUngraded App Item\n. Duration: 40 minutes\n40 min\nTesting React Components\nVideo\n. Duration: 7 minutes\n7 min\nLesson 1 Summary: Introduction to Function Components\nReading\n. Duration: 3 minutes\n3 min\nLesson 1 Practice Quiz: Introduction to Function Components\nPractice Assignment\n. Duration: 10 minutes\n10 min\nArray in React and DOM Manipulation\nWorking with Arrays in React Components \nVideo\n. Duration: 7 minutes\n7 min\nVirtual DOM Manipulation in React \nVideo\n. Duration: 7 minutes\n7 min\nStyle in React\nReading\n. Duration: 5 minutes\n5 min\nLab: Todo List Application\nUngraded App Item\n. Duration: 40 minutes\n40 min\nLesson 2 Summary: Array in React and DOM Manipulation\nReading\n. Duration: 3 minutes\n3 min\nLesson 2 Practice Quiz: Array in React and DOM Manipulation\nPractice Assignment\n. Duration: 10 minutes\n10 min\nModule 2 Cheat Sheet, Glossary, and Graded Quiz\nCheatSheet: Understanding Function Components with Array and DOM Manipulation\nReading\n. Duration: 10 minutes\n10 min\nGlossary: Understanding Function Components with Array and DOM Manipulation\nReading\n. Duration: 8 minutes\n8 min\nModule 2 Graded Quiz: Understanding Function Components with Array and DOM Manipulation\nGraded AssignmentGrade: 100%\nModule 3\nIn-depth Understanding of Advanced React Functionality\nModule 4\nPractice, Final Project, and Submission and Evaluation\n\nGraded Assignment\n\nModule 2 Graded Quiz: Understanding Function Components with Array and DOM Manipulation\n\nAssessment monitored for academic integrity and AI-usage. Privacy Notice\n\nGo to next item\nTry again\nWhat to expect\nDue Dec 13, 11:59 PM +07\n3 attempts\n\nevery 8 hours\n\nYou passed!\n\nTo pass you need a grade of at least 70%.\n\n100%\nView feedback\n\nSubmitted Nov 9, 8:44 PM +07.\n\nReport an issue\nGo to next item\nBack\nModule 2 Graded Quiz: Understanding Function Components with Array and DOM Manipulation\n\nGraded Assignment • 30 min\n\nDueDec 13, 11:59 PM +07\nYour grade: 100%\nYour latest: 100%•\nYour highest: 100%•\nTo pass you need at least 70%. We keep your highest score.\nNext item\n1.\nQuestion 1\n\nWhich of the following function component principles helps you identify errors well?\n\nDo you understand?.\n\nI understand\n\nComposition\n\nCustomization\n\nReusability\n\nUnidirectional data flow\n\nNice work\n\nCorrect! The unidirectional data flow makes it easy to follow how data gets passed and updated throughout your application, enabling errors to be spotted easily.\n\n1 / 1 point\n2.\nQuestion 2\n\nWhat purpose does higher-order function component composition serve?\n\nDo you understand?.\n\nI understand\n\nPassing data from a parent component to its child\n\nTransferring data between components\n\nAdding features without rewriting code\n\nArranging components in a hierarchy\n\nNice work\n\nCorrect! Higher-order components allow you to add features such as state management or logic without modifying its implementation or duplicating code.\n\n1 / 1 point\n3.\nQuestion 3\n\nHow does the hierarchy principle benefit component organization in React?\n\nDo you understand?.\n\nI understand\n\nIt allows easy manipulation of component states.\n\nIt provides modular design using parent-child components.\n\nIt enables efficient data passing.\n\nIt enables component manipulation by the virtual DOM. \n\nNice work\n\nCorrect! The hierarchy principle allows you to arrange components in a hierarchy with parent and child components. This hierarchical structure also assists with organization and modular design.\n\n1 / 1 point\n4.\nQuestion 4\n\nWhich hook function should you use to update the user's name from \"Marie\" to \"Marie Torres\" in React?\n\nDo you understand?.\n\nI understand\n\nuseState(\"Marie Torres \")\n\nsetName(\"Marie Torres \")\n\nsetButtonClicked(\"Marie Torres \")\n\nupdateName(\"Marie Torres \")\n\nNice work\n\nCorrect. In React class components, you use the setState function to update state variables. \n\n1 / 1 point\n5.\nQuestion 5\n\nIf you allow users to collapse or expand a section for better readability, which approach would provide the best user experience to control screen clutter?\n\nDo you understand?.\n\nI understand\n\nCreate a separate component with a toggle button.\n\nUse useState for rendering the conditional information. \n\nDisplay the information alongside the other content.\n\nUse setName to update the information.\n\nNice work\n\nCorrect! Creating a separate component dedicated to the nutritional information with a button to toggle visibility allows users to expand or collapse the section as needed without cluttering the main recipe view. This approach enhances user experience by offering flexibility while maintaining readability and accessibility.\n\n1 / 1 point\n6.\nQuestion 6\n\nWhich phase of a functional component's lifecycle does React use to initialize a component and prepare it for rendering on the DOM?\n\nDo you understand?.\n\nI understand\n\nMounting phase\n\nUnmounting phase\n\nUpdating phase\n\nError-handling phase\n\nNice work\n\nCorrect! During the mounting phase, React initializes the functional component, preparing it for rendering on the DOM.\n\n1 / 1 point\n7.\nQuestion 7\n\nExamine the following code:\n\nuseEffect(() => {\n\n fetch('https://api.example.com/products')\n\n .then(response => response.json())\n\n .then(data => setProducts(data))\n\n .catch(error => console.error('Error fetching products:', error));\n\n}, [ ]);\n\nWhat purpose does the empty dependency array, [], serve?\n\nDo you understand?.\n\nI understand\n\nIt responds to user actions and state modifications.\n\nIt fetches the product data only once when the component mounts.\n\nIt declares and initializes state variables within the component.\n\nIt triggers a re-render of the component whenever the data changes.\n\nNice work\n\nCorrect! useEffect hook with an empty dependency array [] ensures that side effects execute only once after the initial render, optimizing performance and preventing unnecessary re-execution.\n\n1 / 1 point\n8.\nQuestion 8\n\n Which of the following methods directly removes elements from an array by modifying the original array?  \n\nDo you understand?.\n\nI understand\n\nfilter\n\nslice\n\nsplice\n\nmap\n\nNice work\n\nCorrect.  The splice() method is used to directly remove an element from the array by modifying the original items array in the removeItem function.  \n\n1 / 1 point\n9.\nQuestion 9\n\nWhich of the following can you use to provide additional data about an HTML element?\n\nDo you understand?.\n\nI understand\n\nNodes \n\nAttributes\n\nEvents\n\nProps\n\nNice work\n\nCorrect! Attributes provide additional information about elements. They can specify properties, styles, or behavior.\n\n1 / 1 point\n10.\nQuestion 10\n\nWhich key benefit of React's virtual DOM enables efficient updates?\n\nDo you understand?.\n\nI understand\n\nSimple development\n\nCross-platform compatibility\n\nDebugging and testing\n\nRe-rendering only the updated component\n\nNice work\n\nCorrect! Because of React’s state management, in conjunction with the virtual DOM, React notifies the actual DOM to only re-render the updated component.\n\n1 / 1 point"
+    },
+    {
+      "title": "Lesson 1 Practice Quiz: Hooks and Form Management in React Practice Assignment • 10 min • Grade: --",
+      "page_title": "Lesson 1 Practice Quiz: Hooks and Form Management in React",
+      "source": "Module 3",
+      "kind": "practice_quiz",
+      "url": "https://www.coursera.org/learn/developing-frontend-apps-with-react/assignment-submission/dFREk/lesson-1-practice-quiz-hooks-and-form-management-in-react",
+      "final_url": "https://www.coursera.org/learn/developing-frontend-apps-with-react/assignment-submission/dFREk/lesson-1-practice-quiz-hooks-and-form-management-in-react/attempt",
+      "status": "opened_via_button:Start assignment",
+      "question_count": 5,
+      "questions": [
+        {
+          "index": 1,
+          "question_type": "single_choice",
+          "prompt_text": "When using the useEffect hook, what happens if you pass an empty array ([]) as the dependency list?",
+          "options": [
+            {
+              "text": "The effect runs only once, when the component first mounts.",
+              "checked": false
+            },
+            {
+              "text": "The effect runs after every render of the component.",
+              "checked": false
+            },
+            {
+              "text": "The effect runs only when the state changes.",
+              "checked": false
+            },
+            {
+              "text": "The effect does not run at all.",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "1.\nQuestion 1\n\nWhen using the useEffect hook, what happens if you pass an empty array ([]) as the dependency list?  \n\nDo you understand?.\n\nI understand\n\nThe effect runs only once, when the component first mounts.  \n\nThe effect runs after every render of the component.  \n\nThe effect runs only when the state changes.  \n\nThe effect does not run at all.  \n\n1 point"
+        },
+        {
+          "index": 2,
+          "question_type": "single_choice",
+          "prompt_text": "Which hook would you recommend to manage side effects?",
+          "options": [
+            {
+              "text": "useState",
+              "checked": false
+            },
+            {
+              "text": "useContext",
+              "checked": false
+            },
+            {
+              "text": "useReducer",
+              "checked": false
+            },
+            {
+              "text": "useEffect",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "2.\nQuestion 2\n\nWhich hook would you recommend to manage side effects?\n\nDo you understand?.\n\nI understand\n\nuseState\n\nuseContext\n\nuseReducer\n\nuseEffect\n\n1 point"
+        },
+        {
+          "index": 3,
+          "question_type": "single_choice",
+          "prompt_text": "Why would you need to create a custom hook?",
+          "options": [
+            {
+              "text": "To manage dependencies",
+              "checked": false
+            },
+            {
+              "text": "To perform side effects in functional components",
+              "checked": false
+            },
+            {
+              "text": "To share reusable stateful logic across components",
+              "checked": false
+            },
+            {
+              "text": "To manage a functional component's state",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "3.\nQuestion 3\n\nWhy would you need to create a custom hook?\n\nDo you understand?.\n\nI understand\n\nTo manage dependencies\n\nTo perform side effects in functional components\n\nTo share reusable stateful logic across components \n\n To manage a functional component's state\n\n1 point"
+        },
+        {
+          "index": 4,
+          "question_type": "single_choice",
+          "prompt_text": "Which hook would you recommend for making HTTP requests within React functional components?",
+          "options": [
+            {
+              "text": "useContext",
+              "checked": false
+            },
+            {
+              "text": "useState",
+              "checked": false
+            },
+            {
+              "text": "useFetch",
+              "checked": false
+            },
+            {
+              "text": "useEffect",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "4.\nQuestion 4\n\nWhich hook would you recommend for making HTTP requests within React functional components?\n\nDo you understand?.\n\nI understand\n\nuseContext\n\nuseState\n\nuseFetch\n\nuseEffect\n\n1 point"
+        },
+        {
+          "index": 5,
+          "question_type": "single_choice",
+          "prompt_text": "Which of the following is a standard method used to fetch data from an external API?",
+          "options": [
+            {
+              "text": "Fetch API",
+              "checked": false
+            },
+            {
+              "text": "Axios",
+              "checked": false
+            },
+            {
+              "text": "XMLHttpRequest",
+              "checked": false
+            },
+            {
+              "text": "JSON.stringify",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "5.\nQuestion 5\n\nWhich of the following is a standard method used to fetch data from an external API?\n\nDo you understand?.\n\nI understand\n\nFetch API  \n\nAxios \n\n XMLHttpRequest \n\nJSON.stringify  \n\n1 point"
+        }
+      ],
+      "raw_page_text": "N\nDeveloping Front-End Apps with React\nToday's goal • 0/3 items\n\nComplete 3 items today to stay at a good pace!\n\nModule 1\nIntroduction to React and Class Components\nModule 2\nUnderstanding Function Components with Array and DOM Manipulation\nModule 3\nIn-depth Understanding of Advanced React Functionality\nHooks and Form Management in React\nHooks\nVideo\n. Duration: 4 minutes\n4 min\nSide-effects Management and Custom Hook \nVideo\n. Duration: 6 minutes\n6 min\nConnecting React to External Services\nVideo\n. Duration: 5 minutes\n5 min\nLab: Fetch Data Using useFetch \nUngraded App Item\n. Duration: 40 minutes\n40 min\nImplementing Forms\nVideo\n. Duration: 5 minutes\n5 min\nLab: Create Feedback Form for Survey\nUngraded App Item\n. Duration: 40 minutes\n40 min\nLesson 1 Summary: Hooks and Form Management in React\nReading\n. Duration: 2 minutes\n2 min\nLesson 1 Practice Quiz: Hooks and Form Management in React\nPractice Assignment\n. Duration: 10 minutes\n10 min\nApplication State Management with Redux\nIntroduction to Redux\nVideo\n. Duration: 3 minutes\n3 min\nEssential Concepts of Redux\nVideo\n. Duration: 4 minutes\n4 min\nAsync with Redux\nVideo\n. Duration: 5 minutes\n5 min\nBinding Redux and Flow\nVideo\n. Duration: 6 minutes\n6 min\nIntroduction to Redux Toolkit \nVideo\n. Duration: 7 minutes\n7 min\nLab: E-Commerce Data Rendering using Redux Toolkit\nUngraded App Item\n. Duration: 1 hour\n1h\nHooks versus Redux\nReading\n. Duration: 10 minutes\n10 min\nLesson 2 Summary: Application State Management with Redux\nReading\n. Duration: 3 minutes\n3 min\nLesson 2 Practice Quiz: Application State Management with Redux\nPractice Assignment\n. Duration: 10 minutes\n10 min\nModule 3 Cheat Sheet, Glossary, and Graded Quiz\nCheat Sheet: In-depth Understanding of Advanced React Functionality\nReading\n. Duration: 10 minutes\n10 min\nGlossary: In-depth Understanding of Advanced React Functionality\nReading\n. Duration: 8 minutes\n8 min\nModule 3 Graded Quiz: In-depth Understanding of Advanced React Functionality\nGraded AssignmentGrade: 100%\nModule 4\nPractice, Final Project, and Submission and Evaluation\n\nPractice Assignment\n\nLesson 1 Practice Quiz: Hooks and Form Management in React\nResume assignment\nHelp me practice\nWhat to expect\nDue Dec 20, 11:59 PM +07\nUnlimited attempts\n\nThis is a practice assignment to help you check your understanding. It doesn’t count toward your course grade.\n\nReport an issue\nGo to next item\nBack\nLesson 1 Practice Quiz: Hooks and Form Management in React\n\nPractice Assignment • 10 min\n\nDueDec 20, 11:59 PM +07\n1.\nQuestion 1\n\nWhen using the useEffect hook, what happens if you pass an empty array ([]) as the dependency list?  \n\nDo you understand?.\n\nI understand\n\nThe effect runs only once, when the component first mounts.  \n\nThe effect runs after every render of the component.  \n\nThe effect runs only when the state changes.  \n\nThe effect does not run at all.  \n\n1 point\n2.\nQuestion 2\n\nWhich hook would you recommend to manage side effects?\n\nDo you understand?.\n\nI understand\n\nuseState\n\nuseContext\n\nuseReducer\n\nuseEffect\n\n1 point\n3.\nQuestion 3\n\nWhy would you need to create a custom hook?\n\nDo you understand?.\n\nI understand\n\nTo manage dependencies\n\nTo perform side effects in functional components\n\nTo share reusable stateful logic across components \n\n To manage a functional component's state\n\n1 point\n4.\nQuestion 4\n\nWhich hook would you recommend for making HTTP requests within React functional components?\n\nDo you understand?.\n\nI understand\n\nuseContext\n\nuseState\n\nuseFetch\n\nuseEffect\n\n1 point\n5.\nQuestion 5\n\nWhich of the following is a standard method used to fetch data from an external API?\n\nDo you understand?.\n\nI understand\n\nFetch API  \n\nAxios \n\n XMLHttpRequest \n\nJSON.stringify  \n\n1 point\nCoursera Honor Code\n\nBy clicking Submit, you confirm this work is your own. Submitting work created with AI tools may result in course failure or account deactivation according to Coursera Honor Code policy.\n\nI, NGUYEN PHUC, understand and agree.\nYou must select the checkbox in order to submit the assignment\nSubmit\nSave draft\n\nLast saved on Nov 24, 2:26 PM +07\n\nLike\nDislike\nReport an issue"
+    },
+    {
+      "title": "Lesson 2 Practice Quiz: Application State Management with Redux Practice Assignment • 10 min • Grade: --",
+      "page_title": "Lesson 2 Practice Quiz: Application State Management with Redux",
+      "source": "Module 3",
+      "kind": "practice_quiz",
+      "url": "https://www.coursera.org/learn/developing-frontend-apps-with-react/assignment-submission/llPQ2/lesson-2-practice-quiz-application-state-management-with-redux",
+      "final_url": "https://www.coursera.org/learn/developing-frontend-apps-with-react/assignment-submission/llPQ2/lesson-2-practice-quiz-application-state-management-with-redux/attempt",
+      "status": "opened_via_button:Start assignment",
+      "question_count": 5,
+      "questions": [
+        {
+          "index": 1,
+          "question_type": "single_choice",
+          "prompt_text": "What is Redux primarily used for in React applications?",
+          "options": [
+            {
+              "text": "Managing application state",
+              "checked": false
+            },
+            {
+              "text": "Debugging React components",
+              "checked": false
+            },
+            {
+              "text": "Optimizing rendering performance",
+              "checked": false
+            },
+            {
+              "text": "Handling form submissions",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "1.\nQuestion 1\n\nWhat is Redux primarily used for in React applications?\n\nDo you understand?.\n\nI understand\n\nManaging application state\n\nDebugging React components\n\nOptimizing rendering performance\n\nHandling form submissions\n\n1 point"
+        },
+        {
+          "index": 2,
+          "question_type": "single_choice",
+          "prompt_text": "What is a benefit of using Redux in application development?",
+          "options": [
+            {
+              "text": "Redux simplifies DOM management.",
+              "checked": false
+            },
+            {
+              "text": "Redux makes state prediction easier.",
+              "checked": false
+            },
+            {
+              "text": "Redux automates testing and debugging.",
+              "checked": false
+            },
+            {
+              "text": "Redux optimizes data flow in your application.",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "2.\nQuestion 2\n\nWhat is a benefit of using Redux in application development?\n\nDo you understand?.\n\nI understand\n\nRedux simplifies DOM management.\n\nRedux makes state prediction easier.\n\nRedux automates testing and debugging.\n\nRedux optimizes data flow in your application.\n\n1 point"
+        },
+        {
+          "index": 3,
+          "question_type": "single_choice",
+          "prompt_text": "What architectural elements does Redux primarily use to manage an application's states?",
+          "options": [
+            {
+              "text": "Components, state, and effects",
+              "checked": false
+            },
+            {
+              "text": "Actions, the store, and reducers",
+              "checked": false
+            },
+            {
+              "text": "DOM, views, and actions",
+              "checked": false
+            },
+            {
+              "text": "States, dispatchers, and middleware",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "3.\nQuestion 3\n\nWhat architectural elements does Redux primarily use to manage an application's states?\n\nDo you understand?.\n\nI understand\n\nComponents, state, and effects\n\nActions, the store, and reducers\n\nDOM, views, and actions\n\nStates, dispatchers, and middleware\n\n1 point"
+        },
+        {
+          "index": 4,
+          "question_type": "single_choice",
+          "prompt_text": "Which of the following accurately describes the role of reducers in Redux?",
+          "options": [
+            {
+              "text": "Dispatching actions to the Redux store",
+              "checked": false
+            },
+            {
+              "text": "Receiving the current state and an action object and returning a new state after performing the actions",
+              "checked": false
+            },
+            {
+              "text": "Handling UI updates directly in Redux applications",
+              "checked": false
+            },
+            {
+              "text": "Performing asynchronous operations in Redux applications",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "4.\nQuestion 4\n\nWhich of the following accurately describes the role of reducers in Redux?\n\nDo you understand?.\n\nI understand\n\nDispatching actions to the Redux store\n\nReceiving the current state and an action object and returning a new state after performing the actions\n\nHandling UI updates directly in Redux applications\n\nPerforming asynchronous operations in Redux applications\n\n1 point"
+        },
+        {
+          "index": 5,
+          "question_type": "single_choice",
+          "prompt_text": "Which two main types of middleware commonly handle asynchronous operations in Redux?",
+          "options": [
+            {
+              "text": "REST and Async/Await",
+              "checked": false
+            },
+            {
+              "text": "Fetch and Timer",
+              "checked": false
+            },
+            {
+              "text": "Thunk and Saga",
+              "checked": false
+            },
+            {
+              "text": "Logger and Auth",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "5.\nQuestion 5\n\nWhich two main types of middleware commonly handle asynchronous operations in Redux?\n\nDo you understand?.\n\nI understand\n\nREST and Async/Await\n\nFetch and Timer\n\nThunk and Saga\n\nLogger and Auth\n\n1 point"
+        }
+      ],
+      "raw_page_text": "N\nDeveloping Front-End Apps with React\nToday's goal • 0/3 items\n\nComplete 3 items today to stay at a good pace!\n\nModule 1\nIntroduction to React and Class Components\nModule 2\nUnderstanding Function Components with Array and DOM Manipulation\nModule 3\nIn-depth Understanding of Advanced React Functionality\nHooks and Form Management in React\nHooks\nVideo\n. Duration: 4 minutes\n4 min\nSide-effects Management and Custom Hook \nVideo\n. Duration: 6 minutes\n6 min\nConnecting React to External Services\nVideo\n. Duration: 5 minutes\n5 min\nLab: Fetch Data Using useFetch \nUngraded App Item\n. Duration: 40 minutes\n40 min\nImplementing Forms\nVideo\n. Duration: 5 minutes\n5 min\nLab: Create Feedback Form for Survey\nUngraded App Item\n. Duration: 40 minutes\n40 min\nLesson 1 Summary: Hooks and Form Management in React\nReading\n. Duration: 2 minutes\n2 min\nLesson 1 Practice Quiz: Hooks and Form Management in React\nPractice Assignment\n. Duration: 10 minutes\n10 min\nApplication State Management with Redux\nIntroduction to Redux\nVideo\n. Duration: 3 minutes\n3 min\nEssential Concepts of Redux\nVideo\n. Duration: 4 minutes\n4 min\nAsync with Redux\nVideo\n. Duration: 5 minutes\n5 min\nBinding Redux and Flow\nVideo\n. Duration: 6 minutes\n6 min\nIntroduction to Redux Toolkit \nVideo\n. Duration: 7 minutes\n7 min\nLab: E-Commerce Data Rendering using Redux Toolkit\nUngraded App Item\n. Duration: 1 hour\n1h\nHooks versus Redux\nReading\n. Duration: 10 minutes\n10 min\nLesson 2 Summary: Application State Management with Redux\nReading\n. Duration: 3 minutes\n3 min\nLesson 2 Practice Quiz: Application State Management with Redux\nPractice Assignment\n. Duration: 10 minutes\n10 min\nModule 3 Cheat Sheet, Glossary, and Graded Quiz\nCheat Sheet: In-depth Understanding of Advanced React Functionality\nReading\n. Duration: 10 minutes\n10 min\nGlossary: In-depth Understanding of Advanced React Functionality\nReading\n. Duration: 8 minutes\n8 min\nModule 3 Graded Quiz: In-depth Understanding of Advanced React Functionality\nGraded AssignmentGrade: 100%\nModule 4\nPractice, Final Project, and Submission and Evaluation\n\nPractice Assignment\n\nLesson 2 Practice Quiz: Application State Management with Redux\nResume assignment\nHelp me practice\nWhat to expect\nDue Dec 27, 11:59 PM +07\nUnlimited attempts\n\nThis is a practice assignment to help you check your understanding. It doesn’t count toward your course grade.\n\nReport an issue\nGo to next item\nBack\nLesson 2 Practice Quiz: Application State Management with Redux\n\nPractice Assignment • 10 min\n\nDueDec 27, 11:59 PM +07\n1.\nQuestion 1\n\nWhat is Redux primarily used for in React applications?\n\nDo you understand?.\n\nI understand\n\nManaging application state\n\nDebugging React components\n\nOptimizing rendering performance\n\nHandling form submissions\n\n1 point\n2.\nQuestion 2\n\nWhat is a benefit of using Redux in application development?\n\nDo you understand?.\n\nI understand\n\nRedux simplifies DOM management.\n\nRedux makes state prediction easier.\n\nRedux automates testing and debugging.\n\nRedux optimizes data flow in your application.\n\n1 point\n3.\nQuestion 3\n\nWhat architectural elements does Redux primarily use to manage an application's states?\n\nDo you understand?.\n\nI understand\n\nComponents, state, and effects\n\nActions, the store, and reducers\n\nDOM, views, and actions\n\nStates, dispatchers, and middleware\n\n1 point\n4.\nQuestion 4\n\nWhich of the following accurately describes the role of reducers in Redux?\n\nDo you understand?.\n\nI understand\n\nDispatching actions to the Redux store\n\nReceiving the current state and an action object and returning a new state after performing the actions\n\nHandling UI updates directly in Redux applications\n\nPerforming asynchronous operations in Redux applications\n\n1 point\n5.\nQuestion 5\n\nWhich two main types of middleware commonly handle asynchronous operations in Redux?\n\nDo you understand?.\n\nI understand\n\nREST and Async/Await\n\nFetch and Timer\n\nThunk and Saga\n\nLogger and Auth\n\n1 point\nCoursera Honor Code\n\nBy clicking Submit, you confirm this work is your own. Submitting work created with AI tools may result in course failure or account deactivation according to Coursera Honor Code policy.\n\nI, NGUYEN PHUC, understand and agree.\nYou must select the checkbox in order to submit the assignment\nSubmit\nSave draft\n\nLast saved on Nov 24, 2:26 PM +07\n\nLike\nDislike\nReport an issue"
+    },
+    {
+      "title": "Module 3 Graded Quiz: In-depth Understanding of Advanced React Functionality Graded Assignment • Submitted • Grade: 100% • Status: Graded Graded",
+      "page_title": "Module 3 Graded Quiz: In-depth Understanding of Advanced React Functionality",
+      "source": "Module 3",
+      "kind": "graded_quiz",
+      "url": "https://www.coursera.org/learn/developing-frontend-apps-with-react/assignment-submission/wAe31/module-3-graded-quiz-in-depth-understanding-of-advanced-react-functionality",
+      "final_url": "https://www.coursera.org/learn/developing-frontend-apps-with-react/assignment-submission/wAe31/module-3-graded-quiz-in-depth-understanding-of-advanced-react-functionality/view-feedback",
+      "status": "opened_via_button",
+      "question_count": 10,
+      "questions": [
+        {
+          "index": 1,
+          "question_type": "single_choice",
+          "prompt_text": "What hook can you use to manage a form's state in React?",
+          "options": [
+            {
+              "text": "useState",
+              "checked": true
+            },
+            {
+              "text": "useContext",
+              "checked": false
+            },
+            {
+              "text": "useForm",
+              "checked": false
+            },
+            {
+              "text": "useEffect",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "1.\nQuestion 1\n\nWhat hook can you use to manage a form's state in React?\n\nDo you understand?.\n\nI understand\n\nuseState\n\nuseContext\n\nuseForm\n\nuseEffect\n\nNice work\n\nCorrect! In React, you can use the useState to handle a form's state.\n\n1 / 1 point"
+        },
+        {
+          "index": 2,
+          "question_type": "single_choice",
+          "prompt_text": "Which hook should you use to handle asynchronous logic in functional components?",
+          "options": [
+            {
+              "text": "useEffect",
+              "checked": true
+            },
+            {
+              "text": "useState",
+              "checked": false
+            },
+            {
+              "text": "useAsync",
+              "checked": false
+            },
+            {
+              "text": "useCallback",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "2.\nQuestion 2\n\nWhich hook should you use to handle asynchronous logic in functional components?\n\nDo you understand?.\n\nI understand\n\nuseEffect\n\nuseState\n\nuseAsync\n\nuseCallback\n\nNice work\n\nCorrect! While the useEffect hook itself is not specifically designed for handling asynchronous code, you can use it to create side effects functionalities such as data fetching, which often involves asynchronous operations.\n\n1 / 1 point"
+        },
+        {
+          "index": 3,
+          "question_type": "single_choice",
+          "prompt_text": "How can you trigger an effect to run only once after the initial render in a functional component?",
+          "options": [
+            {
+              "text": "With the useEffect hook and an empty dependency array",
+              "checked": true
+            },
+            {
+              "text": "With the useEffect hook and no dependencies",
+              "checked": false
+            },
+            {
+              "text": "With the useEffect hook and a non-empty dependency array",
+              "checked": false
+            },
+            {
+              "text": "With the useState hook to track the component's initial render",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "3.\nQuestion 3\n\nHow can you trigger an effect to run only once after the initial render in a functional component?\n\nDo you understand?.\n\nI understand\n\nWith the useEffect hook and an empty dependency array\n\nWith the useEffect hook and no dependencies\n\nWith the useEffect hook and a non-empty dependency array\n\nWith the useState hook to track the component's initial render\n\nNice work\n\nCorrect! By providing an empty dependency array to the useEffect hook, you ensure that the effect runs only once after the initial render of the component.\n\n1 / 1 point"
+        },
+        {
+          "index": 4,
+          "question_type": "single_choice",
+          "prompt_text": "How can you handle form submission in React?",
+          "options": [
+            {
+              "text": "With the onSubmit event",
+              "checked": true
+            },
+            {
+              "text": "With the onKeyDown event handler",
+              "checked": false
+            },
+            {
+              "text": "With the onChange event handler",
+              "checked": false
+            },
+            {
+              "text": "With the onClick event",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "4.\nQuestion 4\n\nHow can you handle form submission in React?\n\nDo you understand?.\n\nI understand\n\nWith the onSubmit event\n\nWith the onKeyDown event handler\n\nWith the onChange event handler\n\nWith the onClick event\n\nNice work\n\nCorrect! You can use the onSubmit event to handle an event whenever the user submits the form.\n\n1 / 1 point"
+        },
+        {
+          "index": 5,
+          "question_type": "single_choice",
+          "prompt_text": "How can you handle user input in a controlled component in React?",
+          "options": [
+            {
+              "text": "With controlled data",
+              "checked": false
+            },
+            {
+              "text": "By directly modifying the DOM elements",
+              "checked": false
+            },
+            {
+              "text": "With the onChange event handler to update the state",
+              "checked": true
+            },
+            {
+              "text": "By relying on the default behavior of form elements",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "5.\nQuestion 5\n\nHow can you handle user input in a controlled component in React?\n\nDo you understand?.\n\nI understand\n\nWith controlled data\n\nBy directly modifying the DOM elements\n\nWith the onChange event handler to update the state\n\nBy relying on the default behavior of form elements\n\nNice work\n\nCorrect! onChange event handler is used to capture changes to form elements. This event handler is used to update the component's state, ensuring that the input value is controlled by React state.\n\n1 / 1 point"
+        },
+        {
+          "index": 6,
+          "question_type": "single_choice",
+          "prompt_text": "What is an advantage of using Redux Thunk middleware?",
+          "options": [
+            {
+              "text": "Thunk enables async operations without boilerplate code.",
+              "checked": true
+            },
+            {
+              "text": "Thunk works well with complex applications.",
+              "checked": false
+            },
+            {
+              "text": "Thunk scales well.",
+              "checked": false
+            },
+            {
+              "text": "Thunk handles concurrency problems efficiently.",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "6.\nQuestion 6\n\nWhat is an advantage of using Redux Thunk middleware?\n\nDo you understand?.\n\nI understand\n\nThunk enables async operations without boilerplate code.\n\nThunk works well with complex applications.\n\nThunk scales well.\n\nThunk handles concurrency problems efficiently.\n\nNice work\n\nCorrect! Redux Thunk middleware enables asynchronous operations without requiring excessive boilerplate code.\n\n1 / 1 point"
+        },
+        {
+          "index": 7,
+          "question_type": "single_choice",
+          "prompt_text": "What is Redux Toolkit primarily used for?",
+          "options": [
+            {
+              "text": "Creating complex UI components",
+              "checked": false
+            },
+            {
+              "text": "Managing HTTP requests and responses",
+              "checked": false
+            },
+            {
+              "text": "Reducing boilerplate code",
+              "checked": true
+            },
+            {
+              "text": "Implementing authentication and authorization",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "7.\nQuestion 7\n\nWhat is Redux Toolkit primarily used for?\n\nDo you understand?.\n\nI understand\n\nCreating complex UI components\n\nManaging HTTP requests and responses\n\nReducing boilerplate code\n\nImplementing authentication and authorization\n\nNice work\n\nCorrect! The Redux Toolkit provides utilities to streamline common Redux tasks, minimizing the amount of boilerplate code.\n\n1 / 1 point"
+        },
+        {
+          "index": 8,
+          "question_type": "single_choice",
+          "prompt_text": "Which function from the Redux Toolkit consolidates Redux setup logic into a single function call?",
+          "options": [
+            {
+              "text": "configureStore()",
+              "checked": true
+            },
+            {
+              "text": "createSlice()",
+              "checked": false
+            },
+            {
+              "text": "createStore()",
+              "checked": false
+            },
+            {
+              "text": "createReducer()",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "8.\nQuestion 8\n\nWhich function from the Redux Toolkit consolidates Redux setup logic into a single function call?\n\nDo you understand?.\n\nI understand\n\nconfigureStore()\n\ncreateSlice()\n\ncreateStore()\n\ncreateReducer()\n\nNice work\n\nCorrect! The configureStore() function consolidates Redux setup logic, such as setting up middleware and enabling the Redux DevTools Extension into a single function call.\n\n1 / 1 point"
+        },
+        {
+          "index": 9,
+          "question_type": "single_choice",
+          "prompt_text": "What is the purpose of a Redux slice?",
+          "options": [
+            {
+              "text": "To divide the application states into several parts and manage their updates",
+              "checked": true
+            },
+            {
+              "text": "To manage HTTP requests and responses",
+              "checked": false
+            },
+            {
+              "text": "To handle asynchronous operations",
+              "checked": false
+            },
+            {
+              "text": "To create reusable UI components",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "9.\nQuestion 9\n\nWhat is the purpose of a Redux slice?\n\nDo you understand?.\n\nI understand\n\nTo divide the application states into several parts and manage their updates\n\nTo manage HTTP requests and responses\n\nTo handle asynchronous operations\n\nTo create reusable UI components\n\nNice work\n\nCorrect! A Redux slice divides the application states into individual parts and manages the logic to update them. It typically consists of a reducer function, action creators, and an initial state.\n\n1 / 1 point"
+        },
+        {
+          "index": 10,
+          "question_type": "single_choice",
+          "prompt_text": "Which middleware is commonly used with Redux to handle asynchronous actions and side effects?",
+          "options": [
+            {
+              "text": "Redux Logger",
+              "checked": false
+            },
+            {
+              "text": "Redux Saga",
+              "checked": false
+            },
+            {
+              "text": "Redux Thunk",
+              "checked": true
+            },
+            {
+              "text": "Redux DevTools Extension",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "10.\nQuestion 10\n\nWhich middleware is commonly used with Redux to handle asynchronous actions and side effects?\n\nDo you understand?.\n\nI understand\n\nRedux Logger\n\nRedux Saga\n\nRedux Thunk\n\nRedux DevTools Extension\n\nNice work\n\nCorrect! Thunk is middleware commonly used with Redux to handle asynchronous actions and side effects. It allows action creators to return functions, enabling asynchronous behavior in Redux applications.\n\n1 / 1 point"
+        }
+      ],
+      "raw_page_text": "N\nDeveloping Front-End Apps with React\nToday's goal • 0/3 items\n\nComplete 3 items today to stay at a good pace!\n\nModule 1\nIntroduction to React and Class Components\nModule 2\nUnderstanding Function Components with Array and DOM Manipulation\nModule 3\nIn-depth Understanding of Advanced React Functionality\nHooks and Form Management in React\nHooks\nVideo\n. Duration: 4 minutes\n4 min\nSide-effects Management and Custom Hook \nVideo\n. Duration: 6 minutes\n6 min\nConnecting React to External Services\nVideo\n. Duration: 5 minutes\n5 min\nLab: Fetch Data Using useFetch \nUngraded App Item\n. Duration: 40 minutes\n40 min\nImplementing Forms\nVideo\n. Duration: 5 minutes\n5 min\nLab: Create Feedback Form for Survey\nUngraded App Item\n. Duration: 40 minutes\n40 min\nLesson 1 Summary: Hooks and Form Management in React\nReading\n. Duration: 2 minutes\n2 min\nLesson 1 Practice Quiz: Hooks and Form Management in React\nPractice Assignment\n. Duration: 10 minutes\n10 min\nApplication State Management with Redux\nIntroduction to Redux\nVideo\n. Duration: 3 minutes\n3 min\nEssential Concepts of Redux\nVideo\n. Duration: 4 minutes\n4 min\nAsync with Redux\nVideo\n. Duration: 5 minutes\n5 min\nBinding Redux and Flow\nVideo\n. Duration: 6 minutes\n6 min\nIntroduction to Redux Toolkit \nVideo\n. Duration: 7 minutes\n7 min\nLab: E-Commerce Data Rendering using Redux Toolkit\nUngraded App Item\n. Duration: 1 hour\n1h\nHooks versus Redux\nReading\n. Duration: 10 minutes\n10 min\nLesson 2 Summary: Application State Management with Redux\nReading\n. Duration: 3 minutes\n3 min\nLesson 2 Practice Quiz: Application State Management with Redux\nPractice Assignment\n. Duration: 10 minutes\n10 min\nModule 3 Cheat Sheet, Glossary, and Graded Quiz\nCheat Sheet: In-depth Understanding of Advanced React Functionality\nReading\n. Duration: 10 minutes\n10 min\nGlossary: In-depth Understanding of Advanced React Functionality\nReading\n. Duration: 8 minutes\n8 min\nModule 3 Graded Quiz: In-depth Understanding of Advanced React Functionality\nGraded AssignmentGrade: 100%\nModule 4\nPractice, Final Project, and Submission and Evaluation\n\nGraded Assignment\n\nModule 3 Graded Quiz: In-depth Understanding of Advanced React Functionality\n\nAssessment monitored for academic integrity and AI-usage. Privacy Notice\n\nGo to next item\nTry again\nWhat to expect\nDue Jan 3, 11:59 PM +07\n3 attempts\n\nevery 8 hours\n\nYou passed!\n\nTo pass you need a grade of at least 70%.\n\n100%\nView feedback\n\nSubmitted Nov 9, 8:55 PM +07.\n\nReport an issue\nGo to next item\nBack\nModule 3 Graded Quiz: In-depth Understanding of Advanced React Functionality\n\nGraded Assignment • 30 min\n\nDueJan 3, 11:59 PM +07\nYour grade: 100%\nYour latest: 100%•\nYour highest: 100%•\nTo pass you need at least 70%. We keep your highest score.\nNext item\n1.\nQuestion 1\n\nWhat hook can you use to manage a form's state in React?\n\nDo you understand?.\n\nI understand\n\nuseState\n\nuseContext\n\nuseForm\n\nuseEffect\n\nNice work\n\nCorrect! In React, you can use the useState to handle a form's state.\n\n1 / 1 point\n2.\nQuestion 2\n\nWhich hook should you use to handle asynchronous logic in functional components?\n\nDo you understand?.\n\nI understand\n\nuseEffect\n\nuseState\n\nuseAsync\n\nuseCallback\n\nNice work\n\nCorrect! While the useEffect hook itself is not specifically designed for handling asynchronous code, you can use it to create side effects functionalities such as data fetching, which often involves asynchronous operations.\n\n1 / 1 point\n3.\nQuestion 3\n\nHow can you trigger an effect to run only once after the initial render in a functional component?\n\nDo you understand?.\n\nI understand\n\nWith the useEffect hook and an empty dependency array\n\nWith the useEffect hook and no dependencies\n\nWith the useEffect hook and a non-empty dependency array\n\nWith the useState hook to track the component's initial render\n\nNice work\n\nCorrect! By providing an empty dependency array to the useEffect hook, you ensure that the effect runs only once after the initial render of the component.\n\n1 / 1 point\n4.\nQuestion 4\n\nHow can you handle form submission in React?\n\nDo you understand?.\n\nI understand\n\nWith the onSubmit event\n\nWith the onKeyDown event handler\n\nWith the onChange event handler\n\nWith the onClick event\n\nNice work\n\nCorrect! You can use the onSubmit event to handle an event whenever the user submits the form.\n\n1 / 1 point\n5.\nQuestion 5\n\nHow can you handle user input in a controlled component in React?\n\nDo you understand?.\n\nI understand\n\nWith controlled data\n\nBy directly modifying the DOM elements\n\nWith the onChange event handler to update the state\n\nBy relying on the default behavior of form elements\n\nNice work\n\nCorrect! onChange event handler is used to capture changes to form elements. This event handler is used to update the component's state, ensuring that the input value is controlled by React state.\n\n1 / 1 point\n6.\nQuestion 6\n\nWhat is an advantage of using Redux Thunk middleware?\n\nDo you understand?.\n\nI understand\n\nThunk enables async operations without boilerplate code.\n\nThunk works well with complex applications.\n\nThunk scales well.\n\nThunk handles concurrency problems efficiently.\n\nNice work\n\nCorrect! Redux Thunk middleware enables asynchronous operations without requiring excessive boilerplate code.\n\n1 / 1 point\n7.\nQuestion 7\n\nWhat is Redux Toolkit primarily used for?\n\nDo you understand?.\n\nI understand\n\nCreating complex UI components\n\nManaging HTTP requests and responses\n\nReducing boilerplate code\n\nImplementing authentication and authorization\n\nNice work\n\nCorrect! The Redux Toolkit provides utilities to streamline common Redux tasks, minimizing the amount of boilerplate code.\n\n1 / 1 point\n8.\nQuestion 8\n\nWhich function from the Redux Toolkit consolidates Redux setup logic into a single function call?\n\nDo you understand?.\n\nI understand\n\nconfigureStore()\n\ncreateSlice()\n\ncreateStore()\n\ncreateReducer()\n\nNice work\n\nCorrect! The configureStore() function consolidates Redux setup logic, such as setting up middleware and enabling the Redux DevTools Extension into a single function call.\n\n1 / 1 point\n9.\nQuestion 9\n\nWhat is the purpose of a Redux slice?\n\nDo you understand?.\n\nI understand\n\nTo divide the application states into several parts and manage their updates\n\nTo manage HTTP requests and responses\n\nTo handle asynchronous operations\n\nTo create reusable UI components\n\nNice work\n\nCorrect! A Redux slice divides the application states into individual parts and manages the logic to update them. It typically consists of a reducer function, action creators, and an initial state.\n\n1 / 1 point\n10.\nQuestion 10\n\nWhich middleware is commonly used with Redux to handle asynchronous actions and side effects?\n\nDo you understand?.\n\nI understand\n\nRedux Logger\n\nRedux Saga\n\nRedux Thunk\n\nRedux DevTools Extension\n\nNice work\n\nCorrect! Thunk is middleware commonly used with Redux to handle asynchronous actions and side effects. It allows action creators to return functions, enabling asynchronous behavior in Redux applications.\n\n1 / 1 point"
+    }
+  ]
+}

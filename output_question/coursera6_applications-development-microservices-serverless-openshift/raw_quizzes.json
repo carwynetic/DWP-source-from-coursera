@@ -1,0 +1,1808 @@
+{
+  "crawled_at": "2026-11-24T14:35:57.530398",
+  "course": {
+    "key": "coursera6",
+    "name": "Application Development using Microservices and Serverless",
+    "slug": "applications-development-microservices-serverless-openshift",
+    "url": "https://www.coursera.org/learn/applications-development-microservices-serverless-openshift"
+  },
+  "total_quizzes_discovered": 10,
+  "total_mc_quizzes_extracted": 10,
+  "total_mc_questions": 70,
+  "quizzes": [
+    {
+      "title": "Practice Quiz: Introduction to Microservices Practice Assignment • 10 min • Grade: -- Resume",
+      "page_title": "Practice Quiz: Introduction to Microservices",
+      "source": "Module 1",
+      "kind": "practice_quiz",
+      "url": "https://www.coursera.org/learn/applications-development-microservices-serverless-openshift/assignment-submission/xMyGD/practice-quiz-introduction-to-microservices",
+      "final_url": "https://www.coursera.org/learn/applications-development-microservices-serverless-openshift/assignment-submission/xMyGD/practice-quiz-introduction-to-microservices/attempt",
+      "status": "opened_after_step_1",
+      "question_count": 5,
+      "questions": [
+        {
+          "index": 1,
+          "question_type": "multiple_select",
+          "prompt_text": "Twelve factor methodology expects the processes to be: Select two answers.",
+          "options": [
+            {
+              "text": "Embedding config details",
+              "checked": false
+            },
+            {
+              "text": "Generating and maintaining logging mechanism",
+              "checked": false
+            },
+            {
+              "text": "Centrally store the data",
+              "checked": false
+            },
+            {
+              "text": "Stateless and share nothing",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "1.\nQuestion 1\n\nTwelve factor methodology expects the processes to be: Select two answers.\n\nDo you understand?.\n\nI understand\n\nEmbedding config details\n\nGenerating and maintaining logging mechanism\n\nCentrally store the data\n\nStateless and share nothing\n\n1 point"
+        },
+        {
+          "index": 2,
+          "question_type": "single_choice",
+          "prompt_text": "In a microservices architecture you should segregate services based on ______",
+          "options": [
+            {
+              "text": "Dependencies",
+              "checked": false
+            },
+            {
+              "text": "Release cycles",
+              "checked": false
+            },
+            {
+              "text": "Functional requirements",
+              "checked": false
+            },
+            {
+              "text": "Different configuration",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "2.\nQuestion 2\n\nIn a microservices architecture you should segregate services based on ______ \n\nDo you understand?.\n\nI understand\n\nDependencies\n\nRelease cycles\n\nFunctional requirements\n\nDifferent configuration\n\n1 point"
+        },
+        {
+          "index": 3,
+          "question_type": "single_choice",
+          "prompt_text": "SOA components are:",
+          "options": [
+            {
+              "text": "Reusable",
+              "checked": false
+            },
+            {
+              "text": "Agile",
+              "checked": false
+            },
+            {
+              "text": "Tightly coupled",
+              "checked": false
+            },
+            {
+              "text": "Simple",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "3.\nQuestion 3\n\nSOA components are:\n\nDo you understand?.\n\nI understand\n\nReusable\n\nAgile\n\nTightly coupled\n\nSimple\n\n1 point"
+        },
+        {
+          "index": 4,
+          "question_type": "multiple_select",
+          "prompt_text": "Single page application (SPA): Select two answers:",
+          "options": [
+            {
+              "text": "Is built using HTML, CSS and JavaScript",
+              "checked": false
+            },
+            {
+              "text": "Updates dynamically using calls to backing REST-based services",
+              "checked": false
+            },
+            {
+              "text": "Supports side-by-side implementation",
+              "checked": false
+            },
+            {
+              "text": "Inserts a layer between user experience and the resource that calls it",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "4.\nQuestion 4\n\nSingle page application (SPA): Select two answers:\n\nDo you understand?.\n\nI understand\n\nIs built using HTML, CSS and JavaScript\n\nUpdates dynamically using calls to backing REST-based services\n\nSupports side-by-side implementation\n\nInserts a layer between user experience and the resource that calls it\n\n1 point"
+        },
+        {
+          "index": 5,
+          "question_type": "single_choice",
+          "prompt_text": "Microservices should have:",
+          "options": [
+            {
+              "text": "Custom logging functionality",
+              "checked": false
+            },
+            {
+              "text": "Shared storage",
+              "checked": false
+            },
+            {
+              "text": "Dependencies on other services",
+              "checked": false
+            },
+            {
+              "text": "Automation for deployment and monitoring",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "5.\nQuestion 5\n\nMicroservices should have:\n\nDo you understand?.\n\nI understand\n\nCustom logging functionality\n\nShared storage\n\nDependencies on other services\n\nAutomation for deployment and monitoring\n\n1 point"
+        }
+      ],
+      "raw_page_text": "N\nApplication Development using Microservices and Serverless\nToday's goal • 0/3 items\n\nComplete 3 items today to stay at a good pace!\n\nModule 1\nIntroduction to Microservices\nIntroduction to Microservices\nCourse Introduction\nVideo\n. Duration: 3 minutes\n3 min\nCourse Overview\nReading\n. Duration: 5 minutes\n5 min\nReading: Lab Options by Programming Language\nUngraded Plugin\n. Duration: 10 minutes\n10 min\nMicroservices Overview\nTwelve-Factor App Methodology\nVideo\n. Duration: 8 minutes\n8 min\nWhat are Microservices?\nVideo\n. Duration: 3 minutes\n3 min\nComparison of Monolith vs. SOA vs. Microservices\nVideo\n. Duration: 5 minutes\n5 min\nMicroservices Patterns\nVideo\n. Duration: 6 minutes\n6 min\nMicroservices Anti-Patterns\nReading\n. Duration: 10 minutes\n10 min\nHands-on Activity: Modernize JPetStore with Microservices\nUngraded App Item\n. Duration: 1 hour\n1h\nModule 1 Summary\nReading\n. Duration: 2 minutes\n2 min\nModule 1 Glossary - Introduction to Microservices\nUngraded Plugin\n. Duration: 2 minutes\n2 min\nPractice Quiz: Introduction to Microservices\nPractice Assignment\n. Duration: 10 minutes\n10 min\nGraded Quiz: Introduction to Microservices\nGraded AssignmentGrade: 90%\nModule 2\nWeb API Essentials: REST API and GraphQL\nModule 3\nServerless Overview\nModule 4\nCreate and Deploy Microservices using Serverless\nModule 5\nFinal Project\nModule 6\nOptional: OpenShift Essentials/Working with OpenShift and Istio\n\nPractice Assignment\n\nPractice Quiz: Introduction to Microservices\nResume assignment\nHelp me practice\nWhat to expect\nDue Nov 22, 11:59 PM +07\nUnlimited attempts\n\nThis is a practice assignment to help you check your understanding. It doesn’t count toward your course grade.\n\nReport an issue\nGo to next item\nBack\nPractice Quiz: Introduction to Microservices\n\nPractice Assignment • 10 min\n\nDueNov 22, 11:59 PM +07\n1.\nQuestion 1\n\nTwelve factor methodology expects the processes to be: Select two answers.\n\nDo you understand?.\n\nI understand\n\nEmbedding config details\n\nGenerating and maintaining logging mechanism\n\nCentrally store the data\n\nStateless and share nothing\n\n1 point\n2.\nQuestion 2\n\nIn a microservices architecture you should segregate services based on ______ \n\nDo you understand?.\n\nI understand\n\nDependencies\n\nRelease cycles\n\nFunctional requirements\n\nDifferent configuration\n\n1 point\n3.\nQuestion 3\n\nSOA components are:\n\nDo you understand?.\n\nI understand\n\nReusable\n\nAgile\n\nTightly coupled\n\nSimple\n\n1 point\n4.\nQuestion 4\n\nSingle page application (SPA): Select two answers:\n\nDo you understand?.\n\nI understand\n\nIs built using HTML, CSS and JavaScript\n\nUpdates dynamically using calls to backing REST-based services\n\nSupports side-by-side implementation\n\nInserts a layer between user experience and the resource that calls it\n\n1 point\n5.\nQuestion 5\n\nMicroservices should have:\n\nDo you understand?.\n\nI understand\n\nCustom logging functionality\n\nShared storage\n\nDependencies on other services\n\nAutomation for deployment and monitoring\n\n1 point\nCoursera Honor Code\n\nBy clicking Submit, you confirm this work is your own. Submitting work created with AI tools may result in course failure or account deactivation according to Coursera Honor Code policy.\n\nI, NGUYEN PHUC, understand and agree.\nYou must select the checkbox in order to submit the assignment\nSubmit\nSave draft\n\nLast saved on Nov 24, 2:32 PM +07\n\nLike\nDislike\nReport an issue"
+    },
+    {
+      "title": "Graded Quiz: Introduction to Microservices Graded Assignment • Submitted • Grade: 90% • Status: Graded Graded",
+      "page_title": "Graded Quiz: Introduction to Microservices",
+      "source": "Module 1",
+      "kind": "graded_quiz",
+      "url": "https://www.coursera.org/learn/applications-development-microservices-serverless-openshift/assignment-submission/sYiYo/graded-quiz-introduction-to-microservices",
+      "final_url": "https://www.coursera.org/learn/applications-development-microservices-serverless-openshift/assignment-submission/sYiYo/graded-quiz-introduction-to-microservices/view-feedback",
+      "status": "opened_via_button",
+      "question_count": 10,
+      "questions": [
+        {
+          "index": 1,
+          "question_type": "single_choice",
+          "prompt_text": "Which phase of the Twelve-Factor Methodology contains Port binding?",
+          "options": [
+            {
+              "text": "Operate",
+              "checked": false
+            },
+            {
+              "text": "Deploy",
+              "checked": true
+            },
+            {
+              "text": "Code",
+              "checked": false
+            },
+            {
+              "text": "Configure",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "1.\nQuestion 1\n\nWhich phase of the Twelve-Factor Methodology contains Port binding?\n\nDo you understand?.\n\nI understand\n\nOperate\n\nDeploy\n\nCode\n\nConfigure\n\nNice work\n\nCorrect. Deploy phase of the delivery lifecycle contains: Config, Backing services, Processes, and Port binding.\n\n1 / 1 point"
+        },
+        {
+          "index": 2,
+          "question_type": "single_choice",
+          "prompt_text": "What makes an application concurrent?",
+          "options": [
+            {
+              "text": "It should store config in environment variables",
+              "checked": false
+            },
+            {
+              "text": "It should have a minimal process start time",
+              "checked": true
+            },
+            {
+              "text": "It should be stateless",
+              "checked": false
+            },
+            {
+              "text": "It should contain the same backend services across environments",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "2.\nQuestion 2\n\nWhat makes an application concurrent?\n\nDo you understand?.\n\nI understand\n\nIt should store config in environment variables\n\nIt should have a minimal process start time\n\nIt should be stateless\n\nIt should contain the same backend services across environments\n\nTry again\n\nIncorrect. Review the Twelve-Factor App Methodology video.\n\n0 / 1 point"
+        },
+        {
+          "index": 3,
+          "question_type": "single_choice",
+          "prompt_text": "In a microservice architecture, you can",
+          "options": [
+            {
+              "text": "Use a different technology stack for each service",
+              "checked": true
+            },
+            {
+              "text": "Scale all services together",
+              "checked": false
+            },
+            {
+              "text": "Deploy all services together",
+              "checked": false
+            },
+            {
+              "text": "Create interdependency among services",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "3.\nQuestion 3\n\nIn a microservice architecture, you can\n\nDo you understand?.\n\nI understand\n\nUse a different technology stack for each service\n\nScale all services together\n\nDeploy all services together\n\nCreate interdependency among services\n\nNice work\n\nCorrect. Teams can choose even different programming languages for different components as they are dependent on each other via an API endpoint.\n\n1 / 1 point"
+        },
+        {
+          "index": 4,
+          "question_type": "single_choice",
+          "prompt_text": "Select the correct answer that completes this sentence: \n\nMonolith application has __________ components.",
+          "options": [
+            {
+              "text": "Reusable",
+              "checked": false
+            },
+            {
+              "text": "Scalable",
+              "checked": false
+            },
+            {
+              "text": "Independent",
+              "checked": false
+            },
+            {
+              "text": "Interconnected",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "4.\nQuestion 4\n\nSelect the correct answer that completes this sentence: \n\nMonolith application has __________ components. \n\nDo you understand?.\n\nI understand\n\nReusable\n\nScalable\n\nIndependent\n\nInterconnected\n\nNice work\n\nCorrect. A monolithic application has all or most of its functionality within a single process. Making them tightly connected and dependent on each other.\n\n1 / 1 point"
+        },
+        {
+          "index": 5,
+          "question_type": "single_choice",
+          "prompt_text": "Which component of services design in an SOA architecture defines how the service provider and service consumer should interact?",
+          "options": [
+            {
+              "text": "Implementation",
+              "checked": false
+            },
+            {
+              "text": "Interface",
+              "checked": false
+            },
+            {
+              "text": "Contract",
+              "checked": true
+            },
+            {
+              "text": "Own storage",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "5.\nQuestion 5\n\nWhich component of services design in an SOA architecture defines how the service provider and service consumer should interact?\n\nDo you understand?.\n\nI understand\n\nImplementation\n\n Interface\n\nContract\n\nOwn storage\n\nNice work\n\nCorrect. A contract defines how the service provider and service consumer should interact.\n\n1 / 1 point"
+        },
+        {
+          "index": 6,
+          "question_type": "single_choice",
+          "prompt_text": "What is the purpose of Backend For Frontend?",
+          "options": [
+            {
+              "text": "Customized user experiences",
+              "checked": true
+            },
+            {
+              "text": "Refactoring in stages",
+              "checked": false
+            },
+            {
+              "text": "Loading one interface that never reloads",
+              "checked": false
+            },
+            {
+              "text": "Service discovery",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "6.\nQuestion 6\n\nWhat is the purpose of Backend For Frontend?\n\nDo you understand?.\n\nI understand\n\nCustomized user experiences\n\nRefactoring in stages\n\nLoading one interface that never reloads\n\nService discovery\n\nNice work\n\nCorrect. The BFF pattern allows developers to create and support one backend type per user interface using the best options for that interface rather than trying to support a generic backend that works with any interface but may negatively impact frontend performance.\n\n1 / 1 point"
+        },
+        {
+          "index": 7,
+          "question_type": "single_choice",
+          "prompt_text": "What is the purpose of the Strangler pattern?",
+          "options": [
+            {
+              "text": "Combine functional domains",
+              "checked": false
+            },
+            {
+              "text": "Simplifies the front-end experience",
+              "checked": false
+            },
+            {
+              "text": "Supports refactoring in stages",
+              "checked": true
+            },
+            {
+              "text": "Helps with third-party API integrations",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "7.\nQuestion 7\n\nWhat is the purpose of the Strangler pattern?\n\nDo you understand?.\n\nI understand\n\nCombine functional domains\n\nSimplifies the front-end experience\n\nSupports refactoring in stages\n\nHelps with third-party API integrations\n\nNice work\n\nCorrect. With the Strangler pattern, you use the structure of a web application to split an application into multiple functional domains and replace those domains with a new microservices-based implementation for one domain at a time.\n\n1 / 1 point"
+        },
+        {
+          "index": 8,
+          "question_type": "single_choice",
+          "prompt_text": "Larger services should be broken into smaller services when:",
+          "options": [
+            {
+              "text": "Functional reusability is required",
+              "checked": false
+            },
+            {
+              "text": "Automation is required",
+              "checked": false
+            },
+            {
+              "text": "Common data model becomes overly complex",
+              "checked": true
+            },
+            {
+              "text": "Refactoring is required",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "8.\nQuestion 8\n\nLarger services should be broken into smaller services when:\n\nDo you understand?.\n\nI understand\n\nFunctional reusability is required\n\nAutomation is required\n\nCommon data model becomes overly complex\n\nRefactoring is required\n\nNice work\n\nCorrect. If your data model becomes too broad, it is time to split the service and functionally segregate them.\n\n1 / 1 point"
+        },
+        {
+          "index": 9,
+          "question_type": "single_choice",
+          "prompt_text": "What is the requirement of Microservices?",
+          "options": [
+            {
+              "text": "Its own implementation of auxiliary services like loggings, security, throttling, and so on",
+              "checked": false
+            },
+            {
+              "text": "Manual deployment process",
+              "checked": false
+            },
+            {
+              "text": "Coarse-grained functionality",
+              "checked": false
+            },
+            {
+              "text": "Independent storage",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "9.\nQuestion 9\n\nWhat is the requirement of Microservices?\n\nDo you understand?.\n\nI understand\n\nIts own implementation of auxiliary services like loggings, security, throttling, and so on\n\nManual deployment process\n\nCoarse-grained functionality\n\nIndependent storage\n\nNice work\n\nCorrect. SOA and microservices are both interested in building reusable individual components that can be consumed by other applications. But each microservice requires independent data storage, such as the bounded context.\n\n1 / 1 point"
+        },
+        {
+          "index": 10,
+          "question_type": "single_choice",
+          "prompt_text": "What is the requirement of a development and production environment?",
+          "options": [
+            {
+              "text": "Similar backing services across the environments.",
+              "checked": true
+            },
+            {
+              "text": "Different source control",
+              "checked": false
+            },
+            {
+              "text": "Different dependencies",
+              "checked": false
+            },
+            {
+              "text": "Embedded access details in code",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "10.\nQuestion 10\n\nWhat is the requirement of a development and production environment?\n\nDo you understand?.\n\nI understand\n\nSimilar backing services across the environments.\n\nDifferent source control\n\nDifferent dependencies\n\nEmbedded access details in code\n\nNice work\n\nCorrect. If you use a MySQL database in production, you should use the same version of MySQL database in your development environments.\n\n1 / 1 point"
+        }
+      ],
+      "raw_page_text": "N\nApplication Development using Microservices and Serverless\nToday's goal • 0/3 items\n\nComplete 3 items today to stay at a good pace!\n\nModule 1\nIntroduction to Microservices\nIntroduction to Microservices\nCourse Introduction\nVideo\n. Duration: 3 minutes\n3 min\nCourse Overview\nReading\n. Duration: 5 minutes\n5 min\nReading: Lab Options by Programming Language\nUngraded Plugin\n. Duration: 10 minutes\n10 min\nMicroservices Overview\nTwelve-Factor App Methodology\nVideo\n. Duration: 8 minutes\n8 min\nWhat are Microservices?\nVideo\n. Duration: 3 minutes\n3 min\nComparison of Monolith vs. SOA vs. Microservices\nVideo\n. Duration: 5 minutes\n5 min\nMicroservices Patterns\nVideo\n. Duration: 6 minutes\n6 min\nMicroservices Anti-Patterns\nReading\n. Duration: 10 minutes\n10 min\nHands-on Activity: Modernize JPetStore with Microservices\nUngraded App Item\n. Duration: 1 hour\n1h\nModule 1 Summary\nReading\n. Duration: 2 minutes\n2 min\nModule 1 Glossary - Introduction to Microservices\nUngraded Plugin\n. Duration: 2 minutes\n2 min\nPractice Quiz: Introduction to Microservices\nPractice Assignment\n. Duration: 10 minutes\n10 min\nGraded Quiz: Introduction to Microservices\nGraded AssignmentGrade: 90%\nModule 2\nWeb API Essentials: REST API and GraphQL\nModule 3\nServerless Overview\nModule 4\nCreate and Deploy Microservices using Serverless\nModule 5\nFinal Project\nModule 6\nOptional: OpenShift Essentials/Working with OpenShift and Istio\n\nGraded Assignment\n\nGraded Quiz: Introduction to Microservices\n\nAssessment monitored for academic integrity and AI-usage. Privacy Notice\n\nGo to next item\nTry again\nWhat to expect\nDue Nov 22, 11:59 PM +07\n3 attempts\n\nevery 8 hours\n\nYou passed!\n\nTo pass you need a grade of at least 70%.\n\n90%\nView feedback\n\nSubmitted Nov 9, 8:26 PM +07.\n\nReport an issue\nGo to next item\nBack\nGraded Quiz: Introduction to Microservices\n\nGraded Assignment • 30 min\n\nDueNov 22, 11:59 PM +07\nYour grade: 90%\nYour latest: 90%•\nYour highest: 90%•\nTo pass you need at least 70%. We keep your highest score.\nNext item\n1.\nQuestion 1\n\nWhich phase of the Twelve-Factor Methodology contains Port binding?\n\nDo you understand?.\n\nI understand\n\nOperate\n\nDeploy\n\nCode\n\nConfigure\n\nNice work\n\nCorrect. Deploy phase of the delivery lifecycle contains: Config, Backing services, Processes, and Port binding.\n\n1 / 1 point\n2.\nQuestion 2\n\nWhat makes an application concurrent?\n\nDo you understand?.\n\nI understand\n\nIt should store config in environment variables\n\nIt should have a minimal process start time\n\nIt should be stateless\n\nIt should contain the same backend services across environments\n\nTry again\n\nIncorrect. Review the Twelve-Factor App Methodology video.\n\n0 / 1 point\n3.\nQuestion 3\n\nIn a microservice architecture, you can\n\nDo you understand?.\n\nI understand\n\nUse a different technology stack for each service\n\nScale all services together\n\nDeploy all services together\n\nCreate interdependency among services\n\nNice work\n\nCorrect. Teams can choose even different programming languages for different components as they are dependent on each other via an API endpoint.\n\n1 / 1 point\n4.\nQuestion 4\n\nSelect the correct answer that completes this sentence: \n\nMonolith application has __________ components. \n\nDo you understand?.\n\nI understand\n\nReusable\n\nScalable\n\nIndependent\n\nInterconnected\n\nNice work\n\nCorrect. A monolithic application has all or most of its functionality within a single process. Making them tightly connected and dependent on each other.\n\n1 / 1 point\n5.\nQuestion 5\n\nWhich component of services design in an SOA architecture defines how the service provider and service consumer should interact?\n\nDo you understand?.\n\nI understand\n\nImplementation\n\n Interface\n\nContract\n\nOwn storage\n\nNice work\n\nCorrect. A contract defines how the service provider and service consumer should interact.\n\n1 / 1 point\n6.\nQuestion 6\n\nWhat is the purpose of Backend For Frontend?\n\nDo you understand?.\n\nI understand\n\nCustomized user experiences\n\nRefactoring in stages\n\nLoading one interface that never reloads\n\nService discovery\n\nNice work\n\nCorrect. The BFF pattern allows developers to create and support one backend type per user interface using the best options for that interface rather than trying to support a generic backend that works with any interface but may negatively impact frontend performance.\n\n1 / 1 point\n7.\nQuestion 7\n\nWhat is the purpose of the Strangler pattern?\n\nDo you understand?.\n\nI understand\n\nCombine functional domains\n\nSimplifies the front-end experience\n\nSupports refactoring in stages\n\nHelps with third-party API integrations\n\nNice work\n\nCorrect. With the Strangler pattern, you use the structure of a web application to split an application into multiple functional domains and replace those domains with a new microservices-based implementation for one domain at a time.\n\n1 / 1 point\n8.\nQuestion 8\n\nLarger services should be broken into smaller services when:\n\nDo you understand?.\n\nI understand\n\nFunctional reusability is required\n\nAutomation is required\n\nCommon data model becomes overly complex\n\nRefactoring is required\n\nNice work\n\nCorrect. If your data model becomes too broad, it is time to split the service and functionally segregate them.\n\n1 / 1 point\n9.\nQuestion 9\n\nWhat is the requirement of Microservices?\n\nDo you understand?.\n\nI understand\n\nIts own implementation of auxiliary services like loggings, security, throttling, and so on\n\nManual deployment process\n\nCoarse-grained functionality\n\nIndependent storage\n\nNice work\n\nCorrect. SOA and microservices are both interested in building reusable individual components that can be consumed by other applications. But each microservice requires independent data storage, such as the bounded context.\n\n1 / 1 point\n10.\nQuestion 10\n\nWhat is the requirement of a development and production environment?\n\nDo you understand?.\n\nI understand\n\nSimilar backing services across the environments.\n\nDifferent source control\n\nDifferent dependencies\n\nEmbedded access details in code\n\nNice work\n\nCorrect. If you use a MySQL database in production, you should use the same version of MySQL database in your development environments.\n\n1 / 1 point"
+    },
+    {
+      "title": "Practice Quiz: Web API Essentials - REST API and GraphQL Practice Assignment • 10 min • Grade: --",
+      "page_title": "Practice Quiz: Web API Essentials - REST API and GraphQL",
+      "source": "Module 2",
+      "kind": "practice_quiz",
+      "url": "https://www.coursera.org/learn/applications-development-microservices-serverless-openshift/assignment-submission/PKwlx/practice-quiz-web-api-essentials-rest-api-and-graphql",
+      "final_url": "https://www.coursera.org/learn/applications-development-microservices-serverless-openshift/assignment-submission/PKwlx/practice-quiz-web-api-essentials-rest-api-and-graphql/attempt",
+      "status": "opened_after_step_1",
+      "question_count": 5,
+      "questions": [
+        {
+          "index": 1,
+          "question_type": "single_choice",
+          "prompt_text": "Which HTTP method and endpoint should be used to get a resource from a REST endpoint?",
+          "options": [
+            {
+              "text": "GET /products/145/a4-notebook",
+              "checked": false
+            },
+            {
+              "text": "GET /products?productId=145",
+              "checked": false
+            },
+            {
+              "text": "GET /products/productId/145",
+              "checked": false
+            },
+            {
+              "text": "GET /products/145",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "1.\nQuestion 1\n\nWhich HTTP method and endpoint should be used to get a resource from a REST endpoint?\n\nDo you understand?.\n\nI understand\n\nGET /products/145/a4-notebook\n\nGET /products?productId=145\n\nGET /products/productId/145\n\nGET /products/145\n\n1 point"
+        },
+        {
+          "index": 2,
+          "question_type": "single_choice",
+          "prompt_text": "Which microservice identifies the users on the platform?",
+          "options": [
+            {
+              "text": "Product information",
+              "checked": false
+            },
+            {
+              "text": "Inventory service",
+              "checked": false
+            },
+            {
+              "text": "Order service",
+              "checked": false
+            },
+            {
+              "text": "Authentication service",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "2.\nQuestion 2\n\nWhich microservice identifies the users on the platform?\n\nDo you understand?.\n\nI understand\n\nProduct information\n\nInventory service\n\nOrder service\n\nAuthentication service\n\n1 point"
+        },
+        {
+          "index": 3,
+          "question_type": "single_choice",
+          "prompt_text": "What does an OpenAPI specification define?",
+          "options": [
+            {
+              "text": "Documentation standard",
+              "checked": false
+            },
+            {
+              "text": "Only input parameters of your API",
+              "checked": false
+            },
+            {
+              "text": "Anonymous access for all operations",
+              "checked": false
+            },
+            {
+              "text": "Supported operations by your API",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "3.\nQuestion 3\n\nWhat does an OpenAPI specification define? \n\nDo you understand?.\n\nI understand\n\nDocumentation standard \n\nOnly input parameters of your API\n\nAnonymous access for all operations \n\nSupported operations by your API\n\n1 point"
+        },
+        {
+          "index": 4,
+          "question_type": "single_choice",
+          "prompt_text": "What is a key feature of Postman?",
+          "options": [
+            {
+              "text": "It only supports the GET request",
+              "checked": false
+            },
+            {
+              "text": "It is an online-only tool",
+              "checked": false
+            },
+            {
+              "text": "It is a tool to test APIs",
+              "checked": false
+            },
+            {
+              "text": "It only shows output in JSON",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "4.\nQuestion 4\n\nWhat is a key feature of Postman?\n\nDo you understand?.\n\nI understand\n\nIt only supports the GET request \n\nIt is an online-only tool\n\nIt is a tool to test APIs \n\nIt only shows output in JSON\n\n1 point"
+        },
+        {
+          "index": 5,
+          "question_type": "single_choice",
+          "prompt_text": "What is the SciPy library in Python used for?",
+          "options": [
+            {
+              "text": "Artificial intelligence",
+              "checked": false
+            },
+            {
+              "text": "Web development",
+              "checked": false
+            },
+            {
+              "text": "Scientific and numeric computing",
+              "checked": false
+            },
+            {
+              "text": "Machine learning",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "5.\nQuestion 5\n\nWhat is the SciPy library in Python used for? \n\nDo you understand?.\n\nI understand\n\nArtificial intelligence\n\nWeb development\n\nScientific and numeric computing \n\nMachine learning\n\n1 point"
+        }
+      ],
+      "raw_page_text": "N\nApplication Development using Microservices and Serverless\nToday's goal • 0/3 items\n\nComplete 3 items today to stay at a good pace!\n\nModule 1\nIntroduction to Microservices\nModule 2\nWeb API Essentials: REST API and GraphQL\nWhat is REST?\nVideo\n. Duration: 3 minutes\n3 min\nIntroduction to API Gateway\nVideo\n. Duration: 4 minutes\n4 min\nCreating REST APIs\nVideo\n. Duration: 2 minutes\n2 min\nLab (Option A: Python): Creating a HELLO WORLD REST API\nUngraded App Item\n. Duration: 10 minutes\n10 min\nLab (Option B: JavaScript): Creating a HELLO WORLD REST API\nUngraded App Item\n. Duration: 1 minute\n1 min\nMaking API Requests using CURL and Postman\nVideo\n. Duration: 4 minutes\n4 min\nLab (Option A: Python): CRUD Operations\nUngraded App Item\n. Duration: 45 minutes\n45 min\nLab (Option B: JavaScript): CRUD Operations\nUngraded App Item\n. Duration: 1 minute\n1 min\nDocumenting and Testing REST APIs with Swagger\nVideo\n. Duration: 4 minutes\n4 min\nLab (Option A: Python): Creating a Swagger Documentation for REST API\nUngraded App Item\n. Duration: 45 minutes\n45 min\nLab (Option B: JavaScript): Creating a Swagger Documentation for REST API\nUngraded App Item\n. Duration: 1 minute\n1 min\nOptional: Basics of GraphQL\nVideo\n. Duration: 3 minutes\n3 min\nOptional Lab (Option A: Python): Querying with GraphQL\nUngraded App Item\n. Duration: 30 minutes\n30 min\nOptional Lab (Option B: JavaScript): Querying with GraphQL\nUngraded App Item\n. Duration: 1 minute\n1 min\nModule 2 Summary\nReading\n. Duration: 2 minutes\n2 min\nModule 2 Glossary - Web API Essentials REST API and GraphQL\nUngraded Plugin\n. Duration: 1 minute\n1 min\nPractice Quiz: Web API Essentials - REST API and GraphQL\nPractice Assignment\n. Duration: 10 minutes\n10 min\nGraded Quiz: Web API Essentials - REST API and GraphQL\nGraded AssignmentGrade: 90%\nModule 3\nServerless Overview\nModule 4\nCreate and Deploy Microservices using Serverless\nModule 5\nFinal Project\nModule 6\nOptional: OpenShift Essentials/Working with OpenShift and Istio\n\nPractice Assignment\n\nPractice Quiz: Web API Essentials - REST API and GraphQL\nResume assignment\nHelp me practice\nWhat to expect\nDue Dec 6, 11:59 PM +07\nUnlimited attempts\n\nThis is a practice assignment to help you check your understanding. It doesn’t count toward your course grade.\n\nReport an issue\nGo to next item\nBack\nPractice Quiz: Web API Essentials - REST API and GraphQL\n\nPractice Assignment • 10 min\n\nDueDec 6, 11:59 PM +07\n1.\nQuestion 1\n\nWhich HTTP method and endpoint should be used to get a resource from a REST endpoint?\n\nDo you understand?.\n\nI understand\n\nGET /products/145/a4-notebook\n\nGET /products?productId=145\n\nGET /products/productId/145\n\nGET /products/145\n\n1 point\n2.\nQuestion 2\n\nWhich microservice identifies the users on the platform?\n\nDo you understand?.\n\nI understand\n\nProduct information\n\nInventory service\n\nOrder service\n\nAuthentication service\n\n1 point\n3.\nQuestion 3\n\nWhat does an OpenAPI specification define? \n\nDo you understand?.\n\nI understand\n\nDocumentation standard \n\nOnly input parameters of your API\n\nAnonymous access for all operations \n\nSupported operations by your API\n\n1 point\n4.\nQuestion 4\n\nWhat is a key feature of Postman?\n\nDo you understand?.\n\nI understand\n\nIt only supports the GET request \n\nIt is an online-only tool\n\nIt is a tool to test APIs \n\nIt only shows output in JSON\n\n1 point\n5.\nQuestion 5\n\nWhat is the SciPy library in Python used for? \n\nDo you understand?.\n\nI understand\n\nArtificial intelligence\n\nWeb development\n\nScientific and numeric computing \n\nMachine learning\n\n1 point\nCoursera Honor Code\n\nBy clicking Submit, you confirm this work is your own. Submitting work created with AI tools may result in course failure or account deactivation according to Coursera Honor Code policy.\n\nI, NGUYEN PHUC, understand and agree.\nYou must select the checkbox in order to submit the assignment\nSubmit\nSave draft\n\nLast saved on Nov 24, 2:33 PM +07\n\nLike\nDislike\nReport an issue"
+    },
+    {
+      "title": "Graded Quiz: Web API Essentials - REST API and GraphQL Graded Assignment • Submitted • Grade: 90% • Status: Graded Graded",
+      "page_title": "Graded Quiz: Web API Essentials - REST API and GraphQL",
+      "source": "Module 2",
+      "kind": "graded_quiz",
+      "url": "https://www.coursera.org/learn/applications-development-microservices-serverless-openshift/assignment-submission/XbyPf/graded-quiz-web-api-essentials-rest-api-and-graphql",
+      "final_url": "https://www.coursera.org/learn/applications-development-microservices-serverless-openshift/assignment-submission/XbyPf/graded-quiz-web-api-essentials-rest-api-and-graphql/view-feedback",
+      "status": "opened_via_button",
+      "question_count": 10,
+      "questions": [
+        {
+          "index": 1,
+          "question_type": "multiple_select",
+          "prompt_text": "What are the key characteristics of a RESTful API? Select two answers.",
+          "options": [
+            {
+              "text": "It works on HTTP",
+              "checked": false
+            },
+            {
+              "text": "Stateless communication between client and server",
+              "checked": false
+            },
+            {
+              "text": "One API to access all resources",
+              "checked": false
+            },
+            {
+              "text": "Unique interface for each component",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "1.\nQuestion 1\n\nWhat are the key characteristics of a RESTful API? Select two answers.\n\nDo you understand?.\n\nI understand\n\nIt works on HTTP\n\nStateless communication between client and server\n\nOne API to access all resources\n\nUnique interface for each component\n\nYou did not answer the question\n0.5 / 1 point"
+        },
+        {
+          "index": 2,
+          "question_type": "single_choice",
+          "prompt_text": "What does an API Gateway act as?",
+          "options": [
+            {
+              "text": "A load balancer for your hosted services",
+              "checked": false
+            },
+            {
+              "text": "An API management tool",
+              "checked": true
+            },
+            {
+              "text": "A firewall to protect your microservices",
+              "checked": false
+            },
+            {
+              "text": "A streaming service",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "2.\nQuestion 2\n\nWhat does an API Gateway act as?\n\nDo you understand?.\n\nI understand\n\nA load balancer for your hosted services\n\nAn API management tool\n\nA firewall to protect your microservices\n\nA streaming service\n\nNice work\n\nCorrect. An API Gateway decouples clients from your services, hiding their complexity, interconnection, and implementation details.\n\n1 / 1 point"
+        },
+        {
+          "index": 3,
+          "question_type": "single_choice",
+          "prompt_text": "Which syntax is used to make an update request to a product REST API?",
+          "options": [
+            {
+              "text": "POST /products (product data in the body)",
+              "checked": false
+            },
+            {
+              "text": "GET /products/114?updatedName=Calendar2023",
+              "checked": false
+            },
+            {
+              "text": "PUT /products/114/name/Calendar2023",
+              "checked": false
+            },
+            {
+              "text": "PUT /products/114 (product data in the body)",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "3.\nQuestion 3\n\nWhich syntax is used to make an update request to a product REST API?\n\nDo you understand?.\n\nI understand\n\nPOST /products (product data in the body)\n\nGET /products/114?updatedName=Calendar2023\n\nPUT /products/114/name/Calendar2023\n\nPUT /products/114 (product data in the body)\n\nNice work\n\nCorrect. A PUT method with submitted data in the body is the standard for updating a resource.\n\n1 / 1 point"
+        },
+        {
+          "index": 4,
+          "question_type": "single_choice",
+          "prompt_text": "Which type of framework is Flask?",
+          "options": [
+            {
+              "text": "Database",
+              "checked": false
+            },
+            {
+              "text": "Micro web",
+              "checked": true
+            },
+            {
+              "text": "Frontend",
+              "checked": false
+            },
+            {
+              "text": "REST API",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "4.\nQuestion 4\n\nWhich type of framework is Flask?\n\nDo you understand?.\n\nI understand\n\nDatabase\n\nMicro web\n\nFrontend\n\nREST API\n\nNice work\n\nCorrect. Flask is classified as a micro web framework as it does not require particular tools or libraries. \n\n1 / 1 point"
+        },
+        {
+          "index": 5,
+          "question_type": "single_choice",
+          "prompt_text": "Which one of the following statements is true about communication in a RESTful API?",
+          "options": [
+            {
+              "text": "Session state is kept entirely on the REST API.",
+              "checked": false
+            },
+            {
+              "text": "Each request does not contain all information.",
+              "checked": false
+            },
+            {
+              "text": "Resources are uniquely identified at individual endpoints.",
+              "checked": true
+            },
+            {
+              "text": "A request can take advantage of any stored context on the server.",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "5.\nQuestion 5\n\nWhich one of the following statements is true about communication in a RESTful API?\n\nDo you understand?.\n\nI understand\n\nSession state is kept entirely on the REST API.\n\nEach request does not contain all information. \n\nResources are uniquely identified at individual endpoints. \n\nA request can take advantage of any stored context on the server.\n\nNice work\n\nCorrect. The REST API should ensure that the same piece of data belongs to only one uniform resource identifier (or URI).\n\n1 / 1 point"
+        },
+        {
+          "index": 6,
+          "question_type": "multiple_select",
+          "prompt_text": "What are the potential drawbacks of an API Gateway? Select two answers.",
+          "options": [
+            {
+              "text": "Single point of failure",
+              "checked": false
+            },
+            {
+              "text": "Increases requests to the backend",
+              "checked": false
+            },
+            {
+              "text": "Exposes the implementation details",
+              "checked": false
+            },
+            {
+              "text": "Bottleneck in scalability",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "6.\nQuestion 6\n\nWhat are the potential drawbacks of an API Gateway? Select two answers.\n\nDo you understand?.\n\nI understand\n\nSingle point of failure\n\nIncreases requests to the backend \n\nExposes the implementation details\n\nBottleneck in scalability\n\nYou did not answer the question\n0.5 / 1 point"
+        },
+        {
+          "index": 7,
+          "question_type": "single_choice",
+          "prompt_text": "Which specification is followed by Swagger?",
+          "options": [
+            {
+              "text": "SOA",
+              "checked": false
+            },
+            {
+              "text": "WebAPI",
+              "checked": false
+            },
+            {
+              "text": "OpenAPI",
+              "checked": true
+            },
+            {
+              "text": "GraphQL",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "7.\nQuestion 7\n\nWhich specification is followed by Swagger?\n\nDo you understand?.\n\nI understand\n\nSOA\n\nWebAPI\n\nOpenAPI\n\nGraphQL\n\nNice work\n\nCorrect. OpenAPI is a specification implemented by Swagger.\n\n1 / 1 point"
+        },
+        {
+          "index": 8,
+          "question_type": "single_choice",
+          "prompt_text": "Which cURL command should be used to query a list of products?",
+          "options": [
+            {
+              "text": "curl -X 'GET' \\\n\n 'http://127.0.0.1:5000/products' \\\n\n -H 'accept: application/json'",
+              "checked": true
+            },
+            {
+              "text": "curl -X 'PUT' \\\n\n 'http://127.0.0.1:5000/products' \\\n\n -H 'accept: application/json'",
+              "checked": false
+            },
+            {
+              "text": "curl -X 'PATCH' \\\n\n 'http://127.0.0.1:5000/products' \\\n\n -H 'accept: application/json'",
+              "checked": false
+            },
+            {
+              "text": "curl -X 'POST' \\\n\n 'http://127.0.0.1:5000/products' \\\n\n -H 'accept: application/json'",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "8.\nQuestion 8\n\nWhich cURL command should be used to query a list of products?\n\nDo you understand?.\n\nI understand\n\ncurl -X 'GET' \\\n\n 'http://127.0.0.1:5000/products' \\\n\n -H 'accept: application/json'\n\ncurl -X 'PUT' \\\n\n 'http://127.0.0.1:5000/products' \\\n\n -H 'accept: application/json'\n\ncurl -X 'PATCH' \\\n\n 'http://127.0.0.1:5000/products' \\\n\n -H 'accept: application/json'\n\ncurl -X 'POST' \\\n\n 'http://127.0.0.1:5000/products' \\\n\n -H 'accept: application/json'\n\nNice work\n\nCorrect. This cURL command with the -X flag specifies a GET operation.\n\n1 / 1 point"
+        },
+        {
+          "index": 9,
+          "question_type": "single_choice",
+          "prompt_text": "Which HTTP method is used to create new data in a REST API?",
+          "options": [
+            {
+              "text": "PUT",
+              "checked": false
+            },
+            {
+              "text": "UPDATE",
+              "checked": false
+            },
+            {
+              "text": "PATCH",
+              "checked": false
+            },
+            {
+              "text": "POST",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "9.\nQuestion 9\n\nWhich HTTP method is used to create new data in a REST API?\n\nDo you understand?.\n\nI understand\n\nPUT\n\nUPDATE\n\nPATCH\n\nPOST\n\nNice work\n\nCorrect. You can use POST to create a new resource. A POST request requires a body in which you define the data of the entity to be created.\n\n1 / 1 point"
+        },
+        {
+          "index": 10,
+          "question_type": "single_choice",
+          "prompt_text": "What is the purpose of Postman?",
+          "options": [
+            {
+              "text": "Command line tool to get data",
+              "checked": false
+            },
+            {
+              "text": "Transfers applications",
+              "checked": false
+            },
+            {
+              "text": "Uniform interface for different components",
+              "checked": false
+            },
+            {
+              "text": "Tests APIs",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "10.\nQuestion 10\n\nWhat is the purpose of Postman?\n\nDo you understand?.\n\nI understand\n\nCommand line tool to get data\n\nTransfers applications \n\nUniform interface for different components\n\nTests APIs\n\nNice work\n\nCorrect. Postman is a popular tool for testing APIs.\n\n1 / 1 point"
+        }
+      ],
+      "raw_page_text": "N\nApplication Development using Microservices and Serverless\nToday's goal • 0/3 items\n\nComplete 3 items today to stay at a good pace!\n\nModule 1\nIntroduction to Microservices\nModule 2\nWeb API Essentials: REST API and GraphQL\nWhat is REST?\nVideo\n. Duration: 3 minutes\n3 min\nIntroduction to API Gateway\nVideo\n. Duration: 4 minutes\n4 min\nCreating REST APIs\nVideo\n. Duration: 2 minutes\n2 min\nLab (Option A: Python): Creating a HELLO WORLD REST API\nUngraded App Item\n. Duration: 10 minutes\n10 min\nLab (Option B: JavaScript): Creating a HELLO WORLD REST API\nUngraded App Item\n. Duration: 1 minute\n1 min\nMaking API Requests using CURL and Postman\nVideo\n. Duration: 4 minutes\n4 min\nLab (Option A: Python): CRUD Operations\nUngraded App Item\n. Duration: 45 minutes\n45 min\nLab (Option B: JavaScript): CRUD Operations\nUngraded App Item\n. Duration: 1 minute\n1 min\nDocumenting and Testing REST APIs with Swagger\nVideo\n. Duration: 4 minutes\n4 min\nLab (Option A: Python): Creating a Swagger Documentation for REST API\nUngraded App Item\n. Duration: 45 minutes\n45 min\nLab (Option B: JavaScript): Creating a Swagger Documentation for REST API\nUngraded App Item\n. Duration: 1 minute\n1 min\nOptional: Basics of GraphQL\nVideo\n. Duration: 3 minutes\n3 min\nOptional Lab (Option A: Python): Querying with GraphQL\nUngraded App Item\n. Duration: 30 minutes\n30 min\nOptional Lab (Option B: JavaScript): Querying with GraphQL\nUngraded App Item\n. Duration: 1 minute\n1 min\nModule 2 Summary\nReading\n. Duration: 2 minutes\n2 min\nModule 2 Glossary - Web API Essentials REST API and GraphQL\nUngraded Plugin\n. Duration: 1 minute\n1 min\nPractice Quiz: Web API Essentials - REST API and GraphQL\nPractice Assignment\n. Duration: 10 minutes\n10 min\nGraded Quiz: Web API Essentials - REST API and GraphQL\nGraded AssignmentGrade: 90%\nModule 3\nServerless Overview\nModule 4\nCreate and Deploy Microservices using Serverless\nModule 5\nFinal Project\nModule 6\nOptional: OpenShift Essentials/Working with OpenShift and Istio\n\nGraded Assignment\n\nGraded Quiz: Web API Essentials - REST API and GraphQL\n\nAssessment monitored for academic integrity and AI-usage. Privacy Notice\n\nGo to next item\nTry again\nWhat to expect\nDue Dec 6, 11:59 PM +07\n3 attempts\n\nevery 8 hours\n\nYou passed!\n\nTo pass you need a grade of at least 70%.\n\n90%\nView feedback\n\nSubmitted Nov 9, 8:29 PM +07.\n\nReport an issue\nGo to next item\nBack\nGraded Quiz: Web API Essentials - REST API and GraphQL\n\nGraded Assignment • 30 min\n\nDueDec 6, 11:59 PM +07\nYour grade: 90%\nYour latest: 90%•\nYour highest: 90%•\nTo pass you need at least 70%. We keep your highest score.\nNext item\n1.\nQuestion 1\n\nWhat are the key characteristics of a RESTful API? Select two answers.\n\nDo you understand?.\n\nI understand\n\nIt works on HTTP\n\nStateless communication between client and server\n\nOne API to access all resources\n\nUnique interface for each component\n\nYou did not answer the question\n0.5 / 1 point\n2.\nQuestion 2\n\nWhat does an API Gateway act as?\n\nDo you understand?.\n\nI understand\n\nA load balancer for your hosted services\n\nAn API management tool\n\nA firewall to protect your microservices\n\nA streaming service\n\nNice work\n\nCorrect. An API Gateway decouples clients from your services, hiding their complexity, interconnection, and implementation details.\n\n1 / 1 point\n3.\nQuestion 3\n\nWhich syntax is used to make an update request to a product REST API?\n\nDo you understand?.\n\nI understand\n\nPOST /products (product data in the body)\n\nGET /products/114?updatedName=Calendar2023\n\nPUT /products/114/name/Calendar2023\n\nPUT /products/114 (product data in the body)\n\nNice work\n\nCorrect. A PUT method with submitted data in the body is the standard for updating a resource.\n\n1 / 1 point\n4.\nQuestion 4\n\nWhich type of framework is Flask?\n\nDo you understand?.\n\nI understand\n\nDatabase\n\nMicro web\n\nFrontend\n\nREST API\n\nNice work\n\nCorrect. Flask is classified as a micro web framework as it does not require particular tools or libraries. \n\n1 / 1 point\n5.\nQuestion 5\n\nWhich one of the following statements is true about communication in a RESTful API?\n\nDo you understand?.\n\nI understand\n\nSession state is kept entirely on the REST API.\n\nEach request does not contain all information. \n\nResources are uniquely identified at individual endpoints. \n\nA request can take advantage of any stored context on the server.\n\nNice work\n\nCorrect. The REST API should ensure that the same piece of data belongs to only one uniform resource identifier (or URI).\n\n1 / 1 point\n6.\nQuestion 6\n\nWhat are the potential drawbacks of an API Gateway? Select two answers.\n\nDo you understand?.\n\nI understand\n\nSingle point of failure\n\nIncreases requests to the backend \n\nExposes the implementation details\n\nBottleneck in scalability\n\nYou did not answer the question\n0.5 / 1 point\n7.\nQuestion 7\n\nWhich specification is followed by Swagger?\n\nDo you understand?.\n\nI understand\n\nSOA\n\nWebAPI\n\nOpenAPI\n\nGraphQL\n\nNice work\n\nCorrect. OpenAPI is a specification implemented by Swagger.\n\n1 / 1 point\n8.\nQuestion 8\n\nWhich cURL command should be used to query a list of products?\n\nDo you understand?.\n\nI understand\n\ncurl -X 'GET' \\\n\n 'http://127.0.0.1:5000/products' \\\n\n -H 'accept: application/json'\n\ncurl -X 'PUT' \\\n\n 'http://127.0.0.1:5000/products' \\\n\n -H 'accept: application/json'\n\ncurl -X 'PATCH' \\\n\n 'http://127.0.0.1:5000/products' \\\n\n -H 'accept: application/json'\n\ncurl -X 'POST' \\\n\n 'http://127.0.0.1:5000/products' \\\n\n -H 'accept: application/json'\n\nNice work\n\nCorrect. This cURL command with the -X flag specifies a GET operation.\n\n1 / 1 point\n9.\nQuestion 9\n\nWhich HTTP method is used to create new data in a REST API?\n\nDo you understand?.\n\nI understand\n\nPUT\n\nUPDATE\n\nPATCH\n\nPOST\n\nNice work\n\nCorrect. You can use POST to create a new resource. A POST request requires a body in which you define the data of the entity to be created.\n\n1 / 1 point\n10.\nQuestion 10\n\nWhat is the purpose of Postman?\n\nDo you understand?.\n\nI understand\n\nCommand line tool to get data\n\nTransfers applications \n\nUniform interface for different components\n\nTests APIs\n\nNice work\n\nCorrect. Postman is a popular tool for testing APIs.\n\n1 / 1 point"
+    },
+    {
+      "title": "Practice Quiz: Serverless Overview Practice Assignment • 10 min • Grade: --",
+      "page_title": "Practice Quiz: Serverless Overview",
+      "source": "Module 3",
+      "kind": "practice_quiz",
+      "url": "https://www.coursera.org/learn/applications-development-microservices-serverless-openshift/assignment-submission/Qcg6y/practice-quiz-serverless-overview",
+      "final_url": "https://www.coursera.org/learn/applications-development-microservices-serverless-openshift/assignment-submission/Qcg6y/practice-quiz-serverless-overview/attempt",
+      "status": "opened_after_step_1",
+      "question_count": 5,
+      "questions": [
+        {
+          "index": 1,
+          "question_type": "multiple_select",
+          "prompt_text": "A Serverless computer is a combination of which of the following services? Select two answers.",
+          "options": [
+            {
+              "text": "Platform as a Service",
+              "checked": false
+            },
+            {
+              "text": "Infrastructure as a Service",
+              "checked": false
+            },
+            {
+              "text": "Function as a Service",
+              "checked": false
+            },
+            {
+              "text": "Backend as a Service",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "1.\nQuestion 1\n\nA Serverless computer is a combination of which of the following services? Select two answers.\n\nDo you understand?.\n\nI understand\n\nPlatform as a Service\n\nInfrastructure as a Service\n\nFunction as a Service\n\nBackend as a Service\n\n1 point"
+        },
+        {
+          "index": 2,
+          "question_type": "single_choice",
+          "prompt_text": "Which of the following is a benefit of a Serverless computing model?",
+          "options": [
+            {
+              "text": "Only paying for use",
+              "checked": false
+            },
+            {
+              "text": "Fine grain hardware control",
+              "checked": false
+            },
+            {
+              "text": "Low latency",
+              "checked": false
+            },
+            {
+              "text": "Persistent state",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "2.\nQuestion 2\n\nWhich of the following is a benefit of a Serverless computing model?\n\nDo you understand?.\n\nI understand\n\nOnly paying for use\n\nFine grain hardware control\n\nLow latency\n\nPersistent state\n\n1 point"
+        },
+        {
+          "index": 3,
+          "question_type": "single_choice",
+          "prompt_text": "Which service is provided by Function-as-a-Service or FaaS, a Cloud Computing service?",
+          "options": [
+            {
+              "text": "Provides notifications",
+              "checked": false
+            },
+            {
+              "text": "Executes code in response to events",
+              "checked": false
+            },
+            {
+              "text": "Stores data in file storage",
+              "checked": false
+            },
+            {
+              "text": "Identifies and forwards requests",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "3.\nQuestion 3\n\nWhich service is provided by Function-as-a-Service or FaaS, a Cloud Computing service?\n\nDo you understand?.\n\nI understand\n\nProvides notifications\n\nExecutes code in response to events\n\nStores data in file storage\n\nIdentifies and forwards requests\n\n1 point"
+        },
+        {
+          "index": 4,
+          "question_type": "single_choice",
+          "prompt_text": "Which language writes Serverless Framework?",
+          "options": [
+            {
+              "text": "C#",
+              "checked": false
+            },
+            {
+              "text": "Node.js",
+              "checked": false
+            },
+            {
+              "text": "Java",
+              "checked": false
+            },
+            {
+              "text": "Python",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "4.\nQuestion 4\n\nWhich language writes Serverless Framework?\n\nDo you understand?.\n\nI understand\n\nC#\n\nNode.js\n\nJava\n\nPython\n\n1 point"
+        },
+        {
+          "index": 5,
+          "question_type": "multiple_select",
+          "prompt_text": "How can you utilize Serverless Reference Architecture for an Event streaming use case? Select two answers.",
+          "options": [
+            {
+              "text": "Create dependencies on other resources",
+              "checked": false
+            },
+            {
+              "text": "You can trigger your application using HTTP events",
+              "checked": false
+            },
+            {
+              "text": "You can update secondary data stores and caches",
+              "checked": false
+            },
+            {
+              "text": "You can trigger your application using publisher-subscriber topics",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "5.\nQuestion 5\n\nHow can you utilize Serverless Reference Architecture for an Event streaming use case? Select two answers.\n\nDo you understand?.\n\nI understand\n\nCreate dependencies on other resources\n\nYou can trigger your application using HTTP events\n\nYou can update secondary data stores and caches\n\nYou can trigger your application using publisher-subscriber topics\n\n1 point"
+        }
+      ],
+      "raw_page_text": "N\nApplication Development using Microservices and Serverless\nToday's goal • 0/3 items\n\nComplete 3 items today to stay at a good pace!\n\nModule 1\nIntroduction to Microservices\nModule 2\nWeb API Essentials: REST API and GraphQL\nModule 3\nServerless Overview\nIntroduction to Serverless Computing\nVideo\n. Duration: 6 minutes\n6 min\nServerless Pros and Cons\nVideo\n. Duration: 8 minutes\n8 min\nIntroduction to the FaaS Model\nVideo\n. Duration: 5 minutes\n5 min\nThe Serverless Framework\nVideo\n. Duration: 3 minutes\n3 min\nServerless Reference Architecture and Use Cases\nVideo\n. Duration: 4 minutes\n4 min\nPopular Serverless Platforms\nVideo\n. Duration: 5 minutes\n5 min\nReading: AWS Lambda\nUngraded Plugin\n. Duration: 10 minutes\n10 min\nOptional: Sign-up for AWS Account\nUngraded Plugin\n. Duration: 10 minutes\n10 min\nOptional: Creating an AWS Lambda\nUngraded Plugin\n. Duration: 20 minutes\n20 min\nModule 3 Summary\nReading\n. Duration: 2 minutes\n2 min\nModule 3 Glossary - Serverless Overview\nUngraded Plugin\n. Duration: 2 minutes\n2 min\nPractice Quiz: Serverless Overview\nPractice Assignment\n. Duration: 10 minutes\n10 min\nGraded Quiz: Serverless Overview\nGraded AssignmentGrade: 92.5%\nModule 4\nCreate and Deploy Microservices using Serverless\nModule 5\nFinal Project\nModule 6\nOptional: OpenShift Essentials/Working with OpenShift and Istio\n\nPractice Assignment\n\nPractice Quiz: Serverless Overview\nResume assignment\nHelp me practice\nWhat to expect\nDue Dec 13, 11:59 PM +07\nUnlimited attempts\n\nThis is a practice assignment to help you check your understanding. It doesn’t count toward your course grade.\n\nReport an issue\nGo to next item\nBack\nPractice Quiz: Serverless Overview\n\nPractice Assignment • 10 min\n\nDueDec 13, 11:59 PM +07\n1.\nQuestion 1\n\nA Serverless computer is a combination of which of the following services? Select two answers.\n\nDo you understand?.\n\nI understand\n\nPlatform as a Service\n\nInfrastructure as a Service\n\nFunction as a Service\n\nBackend as a Service\n\n1 point\n2.\nQuestion 2\n\nWhich of the following is a benefit of a Serverless computing model?\n\nDo you understand?.\n\nI understand\n\nOnly paying for use\n\nFine grain hardware control\n\nLow latency\n\nPersistent state\n\n1 point\n3.\nQuestion 3\n\nWhich service is provided by Function-as-a-Service or FaaS, a Cloud Computing service?\n\nDo you understand?.\n\nI understand\n\nProvides notifications\n\nExecutes code in response to events\n\nStores data in file storage\n\nIdentifies and forwards requests\n\n1 point\n4.\nQuestion 4\n\nWhich language writes Serverless Framework?\n\nDo you understand?.\n\nI understand\n\nC#\n\nNode.js\n\nJava\n\nPython\n\n1 point\n5.\nQuestion 5\n\nHow can you utilize Serverless Reference Architecture for an Event streaming use case? Select two answers.\n\nDo you understand?.\n\nI understand\n\nCreate dependencies on other resources\n\nYou can trigger your application using HTTP events\n\nYou can update secondary data stores and caches\n\nYou can trigger your application using publisher-subscriber topics\n\n1 point\nCoursera Honor Code\n\nBy clicking Submit, you confirm this work is your own. Submitting work created with AI tools may result in course failure or account deactivation according to Coursera Honor Code policy.\n\nI, NGUYEN PHUC, understand and agree.\nYou must select the checkbox in order to submit the assignment\nSubmit\nSave draft\n\nLast saved on Nov 24, 2:33 PM +07\n\nLike\nDislike\nReport an issue"
+    },
+    {
+      "title": "Graded Quiz: Serverless Overview Graded Assignment • Submitted • Grade: 92.50% • Status: Graded Graded",
+      "page_title": "Graded Quiz: Serverless Overview",
+      "source": "Module 3",
+      "kind": "graded_quiz",
+      "url": "https://www.coursera.org/learn/applications-development-microservices-serverless-openshift/assignment-submission/z1tvE/graded-quiz-serverless-overview",
+      "final_url": "https://www.coursera.org/learn/applications-development-microservices-serverless-openshift/assignment-submission/z1tvE/graded-quiz-serverless-overview/view-feedback",
+      "status": "opened_via_button",
+      "question_count": 10,
+      "questions": [
+        {
+          "index": 1,
+          "question_type": "single_choice",
+          "prompt_text": "Cloud Native Computing Foundation (CNCF) defines ‘serverless’ as the concept of building and running applications that do not require _______ management.",
+          "options": [
+            {
+              "text": "backend",
+              "checked": false
+            },
+            {
+              "text": "network",
+              "checked": false
+            },
+            {
+              "text": "server",
+              "checked": true
+            },
+            {
+              "text": "database",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "1.\nQuestion 1\n\nCloud Native Computing Foundation (CNCF) defines ‘serverless’ as the concept of building and running applications that do not require _______ management.\n\nDo you understand?.\n\nI understand\n\nbackend\n\nnetwork\n\nserver\n\ndatabase\n\nNice work\n\nCorrect. Serverless computing is an advancement of standard cloud computing, which abstracts both infrastructure and software environments. Hence taking away the responsibility of managing those components, while focusing purely on the business logic.\n\n1 / 1 point"
+        },
+        {
+          "index": 2,
+          "question_type": "multiple_select",
+          "prompt_text": "Cloud provider is responsible for which of the following components in the Serverless model? Select three answers.",
+          "options": [
+            {
+              "text": "OS",
+              "checked": false
+            },
+            {
+              "text": "Network",
+              "checked": false
+            },
+            {
+              "text": "Application",
+              "checked": false
+            },
+            {
+              "text": "Storage",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "2.\nQuestion 2\n\nCloud provider is responsible for which of the following components in the Serverless model? Select three answers.\n\nDo you understand?.\n\nI understand\n\nOS\n\nNetwork\n\nApplication\n\nStorage\n\nYou did not answer the question\n0.3 / 1 point"
+        },
+        {
+          "index": 3,
+          "question_type": "single_choice",
+          "prompt_text": "___________ is a Serverless computing constraint.",
+          "options": [
+            {
+              "text": "Idle time",
+              "checked": false
+            },
+            {
+              "text": "Vendor lock-in",
+              "checked": true
+            },
+            {
+              "text": "Language independence",
+              "checked": false
+            },
+            {
+              "text": "Scalability",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "3.\nQuestion 3\n\n___________ is a Serverless computing constraint.\n\nDo you understand?.\n\nI understand\n\nIdle time\n\nVendor lock-in\n\nLanguage independence\n\nScalability\n\nNice work\n\nCorrect. Dependencies on cloud providers’ technologies or environments lead to vendor lock-in risks.\n\n1 / 1 point"
+        },
+        {
+          "index": 4,
+          "question_type": "single_choice",
+          "prompt_text": "Managing which one of the following is your responsibility in a Serverless computing model?",
+          "options": [
+            {
+              "text": "Operating System",
+              "checked": false
+            },
+            {
+              "text": "Code",
+              "checked": true
+            },
+            {
+              "text": "Deployment",
+              "checked": false
+            },
+            {
+              "text": "Hardware",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "4.\nQuestion 4\n\nManaging which one of the following is your responsibility in a Serverless computing model?\n\nDo you understand?.\n\nI understand\n\nOperating System\n\nCode\n\nDeployment\n\nHardware\n\nNice work\n\nCorrect. Serverless architecture is a cloud computing model in which developers focus on writing high-quality code.\n\n1 / 1 point"
+        },
+        {
+          "index": 5,
+          "question_type": "single_choice",
+          "prompt_text": "Which one is the key characteristic of a function in FaaS model?",
+          "options": [
+            {
+              "text": "Keep running even when there are no requests",
+              "checked": false
+            },
+            {
+              "text": "Scale automatically and independently as required",
+              "checked": true
+            },
+            {
+              "text": "Be stateful",
+              "checked": false
+            },
+            {
+              "text": "Let you define your infrastructure",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "5.\nQuestion 5\n\nWhich one is the key characteristic of a function in FaaS model?\n\nDo you understand?.\n\nI understand\n\nKeep running even when there are no requests\n\nScale automatically and independently as required\n\nBe stateful\n\nLet you define your infrastructure\n\nNice work\n\nCorrect. Since the functions are stateless, small, and independent pieces of code, they can be scaled automatically, independently, and instantaneously, as required. If demand drops, they automatically scale back down.\n\n1 / 1 point"
+        },
+        {
+          "index": 6,
+          "question_type": "single_choice",
+          "prompt_text": "A _________ is an independent unit of execution and deployment in the Serverless Framework.",
+          "options": [
+            {
+              "text": "Function",
+              "checked": true
+            },
+            {
+              "text": "Service",
+              "checked": false
+            },
+            {
+              "text": "Event",
+              "checked": false
+            },
+            {
+              "text": "Resource",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "6.\nQuestion 6\n\nA _________ is an independent unit of execution and deployment in the Serverless Framework.\n\nDo you understand?.\n\nI understand\n\nFunction\n\nService\n\nEvent\n\nResource\n\nNice work\n\nCorrect. A function is merely code, deployed in the cloud, that is most often written to perform a single task. Each function is an independent unit of execution and deployment, like a microservice.\n\n1 / 1 point"
+        },
+        {
+          "index": 7,
+          "question_type": "single_choice",
+          "prompt_text": "What is the responsibility of the Front End in a Serverless Architecture?",
+          "options": [
+            {
+              "text": "Provide scaling",
+              "checked": false
+            },
+            {
+              "text": "Store data",
+              "checked": false
+            },
+            {
+              "text": "Host static content and scripts",
+              "checked": true
+            },
+            {
+              "text": "Host business logic",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "7.\nQuestion 7\n\nWhat is the responsibility of the Front End in a Serverless Architecture?\n\nDo you understand?.\n\nI understand\n\nProvide scaling\n\nStore data\n\nHost static content and scripts\n\nHost business logic\n\nNice work\n\nCorrect. The front-end application contains all the static content generated using the Create React App, which works with the help of HTML files, CSS for styling, JavaScript to run on the client, and images.\n\n1 / 1 point"
+        },
+        {
+          "index": 8,
+          "question_type": "single_choice",
+          "prompt_text": "Which is an example of post-processing in the Serverless Reference Architecture?",
+          "options": [
+            {
+              "text": "You could use messaging to notify multiple subscribers",
+              "checked": false
+            },
+            {
+              "text": "You could provide user registration and authentication",
+              "checked": false
+            },
+            {
+              "text": "You enable access to backend",
+              "checked": false
+            },
+            {
+              "text": "You could apply artificial intelligence or image recognition to upload images",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "8.\nQuestion 8\n\nWhich is an example of post-processing in the Serverless Reference Architecture?\n\nDo you understand?.\n\nI understand\n\nYou could use messaging to notify multiple subscribers\n\nYou could provide user registration and authentication\n\nYou enable access to backend\n\nYou could apply artificial intelligence or image recognition to upload images\n\nNice work\n\nCorrect. Post-processing could be done asynchronously for example to detect if there are any shadows on your passport photo.\n\n1 / 1 point"
+        },
+        {
+          "index": 9,
+          "question_type": "single_choice",
+          "prompt_text": "Which is the key characteristic of IBM Cloud Functions?",
+          "options": [
+            {
+              "text": "No debugging capabilities",
+              "checked": false
+            },
+            {
+              "text": "No disaster recovery",
+              "checked": false
+            },
+            {
+              "text": "Limited integration options",
+              "checked": false
+            },
+            {
+              "text": "Cost-Effective and Highly Available",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "9.\nQuestion 9\n\nWhich is the key characteristic of IBM Cloud Functions?\n\nDo you understand?.\n\nI understand\n\nNo debugging capabilities\n\nNo disaster recovery\n\nLimited integration options\n\nCost-Effective and Highly Available\n\nNice work\n\nCorrect. With IBM Cloud Functions you only pay for what time you use down to one-tenth of a second. Cloud Functions supports high availability to avoid a single point of failure. Customer data, such as action code, is automatically synchronized different zones.\n\n1 / 1 point"
+        },
+        {
+          "index": 10,
+          "question_type": "single_choice",
+          "prompt_text": "The Knative platform is offered by which service provider?",
+          "options": [
+            {
+              "text": "Offered by Microsoft Azure",
+              "checked": false
+            },
+            {
+              "text": "Open-source option for Serverless",
+              "checked": true
+            },
+            {
+              "text": "Offered by Google",
+              "checked": false
+            },
+            {
+              "text": "Offered by Amazon AWS",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "10.\nQuestion 10\n\nThe Knative platform is offered by which service provider?\n\nDo you understand?.\n\nI understand\n\nOffered by Microsoft Azure\n\nOpen-source option for Serverless\n\nOffered by Google\n\nOffered by Amazon AWS\n\nNice work\n\nCorrect. While other platforms are specific to those providers, you also have an option to go open source with Knative.\n\n1 / 1 point"
+        }
+      ],
+      "raw_page_text": "N\nApplication Development using Microservices and Serverless\nToday's goal • 0/3 items\n\nComplete 3 items today to stay at a good pace!\n\nModule 1\nIntroduction to Microservices\nModule 2\nWeb API Essentials: REST API and GraphQL\nModule 3\nServerless Overview\nIntroduction to Serverless Computing\nVideo\n. Duration: 6 minutes\n6 min\nServerless Pros and Cons\nVideo\n. Duration: 8 minutes\n8 min\nIntroduction to the FaaS Model\nVideo\n. Duration: 5 minutes\n5 min\nThe Serverless Framework\nVideo\n. Duration: 3 minutes\n3 min\nServerless Reference Architecture and Use Cases\nVideo\n. Duration: 4 minutes\n4 min\nPopular Serverless Platforms\nVideo\n. Duration: 5 minutes\n5 min\nReading: AWS Lambda\nUngraded Plugin\n. Duration: 10 minutes\n10 min\nOptional: Sign-up for AWS Account\nUngraded Plugin\n. Duration: 10 minutes\n10 min\nOptional: Creating an AWS Lambda\nUngraded Plugin\n. Duration: 20 minutes\n20 min\nModule 3 Summary\nReading\n. Duration: 2 minutes\n2 min\nModule 3 Glossary - Serverless Overview\nUngraded Plugin\n. Duration: 2 minutes\n2 min\nPractice Quiz: Serverless Overview\nPractice Assignment\n. Duration: 10 minutes\n10 min\nGraded Quiz: Serverless Overview\nGraded AssignmentGrade: 92.5%\nModule 4\nCreate and Deploy Microservices using Serverless\nModule 5\nFinal Project\nModule 6\nOptional: OpenShift Essentials/Working with OpenShift and Istio\n\nGraded Assignment\n\nGraded Quiz: Serverless Overview\n\nAssessment monitored for academic integrity and AI-usage. Privacy Notice\n\nGo to next item\nTry again\nWhat to expect\nDue Dec 13, 11:59 PM +07\n3 attempts\n\nevery 8 hours\n\nYou passed!\n\nTo pass you need a grade of at least 70%.\n\n92.50%\nView feedback\n\nSubmitted Nov 9, 8:45 PM +07.\n\nReport an issue\nGo to next item\nBack\nGraded Quiz: Serverless Overview\n\nGraded Assignment • 30 min\n\nDueDec 13, 11:59 PM +07\nYour grade: 92.50%\nYour latest: 92.50%•\nYour highest: 92.50%•\nTo pass you need at least 70%. We keep your highest score.\nNext item\n1.\nQuestion 1\n\nCloud Native Computing Foundation (CNCF) defines ‘serverless’ as the concept of building and running applications that do not require _______ management.\n\nDo you understand?.\n\nI understand\n\nbackend\n\nnetwork\n\nserver\n\ndatabase\n\nNice work\n\nCorrect. Serverless computing is an advancement of standard cloud computing, which abstracts both infrastructure and software environments. Hence taking away the responsibility of managing those components, while focusing purely on the business logic.\n\n1 / 1 point\n2.\nQuestion 2\n\nCloud provider is responsible for which of the following components in the Serverless model? Select three answers.\n\nDo you understand?.\n\nI understand\n\nOS\n\nNetwork\n\nApplication\n\nStorage\n\nYou did not answer the question\n0.3 / 1 point\n3.\nQuestion 3\n\n___________ is a Serverless computing constraint.\n\nDo you understand?.\n\nI understand\n\nIdle time\n\nVendor lock-in\n\nLanguage independence\n\nScalability\n\nNice work\n\nCorrect. Dependencies on cloud providers’ technologies or environments lead to vendor lock-in risks.\n\n1 / 1 point\n4.\nQuestion 4\n\nManaging which one of the following is your responsibility in a Serverless computing model?\n\nDo you understand?.\n\nI understand\n\nOperating System\n\nCode\n\nDeployment\n\nHardware\n\nNice work\n\nCorrect. Serverless architecture is a cloud computing model in which developers focus on writing high-quality code.\n\n1 / 1 point\n5.\nQuestion 5\n\nWhich one is the key characteristic of a function in FaaS model?\n\nDo you understand?.\n\nI understand\n\nKeep running even when there are no requests\n\nScale automatically and independently as required\n\nBe stateful\n\nLet you define your infrastructure\n\nNice work\n\nCorrect. Since the functions are stateless, small, and independent pieces of code, they can be scaled automatically, independently, and instantaneously, as required. If demand drops, they automatically scale back down.\n\n1 / 1 point\n6.\nQuestion 6\n\nA _________ is an independent unit of execution and deployment in the Serverless Framework.\n\nDo you understand?.\n\nI understand\n\nFunction\n\nService\n\nEvent\n\nResource\n\nNice work\n\nCorrect. A function is merely code, deployed in the cloud, that is most often written to perform a single task. Each function is an independent unit of execution and deployment, like a microservice.\n\n1 / 1 point\n7.\nQuestion 7\n\nWhat is the responsibility of the Front End in a Serverless Architecture?\n\nDo you understand?.\n\nI understand\n\nProvide scaling\n\nStore data\n\nHost static content and scripts\n\nHost business logic\n\nNice work\n\nCorrect. The front-end application contains all the static content generated using the Create React App, which works with the help of HTML files, CSS for styling, JavaScript to run on the client, and images.\n\n1 / 1 point\n8.\nQuestion 8\n\nWhich is an example of post-processing in the Serverless Reference Architecture?\n\nDo you understand?.\n\nI understand\n\nYou could use messaging to notify multiple subscribers\n\nYou could provide user registration and authentication\n\nYou enable access to backend\n\nYou could apply artificial intelligence or image recognition to upload images\n\nNice work\n\nCorrect. Post-processing could be done asynchronously for example to detect if there are any shadows on your passport photo.\n\n1 / 1 point\n9.\nQuestion 9\n\nWhich is the key characteristic of IBM Cloud Functions?\n\nDo you understand?.\n\nI understand\n\nNo debugging capabilities\n\nNo disaster recovery\n\nLimited integration options\n\nCost-Effective and Highly Available\n\nNice work\n\nCorrect. With IBM Cloud Functions you only pay for what time you use down to one-tenth of a second. Cloud Functions supports high availability to avoid a single point of failure. Customer data, such as action code, is automatically synchronized different zones.\n\n1 / 1 point\n10.\nQuestion 10\n\nThe Knative platform is offered by which service provider?\n\nDo you understand?.\n\nI understand\n\nOffered by Microsoft Azure\n\nOpen-source option for Serverless\n\nOffered by Google\n\nOffered by Amazon AWS\n\nNice work\n\nCorrect. While other platforms are specific to those providers, you also have an option to go open source with Knative.\n\n1 / 1 point"
+    },
+    {
+      "title": "Practice Quiz: Create and Deploy Microservices Practice Assignment • 10 min • Grade: --",
+      "page_title": "Practice Quiz: Create and Deploy Microservices",
+      "source": "Module 4",
+      "kind": "practice_quiz",
+      "url": "https://www.coursera.org/learn/applications-development-microservices-serverless-openshift/assignment-submission/MDuGl/practice-quiz-create-and-deploy-microservices",
+      "final_url": "https://www.coursera.org/learn/applications-development-microservices-serverless-openshift/assignment-submission/MDuGl/practice-quiz-create-and-deploy-microservices/attempt",
+      "status": "opened_after_step_1",
+      "question_count": 5,
+      "questions": [
+        {
+          "index": 1,
+          "question_type": "single_choice",
+          "prompt_text": "Which of the following is a challenge of deploying microservices?",
+          "options": [
+            {
+              "text": "Require you to connect two microservices via REST APIs",
+              "checked": false
+            },
+            {
+              "text": "Need to create publicly accessible entry points/URLs for your microservices",
+              "checked": false
+            },
+            {
+              "text": "Require dynamic scaling of your microservice instances",
+              "checked": false
+            },
+            {
+              "text": "Require building and testing of your microservices",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "1.\nQuestion 1\n\nWhich of the following is a challenge of deploying microservices?\n\nDo you understand?.\n\nI understand\n\nRequire you to connect two microservices via REST APIs\n\nNeed to create publicly accessible entry points/URLs for your microservices\n\nRequire dynamic scaling of your microservice instances\n\nRequire building and testing of your microservices\n\n1 point"
+        },
+        {
+          "index": 2,
+          "question_type": "single_choice",
+          "prompt_text": "Which of the following statements about IBM Cloud Code Engine project and application is correct?",
+          "options": [
+            {
+              "text": "You are allowed to create only one project under your IBM Cloud account.",
+              "checked": false
+            },
+            {
+              "text": "You can have two applications with the same name in one project.",
+              "checked": false
+            },
+            {
+              "text": "You are allowed to create only one application for each project.",
+              "checked": false
+            },
+            {
+              "text": "You can have two applications with the same name in two different projects.",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "2.\nQuestion 2\n\nWhich of the following statements about IBM Cloud Code Engine project and application is correct?\n\nDo you understand?.\n\nI understand\n\nYou are allowed to create only one project under your IBM Cloud account.\n\nYou can have two applications with the same name in one project.\n\nYou are allowed to create only one application for each project.\n\nYou can have two applications with the same name in two different projects.\n\n1 point"
+        },
+        {
+          "index": 3,
+          "question_type": "single_choice",
+          "prompt_text": "Which of the following is a feature of containers?",
+          "options": [
+            {
+              "text": "It runs on specific devices",
+              "checked": false
+            },
+            {
+              "text": "It is suitable for microservice architecture",
+              "checked": false
+            },
+            {
+              "text": "It is not portable",
+              "checked": false
+            },
+            {
+              "text": "It is dependent on other software for execution",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "3.\nQuestion 3\n\nWhich of the following is a feature of containers?\n\nDo you understand?.\n\nI understand\n\nIt runs on specific devices\n\nIt is suitable for microservice architecture\n\nIt is not portable\n\nIt is dependent on other software for execution\n\n1 point"
+        },
+        {
+          "index": 4,
+          "question_type": "single_choice",
+          "prompt_text": "Which are the two main interfaces to deploy applications on IBM Cloud Code Engine?",
+          "options": [
+            {
+              "text": "IBM Cloud Console and IBM Cloud CLI",
+              "checked": false
+            },
+            {
+              "text": "Secure Copy Protocol (SCP) and REST API",
+              "checked": false
+            },
+            {
+              "text": "IBM Cloud CLI and REST APIs",
+              "checked": false
+            },
+            {
+              "text": "REST APIs and IBM Cloud Console",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "4.\nQuestion 4\n\nWhich are the two main interfaces to deploy applications on IBM Cloud Code Engine?\n\nDo you understand?.\n\nI understand\n\nIBM Cloud Console and IBM Cloud CLI\n\nSecure Copy Protocol (SCP) and REST API\n\nIBM Cloud CLI and REST APIs\n\nREST APIs and IBM Cloud Console\n\n1 point"
+        },
+        {
+          "index": 5,
+          "question_type": "single_choice",
+          "prompt_text": "Which is a feature of Code Engine Jobs?",
+          "options": [
+            {
+              "text": "Once deployed, Job provides publicly accessible web end points",
+              "checked": false
+            },
+            {
+              "text": "Only one job instance can be deployed.",
+              "checked": false
+            },
+            {
+              "text": "Data processing tasks cannot be deployed as Jobs.",
+              "checked": false
+            },
+            {
+              "text": "Designed for one-time execution of your code",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "5.\nQuestion 5\n\nWhich is a feature of Code Engine Jobs?\n\nDo you understand?.\n\nI understand\n\nOnce deployed, Job provides publicly accessible web end points\n\nOnly one job instance can be deployed.\n\nData processing tasks cannot be deployed as Jobs.\n\nDesigned for one-time execution of your code\n\n1 point"
+        }
+      ],
+      "raw_page_text": "N\nApplication Development using Microservices and Serverless\nToday's goal • 0/3 items\n\nComplete 3 items today to stay at a good pace!\n\nModule 1\nIntroduction to Microservices\nModule 2\nWeb API Essentials: REST API and GraphQL\nModule 3\nServerless Overview\nModule 4\nCreate and Deploy Microservices using Serverless\nIBM Cloud Code Engine\nVideo\n. Duration: 7 minutes\n7 min\nEnvironment Configurations for Code Engine\nUngraded Plugin\n. Duration: 5 minutes\n5 min\nProject, Application, Build, and Jobs\nVideo\n. Duration: 5 minutes\n5 min\nLab (Option A: Python): Deploying your first application on Code Engine\nUngraded App Item\n. Duration: 15 minutes\n15 min\nLab (Option B: JavaScript): Deploying your first application on Code Engine\nUngraded App Item\n. Duration: 1 minute\n1 min\nIntegrations of IBM Code Engine with Other Services\nUngraded Plugin\n. Duration: 5 minutes\n5 min\nBuilding Container Images for Microservices\nVideo\n. Duration: 6 minutes\n6 min\nDeploying and Running Applications\nVideo\n. Duration: 4 minutes\n4 min\nLab (Option A: Python): Deploying your first Docker image on Code Engine\nUngraded App Item\n. Duration: 20 minutes\n20 min\nLab (Option B: JavaScript): Deploying your first Docker image on Code Engine\nUngraded App Item\n. Duration: 1 minute\n1 min\nUpdating Deployed Applications\nVideo\n. Duration: 7 minutes\n7 min\nLab (Option A: Python): Deploy, Update, and Scale Microservices with Serverless Framework\nUngraded App Item\n. Duration: 30 minutes\n30 min\nLab (Option B: JavaScript): Deploy, Update, and Scale Microservices using the Serverless Framework\nUngraded App Item\n. Duration: 1 minute\n1 min\nModule 4 Summary\nReading\n. Duration: 2 minutes\n2 min\nModule 4 Glossary - Create and Deploy Microservices\nUngraded Plugin\n. Duration: 2 minutes\n2 min\nPractice Quiz: Create and Deploy Microservices\nPractice Assignment\n. Duration: 10 minutes\n10 min\nGraded Quiz: Create and Deploy Microservices\nGraded AssignmentGrade: 100%\nModule 5\nFinal Project\nModule 6\nOptional: OpenShift Essentials/Working with OpenShift and Istio\n\nPractice Assignment\n\nPractice Quiz: Create and Deploy Microservices\nResume assignment\nHelp me practice\nWhat to expect\nDue Dec 27, 11:59 PM +07\nUnlimited attempts\n\nThis is a practice assignment to help you check your understanding. It doesn’t count toward your course grade.\n\nReport an issue\nGo to next item\nBack\nPractice Quiz: Create and Deploy Microservices\n\nPractice Assignment • 10 min\n\nDueDec 27, 11:59 PM +07\n1.\nQuestion 1\n\nWhich of the following is a challenge of deploying microservices?\n\nDo you understand?.\n\nI understand\n\nRequire you to connect two microservices via REST APIs\n\nNeed to create publicly accessible entry points/URLs for your microservices\n\nRequire dynamic scaling of your microservice instances\n\nRequire building and testing of your microservices\n\n1 point\n2.\nQuestion 2\n\nWhich of the following statements about IBM Cloud Code Engine project and application is correct?\n\nDo you understand?.\n\nI understand\n\nYou are allowed to create only one project under your IBM Cloud account.\n\nYou can have two applications with the same name in one project.\n\nYou are allowed to create only one application for each project.\n\nYou can have two applications with the same name in two different projects.\n\n1 point\n3.\nQuestion 3\n\nWhich of the following is a feature of containers?\n\nDo you understand?.\n\nI understand\n\nIt runs on specific devices\n\nIt is suitable for microservice architecture\n\nIt is not portable\n\nIt is dependent on other software for execution\n\n1 point\n4.\nQuestion 4\n\nWhich are the two main interfaces to deploy applications on IBM Cloud Code Engine?\n\nDo you understand?.\n\nI understand\n\nIBM Cloud Console and IBM Cloud CLI\n\nSecure Copy Protocol (SCP) and REST API\n\nIBM Cloud CLI and REST APIs\n\nREST APIs and IBM Cloud Console\n\n1 point\n5.\nQuestion 5\n\nWhich is a feature of Code Engine Jobs?\n\nDo you understand?.\n\nI understand\n\nOnce deployed, Job provides publicly accessible web end points\n\nOnly one job instance can be deployed.\n\nData processing tasks cannot be deployed as Jobs.\n\nDesigned for one-time execution of your code\n\n1 point\nCoursera Honor Code\n\nBy clicking Submit, you confirm this work is your own. Submitting work created with AI tools may result in course failure or account deactivation according to Coursera Honor Code policy.\n\nI, NGUYEN PHUC, understand and agree.\nYou must select the checkbox in order to submit the assignment\nSubmit\nSave draft\n\nLast saved on Nov 24, 2:34 PM +07\n\nLike\nDislike\nReport an issue"
+    },
+    {
+      "title": "Graded Quiz: Create and Deploy Microservices Graded Assignment • Submitted • Grade: 100% • Status: Graded Graded",
+      "page_title": "Graded Quiz: Create and Deploy Microservices",
+      "source": "Module 4",
+      "kind": "graded_quiz",
+      "url": "https://www.coursera.org/learn/applications-development-microservices-serverless-openshift/assignment-submission/F5PKA/graded-quiz-create-and-deploy-microservices",
+      "final_url": "https://www.coursera.org/learn/applications-development-microservices-serverless-openshift/assignment-submission/F5PKA/graded-quiz-create-and-deploy-microservices/view-feedback",
+      "status": "opened_via_button",
+      "question_count": 10,
+      "questions": [
+        {
+          "index": 1,
+          "question_type": "single_choice",
+          "prompt_text": "What is the main benefit of using PaaS, such as IBM Cloud Code Engine, to deploy your microservices?",
+          "options": [
+            {
+              "text": "Provides fully managed deployment services to help your deployment process with minimal efforts",
+              "checked": true
+            },
+            {
+              "text": "Enables handling of the full deployment process by a single user",
+              "checked": false
+            },
+            {
+              "text": "Provides a design to run a single type of workload",
+              "checked": false
+            },
+            {
+              "text": "Scales your microservices manually based on predefined rules and configurations",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "1.\nQuestion 1\n\nWhat is the main benefit of using PaaS, such as IBM Cloud Code Engine, to deploy your microservices?\n\nDo you understand?.\n\nI understand\n\nProvides fully managed deployment services to help your deployment process with minimal efforts\n\nEnables handling of the full deployment process by a single user\n\nProvides a design to run a single type of workload\n\nScales your microservices manually based on predefined rules and configurations\n\nNice work\n\nCorrect. Most PaaS are fully managed so that you can build and deploy your microservices with minimal effort.\n\n1 / 1 point"
+        },
+        {
+          "index": 2,
+          "question_type": "single_choice",
+          "prompt_text": "What are the three deployment modes of IBM Cloud Code Engine?",
+          "options": [
+            {
+              "text": "(1) Build and deploy applications from source code. (2) Deploy container image-based applications, and (3) Run Jobs",
+              "checked": true
+            },
+            {
+              "text": "(1) SCP. (2) TCP, and (3) HTTP",
+              "checked": false
+            },
+            {
+              "text": "(1) Run REST APIs, (2) Build and Run Source Code, and (3) Run Jobs",
+              "checked": false
+            },
+            {
+              "text": "(1) Build and deploy applications from source code. (2) Deploy container image-based applications and (3) REST APIs",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "2.\nQuestion 2\n\nWhat are the three deployment modes of IBM Cloud Code Engine?\n\nDo you understand?.\n\nI understand\n\n(1) Build and deploy applications from source code. (2) Deploy container image-based applications, and (3) Run Jobs\n\n(1) SCP. (2) TCP, and (3) HTTP\n\n(1) Run REST APIs, (2) Build and Run Source Code, and (3) Run Jobs\n\n(1) Build and deploy applications from source code. (2) Deploy container image-based applications and (3) REST APIs\n\nNice work\n\nCorrect. IBM Cloud Code Engine can deploy a built container image or build your application from source code or run your executable code as jobs.\n\n1 / 1 point"
+        },
+        {
+          "index": 3,
+          "question_type": "single_choice",
+          "prompt_text": "Which of the following statement is correct about Code Engine project and application?",
+          "options": [
+            {
+              "text": "A project can only contain one application.",
+              "checked": false
+            },
+            {
+              "text": "You can have two applications sharing the same name in the same project.",
+              "checked": false
+            },
+            {
+              "text": "A project in IBM Cloud Code Engine acts like a namespace so that you can only create one project under your account.",
+              "checked": false
+            },
+            {
+              "text": "A project in IBM Cloud Code Engine acts like a namespace so that you can create and deploy multiple applications even with the same name across projects.",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "3.\nQuestion 3\n\nWhich of the following statement is correct about Code Engine project and application?\n\nDo you understand?.\n\nI understand\n\nA project can only contain one application.\n\nYou can have two applications sharing the same name in the same project.\n\nA project in IBM Cloud Code Engine acts like a namespace so that you can only create one project under your account.\n\nA project in IBM Cloud Code Engine acts like a namespace so that you can create and deploy multiple applications even with the same name across projects.\n\nNice work\n\nCorrect. A project in IBM Cloud Code Engine acts like a namespace or a container so that you can create and deploy multiple applications.\n\n1 / 1 point"
+        },
+        {
+          "index": 4,
+          "question_type": "single_choice",
+          "prompt_text": "What are the two main application-building methods supported in IBM Cloud Code Engine?",
+          "options": [
+            {
+              "text": "Building container image with Dockerpack and Buildpack.",
+              "checked": false
+            },
+            {
+              "text": "Building container image with Dockerfile and Buildpack.",
+              "checked": true
+            },
+            {
+              "text": "Building container image with DockerHub and Buildpack.",
+              "checked": false
+            },
+            {
+              "text": "Building container image with Github Action and DockerHuB:",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "4.\nQuestion 4\n\nWhat are the two main application-building methods supported in IBM Cloud Code Engine?\n\nDo you understand?.\n\nI understand\n\nBuilding container image with Dockerpack and Buildpack.\n\nBuilding container image with Dockerfile and Buildpack.\n\nBuilding container image with DockerHub and Buildpack.\n\nBuilding container image with Github Action and DockerHuB:\n\nNice work\n\nCorrect. Dockerfile and Cloud Native Buildpack are currently supported in IBM Cloud Code Engine to build the container image.\n\n1 / 1 point"
+        },
+        {
+          "index": 5,
+          "question_type": "single_choice",
+          "prompt_text": "What is the role of docker in container technology?",
+          "options": [
+            {
+              "text": "An application development and testing IDE",
+              "checked": false
+            },
+            {
+              "text": "A cloud tool to scan your container images for security vulnerabilities",
+              "checked": false
+            },
+            {
+              "text": "A software platform for building and running applications as containers",
+              "checked": true
+            },
+            {
+              "text": "A container orchestration platform",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "5.\nQuestion 5\n\nWhat is the role of docker in container technology?\n\nDo you understand?.\n\nI understand\n\nAn application development and testing IDE\n\nA cloud tool to scan your container images for security vulnerabilities\n\nA software platform for building and running applications as containers\n\nA container orchestration platform\n\nNice work\n\nCorrect. Docker is a software platform for building and running applications as docker containers.\n\n1 / 1 point"
+        },
+        {
+          "index": 6,
+          "question_type": "single_choice",
+          "prompt_text": "What is normally the first command of a Dockerfile?",
+          "options": [
+            {
+              "text": "FROM",
+              "checked": true
+            },
+            {
+              "text": "EXPOSE",
+              "checked": false
+            },
+            {
+              "text": "COPY",
+              "checked": false
+            },
+            {
+              "text": "CMD",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "6.\nQuestion 6\n\nWhat is normally the first command of a Dockerfile?\n\nDo you understand?.\n\nI understand\n\nFROM\n\nEXPOSE\n\nCOPY\n\nCMD\n\nNice work\n\nCorrect. FROM is normally the first line or command of a Dockerfile to import a base image.\n\n1 / 1 point"
+        },
+        {
+          "index": 7,
+          "question_type": "single_choice",
+          "prompt_text": "What is a container registry?",
+          "options": [
+            {
+              "text": "A container repository where your pushed container images are curated",
+              "checked": true
+            },
+            {
+              "text": "A cloud platform to deploy container images.",
+              "checked": false
+            },
+            {
+              "text": "A cloud IDE to develop container",
+              "checked": false
+            },
+            {
+              "text": "A software platform to build a container image",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "7.\nQuestion 7\n\nWhat is a container registry?\n\nDo you understand?.\n\nI understand\n\nA container repository where your pushed container images are curated\n\nA cloud platform to deploy container images.\n\nA cloud IDE to develop container\n\nA software platform to build a container image\n\nNice work\n\nCorrect. A container registry is a repository where you can push your built container images to. After the container images are pushed, your container images will be managed and curated there.\n\n1 / 1 point"
+        },
+        {
+          "index": 8,
+          "question_type": "single_choice",
+          "prompt_text": "Once your microservice or web application is deployed, how can you test it?",
+          "options": [
+            {
+              "text": "You can only verify your application’s running status via log files.",
+              "checked": false
+            },
+            {
+              "text": "IBM Cloud Code Engine will provide a URL to download your microservice, and then you can unzip and run it.",
+              "checked": false
+            },
+            {
+              "text": "IBM Cloud Code Engine will provide a URL for you to run or test your service or application.",
+              "checked": true
+            },
+            {
+              "text": "IBM Cloud Code Engine will provide a container image reference for you to test your application.",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "8.\nQuestion 8\n\nOnce your microservice or web application is deployed, how can you test it?\n\nDo you understand?.\n\nI understand\n\nYou can only verify your application’s running status via log files.\n\nIBM Cloud Code Engine will provide a URL to download your microservice, and then you can unzip and run it.\n\nIBM Cloud Code Engine will provide a URL for you to run or test your service or application.\n\nIBM Cloud Code Engine will provide a container image reference for you to test your application.\n\nNice work\n\nCorrect. IBM Cloud Code Engine provides a URL as the entry point to your deployed microservice or web application.\n\n1 / 1 point"
+        },
+        {
+          "index": 9,
+          "question_type": "single_choice",
+          "prompt_text": "What is the correct IBM Cloud CLI command to create and deploy an application?",
+          "options": [
+            {
+              "text": "“app create --name helloworldapp --image us.icr.io/mynamespace/hello_repo --registry-secret myregistry”",
+              "checked": false
+            },
+            {
+              "text": "“ibmcloud ce app create --name helloworldapp --image us.icr.io/mynamespace/hello_repo --registry-secret myregistry”",
+              "checked": true
+            },
+            {
+              "text": "“ibmcloud ce app create –image us.icr.io/mynamespace/hello_repo --registry-secret myregistry.”",
+              "checked": false
+            },
+            {
+              "text": "“ ibmcloud ce createapp --n helloworldapp --i us.icr.io/mynamespace/hello_repo”",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "9.\nQuestion 9\n\nWhat is the correct IBM Cloud CLI command to create and deploy an application?\n\nDo you understand?.\n\nI understand\n\n“app create --name helloworldapp --image us.icr.io/mynamespace/hello_repo --registry-secret myregistry”\n\n“ibmcloud ce app create --name helloworldapp --image us.icr.io/mynamespace/hello_repo --registry-secret myregistry”\n\n“ibmcloud ce app create –image us.icr.io/mynamespace/hello_repo --registry-secret myregistry.”\n\n“ ibmcloud ce createapp --n helloworldapp --i us.icr.io/mynamespace/hello_repo”\n\nNice work\n\nCorrect. “ibmcloud ce app create” is the correct command with three main arguments: --name, --image, and --registry-secret.\n\n1 / 1 point"
+        },
+        {
+          "index": 10,
+          "question_type": "single_choice",
+          "prompt_text": "Which method is used by the IBM Cloud Code Engine to access your container image?",
+          "options": [
+            {
+              "text": "From the Private container registry only",
+              "checked": false
+            },
+            {
+              "text": "From both public and private container registry",
+              "checked": true
+            },
+            {
+              "text": "From the public container registry only",
+              "checked": false
+            },
+            {
+              "text": "From the source code",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "10.\nQuestion 10\n\nWhich method is used by the IBM Cloud Code Engine to access your container image?\n\nDo you understand?.\n\nI understand\n\nFrom the Private container registry only\n\nFrom both public and private container registry\n\nFrom the public container registry only\n\nFrom the source code\n\nNice work\n\nCorrect. The Code Engine can access your container image from either a private or a public container registry. For non-public container registries, you will need to provide a registry access to the Code Engine.\n\n1 / 1 point"
+        }
+      ],
+      "raw_page_text": "N\nApplication Development using Microservices and Serverless\nToday's goal • 0/3 items\n\nComplete 3 items today to stay at a good pace!\n\nModule 1\nIntroduction to Microservices\nModule 2\nWeb API Essentials: REST API and GraphQL\nModule 3\nServerless Overview\nModule 4\nCreate and Deploy Microservices using Serverless\nIBM Cloud Code Engine\nVideo\n. Duration: 7 minutes\n7 min\nEnvironment Configurations for Code Engine\nUngraded Plugin\n. Duration: 5 minutes\n5 min\nProject, Application, Build, and Jobs\nVideo\n. Duration: 5 minutes\n5 min\nLab (Option A: Python): Deploying your first application on Code Engine\nUngraded App Item\n. Duration: 15 minutes\n15 min\nLab (Option B: JavaScript): Deploying your first application on Code Engine\nUngraded App Item\n. Duration: 1 minute\n1 min\nIntegrations of IBM Code Engine with Other Services\nUngraded Plugin\n. Duration: 5 minutes\n5 min\nBuilding Container Images for Microservices\nVideo\n. Duration: 6 minutes\n6 min\nDeploying and Running Applications\nVideo\n. Duration: 4 minutes\n4 min\nLab (Option A: Python): Deploying your first Docker image on Code Engine\nUngraded App Item\n. Duration: 20 minutes\n20 min\nLab (Option B: JavaScript): Deploying your first Docker image on Code Engine\nUngraded App Item\n. Duration: 1 minute\n1 min\nUpdating Deployed Applications\nVideo\n. Duration: 7 minutes\n7 min\nLab (Option A: Python): Deploy, Update, and Scale Microservices with Serverless Framework\nUngraded App Item\n. Duration: 30 minutes\n30 min\nLab (Option B: JavaScript): Deploy, Update, and Scale Microservices using the Serverless Framework\nUngraded App Item\n. Duration: 1 minute\n1 min\nModule 4 Summary\nReading\n. Duration: 2 minutes\n2 min\nModule 4 Glossary - Create and Deploy Microservices\nUngraded Plugin\n. Duration: 2 minutes\n2 min\nPractice Quiz: Create and Deploy Microservices\nPractice Assignment\n. Duration: 10 minutes\n10 min\nGraded Quiz: Create and Deploy Microservices\nGraded AssignmentGrade: 100%\nModule 5\nFinal Project\nModule 6\nOptional: OpenShift Essentials/Working with OpenShift and Istio\n\nGraded Assignment\n\nGraded Quiz: Create and Deploy Microservices\n\nAssessment monitored for academic integrity and AI-usage. Privacy Notice\n\nGo to next item\nTry again\nWhat to expect\nDue Dec 27, 11:59 PM +07\n3 attempts\n\nevery 8 hours\n\nYou passed!\n\nTo pass you need a grade of at least 70%.\n\n100%\nView feedback\n\nSubmitted Nov 9, 8:57 PM +07.\n\nReport an issue\nGo to next item\nBack\nGraded Quiz: Create and Deploy Microservices\n\nGraded Assignment • 30 min\n\nDueDec 27, 11:59 PM +07\nYour grade: 100%\nYour latest: 100%•\nYour highest: 100%•\nTo pass you need at least 70%. We keep your highest score.\nNext item\n1.\nQuestion 1\n\nWhat is the main benefit of using PaaS, such as IBM Cloud Code Engine, to deploy your microservices?\n\nDo you understand?.\n\nI understand\n\nProvides fully managed deployment services to help your deployment process with minimal efforts\n\nEnables handling of the full deployment process by a single user\n\nProvides a design to run a single type of workload\n\nScales your microservices manually based on predefined rules and configurations\n\nNice work\n\nCorrect. Most PaaS are fully managed so that you can build and deploy your microservices with minimal effort.\n\n1 / 1 point\n2.\nQuestion 2\n\nWhat are the three deployment modes of IBM Cloud Code Engine?\n\nDo you understand?.\n\nI understand\n\n(1) Build and deploy applications from source code. (2) Deploy container image-based applications, and (3) Run Jobs\n\n(1) SCP. (2) TCP, and (3) HTTP\n\n(1) Run REST APIs, (2) Build and Run Source Code, and (3) Run Jobs\n\n(1) Build and deploy applications from source code. (2) Deploy container image-based applications and (3) REST APIs\n\nNice work\n\nCorrect. IBM Cloud Code Engine can deploy a built container image or build your application from source code or run your executable code as jobs.\n\n1 / 1 point\n3.\nQuestion 3\n\nWhich of the following statement is correct about Code Engine project and application?\n\nDo you understand?.\n\nI understand\n\nA project can only contain one application.\n\nYou can have two applications sharing the same name in the same project.\n\nA project in IBM Cloud Code Engine acts like a namespace so that you can only create one project under your account.\n\nA project in IBM Cloud Code Engine acts like a namespace so that you can create and deploy multiple applications even with the same name across projects.\n\nNice work\n\nCorrect. A project in IBM Cloud Code Engine acts like a namespace or a container so that you can create and deploy multiple applications.\n\n1 / 1 point\n4.\nQuestion 4\n\nWhat are the two main application-building methods supported in IBM Cloud Code Engine?\n\nDo you understand?.\n\nI understand\n\nBuilding container image with Dockerpack and Buildpack.\n\nBuilding container image with Dockerfile and Buildpack.\n\nBuilding container image with DockerHub and Buildpack.\n\nBuilding container image with Github Action and DockerHuB:\n\nNice work\n\nCorrect. Dockerfile and Cloud Native Buildpack are currently supported in IBM Cloud Code Engine to build the container image.\n\n1 / 1 point\n5.\nQuestion 5\n\nWhat is the role of docker in container technology?\n\nDo you understand?.\n\nI understand\n\nAn application development and testing IDE\n\nA cloud tool to scan your container images for security vulnerabilities\n\nA software platform for building and running applications as containers\n\nA container orchestration platform\n\nNice work\n\nCorrect. Docker is a software platform for building and running applications as docker containers.\n\n1 / 1 point\n6.\nQuestion 6\n\nWhat is normally the first command of a Dockerfile?\n\nDo you understand?.\n\nI understand\n\nFROM\n\nEXPOSE\n\nCOPY\n\nCMD\n\nNice work\n\nCorrect. FROM is normally the first line or command of a Dockerfile to import a base image.\n\n1 / 1 point\n7.\nQuestion 7\n\nWhat is a container registry?\n\nDo you understand?.\n\nI understand\n\nA container repository where your pushed container images are curated\n\nA cloud platform to deploy container images.\n\nA cloud IDE to develop container\n\nA software platform to build a container image\n\nNice work\n\nCorrect. A container registry is a repository where you can push your built container images to. After the container images are pushed, your container images will be managed and curated there.\n\n1 / 1 point\n8.\nQuestion 8\n\nOnce your microservice or web application is deployed, how can you test it?\n\nDo you understand?.\n\nI understand\n\nYou can only verify your application’s running status via log files.\n\nIBM Cloud Code Engine will provide a URL to download your microservice, and then you can unzip and run it.\n\nIBM Cloud Code Engine will provide a URL for you to run or test your service or application.\n\nIBM Cloud Code Engine will provide a container image reference for you to test your application.\n\nNice work\n\nCorrect. IBM Cloud Code Engine provides a URL as the entry point to your deployed microservice or web application.\n\n1 / 1 point\n9.\nQuestion 9\n\nWhat is the correct IBM Cloud CLI command to create and deploy an application?\n\nDo you understand?.\n\nI understand\n\n“app create --name helloworldapp --image us.icr.io/mynamespace/hello_repo --registry-secret myregistry”\n\n“ibmcloud ce app create --name helloworldapp --image us.icr.io/mynamespace/hello_repo --registry-secret myregistry”\n\n“ibmcloud ce app create –image us.icr.io/mynamespace/hello_repo --registry-secret myregistry.”\n\n“ ibmcloud ce createapp --n helloworldapp --i us.icr.io/mynamespace/hello_repo”\n\nNice work\n\nCorrect. “ibmcloud ce app create” is the correct command with three main arguments: --name, --image, and --registry-secret.\n\n1 / 1 point\n10.\nQuestion 10\n\nWhich method is used by the IBM Cloud Code Engine to access your container image?\n\nDo you understand?.\n\nI understand\n\nFrom the Private container registry only\n\nFrom both public and private container registry\n\nFrom the public container registry only\n\nFrom the source code\n\nNice work\n\nCorrect. The Code Engine can access your container image from either a private or a public container registry. For non-public container registries, you will need to provide a registry access to the Code Engine.\n\n1 / 1 point"
+    },
+    {
+      "title": "Practice Quiz Practice Assignment • Submitted • Grade: 100% • Status: Graded Graded",
+      "page_title": "Practice Quiz",
+      "source": "Module 6",
+      "kind": "practice_quiz",
+      "url": "https://www.coursera.org/learn/applications-development-microservices-serverless-openshift/assignment-submission/w7LKk/practice-quiz",
+      "final_url": "https://www.coursera.org/learn/applications-development-microservices-serverless-openshift/assignment-submission/w7LKk/practice-quiz/view-feedback",
+      "status": "opened_via_button",
+      "question_count": 5,
+      "questions": [
+        {
+          "index": 1,
+          "question_type": "multiple_select",
+          "prompt_text": "Red Hat OpenShift is a Kubernetes application platform. Where can Red Hat OpenShift run?",
+          "options": [
+            {
+              "text": "On-premises",
+              "checked": true
+            },
+            {
+              "text": "Private cloud",
+              "checked": true
+            },
+            {
+              "text": "On Red Hat infrastructure only",
+              "checked": false
+            },
+            {
+              "text": "Public cloud",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "1.\nQuestion 1\n\nRed Hat OpenShift is a Kubernetes application platform. Where can Red Hat OpenShift run? \n\nDo you understand?.\n\nI understand\n\nOn-premises \n\nNice work\n\nPartically correct, there are other correct answers.\n\nPrivate cloud \n\nNice work\n\nPartically correct, there are other correct answers.\n\nOn Red Hat infrastructure only\n\nPublic cloud \n\nNice work\n\nPartically correct, there are other correct answers.\n\n1 / 1 point"
+        },
+        {
+          "index": 2,
+          "question_type": "multiple_select",
+          "prompt_text": "Which of the following are features provided by Istio?",
+          "options": [
+            {
+              "text": "Application development platform",
+              "checked": false
+            },
+            {
+              "text": "Encryption of traffic between services",
+              "checked": true
+            },
+            {
+              "text": "Traffic management",
+              "checked": true
+            },
+            {
+              "text": "Observability of service behavior",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "2.\nQuestion 2\n\nWhich of the following are features provided by Istio?\n\nDo you understand?.\n\nI understand\n\nApplication development platform\n\nEncryption of traffic between services\n\nNice work\n\nPartially correct, with additional answers. \n\nTraffic management\n\nNice work\n\nPartially correct, with additional answers. \n\nObservability of service behavior\n\nNice work\n\nPartially correct, with additional answers. \n\n1 / 1 point"
+        },
+        {
+          "index": 3,
+          "question_type": "single_choice",
+          "prompt_text": "What job does OpenShift create to automatically build microservices into containers?",
+          "options": [
+            {
+              "text": "Atkins job",
+              "checked": false
+            },
+            {
+              "text": "Container job",
+              "checked": false
+            },
+            {
+              "text": "Open-source job",
+              "checked": false
+            },
+            {
+              "text": "Jenkins job",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "3.\nQuestion 3\n\nWhat job does OpenShift create to automatically build microservices into containers? \n\nDo you understand?.\n\nI understand\n\nAtkins job \n\nContainer job \n\nOpen-source job \n\nJenkins job \n\nNice work\n\nCorrect, continue to next question. \n\n1 / 1 point"
+        },
+        {
+          "index": 4,
+          "question_type": "single_choice",
+          "prompt_text": "What does OpenShift do with the built containers?",
+          "options": [
+            {
+              "text": "Sends them to the developer",
+              "checked": false
+            },
+            {
+              "text": "Deploys them to the cluster",
+              "checked": true
+            },
+            {
+              "text": "Deletes them",
+              "checked": false
+            },
+            {
+              "text": "Stores them on the local machine",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "4.\nQuestion 4\n\n What does OpenShift do with the built containers? \n\nDo you understand?.\n\nI understand\n\n Sends them to the developer\n\n Deploys them to the cluster\n\n Deletes them \n\n Stores them on the local machine\n\nNice work\n\nCorrect, continue to next question. \n\n1 / 1 point"
+        },
+        {
+          "index": 5,
+          "question_type": "multiple_select",
+          "prompt_text": "What are the main resources used to configure Istio?",
+          "options": [
+            {
+              "text": "Virtual Service",
+              "checked": true
+            },
+            {
+              "text": "Destination Rules",
+              "checked": true
+            },
+            {
+              "text": "Deployment",
+              "checked": false
+            },
+            {
+              "text": "Gateway",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "5.\nQuestion 5\n\n What are the main resources used to configure Istio? \n\nDo you understand?.\n\nI understand\n\n Virtual Service\n\nNice work\n\nPartially correct, with additional answers. \n\n Destination Rules\n\nNice work\n\nPartially correct, with additional answers. \n\n Deployment\n\n Gateway \n\nNice work\n\nPartially correct, with additional answers. \n\n1 / 1 point"
+        }
+      ],
+      "raw_page_text": "N\nApplication Development using Microservices and Serverless\nToday's goal • 0/3 items\n\nComplete 3 items today to stay at a good pace!\n\nModule 1\nIntroduction to Microservices\nModule 2\nWeb API Essentials: REST API and GraphQL\nModule 3\nServerless Overview\nModule 4\nCreate and Deploy Microservices using Serverless\nModule 5\nFinal Project\nModule 6\nOptional: OpenShift Essentials/Working with OpenShift and Istio\nRed Hat OpenShift Recap\nVideo\n. Duration: 4 minutes\n4 min\nService Mesh and Istio\nVideo\n. Duration: 7 minutes\n7 min\nMicroservices with OpenShift\nVideo\n. Duration: 4 minutes\n4 min\nHands-on Lab: Deploying Microservices on OpenShift\nUngraded App Item\n. Duration: 1 hour\n1h\nOptional Module Summary\nReading\n. Duration: 10 minutes\n10 min\nPractice Quiz\nPractice AssignmentGrade: 100%\nPractice Quiz: OpenShift Essentials/Working with OpenShift and Istio\nPractice AssignmentGrade: 100%\n\nPractice Assignment\n\nPractice Quiz\nGo to next item\nTry again\nWhat to expect\nDue Jan 10, 11:59 PM +07\nUnlimited attempts\n\nYou passed!\n\nTo pass you need a grade of at least 60%.\n\n100%\nView feedback\n\nSubmitted Nov 11, 9:18 AM +07.\n\nReport an issue\nGo to next item\nBack\nPractice Quiz\n\nPractice Assignment • 10 min\n\nDueJan 10, 11:59 PM +07\nYour grade: 100%\nYour latest: 100%•\nYour highest: 100%•\nTo pass you need at least 60%. We keep your highest score.\nNext item\n1.\nQuestion 1\n\nRed Hat OpenShift is a Kubernetes application platform. Where can Red Hat OpenShift run? \n\nDo you understand?.\n\nI understand\n\nOn-premises \n\nNice work\n\nPartically correct, there are other correct answers.\n\nPrivate cloud \n\nNice work\n\nPartically correct, there are other correct answers.\n\nOn Red Hat infrastructure only\n\nPublic cloud \n\nNice work\n\nPartically correct, there are other correct answers.\n\n1 / 1 point\n2.\nQuestion 2\n\nWhich of the following are features provided by Istio?\n\nDo you understand?.\n\nI understand\n\nApplication development platform\n\nEncryption of traffic between services\n\nNice work\n\nPartially correct, with additional answers. \n\nTraffic management\n\nNice work\n\nPartially correct, with additional answers. \n\nObservability of service behavior\n\nNice work\n\nPartially correct, with additional answers. \n\n1 / 1 point\n3.\nQuestion 3\n\nWhat job does OpenShift create to automatically build microservices into containers? \n\nDo you understand?.\n\nI understand\n\nAtkins job \n\nContainer job \n\nOpen-source job \n\nJenkins job \n\nNice work\n\nCorrect, continue to next question. \n\n1 / 1 point\n4.\nQuestion 4\n\n What does OpenShift do with the built containers? \n\nDo you understand?.\n\nI understand\n\n Sends them to the developer\n\n Deploys them to the cluster\n\n Deletes them \n\n Stores them on the local machine\n\nNice work\n\nCorrect, continue to next question. \n\n1 / 1 point\n5.\nQuestion 5\n\n What are the main resources used to configure Istio? \n\nDo you understand?.\n\nI understand\n\n Virtual Service\n\nNice work\n\nPartially correct, with additional answers. \n\n Destination Rules\n\nNice work\n\nPartially correct, with additional answers. \n\n Deployment\n\n Gateway \n\nNice work\n\nPartially correct, with additional answers. \n\n1 / 1 point"
+    },
+    {
+      "title": "Practice Quiz: OpenShift Essentials/Working with OpenShift and Istio Practice Assignment • Submitted • Grade: 100% • Status: Graded Graded",
+      "page_title": "Practice Quiz: OpenShift Essentials/Working with OpenShift and Istio",
+      "source": "Module 6",
+      "kind": "practice_quiz",
+      "url": "https://www.coursera.org/learn/applications-development-microservices-serverless-openshift/assignment-submission/2aSCy/practice-quiz-openshift-essentials-working-with-openshift-and-istio",
+      "final_url": "https://www.coursera.org/learn/applications-development-microservices-serverless-openshift/assignment-submission/2aSCy/practice-quiz-openshift-essentials-working-with-openshift-and-istio/view-feedback",
+      "status": "opened_via_button",
+      "question_count": 5,
+      "questions": [
+        {
+          "index": 1,
+          "question_type": "multiple_select",
+          "prompt_text": "OpenShift is a platform for running microservices. Select three features you’ll find on the OpenShift platform.",
+          "options": [
+            {
+              "text": "Integrate with serverless architectures",
+              "checked": true
+            },
+            {
+              "text": "Deploy cloud-native applications",
+              "checked": true
+            },
+            {
+              "text": "Sell third-party software",
+              "checked": false
+            },
+            {
+              "text": "Orchestrate containerized workloads",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "1.\nQuestion 1\n\nOpenShift is a platform for running microservices. Select three features you’ll find on the OpenShift platform.\n\nDo you understand?.\n\nI understand\n\nIntegrate with serverless architectures\n\nNice work\n\nCorrect, with additional correct answers. If this answer was the only correct answer you selected, review the Red Hat OpenShift Recap video.\n\nDeploy cloud-native applications\n\nNice work\n\nCorrect, with additional correct answers. If this answer was the only correct answer you selected, review the Red Hat OpenShift Recap video.\n\nSell third-party software\n\nOrchestrate containerized workloads\n\nNice work\n\nCorrect, with additional correct answers. If this answer was the only correct answer you selected, review the Red Hat OpenShift Recap video.\n\n1 / 1 point"
+        },
+        {
+          "index": 2,
+          "question_type": "single_choice",
+          "prompt_text": "In the analogy described in the Red Hat OpenShift Recap video, which of the following terms is analogous to Kubernetes?",
+          "options": [
+            {
+              "text": "Linux kernel",
+              "checked": true
+            },
+            {
+              "text": "Fedora",
+              "checked": false
+            },
+            {
+              "text": "Debian",
+              "checked": false
+            },
+            {
+              "text": "Ubuntu",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "2.\nQuestion 2\n\nIn the analogy described in the Red Hat OpenShift Recap video, which of the following terms is analogous to Kubernetes?\n\nDo you understand?.\n\nI understand\n\nLinux kernel\n\nFedora\n\nDebian\n\nUbuntu\n\nNice work\n\nCorrect. The Linux kernel is analogous to Kubernetes.\n\n1 / 1 point"
+        },
+        {
+          "index": 3,
+          "question_type": "single_choice",
+          "prompt_text": "Istio doesn't encrypt traffic among services because OpenShift does this already.",
+          "options": [
+            {
+              "text": "True",
+              "checked": false
+            },
+            {
+              "text": "False",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "3.\nQuestion 3\n\nIstio doesn't encrypt traffic among services because OpenShift does this already.\n\nDo you understand?.\n\nI understand\n\nTrue\n\nFalse\n\nNice work\n\nCorrect. Istio provides its own features for encrypting traffic among services using mutual TLS.\n\n1 / 1 point"
+        },
+        {
+          "index": 4,
+          "question_type": "multiple_select",
+          "prompt_text": "Select three capabilities that a service mesh enables.",
+          "options": [
+            {
+              "text": "Third-party software procurement",
+              "checked": false
+            },
+            {
+              "text": "Traffic management",
+              "checked": true
+            },
+            {
+              "text": "Troubleshooting",
+              "checked": true
+            },
+            {
+              "text": "Secure service-to-service communication",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "4.\nQuestion 4\n\nSelect three capabilities that a service mesh enables.\n\nDo you understand?.\n\nI understand\n\nThird-party software procurement\n\nTraffic management\n\nNice work\n\nCorrect, with additional correct answers. If this answer was the only correct answer you selected, review the Service Mesh and Istio video.\n\nTroubleshooting\n\nNice work\n\nCorrect, with additional correct answers. If this answer was the only correct answer you selected, review the Service Mesh and Istio video.\n\nSecure service-to-service communication\n\nNice work\n\nCorrect, with additional correct answers. If this answer was the only correct answer you selected, review the Service Mesh and Istio video.\n\n1 / 1 point"
+        },
+        {
+          "index": 5,
+          "question_type": "single_choice",
+          "prompt_text": "A service mesh is a dedicated layer that supplies logging capabilities in an OpenShift cluster.",
+          "options": [
+            {
+              "text": "True",
+              "checked": false
+            },
+            {
+              "text": "False",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "5.\nQuestion 5\n\nA service mesh is a dedicated layer that supplies logging capabilities in an OpenShift cluster.\n\nDo you understand?.\n\nI understand\n\nTrue\n\nFalse\n\nNice work\n\nCorrect. A service mesh is a dedicated layer that does not supply logging capabilities in an OpenShift cluster.\n\n1 / 1 point"
+        }
+      ],
+      "raw_page_text": "N\nApplication Development using Microservices and Serverless\nToday's goal • 0/3 items\n\nComplete 3 items today to stay at a good pace!\n\nModule 1\nIntroduction to Microservices\nModule 2\nWeb API Essentials: REST API and GraphQL\nModule 3\nServerless Overview\nModule 4\nCreate and Deploy Microservices using Serverless\nModule 5\nFinal Project\nModule 6\nOptional: OpenShift Essentials/Working with OpenShift and Istio\nRed Hat OpenShift Recap\nVideo\n. Duration: 4 minutes\n4 min\nService Mesh and Istio\nVideo\n. Duration: 7 minutes\n7 min\nMicroservices with OpenShift\nVideo\n. Duration: 4 minutes\n4 min\nHands-on Lab: Deploying Microservices on OpenShift\nUngraded App Item\n. Duration: 1 hour\n1h\nOptional Module Summary\nReading\n. Duration: 10 minutes\n10 min\nPractice Quiz\nPractice AssignmentGrade: 100%\nPractice Quiz: OpenShift Essentials/Working with OpenShift and Istio\nPractice AssignmentGrade: 100%\n\nPractice Assignment\n\nPractice Quiz: OpenShift Essentials/Working with OpenShift and Istio\nTry again\nWhat to expect\nDue Jan 10, 11:59 PM +07\nUnlimited attempts\n\nYou passed!\n\nTo pass you need a grade of at least 60%.\n\n100%\nView feedback\n\nSubmitted Nov 11, 9:02 AM +07.\n\nReport an issue\nGo to My Learning\nBack\nPractice Quiz: OpenShift Essentials/Working with OpenShift and Istio\n\nPractice Assignment • 10 min\n\nDueJan 10, 11:59 PM +07\nYour grade: 100%\nYour latest: 100%•\nYour highest: 100%•\nTo pass you need at least 60%. We keep your highest score.\n1.\nQuestion 1\n\nOpenShift is a platform for running microservices. Select three features you’ll find on the OpenShift platform.\n\nDo you understand?.\n\nI understand\n\nIntegrate with serverless architectures\n\nNice work\n\nCorrect, with additional correct answers. If this answer was the only correct answer you selected, review the Red Hat OpenShift Recap video.\n\nDeploy cloud-native applications\n\nNice work\n\nCorrect, with additional correct answers. If this answer was the only correct answer you selected, review the Red Hat OpenShift Recap video.\n\nSell third-party software\n\nOrchestrate containerized workloads\n\nNice work\n\nCorrect, with additional correct answers. If this answer was the only correct answer you selected, review the Red Hat OpenShift Recap video.\n\n1 / 1 point\n2.\nQuestion 2\n\nIn the analogy described in the Red Hat OpenShift Recap video, which of the following terms is analogous to Kubernetes?\n\nDo you understand?.\n\nI understand\n\nLinux kernel\n\nFedora\n\nDebian\n\nUbuntu\n\nNice work\n\nCorrect. The Linux kernel is analogous to Kubernetes.\n\n1 / 1 point\n3.\nQuestion 3\n\nIstio doesn't encrypt traffic among services because OpenShift does this already.\n\nDo you understand?.\n\nI understand\n\nTrue\n\nFalse\n\nNice work\n\nCorrect. Istio provides its own features for encrypting traffic among services using mutual TLS.\n\n1 / 1 point\n4.\nQuestion 4\n\nSelect three capabilities that a service mesh enables.\n\nDo you understand?.\n\nI understand\n\nThird-party software procurement\n\nTraffic management\n\nNice work\n\nCorrect, with additional correct answers. If this answer was the only correct answer you selected, review the Service Mesh and Istio video.\n\nTroubleshooting\n\nNice work\n\nCorrect, with additional correct answers. If this answer was the only correct answer you selected, review the Service Mesh and Istio video.\n\nSecure service-to-service communication\n\nNice work\n\nCorrect, with additional correct answers. If this answer was the only correct answer you selected, review the Service Mesh and Istio video.\n\n1 / 1 point\n5.\nQuestion 5\n\nA service mesh is a dedicated layer that supplies logging capabilities in an OpenShift cluster.\n\nDo you understand?.\n\nI understand\n\nTrue\n\nFalse\n\nNice work\n\nCorrect. A service mesh is a dedicated layer that does not supply logging capabilities in an OpenShift cluster.\n\n1 / 1 point"
+    }
+  ]
+}
