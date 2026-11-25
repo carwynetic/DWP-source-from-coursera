@@ -1366,6 +1366,7 @@ a {
   border-radius: var(--radius-md);
   background: var(--bg);
   margin-bottom: 14px;
+  overflow-anchor: none;
 }
 
 .question-prompt {
@@ -1432,9 +1433,42 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 10px;
   margin-top: 12px;
   font-size: 0.8rem;
   color: var(--muted);
+}
+
+.question-status-pill {
+  font-weight: 700;
+  font-size: 0.78rem;
+  padding: 2px 8px;
+  border-radius: 999px;
+}
+
+.question-status-pill.is-ok {
+  background: var(--success-soft);
+  color: var(--success);
+}
+
+.question-status-pill.is-bad {
+  background: var(--danger-soft);
+  color: var(--danger);
+}
+
+.question-explanation {
+  margin-top: 12px;
+  padding: 11px 14px;
+  border-radius: var(--radius-sm);
+  background: var(--primary-soft);
+  border: 1px solid var(--primary-border);
+  color: var(--ink);
+  font-size: 0.85rem;
+  line-height: 1.58;
+}
+
+.question-explanation strong {
+  color: var(--primary);
 }
 
 /* Search Dialog (Native <dialog>) */

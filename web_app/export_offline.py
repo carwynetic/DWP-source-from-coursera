@@ -477,7 +477,7 @@ def build_offline_payload() -> dict[str, Any]:
             ]
             for qz in qz_rows:
                 q_rows = conn.execute(
-                    "SELECT id, q_index, question_type, prompt_text, options_json FROM quiz_questions WHERE quiz_id = ? ORDER BY q_index ASC",
+                    "SELECT id, q_index, question_type, prompt_text, options_json, explanation FROM quiz_questions WHERE quiz_id = ? ORDER BY q_index ASC",
                     (qz["id"],),
                 ).fetchall()
                 qz["questions"] = [
@@ -487,6 +487,7 @@ def build_offline_payload() -> dict[str, Any]:
                         "question_type": qr["question_type"],
                         "prompt_text": qr["prompt_text"],
                         "options": json.loads(qr["options_json"]),
+                        "explanation": qr["explanation"],
                     }
                     for qr in q_rows
                 ]
@@ -518,9 +519,11 @@ def export_offline_html(output_path: Path | None = None) -> Path:
 
     # 2. Inline CSS with iOS 15.8 hex fallbacks + mobile mode bar
     combined_css = f"{IOS15_FALLBACK_CSS}\n{css_src}\n{MOBILE_MODE_BAR_CSS}"
-    html_src = html_src.replace(
-        '<link rel="stylesheet" href="/static/styles.css" />',
-        f"<style>\n{combined_css}\n</style>",
+    html_src = re.sub(
+        r'<link\s+rel="stylesheet"\s+href="/static/styles\.css(?:\?[^"]*)?"\s*/?>',
+        lambda _: f"<style>\n{combined_css}\n</style>",
+        html_src,
+        count=1,
     )
 
     # 3. Add mobile mode bar right after </header> so iPhone 7 Plus users can tap tabs directly
@@ -551,7 +554,12 @@ def export_offline_html(output_path: Path | None = None) -> Path:
         f"<script>\nwindow.__DWP301C_DATA__ = {payload_json};\n</script>\n"
         f"<script>\n(function() {{\n{offline_js}\n}})();\n</script>"
     )
-    html_src = html_src.replace('<script src="/static/app.js" type="module"></script>', inline_scripts)
+    html_src = re.sub(
+        r'<script\s+src="/static/app\.js(?:\?[^"]*)?"\s+type="module"\s*></script>',
+        lambda _: inline_scripts,
+        html_src,
+        count=1,
+    )
 
     out_file.write_text(html_src, encoding="utf-8")
     return out_file

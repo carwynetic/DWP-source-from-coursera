@@ -1,0 +1,2340 @@
+{
+  "coursera1|1|what are the five basic sql commands?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "5 lệnh SQL nền tảng nhất gồm CREATE (tạo bảng), SELECT (truy vấn), INSERT (thêm dòng), UPDATE (sửa) và DELETE (xóa)."
+  },
+  "coursera1|1|in use cases for rdbms, what is one of the reasons that relational databases are so well suited for online transaction processing (oltp) applications?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "RDBMS rất phù hợp cho OLTP (xử lý giao dịch trực tuyến) vì hỗ trợ thêm, sửa, xóa lượng dữ liệu nhỏ với tần suất cao và phản hồi nhanh."
+  },
+  "coursera1|1|the relational model stores data in tables, which allows for data independence. what type of data independence does it provide?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Relational Model lưu dữ liệu trong cấu trúc bảng, giúp tách biệt dữ liệu ở cả 3 mức: Logical data independence, Physical data independence và Physical storage independence."
+  },
+  "coursera1|1|in a relational data model, a primary key uniquely identifies each row in a table. what is the function of a foreign key?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Foreign Key vừa là tập cột tham chiếu đến Primary Key của bảng khác, vừa là cầu nối thuộc tính để JOIN các bảng liên quan với nhau."
+  },
+  "coursera1|1|you’re building a website for an online store. you need to store product information, customer details, and order history. which of the following best describes the role of a datab": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Cơ sở dữ liệu quan hệ là tập hợp các bảng có liên kết với nhau (như Products, Customers, Orders) để lưu trữ và truy xuất hiệu quả."
+  },
+  "coursera1|1|which of the following is the most significant advantage of an rdbms?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Tính tuân thủ ACID (Atomicity, Consistency, Isolation, Durability) là ưu điểm trọng tâm giúp RDBMS đảm bảo giao dịch an toàn và nhất quán."
+  },
+  "coursera1|1|in a library entity-relationship data model, a book is an example of _____, and the book’s title, edition, and publication date are examples of _______.": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Trong mô hình ER, thực thể (Entity — vd Book) ánh xạ thành bảng, còn các đặc tính (Attributes — title, edition, publication date) ánh xạ thành cột."
+  },
+  "coursera1|1|which of the following statements about a database is/are correct?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Database là tập hợp dữ liệu gắn kết logic và có ý nghĩa nội tại (không phải file rời rạc hay chỉ đọc; ngoài SQL còn có NoSQL)."
+  },
+  "coursera1|1|what is the key advantage of the relational model in databases?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Lợi thế cốt lõi của Relational Model là tính độc lập dữ liệu logic và vật lý (Logical & Physical data independence)."
+  },
+  "coursera1|1|what is the function of a predicate when reading and modifying data?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Predicate là điều kiện đánh giá True/False/Unknown, bắt buộc đi kèm mệnh đề WHERE để giới hạn tập kết quả trả về."
+  },
+  "coursera1|1|which of the following insert statements will add one row containing a student’s identification number, first name, and last name?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Cú pháp chuẩn của INSERT INTO: liệt kê đúng 3 tên cột `(STUDENT_ID, LASTNAME, FIRSTNAME)` khớp với 3 giá trị trong `VALUES (...)`."
+  },
+  "coursera1|1|you want to update a row in the student table to change a student’s first name from “kristen” to “christine.” what will happen if you leave out the where clause in the update state": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Nếu thiếu mệnh đề `WHERE` trong câu lệnh `UPDATE`, toàn bộ các dòng trong bảng `Student` đều bị cập nhật thành 'Christine'."
+  },
+  "coursera1|1|which expression below is used with a select statement to retrieve the number of rows that match the query criteria?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Hàm `COUNT` đếm số dòng thỏa mãn điều kiện truy vấn (còn `DISTINCT` loại trùng lặp, `LIMIT` giới hạn số dòng hiển thị)."
+  },
+  "coursera1|1|what is the correct syntax for inserting data into a table named members?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Số lượng và thứ tự cột `(MEMBER_ID, LASTNAME, FIRSTNAME)` phải khớp chính xác với 3 giá trị trong `VALUES`, không có phép gán `is`."
+  },
+  "coursera1|1|when using the delete statement to remove data from a database, what does the where clause do?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Trong `DELETE FROM ... WHERE ...`, mệnh đề `WHERE` xác định điều kiện lọc những dòng nào sẽ bị xóa khỏi bảng."
+  },
+  "coursera1|1|a single insert statement can be used to insert multiple rows in a table. true or false?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Đúng — chuẩn SQL cho phép chèn nhiều dòng trong một câu lệnh `INSERT INTO ... VALUES (...), (...);` (một số bản SQLite cũ không hỗ trợ)."
+  },
+  "coursera1|1|which select statement eliminates duplicates in the result set?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Từ khóa `DISTINCT` dùng để loại bỏ các giá trị trùng lặp khỏi tập kết quả trả về của câu lệnh `SELECT`."
+  },
+  "coursera1|1|the select statement is called a query, and the output we get from executing the query is called a result set. true or false?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Đúng — câu lệnh `SELECT` được gọi là một query, và kết quả trả về khi thực thi gọi là Result Set (hoặc Result Table)."
+  },
+  "coursera1|1|which attributes of columns in a table must always be defined in a create table statement?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Trong `CREATE TABLE`, mỗi cột bắt buộc phải có Tên cột (Name) và Kiểu dữ liệu (Datatype); các ràng buộc như `PRIMARY KEY` hay `NOT NULL` là tùy chọn."
+  },
+  "coursera1|1|what would you add to this select statement to sort the result set alphabetically by author’s last name? select title, lastname from author": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Mệnh đề `ORDER BY lastname` sắp xếp tập kết quả theo thứ tự bảng chữ cái của cột `lastname` (mặc định tăng dần `ASC`)."
+  },
+  "coursera1|1|what is the best definition of a join operator?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Toán tử `JOIN` kết hợp các dòng từ hai hay nhiều bảng dựa trên mối quan hệ qua một cột chung (thường là PK nối với FK)."
+  },
+  "coursera1|2|what does django map each field to in a database table?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Trong Django ORM, mỗi Model tương ứng một Table, mỗi Instance là một Row, và mỗi Field ánh xạ thành một Column trong database."
+  },
+  "coursera1|2|which of the following relationships between entities does django orm support?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Django ORM hỗ trợ đầy đủ 3 loại quan hệ chuẩn: One-to-One (`OneToOneField`), Many-to-One (`ForeignKey`), và Many-to-Many (`ManyToManyField`)."
+  },
+  "coursera1|2|which of the following explains how oop models entities?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Lập trình hướng đối tượng (OOP) mô hình hóa các thực thể bằng Classes (bản thiết kế) và Objects (thể hiện cụ thể)."
+  },
+  "coursera1|2|what can you use to perform actions on data in databases without writing sql queries?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Django Models API (như `.objects.all()`, `.filter()`, `.save()`, `.delete()`) cho phép thao tác dữ liệu mà không cần viết SQL trực tiếp."
+  },
+  "coursera1|2|which of the following terms defines when django only requires relationships to be defined on one side?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Khi bạn khai báo quan hệ tường minh ở một phía (gọi là Forward access), Django tự động sinh chiều truy cập ngược (Backward access)."
+  },
+  "coursera1|2|when you create an object (an instance of a class) in django, what does it represent?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Mỗi object (instance của một Model class) đại diện cho một dòng (row/record) trong bảng cơ sở dữ liệu tương ứng."
+  },
+  "coursera1|2|which of the following is a benefit of using orm?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Ưu điểm lớn nhất của ORM là tăng tốc độ phát triển ứng dụng nhờ thiết kế DB trực tiếp bằng class OOP (nhưng có thể khó debug hoặc giảm hiệu năng nhẹ)."
+  },
+  "coursera1|2|when you define a forward relationship between tables, which of the following does django automatically create?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Khi định nghĩa forward relationship ở một model, Django tự động tạo backward access (ví dụ `<model>_set`) ở model đích."
+  },
+  "coursera1|2|which of the following built-in features in django allows you to manage user accounts, including registration, login, and password management?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Hệ thống Authentication & Authorization tích hợp sẵn của Django xử lý trọn vẹn đăng ký, đăng nhập, mật khẩu và phân quyền."
+  },
+  "coursera1|2|which objects would you call the delete method on to delete records in a database?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Phương thức `.delete()` trong Django ORM có thể gọi trên một đối tượng Model đơn lẻ (`obj.delete()`) hoặc cả một `QuerySet`."
+  },
+  "coursera1|2|what are the two main components of an object in object-oriented analysis and design (ooad)?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Theo OOAD, mỗi Object gồm 2 thành phần chính: Data (thuộc tính/dữ liệu) và Behaviors (hành vi/phương thức)."
+  },
+  "coursera1|2|multi-table inheritance is like which of the following relationships?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Multi-table inheritance trong Django hoạt động giống quan hệ One-to-One ngầm định thông qua trường liên kết `<parent>_ptr`."
+  },
+  "coursera1|2|what is the main reason orm was invented?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "ORM ra đời để bắc cầu khoảng cách mô hình (impedance mismatch) giữa lập trình hướng đối tượng (OOP) và cơ sở dữ liệu quan hệ (SQL)."
+  },
+  "coursera1|2|django only requires that model relationships be defined on one side. what is this called?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Định nghĩa quan hệ tường minh ở một phía để truy cập sang phía kia gọi là Forward access."
+  },
+  "coursera1|2|which of the following items does django provide, allowing you to define your data models using python classes?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Lớp Object-Relational Mapping (ORM) của Django cho phép định nghĩa các bảng dữ liệu trực tiếp bằng Python classes."
+  },
+  "coursera1|3|mvc design pattern includes three components. which component routes requests?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Trong mô hình MVC, Controller là thành phần điều phối, tiếp nhận và định tuyến request giữa Model và View."
+  },
+  "coursera1|3|what do templates do in django?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Django Template chịu trách nhiệm định nghĩa cấu trúc và bố cục trình bày (HTML + tags/variables) cho đầu ra hiển thị trên trình duyệt."
+  },
+  "coursera1|3|after the core development work is done in django apps, what is one thing that could be done to facilitate app content management?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Django tích hợp sẵn Admin Site tự sinh theo Model để quản trị viên thêm/sửa/xóa nội dung mà không phải viết code giao diện quản lý từ đầu."
+  },
+  "coursera1|3|creating an admin user is one of the first steps when building a django admin site. what command would you use to do this in the django admin video?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Lệnh `python manage.py createsuperuser` dùng để tạo tài khoản quản trị cấp cao đăng nhập vào trang `/admin/`."
+  },
+  "coursera1|3|a view takes an http request and returns an http response. the http response can be a string, a json/xml file, or an html page with what response status?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Mỗi HTTP response trả về từ Django View đều đi kèm mã trạng thái (Success 2xx, Error 4xx/5xx, Informational 1xx...)."
+  },
+  "coursera1|3|what does the django template contain besides python code?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Django Template kết hợp các thẻ HTML tĩnh với Django template tags/variables (cú pháp Python đặc biệt) để sinh trang web động."
+  },
+  "coursera1|3|django creates three files after you’ve created a project. which of these files is a command interface that interacts with the django project?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "`manage.py` là giao diện dòng lệnh (CLI) giúp tương tác với project Django (`runserver`, `migrate`, `createsuperuser`...)."
+  },
+  "coursera1|3|for the online course example, when registering the course and instructor models in the django admin site, you would write and run “admin.site.register(course)” and what other code": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Trong ví dụ Online Course, ta đăng ký cả `Course` và `Instructor` vào `admin.py` bằng `admin.site.register(Instructor)`."
+  },
+  "coursera1|3|when you map a url to the course view, what file do you add path objects to?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Các đường dẫn URL (`path(...)`) được khai báo trong danh sách `urlpatterns` của file `urls.py`."
+  },
+  "coursera1|3|django template files display content such as course names and descriptions. how is the content displayed?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Django Template render context dữ liệu thành trang HTML chuẩn để trình duyệt hiển thị cho người dùng."
+  },
+  "coursera1|3|what is one difference between the django mvt and the mvc design pattern?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Khác biệt chính của Django MVT so với MVC: không có lớp Controller tách biệt do chính Django framework/server đảm nhiệm vai trò định tuyến Controller."
+  },
+  "coursera1|3|what two development tasks must be performed to manage and determine which data will be presented to the ui?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Trong giai đoạn phát triển lõi (Core Development), bạn cần mô hình hóa dữ liệu (`models.py`) và tạo views (`views.py`) để xác định dữ liệu hiển thị."
+  },
+  "coursera1|3|which command is used in the django admin video to start the server?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Lệnh `python manage.py runserver` khởi chạy web server phát triển cục bộ của Django (mặc định `127.0.0.1:8000`)."
+  },
+  "coursera1|3|django functions, like view, accept arguments as input and return something. typically, view needs an http request object as the first argument. what does this request object conta": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Tham số `request` (đối tượng `HttpRequest`) chứa các metadata chỉ đọc của HTTP request như method, headers, parameters và payload."
+  },
+  "coursera1|3|django template file structures sometimes have two files created with the same name. how do you ensure django points to the correct file?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Đặt template vào thư mục con trùng tên app (`templates/onlinecourse/...`) giúp tạo Namespace, tránh trùng tên file với app khác."
+  },
+  "coursera1|4|which of the following views was the initially implemented view in django?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Function-based view (FBV) là kiểu view đầu tiên của Django, viết bằng hàm Python thuần nhận `request` và trả về `HttpResponse`."
+  },
+  "coursera1|4|which of the following describes the authentication process?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Authentication là quá trình xác thực danh tính người dùng (qua username/password, SSO, OTP...), trước bước Authorization kiểm tra quyền."
+  },
+  "coursera1|4|bootstrap is a free web front-end framework that helps develop web apps. what does it provide django?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Bootstrap cung cấp sẵn các lớp CSS và mẫu HTML responsive (navbar, card, table, form) giúp thiết kế template Django nhanh chóng."
+  },
+  "coursera1|4|what does django use namespacing for when you add static files to an app?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Đặt static file trong `static/<app_name>/` tạo namespacing để Django phân biệt các file trùng tên giữa nhiều app khác nhau."
+  },
+  "coursera1|4|when django developers run a runserver command, what does it start?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "`python manage.py runserver` chỉ khởi chạy một web server tối giản cho môi trường phát triển, không dùng cho production."
+  },
+  "coursera1|4|django class-based view must be mapped with a url pattern, almost like configuring the url for the function-based view. the only difference is you need to specify which of the foll": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Khi gắn Class-based view vào `urls.py`, bắt buộc phải gọi phương thức `.as_view()` (vd `CourseView.as_view()`) để trả về callable."
+  },
+  "coursera1|4|a username and password can be received from a user via a login html template. which http method sends the username or password to the online course log in view to authenticate the": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Form đăng nhập gửi thông tin nhạy cảm (username, password) lên server qua phương thức `POST` (không gửi lộ trên URL như `GET`)."
+  },
+  "coursera1|4|in the bootstrap integration video, a course index page is designed that contains courses represented as cards. the multiple course cards are then added to a container. how are the": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Trong Bootstrap, nhiều thẻ `.card` khóa học được bọc trong `.card-deck` để tạo lưới card đều chiều cao và chiều rộng."
+  },
+  "coursera1|4|django provides a default static files app that collects all static files in a single directory. when you deploy your app to a production web server, you can move all static files ": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Sau khi cấu hình `STATIC_ROOT` và `STATIC_URL`, bước cuối trước khi deploy là chạy `python manage.py collectstatic` để gom toàn bộ static file vào một thư mục."
+  },
+  "coursera1|4|asgi is a web server interface that django apps support. what is the main difference between wsgi and asgi?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "WSGI chỉ hỗ trợ xử lý đồng bộ (synchronous), còn ASGI hỗ trợ cả bất đồng bộ (asynchronous, WebSockets) lẫn đồng bộ."
+  },
+  "coursera1|4|which type of view was created for django to address the extensibility and reusability of views?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Class-based view (CBV) ra đời nhằm khắc phục hạn chế khó mở rộng và tái sử dụng của Function-based view."
+  },
+  "coursera1|4|does authorization occur before, after, or during the authentication process?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Authorization (kiểm tra quyền truy cập tài nguyên) luôn diễn ra SAU khi Authentication (xác thực danh tính) thành công."
+  },
+  "coursera1|4|how can you use bootstrap css-style classes without manually downloading and importing them?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Cách nhanh nhất không cần tải Bootstrap về máy là gắn thẻ `<link>` trỏ tới CDN chính thức của Bootstrap trong phần `<head>` của template."
+  },
+  "coursera1|4|django apps can have app-specific static files and external static files. where do you define the directories for external static files, so that you can find them?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Các thư mục chứa static files dùng chung bên ngoài app được khai báo trong danh sách `STATICFILES_DIRS` của `settings.py`."
+  },
+  "coursera1|4|wsgi is the primary python standard for communicating between web servers and applications. to make django apps work with wsgi, the start project command creates a file that declar": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Lệnh `startproject` tự tạo file `wsgi.py` chứa đối tượng `application` làm điểm vào chuẩn cho các WSGI server (Gunicorn, uWSGI)."
+  },
+  "coursera2|1|what are the building blocks of html called?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Elements (phần tử HTML, gồm thẻ mở, nội dung và thẻ đóng) là các khối xây dựng cơ bản nhất của một trang HTML."
+  },
+  "coursera2|1|which tag is used to provide keywords for search engines?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Thẻ `<meta>` trong `<head>` dùng để khai báo metadata như từ khóa (`keywords`), mô tả trang (`description`), charset cho công cụ tìm kiếm."
+  },
+  "coursera2|1|fill in the blank: in html5, ______________ allow you to run processing intensive tasks without blocking the user interface.": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "HTML5 Web Workers cho phép chạy các tác vụ tính toán nặng ở luồng nền mà không làm đơ giao diện người dùng (UI thread)."
+  },
+  "coursera2|1|how do you properly recreate the following table using html code? date language 2014 html5 1999 css3 1995 javascript": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Bảng HTML chuẩn gồm `<table>`, mỗi hàng là `<tr>`, hàng tiêu đề dùng `<th>` (`Date`, `Language`), các hàng dữ liệu dùng `<td>`."
+  },
+  "coursera2|1|which of the following statements about document.images is correct?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "`document.images` là một thuộc tính của HTML Document API / DOM trả về tập hợp tất cả phần tử `<img>` có trong tài liệu."
+  },
+  "coursera2|1|your client wants to add a company logo to the homepage using the image path ‘assets/logo.png’. which html tag embeds this image?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Thẻ `<img>` với thuộc tính `src` dùng để nhúng ảnh vào trang web (`<img>` là empty/void element, không dùng thẻ đóng `</img>` hay `href`)."
+  },
+  "coursera2|1|which of the following are the standard bodies in html5 development?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "HTML5 được phát triển thông qua sự hợp tác giữa W3C và WHATWG bắt đầu từ năm 2007."
+  },
+  "coursera2|1|a developer wants to add media features to the web application. why is html5 specifically suitable for this task?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "HTML5 cung cấp sẵn thẻ markup (`<video>`, `<audio>`) và API lưu trữ mà không cần cài plugin ngoài như Flash."
+  },
+  "coursera2|1|a student is editing an html file and wants to add comments that won’t show on the webpage. which syntax should they use?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Cú pháp comment chuẩn trong HTML là `<!-- nội dung comment -->`, trình duyệt sẽ bỏ qua không hiển thị."
+  },
+  "coursera2|1|a software development company wants to build a rich, interactive website that provides consistent behavior for both mobile and desktop computers. which html5 capabilities will the": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "HTML5 được thiết kế để hỗ trợ tương thích đa thiết bị (cross-device compatibility) từ máy tính để bàn đến thiết bị di động."
+  },
+  "coursera2|1|a web developer wants to ensure that their web app runs smoothly across devices with modern browsers while using built-in support for video and structured page layout. which of the": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "HTML5 tích hợp sẵn hỗ trợ video/media gốc và các thẻ ngữ nghĩa giúp cấu trúc trang nhất quán trên các trình duyệt hiện đại."
+  },
+  "coursera2|1|what is the <br> tag used for?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Thẻ `<br>` (Line Break) tạo dấu xuống dòng đơn trong văn bản HTML."
+  },
+  "coursera2|1|which of the following javascript methods should you leverage to build a web form, where you want to retrieve the value entered by a user in a specific text field after clicking a ": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Phương thức DOM `document.getElementById('...')` lấy phần tử theo ID duy nhất để đọc `.value` của ô nhập liệu (trong đáp án gốc bị lỗi chính tả nhẹ `getElementByld`)."
+  },
+  "coursera2|1|you want to test a web form that includes an input type=\"date\" field. when you open this form in microsoft edge, you see spinning boxes to select the date. which of the following d": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Microsoft Edge hỗ trợ sẵn `<input type=\"date\">` nên hiển thị giao diện chọn ngày (spinning boxes / date picker) trực tiếp."
+  },
+  "coursera2|1|which of the following conditions must be met to enable scripting in browsers?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Scripting chỉ hoạt động khi trình duyệt hỗ trợ scripting và người dùng không tắt tính năng script trong ngữ cảnh trình duyệt."
+  },
+  "coursera2|2|what makes a style sheet “cascading”?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Thuật ngữ 'Cascading' (xếp tầng) thể hiện cơ chế thừa kế và phân cấp ưu tiên: phần tử con kế thừa style từ phần tử cha trừ khi bị ghi đè."
+  },
+  "coursera2|2|which of the following describes a utility-first framework? select all that apply.": {
+    "correct_indices": [
+      1,
+      2,
+      3
+    ],
+    "explanation": "Utility-first framework (như Tailwind CSS) cung cấp các utility class ánh xạ trực tiếp thuộc tính CSS, cho phép tùy biến tự do nhưng làm HTML dài/nhiều class hơn (không cung cấp sẵn component phức tạp như Bootstrap)."
+  },
+  "coursera2|2|which of the following tags is used to separate areas in a document?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Thẻ `<div>` là thẻ container chung dùng để phân chia các vùng/khối giao diện trong tài liệu HTML."
+  },
+  "coursera2|2|what type of element is <article>?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "`<article>` là một thẻ ngữ nghĩa (semantic element) của HTML5 biểu diễn nội dung độc lập, có nghĩa riêng."
+  },
+  "coursera2|2|which tag is used to specify self-contained content like an image, illustration, or diagram?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Thẻ `<figure>` dùng để bọc nội dung độc lập như hình ảnh, biểu đồ, sơ đồ minh họa (thường đi kèm `<figcaption>`)."
+  },
+  "coursera2|2|ryan, a web developer, is troubleshooting a webpage where an external css file does not apply the expected styles. on checking, he noticed that some elements have styles defined us": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Thứ tự ưu tiên CSS cao nhất (không tính `!important`) là Inline CSS viết trực tiếp trong thuộc tính `style` của thẻ HTML, sau đó mới đến Internal và External CSS."
+  },
+  "coursera2|2|which of the following statements accurately describes the behavior of fixed and fluid layouts? select all that apply.": {
+    "correct_indices": [
+      0,
+      1
+    ],
+    "explanation": "Fluid layout dùng đơn vị tương đối (`%`, `em`, `rem`) để co giãn linh hoạt theo màn hình; còn Fixed layout dùng kích thước cố định (`px`) không đổi theo thiết bị."
+  },
+  "coursera2|2|a web designer has inserted input type= “email” in a form; however, the form still accepts the value like “hello@com” without any error. what is missing in this scenario?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Dù có `type=\"email\"`, nếu form vẫn nhận giá trị sai chuẩn hoặc trình duyệt không chặn submit cần kiểm tra lại định dạng email hợp lệ (`user@domain.tld`) và fallback validation."
+  },
+  "coursera2|2|you are working on a responsive web design using a css framework and need to apply styles based on different states, such as hover or focus. to achieve this, you use a modifier. wh": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Modifier class trong CSS framework là lớp bổ trợ dùng để điều chỉnh giao diện của phần tử theo trạng thái/biến thể cụ thể (vd kích thước, màu sắc, hover/focus)."
+  },
+  "coursera2|2|you want to create a document page with different themed parts, each with its own heading. what html5 tag should you use to group related content with a common theme?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Thẻ `<section>` dùng để nhóm các nội dung liên quan theo từng chủ đề/phần trong tài liệu, thường đi kèm một thẻ heading."
+  },
+  "coursera2|2|in a web form, you are asking users to enter their age, limited to 5 to 25 years only. which html5 attributes has the developer used to limit the age field?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "`<input type=\"number\" min=\"5\" max=\"25\">` giới hạn người dùng nhập số tuổi trong khoảng từ 5 đến 25."
+  },
+  "coursera2|2|a startup is considering using bootstrap for its new e-commerce platform. what limitations should they be aware of when adopting this component framework?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Nhược điểm của component framework như Bootstrap là các thành phần dựng sẵn dễ làm giao diện giống nhau và bị giới hạn khả năng tùy biến thiết kế."
+  },
+  "coursera2|2|which tag is used to represent an independent item of content in a document, which can be meaningful on its own?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "`<article>` đại diện cho một đơn vị nội dung độc lập, hoàn chỉnh (như bài blog, tin tức, bình luận) có thể tách riêng mà vẫn giữ nguyên ý nghĩa."
+  },
+  "coursera2|2|you are creating a structure for a webpage and want it to be accessible and indexable by search engines. which technology should you use?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "HTML ngữ nghĩa (Semantic HTML) là nền tảng giúp trình đọc màn hình tiếp cận tốt (accessibility) và công cụ tìm kiếm (SEO) lập chỉ mục chính xác."
+  },
+  "coursera2|2|sana wants to add a standalone image in the blog post with accompanying text related to the main content that exists independently. which of the html5 elements should sana use to g": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Thẻ `<figure>` dùng để nhóm hình ảnh độc lập kèm chú thích (`<figcaption>`) liên quan đến nội dung chính."
+  },
+  "coursera2|3|why is javascript considered an important part of web development?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "JavaScript giúp trang web tương tác và phản hồi linh hoạt bằng cách cập nhật động nội dung DOM mà không cần tải lại toàn bộ trang."
+  },
+  "coursera2|3|which of the following is true about let and const in javascript?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Trong ES6, `let` có phạm vi block-scope (có thể gán lại), còn `const` cũng block-scope nhưng không cho phép gán lại biến sau khi khởi tạo."
+  },
+  "coursera2|3|what is the primary difference between parameterized and non-parameterized functions in javascript?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Hàm có tham số (parameterized) nhận đối số truyền vào khi gọi, còn hàm không tham số (non-parameterized) thực thi mà không cần đối số."
+  },
+  "coursera2|3|which of the following statements is the correct way to include a script in an html?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Cú pháp chuẩn để nhúng file JavaScript ngoài vào HTML là `<script src=\"/source/script.js\"></script>`."
+  },
+  "coursera2|3|true or false: 10car is a valid variable name in javascript.": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Sai (False) — Tên biến trong JavaScript không được bắt đầu bằng chữ số (`10car` là không hợp lệ)."
+  },
+  "coursera2|3|what javascript function would you use to retrieve all elements with a specified tag name from a web page?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "`document.getElementsByTagName()` trả về danh sách các phần tử khớp với tên thẻ HTML truyền vào."
+  },
+  "coursera2|3|what is the purpose of the <noscript> tag in an html document?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Thẻ `<noscript>` hiển thị nội dung thay thế khi trình duyệt của người dùng không hỗ trợ hoặc đã tắt JavaScript."
+  },
+  "coursera2|3|which of the following is a recommended best practice when working with javascript?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Một best practice kinh điển để tối ưu vòng lặp JS là lưu giá trị `.length` của mảng vào biến trước khi chạy vòng lặp thay vì đọc lại ở mỗi bước."
+  },
+  "coursera2|3|what is the proper way to access a form field named field1 inside a form named form1?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Để truy cập phần tử `field1` nằm trong form `form1`, dùng cú pháp DOM `document.forms[\"form1\"].elements[\"field1\"]`."
+  },
+  "coursera2|3|which of the following is the correct integer value representation for a text_node type in the dom?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Trong chuẩn DOM Node Type: `ELEMENT_NODE = 1`, `ATTRIBUTE_NODE = 2`, `TEXT_NODE = 3`, `COMMENT_NODE = 8`."
+  },
+  "coursera2|3|which of the following is not a method javascript uses to display or output information to users?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "JavaScript chạy ở phía trình duyệt (client-side) nên không thể tự động thay đổi trực tiếp các file HTML nằm trên server."
+  },
+  "coursera2|3|your task is to identify why a javascript function returns either a number or a string depending on its inputs. which of the following is a correct statement for this?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "JavaScript là ngôn ngữ kiểu động (dynamically typed), hàm không cần khai báo kiểu trả về cố định và tự thích ứng theo kiểu dữ liệu đầu vào."
+  },
+  "coursera2|3|a developer applies a red border to a <div> element with the id “example_id” using javascript. which of the following functions should he use to retrieve this element?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "`document.getElementById(\"example_id\")` là phương thức chuẩn để truy xuất đúng phần tử có `id=\"example_id\"`."
+  },
+  "coursera2|3|when creating a function expression in javascript, what must you do?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Function Expression được tạo bằng cách gán một biểu thức hàm (thường là hàm ẩn danh) vào một biến (vd `const fn = function() {}`)."
+  },
+  "coursera2|3|what is the value of ‘total’ after the following statement is executed? var total = 10 + 1 + “3”;": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "JavaScript tính từ trái sang phải: `10 + 1` cho ra số `11`, sau đó `11 + \"3\"` nối chuỗi thành `\"113\"`."
+  },
+  "coursera2|3|cristy is reviewing a dom tree in a browser’s developer tools; a node is labeled with the value eight and contains a descriptive message not rendered on the page. which type of nod": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Node có `nodeType === 8` trong cây DOM chính là Comment node (`<!-- ... -->`), không được hiển thị lên giao diện."
+  },
+  "coursera2|3|which array method would you use if you want to calculate the sum of all order prices in an array?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Phương thức `Array.prototype.reduce()` gộp toàn bộ phần tử trong mảng thành một giá trị duy nhất (như tính tổng giá đơn hàng)."
+  },
+  "coursera2|3|kevin is working with javascript objects and wants to add a color property to his custom “house” object. which of the following are valid ways to do this? select all that apply.": {
+    "correct_indices": [
+      0,
+      1
+    ],
+    "explanation": "Trong JS, có thể gán trực tiếp thuộc tính lên đối tượng (`House.color = \"Beige\"`) hoặc thêm lên `House.prototype.color` để chia sẻ cho các thể hiện."
+  },
+  "coursera2|3|which of the following javascript functions will you use to change the text and formatting inside a div element dynamically?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Thuộc tính `element.innerHTML` cho phép đọc và thay đổi cả nội dung chữ lẫn thẻ HTML định dạng bên trong phần tử."
+  },
+  "coursera2|3|which keyword would you use to declare a variable that cannot be reassigned after its initial value is set?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Từ khóa `const` dùng để khai báo hằng/biến không thể gán lại giá trị mới sau khi đã khởi tạo."
+  },
+  "coursera3|1|which of the following options do you use to request someone to review and approve your project changes before they become final?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Pull Request (PR) là cơ chế trên GitHub để đề xuất thay đổi từ nhánh của bạn, mời đồng đội review và duyệt trước khi merge vào nhánh chính."
+  },
+  "coursera3|1|what is the primary purpose of version control?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Mục đích chính của hệ thống quản lý phiên bản (Version Control) là theo dõi toàn bộ lịch sử thay đổi của mã nguồn/tài liệu qua thời gian."
+  },
+  "coursera3|1|which of the following is a feature of the git repository model?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Git là hệ thống quản lý phiên bản phân tán (Distributed Version Control System — DVCS): mỗi lập trình viên có bản sao đầy đủ cả lịch sử repo trên máy."
+  },
+  "coursera3|1|what is an “organization” in reference to github?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Trên GitHub, Organization là tài khoản dùng chung chứa tập hợp nhiều thành viên/tài khoản cá nhân cùng sở hữu và phân quyền trên các repository."
+  },
+  "coursera3|1|how will you create a python file in github?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Quy trình tạo file mới trên giao diện GitHub UI: chọn `Add file` > `Create new file` > đặt tên file > nhập mô tả commit > viết code > `Commit changes`."
+  },
+  "coursera3|1|which of the following does the main branch store?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Nhánh `main` lưu trữ phiên bản mã nguồn ổn định, sẵn sàng triển khai (deployable) của dự án."
+  },
+  "coursera3|1|which of the following best describes the function of a pull request?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Pull Request giúp công khai các commit bạn đề xuất để người khác xem xét (review), thảo luận và merge vào nhánh chính (`main`)."
+  },
+  "coursera3|1|identify the correct statement.": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Nhánh con (child branch) hoàn toàn độc lập: bạn có thể thêm/sửa file trên nhánh con mà không làm ảnh hưởng đến nhánh `main` cho đến khi merge."
+  },
+  "coursera3|1|what is the relation between git and github?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Git là công cụ dòng lệnh/hệ thống version control phân tán chạy cục bộ, còn GitHub là dịch vụ lưu trữ (hosting) trực tuyến cho các Git repository."
+  },
+  "coursera3|1|which of the following describes a repository?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Repository (kho chứa) là cấu trúc dữ liệu lưu trữ toàn bộ mã nguồn, tài liệu và lịch sử thay đổi (snapshots/commits) của dự án."
+  },
+  "coursera3|1|what is the purpose of a license?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "File `LICENSE` (như MIT, Apache 2.0) quy định rõ quyền và điều kiện mà người khác được phép sử dụng, sửa đổi hoặc phân phối mã nguồn của bạn."
+  },
+  "coursera3|1|what is the role of “commit” in github?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Lệnh/thao tác `commit` ghi lại (lưu) một snapshot các thay đổi đã staged vào lịch sử của repository kèm thông điệp mô tả."
+  },
+  "coursera3|1|what type of version control system is git?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Git là hệ thống quản lý phiên bản phân tán (Distributed), không phụ thuộc hoàn toàn vào máy chủ trung tâm như Centralized VCS (SVN)."
+  },
+  "coursera3|1|which of the following statements is associated with a working directory?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Working Directory là thư mục làm việc trên máy tính cá nhân chứa các file và thư mục con hiện hành gắn với Git repository."
+  },
+  "coursera3|1|what happens if you make a change on a repository branch that you don't own?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Khi bạn chỉnh sửa một nhánh thuộc repository mà bạn không sở hữu trực tiếp (thông qua fork), GitHub sẽ tạo một Pull Request để chủ repo xem xét."
+  },
+  "coursera3|2|what is meant by an initial commit in a git workflow?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Initial commit là lần ghi nhận trạng thái đầu tiên của các file dự án vào local Git repository."
+  },
+  "coursera3|2|which git command allows you to see the state of your working directory and the staged snapshot of your changes?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "`git status` hiển thị trạng thái hiện tại của working directory và staging area (file nào đã stage, file nào chưa theo dõi/chưa commit)."
+  },
+  "coursera3|2|why do you fork a project?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Fork tạo một bản sao độc lập của repository người khác sang tài khoản GitHub của bạn để làm nền tảng phát triển riêng hoặc đóng góp qua PR."
+  },
+  "coursera3|2|which of the following options should be used to fork a repository?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Fork là tính năng của nền tảng GitHub (không phải lệnh Git CLI): vào trang dự án trên GitHub và nhấn nút `Fork` ở góc trên."
+  },
+  "coursera3|2|which git command can an integrator use to undo any botched commits?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "`git revert <commit>` tạo một commit mới đảo ngược lại thay đổi của commit bị lỗi mà vẫn giữ sạch lịch sử (an toàn hơn `reset` trên nhánh chung)."
+  },
+  "coursera3|2|you need to run three commands to push local changes to the github repository. which command will you use when your changes are ready to be moved to the github repository?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Sau khi `git add` và `git commit -m`, dùng `git push` để đẩy các commit từ máy cục bộ lên remote repository trên GitHub."
+  },
+  "coursera3|2|what are three commonly used commands for working with remote repositories?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Ba lệnh làm việc với remote repository phổ biến nhất là `git push` (đẩy lên), `git pull` (kéo & gộp về) và `git fetch` (tải metadata/commit về nhưng chưa gộp)."
+  },
+  "coursera3|2|when managing forks, which command can you use to fetch and merge the remote branch in a single step?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "`git pull <upstream>` thực hiện đồng thời `git fetch` và `git merge` trong một bước duy nhất để cập nhật nhánh hiện tại theo repo gốc."
+  },
+  "coursera3|2|which of the following commands is used to make a branch active?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "`git checkout <branch>` (hoặc `git switch`) chuyển con trỏ HEAD sang nhánh chỉ định để biến nhánh đó thành nhánh đang hoạt động."
+  },
+  "coursera3|2|which command can a developer use to keep up-to-date with the upstream?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Để đồng bộ thường xuyên với `upstream` (repo gốc), developer dùng `git fetch <upstream>` (kiểm tra trước) và `git pull <upstream>` (kéo & gộp)."
+  },
+  "coursera3|2|in git workflow, which step involves creating a separate workspace for making changes and developing features without interfering with the main codebase?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Trong Git workflow chuẩn, bạn luôn tạo một nhánh mới từ `main` để làm việc độc lập cho tính năng mới mà không làm hỏng code chính."
+  },
+  "coursera3|2|which of the following commands helps you to view the commit history?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "`git log` hiển thị lịch sử các commit đã thực hiện trong repository theo thứ tự thời gian."
+  },
+  "coursera4|1|which statement best explains the purpose of jsx in react?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "JSX (JavaScript XML) cho phép viết cú pháp giống thẻ HTML trực tiếp bên trong mã JavaScript để mô tả giao diện React."
+  },
+  "coursera4|1|what defines the primary difference between a library and a framework in web development?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Thư viện (Library — như React) cung cấp các hàm/công cụ để bạn chủ động gọi dùng, còn Framework (như Angular) áp đặt kiến trúc và luồng điều khiển tổng thể."
+  },
+  "coursera4|1|how does the vite tool differ from the create react app (cra) tool?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Vite dùng native ES modules trong dev nên khởi động server và HMR nhanh hơn vượt trội so với Create React App (CRA dùng Webpack)."
+  },
+  "coursera4|1|which feature of react allows you to encapsulate a part of the ui into a reusable piece?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Components cho phép đóng gói một phần giao diện (UI) kèm logic thành khối độc lập, có thể tái sử dụng ở nhiều nơi."
+  },
+  "coursera4|1|what is the primary purpose of the create react app (cra) tool in react development?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Create React App (CRA) là công cụ CLI giúp dựng sẵn bộ khung dự án React với cấu hình Babel/Webpack tiêu chuẩn."
+  },
+  "coursera4|1|which of the following best describes ecmascript 6 (es6)?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "ECMAScript 6 (ES6 / ES2015) là đặc tả chuẩn hóa bổ sung hàng loạt tính năng hiện đại cho JavaScript như `let/const`, arrow function, class, modules, Promise."
+  },
+  "coursera4|1|how does the vite tool benefit react developers when creating projects?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Vite tăng tốc đáng kể trải nghiệm phát triển React nhờ cơ chế Hot Module Replacement (HMR) gần như tức thì khi sửa code."
+  },
+  "coursera4|1|what is a key advantage of using react compared to angular and vue according to developer preferences?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Ưu thế lớn của React là cộng đồng đông đảo và hệ sinh thái thư viện phong phú (Router, Redux, UI kits...)."
+  },
+  "coursera4|1|which of the following best describes the significance of ecmascript 6 (es6) in javascript?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "ES6 mang đến cú pháp và tính năng mới hiện đại hóa JavaScript, làm nền tảng cho mọi ứng dụng React ngày nay."
+  },
+  "coursera4|1|what is one of the primary benefits of using jsx in react applications?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Lợi ích trực tiếp nhất của JSX là viết cấu trúc HTML khai báo ngay trong JavaScript, giúp code UI trực quan và dễ bảo trì."
+  },
+  "coursera4|1|in react, what distinguishes a class component from a functional component?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Trong React truyền thống, Class component dùng `this.state` và lifecycle methods, còn Function component quản lý state và side effects bằng Hooks."
+  },
+  "coursera4|1|what is the primary use of state in react class components?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "State lưu trữ dữ liệu động nội bộ thay đổi theo thời gian của component; mỗi khi state đổi (qua `setState`/`useState`), React tự động re-render UI."
+  },
+  "coursera4|1|what is a key difference between state and props in react components?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "State là dữ liệu nội bộ có thể thay đổi (mutable qua setter) do component tự quản lý; còn Props là dữ liệu chỉ đọc (immutable) truyền từ cha xuống con."
+  },
+  "coursera4|1|which of the following is used to define a class component in react?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Class component trong React được định nghĩa bằng cách kế thừa từ lớp `React.Component` (`class MyComp extends React.Component`)."
+  },
+  "coursera4|1|which method is used to pass data from a parent component to a child component in react?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Dữ liệu từ component cha truyền xuống component con theo luồng một chiều thông qua `props`."
+  },
+  "coursera4|1|what are the lifecycle phases of a react component?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "4 pha vòng đời của một React component gồm: Initialization, Mounting (gắn vào DOM), Updating (cập nhật) và Unmounting (gỡ khỏi DOM)."
+  },
+  "coursera4|1|what is the main role of the componentdidmount lifecycle method in react?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "`componentDidMount()` chạy ngay sau khi component được gắn (mounted) vào DOM thật — thích hợp để gọi API hoặc đăng ký event."
+  },
+  "coursera4|1|what is the purpose of the render method in a react class component?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Phương thức `render()` trong Class component bắt buộc trả về JSX mô tả giao diện sẽ hiển thị lên màn hình."
+  },
+  "coursera4|1|what is a key difference between states and props in react components?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Quy tắc cốt lõi của React: `props` là bất biến (immutable) ở phía nhận, còn `state` có thể thay đổi được (mutable) qua `setState`."
+  },
+  "coursera4|1|which of the following best describes the difference between state and props in a react component?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "State dùng để quản lý dữ liệu động bên trong chính component, trong khi Props dùng để truyền dữ liệu từ cha sang con."
+  },
+  "coursera4|1|which of the following describes jsx?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "JSX là viết tắt của JavaScript XML — phần mở rộng cú pháp cho phép viết cấu trúc giống HTML/XML trong JavaScript."
+  },
+  "coursera4|1|what tool quickly sets up a new react project with current features like fast refresh and current module replacement?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Vite là build tool hiện đại hỗ trợ Fast Refresh / HMR cực nhanh cho các dự án React mới."
+  },
+  "coursera4|1|which describes \"one-way binding\" in react?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "One-way data binding (luồng dữ liệu một chiều) nghĩa là dữ liệu chỉ truyền từ component cha xuống các component con qua props."
+  },
+  "coursera4|1|what role does a virtual dom have in react?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Virtual DOM giúp React so sánh (diffing) cây DOM ảo với bản cũ và chỉ cập nhật đúng những phần thay đổi nhỏ nhất trên DOM thật."
+  },
+  "coursera4|1|how does react send data from one class component to another?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "React truyền dữ liệu giữa các component (từ cha xuống con) thông qua `props`."
+  },
+  "coursera4|1|in addition to componentdidmount(), which method does react invoke to mount a class component?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Trong pha Mounting của Class component, ngoài `render()` và `componentDidMount()`, React gọi `getDerivedStateFromProps()` trước khi render."
+  },
+  "coursera4|1|which method does react call when updating props to reflect that update in the component's state?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Trong pha Updating khi nhận props mới, React gọi `static getDerivedStateFromProps(props, state)` nếu cần đồng bộ state từ props."
+  },
+  "coursera4|1|what happens in react when you attempt to change a state object directly?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Nếu sửa trực tiếp `this.state.x = ...` (mutate trực tiếp) mà không gọi `setState()`, React không phát hiện thay đổi và không re-render UI."
+  },
+  "coursera4|1|which type of syntax does react use to update how the ui should behave when data or states change?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "React sử dụng phong cách lập trình Khai báo (Declarative): bạn mô tả UI trông như thế nào ứng với từng state, React tự lo việc cập nhật DOM."
+  },
+  "coursera4|1|which of the following shows jsx syntax?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "JSX yêu cầu một hàm component phải có lệnh `return (...)` và trả về duy nhất một phần tử gốc (dùng Fragment `<>...</>` để bọc nhiều thẻ)."
+  },
+  "coursera4|2|how do props contribute to component composition in building complex uis?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Props cho phép tùy biến hành vi và giao diện của cùng một component khi kết hợp chúng lại để xây dựng UI phức tạp (Component Composition)."
+  },
+  "coursera4|2|which component composition principle focuses on making reusable components that encapsulate ui features?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Nguyên lý Reusability trong component composition tập trung tạo các component đóng gói tính năng UI độc lập để tái sử dụng nhiều nơi."
+  },
+  "coursera4|2|how is the state managed in function components in react?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Trong Function component, state nội bộ được quản lý bằng Hook `useState`."
+  },
+  "coursera4|2|which phase of the functional component's lifecycle involves responding to changes in the component's state or props and reinvoking the function body?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Pha Updating xảy ra khi `state` hoặc `props` thay đổi, khiến React gọi lại thân hàm (re-invoke) để tính toán JSX mới."
+  },
+  "coursera4|2|which two phases of functional component's lifecycle are involved in initializing the component and ensuring that errors don't crash the entire application?": {
+    "correct_indices": [
+      1,
+      2
+    ],
+    "explanation": "Pha Mounting đảm nhiệm khởi tạo và gắn component lên DOM lần đầu, còn pha Error-handling (Error Boundary) ngăn lỗi ở một nhánh UI làm sập toàn bộ app."
+  },
+  "coursera4|2|in javascript, what method should you use to add new items to the end of an array?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Phương thức `arr.push()` thêm một hoặc nhiều phần tử vào cuối mảng JavaScript (còn `pop()` xóa cuối, `shift()`/`unshift()` thao tác ở đầu mảng)."
+  },
+  "coursera4|2|how do you access the first element of an array in javascript?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Mảng JavaScript đánh chỉ mục từ 0 (zero-based index), nên phần tử đầu tiên luôn là `arr[0]`."
+  },
+  "coursera4|2|in react, what method would you commonly use to render lists of elements dynamically?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Trong React, `array.map()` được dùng phổ biến nhất để biến đổi mảng dữ liệu thành danh sách các phần tử JSX (kèm thuộc tính `key`)."
+  },
+  "coursera4|2|how does react quickly update the dom when props or state changes?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "React dùng Virtual DOM để tính toán tập thay đổi tối thiểu (diffing) trước khi áp dụng hàng loạt vào DOM thật."
+  },
+  "coursera4|2|which of these is true about react's virtual dom?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Virtual DOM là một bản biểu diễn nhẹ nằm trong bộ nhớ (in-memory representation) của DOM thật."
+  },
+  "coursera4|2|which of the following function component principles helps you identify errors well?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Unidirectional data flow (luồng dữ liệu một chiều) giúp dễ lần theo nguồn gốc dữ liệu đi qua ứng dụng và nhanh chóng phát hiện vị trí phát sinh lỗi."
+  },
+  "coursera4|2|what purpose does higher-order function component composition serve?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Higher-Order Component (HOC) là kỹ thuật nhận vào một component và trả về component mới được bổ sung thêm tính năng mà không cần viết lại code gốc."
+  },
+  "coursera4|2|how does the hierarchy principle benefit component organization in react?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Nguyên lý Hierarchy (phân cấp cha–con) tổ chức giao diện thành các module rõ ràng, dễ quản lý và mở rộng."
+  },
+  "coursera4|2|which hook function should you use to update the user's name from \"marie\" to \"marie torres\" in react?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Với `const [name, setName] = useState(...)`, để cập nhật giá trị state `name`, ta gọi hàm setter `setName(\"Marie Torres\")`."
+  },
+  "coursera4|2|if you allow users to collapse or expand a section for better readability, which approach would provide the best user experience to control screen clutter?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Tạo một component riêng có nút toggle (kết hợp state ẩn/hiện) giúp tách bạch logic thu gọn/mở rộng và giảm rối màn hình."
+  },
+  "coursera4|2|which phase of a functional component's lifecycle does react use to initialize a component and prepare it for rendering on the dom?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Mounting phase là giai đoạn React khởi tạo component và gắn kết quả render đầu tiên vào DOM."
+  },
+  "coursera4|2|examine the following code: useeffect(() => { fetch('https://api.example.com/products') .then(response => response.json()) .then(data => setproducts(data)) .catch(error => console.": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Truyền mảng rỗng `[]` làm dependency array cho `useEffect` báo hiệu hiệu ứng chỉ chạy đúng 1 lần sau khi component mount (lý tưởng để fetch dữ liệu ban đầu)."
+  },
+  "coursera4|2|which of the following methods directly removes elements from an array by modifying the original array?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "`splice()` chỉnh sửa trực tiếp mảng gốc (mutate) để xóa/chèn phần tử; ngược lại `filter()`, `slice()`, `map()` đều trả về mảng mới."
+  },
+  "coursera4|2|which of the following can you use to provide additional data about an html element?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Attributes (thuộc tính HTML như `id`, `class`, `href`, `data-*`) cung cấp thông tin/cấu hình bổ sung cho thẻ HTML."
+  },
+  "coursera4|2|which key benefit of react's virtual dom enables efficient updates?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Lợi ích hiệu năng then chốt của Virtual DOM là chỉ re-render đúng những component/nút DOM thực sự có dữ liệu thay đổi."
+  },
+  "coursera4|3|when using the useeffect hook, what happens if you pass an empty array ([]) as the dependency list?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Khi truyền `[]` cho `useEffect(fn, [])`, callback chỉ chạy một lần duy nhất ngay sau lần render đầu tiên (mount)."
+  },
+  "coursera4|3|which hook would you recommend to manage side effects?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Hook `useEffect` được thiết kế chuyên biệt để xử lý side effects trong Function component (gọi API, timer, event listener...)."
+  },
+  "coursera4|3|why would you need to create a custom hook?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Custom Hook (bắt đầu bằng `use...`) cho phép trích xuất và tái sử dụng logic có trạng thái (stateful logic) giữa nhiều component khác nhau."
+  },
+  "coursera4|3|which hook would you recommend for making http requests within react functional components?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Để thực hiện HTTP request khi component tải hoặc khi dữ liệu phụ thuộc đổi, ta đặt lệnh gọi API bên trong hook `useEffect`."
+  },
+  "coursera4|3|which of the following is a standard method used to fetch data from an external api?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Fetch API (`fetch(...)`) là chuẩn tích hợp sẵn trong mọi trình duyệt hiện đại để gọi API bất đồng bộ (ngoài ra Axios là thư viện bên thứ ba rất phổ biến)."
+  },
+  "coursera4|3|what is redux primarily used for in react applications?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Redux là thư viện quản lý trạng thái tập trung (Application State Management) giúp chia sẻ dữ liệu xuyên suốt nhiều component mà không cần prop drilling."
+  },
+  "coursera4|3|what is a benefit of using redux in application development?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Nhờ luồng dữ liệu một chiều, state bất biến và pure reducer, Redux giúp dự đoán chính xác sự thay đổi trạng thái (predictable state)."
+  },
+  "coursera4|3|what architectural elements does redux primarily use to manage an application's states?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Kiến trúc cốt lõi của Redux dựa trên 3 thành phần: Actions (mô tả sự kiện), Store (kho lưu trữ duy nhất) và Reducers (hàm thuần cập nhật state)."
+  },
+  "coursera4|3|which of the following accurately describes the role of reducers in redux?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Reducer là pure function có dạng `(currentState, action) => newState`: nhận trạng thái hiện tại và action để trả về trạng thái mới bất biến."
+  },
+  "coursera4|3|which two main types of middleware commonly handle asynchronous operations in redux?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Hai middleware phổ biến nhất để xử lý bất đồng bộ (gọi API) trong Redux là Redux Thunk và Redux Saga."
+  },
+  "coursera4|3|what hook can you use to manage a form's state in react?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Hook `useState` dùng để lưu và cập nhật giá trị các trường nhập liệu trong form React (Controlled Component)."
+  },
+  "coursera4|3|which hook should you use to handle asynchronous logic in functional components?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "`useEffect` dùng để chạy các tác vụ bất đồng bộ và side effects bên trong Function component."
+  },
+  "coursera4|3|how can you trigger an effect to run only once after the initial render in a functional component?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Sử dụng `useEffect(..., [])` với dependency array rỗng giúp effect chỉ kích hoạt một lần sau khi render lần đầu."
+  },
+  "coursera4|3|how can you handle form submission in react?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Trong React, việc gửi biểu mẫu được xử lý bằng sự kiện `onSubmit` gắn trên thẻ `<form>` (thường gọi kèm `e.preventDefault()`)."
+  },
+  "coursera4|3|how can you handle user input in a controlled component in react?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Ở Controlled Component, mỗi khi người dùng gõ phím, sự kiện `onChange` kích hoạt để cập nhật giá trị mới vào React state."
+  },
+  "coursera4|3|what is an advantage of using redux thunk middleware?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Ưu điểm của Redux Thunk là đơn giản, ít boilerplate code hơn Saga, đủ gọn nhẹ cho hầu hết tác vụ gọi API bất đồng bộ."
+  },
+  "coursera4|3|what is redux toolkit primarily used for?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Redux Toolkit (RTK) là bộ công cụ chính thức nhằm loại bỏ boilerplate code rườm rà của Redux truyền thống."
+  },
+  "coursera4|3|which function from the redux toolkit consolidates redux setup logic into a single function call?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "`configureStore()` gộp toàn bộ cấu hình Store (root reducer, Thunk middleware, DevTools) vào một lệnh gọi duy nhất."
+  },
+  "coursera4|3|what is the purpose of a redux slice?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Redux Slice (`createSlice`) chia nhỏ state toàn cục của ứng dụng thành từng phần theo tính năng (vd `cartSlice`) kèm reducer và action creator riêng."
+  },
+  "coursera4|3|which middleware is commonly used with redux to handle asynchronous actions and side effects?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Redux Thunk là middleware mặc định và phổ biến nhất (tích hợp sẵn trong RTK) để viết các action bất đồng bộ."
+  },
+  "coursera5|1|what is docker?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Docker là một nền tảng mã nguồn mở dùng để phát triển, đóng gói (shipping) và chạy ứng dụng bên trong các container."
+  },
+  "coursera5|1|what does an image name consist of?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Tên đầy đủ của một container image gồm 3 phần: `<hostname>/<repository>:<tag>` (ví dụ `us.icr.io/namespace/guestbook:v1`)."
+  },
+  "coursera5|1|what is a container?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Container là đơn vị phần mềm tiêu chuẩn đóng gói mã nguồn cùng toàn bộ dependencies để ứng dụng chạy đồng nhất trên mọi môi trường."
+  },
+  "coursera5|1|what are the three parts of the docker architecture?": {
+    "correct_indices": [
+      1,
+      2,
+      3
+    ],
+    "explanation": "Kiến trúc Docker gồm 3 thành phần chính: Client (Docker CLI), Host (Docker daemon + images/containers) và Registry (kho lưu trữ image)."
+  },
+  "coursera5|1|what are some of the traits of containers?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Container tiết kiệm cả thời gian triển khai lẫn chi phí hạ tầng, đồng thời nâng cao hiệu suất khai thác tài nguyên phần cứng (utilization)."
+  },
+  "coursera5|1|what are the steps used to create and run containers?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Quy trình chuẩn của Docker: viết `Dockerfile` → dùng `docker build` tạo Container Image → dùng `docker run` khởi chạy Container."
+  },
+  "coursera5|1|what is the function of the docker ‘run’ command?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Lệnh `docker run` tạo và khởi chạy một container thực thi từ container image chỉ định."
+  },
+  "coursera5|1|what applications are a good fit for docker?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Docker đặc biệt phù hợp với các ứng dụng cần khả năng mở rộng linh hoạt (flexible scaling) và tính di động (portability) giữa các môi trường."
+  },
+  "coursera5|1|what is a docker container?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Docker container là một thực thể đang chạy (runnable instance) được tạo ra từ một Docker image (vốn là template chỉ đọc)."
+  },
+  "coursera5|1|do containers have to be on a specific operating system or platform?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Không bị bó buộc vào một OS duy nhất — container chạy được trên nhiều hệ điều hành và nền tảng hạ tầng khác nhau (Linux, Windows, Cloud...)."
+  },
+  "coursera5|1|what are three parts of docker’s underlying technology?": {
+    "correct_indices": [
+      0,
+      2,
+      3
+    ],
+    "explanation": "Công nghệ nền tảng của Docker được viết bằng ngôn ngữ Go, sử dụng các tính năng nhân Linux (Linux kernel features) như Namespaces và cgroups."
+  },
+  "coursera5|1|what does the docker client-server architecture provide?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Kiến trúc client-server của Docker cung cấp môi trường ứng dụng cô lập, nhất quán để build, ship và run container."
+  },
+  "coursera5|1|what are volumes and bind mounts used for in docker?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Container vốn có filesystem tạm thời; Volumes và Bind Mounts được dùng để lưu trữ dữ liệu bền vững (persisting data) bên ngoài vòng đời container."
+  },
+  "coursera5|1|how are digital containers like shipping containers?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Giống container hàng hải, container phần mềm chuẩn hóa kích thước và đặc tả đóng gói nên có thể vận chuyển mượt mà giữa mọi hạ tầng."
+  },
+  "coursera5|1|what docker features create a container image?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Lệnh `docker build` đọc các chỉ thị trong `Dockerfile` để đóng gói tạo thành một container image."
+  },
+  "coursera5|2|what is a kubernetes cluster?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Kubernetes Cluster là một cụm gồm các node (control plane + worker nodes) phối hợp để chạy các ứng dụng container hóa."
+  },
+  "coursera5|2|what are three examples of kubernetes objects?": {
+    "correct_indices": [
+      1,
+      2,
+      3
+    ],
+    "explanation": "Pods, ReplicaSets và Namespaces đều là các Kubernetes Objects (còn Containers chạy *bên trong* Pod chứ không phải Kubernetes object độc lập)."
+  },
+  "coursera5|2|what is kubernetes?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Kubernetes (K8s) là nền tảng điều phối container (container orchestration) mã nguồn mở hàng đầu để tự động hóa deploy, scale và quản lý container."
+  },
+  "coursera5|2|what languages are used to create the container orchestration configuration file?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Các file cấu hình khai báo (declarative manifest) trong Kubernetes được viết bằng YAML hoặc JSON."
+  },
+  "coursera5|2|what is the function of a clusterip service?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "ClusterIP Service cấp một địa chỉ IP nội bộ trong cluster để các dịch vụ giao tiếp nội bộ với nhau (không mở trực tiếp ra bên ngoài)."
+  },
+  "coursera5|2|what is automated bin packing?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Automated bin packing là khả năng Kubernetes tự động sắp xếp container lên các node dựa vào nhu cầu tài nguyên CPU/RAM và ràng buộc sẵn sàng cao."
+  },
+  "coursera5|2|what component of a worker node ensures containers are running as desired?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "`kubelet` là agent chạy trên mỗi worker node, nhận PodSpecs từ Control Plane và đảm bảo các container trong Pod luôn chạy đúng trạng thái mong muốn."
+  },
+  "coursera5|2|what are three kubernetes capabilities?": {
+    "correct_indices": [
+      0,
+      2,
+      3
+    ],
+    "explanation": "Các khả năng cốt lõi của Kubernetes gồm: Automated rollouts & rollbacks, Secret & configuration management, và Storage orchestration (K8s không tích hợp sẵn hệ thống CI/CD hoàn chỉnh)."
+  },
+  "coursera5|2|in what three environments can container orchestration be implemented?": {
+    "correct_indices": [
+      0,
+      2,
+      3
+    ],
+    "explanation": "Container orchestration có thể triển khai trên cả hạ tầng tại chỗ (on-premises), Private Cloud lẫn Public Cloud (không phải chỉ trên một thiết bị đơn lẻ)."
+  },
+  "coursera5|2|what does a control plane do?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Control Plane (API server, etcd, scheduler, controller-manager) duy trì trạng thái mong muốn của Cluster bằng cách ra quyết định và phản ứng với sự kiện."
+  },
+  "coursera5|2|what is kubectl?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "`kubectl` là công cụ dòng lệnh (CLI) chính thức dùng để tương tác và quản trị Kubernetes cluster."
+  },
+  "coursera5|2|what is a label?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Label là cặp `key: value` gắn lên các Kubernetes object (Pod, Service...) để phân loại, lọc và kết nối qua Selector."
+  },
+  "coursera5|2|what kubernetes object should be used for stateless applications?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Đối với ứng dụng phi trạng thái (stateless), dùng đối tượng `Deployment` (quản lý ReplicaSets và rolling updates); còn ứng dụng có trạng thái dùng `StatefulSet`."
+  },
+  "coursera5|2|what is the most popular container orchestration tool used as of 2022?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Kubernetes là công cụ điều phối container phổ biến nhất hiện nay (vượt xa Docker Swarm, Mesos/Marathon, Nomad)."
+  },
+  "coursera5|2|what is the function of an external name service?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "ExternalName Service ánh xạ tên service trong cluster sang một tên miền DNS bên ngoài (CNAME record)."
+  },
+  "coursera5|3|what rollout command do you use to implement a rollback to a previous version in kubernetes?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Lệnh `kubectl rollout undo deployment/<name>` dùng để khôi phục (rollback) Deployment về phiên bản revision trước đó."
+  },
+  "coursera5|3|which three statements about configmaps are correct?": {
+    "correct_indices": [
+      0,
+      2,
+      3
+    ],
+    "explanation": "ConfigMap lưu dữ liệu cấu hình không nhạy cảm dạng key-value (không mã hóa, không dùng cho mật khẩu) cho Pods/Deployments và giới hạn kích thước tối đa 1 MB."
+  },
+  "coursera5|3|what kubernetes object adds or deletes pods for scaling and redundancy?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "`ReplicaSet` đảm bảo luôn có đúng số lượng Pod replicas như đã khai báo bằng cách tạo thêm hoặc xóa bớt Pod."
+  },
+  "coursera5|3|what are the autoscaling types in kubernetes?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Kubernetes cung cấp 3 loại autoscaling: Horizontal Pod Autoscaler (HPA), Vertical Pod Autoscaler (VPA) và Cluster Autoscaler (CA)."
+  },
+  "coursera5|3|what is service binding?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Service binding kết nối ứng dụng trên cluster với các dịch vụ hậu cần bên ngoài (databases, REST APIs, message bus) và tự động cấp credentials."
+  },
+  "coursera5|3|what are the three required steps to bind the ibm cloud service to your cluster?": {
+    "correct_indices": [
+      0,
+      2,
+      3
+    ],
+    "explanation": "Quy trình 3 bước bind IBM Cloud Service vào Cluster: (1) Provision instance của Service, (2) Bind Service vào Cluster để sinh credentials, (3) Cấu hình app đọc credentials đó."
+  },
+  "coursera5|3|which rolling update types ensure 100% app availability?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Cập nhật/rollback lần lượt từng Pod (one-at-a-time rolling update) giữ cho các Pod còn lại luôn phục vụ traffic → đảm bảo 100% app availability."
+  },
+  "coursera5|3|what are three ways to create a configmap?": {
+    "correct_indices": [
+      0,
+      1,
+      3
+    ],
+    "explanation": "3 cách tạo ConfigMap: từ string literals (`--from-literal`), từ file properties (`--from-file` / `--from-env-file`), hoặc từ file YAML descriptor."
+  },
+  "coursera5|3|what does a configmap do?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "ConfigMap cung cấp các biến/file cấu hình không nhạy cảm cho ứng dụng tách biệt khỏi container image."
+  },
+  "coursera5|3|which kubernetes autoscaler type scales the cluster?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Cluster Autoscaler (CA) tự động tăng/giảm số lượng Worker Node trong toàn bộ Kubernetes Cluster khi Pod thiếu tài nguyên hoặc node rảnh."
+  },
+  "coursera5|3|how do you create a replicaset from scratch?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Để tạo ReplicaSet từ đầu, viết file YAML khai báo `kind: ReplicaSet` rồi áp dụng bằng `kubectl apply -f ...`."
+  },
+  "coursera5|3|what does service binding do?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Service binding quản lý tập trung cấu hình và thông tin đăng nhập (credentials) cho backend services nhằm bảo vệ dữ liệu nhạy cảm."
+  },
+  "coursera5|3|how do you prepare your application to enable rolling updates?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Gắn `livenessProbe` và `readinessProbe` giúp Kubernetes biết chính xác khi nào Pod mới sẵn sàng nhận traffic trước khi tắt Pod cũ trong lúc rolling update."
+  },
+  "coursera5|3|what are three ways to create a secret?": {
+    "correct_indices": [
+      0,
+      1,
+      3
+    ],
+    "explanation": "Theo bài giảng *ConfigMaps and Secrets*, 3 cách tạo/sử dụng Secret được nhấn mạnh là: string literal, biến môi trường (environment variables) và volume mounts (không dùng ConfigMap YAML descriptor)."
+  },
+  "coursera5|4|what is a valid istio feature?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Istio cung cấp 4 chỉ số vàng giám sát giao tiếp giữa các service: Latency (độ trễ), Traffic (lưu lượng), Errors (lỗi) và Saturation (độ bão hòa)."
+  },
+  "coursera5|4|what are three functions of a service mesh?": {
+    "correct_indices": [
+      1,
+      2,
+      3
+    ],
+    "explanation": "Service Mesh đảm nhiệm 3 chức năng cốt lõi: quản lý luồng traffic (traffic management), mã hóa giao tiếp giữa các service (mTLS), và thu thập metrics quan sát (observability)."
+  },
+  "coursera5|4|what are three true statements about red hat openshift?": {
+    "correct_indices": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Red Hat OpenShift quản lý triển khai hybrid/multi-cloud/edge, tự động hóa vận hành full-stack & vòng đời build-to-CI/CD; nó dùng `oc` CLI (tương thích mở rộng trên `kubectl`)."
+  },
+  "coursera5|4|what are three examples of build input sources?": {
+    "correct_indices": [
+      0,
+      1,
+      3
+    ],
+    "explanation": "Theo bài *Builds*, các Build input sources gồm: inline Dockerfile definitions, input Secrets, external artifacts, Git repos, binary payloads và existing images (không phải Pods)."
+  },
+  "coursera5|4|what do operators provide?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Kubernetes Operators đóng gói tri thức vận hành tự động (cài đặt, nâng cấp lặp lại, health check) và tích hợp sẵn với API và CLI của Kubernetes (các lựa chọn về metrics/enforcement thuộc Istio)."
+  },
+  "coursera5|4|what are the two features of an imagestream?": {
+    "correct_indices": [
+      1,
+      2
+    ],
+    "explanation": "ImageStream có 2 tính năng chính: (1) theo dõi và cập nhật con trỏ tham chiếu tới container images, (2) cung cấp trigger tự động build/deploy khi có phiên bản image mới."
+  },
+  "coursera5|4|what are the three build triggers used in openshift?": {
+    "correct_indices": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "OpenShift hỗ trợ 3 loại Build trigger: Webhook (GitHub/Generic), Image change (khi base image cập nhật) và Configuration change (khi BuildConfig mới được tạo)."
+  },
+  "coursera5|4|which three statements are true?": {
+    "correct_indices": [
+      0,
+      1,
+      3
+    ],
+    "explanation": "`oc` CLI cho phép làm việc trực tiếp với source code bằng script, quản trị khi mạng chậm/không có web console và tự động hóa các thao tác OpenShift (`oc` bao gồm đầy đủ năng lực của `kubectl`)."
+  },
+  "coursera5|4|what packages, deploys, and manages native apps in kubernetes?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Operator (kết hợp CRD + Custom Controller) dùng để đóng gói, triển khai và quản lý tự động các ứng dụng phức tạp trên Kubernetes."
+  },
+  "coursera5|4|what strategy was red hat openshift designed for?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Red Hat OpenShift được thiết kế cho chiến lược Hybrid Cloud (chạy nhất quán cả on-premises, private cloud và public cloud)."
+  },
+  "coursera5|4|what provides traffic management to control the flow of traffic between services?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Service Mesh (như Istio) là lớp hạ tầng chuyên biệt điều khiển lưu lượng (traffic management), định tuyến và bảo mật giữa các microservices."
+  },
+  "coursera5|4|what three processes are performed by the operator framework tool set?": {
+    "correct_indices": [
+      1,
+      2,
+      3
+    ],
+    "explanation": "Bộ công cụ Operator Framework hỗ trợ 3 công đoạn: Coding (Operator SDK), Testing và Packaging/Delivery (Operator Lifecycle Manager & Hub)."
+  },
+  "coursera5|4|what are the three features of custom resource definitions (crds)?": {
+    "correct_indices": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Custom Resource Definitions (CRDs) mở rộng chức năng Kubernetes, giúp API Kubernetes module hóa hơn và có thể thao tác trực tiếp bằng `kubectl`."
+  },
+  "coursera5|4|in istio, what handles communication between services?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Trong kiến trúc Istio, Data Plane (các Envoy sidecar proxy) trực tiếp xử lý, chuyển tiếp và mã hóa giao tiếp giữa các service; Control Plane quản lý cấu hình và policy."
+  },
+  "coursera5|4|what are three added features that openshift provides?": {
+    "correct_indices": [
+      0,
+      2,
+      3
+    ],
+    "explanation": "OpenShift bổ sung trải nghiệm người dùng tốt hơn (Developer/Admin Web Console), giải pháp networking sẵn dùng (Routes/OVN) và quản lý image tốt hơn qua ImageStreams."
+  },
+  "coursera6|1|twelve factor methodology expects the processes to be: select two answers.": {
+    "correct_indices": [
+      2,
+      3
+    ],
+    "explanation": "Theo Twelve-Factor App (Factor 6 — Processes), mọi tiến trình ứng dụng phải là stateless và share-nothing; dữ liệu bền vững bắt buộc lưu tập trung ở backing service (database)."
+  },
+  "coursera6|1|in a microservices architecture you should segregate services based on ______": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Trong kiến trúc Microservices, các dịch vụ được phân tách (segregate) theo chức năng nghiệp vụ (Functional requirements / Bounded Context)."
+  },
+  "coursera6|1|soa components are:": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Các thành phần trong kiến trúc hướng dịch vụ (SOA) có đặc điểm nổi bật là có thể tái sử dụng (Reusable) bởi nhiều ứng dụng tiêu thụ khác nhau."
+  },
+  "coursera6|1|single page application (spa): select two answers:": {
+    "correct_indices": [
+      0,
+      1
+    ],
+    "explanation": "Single Page Application (SPA) được xây bằng HTML, CSS, JavaScript và cập nhật giao diện động qua các lời gọi tới dịch vụ REST backend mà không cần load lại trang."
+  },
+  "coursera6|1|microservices should have:": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Microservices cần tự động hóa quy trình triển khai (CI/CD) và giám sát tập trung (monitoring) để quản lý hàng chục dịch vụ độc lập hiệu quả."
+  },
+  "coursera6|1|which phase of the twelve-factor methodology contains port binding?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Port Binding (Factor 7) nằm trong giai đoạn Deploy (Triển khai) của chu trình phát triển Twelve-Factor."
+  },
+  "coursera6|1|what makes an application concurrent?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Theo Factor 9 (Disposability) và Concurrency, ứng dụng dễ nhân bản song song (concurrent) cần có thời gian khởi động tối thiểu (minimal process start time) và tắt êm."
+  },
+  "coursera6|1|in a microservice architecture, you can": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Mỗi microservice hoàn toàn độc lập nên bạn có thể chọn công nghệ/ngôn ngữ lập trình khác nhau (polyglot) tối ưu nhất cho từng service."
+  },
+  "coursera6|1|select the correct answer that completes this sentence: monolith application has __________ components.": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Ứng dụng Monolith có các thành phần gắn kết chặt chẽ với nhau (interconnected) trong cùng một tiến trình triển khai duy nhất."
+  },
+  "coursera6|1|which component of services design in an soa architecture defines how the service provider and service consumer should interact?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Trong SOA, Contract (hợp đồng dịch vụ) quy định chuẩn mực giao tiếp mà service provider và service consumer phải tuân theo."
+  },
+  "coursera6|1|what is the purpose of backend for frontend?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Mẫu Backend for Frontend (BFF) tạo các gateway/backend riêng cho từng loại thiết bị (web, mobile) để tối ưu trải nghiệm người dùng (customized UX)."
+  },
+  "coursera6|1|what is the purpose of the strangler pattern?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Strangler Pattern giúp chuyển đổi dần ứng dụng Monolith sang Microservices theo từng giai đoạn (refactoring in stages) bằng cách thay thế từng chức năng một."
+  },
+  "coursera6|1|larger services should be broken into smaller services when:": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Nên tách một service lớn thành các service nhỏ hơn khi mô hình dữ liệu chung (common data model) trở nên quá cồng kềnh, phức tạp."
+  },
+  "coursera6|1|what is the requirement of microservices?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Mỗi microservice phải có kho lưu trữ dữ liệu độc lập (independent storage / database-per-service) để tránh phụ thuộc chéo vào schema."
+  },
+  "coursera6|1|what is the requirement of a development and production environment?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Theo Factor 10 (Dev/Prod Parity), môi trường dev và production phải giữ tương đồng về backing services (database, cache, queue) để tránh lỗi bất ngờ khi deploy."
+  },
+  "coursera6|2|which http method and endpoint should be used to get a resource from a rest endpoint?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Theo chuẩn RESTful API, để lấy thông tin một tài nguyên cụ thể (sản phẩm ID 145), dùng `GET /products/145` (định danh tài nguyên bằng path URI)."
+  },
+  "coursera6|2|which microservice identifies the users on the platform?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Authentication Service chịu trách nhiệm xác thực và định danh người dùng trên nền tảng microservices."
+  },
+  "coursera6|2|what does an openapi specification define?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Đặc tả OpenAPI (Swagger) định nghĩa chuẩn mô tả đầy đủ các endpoints, phương thức HTTP, tham số và định dạng phản hồi mà API hỗ trợ."
+  },
+  "coursera6|2|what is a key feature of postman?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Postman là công cụ phổ biến cho phép gửi request, kiểm thử (test APIs), quản lý collection và kiểm tra response của REST/GraphQL API."
+  },
+  "coursera6|2|what is the scipy library in python used for?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "SciPy là thư viện Python chuyên dụng cho tính toán khoa học và tính toán số (scientific and numeric computing)."
+  },
+  "coursera6|2|what are the key characteristics of a restful api? select two answers.": {
+    "correct_indices": [
+      0,
+      1
+    ],
+    "explanation": "Hai đặc trưng cốt lõi của RESTful API là giao tiếp phi trạng thái (stateless) giữa client–server và vận hành trên giao thức chuẩn HTTP."
+  },
+  "coursera6|2|what does an api gateway act as?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "API Gateway đóng vai trò như lớp quản lý API trung tâm (API management tool): định tuyến, xác thực, rate limiting và tổng hợp phản hồi."
+  },
+  "coursera6|2|which syntax is used to make an update request to a product rest api?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Theo chuẩn REST, cập nhật tài nguyên hiện có dùng phương thức `PUT /products/114` với dữ liệu sản phẩm mới truyền trong phần thân (request body)."
+  },
+  "coursera6|2|which type of framework is flask?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Flask là một micro web framework nhẹ của Python, rất phù hợp để xây dựng các microservice và REST API gọn gàng."
+  },
+  "coursera6|2|which one of the following statements is true about communication in a restful api?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Trong kiến trúc REST, mỗi tài nguyên (resource) được định danh duy nhất thông qua một URI endpoint riêng biệt (và giao tiếp hoàn toàn phi trạng thái)."
+  },
+  "coursera6|2|what are the potential drawbacks of an api gateway? select two answers.": {
+    "correct_indices": [
+      0,
+      3
+    ],
+    "explanation": "Hai nhược điểm tiềm ẩn của API Gateway là trở thành điểm lỗi đơn (Single Point of Failure) và nút thắt cổ chai khi mở rộng (Bottleneck in scalability) nếu không cấu hình dự phòng."
+  },
+  "coursera6|2|which specification is followed by swagger?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Swagger tuân theo chuẩn đặc tả OpenAPI Specification để tự động sinh tài liệu tương tác và test endpoint."
+  },
+  "coursera6|2|which curl command should be used to query a list of products?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Để lấy danh sách sản phẩm từ endpoint `/products`, dùng phương thức HTTP `GET`: `curl -X 'GET' 'http://127.0.0.1:5000/products' -H 'accept: application/json'`."
+  },
+  "coursera6|2|which http method is used to create new data in a rest api?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Trong chuẩn RESTful API, phương thức HTTP `POST` được dùng để tạo mới (Create) tài nguyên trên server."
+  },
+  "coursera6|2|what is the purpose of postman?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Postman được dùng chủ yếu để gửi request và kiểm thử API (Tests APIs) trong quá trình phát triển và QA."
+  },
+  "coursera6|3|a serverless computer is a combination of which of the following services? select two answers.": {
+    "correct_indices": [
+      2,
+      3
+    ],
+    "explanation": "Mô hình Serverless là sự kết hợp giữa Function-as-a-Service (FaaS — chạy hàm theo sự kiện) và Backend-as-a-Service (BaaS — dịch vụ DB/Auth quản lý sẵn)."
+  },
+  "coursera6|3|which of the following is a benefit of a serverless computing model?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Lợi ích nổi bật của Serverless là mô hình trả tiền theo đúng mức sử dụng thực tế (pay-per-use / pay-for-execution), không tốn phí khi hệ thống rảnh."
+  },
+  "coursera6|3|which service is provided by function-as-a-service or faas, a cloud computing service?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "FaaS (Function-as-a-Service, như AWS Lambda, Cloud Functions) thực thi các đoạn mã hàm một cách tự động để phản hồi lại các sự kiện (events)."
+  },
+  "coursera6|3|which language writes serverless framework?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Serverless Framework ban đầu được viết bằng Node.js (JavaScript) để đóng gói và triển khai các hàm lên AWS Lambda, Azure, GCP."
+  },
+  "coursera6|3|how can you utilize serverless reference architecture for an event streaming use case? select two answers.": {
+    "correct_indices": [
+      2,
+      3
+    ],
+    "explanation": "Trong kiến trúc tham chiếu Event Streaming của Serverless, hàm được kích hoạt từ các pub-sub topics/event logs để xử lý dữ liệu và cập nhật kho dữ liệu phụ hoặc bộ nhớ đệm (caches)."
+  },
+  "coursera6|3|cloud native computing foundation (cncf) defines ‘serverless’ as the concept of building and running applications that do not require _______ management.": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Theo CNCF, Serverless là mô hình xây dựng và vận hành ứng dụng mà lập trình viên không cần phải quản lý máy chủ (server management)."
+  },
+  "coursera6|3|cloud provider is responsible for which of the following components in the serverless model? select three answers.": {
+    "correct_indices": [
+      0,
+      1,
+      3
+    ],
+    "explanation": "Trong mô hình Serverless, nhà cung cấp đám mây (Cloud Provider) quản lý toàn bộ hệ điều hành (OS), mạng (Network) và lưu trữ (Storage); bạn chỉ lo phần mã nguồn Application."
+  },
+  "coursera6|3|___________ is a serverless computing constraint.": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Một hạn chế phổ biến của Serverless là nguy cơ phụ thuộc vào nhà cung cấp (Vendor lock-in) do phụ thuộc API và trigger đặc thù của từng nền tảng cloud."
+  },
+  "coursera6|3|managing which one of the following is your responsibility in a serverless computing model?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Trong Serverless, nhà phát triển chỉ cần chịu trách nhiệm viết và bảo trì mã nguồn ứng dụng (Code); OS, phần cứng và hạ tầng triển khai do Cloud Provider lo."
+  },
+  "coursera6|3|which one is the key characteristic of a function in faas model?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Đặc trưng cốt lõi của hàm FaaS là tự động mở rộng hoặc thu hẹp về 0 một cách độc lập (scale automatically and independently) theo lượng sự kiện đến."
+  },
+  "coursera6|3|a _________ is an independent unit of execution and deployment in the serverless framework.": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Trong Serverless Framework, `Function` là đơn vị thực thi và triển khai độc lập nhỏ nhất (tương ứng một microservice/handler nhỏ)."
+  },
+  "coursera6|3|what is the responsibility of the front end in a serverless architecture?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Trong Serverless Reference Architecture, tầng Front End lưu trữ nội dung tĩnh (HTML/CSS/JS) và script giao diện (thường đặt trên Object Storage + CDN)."
+  },
+  "coursera6|3|which is an example of post-processing in the serverless reference architecture?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Ví dụ điển hình của hậu xử lý (post-processing) trong Serverless là áp dụng AI/nhận diện ảnh hoặc resize ảnh tự động sau khi người dùng upload ảnh."
+  },
+  "coursera6|3|which is the key characteristic of ibm cloud functions?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "IBM Cloud Functions mang lại khả năng chạy sự kiện hiệu quả chi phí (Cost-Effective — chỉ trả khi chạy) và tính sẵn sàng cao (Highly Available)."
+  },
+  "coursera6|3|the knative platform is offered by which service provider?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Knative là nền tảng mã nguồn mở (open-source) chạy trên Kubernetes để xây dựng và vận hành các workload Serverless (và là lõi của IBM Cloud Code Engine)."
+  },
+  "coursera6|4|which of the following is a challenge of deploying microservices?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Khi tự triển khai microservices, một thách thức lớn là phải cấu hình định tuyến, cân bằng tải và tạo các URL công khai (publicly accessible entry points) an toàn cho từng service."
+  },
+  "coursera6|4|which of the following statements about ibm cloud code engine project and application is correct?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Project trong IBM Cloud Code Engine đóng vai trò như namespace: bạn có thể tạo nhiều project khác nhau và đặt tên ứng dụng trùng nhau ở 2 project khác nhau."
+  },
+  "coursera6|4|which of the following is a feature of containers?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Container có tính di động cao, cô lập dependencies gọn nhẹ nên cực kỳ phù hợp với kiến trúc microservices."
+  },
+  "coursera6|4|which are the two main interfaces to deploy applications on ibm cloud code engine?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Hai giao diện chính để triển khai ứng dụng lên IBM Cloud Code Engine là giao diện web IBM Cloud Console và dòng lệnh IBM Cloud CLI (`ibmcloud ce`)."
+  },
+  "coursera6|4|which is a feature of code engine jobs?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Code Engine Jobs được thiết kế cho các tác vụ chạy một lần đến khi hoàn tất (one-time/batch execution) chứ không mở web endpoint chạy thường trực."
+  },
+  "coursera6|4|what is the main benefit of using paas, such as ibm cloud code engine, to deploy your microservices?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Lợi ích lớn nhất của PaaS/Serverless như IBM Cloud Code Engine là quản lý trọn gói hạ tầng deploy, build và auto-scale với công sức tối thiểu."
+  },
+  "coursera6|4|what are the three deployment modes of ibm cloud code engine?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "IBM Cloud Code Engine hỗ trợ 3 chế độ: (1) Build & deploy từ source code, (2) Deploy từ container image sẵn có, và (3) Chạy Jobs xử lý batch."
+  },
+  "coursera6|4|which of the following statement is correct about code engine project and application?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Code Engine Project hoạt động như một namespace độc lập, cho phép chứa nhiều app và thậm chí có thể trùng tên app giữa các project khác nhau."
+  },
+  "coursera6|4|what are the two main application-building methods supported in ibm cloud code engine?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "IBM Cloud Code Engine hỗ trợ 2 phương thức build container image chính từ source code: dùng `Dockerfile` hoặc dùng Cloud Native `Buildpack`."
+  },
+  "coursera6|4|what is the role of docker in container technology?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Docker là nền tảng phần mềm dùng để đóng gói (build) và vận hành (run) ứng dụng dưới dạng các container nhất quán."
+  },
+  "coursera6|4|what is normally the first command of a dockerfile?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Lệnh đầu tiên trong một `Dockerfile` tiêu chuẩn là `FROM` nhằm chỉ định base image làm nền tảng."
+  },
+  "coursera6|4|what is a container registry?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Container Registry (như Docker Hub, IBM Cloud Container Registry) là kho lưu trữ, quản lý và phân phối các container image đã được push lên."
+  },
+  "coursera6|4|once your microservice or web application is deployed, how can you test it?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Sau khi deploy ứng dụng lên IBM Cloud Code Engine thành công, nền tảng cấp ngay một URL công khai (HTTPS) để bạn truy cập và kiểm thử dịch vụ."
+  },
+  "coursera6|4|what is the correct ibm cloud cli command to create and deploy an application?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Cú pháp chuẩn của IBM Cloud Code Engine CLI để tạo app từ container image: `ibmcloud ce app create --name <app> --image <image_url> --registry-secret <secret>`."
+  },
+  "coursera6|4|which method is used by the ibm cloud code engine to access your container image?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "IBM Cloud Code Engine có thể kéo container image từ cả public registry (như Docker Hub) lẫn private registry (thông qua `--registry-secret`)."
+  },
+  "coursera6|6|red hat openshift is a kubernetes application platform. where can red hat openshift run?": {
+    "correct_indices": [
+      0,
+      1,
+      3
+    ],
+    "explanation": "Red Hat OpenShift là nền tảng hybrid-cloud chạy nhất quán trên cả on-premises, private cloud và public cloud (không giới hạn riêng hạ tầng Red Hat)."
+  },
+  "coursera6|6|which of the following are features provided by istio?": {
+    "correct_indices": [
+      1,
+      2,
+      3
+    ],
+    "explanation": "Istio (Service Mesh) cung cấp mã hóa lưu lượng giữa các service (mTLS), quản lý điều hướng traffic và khả năng quan sát (observability — metrics/tracing)."
+  },
+  "coursera6|6|what job does openshift create to automatically build microservices into containers?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Trong kiến trúc CI/CD cổ điển của OpenShift được giới thiệu trong bài học, OpenShift tạo Jenkins job để tự động build microservices thành container."
+  },
+  "coursera6|6|what does openshift do with the built containers?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Sau khi build xong các container image, OpenShift tự động triển khai chúng lên cụm (cluster) để chạy phục vụ traffic."
+  },
+  "coursera6|6|what are the main resources used to configure istio?": {
+    "correct_indices": [
+      0,
+      1,
+      3
+    ],
+    "explanation": "3 tài nguyên cấu hình cốt lõi của Istio gồm: Gateway (cửa ngõ vào/ra), VirtualService (quy tắc định tuyến) và DestinationRule (chính sách sau định tuyến)."
+  },
+  "coursera6|6|openshift is a platform for running microservices. select three features you’ll find on the openshift platform.": {
+    "correct_indices": [
+      0,
+      1,
+      3
+    ],
+    "explanation": "OpenShift hỗ trợ điều phối workload container, triển khai ứng dụng cloud-native và tích hợp mượt mà với kiến trúc serverless (Knative)."
+  },
+  "coursera6|6|in the analogy described in the red hat openshift recap video, which of the following terms is analogous to kubernetes?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Trong phép so sánh của video Red Hat OpenShift Recap, Kubernetes giống như nhân Linux (Linux kernel), còn OpenShift giống một bản phân phối hoàn chỉnh (như RHEL/Fedora) xây trên nhân đó."
+  },
+  "coursera6|6|istio doesn't encrypt traffic among services because openshift does this already.": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Sai (False) — Chính Istio (thông qua Envoy proxy & mTLS) đảm nhận việc mã hóa và xác thực lưu lượng giữa các service trong service mesh."
+  },
+  "coursera6|6|select three capabilities that a service mesh enables.": {
+    "correct_indices": [
+      1,
+      2,
+      3
+    ],
+    "explanation": "Service Mesh mang lại 3 năng lực chính: quản lý lưu lượng (traffic management), hỗ trợ gỡ lỗi/giám sát (troubleshooting & observability) và bảo mật giao tiếp service-to-service."
+  },
+  "coursera6|6|a service mesh is a dedicated layer that supplies logging capabilities in an openshift cluster.": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Sai (False) — Service Mesh không chỉ là một lớp logging đơn thuần; nó là lớp hạ tầng điều khiển traffic, bảo mật (mTLS), thực thi chính sách và telemetry giữa các service."
+  },
+  "coursera7|1|have you forked the github repo containing the project template?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Xác nhận đã fork repository mẫu `xrwvm-fullstack_developer_capstone` về tài khoản GitHub cá nhân để bắt đầu Capstone."
+  },
+  "coursera7|1|have you added the \"about us\" static page?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Xác nhận đã xây dựng trang tĩnh `About.html` với thông tin giới thiệu đội ngũ và sứ mệnh của đại lý xe."
+  },
+  "coursera7|1|have you added the \"contact us\" static page?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Xác nhận đã xây dựng trang tĩnh `Contact.html` hiển thị địa chỉ, email và hotline liên hệ của Cars Dealership."
+  },
+  "coursera7|1|have you run and tested your django application?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Xác nhận đã khởi chạy (`python manage.py runserver`) và kiểm thử ứng dụng Django hiển thị các trang tĩnh không lỗi."
+  },
+  "coursera7|1|have you updated your repository with all the changes?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Xác nhận đã commit và push toàn bộ thay đổi trang tĩnh lên GitHub repository."
+  },
+  "coursera7|2|have you created a superuser for your django admin site?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Xác nhận đã tạo tài khoản superuser (`python manage.py createsuperuser`) để truy cập trang quản trị Django Admin."
+  },
+  "coursera7|2|have you added the user login or logout and signup menu items to the navigation bar?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Xác nhận đã tích hợp các nút Login / Logout / Sign Up lên thanh điều hướng Header (`Header.jsx` / template)."
+  },
+  "coursera7|2|have you added a login view to handle login request?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Xác nhận đã cài đặt view `login_user` trong `djangoapp/views.py` dùng `authenticate()` và `login()` trả về JSON trạng thái xác thực."
+  },
+  "coursera7|2|have you added a logout view to handle logout request?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Xác nhận đã cài đặt view `logout_request` dùng `logout(request)` xóa session và trả về JSON `{\"userName\": \"\"}`."
+  },
+  "coursera7|2|have you added a registration react page?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Xác nhận đã xây dựng component React `Register.jsx` thu thập đủ 5 trường: Username, First Name, Last Name, Email, Password."
+  },
+  "coursera7|2|have you added a register view to handle registration request?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Xác nhận đã cài đặt view `registration` trong Django kiểm tra trùng username, tạo user qua `User.objects.create_user()` và tự động đăng nhập."
+  },
+  "coursera7|3|have you implemented fetchdealers endpoint in your express server?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Xác nhận đã cài đặt endpoint `GET /fetchDealers` trong Express + Mongoose (`server/database/app.js`) trả về danh sách toàn bộ đại lý từ MongoDB."
+  },
+  "coursera7|3|have you implemented fetchdealers by state endpoint in your express server?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Xác nhận đã cài đặt endpoint `GET /fetchDealers/:state` truy vấn đại lý theo bang (vd Kansas, Texas) từ MongoDB."
+  },
+  "coursera7|3|have you implemented fetchdealer by id endpoint in your express server?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Xác nhận đã cài đặt endpoint `GET /fetchDealer/:id` trả về thông tin chi tiết một đại lý theo ID nguyên."
+  },
+  "coursera7|3|have you created carmodel and carmake django models?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Xác nhận đã định nghĩa 2 Django models `CarMake` và `CarModel` (liên kết `ForeignKey`, `CAR_TYPES`, `MinValueValidator`/`MaxValueValidator`) trong `djangoapp/models.py`."
+  },
+  "coursera7|3|have you registered carmodel and carmake models with the admin site?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Xác nhận đã đăng ký `CarMake` và `CarModel` trong `djangoapp/admin.py` để quản lý qua Django Admin."
+  },
+  "coursera7|3|have you created new car models objects with associated car makes?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Xác nhận đã khởi tạo dữ liệu mẫu các hãng xe và dòng xe thông qua `populate.py` hoặc Django Admin."
+  },
+  "coursera7|3|have you implemented get_request function in restapis.py?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Xác nhận đã cài đặt hàm `get_request()` trong `djangoapp/restapis.py` gọi HTTP GET tới Express/MongoDB backend."
+  },
+  "coursera7|3|have you created get_dealerships view and configured the route?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Xác nhận đã tạo view `get_dealerships` và cấu hình route `get_dealers/` & `get_dealers/<str:state>` trong `djangoapp/urls.py`."
+  },
+  "coursera7|3|have you implemented the post_review method in restapis.py?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Xác nhận đã cài đặt hàm `post_review()` trong `restapis.py` gửi POST JSON tới `/insert_review` của Express server."
+  },
+  "coursera7|3|have you created get_dealer_details view and configured the route?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Xác nhận đã tạo view `get_dealer_details` và route `dealer/<int:dealer_id>` trả về chi tiết đại lý."
+  },
+  "coursera7|3|have you created get_dealer_reviews view and configured the route?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Xác nhận đã tạo view `get_dealer_reviews` gọi microservice VADER Sentiment Analyzer để gắn nhãn `positive`/`neutral`/`negative` cho từng đánh giá."
+  },
+  "coursera7|3|have you created add_review view and configured the route?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Xác nhận đã tạo view `add_review` kiểm tra `request.user.is_authenticated` trước khi đẩy đánh giá mới vào MongoDB."
+  },
+  "coursera7|4|have you added a “dealers” react component to render the dealerships?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Xác nhận đã hoàn thiện component `Dealers.jsx` hiển thị bảng đại lý và bộ lọc theo State."
+  },
+  "coursera7|4|have you added “postreview” button to “dealers” component for logged in users?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Xác nhận đã hiển thị nút Review Dealer cho người dùng đã đăng nhập ngay trên bảng `Dealers.jsx`."
+  },
+  "coursera7|4|have you added a “dealer” reviews react component to retrieve specific dealer information?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Xác nhận đã hoàn thiện component `Dealer.jsx` hiển thị thông tin chi tiết đại lý kèm danh sách đánh giá và icon cảm xúc."
+  },
+  "coursera7|4|have you added “postreview” link to the “dealer” component for the users who are logged in?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Xác nhận đã gắn liên kết điều hướng tới trang Post Review bên trong `Dealer.jsx` khi người dùng đã đăng nhập."
+  },
+  "coursera7|4|have you created a submission page for reviews that includes fields for review, purchase date, car make, year, and a post review button?\"": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Xác nhận đã xây dựng component `PostReview.jsx` với đầy đủ các trường Review, Purchase Date, Car Make/Model, Car Year và nút Post Review."
+  },
+  "coursera7|4|does the review get updated after you add a new review?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Xác nhận sau khi gửi review mới, trang chi tiết đại lý cập nhật hiển thị đánh giá mới kèm cảm xúc phân tích được."
+  },
+  "coursera7|5|have you added ci/cd to your project using github actions?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Xác nhận đã thiết lập workflow GitHub Actions (`.github/workflows/main.yml`) chạy CI tự động mỗi khi push/PR."
+  },
+  "coursera7|5|have you run code linting, explored its results and made corrections to ensure the workflow succeeds?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Xác nhận đã chạy linter (`flake8` cho Python và `jshint` cho JavaScript) và sửa sạch lỗi để CI workflow pass xanh."
+  },
+  "coursera7|5|have you configured the mongo-express application, and is it running in a dockerized container?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Xác nhận đã cấu hình `docker-compose.yml` chạy MongoDB + Express API (`server/database/`) ổn định trong Docker container."
+  },
+  "coursera7|5|have you deployed the sentiment analyzer on ibm code engine, and is it accessible?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Xác nhận đã triển khai microservice phân tích cảm xúc Flask + NLTK VADER (`server/djangoapp/microservices/`) lên IBM Cloud Code Engine."
+  },
+  "coursera7|5|have you added a dockerfile?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Xác nhận đã viết `Dockerfile` đóng gói ứng dụng Full-Stack (React build + Django backend) thành container image."
+  },
+  "coursera7|5|have you built the docker image, run the container, and tested it locally?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Xác nhận đã build Docker image, chạy container và kiểm thử thành công ứng dụng ngay trên môi trường cục bộ."
+  },
+  "coursera7|5|have you added a deployment.yml with the required services?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Xác nhận đã tạo manifest `deployment.yml` định nghĩa Deployment và Service cho Kubernetes."
+  },
+  "coursera7|5|have you deployed the application to kubernetes?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Xác nhận đã triển khai ứng dụng lên Kubernetes / IBM Cloud Code Engine thành công."
+  },
+  "coursera7|5|have you tested the deployed application from end to end?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Xác nhận đã kiểm thử toàn trình (End-to-End) trên URL production: đăng ký, đăng nhập, lọc đại lý, xem và đăng review có phân tích cảm xúc."
+  }
+}

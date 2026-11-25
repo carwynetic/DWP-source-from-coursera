@@ -1,0 +1,1316 @@
+{
+  "crawled_at": "2026-11-25T21:16:18.257164",
+  "course": {
+    "key": "coursera9",
+    "name": "Developing Back-End Apps with Node.js and Express",
+    "slug": "developing-backend-apps-with-nodejs-and-express",
+    "url": "https://www.coursera.org/learn/developing-backend-apps-with-nodejs-and-express"
+  },
+  "total_quizzes_discovered": 6,
+  "total_mc_quizzes_extracted": 6,
+  "total_mc_questions": 51,
+  "quizzes": [
+    {
+      "title": "Node.js, Backend Concepts, and Modules Practice Assignment • 10 min • Grade: --",
+      "page_title": "Node.js, Backend Concepts, and Modules",
+      "source": "Module 1",
+      "kind": "practice_quiz",
+      "url": "https://www.coursera.org/learn/developing-backend-apps-with-nodejs-and-express/assignment-submission/9sN6n/node-js-backend-concepts-and-modules",
+      "final_url": "https://www.coursera.org/learn/developing-backend-apps-with-nodejs-and-express/assignment-submission/9sN6n/node-js-backend-concepts-and-modules/attempt",
+      "status": "opened_via_button:Start assignment",
+      "question_count": 5,
+      "questions": [
+        {
+          "index": 1,
+          "question_type": "single_choice",
+          "prompt_text": "What technology do web servers use to respond to client requests?",
+          "options": [
+            {
+              "text": "CSS",
+              "checked": false
+            },
+            {
+              "text": "HTML",
+              "checked": false
+            },
+            {
+              "text": "Node.js",
+              "checked": false
+            },
+            {
+              "text": "HTTP",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "1.\nQuestion 1\n\nWhat technology do web servers use to respond to client requests?\n\nDo you understand?.\n\nI understand\n\nCSS\n\nHTML\n\nNode.js\n\nHTTP\n\n1 point"
+        },
+        {
+          "index": 2,
+          "question_type": "single_choice",
+          "prompt_text": "What is a popular format for sending data to REST services over HTTP?",
+          "options": [
+            {
+              "text": "Express.js",
+              "checked": false
+            },
+            {
+              "text": "JSON",
+              "checked": false
+            },
+            {
+              "text": "Node.js",
+              "checked": false
+            },
+            {
+              "text": "HTML/CSS",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "2.\nQuestion 2\n\nWhat is a popular format for sending data to REST services over HTTP?\n\nDo you understand?.\n\nI understand\n\nExpress.js\n\nJSON\n\nNode.js\n\nHTML/CSS\n\n1 point"
+        },
+        {
+          "index": 3,
+          "question_type": "single_choice",
+          "prompt_text": "Which of the following is true regarding the import() function but NOT the require() function?",
+          "options": [
+            {
+              "text": "It must be called at the beginning of the file.",
+              "checked": false
+            },
+            {
+              "text": "It is bound dynamically",
+              "checked": false
+            },
+            {
+              "text": "Binding errors are identified at run-time",
+              "checked": false
+            },
+            {
+              "text": "It can be used within conditional statements and functions",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "3.\nQuestion 3\n\nWhich of the following is true regarding the import() function but NOT the require() function?\n\nDo you understand?.\n\nI understand\n\nIt must be called at the beginning of the file.\n\nIt is bound dynamically\n\nBinding errors are identified at run-time\n\nIt can be used within conditional statements and functions\n\n1 point"
+        },
+        {
+          "index": 4,
+          "question_type": "single_choice",
+          "prompt_text": "What is the role of npm (Node Package Manager) in Node.js applications?",
+          "options": [
+            {
+              "text": "It is the protocol used by servers to communicate with each other",
+              "checked": false
+            },
+            {
+              "text": "It helps manage dependencies and packages used in applications",
+              "checked": false
+            },
+            {
+              "text": "It translates code into a machine-readable language",
+              "checked": false
+            },
+            {
+              "text": "It is a run-time environment for the Chrome V8 engine",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "4.\nQuestion 4\n\nWhat is the role of npm (Node Package Manager) in Node.js applications?\n\nDo you understand?.\n\nI understand\n\nIt is the protocol used by servers to communicate with each other\n\nIt helps manage dependencies and packages used in applications\n\nIt translates code into a machine-readable language\n\nIt is a run-time environment for the Chrome V8 engine\n\n1 point"
+        },
+        {
+          "index": 5,
+          "question_type": "single_choice",
+          "prompt_text": "What would you use let today = require('./today’);  for?",
+          "options": [
+            {
+              "text": "To download an npm package from the Internet on the terminal",
+              "checked": false
+            },
+            {
+              "text": "To retrieve the date from a weather service",
+              "checked": false
+            },
+            {
+              "text": "To create an instance of a web server application",
+              "checked": false
+            },
+            {
+              "text": "To import a Node.js module",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "5.\nQuestion 5\n\nWhat would you use let today = require('./today’);  for?\n\nDo you understand?.\n\nI understand\n\nTo download an npm package from the Internet on the terminal\n\nTo retrieve the date from a weather service\n\nTo create an instance of a web server application \n\nTo import a Node.js module \n\n1 point"
+        }
+      ],
+      "raw_page_text": "N\nDeveloping Back-End Apps with Node.js and Express\nToday's goal • 0/3 items\n\nComplete 3 items today to stay at a good pace!\n\nModule 1\nIntroduction to Server-Side JavaScript\nCourse Introduction: Welcome to Developing Back-End Apps with Node.js & Express\nVideo\n. Duration: 3 minutes\n3 min\nWelcome to Developing Back-end Apps with Node.js and Express\nReading\n. Duration: 2 minutes\n2 min\nCourse Overview\nReading\n. Duration: 2 minutes\n2 min\nWhat is Back End Development?\nVideo\n. Duration: 7 minutes\n7 min\nBack-end and Front-end Development Overview\nReading\n. Duration: 10 minutes\n10 min\nGetting Started with Node.js\nReading\n. Duration: 10 minutes\n10 min\nIntroduction to Node.js\nVideo\n. Duration: 3 minutes\n3 min\nExpert Viewpoints: Introductory Thoughts on Server-Side JavaScript and Node.js\nVideo\n. Duration: 5 minutes\n5 min\nImport and Require\nVideo\n. Duration: 5 minutes\n5 min\nIntroduction to Server-Side JavaScript\nVideo\n. Duration: 3 minutes\n3 min\nNode.js, Backend Concepts, and Modules\nPractice Assignment\n. Duration: 10 minutes\n10 min\nCreating a Web Server with Node.js\nVideo\n. Duration: 2 minutes\n2 min\nWorking with Node.js Modules\nVideo\n. Duration: 4 minutes\n4 min\nAdvanced Node.js Modules\nReading\n. Duration: 10 minutes\n10 min\nOverview of Node Package Manager\nVideo\n. Duration: 5 minutes\n5 min\nHands-on Lab - First Server with ServerSide Java Script\nUngraded App Item\n. Duration: 20 minutes\n20 min\nModule Summary\nReading\n. Duration: 2 minutes\n2 min\nModule 1 Glossary: Introduction to Server-Side JavaScript\nReading\n. Duration: 5 minutes\n5 min\nModule 1 Cheat Sheet: Introduction to Server-Side JavaScript\nReading\n. Duration: 10 minutes\n10 min\nBasic JavaScript Concepts\nReading\n. Duration: 20 minutes\n20 min\nGraded Quiz\nGraded AssignmentGrade: 100%\nYour Node.js and Express Journey Begins\nDialogue\n. Duration: 15 minutes\n15 min\nModule 2\nAsynchronous I/O with callback programming\nModule 3\nExpress Web Application Framework\nModule 4\nFinal Project\n\nPractice Assignment\n\nNode.js, Backend Concepts, and Modules\nResume assignment\nHelp me practice\nWhat to expect\nDue Nov 22, 11:59 PM +07\nUnlimited attempts\n\nThis is a practice assignment to help you check your understanding. It doesn’t count toward your course grade.\n\nReport an issue\nGo to next item\nBack\nNode.js, Backend Concepts, and Modules\n\nPractice Assignment • 10 min\n\nDueNov 22, 11:59 PM +07\n1.\nQuestion 1\n\nWhat technology do web servers use to respond to client requests?\n\nDo you understand?.\n\nI understand\n\nCSS\n\nHTML\n\nNode.js\n\nHTTP\n\n1 point\n2.\nQuestion 2\n\nWhat is a popular format for sending data to REST services over HTTP?\n\nDo you understand?.\n\nI understand\n\nExpress.js\n\nJSON\n\nNode.js\n\nHTML/CSS\n\n1 point\n3.\nQuestion 3\n\nWhich of the following is true regarding the import() function but NOT the require() function?\n\nDo you understand?.\n\nI understand\n\nIt must be called at the beginning of the file.\n\nIt is bound dynamically\n\nBinding errors are identified at run-time\n\nIt can be used within conditional statements and functions\n\n1 point\n4.\nQuestion 4\n\nWhat is the role of npm (Node Package Manager) in Node.js applications?\n\nDo you understand?.\n\nI understand\n\nIt is the protocol used by servers to communicate with each other\n\nIt helps manage dependencies and packages used in applications\n\nIt translates code into a machine-readable language\n\nIt is a run-time environment for the Chrome V8 engine\n\n1 point\n5.\nQuestion 5\n\nWhat would you use let today = require('./today’);  for?\n\nDo you understand?.\n\nI understand\n\nTo download an npm package from the Internet on the terminal\n\nTo retrieve the date from a weather service\n\nTo create an instance of a web server application \n\nTo import a Node.js module \n\n1 point\nCoursera Honor Code\n\nBy clicking Submit, you confirm this work is your own. Submitting work created with AI tools may result in course failure or account deactivation according to Coursera Honor Code policy.\n\nI, NGUYEN PHUC, understand and agree.\nYou must select the checkbox in order to submit the assignment\nSubmit\nSave draft\n\nLast saved on Nov 25, 9:14 PM +07\n\nLike\nDislike\nReport an issue"
+    },
+    {
+      "title": "Graded Quiz Graded Assignment • Submitted • Grade: 100% • Status: Graded Graded",
+      "page_title": "Graded Quiz",
+      "source": "Module 1",
+      "kind": "graded_quiz",
+      "url": "https://www.coursera.org/learn/developing-backend-apps-with-nodejs-and-express/assignment-submission/V1QV5/graded-quiz",
+      "final_url": "https://www.coursera.org/learn/developing-backend-apps-with-nodejs-and-express/assignment-submission/V1QV5/graded-quiz/view-feedback",
+      "status": "opened_via_button",
+      "question_count": 10,
+      "questions": [
+        {
+          "index": 1,
+          "question_type": "single_choice",
+          "prompt_text": "Which of the following is a back-end technology?",
+          "options": [
+            {
+              "text": "Browser",
+              "checked": false
+            },
+            {
+              "text": "HTML",
+              "checked": false
+            },
+            {
+              "text": "Web API",
+              "checked": true
+            },
+            {
+              "text": "CSS",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "1.\nQuestion 1\n\nWhich of the following is a back-end technology?\n\nDo you understand?.\n\nI understand\n\nBrowser\n\nHTML\n\nWeb API\n\nCSS\n\nNice work\n\nA web API is a back-end technology.\n\n1 / 1 point"
+        },
+        {
+          "index": 2,
+          "question_type": "single_choice",
+          "prompt_text": "What quality makes it possible for you to run JavaScript applications without compiling?",
+          "options": [
+            {
+              "text": "You can use a text editor to develop JavaScript applications.",
+              "checked": false
+            },
+            {
+              "text": "JavaScript is an interpreted language.",
+              "checked": true
+            },
+            {
+              "text": "All modern browsers support JavaScript.",
+              "checked": false
+            },
+            {
+              "text": "The language syntax resembles Java.",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "2.\nQuestion 2\n\nWhat quality makes it possible for you to run JavaScript applications without compiling?\n\nDo you understand?.\n\nI understand\n\nYou can use a text editor to develop JavaScript applications.\n\nJavaScript is an interpreted language.\n\nAll modern browsers support JavaScript.\n\nThe language syntax resembles Java.\n\nNice work\n\nJavaScript is an interpreted language, and you do not need to compile JavaScript applications before running them.\n\n1 / 1 point"
+        },
+        {
+          "index": 3,
+          "question_type": "single_choice",
+          "prompt_text": "Which of the following applications intercepts the call when JavaScript sends a web service request to the Node.js server?",
+          "options": [
+            {
+              "text": "CSS",
+              "checked": false
+            },
+            {
+              "text": "REST Web Service",
+              "checked": true
+            },
+            {
+              "text": "JSON",
+              "checked": false
+            },
+            {
+              "text": "Enterprise Java",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "3.\nQuestion 3\n\nWhich of the following applications intercepts the call when JavaScript sends a web service request to the Node.js server?\n\nDo you understand?.\n\nI understand\n\nCSS\n\nREST Web Service\n\nJSON\n\nEnterprise Java\n\nNice work\n\nA REST web service on the server receives and processes the request.\n\n1 / 1 point"
+        },
+        {
+          "index": 4,
+          "question_type": "single_choice",
+          "prompt_text": "Which of the following is a difference between ES and CommonJS modules?",
+          "options": [
+            {
+              "text": "ES modules use the import() statement whereas CommonJS modules use require().",
+              "checked": true
+            },
+            {
+              "text": "CommonJS modules are written in JavaScript whereas ES modules are not",
+              "checked": false
+            },
+            {
+              "text": "CommonJS module files use a .mjs extension whereas ES modules use .js",
+              "checked": false
+            },
+            {
+              "text": "CommonJS is a JavaScript language whereas ES is a module specification",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "4.\nQuestion 4\n\nWhich of the following is a difference between ES and CommonJS modules?\n\nDo you understand?.\n\nI understand\n\n ES modules use the import() statement whereas CommonJS modules use require().  \n\nCommonJS modules are written in JavaScript whereas ES modules are not\n\nCommonJS module files use a .mjs extension whereas ES modules use .js\n\nCommonJS is a JavaScript language whereas ES is a module specification\n\nNice work\n\n ES modules use the import() statement whereas CommonJS modules use require().  \n\n1 / 1 point"
+        },
+        {
+          "index": 5,
+          "question_type": "single_choice",
+          "prompt_text": "How do you handle operation results with Node.js?",
+          "options": [
+            {
+              "text": "Write callback functions to handle results when the operations complete",
+              "checked": true
+            },
+            {
+              "text": "Use blocking on asynchronous I/O operations",
+              "checked": false
+            },
+            {
+              "text": "Specify a relative path to the Node.js script from the module directory",
+              "checked": false
+            },
+            {
+              "text": "Create an instance of a web server application",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "5.\nQuestion 5\n\nHow do you handle operation results with Node.js?\n\nDo you understand?.\n\nI understand\n\nWrite callback functions to handle results when the operations complete\n\nUse blocking on asynchronous I/O operations\n\nSpecify a relative path to the Node.js script from the module directory\n\nCreate an instance of a web server application\n\nNice work\n\nInstead of blocking on I/O operations, you write asynchronous callback functions to handle results when they complete.\n\n1 / 1 point"
+        },
+        {
+          "index": 6,
+          "question_type": "single_choice",
+          "prompt_text": "What do you use the http.createServer function for?",
+          "options": [
+            {
+              "text": "To develop an anonymous function to handle requests and responses",
+              "checked": false
+            },
+            {
+              "text": "To create an instance of a web server",
+              "checked": true
+            },
+            {
+              "text": "To import a Node.js module",
+              "checked": false
+            },
+            {
+              "text": "To specify a main script for your module",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "6.\nQuestion 6\n\nWhat do you use the http.createServer function for?\n\nDo you understand?.\n\nI understand\n\nTo develop an anonymous function to handle requests and responses\n\nTo create an instance of a web server\n\nTo import a Node.js module\n\nTo specify a main script for your module\n\nNice work\n\nYou use the http.createServer function to create an instance of a web server application.\n\n1 / 1 point"
+        },
+        {
+          "index": 7,
+          "question_type": "single_choice",
+          "prompt_text": "Which core Node.js module can be used for input and output (I/O)?",
+          "options": [
+            {
+              "text": "fs",
+              "checked": true
+            },
+            {
+              "text": "URL",
+              "checked": false
+            },
+            {
+              "text": "http",
+              "checked": false
+            },
+            {
+              "text": "util",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "7.\nQuestion 7\n\nWhich core Node.js module can be used for input and output (I/O)?\n\nDo you understand?.\n\nI understand\n\nfs\n\nURL\n\nhttp\n\nutil\n\nNice work\n\nThe fs module is used to read and write from external sources.\n\n1 / 1 point"
+        },
+        {
+          "index": 8,
+          "question_type": "single_choice",
+          "prompt_text": "Which is an aspect of Node Package Manager (NPM)?",
+          "options": [
+            {
+              "text": "It functions as a command line interface and an online repository for packages",
+              "checked": true
+            },
+            {
+              "text": "It manages the versioning of source code",
+              "checked": false
+            },
+            {
+              "text": "It creates a package.json file in the project’s root directory",
+              "checked": false
+            },
+            {
+              "text": "It writes metadata to a package.json file",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "8.\nQuestion 8\n\nWhich is an aspect of Node Package Manager (NPM)?\n\nDo you understand?.\n\nI understand\n\nIt functions as a command line interface and an online repository for packages\n\nIt manages the versioning of source code\n\nIt creates a package.json file in the project’s root directory\n\nIt writes metadata to a package.json file\n\nNice work\n\nNPM provides a command line interface and also acts as an online repository of JavaScript packages.\n\n1 / 1 point"
+        },
+        {
+          "index": 9,
+          "question_type": "single_choice",
+          "prompt_text": "What do you use the require function for?",
+          "options": [
+            {
+              "text": "To import a Node.js module",
+              "checked": true
+            },
+            {
+              "text": "To develop an anonymous function to handle requests and responses",
+              "checked": false
+            },
+            {
+              "text": "To create an instance of a web server",
+              "checked": false
+            },
+            {
+              "text": "To specify a main script for your module",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "9.\nQuestion 9\n\nWhat do you use the require function for?\n\nDo you understand?.\n\nI understand\n\nTo import a Node.js module\n\nTo develop an anonymous function to handle requests and responses\n\nTo create an instance of a web server\n\nTo specify a main script for your module\n\nNice work\n\nYou can use the require function to import a Node.js module.\n\n1 / 1 point"
+        },
+        {
+          "index": 10,
+          "question_type": "single_choice",
+          "prompt_text": "What happens when a module does not have a package.json file?",
+          "options": [
+            {
+              "text": "There is no module manifest.",
+              "checked": false
+            },
+            {
+              "text": "Node.js assumes that the main class is named index.js.",
+              "checked": true
+            },
+            {
+              "text": "The relative path to the Node.js script changes to an absolute path from the module directory.",
+              "checked": false
+            },
+            {
+              "text": "The require statement assumes that scripts have a file extension of js.",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "10.\nQuestion 10\n\nWhat happens when a module does not have a package.json file?\n\nDo you understand?.\n\nI understand\n\nThere is no module manifest.\n\nNode.js assumes that the main class is named index.js.\n\nThe relative path to the Node.js script changes to an absolute path from the module directory.\n\nThe require statement assumes that scripts have a file extension of js.\n\nNice work\n\nIf a module does not have a package.json file, Node.js assumes that the main class is named index.js.\n\n1 / 1 point"
+        }
+      ],
+      "raw_page_text": "N\nDeveloping Back-End Apps with Node.js and Express\nToday's goal • 0/3 items\n\nComplete 3 items today to stay at a good pace!\n\nModule 1\nIntroduction to Server-Side JavaScript\nCourse Introduction: Welcome to Developing Back-End Apps with Node.js & Express\nVideo\n. Duration: 3 minutes\n3 min\nWelcome to Developing Back-end Apps with Node.js and Express\nReading\n. Duration: 2 minutes\n2 min\nCourse Overview\nReading\n. Duration: 2 minutes\n2 min\nWhat is Back End Development?\nVideo\n. Duration: 7 minutes\n7 min\nBack-end and Front-end Development Overview\nReading\n. Duration: 10 minutes\n10 min\nGetting Started with Node.js\nReading\n. Duration: 10 minutes\n10 min\nIntroduction to Node.js\nVideo\n. Duration: 3 minutes\n3 min\nExpert Viewpoints: Introductory Thoughts on Server-Side JavaScript and Node.js\nVideo\n. Duration: 5 minutes\n5 min\nImport and Require\nVideo\n. Duration: 5 minutes\n5 min\nIntroduction to Server-Side JavaScript\nVideo\n. Duration: 3 minutes\n3 min\nNode.js, Backend Concepts, and Modules\nPractice Assignment\n. Duration: 10 minutes\n10 min\nCreating a Web Server with Node.js\nVideo\n. Duration: 2 minutes\n2 min\nWorking with Node.js Modules\nVideo\n. Duration: 4 minutes\n4 min\nAdvanced Node.js Modules\nReading\n. Duration: 10 minutes\n10 min\nOverview of Node Package Manager\nVideo\n. Duration: 5 minutes\n5 min\nHands-on Lab - First Server with ServerSide Java Script\nUngraded App Item\n. Duration: 20 minutes\n20 min\nModule Summary\nReading\n. Duration: 2 minutes\n2 min\nModule 1 Glossary: Introduction to Server-Side JavaScript\nReading\n. Duration: 5 minutes\n5 min\nModule 1 Cheat Sheet: Introduction to Server-Side JavaScript\nReading\n. Duration: 10 minutes\n10 min\nBasic JavaScript Concepts\nReading\n. Duration: 20 minutes\n20 min\nGraded Quiz\nGraded AssignmentGrade: 100%\nYour Node.js and Express Journey Begins\nDialogue\n. Duration: 15 minutes\n15 min\nModule 2\nAsynchronous I/O with callback programming\nModule 3\nExpress Web Application Framework\nModule 4\nFinal Project\n\nGraded Assignment\n\nGraded Quiz\n\nAssessment monitored for academic integrity and AI-usage. Privacy Notice\n\nGo to next item\nTry again\nWhat to expect\nDue Nov 29, 11:59 PM +07\n3 attempts\n\nevery 8 hours\n\nYou passed!\n\nTo pass you need a grade of at least 70%.\n\n100%\nView feedback\n\nSubmitted Nov 9, 8:26 PM +07.\n\nReport an issue\nGo to next item\nBack\nGraded Quiz\n\nGraded Assignment • 20 min\n\nDueNov 29, 11:59 PM +07\nYour grade: 100%\nYour latest: 100%•\nYour highest: 100%•\nTo pass you need at least 70%. We keep your highest score.\nNext item\n1.\nQuestion 1\n\nWhich of the following is a back-end technology?\n\nDo you understand?.\n\nI understand\n\nBrowser\n\nHTML\n\nWeb API\n\nCSS\n\nNice work\n\nA web API is a back-end technology.\n\n1 / 1 point\n2.\nQuestion 2\n\nWhat quality makes it possible for you to run JavaScript applications without compiling?\n\nDo you understand?.\n\nI understand\n\nYou can use a text editor to develop JavaScript applications.\n\nJavaScript is an interpreted language.\n\nAll modern browsers support JavaScript.\n\nThe language syntax resembles Java.\n\nNice work\n\nJavaScript is an interpreted language, and you do not need to compile JavaScript applications before running them.\n\n1 / 1 point\n3.\nQuestion 3\n\nWhich of the following applications intercepts the call when JavaScript sends a web service request to the Node.js server?\n\nDo you understand?.\n\nI understand\n\nCSS\n\nREST Web Service\n\nJSON\n\nEnterprise Java\n\nNice work\n\nA REST web service on the server receives and processes the request.\n\n1 / 1 point\n4.\nQuestion 4\n\nWhich of the following is a difference between ES and CommonJS modules?\n\nDo you understand?.\n\nI understand\n\n ES modules use the import() statement whereas CommonJS modules use require().  \n\nCommonJS modules are written in JavaScript whereas ES modules are not\n\nCommonJS module files use a .mjs extension whereas ES modules use .js\n\nCommonJS is a JavaScript language whereas ES is a module specification\n\nNice work\n\n ES modules use the import() statement whereas CommonJS modules use require().  \n\n1 / 1 point\n5.\nQuestion 5\n\nHow do you handle operation results with Node.js?\n\nDo you understand?.\n\nI understand\n\nWrite callback functions to handle results when the operations complete\n\nUse blocking on asynchronous I/O operations\n\nSpecify a relative path to the Node.js script from the module directory\n\nCreate an instance of a web server application\n\nNice work\n\nInstead of blocking on I/O operations, you write asynchronous callback functions to handle results when they complete.\n\n1 / 1 point\n6.\nQuestion 6\n\nWhat do you use the http.createServer function for?\n\nDo you understand?.\n\nI understand\n\nTo develop an anonymous function to handle requests and responses\n\nTo create an instance of a web server\n\nTo import a Node.js module\n\nTo specify a main script for your module\n\nNice work\n\nYou use the http.createServer function to create an instance of a web server application.\n\n1 / 1 point\n7.\nQuestion 7\n\nWhich core Node.js module can be used for input and output (I/O)?\n\nDo you understand?.\n\nI understand\n\nfs\n\nURL\n\nhttp\n\nutil\n\nNice work\n\nThe fs module is used to read and write from external sources.\n\n1 / 1 point\n8.\nQuestion 8\n\nWhich is an aspect of Node Package Manager (NPM)?\n\nDo you understand?.\n\nI understand\n\nIt functions as a command line interface and an online repository for packages\n\nIt manages the versioning of source code\n\nIt creates a package.json file in the project’s root directory\n\nIt writes metadata to a package.json file\n\nNice work\n\nNPM provides a command line interface and also acts as an online repository of JavaScript packages.\n\n1 / 1 point\n9.\nQuestion 9\n\nWhat do you use the require function for?\n\nDo you understand?.\n\nI understand\n\nTo import a Node.js module\n\nTo develop an anonymous function to handle requests and responses\n\nTo create an instance of a web server\n\nTo specify a main script for your module\n\nNice work\n\nYou can use the require function to import a Node.js module.\n\n1 / 1 point\n10.\nQuestion 10\n\nWhat happens when a module does not have a package.json file?\n\nDo you understand?.\n\nI understand\n\nThere is no module manifest.\n\nNode.js assumes that the main class is named index.js.\n\nThe relative path to the Node.js script changes to an absolute path from the module directory.\n\nThe require statement assumes that scripts have a file extension of js.\n\nNice work\n\nIf a module does not have a package.json file, Node.js assumes that the main class is named index.js.\n\n1 / 1 point"
+    },
+    {
+      "title": "Practice Quiz Practice Assignment • 14 min • Grade: --",
+      "page_title": "Practice Quiz",
+      "source": "Module 2",
+      "kind": "practice_quiz",
+      "url": "https://www.coursera.org/learn/developing-backend-apps-with-nodejs-and-express/assignment-submission/9FaUC/practice-quiz",
+      "final_url": "https://www.coursera.org/learn/developing-backend-apps-with-nodejs-and-express/assignment-submission/9FaUC/practice-quiz/attempt",
+      "status": "opened_after_step_1",
+      "question_count": 7,
+      "questions": [
+        {
+          "index": 1,
+          "question_type": "single_choice",
+          "prompt_text": "In what manner do network operations run?",
+          "options": [
+            {
+              "text": "Distributed",
+              "checked": false
+            },
+            {
+              "text": "Asynchronous",
+              "checked": false
+            },
+            {
+              "text": "Single-threaded",
+              "checked": false
+            },
+            {
+              "text": "Synchronized",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "1.\nQuestion 1\n\nIn what manner do network operations run?\n\nDo you understand?.\n\nI understand\n\nDistributed\n\nAsynchronous\n\nSingle-threaded\n\nSynchronized\n\n1 point"
+        },
+        {
+          "index": 2,
+          "question_type": "single_choice",
+          "prompt_text": "For which of the following events would you write a callback function in Node.js?",
+          "options": [
+            {
+              "text": "When the application initiates an http.request.",
+              "checked": false
+            },
+            {
+              "text": "When the Node.js framework receives a response message from the remote server.",
+              "checked": false
+            },
+            {
+              "text": "When the network operation completes.",
+              "checked": false
+            },
+            {
+              "text": "When the network operation starts.",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "2.\nQuestion 2\n\n For which of the following events would you write a callback function in Node.js?  \n\nDo you understand?.\n\nI understand\n\nWhen the application initiates an http.request.\n\nWhen the Node.js framework receives a response message from the remote server.\n\nWhen the network operation completes.  \n\nWhen the network operation starts.\n\n1 point"
+        },
+        {
+          "index": 3,
+          "question_type": "single_choice",
+          "prompt_text": "Where in the callback function does a Node.js generally pass an error object?",
+          "options": [
+            {
+              "text": "The second parameter",
+              "checked": false
+            },
+            {
+              "text": "The HTTP response message",
+              "checked": false
+            },
+            {
+              "text": "The http.request( ) call",
+              "checked": false
+            },
+            {
+              "text": "The first parameter",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "3.\nQuestion 3\n\nWhere in the callback function does a Node.js generally pass an error object?\n\nDo you understand?.\n\nI understand\n\nThe second parameter\n\nThe HTTP response message\n\nThe http.request( ) call\n\nThe first parameter\n\n1 point"
+        },
+        {
+          "index": 4,
+          "question_type": "single_choice",
+          "prompt_text": "What do you use response.end for?",
+          "options": [
+            {
+              "text": "To log the error from a callback function",
+              "checked": false
+            },
+            {
+              "text": "To define the error message from a callback function",
+              "checked": false
+            },
+            {
+              "text": "To print the result from the function call",
+              "checked": false
+            },
+            {
+              "text": "To end the request and send a response to the client",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "4.\nQuestion 4\n\nWhat do you use response.end for? \n\nDo you understand?.\n\nI understand\n\nTo log the error from a callback function\n\nTo define the error message from a callback function\n\nTo print the result from the function call\n\nTo end the request and send a response to the client\n\n1 point"
+        },
+        {
+          "index": 5,
+          "question_type": "single_choice",
+          "prompt_text": "Which of the following can be helpful to mitigate the issue of needing nested callbacks in order to make something happen sequentially?",
+          "options": [
+            {
+              "text": "Use the setTimeout() method",
+              "checked": false
+            },
+            {
+              "text": "async/await",
+              "checked": false
+            },
+            {
+              "text": "HTTP method calls",
+              "checked": false
+            },
+            {
+              "text": "Inversion of control",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "5.\nQuestion 5\n\nWhich of the following can be helpful to mitigate the issue of needing nested callbacks in order to make something happen sequentially?\n\nDo you understand?.\n\nI understand\n\nUse the setTimeout() method\n\nasync/await \n\nHTTP method calls\n\nInversion of control\n\n1 point"
+        },
+        {
+          "index": 6,
+          "question_type": "single_choice",
+          "prompt_text": "What do you use to convert a JavaScript object to a string?",
+          "options": [
+            {
+              "text": "Method JSON.parsestring()",
+              "checked": false
+            },
+            {
+              "text": "Method JSON.stringify()",
+              "checked": false
+            },
+            {
+              "text": "Method JSON.convert()",
+              "checked": false
+            },
+            {
+              "text": "Method JSON.parse()",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "6.\nQuestion 6\n\nWhat do you use to convert a JavaScript object to a string?\n\nDo you understand?.\n\nI understand\n\nMethod JSON.parsestring()\n\nMethod JSON.stringify()\n\nMethod JSON.convert()\n\nMethod JSON.parse() \n\n1 point"
+        },
+        {
+          "index": 7,
+          "question_type": "single_choice",
+          "prompt_text": "A promise is defined as an object returned by an asynchronous method that has three states. Which of the following is one of the states?",
+          "options": [
+            {
+              "text": "Resolved",
+              "checked": false
+            },
+            {
+              "text": "Acknowledged",
+              "checked": false
+            },
+            {
+              "text": "Closed",
+              "checked": false
+            },
+            {
+              "text": "Waiting",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "7.\nQuestion 7\n\nA promise is defined as an object returned by an asynchronous method that has three states. Which of the following is one of the states?\n\nDo you understand?.\n\nI understand\n\nResolved \n\nAcknowledged\n\nClosed\n\nWaiting\n\n1 point"
+        }
+      ],
+      "raw_page_text": "N\nDeveloping Back-End Apps with Node.js and Express\nToday's goal • 0/3 items\n\nComplete 3 items today to stay at a good pace!\n\nModule 1\nIntroduction to Server-Side JavaScript\nModule 2\nAsynchronous I/O with callback programming\nAsynchronous I/O with Callback Programming\nVideo\n. Duration: 6 minutes\n6 min\nCreating Callback Functions\nVideo\n. Duration: 6 minutes\n6 min\nExpert Viewpoints: Using Anonymous Callback Functions in Node.js\nVideo\n. Duration: 5 minutes\n5 min\nIssues with Callbacks\nVideo\n. Duration: 5 minutes\n5 min\nPromises\nVideo\n. Duration: 3 minutes\n3 min\nHands-on Lab: Promises and Call Back\nUngraded App Item\n. Duration: 10 minutes\n10 min\nWorking with JSON\nVideo\n. Duration: 1 minute\n1 min\nExpert Viewpoints: Using JSON & JavaScript\nVideo\n. Duration: 3 minutes\n3 min\nPromises, async/await, and axios requests in Node.js and Express\nVideo\n. Duration: 7 minutes\n7 min\nPromises, Async/Await, and Axios Requests in Node.js and Express\nReading\n. Duration: 20 minutes\n20 min\nHands-on Lab - Async Callback Programing\nUngraded App Item\n. Duration: 30 minutes\n30 min\nModule Summary\nReading\n. Duration: 1 minute\n1 min\nGlossary - Asynchronous I/O with Callback Programming\nReading\n. Duration: 5 minutes\n5 min\nCheatsheet - Asynchronous I/O with Callback Programming\nReading\n. Duration: 15 minutes\n15 min\nPractice Quiz\nPractice Assignment\n. Duration: 14 minutes\n14 min\nGraded Quiz\nGraded AssignmentGrade: 100%\nModule 3\nExpress Web Application Framework\nModule 4\nFinal Project\n\nPractice Assignment\n\nPractice Quiz\nResume assignment\nHelp me practice\nWhat to expect\nDue Dec 13, 11:59 PM +07\nUnlimited attempts\n\nThis is a practice assignment to help you check your understanding. It doesn’t count toward your course grade.\n\nReport an issue\nGo to next item\nBack\nPractice Quiz\n\nPractice Assignment • 14 min\n\nDueDec 13, 11:59 PM +07\n1.\nQuestion 1\n\nIn what manner do network operations run?\n\nDo you understand?.\n\nI understand\n\nDistributed\n\nAsynchronous\n\nSingle-threaded\n\nSynchronized\n\n1 point\n2.\nQuestion 2\n\n For which of the following events would you write a callback function in Node.js?  \n\nDo you understand?.\n\nI understand\n\nWhen the application initiates an http.request.\n\nWhen the Node.js framework receives a response message from the remote server.\n\nWhen the network operation completes.  \n\nWhen the network operation starts.\n\n1 point\n3.\nQuestion 3\n\nWhere in the callback function does a Node.js generally pass an error object?\n\nDo you understand?.\n\nI understand\n\nThe second parameter\n\nThe HTTP response message\n\nThe http.request( ) call\n\nThe first parameter\n\n1 point\n4.\nQuestion 4\n\nWhat do you use response.end for? \n\nDo you understand?.\n\nI understand\n\nTo log the error from a callback function\n\nTo define the error message from a callback function\n\nTo print the result from the function call\n\nTo end the request and send a response to the client\n\n1 point\n5.\nQuestion 5\n\nWhich of the following can be helpful to mitigate the issue of needing nested callbacks in order to make something happen sequentially?\n\nDo you understand?.\n\nI understand\n\nUse the setTimeout() method\n\nasync/await \n\nHTTP method calls\n\nInversion of control\n\n1 point\n6.\nQuestion 6\n\nWhat do you use to convert a JavaScript object to a string?\n\nDo you understand?.\n\nI understand\n\nMethod JSON.parsestring()\n\nMethod JSON.stringify()\n\nMethod JSON.convert()\n\nMethod JSON.parse() \n\n1 point\n7.\nQuestion 7\n\nA promise is defined as an object returned by an asynchronous method that has three states. Which of the following is one of the states?\n\nDo you understand?.\n\nI understand\n\nResolved \n\nAcknowledged\n\nClosed\n\nWaiting\n\n1 point\nCoursera Honor Code\n\nBy clicking Submit, you confirm this work is your own. Submitting work created with AI tools may result in course failure or account deactivation according to Coursera Honor Code policy.\n\nI, NGUYEN PHUC, understand and agree.\nYou must select the checkbox in order to submit the assignment\nSubmit\nSave draft\n\nLast saved on Nov 25, 9:15 PM +07\n\nLike\nDislike\nReport an issue"
+    },
+    {
+      "title": "Graded Quiz Graded Assignment • Submitted • Grade: 100% • Status: Graded Graded",
+      "page_title": "Graded Quiz",
+      "source": "Module 2",
+      "kind": "graded_quiz",
+      "url": "https://www.coursera.org/learn/developing-backend-apps-with-nodejs-and-express/assignment-submission/41BKY/graded-quiz",
+      "final_url": "https://www.coursera.org/learn/developing-backend-apps-with-nodejs-and-express/assignment-submission/41BKY/graded-quiz/view-feedback",
+      "status": "opened_via_button",
+      "question_count": 10,
+      "questions": [
+        {
+          "index": 1,
+          "question_type": "single_choice",
+          "prompt_text": "What best describes the network operations that Node.js makes?",
+          "options": [
+            {
+              "text": "Non-blocked operations return immediately without added processing time on the server",
+              "checked": true
+            },
+            {
+              "text": "Blocked operations return immediately without added processing time on the server",
+              "checked": false
+            },
+            {
+              "text": "Applications block every network operation to complete at the same time on the server",
+              "checked": false
+            },
+            {
+              "text": "Non-blocked operations return in a synchronized manner with added processing time on the server",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "1.\nQuestion 1\n\nWhat best describes the network operations that Node.js makes?\n\nDo you understand?.\n\nI understand\n\nNon-blocked operations return immediately without added processing time on the server\n\nBlocked operations return immediately without added processing time on the server\n\nApplications block every network operation to complete at the same time on the server\n\nNon-blocked operations return in a synchronized manner with added processing time on the server\n\nNice work\n\nNode.js makes all network operations in a non-blocking manner, and every network operation returns immediately.\n\n1 / 1 point"
+        },
+        {
+          "index": 2,
+          "question_type": "single_choice",
+          "prompt_text": "Before the Node.js framework receives the HTTP response message from the remote web server, it immediately returns a result for the http.request function call. What does this result state?",
+          "options": [
+            {
+              "text": "The callback function was called successfully.",
+              "checked": false
+            },
+            {
+              "text": "A request is in progress.",
+              "checked": true
+            },
+            {
+              "text": "The return message will be sent successfully.",
+              "checked": false
+            },
+            {
+              "text": "The response message will be sent successfully.",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "2.\nQuestion 2\n\nBefore the Node.js framework receives the HTTP response message from the remote web server, it immediately returns a result for the http.request function call. What does this result state?\n\nDo you understand?.\n\nI understand\n\nThe callback function was called successfully.\n\nA request is in progress.\n\nThe return message will be sent successfully.\n\nThe response message will be sent successfully.\n\nNice work\n\nThis result indicates that the request message was sent successfully.\n\n1 / 1 point"
+        },
+        {
+          "index": 3,
+          "question_type": "single_choice",
+          "prompt_text": "What parameter is optional in an HTTP request?",
+          "options": [
+            {
+              "text": "Callback function parameter",
+              "checked": true
+            },
+            {
+              "text": "Event variable parameter",
+              "checked": false
+            },
+            {
+              "text": "Resource variable parameter",
+              "checked": false
+            },
+            {
+              "text": "Location function parameter",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "3.\nQuestion 3\n\nWhat parameter is optional in an HTTP request?\n\nDo you understand?.\n\nI understand\n\nCallback function parameter\n\nEvent variable parameter\n\nResource variable parameter\n\nLocation function parameter\n\nNice work\n\nThe callback function parameter is optional; you can send an HTTP request and disregard the response message.\n\n1 / 1 point"
+        },
+        {
+          "index": 4,
+          "question_type": "single_choice",
+          "prompt_text": "What object do Node.js modules in the SDK pass as the first parameter in a callback function?",
+          "options": [
+            {
+              "text": "Location",
+              "checked": false
+            },
+            {
+              "text": "Error",
+              "checked": true
+            },
+            {
+              "text": "Identity",
+              "checked": false
+            },
+            {
+              "text": "Destination",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "4.\nQuestion 4\n\nWhat object do Node.js modules in the SDK pass as the first parameter in a callback function?\n\nDo you understand?.\n\nI understand\n\nLocation\n\nError\n\nIdentity\n\nDestination\n\nNice work\n\nNode.js modules pass an error object as the first parameter in a callback function.}\n\n1 / 1 point"
+        },
+        {
+          "index": 5,
+          "question_type": "single_choice",
+          "prompt_text": "What do you pass back in the callback handler to indicate a successful return?",
+          "options": [
+            {
+              "text": "404 status code",
+              "checked": false
+            },
+            {
+              "text": "Empty string",
+              "checked": false
+            },
+            {
+              "text": "Null object",
+              "checked": true
+            },
+            {
+              "text": "Error",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "5.\nQuestion 5\n\nWhat do you pass back in the callback handler to indicate a successful return?\n\nDo you understand?.\n\nI understand\n\n404 status code\n\nEmpty string\n\nNull object\n\nError\n\nNice work\n\nNull indicates everything worked.\n\n1 / 1 point"
+        },
+        {
+          "index": 6,
+          "question_type": "single_choice",
+          "prompt_text": "Which function calls the resultCallback callback function to return results to the main application?",
+          "options": [
+            {
+              "text": "http.request()",
+              "checked": true
+            },
+            {
+              "text": "step()",
+              "checked": false
+            },
+            {
+              "text": "aggregate_context()",
+              "checked": false
+            },
+            {
+              "text": "result()",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "6.\nQuestion 6\n\nWhich function calls the resultCallback callback function to return results to the main application?\n\nDo you understand?.\n\nI understand\n\nhttp.request()\n\nstep()\n\naggregate_context()\n\nresult()\n\nNice work\n\nThe http.request( )callback function calls resultCallback to return the result to the main application.\n\n1 / 1 point"
+        },
+        {
+          "index": 7,
+          "question_type": "single_choice",
+          "prompt_text": "Why can inversion of control be an issue when using callbacks?",
+          "options": [
+            {
+              "text": "Callbacks sometimes hand over control to third-party code which can make errors hard to identify",
+              "checked": true
+            },
+            {
+              "text": "Inversion of control uses promises which are difficult to implement",
+              "checked": false
+            },
+            {
+              "text": "Inversion of control is used when something needs to be done sequentially which makes code readability difficult",
+              "checked": false
+            },
+            {
+              "text": "Inversion of control creates the need for nested callbacks",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "7.\nQuestion 7\n\nWhy can inversion of control be an issue when using callbacks?\n\nDo you understand?.\n\nI understand\n\nCallbacks sometimes hand over control to third-party code which can make errors hard to identify\n\nInversion of control uses promises which are difficult to implement\n\nInversion of control is used when something needs to be done sequentially which makes code readability difficult\n\nInversion of control creates the need for nested callbacks\n\nNice work\n\nInversion of control refers to a callback handing over control of the application to third-party code, making errors hard to identify.\n\n1 / 1 point"
+        },
+        {
+          "index": 8,
+          "question_type": "single_choice",
+          "prompt_text": "JSON is the standard format for API data exchange. What relationship does JSON have with Node.js?",
+          "options": [
+            {
+              "text": "Common data model folder",
+              "checked": false
+            },
+            {
+              "text": "Standard representation of native JavaScript objects",
+              "checked": true
+            },
+            {
+              "text": "Metadata file",
+              "checked": false
+            },
+            {
+              "text": "JSON_SET",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "8.\nQuestion 8\n\nJSON is the standard format for API data exchange. What relationship does JSON have with Node.js?\n\nDo you understand?.\n\nI understand\n\nCommon data model folder\n\nStandard representation of native JavaScript objects\n\nMetadata file\n\nJSON_SET\n\nNice work\n\nJSON is a standard representation of native JavaScript objects, and Node.js handles it easily.\n\n1 / 1 point"
+        },
+        {
+          "index": 9,
+          "question_type": "single_choice",
+          "prompt_text": "When an error occurs, which state is the promise at?",
+          "options": [
+            {
+              "text": "Rejected",
+              "checked": true
+            },
+            {
+              "text": "Pending",
+              "checked": false
+            },
+            {
+              "text": "Resolved",
+              "checked": false
+            },
+            {
+              "text": "Aborted",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "9.\nQuestion 9\n\nWhen an error occurs, which state is the promise at?\n\nDo you understand?.\n\nI understand\n\nRejected\n\nPending\n\nResolved\n\nAborted\n\nNice work\n\nWhen there is an error, the promise is in the rejected state.\n\n1 / 1 point"
+        },
+        {
+          "index": 10,
+          "question_type": "single_choice",
+          "prompt_text": "The axios package handles HTTP requests in Node.js and returns a promise object. The promise object has a method that is called after the promise completes. What method does the promise object use?",
+          "options": [
+            {
+              "text": "else",
+              "checked": false
+            },
+            {
+              "text": "if",
+              "checked": false
+            },
+            {
+              "text": "or",
+              "checked": false
+            },
+            {
+              "text": "then",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "10.\nQuestion 10\n\nThe axios package handles HTTP requests in Node.js and returns a promise object. The promise object has a method that is called after the promise completes. What method does the promise object use?\n\nDo you understand?.\n\nI understand\n\nelse\n\nif\n\nor\n\nthen\n\nNice work\n\nThe promise has a \"then\" method, which is called after the promise is resolved.\n\n1 / 1 point"
+        }
+      ],
+      "raw_page_text": "N\nDeveloping Back-End Apps with Node.js and Express\nToday's goal • 0/3 items\n\nComplete 3 items today to stay at a good pace!\n\nModule 1\nIntroduction to Server-Side JavaScript\nModule 2\nAsynchronous I/O with callback programming\nAsynchronous I/O with Callback Programming\nVideo\n. Duration: 6 minutes\n6 min\nCreating Callback Functions\nVideo\n. Duration: 6 minutes\n6 min\nExpert Viewpoints: Using Anonymous Callback Functions in Node.js\nVideo\n. Duration: 5 minutes\n5 min\nIssues with Callbacks\nVideo\n. Duration: 5 minutes\n5 min\nPromises\nVideo\n. Duration: 3 minutes\n3 min\nHands-on Lab: Promises and Call Back\nUngraded App Item\n. Duration: 10 minutes\n10 min\nWorking with JSON\nVideo\n. Duration: 1 minute\n1 min\nExpert Viewpoints: Using JSON & JavaScript\nVideo\n. Duration: 3 minutes\n3 min\nPromises, async/await, and axios requests in Node.js and Express\nVideo\n. Duration: 7 minutes\n7 min\nPromises, Async/Await, and Axios Requests in Node.js and Express\nReading\n. Duration: 20 minutes\n20 min\nHands-on Lab - Async Callback Programing\nUngraded App Item\n. Duration: 30 minutes\n30 min\nModule Summary\nReading\n. Duration: 1 minute\n1 min\nGlossary - Asynchronous I/O with Callback Programming\nReading\n. Duration: 5 minutes\n5 min\nCheatsheet - Asynchronous I/O with Callback Programming\nReading\n. Duration: 15 minutes\n15 min\nPractice Quiz\nPractice Assignment\n. Duration: 14 minutes\n14 min\nGraded Quiz\nGraded AssignmentGrade: 100%\nModule 3\nExpress Web Application Framework\nModule 4\nFinal Project\n\nGraded Assignment\n\nGraded Quiz\n\nAssessment monitored for academic integrity and AI-usage. Privacy Notice\n\nGo to next item\nTry again\nWhat to expect\nDue Dec 13, 11:59 PM +07\n3 attempts\n\nevery 8 hours\n\nYou passed!\n\nTo pass you need a grade of at least 70%.\n\n100%\nView feedback\n\nSubmitted Nov 9, 8:29 PM +07.\n\nReport an issue\nGo to next item\nBack\nGraded Quiz\n\nGraded Assignment • 20 min\n\nDueDec 13, 11:59 PM +07\nYour grade: 100%\nYour latest: 100%•\nYour highest: 100%•\nTo pass you need at least 70%. We keep your highest score.\nNext item\n1.\nQuestion 1\n\nWhat best describes the network operations that Node.js makes?\n\nDo you understand?.\n\nI understand\n\nNon-blocked operations return immediately without added processing time on the server\n\nBlocked operations return immediately without added processing time on the server\n\nApplications block every network operation to complete at the same time on the server\n\nNon-blocked operations return in a synchronized manner with added processing time on the server\n\nNice work\n\nNode.js makes all network operations in a non-blocking manner, and every network operation returns immediately.\n\n1 / 1 point\n2.\nQuestion 2\n\nBefore the Node.js framework receives the HTTP response message from the remote web server, it immediately returns a result for the http.request function call. What does this result state?\n\nDo you understand?.\n\nI understand\n\nThe callback function was called successfully.\n\nA request is in progress.\n\nThe return message will be sent successfully.\n\nThe response message will be sent successfully.\n\nNice work\n\nThis result indicates that the request message was sent successfully.\n\n1 / 1 point\n3.\nQuestion 3\n\nWhat parameter is optional in an HTTP request?\n\nDo you understand?.\n\nI understand\n\nCallback function parameter\n\nEvent variable parameter\n\nResource variable parameter\n\nLocation function parameter\n\nNice work\n\nThe callback function parameter is optional; you can send an HTTP request and disregard the response message.\n\n1 / 1 point\n4.\nQuestion 4\n\nWhat object do Node.js modules in the SDK pass as the first parameter in a callback function?\n\nDo you understand?.\n\nI understand\n\nLocation\n\nError\n\nIdentity\n\nDestination\n\nNice work\n\nNode.js modules pass an error object as the first parameter in a callback function.}\n\n1 / 1 point\n5.\nQuestion 5\n\nWhat do you pass back in the callback handler to indicate a successful return?\n\nDo you understand?.\n\nI understand\n\n404 status code\n\nEmpty string\n\nNull object\n\nError\n\nNice work\n\nNull indicates everything worked.\n\n1 / 1 point\n6.\nQuestion 6\n\nWhich function calls the resultCallback callback function to return results to the main application?\n\nDo you understand?.\n\nI understand\n\nhttp.request()\n\nstep()\n\naggregate_context()\n\nresult()\n\nNice work\n\nThe http.request( )callback function calls resultCallback to return the result to the main application.\n\n1 / 1 point\n7.\nQuestion 7\n\nWhy can inversion of control be an issue when using callbacks?\n\nDo you understand?.\n\nI understand\n\nCallbacks sometimes hand over control to third-party code which can make errors hard to identify\n\nInversion of control uses promises which are difficult to implement\n\nInversion of control is used when something needs to be done sequentially which makes code readability difficult\n\nInversion of control creates the need for nested callbacks\n\nNice work\n\nInversion of control refers to a callback handing over control of the application to third-party code, making errors hard to identify.\n\n1 / 1 point\n8.\nQuestion 8\n\nJSON is the standard format for API data exchange. What relationship does JSON have with Node.js?\n\nDo you understand?.\n\nI understand\n\nCommon data model folder\n\nStandard representation of native JavaScript objects\n\nMetadata file\n\nJSON_SET\n\nNice work\n\nJSON is a standard representation of native JavaScript objects, and Node.js handles it easily.\n\n1 / 1 point\n9.\nQuestion 9\n\nWhen an error occurs, which state is the promise at?\n\nDo you understand?.\n\nI understand\n\nRejected\n\nPending\n\nResolved\n\nAborted\n\nNice work\n\nWhen there is an error, the promise is in the rejected state.\n\n1 / 1 point\n10.\nQuestion 10\n\nThe axios package handles HTTP requests in Node.js and returns a promise object. The promise object has a method that is called after the promise completes. What method does the promise object use?\n\nDo you understand?.\n\nI understand\n\nelse\n\nif\n\nor\n\nthen\n\nNice work\n\nThe promise has a \"then\" method, which is called after the promise is resolved.\n\n1 / 1 point"
+    },
+    {
+      "title": "Practice Quiz Practice Assignment • 18 min • Grade: --",
+      "page_title": "Practice Quiz",
+      "source": "Module 3",
+      "kind": "practice_quiz",
+      "url": "https://www.coursera.org/learn/developing-backend-apps-with-nodejs-and-express/assignment-submission/sbgZg/practice-quiz",
+      "final_url": "https://www.coursera.org/learn/developing-backend-apps-with-nodejs-and-express/assignment-submission/sbgZg/practice-quiz/attempt",
+      "status": "opened_via_button:Start assignment",
+      "question_count": 9,
+      "questions": [
+        {
+          "index": 1,
+          "question_type": "single_choice",
+          "prompt_text": "Which npm package is used to generate a JSON web token?",
+          "options": [
+            {
+              "text": "tokens",
+              "checked": false
+            },
+            {
+              "text": "key",
+              "checked": false
+            },
+            {
+              "text": "express",
+              "checked": false
+            },
+            {
+              "text": "jsonwebtoken",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "1.\nQuestion 1\n\nWhich npm package is used to generate a JSON web token?\n\nDo you understand?.\n\nI understand\n\ntokens\n\nkey\n\nexpress\n\njsonwebtoken\n\n1 point"
+        },
+        {
+          "index": 2,
+          "question_type": "single_choice",
+          "prompt_text": "Which of the following npm commands is a best practice to use when installing dependencies?",
+          "options": [
+            {
+              "text": "npm install --save",
+              "checked": false
+            },
+            {
+              "text": "npm commit -save",
+              "checked": false
+            },
+            {
+              "text": "npm require -save",
+              "checked": false
+            },
+            {
+              "text": "npm init -save",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "2.\nQuestion 2\n\nWhich of the following npm commands is a best practice to use when installing dependencies?\n\nDo you understand?.\n\nI understand\n\nnpm install --save\n\nnpm commit -save\n\nnpm require -save\n\nnpm init -save\n\n1 point"
+        },
+        {
+          "index": 3,
+          "question_type": "single_choice",
+          "prompt_text": "What can you use to manage Node.js packages in your Node.js framework?",
+          "options": [
+            {
+              "text": "XML",
+              "checked": false
+            },
+            {
+              "text": "HTML",
+              "checked": false
+            },
+            {
+              "text": "npm application",
+              "checked": false
+            },
+            {
+              "text": "JavaScript",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "3.\nQuestion 3\n\nWhat can you use to manage Node.js packages in your Node.js framework?\n\nDo you understand?.\n\nI understand\n\nXML\n\nHTML\n\nnpm application\n\nJavaScript\n\n1 point"
+        },
+        {
+          "index": 4,
+          "question_type": "single_choice",
+          "prompt_text": "What are two different types of patterns that web frameworks employ?",
+          "options": [
+            {
+              "text": "JSON and HTML",
+              "checked": false
+            },
+            {
+              "text": "Express and Koa",
+              "checked": false
+            },
+            {
+              "text": "Model-View-Controller (MVC) and Representational State Transfer APIs (REST API)",
+              "checked": false
+            },
+            {
+              "text": "Ruby on Rails and Django",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "4.\nQuestion 4\n\nWhat are two different types of patterns that web frameworks employ?\n\nDo you understand?.\n\nI understand\n\nJSON and HTML\n\nExpress and Koa\n\nModel-View-Controller (MVC) and Representational State Transfer APIs (REST API)\n\nRuby on Rails and Django\n\n1 point"
+        },
+        {
+          "index": 5,
+          "question_type": "single_choice",
+          "prompt_text": "When Node.js receives the final part of the HTTP response message, what event handler does it call?",
+          "options": [
+            {
+              "text": "http.request()",
+              "checked": false
+            },
+            {
+              "text": "buffer.match",
+              "checked": false
+            },
+            {
+              "text": "response.on(‘end’)",
+              "checked": false
+            },
+            {
+              "text": "response.on(‘start’)",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "5.\nQuestion 5\n\nWhen Node.js receives the final part of the HTTP response message, what event handler does it call?\n\nDo you understand?.\n\nI understand\n\nhttp.request()\n\nbuffer.match \n\nresponse.on(‘end’)\n\nresponse.on(‘start’)\n\n1 point"
+        },
+        {
+          "index": 6,
+          "question_type": "single_choice",
+          "prompt_text": "How can you obtain public data and information from an external web server?",
+          "options": [
+            {
+              "text": "Send an XML request",
+              "checked": false
+            },
+            {
+              "text": "Send an HTML request",
+              "checked": false
+            },
+            {
+              "text": "Send an HTTP request",
+              "checked": false
+            },
+            {
+              "text": "Manually get data from a website",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "6.\nQuestion 6\n\nHow can you obtain public data and information from an external web server?\n\nDo you understand?.\n\nI understand\n\nSend an XML request\n\nSend an HTML request\n\nSend an HTTP request\n\nManually get data from a website\n\n1 point"
+        },
+        {
+          "index": 7,
+          "question_type": "single_choice",
+          "prompt_text": "You can use the app.get() method to handle requests in Express. What does the app.get() method call look like?",
+          "options": [
+            {
+              "text": "app.get(port, path, error)",
+              "checked": false
+            },
+            {
+              "text": "app.get(path, callback)",
+              "checked": false
+            },
+            {
+              "text": "app.get(callback, path)",
+              "checked": false
+            },
+            {
+              "text": "app.get(error, callback, path)",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "7.\nQuestion 7\n\nYou can use the app.get() method to handle requests in Express. What does the app.get() method call look like?\n\nDo you understand?.\n\nI understand\n\napp.get(port, path, error)\n\napp.get(path, callback)\n\napp.get(callback, path)\n\napp.get(error, callback, path)\n\n1 point"
+        },
+        {
+          "index": 8,
+          "question_type": "single_choice",
+          "prompt_text": "Which of the following is one of the five steps needed to work with Express?",
+          "options": [
+            {
+              "text": "Run Node.js command to create a port",
+              "checked": false
+            },
+            {
+              "text": "Export uniform resource locater",
+              "checked": false
+            },
+            {
+              "text": "Create a new route handler",
+              "checked": false
+            },
+            {
+              "text": "Install a terminal",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "8.\nQuestion 8\n\nWhich of the following is one of the five steps needed to work with Express?\n\nDo you understand?.\n\nI understand\n\nRun Node.js command to create a port\n\nExport uniform resource locater\n\nCreate a new route handler\n\nInstall a terminal\n\n1 point"
+        },
+        {
+          "index": 9,
+          "question_type": "single_choice",
+          "prompt_text": "Which statement is true regarding passwordless authorization?",
+          "options": [
+            {
+              "text": "It uses a token that gets passed back and forth between user and client.",
+              "checked": false
+            },
+            {
+              "text": "They gain access to the system by demonstrating they possess a factor that proves their identity such as biometrics or a “magic link”.",
+              "checked": false
+            },
+            {
+              "text": "They enter their credentials and are then asked a series of security questions that they only know the answers to.",
+              "checked": false
+            },
+            {
+              "text": "It is the oldest form of authentication technology.",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "9.\nQuestion 9\n\nWhich statement is true regarding passwordless authorization?\n\nDo you understand?.\n\nI understand\n\nIt uses a token that gets passed back and forth between user and client.\n\nThey gain access to the system by demonstrating they possess a factor that proves their identity such as biometrics or a “magic link”.\n\nThey enter their credentials and are then asked a series of security questions that they only know the answers to.\n\nIt is the oldest form of authentication technology.\n\n1 point"
+        }
+      ],
+      "raw_page_text": "N\nDeveloping Back-End Apps with Node.js and Express\nToday's goal • 0/3 items\n\nComplete 3 items today to stay at a good pace!\n\nModule 1\nIntroduction to Server-Side JavaScript\nModule 2\nAsynchronous I/O with callback programming\nModule 3\nExpress Web Application Framework\nExtending Node.js\nVideo\n. Duration: 4 minutes\n4 min\nExpert Viewpoints: Working with Third-Party Node.js Extensions\nVideo\n. Duration: 2 minutes\n2 min\nIntroduction to Web Frameworks\nVideo\n. Duration: 7 minutes\n7 min\nExpress Web Application Framework\nVideo\n. Duration: 6 minutes\n6 min\nYour First Express Web Application\nVideo\n. Duration: 3 minutes\n3 min\nExpert Viewpoints: Working with Back-end JavaScript Frameworks and Express\nVideo\n. Duration: 3 minutes\n3 min\nIntroduction to Middleware & Routers\nReading\n. Duration: 3 minutes\n3 min\nRouting, Middleware, and Templating\nVideo\n. Duration: 7 minutes\n7 min\nAuthentication and Authorization in Node.js\nVideo\n. Duration: 7 minutes\n7 min\nWelcome to Authentication and Authorization in Node.js\nReading\n. Duration: 20 minutes\n20 min\nAuthentication in Node.js\nVideo\n. Duration: 7 minutes\n7 min\nHTTP Methods and Rest APIs\nReading\n. Duration: 20 minutes\n20 min\nHands-on Lab: CRUD Operations with Node.js and Express\nUngraded App Item\n. Duration: 1 hour\n1h\nExpress Best Practices\nVideo\n. Duration: 7 minutes\n7 min\nHands-On Lab: Express Server\nUngraded App Item\n. Duration: 50 minutes\n50 min\nModule Summary\nReading\n. Duration: 1 minute\n1 min\nGlossary: Express Web Application Framework\nReading\n. Duration: 10 minutes\n10 min\nCheatsheet - Express Web Application Framework\nReading\n. Duration: 10 minutes\n10 min\nPractice Quiz\nPractice Assignment\n. Duration: 18 minutes\n18 min\nGraded Quiz\nGraded AssignmentGrade: 100%\nModule 4\nFinal Project\n\nPractice Assignment\n\nPractice Quiz\nResume assignment\nHelp me practice\nWhat to expect\nDue Dec 27, 11:59 PM +07\nUnlimited attempts\n\nThis is a practice assignment to help you check your understanding. It doesn’t count toward your course grade.\n\nReport an issue\nGo to next item\nBack\nPractice Quiz\n\nPractice Assignment • 18 min\n\nDueDec 27, 11:59 PM +07\n1.\nQuestion 1\n\nWhich npm package is used to generate a JSON web token?\n\nDo you understand?.\n\nI understand\n\ntokens\n\nkey\n\nexpress\n\njsonwebtoken\n\n1 point\n2.\nQuestion 2\n\nWhich of the following npm commands is a best practice to use when installing dependencies?\n\nDo you understand?.\n\nI understand\n\nnpm install --save\n\nnpm commit -save\n\nnpm require -save\n\nnpm init -save\n\n1 point\n3.\nQuestion 3\n\nWhat can you use to manage Node.js packages in your Node.js framework?\n\nDo you understand?.\n\nI understand\n\nXML\n\nHTML\n\nnpm application\n\nJavaScript\n\n1 point\n4.\nQuestion 4\n\nWhat are two different types of patterns that web frameworks employ?\n\nDo you understand?.\n\nI understand\n\nJSON and HTML\n\nExpress and Koa\n\nModel-View-Controller (MVC) and Representational State Transfer APIs (REST API)\n\nRuby on Rails and Django\n\n1 point\n5.\nQuestion 5\n\nWhen Node.js receives the final part of the HTTP response message, what event handler does it call?\n\nDo you understand?.\n\nI understand\n\nhttp.request()\n\nbuffer.match \n\nresponse.on(‘end’)\n\nresponse.on(‘start’)\n\n1 point\n6.\nQuestion 6\n\nHow can you obtain public data and information from an external web server?\n\nDo you understand?.\n\nI understand\n\nSend an XML request\n\nSend an HTML request\n\nSend an HTTP request\n\nManually get data from a website\n\n1 point\n7.\nQuestion 7\n\nYou can use the app.get() method to handle requests in Express. What does the app.get() method call look like?\n\nDo you understand?.\n\nI understand\n\napp.get(port, path, error)\n\napp.get(path, callback)\n\napp.get(callback, path)\n\napp.get(error, callback, path)\n\n1 point\n8.\nQuestion 8\n\nWhich of the following is one of the five steps needed to work with Express?\n\nDo you understand?.\n\nI understand\n\nRun Node.js command to create a port\n\nExport uniform resource locater\n\nCreate a new route handler\n\nInstall a terminal\n\n1 point\n9.\nQuestion 9\n\nWhich statement is true regarding passwordless authorization?\n\nDo you understand?.\n\nI understand\n\nIt uses a token that gets passed back and forth between user and client.\n\nThey gain access to the system by demonstrating they possess a factor that proves their identity such as biometrics or a “magic link”.\n\nThey enter their credentials and are then asked a series of security questions that they only know the answers to.\n\nIt is the oldest form of authentication technology.\n\n1 point\nCoursera Honor Code\n\nBy clicking Submit, you confirm this work is your own. Submitting work created with AI tools may result in course failure or account deactivation according to Coursera Honor Code policy.\n\nI, NGUYEN PHUC, understand and agree.\nYou must select the checkbox in order to submit the assignment\nSubmit\nSave draft\n\nLast saved on Nov 25, 9:15 PM +07\n\nLike\nDislike\nReport an issue"
+    },
+    {
+      "title": "Graded Quiz Graded Assignment • Submitted • Grade: 100% • Status: Graded Graded",
+      "page_title": "Graded Quiz",
+      "source": "Module 3",
+      "kind": "graded_quiz",
+      "url": "https://www.coursera.org/learn/developing-backend-apps-with-nodejs-and-express/assignment-submission/aHKsB/graded-quiz",
+      "final_url": "https://www.coursera.org/learn/developing-backend-apps-with-nodejs-and-express/assignment-submission/aHKsB/graded-quiz/view-feedback",
+      "status": "opened_via_button",
+      "question_count": 10,
+      "questions": [
+        {
+          "index": 1,
+          "question_type": "single_choice",
+          "prompt_text": "One disadvantage of manual parsing is that string matching ignores the XML data structure. However, depending on XML data complexity, string matching might be more efficient than what?",
+          "options": [
+            {
+              "text": "No alternative: string matching is never more efficient.",
+              "checked": false
+            },
+            {
+              "text": "An XML tree of the data",
+              "checked": true
+            },
+            {
+              "text": "An XML root element",
+              "checked": false
+            },
+            {
+              "text": "An XML attribute structure",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "1.\nQuestion 1\n\nOne disadvantage of manual parsing is that string matching ignores the XML data structure. However, depending on XML data complexity, string matching might be more efficient than what?\n\nDo you understand?.\n\nI understand\n\nNo alternative: string matching is never more efficient.\n\nAn XML tree of the data\n\nAn XML root element\n\nAn XML attribute structure\n\nNice work\n\nString matching might be more efficient than building an XML tree of the data.\n\n1 / 1 point"
+        },
+        {
+          "index": 2,
+          "question_type": "single_choice",
+          "prompt_text": "Which type of authentication is widely used for password recovery by providing a magic link to the user?",
+          "options": [
+            {
+              "text": "Passwordless",
+              "checked": true
+            },
+            {
+              "text": "Session-based",
+              "checked": false
+            },
+            {
+              "text": "Single Sign On",
+              "checked": false
+            },
+            {
+              "text": "Token-based",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "2.\nQuestion 2\n\nWhich type of authentication is widely used for password recovery by providing a magic link to the user?\n\nDo you understand?.\n\nI understand\n\nPasswordless\n\nSession-based\n\nSingle Sign On\n\nToken-based\n\nNice work\n\nPasswordless authentication is widely used for password recovery.\n\n1 / 1 point"
+        },
+        {
+          "index": 3,
+          "question_type": "single_choice",
+          "prompt_text": "Which term describes starting  server and bind it to a specific port for handling incoming requests?",
+          "options": [
+            {
+              "text": "app.listen",
+              "checked": true
+            },
+            {
+              "text": "app.request",
+              "checked": false
+            },
+            {
+              "text": "http.view",
+              "checked": false
+            },
+            {
+              "text": "http.name",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "3.\nQuestion 3\n\n Which term describes starting  server and bind it to a specific port for handling incoming requests?  \n\nDo you understand?.\n\nI understand\n\napp.listen\n\napp.request\n\nhttp.view\n\nhttp.name\n\nNice work\n\nYou call app.listen to create a web server object that listens to incoming requests on the specified port.\n\n1 / 1 point"
+        },
+        {
+          "index": 4,
+          "question_type": "single_choice",
+          "prompt_text": "The Node.js framework doesn't provide many features for building web apps. What do developers rely on to extend Node.js features?",
+          "options": [
+            {
+              "text": "External libraries and packages",
+              "checked": true
+            },
+            {
+              "text": "JSON",
+              "checked": false
+            },
+            {
+              "text": "JavaScript",
+              "checked": false
+            },
+            {
+              "text": "Timely updates",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "4.\nQuestion 4\n\nThe Node.js framework doesn't provide many features for building web apps. What do developers rely on to extend Node.js features?\n\nDo you understand?.\n\nI understand\n\nExternal libraries and packages\n\nJSON\n\nJavaScript\n\nTimely updates\n\nNice work\n\nDevelopers rely on external libraries and packages to extend the core Node.js functionality.\n\n1 / 1 point"
+        },
+        {
+          "index": 5,
+          "question_type": "single_choice",
+          "prompt_text": "Which statement regarding the jsonwebtoken.verify() method is true?",
+          "options": [
+            {
+              "text": "It is used to generate a JSON web token",
+              "checked": false
+            },
+            {
+              "text": "It is used to return an HTTP status code",
+              "checked": false
+            },
+            {
+              "text": "It is used to return a response",
+              "checked": false
+            },
+            {
+              "text": "It is used to verify a JSON web token",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "5.\nQuestion 5\n\nWhich statement regarding the jsonwebtoken.verify() method is true?\n\nDo you understand?.\n\nI understand\n\nIt is used to generate a JSON web token\n\nIt is used to return an HTTP status code\n\nIt is used to return a response\n\nIt is used to verify a JSON web token\n\nNice work\n\nThe jsonwebtoken.verify() method is used to verify a JSON web token.\n\n1 / 1 point"
+        },
+        {
+          "index": 6,
+          "question_type": "single_choice",
+          "prompt_text": "Unlike Node.js, which deals with HTTP at a lower level, Express provides an app class to serve what function?",
+          "options": [
+            {
+              "text": "Lookup web services",
+              "checked": false
+            },
+            {
+              "text": "Access a URL",
+              "checked": false
+            },
+            {
+              "text": "Map to a web resource path",
+              "checked": true
+            },
+            {
+              "text": "Parse through a network path",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "6.\nQuestion 6\n\n Unlike Node.js, which deals with HTTP at a lower level, Express provides an app class to serve what function?\n\nDo you understand?.\n\nI understand\n\nLookup web services\n\nAccess a URL\n\nMap to a web resource path\n\nParse through a network path\n\nNice work\n\nExpress implements an app class that you map to a web resource path.\n\n1 / 1 point"
+        },
+        {
+          "index": 7,
+          "question_type": "single_choice",
+          "prompt_text": "Which web application framework is based on the Node.js runtime environment?",
+          "options": [
+            {
+              "text": "JSON",
+              "checked": false
+            },
+            {
+              "text": "Express",
+              "checked": true
+            },
+            {
+              "text": "XML-JS",
+              "checked": false
+            },
+            {
+              "text": "Async.js",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "7.\nQuestion 7\n\nWhich web application framework is based on the Node.js runtime environment?\n\nDo you understand?.\n\nI understand\n\nJSON\n\nExpress\n\nXML-JS\n\nAsync.js\n\nNice work\n\nExpress is a web application framework based on the Node.js runtime environment.\n\n1 / 1 point"
+        },
+        {
+          "index": 8,
+          "question_type": "single_choice",
+          "prompt_text": "Which Node.js package can parse a string of XML elements into a JavaScript object?",
+          "options": [
+            {
+              "text": "Express.js",
+              "checked": false
+            },
+            {
+              "text": "Async.js",
+              "checked": false
+            },
+            {
+              "text": "XML-JS",
+              "checked": false
+            },
+            {
+              "text": "xml2js",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "8.\nQuestion 8\n\nWhich Node.js package can parse a string of XML elements into a JavaScript object?\n\nDo you understand?.\n\nI understand\n\nExpress.js\n\nAsync.js\n\nXML-JS\n\nxml2js\n\nNice work\n\nThe xml2js Node.js package parses a string of XML elements into a JavaScript object.\n\n1 / 1 point"
+        },
+        {
+          "index": 9,
+          "question_type": "single_choice",
+          "prompt_text": "Which library and module are commonly used for performing black-box testing of REST APIs?",
+          "options": [
+            {
+              "text": "Koa/SuperTest",
+              "checked": false
+            },
+            {
+              "text": "Postman/TestAPI",
+              "checked": false
+            },
+            {
+              "text": "Express/TestAPI",
+              "checked": false
+            },
+            {
+              "text": "Mocha/SuperTest",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "9.\nQuestion 9\n\n Which library and module are commonly used for performing black-box testing of REST APIs?\n\nDo you understand?.\n\nI understand\n\nKoa/SuperTest\n\nPostman/TestAPI\n\nExpress/TestAPI\n\nMocha/SuperTest\n\nNice work\n\nThe Mocha library has a module called SuperTest which can help you black-box test REST APIs.\n\n1 / 1 point"
+        },
+        {
+          "index": 10,
+          "question_type": "single_choice",
+          "prompt_text": "Which of the following kind of task is middleware most useful for?",
+          "options": [
+            {
+              "text": "Parsing strings",
+              "checked": false
+            },
+            {
+              "text": "Performing large calculations",
+              "checked": false
+            },
+            {
+              "text": "Error handling",
+              "checked": true
+            },
+            {
+              "text": "Routing",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "10.\nQuestion 10\n\nWhich of the following kind of task is middleware most useful for?\n\nDo you understand?.\n\nI understand\n\nParsing strings\n\nPerforming large calculations\n\nError handling\n\nRouting\n\nNice work\n\nMiddleware is helpful to handle errors. \n\n1 / 1 point"
+        }
+      ],
+      "raw_page_text": "N\nDeveloping Back-End Apps with Node.js and Express\nToday's goal • 0/3 items\n\nComplete 3 items today to stay at a good pace!\n\nModule 1\nIntroduction to Server-Side JavaScript\nModule 2\nAsynchronous I/O with callback programming\nModule 3\nExpress Web Application Framework\nExtending Node.js\nVideo\n. Duration: 4 minutes\n4 min\nExpert Viewpoints: Working with Third-Party Node.js Extensions\nVideo\n. Duration: 2 minutes\n2 min\nIntroduction to Web Frameworks\nVideo\n. Duration: 7 minutes\n7 min\nExpress Web Application Framework\nVideo\n. Duration: 6 minutes\n6 min\nYour First Express Web Application\nVideo\n. Duration: 3 minutes\n3 min\nExpert Viewpoints: Working with Back-end JavaScript Frameworks and Express\nVideo\n. Duration: 3 minutes\n3 min\nIntroduction to Middleware & Routers\nReading\n. Duration: 3 minutes\n3 min\nRouting, Middleware, and Templating\nVideo\n. Duration: 7 minutes\n7 min\nAuthentication and Authorization in Node.js\nVideo\n. Duration: 7 minutes\n7 min\nWelcome to Authentication and Authorization in Node.js\nReading\n. Duration: 20 minutes\n20 min\nAuthentication in Node.js\nVideo\n. Duration: 7 minutes\n7 min\nHTTP Methods and Rest APIs\nReading\n. Duration: 20 minutes\n20 min\nHands-on Lab: CRUD Operations with Node.js and Express\nUngraded App Item\n. Duration: 1 hour\n1h\nExpress Best Practices\nVideo\n. Duration: 7 minutes\n7 min\nHands-On Lab: Express Server\nUngraded App Item\n. Duration: 50 minutes\n50 min\nModule Summary\nReading\n. Duration: 1 minute\n1 min\nGlossary: Express Web Application Framework\nReading\n. Duration: 10 minutes\n10 min\nCheatsheet - Express Web Application Framework\nReading\n. Duration: 10 minutes\n10 min\nPractice Quiz\nPractice Assignment\n. Duration: 18 minutes\n18 min\nGraded Quiz\nGraded AssignmentGrade: 100%\nModule 4\nFinal Project\n\nGraded Assignment\n\nGraded Quiz\n\nAssessment monitored for academic integrity and AI-usage. Privacy Notice\n\nGo to next item\nTry again\nWhat to expect\nDue Dec 27, 11:59 PM +07\n3 attempts\n\nevery 8 hours\n\nYou passed!\n\nTo pass you need a grade of at least 70%.\n\n100%\nView feedback\n\nSubmitted Nov 9, 8:49 PM +07.\n\nReport an issue\nGo to next item\nBack\nGraded Quiz\n\nGraded Assignment • 20 min\n\nDueDec 27, 11:59 PM +07\nYour grade: 100%\nYour latest: 100%•\nYour highest: 100%•\nTo pass you need at least 70%. We keep your highest score.\nNext item\n1.\nQuestion 1\n\nOne disadvantage of manual parsing is that string matching ignores the XML data structure. However, depending on XML data complexity, string matching might be more efficient than what?\n\nDo you understand?.\n\nI understand\n\nNo alternative: string matching is never more efficient.\n\nAn XML tree of the data\n\nAn XML root element\n\nAn XML attribute structure\n\nNice work\n\nString matching might be more efficient than building an XML tree of the data.\n\n1 / 1 point\n2.\nQuestion 2\n\nWhich type of authentication is widely used for password recovery by providing a magic link to the user?\n\nDo you understand?.\n\nI understand\n\nPasswordless\n\nSession-based\n\nSingle Sign On\n\nToken-based\n\nNice work\n\nPasswordless authentication is widely used for password recovery.\n\n1 / 1 point\n3.\nQuestion 3\n\n Which term describes starting  server and bind it to a specific port for handling incoming requests?  \n\nDo you understand?.\n\nI understand\n\napp.listen\n\napp.request\n\nhttp.view\n\nhttp.name\n\nNice work\n\nYou call app.listen to create a web server object that listens to incoming requests on the specified port.\n\n1 / 1 point\n4.\nQuestion 4\n\nThe Node.js framework doesn't provide many features for building web apps. What do developers rely on to extend Node.js features?\n\nDo you understand?.\n\nI understand\n\nExternal libraries and packages\n\nJSON\n\nJavaScript\n\nTimely updates\n\nNice work\n\nDevelopers rely on external libraries and packages to extend the core Node.js functionality.\n\n1 / 1 point\n5.\nQuestion 5\n\nWhich statement regarding the jsonwebtoken.verify() method is true?\n\nDo you understand?.\n\nI understand\n\nIt is used to generate a JSON web token\n\nIt is used to return an HTTP status code\n\nIt is used to return a response\n\nIt is used to verify a JSON web token\n\nNice work\n\nThe jsonwebtoken.verify() method is used to verify a JSON web token.\n\n1 / 1 point\n6.\nQuestion 6\n\n Unlike Node.js, which deals with HTTP at a lower level, Express provides an app class to serve what function?\n\nDo you understand?.\n\nI understand\n\nLookup web services\n\nAccess a URL\n\nMap to a web resource path\n\nParse through a network path\n\nNice work\n\nExpress implements an app class that you map to a web resource path.\n\n1 / 1 point\n7.\nQuestion 7\n\nWhich web application framework is based on the Node.js runtime environment?\n\nDo you understand?.\n\nI understand\n\nJSON\n\nExpress\n\nXML-JS\n\nAsync.js\n\nNice work\n\nExpress is a web application framework based on the Node.js runtime environment.\n\n1 / 1 point\n8.\nQuestion 8\n\nWhich Node.js package can parse a string of XML elements into a JavaScript object?\n\nDo you understand?.\n\nI understand\n\nExpress.js\n\nAsync.js\n\nXML-JS\n\nxml2js\n\nNice work\n\nThe xml2js Node.js package parses a string of XML elements into a JavaScript object.\n\n1 / 1 point\n9.\nQuestion 9\n\n Which library and module are commonly used for performing black-box testing of REST APIs?\n\nDo you understand?.\n\nI understand\n\nKoa/SuperTest\n\nPostman/TestAPI\n\nExpress/TestAPI\n\nMocha/SuperTest\n\nNice work\n\nThe Mocha library has a module called SuperTest which can help you black-box test REST APIs.\n\n1 / 1 point\n10.\nQuestion 10\n\nWhich of the following kind of task is middleware most useful for?\n\nDo you understand?.\n\nI understand\n\nParsing strings\n\nPerforming large calculations\n\nError handling\n\nRouting\n\nNice work\n\nMiddleware is helpful to handle errors. \n\n1 / 1 point"
+    }
+  ]
+}

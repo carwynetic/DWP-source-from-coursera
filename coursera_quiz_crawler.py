@@ -24,7 +24,7 @@ from urllib.parse import urljoin, urlparse
 
 from playwright.sync_api import Page, BrowserContext, TimeoutError as PlaywrightTimeoutError, sync_playwright
 
-# All 7 DWP301c Coursera courses
+# All DWP301c Coursera courses (7 initial + 6 FLM additions)
 COURSES: dict[str, dict[str, str]] = {
     "coursera1": {
         "name": "Django Application Development with SQL and Databases",
@@ -60,6 +60,36 @@ COURSES: dict[str, dict[str, str]] = {
         "name": "Full Stack Application Development Capstone Project",
         "slug": "ibm-cloud-native-full-stack-development-capstone",
         "url": "https://www.coursera.org/learn/ibm-cloud-native-full-stack-development-capstone",
+    },
+    "coursera8": {
+        "name": "Introduction to Cloud Computing",
+        "slug": "introduction-to-cloud",
+        "url": "https://www.coursera.org/learn/introduction-to-cloud",
+    },
+    "coursera9": {
+        "name": "Developing Back-End Apps with Node.js and Express",
+        "slug": "developing-backend-apps-with-nodejs-and-express",
+        "url": "https://www.coursera.org/learn/developing-backend-apps-with-nodejs-and-express",
+    },
+    "coursera10": {
+        "name": "Python for Data Science, AI & Development",
+        "slug": "python-for-applied-data-science-ai",
+        "url": "https://www.coursera.org/learn/python-for-applied-data-science-ai",
+    },
+    "coursera11": {
+        "name": "Python Project for AI & Application Development",
+        "slug": "python-project-for-ai-application-development",
+        "url": "https://www.coursera.org/learn/python-project-for-ai-application-development",
+    },
+    "coursera12": {
+        "name": "Full-Stack Software Developer Assessment",
+        "slug": "full-stack-software-developer-assessment",
+        "url": "https://www.coursera.org/learn/full-stack-software-developer-assessment",
+    },
+    "coursera13": {
+        "name": "Introduction to Web Development with HTML, CSS, JavaScript",
+        "slug": "introduction-to-web-development-with-html-css-javacript",
+        "url": "https://www.coursera.org/learn/introduction-to-web-development-with-html-css-javacript",
     },
 }
 
@@ -718,7 +748,7 @@ def crawl_course(
         else Path.home() / ".coursera_quiz_crawler_profile"
     )
     profile_path = profile_dir or default_profile
-    out_dir = (output_root or (base_dir / "output")) / f"{course_info['key']}_{course_info['slug']}"
+    out_dir = (output_root or (base_dir / "output_question")) / f"{course_info['key']}_{course_info['slug']}"
 
     log(f"Starting crawler for: {course_info['name']}")
     log(f"Browser profile dir: {profile_path}")

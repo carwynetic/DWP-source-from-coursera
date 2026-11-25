@@ -1,0 +1,786 @@
+{
+  "crawled_at": "2026-11-25T21:27:38.502843",
+  "course": {
+    "key": "coursera11",
+    "name": "Python Project for AI & Application Development",
+    "slug": "python-project-for-ai-application-development",
+    "url": "https://www.coursera.org/learn/python-project-for-ai-application-development"
+  },
+  "total_quizzes_discovered": 4,
+  "total_mc_quizzes_extracted": 4,
+  "total_mc_questions": 30,
+  "quizzes": [
+    {
+      "title": "Module 1 Practice Quiz: Python Coding Practices and Packaging Concepts Practice Assignment • Submitted • Grade: 100% • Status: Graded Graded",
+      "page_title": "Module 1 Practice Quiz: Python Coding Practices and Packaging Concepts",
+      "source": "Module 1",
+      "kind": "practice_quiz",
+      "url": "https://www.coursera.org/learn/python-project-for-ai-application-development/assignment-submission/kxlwI/module-1-practice-quiz-python-coding-practices-and-packaging-concepts",
+      "final_url": "https://www.coursera.org/learn/python-project-for-ai-application-development/assignment-submission/kxlwI/module-1-practice-quiz-python-coding-practices-and-packaging-concepts/view-feedback",
+      "status": "opened_via_button",
+      "question_count": 5,
+      "questions": [
+        {
+          "index": 1,
+          "question_type": "single_choice",
+          "prompt_text": "Identify the file where you add code to reference the modules in the package?",
+          "options": [
+            {
+              "text": "__main__.py",
+              "checked": false
+            },
+            {
+              "text": "__name__.py",
+              "checked": false
+            },
+            {
+              "text": "myproject.py",
+              "checked": false
+            },
+            {
+              "text": "__init__.py",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "1.\nQuestion 1\n\nIdentify the file where you add code to reference the modules in the package? \n\nDo you understand?.\n\nI understand\n\n__main__.py\n\n__name__.py\n\nmyproject.py\n\n __init__.py\n\nNice work\n\nCorrect! You will need to add code to reference the modules in the package in the __init__.py file.\n\n1 / 1 point"
+        },
+        {
+          "index": 2,
+          "question_type": "single_choice",
+          "prompt_text": "Which of the following is a best practice when creating function names to write test cases?",
+          "options": [
+            {
+              "text": "test_",
+              "checked": true
+            },
+            {
+              "text": "_test",
+              "checked": false
+            },
+            {
+              "text": "Function",
+              "checked": false
+            },
+            {
+              "text": "function.test",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "2.\nQuestion 2\n\nWhich of the following is a best practice when creating function names to write test cases?\n\nDo you understand?.\n\nI understand\n\ntest_\n\n_test\n\nFunction\n\nfunction.test\n\nNice work\n\nCorrect! The unittest library identifies only the functions with the prefix ‘test_’ as the functions for conducting unit tests.\n\n1 / 1 point"
+        },
+        {
+          "index": 3,
+          "question_type": "single_choice",
+          "prompt_text": "Which of the following is a valid method name based on PEP8 guidelines?",
+          "options": [
+            {
+              "text": "GET_USER_NAME()",
+              "checked": false
+            },
+            {
+              "text": "getUserName()",
+              "checked": false
+            },
+            {
+              "text": "get_user_name()",
+              "checked": true
+            },
+            {
+              "text": "GetUserName()",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "3.\nQuestion 3\n\nWhich of the following is a valid method name based on PEP8 guidelines?\n\nDo you understand?.\n\nI understand\n\nGET_USER_NAME()\n\ngetUserName()\n\nget_user_name()\n\nGetUserName()\n\nNice work\n\nCorrect! According to the PEP8 guidelines, the method name should preferably be lowercase, with underscores separating the words.\n\n1 / 1 point"
+        },
+        {
+          "index": 4,
+          "question_type": "single_choice",
+          "prompt_text": "Which of the following is required to package a Python module?",
+          "options": [
+            {
+              "text": "A folder with server.py",
+              "checked": false
+            },
+            {
+              "text": "import sys as the first line of code in the Python script",
+              "checked": false
+            },
+            {
+              "text": "The methods in the Python module should be defined as public methods",
+              "checked": false
+            },
+            {
+              "text": "The Python module should be packaged in a directory with __init__.py in the same directory",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "4.\nQuestion 4\n\nWhich of the following is required to package a Python module?\n\nDo you understand?.\n\nI understand\n\nA folder with server.py\n\nimport sys as the first line of code in the Python script\n\nThe methods in the Python module should be defined as public methods\n\nThe Python module should be packaged in a directory with __init__.py in the same directory\n\nNice work\n\nCorrect! Package requires referencing to all its modules in __init__.py. Without this, the package is not callable.\n\n1 / 1 point"
+        },
+        {
+          "index": 5,
+          "question_type": "multiple_select",
+          "prompt_text": "Which of the following is TRUE about web apps and APIs? (Select two)",
+          "options": [
+            {
+              "text": "All APIs allow users to access apps without installing them on their local systems.",
+              "checked": false
+            },
+            {
+              "text": "All web apps are APIs, but not all APIs are web apps.",
+              "checked": true
+            },
+            {
+              "text": "Web apps is a generic term that includes “online” or web-based and “offline” apps.",
+              "checked": false
+            },
+            {
+              "text": "Both web apps and APIs link two system parts.",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "5.\nQuestion 5\n\nWhich of the following is TRUE about web apps and APIs? (Select two)\n\nDo you understand?.\n\nI understand\n\nAll APIs allow users to access apps without installing them on their local systems.\n\nAll web apps are APIs, but not all APIs are web apps.\n\nNice work\n\nCorrect! All web apps are APIs, but not all APIs are web apps.\n\nWeb apps is a generic term that includes “online” or web-based and “offline” apps.\n\nBoth web apps and APIs link two system parts.\n\nNice work\n\nCorrect! Both web apps and APIs create links between two system parts.\n\n1 / 1 point"
+        }
+      ],
+      "raw_page_text": "N\nBuild & Deploy AI Applications with Python & Flask\nToday's goal • 0/3 items\n\nComplete 3 items today to stay at a good pace!\n\nModule 1\nPython Coding Practices and Packaging Concepts\nWelcome\nIBM Product Spotlight: IBM Bob\nReading\n. Duration: 2 minutes\n2 min\nIntroduction to the Course\nVideo\n. Duration: 2 minutes\n2 min\nHelpful Tips for Completing this Course\nReading\n. Duration: 3 minutes\n3 min\nPrerequisites and Course Syllabus\nReading\n. Duration: 5 minutes\n5 min\nApplication Development and Packaging using Python\nReading: Python with Flask for Large-Scale Projects\nUngraded Plugin\n. Duration: 5 minutes\n5 min\nApplication Development Lifecycle\nVideo\n. Duration: 6 minutes\n6 min\nIntroduction to Web Applications and APIs\nVideo\n. Duration: 4 minutes\n4 min\nDemo: Working with an IDE\nVideo\n. Duration: 5 minutes\n5 min\nHands-on Lab: Getting Started with IDE \nUngraded App Item\n. Duration: 15 minutes\n15 min\nPython Style Guide and Coding Practices\nVideo\n. Duration: 6 minutes\n6 min\nReading: Static Code Analysis Resources\nUngraded Plugin\n. Duration: 15 minutes\n15 min\nHands-on Lab: Static Code Analysis\nUngraded App Item\n. Duration: 30 minutes\n30 min\nUnit Testing\nVideo\n. Duration: 6 minutes\n6 min\nHands-on Lab: Practice Session and Assignment on Unit Testing\nUngraded App Item\n. Duration: 30 minutes\n30 min\nPackaging\nVideo\n. Duration: 5 minutes\n5 min\nHands-on Lab: Practice Session and Assignment on Python Packaging\nUngraded App Item\n. Duration: 30 minutes\n30 min\nModule 1 Summary: Python Coding Practices and Packaging Concepts\nReading\n. Duration: 2 minutes\n2 min\nModule 1 Practice Quiz: Python Coding Practices and Packaging Concepts\nPractice AssignmentGrade: 100%\nModule 1 Cheatsheet: Python Coding Practices and Packaging Concepts\nUngraded Plugin\n. Duration: 5 minutes\n5 min\nModule 1 Graded Quiz: Python Coding Practices and Packaging Concepts\nGraded AssignmentGrade: 90%\nModule 2\nWeb App Deployment using Flask\nModule 3\nCreating AI Application and Deploy using Flask\n\nPractice Assignment\n\nModule 1 Practice Quiz: Python Coding Practices and Packaging Concepts\nGo to next item\nTry again\nWhat to expect\nDue May 31, 11:59 PM +07\nUnlimited attempts\n\nYou passed!\n\nTo pass you need a grade of at least 80%.\n\n100%\nView feedback\n\nSubmitted May 22, 11:04 AM +07.\n\nReport an issue\nGo to next item\nBack\nModule 1 Practice Quiz: Python Coding Practices and Packaging Concepts\n\nPractice Assignment • 10 min\n\nDueMay 31, 11:59 PM +07\nYour grade: 100%\nYour latest: 100%•\nYour highest: 100%•\nTo pass you need at least 80%. We keep your highest score.\nNext item\n1.\nQuestion 1\n\nIdentify the file where you add code to reference the modules in the package? \n\nDo you understand?.\n\nI understand\n\n__main__.py\n\n__name__.py\n\nmyproject.py\n\n __init__.py\n\nNice work\n\nCorrect! You will need to add code to reference the modules in the package in the __init__.py file.\n\n1 / 1 point\n2.\nQuestion 2\n\nWhich of the following is a best practice when creating function names to write test cases?\n\nDo you understand?.\n\nI understand\n\ntest_\n\n_test\n\nFunction\n\nfunction.test\n\nNice work\n\nCorrect! The unittest library identifies only the functions with the prefix ‘test_’ as the functions for conducting unit tests.\n\n1 / 1 point\n3.\nQuestion 3\n\nWhich of the following is a valid method name based on PEP8 guidelines?\n\nDo you understand?.\n\nI understand\n\nGET_USER_NAME()\n\ngetUserName()\n\nget_user_name()\n\nGetUserName()\n\nNice work\n\nCorrect! According to the PEP8 guidelines, the method name should preferably be lowercase, with underscores separating the words.\n\n1 / 1 point\n4.\nQuestion 4\n\nWhich of the following is required to package a Python module?\n\nDo you understand?.\n\nI understand\n\nA folder with server.py\n\nimport sys as the first line of code in the Python script\n\nThe methods in the Python module should be defined as public methods\n\nThe Python module should be packaged in a directory with __init__.py in the same directory\n\nNice work\n\nCorrect! Package requires referencing to all its modules in __init__.py. Without this, the package is not callable.\n\n1 / 1 point\n5.\nQuestion 5\n\nWhich of the following is TRUE about web apps and APIs? (Select two)\n\nDo you understand?.\n\nI understand\n\nAll APIs allow users to access apps without installing them on their local systems.\n\nAll web apps are APIs, but not all APIs are web apps.\n\nNice work\n\nCorrect! All web apps are APIs, but not all APIs are web apps.\n\nWeb apps is a generic term that includes “online” or web-based and “offline” apps.\n\nBoth web apps and APIs link two system parts.\n\nNice work\n\nCorrect! Both web apps and APIs create links between two system parts.\n\n1 / 1 point"
+    },
+    {
+      "title": "Module 1 Graded Quiz: Python Coding Practices and Packaging Concepts Graded Assignment • Submitted • Grade: 90% • Status: Graded Graded",
+      "page_title": "Module 1 Graded Quiz: Python Coding Practices and Packaging Concepts",
+      "source": "Module 1",
+      "kind": "practice_quiz",
+      "url": "https://www.coursera.org/learn/python-project-for-ai-application-development/assignment-submission/mC0Wr/module-1-graded-quiz-python-coding-practices-and-packaging-concepts",
+      "final_url": "https://www.coursera.org/learn/python-project-for-ai-application-development/assignment-submission/mC0Wr/module-1-graded-quiz-python-coding-practices-and-packaging-concepts/view-feedback",
+      "status": "opened_via_button",
+      "question_count": 10,
+      "questions": [
+        {
+          "index": 1,
+          "question_type": "single_choice",
+          "prompt_text": "A smartwatch application displays the daily weather forecast without collecting any weather information. How does the application access this information?",
+          "options": [
+            {
+              "text": "By loading forecast data directly from the browser interface.",
+              "checked": false
+            },
+            {
+              "text": "By connecting to a weather service through an API.",
+              "checked": true
+            },
+            {
+              "text": "By observing past activity to estimate the weather forecast in the present.",
+              "checked": false
+            },
+            {
+              "text": "By leveraging prior loaded information saved during installation.",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "1.\nQuestion 1\n\nA smartwatch application displays the daily weather forecast without collecting any weather information. How does the application access this information?\n\nDo you understand?.\n\nI understand\n\nBy loading forecast data directly from the browser interface.\n\nBy connecting to a weather service through an API.\n\nBy observing past activity to estimate the weather forecast in the present.\n\nBy leveraging prior loaded information saved during installation.\n\nNice work\n\nAn API enables the browser to retrieve live forecast data.\n\n1 / 1 point"
+        },
+        {
+          "index": 2,
+          "question_type": "single_choice",
+          "prompt_text": "Developers want to test the newly implemented payment gateway in the online booking site for its efficiency with the current system. Which testing phase is this?",
+          "options": [
+            {
+              "text": "User testing",
+              "checked": false
+            },
+            {
+              "text": "Performance testing",
+              "checked": false
+            },
+            {
+              "text": "Unit testing",
+              "checked": false
+            },
+            {
+              "text": "Integration testing",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "2.\nQuestion 2\n\nDevelopers want to test the newly implemented payment gateway in the online booking site for its efficiency with the current system. Which testing phase is this?\n\nDo you understand?.\n\nI understand\n\nUser testing\n\nPerformance testing\n\nUnit testing\n\nIntegration testing\n\nNice work\n\nThis phase ensures that all integrated parts of the application function together as expected.\n\n1 / 1 point"
+        },
+        {
+          "index": 3,
+          "question_type": "single_choice",
+          "prompt_text": "An engineer is cleaning up legacy code and wants to find style issues quickly. He used PyLint for this task. Which of the following is true about PyLint?",
+          "options": [
+            {
+              "text": "PyLint is a Python code compiler.",
+              "checked": false
+            },
+            {
+              "text": "PyLint is a Python-based package creation tool.",
+              "checked": false
+            },
+            {
+              "text": "PyLint is a Python static code analysis tool.",
+              "checked": true
+            },
+            {
+              "text": "PyLint is a Python IDE.",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "3.\nQuestion 3\n\nAn engineer is cleaning up legacy code and wants to find style issues quickly. He used PyLint for this task. Which of the following is true about PyLint?\n\nDo you understand?.\n\nI understand\n\nPyLint is a Python code compiler.\n\nPyLint is a Python-based package creation tool.\n\nPyLint is a Python static code analysis tool.\n\nPyLint is a Python IDE.\n\nNice work\n\nPyLint identifies syntax, logic, and style issues in Python code without executing it.\n\n1 / 1 point"
+        },
+        {
+          "index": 4,
+          "question_type": "single_choice",
+          "prompt_text": "Which of the following is the right way to name constants based on the PEP8 guidelines?",
+          "options": [
+            {
+              "text": "DATE_OF_BIRTH",
+              "checked": true
+            },
+            {
+              "text": "date_of_birth",
+              "checked": false
+            },
+            {
+              "text": "dateOfBirth",
+              "checked": false
+            },
+            {
+              "text": "Date_Of_Birth",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "4.\nQuestion 4\n\nWhich of the following is the right way to name constants based on the PEP8 guidelines?\n\nDo you understand?.\n\nI understand\n\nDATE_OF_BIRTH\n\ndate_of_birth\n\ndateOfBirth\n\nDate_Of_Birth\n\nNice work\n\nThe right way to name constants based on the PEP8 guidelines is DATE_OF_BIRTH.\n\n1 / 1 point"
+        },
+        {
+          "index": 5,
+          "question_type": "single_choice",
+          "prompt_text": "A stakeholder wants the developer to build a feature in the application that enables users to view all the available rooms and amenities on the hotel reservation application. Which type of requirement is this?",
+          "options": [
+            {
+              "text": "Business requirements",
+              "checked": false
+            },
+            {
+              "text": "Constraints",
+              "checked": false
+            },
+            {
+              "text": "Technical requirements",
+              "checked": false
+            },
+            {
+              "text": "User requirements",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "5.\nQuestion 5\n\nA stakeholder wants the developer to build a feature in the application that enables users to view all the available rooms and amenities on the hotel reservation application. Which type of requirement is this?\n\nDo you understand?.\n\nI understand\n\nBusiness requirements\n\nConstraints\n\nTechnical requirements\n\nUser requirements\n\nNice work\n\nThe user requirements directly relate to what the users can see and interact with in the application.\n\n1 / 1 point"
+        },
+        {
+          "index": 6,
+          "question_type": "single_choice",
+          "prompt_text": "While designing a unit testing strategy for your Python app, you choose to encapsulate tests within a class. Why is this considered good practice?",
+          "options": [
+            {
+              "text": "It organizes assertion logic separately.",
+              "checked": false
+            },
+            {
+              "text": "It helps validate function outputs.",
+              "checked": false
+            },
+            {
+              "text": "It provides a single entry point to run all unit tests.",
+              "checked": true
+            },
+            {
+              "text": "It imports the testing module automatically.",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "6.\nQuestion 6\n\nWhile designing a unit testing strategy for your Python app, you choose to encapsulate tests within a class. Why is this considered good practice?\n\nDo you understand?.\n\nI understand\n\nIt organizes assertion logic separately.\n\nIt helps validate function outputs.\n\nIt provides a single entry point to run all unit tests.\n\nIt imports the testing module automatically.\n\nNice work\n\nA test class lets you manage and trigger all related tests from one place.\n\n1 / 1 point"
+        },
+        {
+          "index": 7,
+          "question_type": "single_choice",
+          "prompt_text": "You are testing the function doubler using the input 3. You noticed that the assertEqual assertion fails because the function returned 9 instead of 6. What does the fail result indicate in this scenario?",
+          "options": [
+            {
+              "text": "The test function was not imported; it means the test phase was skipped.",
+              "checked": false
+            },
+            {
+              "text": "The doubler function displayed the wrong result, hence the assertion failed.",
+              "checked": true
+            },
+            {
+              "text": "The testing method assertEqual was incorrectly written in the code.",
+              "checked": false
+            },
+            {
+              "text": "The test case has correct logic, but the result was unexpected.",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "7.\nQuestion 7\n\nYou are testing the function doubler using the input 3. You noticed that the assertEqual assertion fails because the function returned 9 instead of 6. What does the fail result indicate in this scenario?\n\nDo you understand?.\n\nI understand\n\nThe test function was not imported; it means the test phase was skipped.\n\nThe doubler function displayed the wrong result, hence the assertion failed.\n\nThe testing method assertEqual was incorrectly written in the code. \n\nThe test case has correct logic, but the result was unexpected.\n\nNice work\n\nThe function assertEqual compares the actual and expected values. If the function returns an incorrect value, the assertion fails, indicating incorrect implementation.\n\n1 / 1 point"
+        },
+        {
+          "index": 8,
+          "question_type": "single_choice",
+          "prompt_text": "Your project has a folder structure where mypackage contains a file my_code.py with a print_hello() function. Which import approaches correctly access the function?",
+          "options": [
+            {
+              "text": "from mypackage import my_code then my_code.print_hello()",
+              "checked": true
+            },
+            {
+              "text": "from mypackage.my_code import print_code then print_code()",
+              "checked": false
+            },
+            {
+              "text": "from mypackage import print_hello, then print_hello()",
+              "checked": false
+            },
+            {
+              "text": "import my_code followed by print_hello()",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "8.\nQuestion 8\n\nYour project has a folder structure where mypackage contains a file my_code.py with a print_hello() function. Which import approaches correctly access the function?\n\nDo you understand?.\n\nI understand\n\nfrom mypackage import my_code then my_code.print_hello()\n\nfrom mypackage.my_code import print_code then print_code()\n\nfrom mypackage import print_hello, then print_hello()\n\nimport my_code followed by print_hello()\n\nNice work\n\nThis imports the module from the package and then calls the function.\n\n1 / 1 point"
+        },
+        {
+          "index": 9,
+          "question_type": "single_choice",
+          "prompt_text": "You want to test a method inside a module called data_tools.py, which is part of the analytics package. What is the correct way to reference it?",
+          "options": [
+            {
+              "text": "analytics.data_tools.analyze(parameters)",
+              "checked": true
+            },
+            {
+              "text": "import analytics",
+              "checked": false
+            },
+            {
+              "text": "analytics(parameters)",
+              "checked": false
+            },
+            {
+              "text": "run analytics.data_tools.analyze(parameters)",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "9.\nQuestion 9\n\nYou want to test a method inside a module called data_tools.py, which is part of the analytics package. What is the correct way to reference it?\n\nDo you understand?.\n\nI understand\n\nanalytics.data_tools.analyze(parameters)\n\nimport analytics\n\nanalytics(parameters)\n\nrun analytics.data_tools.analyze(parameters)\n\nNice work\n\nThis correctly accesses the function within the package structure.\n\n1 / 1 point"
+        },
+        {
+          "index": 10,
+          "question_type": "single_choice",
+          "prompt_text": "You want to import contents from the “utilities” folder that includes several Python scripts and an __init__.py file into another script. Which option correctly describes what the “utilities” folder represents?",
+          "options": [
+            {
+              "text": "A collection of Python scripts with no package structure.",
+              "checked": false
+            },
+            {
+              "text": "A single Python script statement and functions.",
+              "checked": false
+            },
+            {
+              "text": "A collection of scripts with several external dependencies.",
+              "checked": false
+            },
+            {
+              "text": "A structured package folder with modules and an __init__.py file.",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "10.\nQuestion 10\n\nYou want to import contents from the “utilities” folder that includes several Python scripts and an __init__.py file into another script. Which option correctly describes what the “utilities” folder represents?\n\nDo you understand?.\n\nI understand\n\nA collection of Python scripts with no package structure.\n\nA single Python script statement and functions. \n\nA collection of scripts with several external dependencies. \n\nA structured package folder with modules and an __init__.py file. \n\nTry again\n\nAn __init__.py file in the package folder makes the package a Python package, enabling it to import from one folder to another.\n\n0 / 1 point"
+        }
+      ],
+      "raw_page_text": "N\nBuild & Deploy AI Applications with Python & Flask\nToday's goal • 0/3 items\n\nComplete 3 items today to stay at a good pace!\n\nModule 1\nPython Coding Practices and Packaging Concepts\nWelcome\nIBM Product Spotlight: IBM Bob\nReading\n. Duration: 2 minutes\n2 min\nIntroduction to the Course\nVideo\n. Duration: 2 minutes\n2 min\nHelpful Tips for Completing this Course\nReading\n. Duration: 3 minutes\n3 min\nPrerequisites and Course Syllabus\nReading\n. Duration: 5 minutes\n5 min\nApplication Development and Packaging using Python\nReading: Python with Flask for Large-Scale Projects\nUngraded Plugin\n. Duration: 5 minutes\n5 min\nApplication Development Lifecycle\nVideo\n. Duration: 6 minutes\n6 min\nIntroduction to Web Applications and APIs\nVideo\n. Duration: 4 minutes\n4 min\nDemo: Working with an IDE\nVideo\n. Duration: 5 minutes\n5 min\nHands-on Lab: Getting Started with IDE \nUngraded App Item\n. Duration: 15 minutes\n15 min\nPython Style Guide and Coding Practices\nVideo\n. Duration: 6 minutes\n6 min\nReading: Static Code Analysis Resources\nUngraded Plugin\n. Duration: 15 minutes\n15 min\nHands-on Lab: Static Code Analysis\nUngraded App Item\n. Duration: 30 minutes\n30 min\nUnit Testing\nVideo\n. Duration: 6 minutes\n6 min\nHands-on Lab: Practice Session and Assignment on Unit Testing\nUngraded App Item\n. Duration: 30 minutes\n30 min\nPackaging\nVideo\n. Duration: 5 minutes\n5 min\nHands-on Lab: Practice Session and Assignment on Python Packaging\nUngraded App Item\n. Duration: 30 minutes\n30 min\nModule 1 Summary: Python Coding Practices and Packaging Concepts\nReading\n. Duration: 2 minutes\n2 min\nModule 1 Practice Quiz: Python Coding Practices and Packaging Concepts\nPractice AssignmentGrade: 100%\nModule 1 Cheatsheet: Python Coding Practices and Packaging Concepts\nUngraded Plugin\n. Duration: 5 minutes\n5 min\nModule 1 Graded Quiz: Python Coding Practices and Packaging Concepts\nGraded AssignmentGrade: 90%\nModule 2\nWeb App Deployment using Flask\nModule 3\nCreating AI Application and Deploy using Flask\nWarning:\nCourse Staff updated this assessment. You’ll see the changes when you start or edit.\n\nGraded Assignment\n\nModule 1 Graded Quiz: Python Coding Practices and Packaging Concepts\n\nAssessment monitored for academic integrity and AI-usage. Privacy Notice\n\nGo to next item\nTry again\nWhat to expect\nDue Jun 7, 11:59 PM +07\n3 attempts\n\nevery 8 hours\n\nYou passed!\n\nTo pass you need a grade of at least 70%.\n\n90%\nView feedback\n\nSubmitted May 22, 11:04 AM +07.\n\nReport an issue\nGo to next item\nBack\nModule 1 Graded Quiz: Python Coding Practices and Packaging Concepts\n\nGraded Assignment • 30 min\n\nDueJun 7, 11:59 PM +07\nYour grade: 90%\nYour latest: 90%•\nYour highest: 90%•\nTo pass you need at least 70%. We keep your highest score.\nNext item\n1.\nQuestion 1\n\nA smartwatch application displays the daily weather forecast without collecting any weather information. How does the application access this information?\n\nDo you understand?.\n\nI understand\n\nBy loading forecast data directly from the browser interface.\n\nBy connecting to a weather service through an API.\n\nBy observing past activity to estimate the weather forecast in the present.\n\nBy leveraging prior loaded information saved during installation.\n\nNice work\n\nAn API enables the browser to retrieve live forecast data.\n\n1 / 1 point\n2.\nQuestion 2\n\nDevelopers want to test the newly implemented payment gateway in the online booking site for its efficiency with the current system. Which testing phase is this?\n\nDo you understand?.\n\nI understand\n\nUser testing\n\nPerformance testing\n\nUnit testing\n\nIntegration testing\n\nNice work\n\nThis phase ensures that all integrated parts of the application function together as expected.\n\n1 / 1 point\n3.\nQuestion 3\n\nAn engineer is cleaning up legacy code and wants to find style issues quickly. He used PyLint for this task. Which of the following is true about PyLint?\n\nDo you understand?.\n\nI understand\n\nPyLint is a Python code compiler.\n\nPyLint is a Python-based package creation tool.\n\nPyLint is a Python static code analysis tool.\n\nPyLint is a Python IDE.\n\nNice work\n\nPyLint identifies syntax, logic, and style issues in Python code without executing it.\n\n1 / 1 point\n4.\nQuestion 4\n\nWhich of the following is the right way to name constants based on the PEP8 guidelines?\n\nDo you understand?.\n\nI understand\n\nDATE_OF_BIRTH\n\ndate_of_birth\n\ndateOfBirth\n\nDate_Of_Birth\n\nNice work\n\nThe right way to name constants based on the PEP8 guidelines is DATE_OF_BIRTH.\n\n1 / 1 point\n5.\nQuestion 5\n\nA stakeholder wants the developer to build a feature in the application that enables users to view all the available rooms and amenities on the hotel reservation application. Which type of requirement is this?\n\nDo you understand?.\n\nI understand\n\nBusiness requirements\n\nConstraints\n\nTechnical requirements\n\nUser requirements\n\nNice work\n\nThe user requirements directly relate to what the users can see and interact with in the application.\n\n1 / 1 point\n6.\nQuestion 6\n\nWhile designing a unit testing strategy for your Python app, you choose to encapsulate tests within a class. Why is this considered good practice?\n\nDo you understand?.\n\nI understand\n\nIt organizes assertion logic separately.\n\nIt helps validate function outputs.\n\nIt provides a single entry point to run all unit tests.\n\nIt imports the testing module automatically.\n\nNice work\n\nA test class lets you manage and trigger all related tests from one place.\n\n1 / 1 point\n7.\nQuestion 7\n\nYou are testing the function doubler using the input 3. You noticed that the assertEqual assertion fails because the function returned 9 instead of 6. What does the fail result indicate in this scenario?\n\nDo you understand?.\n\nI understand\n\nThe test function was not imported; it means the test phase was skipped.\n\nThe doubler function displayed the wrong result, hence the assertion failed.\n\nThe testing method assertEqual was incorrectly written in the code. \n\nThe test case has correct logic, but the result was unexpected.\n\nNice work\n\nThe function assertEqual compares the actual and expected values. If the function returns an incorrect value, the assertion fails, indicating incorrect implementation.\n\n1 / 1 point\n8.\nQuestion 8\n\nYour project has a folder structure where mypackage contains a file my_code.py with a print_hello() function. Which import approaches correctly access the function?\n\nDo you understand?.\n\nI understand\n\nfrom mypackage import my_code then my_code.print_hello()\n\nfrom mypackage.my_code import print_code then print_code()\n\nfrom mypackage import print_hello, then print_hello()\n\nimport my_code followed by print_hello()\n\nNice work\n\nThis imports the module from the package and then calls the function.\n\n1 / 1 point\n9.\nQuestion 9\n\nYou want to test a method inside a module called data_tools.py, which is part of the analytics package. What is the correct way to reference it?\n\nDo you understand?.\n\nI understand\n\nanalytics.data_tools.analyze(parameters)\n\nimport analytics\n\nanalytics(parameters)\n\nrun analytics.data_tools.analyze(parameters)\n\nNice work\n\nThis correctly accesses the function within the package structure.\n\n1 / 1 point\n10.\nQuestion 10\n\nYou want to import contents from the “utilities” folder that includes several Python scripts and an __init__.py file into another script. Which option correctly describes what the “utilities” folder represents?\n\nDo you understand?.\n\nI understand\n\nA collection of Python scripts with no package structure.\n\nA single Python script statement and functions. \n\nA collection of scripts with several external dependencies. \n\nA structured package folder with modules and an __init__.py file. \n\nTry again\n\nAn __init__.py file in the package folder makes the package a Python package, enabling it to import from one folder to another.\n\n0 / 1 point"
+    },
+    {
+      "title": "Module 2 Practice Quiz: Web App Deployment using Flask Practice Assignment • Submitted • Grade: 100% • Status: Graded Graded",
+      "page_title": "Module 2 Practice Quiz: Web App Deployment using Flask",
+      "source": "Module 2",
+      "kind": "practice_quiz",
+      "url": "https://www.coursera.org/learn/python-project-for-ai-application-development/assignment-submission/wdEer/module-2-practice-quiz-web-app-deployment-using-flask",
+      "final_url": "https://www.coursera.org/learn/python-project-for-ai-application-development/assignment-submission/wdEer/module-2-practice-quiz-web-app-deployment-using-flask/view-feedback",
+      "status": "opened_via_button",
+      "question_count": 5,
+      "questions": [
+        {
+          "index": 1,
+          "question_type": "single_choice",
+          "prompt_text": "Which of the following methods sends HTML form data to the server?",
+          "options": [
+            {
+              "text": "PUT",
+              "checked": false
+            },
+            {
+              "text": "GET",
+              "checked": false
+            },
+            {
+              "text": "POST",
+              "checked": true
+            },
+            {
+              "text": "HEAD",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "1.\nQuestion 1\n\nWhich of the following methods sends HTML form data to the server?\n\nDo you understand?.\n\nI understand\n\nPUT\n\nGET\n\nPOST\n\nHEAD\n\nNice work\n\nCorrect! POST request is used to send data to the server.\n\n1 / 1 point"
+        },
+        {
+          "index": 2,
+          "question_type": "single_choice",
+          "prompt_text": "What is @app.route used for?",
+          "options": [
+            {
+              "text": "To return the length of an object",
+              "checked": false
+            },
+            {
+              "text": "To create a dictionary",
+              "checked": false
+            },
+            {
+              "text": "To define a route",
+              "checked": true
+            },
+            {
+              "text": "To display an output",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "2.\nQuestion 2\n\nWhat is @app.route used for?\n\nDo you understand?.\n\nI understand\n\nTo return the length of an object\n\nTo create a dictionary \n\nTo define a route\n\nTo display an output\n\nNice work\n\nCorrect! The @app.route decorator is used to define a route. The decorator takes the path as an argument.\n\n1 / 1 point"
+        },
+        {
+          "index": 3,
+          "question_type": "multiple_select",
+          "prompt_text": "Which of the following are two objects provided by Flask that are used for each client call? (Select two)",
+          "options": [
+            {
+              "text": "methods",
+              "checked": false
+            },
+            {
+              "text": "Response",
+              "checked": true
+            },
+            {
+              "text": "curl",
+              "checked": false
+            },
+            {
+              "text": "Request",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "3.\nQuestion 3\n\nWhich of the following are two objects provided by Flask that are used for each client call? (Select two) \n\nDo you understand?.\n\nI understand\n\nmethods\n\nResponse \n\nNice work\n\nCorrect! Flask provides a Request and a Response object for each client call.\n\ncurl\n\nRequest \n\nNice work\n\nCorrect! Flask provides a Request and a Response object for each client call.\n\n1 / 1 point"
+        },
+        {
+          "index": 4,
+          "question_type": "single_choice",
+          "prompt_text": "You can use dynamic routes to create ______ endpoints.",
+          "options": [
+            {
+              "text": "RESTful",
+              "checked": true
+            },
+            {
+              "text": "Dynamic",
+              "checked": false
+            },
+            {
+              "text": "Object",
+              "checked": false
+            },
+            {
+              "text": "API",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "4.\nQuestion 4\n\nYou can use dynamic routes to create ______ endpoints.\n\nDo you understand?.\n\nI understand\n\nRESTful\n\nDynamic\n\nObject\n\nAPI\n\nNice work\n\nCorrect! You can use dynamic routes to create RESTful endpoints.\n\n1 / 1 point"
+        },
+        {
+          "index": 5,
+          "question_type": "single_choice",
+          "prompt_text": "When working with a Flask server, what is the code number for a successful response?",
+          "options": [
+            {
+              "text": "404",
+              "checked": false
+            },
+            {
+              "text": "200",
+              "checked": true
+            },
+            {
+              "text": "500",
+              "checked": false
+            },
+            {
+              "text": "403",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "5.\nQuestion 5\n\nWhen working with a Flask server, what is the code number for a successful response?\n\nDo you understand?.\n\nI understand\n\n404\n\n200\n\n500\n\n403\n\nNice work\n\nCorrect! A successful response with a status code of 200 will be sent back when the given code executes.\n\n1 / 1 point"
+        }
+      ],
+      "raw_page_text": "N\nBuild & Deploy AI Applications with Python & Flask\nToday's goal • 0/3 items\n\nComplete 3 items today to stay at a good pace!\n\nModule 1\nPython Coding Practices and Packaging Concepts\nModule 2\nWeb App Deployment using Flask\nPython Libraries and Frameworks for Application Development\nVideo\n. Duration: 3 minutes\n3 min\nIntroduction to Flask\nVideo\n. Duration: 7 minutes\n7 min\nDeploying Web Apps using Flask\nVideo\n. Duration: 7 minutes\n7 min\nReading: Decorators in Flask\nUngraded Plugin\n. Duration: 10 minutes\n10 min\nFlask - Basic Applications and Routes\nVideo\n. Duration: 7 minutes\n7 min\nHands-on Lab: Get Started with Flask Basics\nUngraded App Item\n. Duration: 20 minutes\n20 min\nRequest and Response Objects – Using GET and POST Modes\nVideo\n. Duration: 8 minutes\n8 min\nDynamic Routes\nVideo\n. Duration: 4 minutes\n4 min\nError Handling\nVideo\n. Duration: 5 minutes\n5 min\nHands-on Lab: Building an API with Flask: Route Creation, Error Handling, and HTTP Requests\nUngraded App Item\n. Duration: 45 minutes\n45 min\nHands-on Lab: Building and Deploying a Web App using Flask App\nUngraded App Item\n. Duration: 30 minutes\n30 min\nReading: Additional Features in Flask\nUngraded Plugin\n. Duration: 15 minutes\n15 min\nHands-on Lab: Exploring Additional Features Flask\nUngraded App Item\n. Duration: 1 hour\n1h\nModule 2 Lesson Summary: Web App Deployment using Flask\nReading\n. Duration: 2 minutes\n2 min\nModule 2 Practice Quiz: Web App Deployment using Flask\nPractice AssignmentGrade: 100%\nModule 2 Cheatsheet: Web App Deployment using Flask\nUngraded Plugin\n. Duration: 5 minutes\n5 min\nModule 2 Graded Quiz: Web App Deployment using Flask\nGraded AssignmentGrade: 100%\nModule 3\nCreating AI Application and Deploy using Flask\n\nPractice Assignment\n\nModule 2 Practice Quiz: Web App Deployment using Flask\nGo to next item\nTry again\nWhat to expect\nDue Jun 14, 11:59 PM +07\nUnlimited attempts\n\nYou passed!\n\nTo pass you need a grade of at least 80%.\n\n100%\nView feedback\n\nSubmitted May 22, 11:07 AM +07.\n\nReport an issue\nGo to next item\nBack\nModule 2 Practice Quiz: Web App Deployment using Flask\n\nPractice Assignment • 10 min\n\nDueJun 14, 11:59 PM +07\nYour grade: 100%\nYour latest: 100%•\nYour highest: 100%•\nTo pass you need at least 80%. We keep your highest score.\nNext item\n1.\nQuestion 1\n\nWhich of the following methods sends HTML form data to the server?\n\nDo you understand?.\n\nI understand\n\nPUT\n\nGET\n\nPOST\n\nHEAD\n\nNice work\n\nCorrect! POST request is used to send data to the server.\n\n1 / 1 point\n2.\nQuestion 2\n\nWhat is @app.route used for?\n\nDo you understand?.\n\nI understand\n\nTo return the length of an object\n\nTo create a dictionary \n\nTo define a route\n\nTo display an output\n\nNice work\n\nCorrect! The @app.route decorator is used to define a route. The decorator takes the path as an argument.\n\n1 / 1 point\n3.\nQuestion 3\n\nWhich of the following are two objects provided by Flask that are used for each client call? (Select two) \n\nDo you understand?.\n\nI understand\n\nmethods\n\nResponse \n\nNice work\n\nCorrect! Flask provides a Request and a Response object for each client call.\n\ncurl\n\nRequest \n\nNice work\n\nCorrect! Flask provides a Request and a Response object for each client call.\n\n1 / 1 point\n4.\nQuestion 4\n\nYou can use dynamic routes to create ______ endpoints.\n\nDo you understand?.\n\nI understand\n\nRESTful\n\nDynamic\n\nObject\n\nAPI\n\nNice work\n\nCorrect! You can use dynamic routes to create RESTful endpoints.\n\n1 / 1 point\n5.\nQuestion 5\n\nWhen working with a Flask server, what is the code number for a successful response?\n\nDo you understand?.\n\nI understand\n\n404\n\n200\n\n500\n\n403\n\nNice work\n\nCorrect! A successful response with a status code of 200 will be sent back when the given code executes.\n\n1 / 1 point"
+    },
+    {
+      "title": "Module 2 Graded Quiz: Web App Deployment using Flask Graded Assignment • Submitted • Grade: 100% • Status: Graded Graded",
+      "page_title": "Module 2 Graded Quiz: Web App Deployment using Flask",
+      "source": "Module 2",
+      "kind": "graded_quiz",
+      "url": "https://www.coursera.org/learn/python-project-for-ai-application-development/assignment-submission/H7cLl/module-2-graded-quiz-web-app-deployment-using-flask",
+      "final_url": "https://www.coursera.org/learn/python-project-for-ai-application-development/assignment-submission/H7cLl/module-2-graded-quiz-web-app-deployment-using-flask/view-feedback",
+      "status": "opened_via_button",
+      "question_count": 10,
+      "questions": [
+        {
+          "index": 1,
+          "question_type": "single_choice",
+          "prompt_text": "Your team is building a full-featured web application and needs a structure that supports efficient database management, built-in security, and reusable components. Which of the following options best describes the selection of frameworks like Django or Flask over a Python library?",
+          "options": [
+            {
+              "text": "Frameworks offer specific functionalities for tasks, such as plotting or mathematical operations.",
+              "checked": false
+            },
+            {
+              "text": "Python libraries integrate built-in security and database management to complete application development.",
+              "checked": false
+            },
+            {
+              "text": "Frameworks offer predefined architecture, built-in tools, and enable complete app development.",
+              "checked": true
+            },
+            {
+              "text": "Python library provides debugging tools, web servers, and a flow for controlling the full app.",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "1.\nQuestion 1\n\nYour team is building a full-featured web application and needs a structure that supports efficient database management, built-in security, and reusable components. Which of the following options best describes the selection of frameworks like Django or Flask over a Python library?\n\nDo you understand?.\n\nI understand\n\nFrameworks offer specific functionalities for tasks, such as plotting or mathematical operations.\n\nPython libraries integrate built-in security and database management to complete application development. \n\nFrameworks offer predefined architecture, built-in tools, and enable complete app development.\n\nPython library provides debugging tools, web servers, and a flow for controlling the full app. \n\nNice work\n\nFrameworks, such as Django and Flask, provide predefined architecture, built-in tools, and enable complete app development, including database management and security. \n\n1 / 1 point"
+        },
+        {
+          "index": 2,
+          "question_type": "single_choice",
+          "prompt_text": "You are setting up URL mapping in a Flask application using @app.route('/home').  What does '/home' represent in @app.route('/home')?",
+          "options": [
+            {
+              "text": "Output",
+              "checked": false
+            },
+            {
+              "text": "Object",
+              "checked": false
+            },
+            {
+              "text": "Route",
+              "checked": true
+            },
+            {
+              "text": "Argument",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "2.\nQuestion 2\n\nYou are setting up URL mapping in a Flask application using @app.route('/home').  What does '/home' represent in @app.route('/home')?  \n\nDo you understand?.\n\nI understand\n\nOutput \n\nObject \n\nRoute \n\nArgument \n\nNice work\n\n'/home' defines the URL path (route) that triggers the associated view function.  \n\n1 / 1 point"
+        },
+        {
+          "index": 3,
+          "question_type": "single_choice",
+          "prompt_text": "Mona is developing a web application using the Flask framework, with the @app.route() decorator in her code. What is this decorator primarily used to create?",
+          "options": [
+            {
+              "text": "URL handlers",
+              "checked": true
+            },
+            {
+              "text": "Objects",
+              "checked": false
+            },
+            {
+              "text": "Python files",
+              "checked": false
+            },
+            {
+              "text": "Config objects",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "3.\nQuestion 3\n\nMona is developing a web application using the Flask framework, with the @app.route() decorator in her code. What is this decorator primarily used to create?\n\nDo you understand?.\n\nI understand\n\nURL handlers\n\nObjects\n\nPython files\n\nConfig objects\n\nNice work\n\nUse the @app decorator to create URL handlers.\n\n1 / 1 point"
+        },
+        {
+          "index": 4,
+          "question_type": "single_choice",
+          "prompt_text": "A developer is troubleshooting an error while downloading a file from the Flask API. They want to confirm the size of the response body they sent back to the client. Which property of the response object should they check?",
+          "options": [
+            {
+              "text": "status_code",
+              "checked": false
+            },
+            {
+              "text": "content_type",
+              "checked": false
+            },
+            {
+              "text": "mime-type",
+              "checked": false
+            },
+            {
+              "text": "content_length",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "4.\nQuestion 4\n\nA developer is troubleshooting an error while downloading a file from the Flask API. They want to confirm the size of the response body they sent back to the client. Which property of the response object should they check?\n\nDo you understand?.\n\nI understand\n\nstatus_code\n\ncontent_type\n\nmime-type\n\ncontent_length\n\nNice work\n\ncontent_length displays the size of the response in its message body.\n\n1 / 1 point"
+        },
+        {
+          "index": 5,
+          "question_type": "single_choice",
+          "prompt_text": "While auditing a Flask application to monitor requests, to capture all IP addresses that forward the requests, especially in the presence of proxies. Which code snippet is suitable for these tasks?",
+          "options": [
+            {
+              "text": "request.args.get(\"device\")",
+              "checked": false
+            },
+            {
+              "text": "request.args[\"device\"]",
+              "checked": false
+            },
+            {
+              "text": "request.method == \"POST\" and request.is_json",
+              "checked": false
+            },
+            {
+              "text": "request.access_route",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "5.\nQuestion 5\n\nWhile auditing a Flask application to monitor requests, to capture all IP addresses that forward the requests, especially in the presence of proxies. Which code snippet is suitable for these tasks?\n\nDo you understand?.\n\nI understand\n\nrequest.args.get(\"device\")\n\nrequest.args[\"device\"]\n\nrequest.method == \"POST\" and request.is_json\n\nrequest.access_route\n\nNice work\n\nrequest.access_route returns a list of IP addresses through which the requests passed. This request helps in tracing client origins in proxy chains. \n\n1 / 1 point"
+        },
+        {
+          "index": 6,
+          "question_type": "single_choice",
+          "prompt_text": "While developing a Flask app that fetches book data from the OpenLibrary API using the author's name, you have received a 200 status code from the API response. What should your application do?",
+          "options": [
+            {
+              "text": "Terminate the Flask application for the client.",
+              "checked": false
+            },
+            {
+              "text": "Return the JSON response to the client.",
+              "checked": true
+            },
+            {
+              "text": "Return a 500 error message to the client.",
+              "checked": false
+            },
+            {
+              "text": "Display error “Something went wrong” to the client.",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "6.\nQuestion 6\n\nWhile developing a Flask app that fetches book data from the OpenLibrary API using the author's name, you have received a 200 status code from the API response. What should your application do?\n\nDo you understand?.\n\nI understand\n\nTerminate the Flask application for the client. \n\nReturn the JSON response to the client. \n\nReturn a 500 error message to the client.\n\nDisplay error “Something went wrong” to the client. \n\nNice work\n\n200 status code indicates that the request is successful. \n\n1 / 1 point"
+        },
+        {
+          "index": 7,
+          "question_type": "single_choice",
+          "prompt_text": "Every HTTP response contains a _________-digit code.",
+          "options": [
+            {
+              "text": "Three",
+              "checked": true
+            },
+            {
+              "text": "Two",
+              "checked": false
+            },
+            {
+              "text": "One",
+              "checked": false
+            },
+            {
+              "text": "Four",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "7.\nQuestion 7\n\nEvery HTTP response contains a _________-digit code.\n\nDo you understand?.\n\nI understand\n\nThree\n\nTwo\n\nOne\n\nFour\n\nNice work\n\nEvery HTTP response contains a three-digit code indicating error and success statuses.\n\n1 / 1 point"
+        },
+        {
+          "index": 8,
+          "question_type": "single_choice",
+          "prompt_text": "You've created a Flask route using @app.route and returned a simple response without clearly setting a status code. Which HTTP status does Flask automatically send back to indicate success?",
+          "options": [
+            {
+              "text": "599",
+              "checked": false
+            },
+            {
+              "text": "404",
+              "checked": false
+            },
+            {
+              "text": "300",
+              "checked": false
+            },
+            {
+              "text": "200",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "8.\nQuestion 8\n\nYou've created a Flask route using @app.route and returned a simple response without clearly setting a status code. Which HTTP status does Flask automatically send back to indicate success? \n\nDo you understand?.\n\nI understand\n\n599\n\n404\n\n300\n\n200\n\nNice work\n\nError codes from 200 to 299 indicate the request is received and the requested operation is successful.\n\n1 / 1 point"
+        },
+        {
+          "index": 9,
+          "question_type": "single_choice",
+          "prompt_text": "Zeck is a new web developer. He is creating his first web app using Flask by defining a route without specifying a method. Which of the following request methods should he use by default to complete this task?",
+          "options": [
+            {
+              "text": "The application will process POST requests by default.",
+              "checked": false
+            },
+            {
+              "text": "The application rejects requests if not specified.",
+              "checked": false
+            },
+            {
+              "text": "The application will accept a GET request automatically.",
+              "checked": true
+            },
+            {
+              "text": "The application will support all request types.",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "9.\nQuestion 9\n\nZeck is a new web developer. He is creating his first web app using Flask by defining a route without specifying a method. Which of the following request methods should he use by default to complete this task?\n\nDo you understand?.\n\nI understand\n\nThe application will process POST requests by default. \n\nThe application rejects requests if not specified. \n\nThe application will accept a GET request automatically.\n\nThe application will support all request types. \n\nNice work\n\nIf a developer forgets to define a specific method in a Flask route, it will automatically consider GET requests. GET is commonly used for retrieving data in web applications. \n\n1 / 1 point"
+        },
+        {
+          "index": 10,
+          "question_type": "single_choice",
+          "prompt_text": "You are using Flask for developing a user management feature and want to incorporate update functionality into it. Which HTTP request method will you use to complete this task?",
+          "options": [
+            {
+              "text": "Use GET or PATCH requests to replace the database.",
+              "checked": false
+            },
+            {
+              "text": "Use PUT or PATCH requests to change the existing database.",
+              "checked": true
+            },
+            {
+              "text": "Use POST or DELETE requests to modify the existing database.",
+              "checked": false
+            },
+            {
+              "text": "Use GET or DELETE requests to change the database.",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "10.\nQuestion 10\n\nYou are using Flask for developing a user management feature and want to incorporate update functionality into it. Which HTTP request method will you use to complete this task?\n\nDo you understand?.\n\nI understand\n\nUse GET or PATCH requests to replace the database. \n\nUse PUT or PATCH requests to change the existing database.\n\nUse POST or DELETE requests to modify the existing database. \n\nUse GET or DELETE requests to change the database. \n\nNice work\n\nFlask supports CRUD operations in HTTP methods. PUT and PATCH enable modification of the existing database. \n\n1 / 1 point"
+        }
+      ],
+      "raw_page_text": "N\nBuild & Deploy AI Applications with Python & Flask\nToday's goal • 0/3 items\n\nComplete 3 items today to stay at a good pace!\n\nModule 1\nPython Coding Practices and Packaging Concepts\nModule 2\nWeb App Deployment using Flask\nPython Libraries and Frameworks for Application Development\nVideo\n. Duration: 3 minutes\n3 min\nIntroduction to Flask\nVideo\n. Duration: 7 minutes\n7 min\nDeploying Web Apps using Flask\nVideo\n. Duration: 7 minutes\n7 min\nReading: Decorators in Flask\nUngraded Plugin\n. Duration: 10 minutes\n10 min\nFlask - Basic Applications and Routes\nVideo\n. Duration: 7 minutes\n7 min\nHands-on Lab: Get Started with Flask Basics\nUngraded App Item\n. Duration: 20 minutes\n20 min\nRequest and Response Objects – Using GET and POST Modes\nVideo\n. Duration: 8 minutes\n8 min\nDynamic Routes\nVideo\n. Duration: 4 minutes\n4 min\nError Handling\nVideo\n. Duration: 5 minutes\n5 min\nHands-on Lab: Building an API with Flask: Route Creation, Error Handling, and HTTP Requests\nUngraded App Item\n. Duration: 45 minutes\n45 min\nHands-on Lab: Building and Deploying a Web App using Flask App\nUngraded App Item\n. Duration: 30 minutes\n30 min\nReading: Additional Features in Flask\nUngraded Plugin\n. Duration: 15 minutes\n15 min\nHands-on Lab: Exploring Additional Features Flask\nUngraded App Item\n. Duration: 1 hour\n1h\nModule 2 Lesson Summary: Web App Deployment using Flask\nReading\n. Duration: 2 minutes\n2 min\nModule 2 Practice Quiz: Web App Deployment using Flask\nPractice AssignmentGrade: 100%\nModule 2 Cheatsheet: Web App Deployment using Flask\nUngraded Plugin\n. Duration: 5 minutes\n5 min\nModule 2 Graded Quiz: Web App Deployment using Flask\nGraded AssignmentGrade: 100%\nModule 3\nCreating AI Application and Deploy using Flask\n\nGraded Assignment\n\nModule 2 Graded Quiz: Web App Deployment using Flask\n\nAssessment monitored for academic integrity and AI-usage. Privacy Notice\n\nGo to next item\nTry again\nWhat to expect\nDue Jun 21, 11:59 PM +07\n3 attempts\n\nevery 8 hours\n\nYou passed!\n\nTo pass you need a grade of at least 70%.\n\n100%\nView feedback\n\nSubmitted May 22, 11:08 AM +07.\n\nReport an issue\nGo to next item\nBack\nModule 2 Graded Quiz: Web App Deployment using Flask\n\nGraded Assignment • 30 min\n\nDueJun 21, 11:59 PM +07\nYour grade: 100%\nYour latest: 100%•\nYour highest: 100%•\nTo pass you need at least 70%. We keep your highest score.\nNext item\n1.\nQuestion 1\n\nYour team is building a full-featured web application and needs a structure that supports efficient database management, built-in security, and reusable components. Which of the following options best describes the selection of frameworks like Django or Flask over a Python library?\n\nDo you understand?.\n\nI understand\n\nFrameworks offer specific functionalities for tasks, such as plotting or mathematical operations.\n\nPython libraries integrate built-in security and database management to complete application development. \n\nFrameworks offer predefined architecture, built-in tools, and enable complete app development.\n\nPython library provides debugging tools, web servers, and a flow for controlling the full app. \n\nNice work\n\nFrameworks, such as Django and Flask, provide predefined architecture, built-in tools, and enable complete app development, including database management and security. \n\n1 / 1 point\n2.\nQuestion 2\n\nYou are setting up URL mapping in a Flask application using @app.route('/home').  What does '/home' represent in @app.route('/home')?  \n\nDo you understand?.\n\nI understand\n\nOutput \n\nObject \n\nRoute \n\nArgument \n\nNice work\n\n'/home' defines the URL path (route) that triggers the associated view function.  \n\n1 / 1 point\n3.\nQuestion 3\n\nMona is developing a web application using the Flask framework, with the @app.route() decorator in her code. What is this decorator primarily used to create?\n\nDo you understand?.\n\nI understand\n\nURL handlers\n\nObjects\n\nPython files\n\nConfig objects\n\nNice work\n\nUse the @app decorator to create URL handlers.\n\n1 / 1 point\n4.\nQuestion 4\n\nA developer is troubleshooting an error while downloading a file from the Flask API. They want to confirm the size of the response body they sent back to the client. Which property of the response object should they check?\n\nDo you understand?.\n\nI understand\n\nstatus_code\n\ncontent_type\n\nmime-type\n\ncontent_length\n\nNice work\n\ncontent_length displays the size of the response in its message body.\n\n1 / 1 point\n5.\nQuestion 5\n\nWhile auditing a Flask application to monitor requests, to capture all IP addresses that forward the requests, especially in the presence of proxies. Which code snippet is suitable for these tasks?\n\nDo you understand?.\n\nI understand\n\nrequest.args.get(\"device\")\n\nrequest.args[\"device\"]\n\nrequest.method == \"POST\" and request.is_json\n\nrequest.access_route\n\nNice work\n\nrequest.access_route returns a list of IP addresses through which the requests passed. This request helps in tracing client origins in proxy chains. \n\n1 / 1 point\n6.\nQuestion 6\n\nWhile developing a Flask app that fetches book data from the OpenLibrary API using the author's name, you have received a 200 status code from the API response. What should your application do?\n\nDo you understand?.\n\nI understand\n\nTerminate the Flask application for the client. \n\nReturn the JSON response to the client. \n\nReturn a 500 error message to the client.\n\nDisplay error “Something went wrong” to the client. \n\nNice work\n\n200 status code indicates that the request is successful. \n\n1 / 1 point\n7.\nQuestion 7\n\nEvery HTTP response contains a _________-digit code.\n\nDo you understand?.\n\nI understand\n\nThree\n\nTwo\n\nOne\n\nFour\n\nNice work\n\nEvery HTTP response contains a three-digit code indicating error and success statuses.\n\n1 / 1 point\n8.\nQuestion 8\n\nYou've created a Flask route using @app.route and returned a simple response without clearly setting a status code. Which HTTP status does Flask automatically send back to indicate success? \n\nDo you understand?.\n\nI understand\n\n599\n\n404\n\n300\n\n200\n\nNice work\n\nError codes from 200 to 299 indicate the request is received and the requested operation is successful.\n\n1 / 1 point\n9.\nQuestion 9\n\nZeck is a new web developer. He is creating his first web app using Flask by defining a route without specifying a method. Which of the following request methods should he use by default to complete this task?\n\nDo you understand?.\n\nI understand\n\nThe application will process POST requests by default. \n\nThe application rejects requests if not specified. \n\nThe application will accept a GET request automatically.\n\nThe application will support all request types. \n\nNice work\n\nIf a developer forgets to define a specific method in a Flask route, it will automatically consider GET requests. GET is commonly used for retrieving data in web applications. \n\n1 / 1 point\n10.\nQuestion 10\n\nYou are using Flask for developing a user management feature and want to incorporate update functionality into it. Which HTTP request method will you use to complete this task?\n\nDo you understand?.\n\nI understand\n\nUse GET or PATCH requests to replace the database. \n\nUse PUT or PATCH requests to change the existing database.\n\nUse POST or DELETE requests to modify the existing database. \n\nUse GET or DELETE requests to change the database. \n\nNice work\n\nFlask supports CRUD operations in HTTP methods. PUT and PATCH enable modification of the existing database. \n\n1 / 1 point"
+    }
+  ]
+}

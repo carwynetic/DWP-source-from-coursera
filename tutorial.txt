@@ -1,0 +1,8 @@
+cd "G:\My Drive\Study\FPT University AI\Kì 5\Web Development with Python (DWP301c)\Source_from_Coursera\web_app"
+python -m uvicorn server:app --host 127.0.0.1 --port 8088
+
+
+
+
+
+http://127.0.0.1:8088

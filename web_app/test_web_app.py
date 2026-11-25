@@ -89,7 +89,7 @@ def test_api_endpoints():
         assert any(h["item_type"] == "guide" for h in hits), f"Expected guide hit for '{exp['search_term']}' in {c_key}"
         assert any("<mark>" in h["snippet"] for h in hits)
 
-        # Quizzes endpoint (exact count, 0 empty/Honor Code prompts)
+        # Quizzes endpoint (exact count, 0 empty prompts, 100% verified answers + explanations)
         qr = client.get(f"/api/courses/{c_key}/quizzes")
         assert qr.status_code == 200
         qzs = qr.json()["quizzes"]
@@ -98,6 +98,8 @@ def test_api_endpoints():
         for qz in qzs:
             for q_item in qz["questions"]:
                 assert q_item["prompt_text"].strip() != "", f"Empty prompt in {c_key} quiz {qz['title']}"
+                assert any(o.get("checked") for o in q_item["options"]), f"Missing answer key in {c_key} Q{q_item['id']}"
+                assert len((q_item.get("explanation") or "").strip()) >= 20, f"Missing explanation in {c_key} Q{q_item['id']}"
 
     assert total_guides_verified == 35
 
@@ -250,6 +252,24 @@ def test_playwright_e2e():
             page.click('.mode-tab[data-mode="quizzes"]')
             page.wait_for_selector(".question-item")
             assert page.locator(".question-item").count() == 50
+            assert page.locator("[data-reveal-q]").count() == 50
+
+            # Scroll-lock & explanation test: scroll to a lower question (#25), pick option & Check answer -> zero jump!
+            target_card = page.locator(".question-item").nth(24)
+            target_card.scroll_into_view_if_needed()
+            scroll_before = page.evaluate("window.scrollY")
+            assert scroll_before > 500, f"Expected scrolled position > 500, got {scroll_before}"
+            target_card.locator("[data-pick-q]").first.click()
+            scroll_after_pick = page.evaluate("window.scrollY")
+            assert abs(scroll_after_pick - scroll_before) < 40, (
+                f"Scroll jumped on option pick! before={scroll_before}, after={scroll_after_pick}"
+            )
+            target_card.locator("[data-reveal-q]").click()
+            assert target_card.locator(".question-explanation").count() == 1
+            scroll_after_check = page.evaluate("window.scrollY")
+            assert abs(scroll_after_check - scroll_before) < 60, (
+                f"Scroll jumped on Check answer! before={scroll_before}, after={scroll_after_check}"
+            )
 
             # Clicking Raw Source tab must load a Course 2 lesson (NOT a stale Course 7 lesson!)
             page.click('.mode-tab[data-mode="reader"]')

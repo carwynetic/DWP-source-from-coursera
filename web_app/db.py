@@ -91,7 +91,8 @@ def init_db(db_path: Path | None = None) -> None:
                 q_index INTEGER NOT NULL,
                 question_type TEXT NOT NULL,
                 prompt_text TEXT NOT NULL,
-                options_json TEXT NOT NULL
+                options_json TEXT NOT NULL,
+                explanation TEXT NOT NULL DEFAULT ''
             );
 
             CREATE INDEX IF NOT EXISTS idx_lessons_course_order ON lessons(course_id, module_number, item_order);

@@ -33,6 +33,8 @@ async def security_headers_middleware(request: Request, call_next):
     response.headers["X-Content-Type-Options"] = "nosniff"
     response.headers["X-Frame-Options"] = "SAMEORIGIN"
     response.headers["Referrer-Policy"] = "strict-origin-when-cross-origin"
+    if request.url.path == "/" or request.url.path.startswith("/static/"):
+        response.headers["Cache-Control"] = "no-store, no-cache, must-revalidate"
     return response
 
 
@@ -311,7 +313,7 @@ def get_course_quizzes(course_key: str, module_number: int | None = None) -> dic
         for qz in qz_rows:
             qd = dict(qz)
             q_rows = conn.execute(
-                "SELECT id, q_index, question_type, prompt_text, options_json FROM quiz_questions WHERE quiz_id = ? ORDER BY q_index ASC",
+                "SELECT id, q_index, question_type, prompt_text, options_json, explanation FROM quiz_questions WHERE quiz_id = ? ORDER BY q_index ASC",
                 (qd["id"],),
             ).fetchall()
             questions = []
@@ -323,6 +325,7 @@ def get_course_quizzes(course_key: str, module_number: int | None = None) -> dic
                         "question_type": qr["question_type"],
                         "prompt_text": qr["prompt_text"],
                         "options": json.loads(qr["options_json"]),
+                        "explanation": qr["explanation"],
                     }
                 )
             qd["questions"] = questions

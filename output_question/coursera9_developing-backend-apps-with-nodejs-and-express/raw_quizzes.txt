@@ -1,0 +1,405 @@
+================================================================================
+COURSE: Developing Back-End Apps with Node.js and Express
+URL: https://www.coursera.org/learn/developing-backend-apps-with-nodejs-and-express
+CRAWLED AT: 2026-11-25T21:16:18.257164
+SUMMARY: 6/6 MC quizzes | 51 questions
+================================================================================
+
+--------------------------------------------------------------------------------
+[QUIZ 1] Node.js, Backend Concepts, and Modules Practice Assignment • 10 min • Grade: --
+Source: Module 1 | Kind: practice_quiz | Status: opened_via_button:Start assignment
+URL: https://www.coursera.org/learn/developing-backend-apps-with-nodejs-and-express/assignment-submission/9sN6n/node-js-backend-concepts-and-modules/attempt
+Questions extracted: 5
+--------------------------------------------------------------------------------
+
+Q1 (single_choice):
+What technology do web servers use to respond to client requests?
+   1. [ ] CSS
+   2. [ ] HTML
+   3. [ ] Node.js
+   4. [ ] HTTP
+
+Q2 (single_choice):
+What is a popular format for sending data to REST services over HTTP?
+   1. [ ] Express.js
+   2. [ ] JSON
+   3. [ ] Node.js
+   4. [ ] HTML/CSS
+
+Q3 (single_choice):
+Which of the following is true regarding the import() function but NOT the require() function?
+   1. [ ] It must be called at the beginning of the file.
+   2. [ ] It is bound dynamically
+   3. [ ] Binding errors are identified at run-time
+   4. [ ] It can be used within conditional statements and functions
+
+Q4 (single_choice):
+What is the role of npm (Node Package Manager) in Node.js applications?
+   1. [ ] It is the protocol used by servers to communicate with each other
+   2. [ ] It helps manage dependencies and packages used in applications
+   3. [ ] It translates code into a machine-readable language
+   4. [ ] It is a run-time environment for the Chrome V8 engine
+
+Q5 (single_choice):
+What would you use let today = require('./today’);  for?
+   1. [ ] To download an npm package from the Internet on the terminal
+   2. [ ] To retrieve the date from a weather service
+   3. [ ] To create an instance of a web server application
+   4. [ ] To import a Node.js module
+
+--------------------------------------------------------------------------------
+[QUIZ 2] Graded Quiz Graded Assignment • Submitted • Grade: 100% • Status: Graded Graded
+Source: Module 1 | Kind: graded_quiz | Status: opened_via_button
+URL: https://www.coursera.org/learn/developing-backend-apps-with-nodejs-and-express/assignment-submission/V1QV5/graded-quiz/view-feedback
+Questions extracted: 10
+--------------------------------------------------------------------------------
+
+Q1 (single_choice):
+Which of the following is a back-end technology?
+   1. [ ] Browser
+   2. [ ] HTML
+   3. [x] Web API
+   4. [ ] CSS
+
+Q2 (single_choice):
+What quality makes it possible for you to run JavaScript applications without compiling?
+   1. [ ] You can use a text editor to develop JavaScript applications.
+   2. [x] JavaScript is an interpreted language.
+   3. [ ] All modern browsers support JavaScript.
+   4. [ ] The language syntax resembles Java.
+
+Q3 (single_choice):
+Which of the following applications intercepts the call when JavaScript sends a web service request to the Node.js server?
+   1. [ ] CSS
+   2. [x] REST Web Service
+   3. [ ] JSON
+   4. [ ] Enterprise Java
+
+Q4 (single_choice):
+Which of the following is a difference between ES and CommonJS modules?
+   1. [x] ES modules use the import() statement whereas CommonJS modules use require().
+   2. [ ] CommonJS modules are written in JavaScript whereas ES modules are not
+   3. [ ] CommonJS module files use a .mjs extension whereas ES modules use .js
+   4. [ ] CommonJS is a JavaScript language whereas ES is a module specification
+
+Q5 (single_choice):
+How do you handle operation results with Node.js?
+   1. [x] Write callback functions to handle results when the operations complete
+   2. [ ] Use blocking on asynchronous I/O operations
+   3. [ ] Specify a relative path to the Node.js script from the module directory
+   4. [ ] Create an instance of a web server application
+
+Q6 (single_choice):
+What do you use the http.createServer function for?
+   1. [ ] To develop an anonymous function to handle requests and responses
+   2. [x] To create an instance of a web server
+   3. [ ] To import a Node.js module
+   4. [ ] To specify a main script for your module
+
+Q7 (single_choice):
+Which core Node.js module can be used for input and output (I/O)?
+   1. [x] fs
+   2. [ ] URL
+   3. [ ] http
+   4. [ ] util
+
+Q8 (single_choice):
+Which is an aspect of Node Package Manager (NPM)?
+   1. [x] It functions as a command line interface and an online repository for packages
+   2. [ ] It manages the versioning of source code
+   3. [ ] It creates a package.json file in the project’s root directory
+   4. [ ] It writes metadata to a package.json file
+
+Q9 (single_choice):
+What do you use the require function for?
+   1. [x] To import a Node.js module
+   2. [ ] To develop an anonymous function to handle requests and responses
+   3. [ ] To create an instance of a web server
+   4. [ ] To specify a main script for your module
+
+Q10 (single_choice):
+What happens when a module does not have a package.json file?
+   1. [ ] There is no module manifest.
+   2. [x] Node.js assumes that the main class is named index.js.
+   3. [ ] The relative path to the Node.js script changes to an absolute path from the module directory.
+   4. [ ] The require statement assumes that scripts have a file extension of js.
+
+--------------------------------------------------------------------------------
+[QUIZ 3] Practice Quiz Practice Assignment • 14 min • Grade: --
+Source: Module 2 | Kind: practice_quiz | Status: opened_after_step_1
+URL: https://www.coursera.org/learn/developing-backend-apps-with-nodejs-and-express/assignment-submission/9FaUC/practice-quiz/attempt
+Questions extracted: 7
+--------------------------------------------------------------------------------
+
+Q1 (single_choice):
+In what manner do network operations run?
+   1. [ ] Distributed
+   2. [ ] Asynchronous
+   3. [ ] Single-threaded
+   4. [ ] Synchronized
+
+Q2 (single_choice):
+For which of the following events would you write a callback function in Node.js?
+   1. [ ] When the application initiates an http.request.
+   2. [ ] When the Node.js framework receives a response message from the remote server.
+   3. [ ] When the network operation completes.
+   4. [ ] When the network operation starts.
+
+Q3 (single_choice):
+Where in the callback function does a Node.js generally pass an error object?
+   1. [ ] The second parameter
+   2. [ ] The HTTP response message
+   3. [ ] The http.request( ) call
+   4. [ ] The first parameter
+
+Q4 (single_choice):
+What do you use response.end for?
+   1. [ ] To log the error from a callback function
+   2. [ ] To define the error message from a callback function
+   3. [ ] To print the result from the function call
+   4. [ ] To end the request and send a response to the client
+
+Q5 (single_choice):
+Which of the following can be helpful to mitigate the issue of needing nested callbacks in order to make something happen sequentially?
+   1. [ ] Use the setTimeout() method
+   2. [ ] async/await
+   3. [ ] HTTP method calls
+   4. [ ] Inversion of control
+
+Q6 (single_choice):
+What do you use to convert a JavaScript object to a string?
+   1. [ ] Method JSON.parsestring()
+   2. [ ] Method JSON.stringify()
+   3. [ ] Method JSON.convert()
+   4. [ ] Method JSON.parse()
+
+Q7 (single_choice):
+A promise is defined as an object returned by an asynchronous method that has three states. Which of the following is one of the states?
+   1. [ ] Resolved
+   2. [ ] Acknowledged
+   3. [ ] Closed
+   4. [ ] Waiting
+
+--------------------------------------------------------------------------------
+[QUIZ 4] Graded Quiz Graded Assignment • Submitted • Grade: 100% • Status: Graded Graded
+Source: Module 2 | Kind: graded_quiz | Status: opened_via_button
+URL: https://www.coursera.org/learn/developing-backend-apps-with-nodejs-and-express/assignment-submission/41BKY/graded-quiz/view-feedback
+Questions extracted: 10
+--------------------------------------------------------------------------------
+
+Q1 (single_choice):
+What best describes the network operations that Node.js makes?
+   1. [x] Non-blocked operations return immediately without added processing time on the server
+   2. [ ] Blocked operations return immediately without added processing time on the server
+   3. [ ] Applications block every network operation to complete at the same time on the server
+   4. [ ] Non-blocked operations return in a synchronized manner with added processing time on the server
+
+Q2 (single_choice):
+Before the Node.js framework receives the HTTP response message from the remote web server, it immediately returns a result for the http.request function call. What does this result state?
+   1. [ ] The callback function was called successfully.
+   2. [x] A request is in progress.
+   3. [ ] The return message will be sent successfully.
+   4. [ ] The response message will be sent successfully.
+
+Q3 (single_choice):
+What parameter is optional in an HTTP request?
+   1. [x] Callback function parameter
+   2. [ ] Event variable parameter
+   3. [ ] Resource variable parameter
+   4. [ ] Location function parameter
+
+Q4 (single_choice):
+What object do Node.js modules in the SDK pass as the first parameter in a callback function?
+   1. [ ] Location
+   2. [x] Error
+   3. [ ] Identity
+   4. [ ] Destination
+
+Q5 (single_choice):
+What do you pass back in the callback handler to indicate a successful return?
+   1. [ ] 404 status code
+   2. [ ] Empty string
+   3. [x] Null object
+   4. [ ] Error
+
+Q6 (single_choice):
+Which function calls the resultCallback callback function to return results to the main application?
+   1. [x] http.request()
+   2. [ ] step()
+   3. [ ] aggregate_context()
+   4. [ ] result()
+
+Q7 (single_choice):
+Why can inversion of control be an issue when using callbacks?
+   1. [x] Callbacks sometimes hand over control to third-party code which can make errors hard to identify
+   2. [ ] Inversion of control uses promises which are difficult to implement
+   3. [ ] Inversion of control is used when something needs to be done sequentially which makes code readability difficult
+   4. [ ] Inversion of control creates the need for nested callbacks
+
+Q8 (single_choice):
+JSON is the standard format for API data exchange. What relationship does JSON have with Node.js?
+   1. [ ] Common data model folder
+   2. [x] Standard representation of native JavaScript objects
+   3. [ ] Metadata file
+   4. [ ] JSON_SET
+
+Q9 (single_choice):
+When an error occurs, which state is the promise at?
+   1. [x] Rejected
+   2. [ ] Pending
+   3. [ ] Resolved
+   4. [ ] Aborted
+
+Q10 (single_choice):
+The axios package handles HTTP requests in Node.js and returns a promise object. The promise object has a method that is called after the promise completes. What method does the promise object use?
+   1. [ ] else
+   2. [ ] if
+   3. [ ] or
+   4. [x] then
+
+--------------------------------------------------------------------------------
+[QUIZ 5] Practice Quiz Practice Assignment • 18 min • Grade: --
+Source: Module 3 | Kind: practice_quiz | Status: opened_via_button:Start assignment
+URL: https://www.coursera.org/learn/developing-backend-apps-with-nodejs-and-express/assignment-submission/sbgZg/practice-quiz/attempt
+Questions extracted: 9
+--------------------------------------------------------------------------------
+
+Q1 (single_choice):
+Which npm package is used to generate a JSON web token?
+   1. [ ] tokens
+   2. [ ] key
+   3. [ ] express
+   4. [ ] jsonwebtoken
+
+Q2 (single_choice):
+Which of the following npm commands is a best practice to use when installing dependencies?
+   1. [ ] npm install --save
+   2. [ ] npm commit -save
+   3. [ ] npm require -save
+   4. [ ] npm init -save
+
+Q3 (single_choice):
+What can you use to manage Node.js packages in your Node.js framework?
+   1. [ ] XML
+   2. [ ] HTML
+   3. [ ] npm application
+   4. [ ] JavaScript
+
+Q4 (single_choice):
+What are two different types of patterns that web frameworks employ?
+   1. [ ] JSON and HTML
+   2. [ ] Express and Koa
+   3. [ ] Model-View-Controller (MVC) and Representational State Transfer APIs (REST API)
+   4. [ ] Ruby on Rails and Django
+
+Q5 (single_choice):
+When Node.js receives the final part of the HTTP response message, what event handler does it call?
+   1. [ ] http.request()
+   2. [ ] buffer.match
+   3. [ ] response.on(‘end’)
+   4. [ ] response.on(‘start’)
+
+Q6 (single_choice):
+How can you obtain public data and information from an external web server?
+   1. [ ] Send an XML request
+   2. [ ] Send an HTML request
+   3. [ ] Send an HTTP request
+   4. [ ] Manually get data from a website
+
+Q7 (single_choice):
+You can use the app.get() method to handle requests in Express. What does the app.get() method call look like?
+   1. [ ] app.get(port, path, error)
+   2. [ ] app.get(path, callback)
+   3. [ ] app.get(callback, path)
+   4. [ ] app.get(error, callback, path)
+
+Q8 (single_choice):
+Which of the following is one of the five steps needed to work with Express?
+   1. [ ] Run Node.js command to create a port
+   2. [ ] Export uniform resource locater
+   3. [ ] Create a new route handler
+   4. [ ] Install a terminal
+
+Q9 (single_choice):
+Which statement is true regarding passwordless authorization?
+   1. [ ] It uses a token that gets passed back and forth between user and client.
+   2. [ ] They gain access to the system by demonstrating they possess a factor that proves their identity such as biometrics or a “magic link”.
+   3. [ ] They enter their credentials and are then asked a series of security questions that they only know the answers to.
+   4. [ ] It is the oldest form of authentication technology.
+
+--------------------------------------------------------------------------------
+[QUIZ 6] Graded Quiz Graded Assignment • Submitted • Grade: 100% • Status: Graded Graded
+Source: Module 3 | Kind: graded_quiz | Status: opened_via_button
+URL: https://www.coursera.org/learn/developing-backend-apps-with-nodejs-and-express/assignment-submission/aHKsB/graded-quiz/view-feedback
+Questions extracted: 10
+--------------------------------------------------------------------------------
+
+Q1 (single_choice):
+One disadvantage of manual parsing is that string matching ignores the XML data structure. However, depending on XML data complexity, string matching might be more efficient than what?
+   1. [ ] No alternative: string matching is never more efficient.
+   2. [x] An XML tree of the data
+   3. [ ] An XML root element
+   4. [ ] An XML attribute structure
+
+Q2 (single_choice):
+Which type of authentication is widely used for password recovery by providing a magic link to the user?
+   1. [x] Passwordless
+   2. [ ] Session-based
+   3. [ ] Single Sign On
+   4. [ ] Token-based
+
+Q3 (single_choice):
+Which term describes starting  server and bind it to a specific port for handling incoming requests?
+   1. [x] app.listen
+   2. [ ] app.request
+   3. [ ] http.view
+   4. [ ] http.name
+
+Q4 (single_choice):
+The Node.js framework doesn't provide many features for building web apps. What do developers rely on to extend Node.js features?
+   1. [x] External libraries and packages
+   2. [ ] JSON
+   3. [ ] JavaScript
+   4. [ ] Timely updates
+
+Q5 (single_choice):
+Which statement regarding the jsonwebtoken.verify() method is true?
+   1. [ ] It is used to generate a JSON web token
+   2. [ ] It is used to return an HTTP status code
+   3. [ ] It is used to return a response
+   4. [x] It is used to verify a JSON web token
+
+Q6 (single_choice):
+Unlike Node.js, which deals with HTTP at a lower level, Express provides an app class to serve what function?
+   1. [ ] Lookup web services
+   2. [ ] Access a URL
+   3. [x] Map to a web resource path
+   4. [ ] Parse through a network path
+
+Q7 (single_choice):
+Which web application framework is based on the Node.js runtime environment?
+   1. [ ] JSON
+   2. [x] Express
+   3. [ ] XML-JS
+   4. [ ] Async.js
+
+Q8 (single_choice):
+Which Node.js package can parse a string of XML elements into a JavaScript object?
+   1. [ ] Express.js
+   2. [ ] Async.js
+   3. [ ] XML-JS
+   4. [x] xml2js
+
+Q9 (single_choice):
+Which library and module are commonly used for performing black-box testing of REST APIs?
+   1. [ ] Koa/SuperTest
+   2. [ ] Postman/TestAPI
+   3. [ ] Express/TestAPI
+   4. [x] Mocha/SuperTest
+
+Q10 (single_choice):
+Which of the following kind of task is middleware most useful for?
+   1. [ ] Parsing strings
+   2. [ ] Performing large calculations
+   3. [x] Error handling
+   4. [ ] Routing

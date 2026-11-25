@@ -66,6 +66,36 @@ COURSES: dict[str, dict[str, str]] = {
         "slug": "ibm-cloud-native-full-stack-development-capstone",
         "url": "https://www.coursera.org/learn/ibm-cloud-native-full-stack-development-capstone",
     },
+    "coursera8": {
+        "name": "Introduction to Cloud Computing",
+        "slug": "introduction-to-cloud",
+        "url": "https://www.coursera.org/learn/introduction-to-cloud",
+    },
+    "coursera9": {
+        "name": "Developing Back-End Apps with Node.js and Express",
+        "slug": "developing-backend-apps-with-nodejs-and-express",
+        "url": "https://www.coursera.org/learn/developing-backend-apps-with-nodejs-and-express",
+    },
+    "coursera10": {
+        "name": "Python for Data Science, AI & Development",
+        "slug": "python-for-applied-data-science-ai",
+        "url": "https://www.coursera.org/learn/python-for-applied-data-science-ai",
+    },
+    "coursera11": {
+        "name": "Python Project for AI & Application Development",
+        "slug": "python-project-for-ai-application-development",
+        "url": "https://www.coursera.org/learn/python-project-for-ai-application-development",
+    },
+    "coursera12": {
+        "name": "Full-Stack Software Developer Assessment",
+        "slug": "full-stack-software-developer-assessment",
+        "url": "https://www.coursera.org/learn/full-stack-software-developer-assessment",
+    },
+    "coursera13": {
+        "name": "Introduction to Web Development with HTML, CSS, JavaScript",
+        "slug": "introduction-to-web-development-with-html-css-javacript",
+        "url": "https://www.coursera.org/learn/introduction-to-web-development-with-html-css-javacript",
+    },
 }
 
 KNOWLEDGE_URL_PATTERNS = (

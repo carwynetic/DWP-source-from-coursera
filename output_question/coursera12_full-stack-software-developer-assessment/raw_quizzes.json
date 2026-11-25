@@ -1,0 +1,1107 @@
+{
+  "crawled_at": "2026-11-25T21:28:39.878799",
+  "course": {
+    "key": "coursera12",
+    "name": "Full-Stack Software Developer Assessment",
+    "slug": "full-stack-software-developer-assessment",
+    "url": "https://www.coursera.org/learn/full-stack-software-developer-assessment"
+  },
+  "total_quizzes_discovered": 1,
+  "total_mc_quizzes_extracted": 1,
+  "total_mc_questions": 45,
+  "quizzes": [
+    {
+      "title": "Final Exam Graded Assignment • Submitted • Grade: 97.77% • Status: Graded Graded",
+      "page_title": "Final Exam",
+      "source": "Module 2",
+      "kind": "graded_quiz",
+      "url": "https://www.coursera.org/learn/full-stack-software-developer-assessment/assignment-submission/91IWY/final-exam",
+      "final_url": "https://www.coursera.org/learn/full-stack-software-developer-assessment/assignment-submission/91IWY/final-exam/view-feedback",
+      "status": "opened_via_button",
+      "question_count": 45,
+      "questions": [
+        {
+          "index": 1,
+          "question_type": "multiple_select",
+          "prompt_text": "Which of these are essential characteristics of the cloud? Select the two characteristics that apply.",
+          "options": [
+            {
+              "text": "Static access",
+              "checked": false
+            },
+            {
+              "text": "Resource pooling",
+              "checked": true
+            },
+            {
+              "text": "Broad network access",
+              "checked": true
+            },
+            {
+              "text": "Limited service",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "1.\nQuestion 1\n\nWhich of these are essential characteristics of the cloud? Select the two characteristics that apply.\n\nDo you understand?.\n\nI understand\n\nStatic access\n\nResource pooling\n\nNice work\n\nCorrect! One essential characteristic of the cloud is resource pooling, where a shared model gives cloud providers economies of scale, which they pass on to their customers, making the cloud cost-efficient.\n\nBroad network access\n\nNice work\n\nCorrect! One essential characteristic of the cloud is broad network access. This means that cloud computing resources can be accessed via the network through standard mechanisms and platforms. \n\nLimited service\n\n1 / 1 point"
+        },
+        {
+          "index": 2,
+          "question_type": "single_choice",
+          "prompt_text": "In the __________ cloud model, the cloud provider provisions the cloud infrastructure for exclusive use by a single organization.",
+          "options": [
+            {
+              "text": "Private",
+              "checked": true
+            },
+            {
+              "text": "Hybrid",
+              "checked": false
+            },
+            {
+              "text": "Public",
+              "checked": false
+            },
+            {
+              "text": "Hybrid multicloud",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "2.\nQuestion 2\n\nIn the __________ cloud model, the cloud provider provisions the cloud infrastructure for exclusive use by a single organization.\n\nDo you understand?.\n\nI understand\n\nPrivate\n\nHybrid\n\nPublic\n\nHybrid multicloud\n\nNice work\n\nCorrect! Private cloud means that the cloud infrastructure is provisioned for exclusive use by a single organization. It could run on-premises or be owned, managed, and operated by a service provider.\n\n1 / 1 point"
+        },
+        {
+          "index": 3,
+          "question_type": "single_choice",
+          "prompt_text": "Virtualization is the process of creating a software-based version of physical resources, made possible through the use of ___________________.",
+          "options": [
+            {
+              "text": "APIs",
+              "checked": false
+            },
+            {
+              "text": "Hypervisors",
+              "checked": true
+            },
+            {
+              "text": "Load balancers",
+              "checked": false
+            },
+            {
+              "text": "Third-party plugins",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "3.\nQuestion 3\n\nVirtualization is the process of creating a software-based version of physical resources, made possible through the use of ___________________.\n\nDo you understand?.\n\nI understand\n\nAPIs\n\nHypervisors\n\nLoad balancers\n\nThird-party plugins\n\nNice work\n\nCorrect! The hypervisor makes virtualization feasible. The hypervisor is a piece of software that runs above the physical server, and the hypervisor pulls the resources from the physical server and allocates them to your virtual environments.\n\n1 / 1 point"
+        },
+        {
+          "index": 4,
+          "question_type": "single_choice",
+          "prompt_text": "A ______________ is an executable unit of software in which application code is packaged, along with its libraries and dependencies, in common ways so that it can be run anywhere—desktops, traditional IT, or the cloud.",
+          "options": [
+            {
+              "text": "Hypervisor",
+              "checked": false
+            },
+            {
+              "text": "Container",
+              "checked": true
+            },
+            {
+              "text": "Host",
+              "checked": false
+            },
+            {
+              "text": "Instance",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "4.\nQuestion 4\n\nA ______________ is an executable unit of software in which application code is packaged, along with its libraries and dependencies, in common ways so that it can be run anywhere—desktops, traditional IT, or the cloud.\n\nDo you understand?.\n\nI understand\n\nHypervisor\n\nContainer\n\nHost\n\nInstance\n\nNice work\n\nCorrect! A container is an executable unit of software in which application code is packaged, along with its libraries and dependencies, in common ways so that it can be run anywhere—desktops, traditional IT, or the cloud.\n\n1 / 1 point"
+        },
+        {
+          "index": 5,
+          "question_type": "single_choice",
+          "prompt_text": "Which type of cloud storage is presented to compute nodes using high-speed fiber connections?",
+          "options": [
+            {
+              "text": "Object storage",
+              "checked": false
+            },
+            {
+              "text": "File storage",
+              "checked": false
+            },
+            {
+              "text": "Block storage",
+              "checked": true
+            },
+            {
+              "text": "Direct attached storage",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "5.\nQuestion 5\n\nWhich type of cloud storage is presented to compute nodes using high-speed fiber connections?\n\nDo you understand?.\n\nI understand\n\nObject storage\n\nFile storage\n\nBlock storage\n\nDirect attached storage\n\nNice work\n\nCorrect! Block storage is presented to compute nodes using high-speed fiber connections, which means that read and write speeds are typically much faster and reliable than with file storage.\n\n1 / 1 point"
+        },
+        {
+          "index": 6,
+          "question_type": "single_choice",
+          "prompt_text": "Why front-end developers use cascading style sheets (CSS) for a website?",
+          "options": [
+            {
+              "text": "To style the website and make it more appealing",
+              "checked": true
+            },
+            {
+              "text": "To add interactivity to the website",
+              "checked": false
+            },
+            {
+              "text": "To render the website’s pages more quickly and efficiently",
+              "checked": false
+            },
+            {
+              "text": "To create the physical structure of the website",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "6.\nQuestion 6\n\nWhy front-end developers use cascading style sheets (CSS) for a website?\n\nDo you understand?.\n\nI understand\n\nTo style the website and make it more appealing\n\nTo add interactivity to the website\n\nTo render the website’s pages more quickly and efficiently\n\nTo create the physical structure of the website\n\nNice work\n\nCorrect! Front-end developers use CSS to define, apply, and manage different sets of style characteristics to a website and to make the site more appealing.\n\n1 / 1 point"
+        },
+        {
+          "index": 7,
+          "question_type": "single_choice",
+          "prompt_text": "Which of the following best describes a route?",
+          "options": [
+            {
+              "text": "Web address or URL for a website",
+              "checked": false
+            },
+            {
+              "text": "Method for creating style sheets faster and more easily",
+              "checked": false
+            },
+            {
+              "text": "Path to a website or page that the user interacts with",
+              "checked": true
+            },
+            {
+              "text": "Code that works with data when processing requests from the front end",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "7.\nQuestion 7\n\nWhich of the following best describes a route?\n\nDo you understand?.\n\nI understand\n\nWeb address or URL for a website\n\nMethod for creating style sheets faster and more easily\n\nPath to a website or page that the user interacts with\n\nCode that works with data when processing requests from the front end\n\nNice work\n\nCorrect! A route is a path to a website or page that the user interacts with. Routes generally take user input and show results based on the input.\n\n1 / 1 point"
+        },
+        {
+          "index": 8,
+          "question_type": "single_choice",
+          "prompt_text": "Which HTML element should you use to define a document's logical separations, such as the numbered chapters of an online manual?",
+          "options": [
+            {
+              "text": "<nav>",
+              "checked": false
+            },
+            {
+              "text": "<canvas>",
+              "checked": false
+            },
+            {
+              "text": "<article>",
+              "checked": false
+            },
+            {
+              "text": "<section>",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "8.\nQuestion 8\n\nWhich HTML element should you use to define a document's logical separations, such as the numbered chapters of an online manual?\n\nDo you understand?.\n\nI understand\n\n<nav>\n\n<canvas>\n\n<article>\n\n<section>\n\nNice work\n\nCorrect! The <section> tags define a document's logical separations, such as the numbered chapters of an online manual.\n\n1 / 1 point"
+        },
+        {
+          "index": 9,
+          "question_type": "single_choice",
+          "prompt_text": "In JavaScript, what is the use of the typeof operator?",
+          "options": [
+            {
+              "text": "Convert the type of object to a different type",
+              "checked": false
+            },
+            {
+              "text": "Report the type of error that has occurred",
+              "checked": false
+            },
+            {
+              "text": "Determine the data type of the supplied operand",
+              "checked": true
+            },
+            {
+              "text": "Show the type of elements in an array",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "9.\nQuestion 9\n\nIn JavaScript, what is the use of the typeof operator?\n\nDo you understand?.\n\nI understand\n\nConvert the type of object to a different type\n\nReport the type of error that has occurred\n\nDetermine the data type of the supplied operand\n\nShow the type of elements in an array\n\nNice work\n\nCorrect! The typeof operator is used to determine the data type of the supplied operand.\n\n1 / 1 point"
+        },
+        {
+          "index": 10,
+          "question_type": "single_choice",
+          "prompt_text": "In JavaScript, assume you need to create a variable with a global scope. What is the first step you must take to declare this variable?",
+          "options": [
+            {
+              "text": "Providing the var keyword",
+              "checked": true
+            },
+            {
+              "text": "Providing the variable name",
+              "checked": false
+            },
+            {
+              "text": "Providing the data type",
+              "checked": false
+            },
+            {
+              "text": "Providing the Dim statement",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "10.\nQuestion 10\n\nIn JavaScript, assume you need to create a variable with a global scope. What is the first step you must take to declare this variable?\n\nDo you understand?.\n\nI understand\n\nProviding the var keyword\n\nProviding the variable name\n\nProviding the data type\n\nProviding the Dim statement\n\nNice work\n\nCorrect! In JavaScript, to declare a variable with global scope, provide the var keyword, then the variable name.\n\n1 / 1 point"
+        },
+        {
+          "index": 11,
+          "question_type": "single_choice",
+          "prompt_text": "Which of these options defines version control system?",
+          "options": [
+            {
+              "text": "A version control statement controls the version by disallowing changes.",
+              "checked": false
+            },
+            {
+              "text": "A version control system gives information only about the latest version.",
+              "checked": false
+            },
+            {
+              "text": "Git is the only version control system available today.",
+              "checked": false
+            },
+            {
+              "text": "A version control system helps you keep track of changes to your document.",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "11.\nQuestion 11\n\nWhich of these options defines version control system?\n\nDo you understand?.\n\nI understand\n\nA version control statement controls the version by disallowing changes.\n\nA version control system gives information only about the latest version.\n\nGit is the only version control system available today.\n\nA version control system helps you keep track of changes to your document.\n\nNice work\n\nCorrect! A version control system is defined as one which helps you keep track of changes to your document.\n\n1 / 1 point"
+        },
+        {
+          "index": 12,
+          "question_type": "single_choice",
+          "prompt_text": "Which of the following is a feature of the Git repository model?",
+          "options": [
+            {
+              "text": "Strict linear workflow",
+              "checked": false
+            },
+            {
+              "text": "Centralized version control",
+              "checked": false
+            },
+            {
+              "text": "Source code tracking",
+              "checked": true
+            },
+            {
+              "text": "Two-tree system",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "12.\nQuestion 12\n\nWhich of the following is a feature of the Git repository model?\n\nDo you understand?.\n\nI understand\n\nStrict linear workflow\n\nCentralized version control\n\nSource code tracking\n\nTwo-tree system\n\nNice work\n\nCorrect! Git is designed as a distributed version control system. The primary focus of Git is tracking source code during development.\n\n1 / 1 point"
+        },
+        {
+          "index": 13,
+          "question_type": "single_choice",
+          "prompt_text": "On GitHub, what is the purpose of a pull request?",
+          "options": [
+            {
+              "text": "Allow others to review and use proposed changes",
+              "checked": true
+            },
+            {
+              "text": "Undo changes made to files in the working directory",
+              "checked": false
+            },
+            {
+              "text": "Create a new branch of the project for review",
+              "checked": false
+            },
+            {
+              "text": "Establish the master branch as the definitive version of the project",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "13.\nQuestion 13\n\nOn GitHub, what is the purpose of a pull request?\n\nDo you understand?.\n\nI understand\n\nAllow others to review and use proposed changes\n\nUndo changes made to files in the working directory\n\nCreate a new branch of the project for review\n\nEstablish the master branch as the definitive version of the project\n\nNice work\n\nCorrect! Pull requests enable other users to review and use the proposed changes.\n\n1 / 1 point"
+        },
+        {
+          "index": 14,
+          "question_type": "single_choice",
+          "prompt_text": "Which of the following Git commands transfers changes from the remote repository to the local repository and then merges them to a branch?",
+          "options": [
+            {
+              "text": "git fetch",
+              "checked": false
+            },
+            {
+              "text": "git push",
+              "checked": false
+            },
+            {
+              "text": "git merge",
+              "checked": false
+            },
+            {
+              "text": "git pull",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "14.\nQuestion 14\n\nWhich of the following Git commands transfers changes from the remote repository to the local repository and then merges them to a branch?\n\nDo you understand?.\n\nI understand\n\ngit fetch\n\ngit push\n\ngit merge\n\ngit pull\n\nNice work\n\nCorrect! The git pull command fetches and tries to automatically merge changes from the remote repository to your local repository.\n\n1 / 1 point"
+        },
+        {
+          "index": 15,
+          "question_type": "single_choice",
+          "prompt_text": "In a Git team project, which team member uses the git-http-backend command as part of their responsibilities?",
+          "options": [
+            {
+              "text": "Billing manager",
+              "checked": false
+            },
+            {
+              "text": "Integrator",
+              "checked": false
+            },
+            {
+              "text": "Developer",
+              "checked": false
+            },
+            {
+              "text": "Repository administrator",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "15.\nQuestion 15\n\nIn a Git team project, which team member uses the git-http-backend command as part of their responsibilities?\n\nDo you understand?.\n\nI understand\n\nBilling manager\n\nIntegrator\n\nDeveloper\n\nRepository administrator\n\nNice work\n\nCorrect! A repository administrator uses the git-http-backend command to provide a server-side implementation of Git-over-HTTP (\"Smart http\"), allowing both fetch and push services.\n\n1 / 1 point"
+        },
+        {
+          "index": 16,
+          "question_type": "single_choice",
+          "prompt_text": "React is a UI library that uses what language?",
+          "options": [
+            {
+              "text": "JSON",
+              "checked": false
+            },
+            {
+              "text": "JavaScript",
+              "checked": true
+            },
+            {
+              "text": "EcmaScript",
+              "checked": false
+            },
+            {
+              "text": "Python",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "16.\nQuestion 16\n\nReact is a UI library that uses what language?\n\nDo you understand?.\n\nI understand\n\nJSON\n\nJavaScript\n\nEcmaScript\n\nPython\n\nNice work\n\nCorrect! React uses a special markup language called JavaScript XML (JSX), which resembles HTML.\n\n1 / 1 point"
+        },
+        {
+          "index": 17,
+          "question_type": "single_choice",
+          "prompt_text": "Select the correct order of methods called when a class component is created.",
+          "options": [
+            {
+              "text": "render(), getDerivedStateFromProps(), componentDidMount(), constructor()",
+              "checked": false
+            },
+            {
+              "text": "constructor(), getDerivedStateFromProps(), render(), componentDidMount()",
+              "checked": true
+            },
+            {
+              "text": "componentDidMount(), getDerivedStateFromProps(), constructor(), render()",
+              "checked": false
+            },
+            {
+              "text": "constructor(), getDerivedStateFromProps(), componentDidMount(), render()",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "17.\nQuestion 17\n\nSelect the correct order of methods called when a class component is created.\n\nDo you understand?.\n\nI understand\n\nrender(), getDerivedStateFromProps(), componentDidMount(), constructor() \n\nconstructor(), getDerivedStateFromProps(), render(), componentDidMount()\n\ncomponentDidMount(), getDerivedStateFromProps(), constructor(), render()\n\nconstructor(), getDerivedStateFromProps(), componentDidMount(), render()\n\nNice work\n\nCorrect! When a component is created in mounting, first, the constructor is invoked. The constructor first calls the super and then logs on to the console. Second, if the state depends on the changes to props, the getDerivedStateFromProps() method is used. Then, the render method is invoked. This method logs on to the console and then renders the component. Finally, the componentDidMount method is invoked.\n\n1 / 1 point"
+        },
+        {
+          "index": 18,
+          "question_type": "single_choice",
+          "prompt_text": "Hooks can only be called ________.",
+          "options": [
+            {
+              "text": "Inside conditions",
+              "checked": false
+            },
+            {
+              "text": "Inside nested functions",
+              "checked": false
+            },
+            {
+              "text": "At the top level of a component",
+              "checked": true
+            },
+            {
+              "text": "Inside functions",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "18.\nQuestion 18\n\nHooks can only be called ________.\n\nDo you understand?.\n\nI understand\n\nInside conditions\n\nInside nested functions\n\nAt the top level of a component\n\nInside functions\n\nNice work\n\nCorrect! Hooks can only be called at the top level of a component.\n\n1 / 1 point"
+        },
+        {
+          "index": 19,
+          "question_type": "single_choice",
+          "prompt_text": "Which of the following is an appropriate reason to use Redux?",
+          "options": [
+            {
+              "text": "It increases the code complexity",
+              "checked": false
+            },
+            {
+              "text": "It offers a decentralized management system",
+              "checked": false
+            },
+            {
+              "text": "It reduces the performance",
+              "checked": false
+            },
+            {
+              "text": "It optimizes the performances of large applications",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "19.\nQuestion 19\n\nWhich of the following is an appropriate reason to use Redux?\n\nDo you understand?.\n\nI understand\n\nIt increases the code complexity\n\nIt offers a decentralized management system\n\nIt reduces the performance\n\nIt optimizes the performances of large applications\n\nNice work\n\nCorrect! The performance of large applications is optimized by using Redux in the application.\n\n1 / 1 point"
+        },
+        {
+          "index": 20,
+          "question_type": "multiple_select",
+          "prompt_text": "Which of the following Redux elements are involved in updating the component properties? Select all that apply.",
+          "options": [
+            {
+              "text": "UI components",
+              "checked": false
+            },
+            {
+              "text": "Reducer",
+              "checked": false
+            },
+            {
+              "text": "Actions",
+              "checked": false
+            },
+            {
+              "text": "Center store",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "20.\nQuestion 20\n\nWhich of the following Redux elements are involved in updating the component properties? Select all that apply.\n\nDo you understand?.\n\nI understand\n\nUI components\n\nReducer\n\nActions\n\nCenter store\n\nNice work\n\nCorrect! Center store is among the Redux elements that is involved in updating the component properties.\n\nYou didn't select all the correct answers\n0.5 / 1 point"
+        },
+        {
+          "index": 21,
+          "question_type": "single_choice",
+          "prompt_text": "What does JSON stand for?",
+          "options": [
+            {
+              "text": "JavaScript Open Node",
+              "checked": false
+            },
+            {
+              "text": "JavaScript Object Notation",
+              "checked": true
+            },
+            {
+              "text": "JavaScript Outbound Node",
+              "checked": false
+            },
+            {
+              "text": "JavaScript Open Notation",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "21.\nQuestion 21\n\nWhat does JSON stand for?\n\nDo you understand?.\n\nI understand\n\nJavaScript Open Node\n\nJavaScript Object Notation\n\nJavaScript Outbound Node\n\nJavaScript Open Notation\n\nNice work\n\nCorrect! JSON stands for JavaScript Object Notation.\n\n1 / 1 point"
+        },
+        {
+          "index": 22,
+          "question_type": "single_choice",
+          "prompt_text": "When you import a Node.js module, what does the require function return?",
+          "options": [
+            {
+              "text": "A JavaScript object that represents an instance of the module",
+              "checked": true
+            },
+            {
+              "text": "An explicit exports object",
+              "checked": false
+            },
+            {
+              "text": "Properties of the module",
+              "checked": false
+            },
+            {
+              "text": "A relative path to the script file",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "22.\nQuestion 22\n\nWhen you import a Node.js module, what does the require function return?\n\nDo you understand?.\n\nI understand\n\nA JavaScript object that represents an instance of the module\n\nAn explicit exports object\n\nProperties of the module\n\nA relative path to the script file\n\nNice work\n\nCorrect! The require function creates an object that represents the imported Node.js module.\n\n1 / 1 point"
+        },
+        {
+          "index": 23,
+          "question_type": "single_choice",
+          "prompt_text": "What is a promise?",
+          "options": [
+            {
+              "text": "A blocked resource",
+              "checked": false
+            },
+            {
+              "text": "An asynchronous method",
+              "checked": false
+            },
+            {
+              "text": "A catch block",
+              "checked": false
+            },
+            {
+              "text": "An object returned by an asynchronous method",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "23.\nQuestion 23\n\nWhat is a promise?\n\nDo you understand?.\n\nI understand\n\nA blocked resource\n\nAn asynchronous method\n\nA catch block\n\nAn object returned by an asynchronous method\n\nNice work\n\nCorrect! A Promise is an object returned by an asynchronous method. The promise has three states: pending, resolved, and rejected.\n\n1 / 1 point"
+        },
+        {
+          "index": 24,
+          "question_type": "multiple_select",
+          "prompt_text": "Which of the following are types of middleware? Select all that apply.",
+          "options": [
+            {
+              "text": "Branching",
+              "checked": false
+            },
+            {
+              "text": "Error handling",
+              "checked": true
+            },
+            {
+              "text": "Application level",
+              "checked": true
+            },
+            {
+              "text": "Router level",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "24.\nQuestion 24\n\nWhich of the following are types of middleware? Select all that apply.\n\nDo you understand?.\n\nI understand\n\nBranching\n\nError handling\n\nNice work\n\nCorrect! This is one of the types of middleware.\n\nApplication level\n\nNice work\n\nCorrect! This is one of the types of middleware.\n\nRouter level\n\nNice work\n\nCorrect! This is one of the types of middleware.\n\n1 / 1 point"
+        },
+        {
+          "index": 25,
+          "question_type": "single_choice",
+          "prompt_text": "Which of the following Node.js web frameworks is associated with the below description?\n\nIt is used for routing and middleware, provides debugging mechanisms to help easily pinpoint the errors in the application, and utilizes asynchronous programming to handle multiple operation requests concurrently.",
+          "options": [
+            {
+              "text": "NestJS",
+              "checked": false
+            },
+            {
+              "text": "Express",
+              "checked": true
+            },
+            {
+              "text": "Koa",
+              "checked": false
+            },
+            {
+              "text": "Django",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "25.\nQuestion 25\n\nWhich of the following Node.js web frameworks is associated with the below description?\n\nIt is used for routing and middleware, provides debugging mechanisms to help easily pinpoint the errors in the application, and utilizes asynchronous programming to handle multiple operation requests concurrently.\n\nDo you understand?.\n\nI understand\n\nNestJS\n\nExpress\n\nKoa\n\nDjango\n\nNice work\n\nCorrect! Express is one of the most popular Node Web Frameworks used for routing and middleware. It provides debugging mechanisms to help easily pinpoint the errors in the application. It handles multiple operation requests concurrently that are independent of each other with asynchronous programming.\n\n1 / 1 point"
+        },
+        {
+          "index": 26,
+          "question_type": "single_choice",
+          "prompt_text": "What is the result of running the following lines of code?\n\nclass Points(object):\n\n         def __init__(self,x,y):\n\n            self.x=x\n\n            self.y=y\n\n         def print_point(self):\n\n             print('x=',self.x,' y=',self.y)\n\np1=Points(\"Q\",\"Z\")\n\np1.print_point()",
+          "options": [
+            {
+              "text": "x=Q y=Z",
+              "checked": true
+            },
+            {
+              "text": "y=Z",
+              "checked": false
+            },
+            {
+              "text": "x=Q",
+              "checked": false
+            },
+            {
+              "text": "x=y",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "26.\nQuestion 26\n\nWhat is the result of running the following lines of code?\n\nclass Points(object):\n\n         def __init__(self,x,y):\n\n            self.x=x\n\n            self.y=y\n\n         def print_point(self):\n\n             print('x=',self.x,' y=',self.y)\n\np1=Points(\"Q\",\"Z\")\n\np1.print_point()\n\nDo you understand?.\n\nI understand\n\nx=Q y=Z\n\ny=Z\n\nx=Q\n\nx=y\n\nNice work\n\nCorrect! The variables have been assigned and printed.\n\n1 / 1 point"
+        },
+        {
+          "index": 27,
+          "question_type": "multiple_select",
+          "prompt_text": "Say you have a list named myList with these elements: [“John”, “Ralph”, “Leia”, “Simone”]. Which of the following shows the correct code for printing out the Leia element? Select two that apply.",
+          "options": [
+            {
+              "text": "print(myList[2])",
+              "checked": false
+            },
+            {
+              "text": "print(myList[-2])",
+              "checked": false
+            },
+            {
+              "text": "print(myList[-1])",
+              "checked": false
+            },
+            {
+              "text": "print(myList[3])",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "27.\nQuestion 27\n\nSay you have a list named myList with these elements: [“John”, “Ralph”, “Leia”, “Simone”]. Which of the following shows the correct code for printing out the Leia element? Select two that apply.\n\nDo you understand?.\n\nI understand\n\nprint(myList[2])\n\nprint(myList[-2])\n\nprint(myList[-1])\n\nprint(myList[3])\n\nYou did not answer the question\n0.5 / 1 point"
+        },
+        {
+          "index": 28,
+          "question_type": "multiple_select",
+          "prompt_text": "What initial value of x will produce the following output for the below code? Select the two statements that apply.\n\nBye\n\nHillary\n\nif(x==\"B\"):\n\n  print('Hello')\n\nelse:\n\n  print('Bye')\n\nprint('Hillary')",
+          "options": [
+            {
+              "text": "x==“B”",
+              "checked": false
+            },
+            {
+              "text": "x=”C\"",
+              "checked": true
+            },
+            {
+              "text": "x=”B”",
+              "checked": false
+            },
+            {
+              "text": "x=“Bye”",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "28.\nQuestion 28\n\nWhat initial value of x will produce the following output for the below code? Select the two statements that apply.\n\nBye\n\nHillary\n\nif(x==\"B\"):\n\n  print('Hello')\n\nelse:\n\n  print('Bye')\n\nprint('Hillary')\n\nDo you understand?.\n\nI understand\n\nx==“B”\n\nx=”C\"\n\nNice work\n\nCorrect! x=Bye does not match the if statement condition.\n\nx=”B”\n\nx=“Bye”\n\nNice work\n\nCorrect! x=”Bye” does not match the if statement condition.\n\n1 / 1 point"
+        },
+        {
+          "index": 29,
+          "question_type": "single_choice",
+          "prompt_text": "When using the open() function, what is the purpose of passing the parameter ‘a+’ into it?",
+          "options": [
+            {
+              "text": "Appending and reading. It creates a new file if none exists.",
+              "checked": true
+            },
+            {
+              "text": "Writing and reading. It truncates the file.",
+              "checked": false
+            },
+            {
+              "text": "Opening and reading. Creates a new file if none exists.",
+              "checked": false
+            },
+            {
+              "text": "Reading and writing. It cannot truncate the file.",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "29.\nQuestion 29\n\nWhen using the open() function, what is the purpose of passing the parameter ‘a+’ into it?\n\nDo you understand?.\n\nI understand\n\nAppending and reading. It creates a new file if none exists.\n\nWriting and reading. It truncates the file.\n\nOpening and reading. Creates a new file if none exists.\n\nReading and writing. It cannot truncate the file.\n\nNice work\n\nCorrect! Rather than passing ‘a’ only, ‘a+’ both appends and reads.\n\n1 / 1 point"
+        },
+        {
+          "index": 30,
+          "question_type": "single_choice",
+          "prompt_text": "What does the following code do to an HTML string that is saved in a variable named “html” and uses the Python library “BeautifulSoup?”\n\n          soup = BeautifulSoup(html, \"html.parser\")\n\n          print(soup.prettify())",
+          "options": [
+            {
+              "text": "It prints out the BeautifulSoup object as a nested data structure.",
+              "checked": true
+            },
+            {
+              "text": "It prints out the html.parser object.",
+              "checked": false
+            },
+            {
+              "text": "It assigns the name “html.parser” to the soup instance.",
+              "checked": false
+            },
+            {
+              "text": "It assigns the name “html” to the soup instance.",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "30.\nQuestion 30\n\nWhat does the following code do to an HTML string that is saved in a variable named “html” and uses the Python library “BeautifulSoup?”\n\n          soup = BeautifulSoup(html, \"html.parser\")\n\n          print(soup.prettify())\n\nDo you understand?.\n\nI understand\n\nIt prints out the BeautifulSoup object as a nested data structure.\n\nIt prints out the html.parser object.\n\nIt assigns the name “html.parser” to the soup instance.\n\nIt assigns the name “html” to the soup instance.\n\nNice work\n\nCorrect! soup is an instance of BeautifulSoup and the method prettify() creates a nested structure from the html string.\n\n1 / 1 point"
+        },
+        {
+          "index": 31,
+          "question_type": "single_choice",
+          "prompt_text": "Which statement about an entity-attribute model regarding a movie is true?",
+          "options": [
+            {
+              "text": "The movie is an entity.",
+              "checked": true
+            },
+            {
+              "text": "The movie is a row.",
+              "checked": false
+            },
+            {
+              "text": "The movie is an attribute.",
+              "checked": false
+            },
+            {
+              "text": "The movie is a column.",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "31.\nQuestion 31\n\nWhich statement about an entity-attribute model regarding a movie is true?\n\nDo you understand?.\n\nI understand\n\nThe movie is an entity.\n\nThe movie is a row.\n\nThe movie is an attribute.\n\nThe movie is a column.\n\nNice work\n\nCorrect! An entity is the subject of focus.\n\n1 / 1 point"
+        },
+        {
+          "index": 32,
+          "question_type": "single_choice",
+          "prompt_text": "Which statement best describes Cursor?",
+          "options": [
+            {
+              "text": "A special control data structure for iterating over rows in a database.",
+              "checked": true
+            },
+            {
+              "text": "A method in OOP to retrieve an object’s data.",
+              "checked": false
+            },
+            {
+              "text": "A special method in ORM to map a column in a database to a class primitive attribute.",
+              "checked": false
+            },
+            {
+              "text": "Statements that must be assembled in application code and executed in the database system using database APIs.",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "32.\nQuestion 32\n\nWhich statement best describes Cursor?\n\nDo you understand?.\n\nI understand\n\nA special control data structure for iterating over rows in a database.\n\nA method in OOP to retrieve an object’s data.\n\nA special method in ORM to map a column in a database to a class primitive attribute.\n\nStatements that must be assembled in application code and executed in the database system using database APIs.\n\nNice work\n\nCorrect! The retrieved database rows are returned to the application code as Cursor, a special control data structure for iterating over rows in a database.\n\n1 / 1 point"
+        },
+        {
+          "index": 33,
+          "question_type": "single_choice",
+          "prompt_text": "What else does the Django template contain besides Python code?",
+          "options": [
+            {
+              "text": "Markdown elements",
+              "checked": false
+            },
+            {
+              "text": "Static HTML elements",
+              "checked": true
+            },
+            {
+              "text": "XML elements",
+              "checked": false
+            },
+            {
+              "text": "Dynamic HTML elements",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "33.\nQuestion 33\n\nWhat else does the Django template contain besides Python code?\n\nDo you understand?.\n\nI understand\n\nMarkdown elements\n\nStatic HTML elements\n\nXML elements\n\nDynamic HTML elements\n\nNice work\n\nCorrect! The Django template contains static HTML elements and special Python code describing how the dynamic content of HTML pages will be generated.\n\n1 / 1 point"
+        },
+        {
+          "index": 34,
+          "question_type": "single_choice",
+          "prompt_text": "Which statement best describes a Django project?",
+          "options": [
+            {
+              "text": "It contains the URL and routing definitions of your Django app.",
+              "checked": false
+            },
+            {
+              "text": "It is a Python package that contains all the settings for an instance of a Django app.",
+              "checked": true
+            },
+            {
+              "text": "It takes a web request such as HTTP GET, POST, DELETE, or UPDATE and returns a web response.",
+              "checked": false
+            },
+            {
+              "text": "It is an implementation of the standard Model-View-Controller (MVC) pattern.",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "34.\nQuestion 34\n\nWhich statement best describes a Django project?\n\nDo you understand?.\n\nI understand\n\nIt contains the URL and routing definitions of your Django app.\n\nIt is a Python package that contains all the settings for an instance of a Django app.\n\nIt takes a web request such as HTTP GET, POST, DELETE, or UPDATE and returns a web response.\n\nIt is an implementation of the standard Model-View-Controller (MVC) pattern.\n\nNice work\n\nCorrect! A Django project is essentially a Python package that contains all the settings for an instance of a Django app.\n\n1 / 1 point"
+        },
+        {
+          "index": 35,
+          "question_type": "single_choice",
+          "prompt_text": "Which of the following describes one of the two types of containers in Bootstrap?",
+          "options": [
+            {
+              "text": "It has a variable width.",
+              "checked": false
+            },
+            {
+              "text": "It displays tabular data.",
+              "checked": false
+            },
+            {
+              "text": "It spans the entire width of the parent element.",
+              "checked": true
+            },
+            {
+              "text": "It creates a card-grid.",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "35.\nQuestion 35\n\nWhich of the following describes one of the two types of containers in Bootstrap?\n\nDo you understand?.\n\nI understand\n\nIt has a variable width.\n\nIt displays tabular data.\n\nIt spans the entire width of the parent element.\n\nIt creates a card-grid.\n\nNice work\n\nCorrect! One of the two types of containers is container-fluid, which spans the entire width of the parent element.\n\n1 / 1 point"
+        },
+        {
+          "index": 36,
+          "question_type": "single_choice",
+          "prompt_text": "Some of the common Docker CLI commands include the ___________command to build a container image and the ___________ command to create a running container.",
+          "options": [
+            {
+              "text": "image, build",
+              "checked": false
+            },
+            {
+              "text": "build, run",
+              "checked": true
+            },
+            {
+              "text": "run, build",
+              "checked": false
+            },
+            {
+              "text": "push, pull",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "36.\nQuestion 36\n\nSome of the common Docker CLI commands include the ___________command to build a container image and the ___________ command to create a running container.\n\nDo you understand?.\n\nI understand\n\nimage, build\n\nbuild, run\n\nrun, build\n\npush, pull\n\nNice work\n\nCorrect! The build command is used with a Dockerfile to build a container image, and the run command is used with an image to create a running container.\n\n1 / 1 point"
+        },
+        {
+          "index": 37,
+          "question_type": "multiple_select",
+          "prompt_text": "Which of these are functions of container orchestration? Select all that apply.",
+          "options": [
+            {
+              "text": "Limiting organization to one unified container",
+              "checked": false
+            },
+            {
+              "text": "Scaling containers up and down to meet demand and load balancer requests across instances",
+              "checked": true
+            },
+            {
+              "text": "Performing health checks to ensure that applications are running and taking necessary actions when checks fail",
+              "checked": true
+            },
+            {
+              "text": "Ensuring that containers are redundant and available so that applications experience minimal downtime",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "37.\nQuestion 37\n\nWhich of these are functions of container orchestration? Select all that apply.\n\nDo you understand?.\n\nI understand\n\nLimiting organization to one unified container\n\nScaling containers up and down to meet demand and load balancer requests across instances\n\nNice work\n\nCorrect! Container orchestration scales containers up and down to meet demand and load balancer requests across instances.\n\nPerforming health checks to ensure that applications are running and taking necessary actions when checks fail\n\nNice work\n\nCorrect! Container orchestration performs health checks to ensure that applications are running and takes necessary actions when checks fail.\n\nEnsuring that containers are redundant and available so that applications experience minimal downtime\n\nNice work\n\nCorrect! Container orchestration ensures that containers are redundant and available so that applications experience minimal downtime.\n\n1 / 1 point"
+        },
+        {
+          "index": 38,
+          "question_type": "single_choice",
+          "prompt_text": "What is a Dockerfile, and what is its primary purpose in the context of containerization?",
+          "options": [
+            {
+              "text": "A Dockerfile is a tool for managing containers.",
+              "checked": false
+            },
+            {
+              "text": "A Dockerfile is a tool for managing the deletion of containers.",
+              "checked": false
+            },
+            {
+              "text": "A Dockerfile is a text file containing instructions for creating a container image.",
+              "checked": true
+            },
+            {
+              "text": "A Dockerfile is a tool for running containers.",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "38.\nQuestion 38\n\nWhat is a Dockerfile, and what is its primary purpose in the context of containerization? \n\nDo you understand?.\n\nI understand\n\nA Dockerfile is a tool for managing containers.\n\nA Dockerfile is a tool for managing the deletion of containers.\n\nA Dockerfile is a text file containing instructions for creating a container image.\n\nA Dockerfile is a tool for running containers.\n\nNice work\n\nCorrect! A Dockerfile is a text file containing instructions for creating a container image.\n\n1 / 1 point"
+        },
+        {
+          "index": 39,
+          "question_type": "multiple_select",
+          "prompt_text": "Which of the following are true for the apply command? Select all that apply.",
+          "options": [
+            {
+              "text": "It is namespace-scoped",
+              "checked": false
+            },
+            {
+              "text": "It requires a file or directory of files.",
+              "checked": true
+            },
+            {
+              "text": "It infers that a new deployment needs to be created.",
+              "checked": true
+            },
+            {
+              "text": "It is declarative.",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "39.\nQuestion 39\n\nWhich of the following are true for the apply command? Select all that apply.\n\nDo you understand?.\n\nI understand\n\nIt is namespace-scoped\n\nIt requires a file or directory of files.\n\nNice work\n\nCorrect! The apply command requires a file or directory of files.\n\nIt infers that a new deployment needs to be created.\n\nNice work\n\nCorrect! The apply command infers that a new deployment needs to be created.\n\nIt is declarative.\n\nNice work\n\nCorrect! The apply command is declarative.\n\n1 / 1 point"
+        },
+        {
+          "index": 40,
+          "question_type": "single_choice",
+          "prompt_text": "What is Red Hat OpenShift?",
+          "options": [
+            {
+              "text": "A hybrid cloud, enterprise-ready Kubernetes container platform",
+              "checked": true
+            },
+            {
+              "text": "A crucial component of Kubernetes",
+              "checked": false
+            },
+            {
+              "text": "A narrowly focused utility that provides a few services",
+              "checked": false
+            },
+            {
+              "text": "A project, not a product",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "40.\nQuestion 40\n\nWhat is Red Hat OpenShift?\n\nDo you understand?.\n\nI understand\n\nA hybrid cloud, enterprise-ready Kubernetes container platform\n\nA crucial component of Kubernetes\n\nA narrowly focused utility that provides a few services\n\nA project, not a product\n\nNice work\n\nCorrect! OpenShift builds on open-source Kubernetes to create an application platform.\n\n1 / 1 point"
+        },
+        {
+          "index": 41,
+          "question_type": "single_choice",
+          "prompt_text": "Modern software development often uses the following along with the twelve-factor application methodology?",
+          "options": [
+            {
+              "text": "SaaS",
+              "checked": false
+            },
+            {
+              "text": "Microservices",
+              "checked": true
+            },
+            {
+              "text": "Databases deployed on VMs",
+              "checked": false
+            },
+            {
+              "text": "Monoliths",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "41.\nQuestion 41\n\nModern software development often uses the following along with the twelve-factor application methodology?\n\nDo you understand?.\n\nI understand\n\nSaaS\n\nMicroservices\n\nDatabases deployed on VMs\n\nMonoliths\n\nNice work\n\nCorrect! Microservices are not a requirement for twelve-factor apps. However, microservices are often used in conjunction with the twelve-factor application methodology.\n\n1 / 1 point"
+        },
+        {
+          "index": 42,
+          "question_type": "single_choice",
+          "prompt_text": "Which of the following API gateway is managed by Google?",
+          "options": [
+            {
+              "text": "Gloo",
+              "checked": false
+            },
+            {
+              "text": "Azure API Management",
+              "checked": false
+            },
+            {
+              "text": "Apache APISIX",
+              "checked": false
+            },
+            {
+              "text": "Apigee",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "42.\nQuestion 42\n\nWhich of the following API gateway is managed by Google?\n\nDo you understand?.\n\nI understand\n\nGloo\n\nAzure API Management\n\nApache APISIX\n\nApigee\n\nNice work\n\nCorrect! Google offers API gateways as per the user’s requirements, which are Apigee and Cloud Endpoints. Apigee is a popular API management platform that offers a managed API Gateway as part of its suite of features.\n\n1 / 1 point"
+        },
+        {
+          "index": 43,
+          "question_type": "multiple_select",
+          "prompt_text": "What are the three main components of serverless stack? Select all that apply.",
+          "options": [
+            {
+              "text": "API Gateway",
+              "checked": true
+            },
+            {
+              "text": "SaaS",
+              "checked": false
+            },
+            {
+              "text": "FaaS",
+              "checked": true
+            },
+            {
+              "text": "BaaS",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "43.\nQuestion 43\n\nWhat are the three main components of serverless stack? Select all that apply.\n\nDo you understand?.\n\nI understand\n\nAPI Gateway\n\nNice work\n\nCorrect! API Gateway is one of the components of serverless stack.\n\nSaaS\n\nFaaS\n\nNice work\n\nCorrect! FaaS is one of the components of serverless stack.\n\nBaaS\n\nNice work\n\nCorrect! BaaS is one of the components of serverless stack.\n\n1 / 1 point"
+        },
+        {
+          "index": 44,
+          "question_type": "single_choice",
+          "prompt_text": "Which of the following is a potential benefit of an IBM Cloud Code Engine?",
+          "options": [
+            {
+              "text": "It is suitable for applications that require constant availability or have background processes that need to run indefinitely.",
+              "checked": false
+            },
+            {
+              "text": "It manages applications with high resource requirements.",
+              "checked": false
+            },
+            {
+              "text": "It is the best fit for complex and customized application workloads.",
+              "checked": false
+            },
+            {
+              "text": "It takes care of the cluster management.",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "44.\nQuestion 44\n\nWhich of the following is a potential benefit of an IBM Cloud Code Engine?\n\nDo you understand?.\n\nI understand\n\nIt is suitable for applications that require constant availability or have background processes that need to run indefinitely.\n\nIt manages applications with high resource requirements.\n\nIt is the best fit for complex and customized application workloads.\n\nIt takes care of the cluster management.\n\nNice work\n\nCorrect! IBM Cloud Code Engine takes care of the cluster management, including provisioning, configuring, scaling, and managing servers\n\n1 / 1 point"
+        },
+        {
+          "index": 45,
+          "question_type": "single_choice",
+          "prompt_text": "Which statement best describes OpenShift?",
+          "options": [
+            {
+              "text": "It is an IT architecture that incorporates workload portability, orchestration, and management.",
+              "checked": false
+            },
+            {
+              "text": "It is a dedicated layer for making service-to-service communication secure and reliable.",
+              "checked": false
+            },
+            {
+              "text": "It extends Kubernetes using CRDs.",
+              "checked": false
+            },
+            {
+              "text": "It is a hybrid, cloud, enterprise Kubernetes application platform.",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "45.\nQuestion 45\n\nWhich statement best describes OpenShift?\n\nDo you understand?.\n\nI understand\n\nIt is an IT architecture that incorporates workload portability, orchestration, and management.\n\nIt is a dedicated layer for making service-to-service communication secure and reliable.\n\nIt extends Kubernetes using CRDs.\n\nIt is a hybrid, cloud, enterprise Kubernetes application platform.\n\nNice work\n\nCorrect! The concise definition of OpenShift, as per the Red Hat website, is that OpenShift is a hybrid cloud, enterprise Kubernetes application platform.\n\n1 / 1 point"
+        }
+      ],
+      "raw_page_text": "N\nFull Stack Software Developer Assessment\nToday's goal • 0/3 items\n\nComplete 3 items today to stay at a good pace!\n\nModule 1\nReview and Exam Preparation\nModule 2\nAssessment for Application Cloud Developer\nFinal Exam\nAbout the Assessment\nReading\n. Duration: 1 minute\n1 min\nFinal Exam\nGraded AssignmentGrade: 97.77%\nWrap Up\nCongratulations and Next Steps\nReading\n. Duration: 3 minutes\n3 min\nCredits and Acknowledgments\nReading\n. Duration: 2 minutes\n2 min\n\nGraded Assignment\n\nFinal Exam\n\nAssessment monitored for academic integrity and AI-usage. Privacy Notice\n\nGo to next item\nTry again\nWhat to expect\nDue Nov 29, 11:59 PM +07\n3 attempts\n\nevery 24 hours\n\n135 min per attempt\n\nYou passed!\n\nTo pass you need a grade of at least 70%.\n\n97.77%\nView feedback\n\nSubmitted Nov 9, 8:28 PM +07.\n\nReport an issue\nGo to next item\nBack\nFinal Exam\n\nGraded Assignment • 2h 15m\n\nDueNov 29, 11:59 PM +07\nYour grade: 97.77%\nYour latest: 97.77%•\nYour highest: 97.77%•\nTo pass you need at least 70%. We keep your highest score.\nNext item\n1.\nQuestion 1\n\nWhich of these are essential characteristics of the cloud? Select the two characteristics that apply.\n\nDo you understand?.\n\nI understand\n\nStatic access\n\nResource pooling\n\nNice work\n\nCorrect! One essential characteristic of the cloud is resource pooling, where a shared model gives cloud providers economies of scale, which they pass on to their customers, making the cloud cost-efficient.\n\nBroad network access\n\nNice work\n\nCorrect! One essential characteristic of the cloud is broad network access. This means that cloud computing resources can be accessed via the network through standard mechanisms and platforms. \n\nLimited service\n\n1 / 1 point\n2.\nQuestion 2\n\nIn the __________ cloud model, the cloud provider provisions the cloud infrastructure for exclusive use by a single organization.\n\nDo you understand?.\n\nI understand\n\nPrivate\n\nHybrid\n\nPublic\n\nHybrid multicloud\n\nNice work\n\nCorrect! Private cloud means that the cloud infrastructure is provisioned for exclusive use by a single organization. It could run on-premises or be owned, managed, and operated by a service provider.\n\n1 / 1 point\n3.\nQuestion 3\n\nVirtualization is the process of creating a software-based version of physical resources, made possible through the use of ___________________.\n\nDo you understand?.\n\nI understand\n\nAPIs\n\nHypervisors\n\nLoad balancers\n\nThird-party plugins\n\nNice work\n\nCorrect! The hypervisor makes virtualization feasible. The hypervisor is a piece of software that runs above the physical server, and the hypervisor pulls the resources from the physical server and allocates them to your virtual environments.\n\n1 / 1 point\n4.\nQuestion 4\n\nA ______________ is an executable unit of software in which application code is packaged, along with its libraries and dependencies, in common ways so that it can be run anywhere—desktops, traditional IT, or the cloud.\n\nDo you understand?.\n\nI understand\n\nHypervisor\n\nContainer\n\nHost\n\nInstance\n\nNice work\n\nCorrect! A container is an executable unit of software in which application code is packaged, along with its libraries and dependencies, in common ways so that it can be run anywhere—desktops, traditional IT, or the cloud.\n\n1 / 1 point\n5.\nQuestion 5\n\nWhich type of cloud storage is presented to compute nodes using high-speed fiber connections?\n\nDo you understand?.\n\nI understand\n\nObject storage\n\nFile storage\n\nBlock storage\n\nDirect attached storage\n\nNice work\n\nCorrect! Block storage is presented to compute nodes using high-speed fiber connections, which means that read and write speeds are typically much faster and reliable than with file storage.\n\n1 / 1 point\n6.\nQuestion 6\n\nWhy front-end developers use cascading style sheets (CSS) for a website?\n\nDo you understand?.\n\nI understand\n\nTo style the website and make it more appealing\n\nTo add interactivity to the website\n\nTo render the website’s pages more quickly and efficiently\n\nTo create the physical structure of the website\n\nNice work\n\nCorrect! Front-end developers use CSS to define, apply, and manage different sets of style characteristics to a website and to make the site more appealing.\n\n1 / 1 point\n7.\nQuestion 7\n\nWhich of the following best describes a route?\n\nDo you understand?.\n\nI understand\n\nWeb address or URL for a website\n\nMethod for creating style sheets faster and more easily\n\nPath to a website or page that the user interacts with\n\nCode that works with data when processing requests from the front end\n\nNice work\n\nCorrect! A route is a path to a website or page that the user interacts with. Routes generally take user input and show results based on the input.\n\n1 / 1 point\n8.\nQuestion 8\n\nWhich HTML element should you use to define a document's logical separations, such as the numbered chapters of an online manual?\n\nDo you understand?.\n\nI understand\n\n<nav>\n\n<canvas>\n\n<article>\n\n<section>\n\nNice work\n\nCorrect! The <section> tags define a document's logical separations, such as the numbered chapters of an online manual.\n\n1 / 1 point\n9.\nQuestion 9\n\nIn JavaScript, what is the use of the typeof operator?\n\nDo you understand?.\n\nI understand\n\nConvert the type of object to a different type\n\nReport the type of error that has occurred\n\nDetermine the data type of the supplied operand\n\nShow the type of elements in an array\n\nNice work\n\nCorrect! The typeof operator is used to determine the data type of the supplied operand.\n\n1 / 1 point\n10.\nQuestion 10\n\nIn JavaScript, assume you need to create a variable with a global scope. What is the first step you must take to declare this variable?\n\nDo you understand?.\n\nI understand\n\nProviding the var keyword\n\nProviding the variable name\n\nProviding the data type\n\nProviding the Dim statement\n\nNice work\n\nCorrect! In JavaScript, to declare a variable with global scope, provide the var keyword, then the variable name.\n\n1 / 1 point\n11.\nQuestion 11\n\nWhich of these options defines version control system?\n\nDo you understand?.\n\nI understand\n\nA version control statement controls the version by disallowing changes.\n\nA version control system gives information only about the latest version.\n\nGit is the only version control system available today.\n\nA version control system helps you keep track of changes to your document.\n\nNice work\n\nCorrect! A version control system is defined as one which helps you keep track of changes to your document.\n\n1 / 1 point\n12.\nQuestion 12\n\nWhich of the following is a feature of the Git repository model?\n\nDo you understand?.\n\nI understand\n\nStrict linear workflow\n\nCentralized version control\n\nSource code tracking\n\nTwo-tree system\n\nNice work\n\nCorrect! Git is designed as a distributed version control system. The primary focus of Git is tracking source code during development.\n\n1 / 1 point\n13.\nQuestion 13\n\nOn GitHub, what is the purpose of a pull request?\n\nDo you understand?.\n\nI understand\n\nAllow others to review and use proposed changes\n\nUndo changes made to files in the working directory\n\nCreate a new branch of the project for review\n\nEstablish the master branch as the definitive version of the project\n\nNice work\n\nCorrect! Pull requests enable other users to review and use the proposed changes.\n\n1 / 1 point\n14.\nQuestion 14\n\nWhich of the following Git commands transfers changes from the remote repository to the local repository and then merges them to a branch?\n\nDo you understand?.\n\nI understand\n\ngit fetch\n\ngit push\n\ngit merge\n\ngit pull\n\nNice work\n\nCorrect! The git pull command fetches and tries to automatically merge changes from the remote repository to your local repository.\n\n1 / 1 point\n15.\nQuestion 15\n\nIn a Git team project, which team member uses the git-http-backend command as part of their responsibilities?\n\nDo you understand?.\n\nI understand\n\nBilling manager\n\nIntegrator\n\nDeveloper\n\nRepository administrator\n\nNice work\n\nCorrect! A repository administrator uses the git-http-backend command to provide a server-side implementation of Git-over-HTTP (\"Smart http\"), allowing both fetch and push services.\n\n1 / 1 point\n16.\nQuestion 16\n\nReact is a UI library that uses what language?\n\nDo you understand?.\n\nI understand\n\nJSON\n\nJavaScript\n\nEcmaScript\n\nPython\n\nNice work\n\nCorrect! React uses a special markup language called JavaScript XML (JSX), which resembles HTML.\n\n1 / 1 point\n17.\nQuestion 17\n\nSelect the correct order of methods called when a class component is created.\n\nDo you understand?.\n\nI understand\n\nrender(), getDerivedStateFromProps(), componentDidMount(), constructor() \n\nconstructor(), getDerivedStateFromProps(), render(), componentDidMount()\n\ncomponentDidMount(), getDerivedStateFromProps(), constructor(), render()\n\nconstructor(), getDerivedStateFromProps(), componentDidMount(), render()\n\nNice work\n\nCorrect! When a component is created in mounting, first, the constructor is invoked. The constructor first calls the super and then logs on to the console. Second, if the state depends on the changes to props, the getDerivedStateFromProps() method is used. Then, the render method is invoked. This method logs on to the console and then renders the component. Finally, the componentDidMount method is invoked.\n\n1 / 1 point\n18.\nQuestion 18\n\nHooks can only be called ________.\n\nDo you understand?.\n\nI understand\n\nInside conditions\n\nInside nested functions\n\nAt the top level of a component\n\nInside functions\n\nNice work\n\nCorrect! Hooks can only be called at the top level of a component.\n\n1 / 1 point\n19.\nQuestion 19\n\nWhich of the following is an appropriate reason to use Redux?\n\nDo you understand?.\n\nI understand\n\nIt increases the code complexity\n\nIt offers a decentralized management system\n\nIt reduces the performance\n\nIt optimizes the performances of large applications\n\nNice work\n\nCorrect! The performance of large applications is optimized by using Redux in the application.\n\n1 / 1 point\n20.\nQuestion 20\n\nWhich of the following Redux elements are involved in updating the component properties? Select all that apply.\n\nDo you understand?.\n\nI understand\n\nUI components\n\nReducer\n\nActions\n\nCenter store\n\nNice work\n\nCorrect! Center store is among the Redux elements that is involved in updating the component properties.\n\nYou didn't select all the correct answers\n0.5 / 1 point\n21.\nQuestion 21\n\nWhat does JSON stand for?\n\nDo you understand?.\n\nI understand\n\nJavaScript Open Node\n\nJavaScript Object Notation\n\nJavaScript Outbound Node\n\nJavaScript Open Notation\n\nNice work\n\nCorrect! JSON stands for JavaScript Object Notation.\n\n1 / 1 point\n22.\nQuestion 22\n\nWhen you import a Node.js module, what does the require function return?\n\nDo you understand?.\n\nI understand\n\nA JavaScript object that represents an instance of the module\n\nAn explicit exports object\n\nProperties of the module\n\nA relative path to the script file\n\nNice work\n\nCorrect! The require function creates an object that represents the imported Node.js module.\n\n1 / 1 point\n23.\nQuestion 23\n\nWhat is a promise?\n\nDo you understand?.\n\nI understand\n\nA blocked resource\n\nAn asynchronous method\n\nA catch block\n\nAn object returned by an asynchronous method\n\nNice work\n\nCorrect! A Promise is an object returned by an asynchronous method. The promise has three states: pending, resolved, and rejected.\n\n1 / 1 point\n24.\nQuestion 24\n\nWhich of the following are types of middleware? Select all that apply.\n\nDo you understand?.\n\nI understand\n\nBranching\n\nError handling\n\nNice work\n\nCorrect! This is one of the types of middleware.\n\nApplication level\n\nNice work\n\nCorrect! This is one of the types of middleware.\n\nRouter level\n\nNice work\n\nCorrect! This is one of the types of middleware.\n\n1 / 1 point\n25.\nQuestion 25\n\nWhich of the following Node.js web frameworks is associated with the below description?\n\nIt is used for routing and middleware, provides debugging mechanisms to help easily pinpoint the errors in the application, and utilizes asynchronous programming to handle multiple operation requests concurrently.\n\nDo you understand?.\n\nI understand\n\nNestJS\n\nExpress\n\nKoa\n\nDjango\n\nNice work\n\nCorrect! Express is one of the most popular Node Web Frameworks used for routing and middleware. It provides debugging mechanisms to help easily pinpoint the errors in the application. It handles multiple operation requests concurrently that are independent of each other with asynchronous programming.\n\n1 / 1 point\n26.\nQuestion 26\n\nWhat is the result of running the following lines of code?\n\nclass Points(object):\n\n         def __init__(self,x,y):\n\n            self.x=x\n\n            self.y=y\n\n         def print_point(self):\n\n             print('x=',self.x,' y=',self.y)\n\np1=Points(\"Q\",\"Z\")\n\np1.print_point()\n\nDo you understand?.\n\nI understand\n\nx=Q y=Z\n\ny=Z\n\nx=Q\n\nx=y\n\nNice work\n\nCorrect! The variables have been assigned and printed.\n\n1 / 1 point\n27.\nQuestion 27\n\nSay you have a list named myList with these elements: [“John”, “Ralph”, “Leia”, “Simone”]. Which of the following shows the correct code for printing out the Leia element? Select two that apply.\n\nDo you understand?.\n\nI understand\n\nprint(myList[2])\n\nprint(myList[-2])\n\nprint(myList[-1])\n\nprint(myList[3])\n\nYou did not answer the question\n0.5 / 1 point\n28.\nQuestion 28\n\nWhat initial value of x will produce the following output for the below code? Select the two statements that apply.\n\nBye\n\nHillary\n\nif(x==\"B\"):\n\n  print('Hello')\n\nelse:\n\n  print('Bye')\n\nprint('Hillary')\n\nDo you understand?.\n\nI understand\n\nx==“B”\n\nx=”C\"\n\nNice work\n\nCorrect! x=Bye does not match the if statement condition.\n\nx=”B”\n\nx=“Bye”\n\nNice work\n\nCorrect! x=”Bye” does not match the if statement condition.\n\n1 / 1 point\n29.\nQuestion 29\n\nWhen using the open() function, what is the purpose of passing the parameter ‘a+’ into it?\n\nDo you understand?.\n\nI understand\n\nAppending and reading. It creates a new file if none exists.\n\nWriting and reading. It truncates the file.\n\nOpening and reading. Creates a new file if none exists.\n\nReading and writing. It cannot truncate the file.\n\nNice work\n\nCorrect! Rather than passing ‘a’ only, ‘a+’ both appends and reads.\n\n1 / 1 point\n30.\nQuestion 30\n\nWhat does the following code do to an HTML string that is saved in a variable named “html” and uses the Python library “BeautifulSoup?”\n\n          soup = BeautifulSoup(html, \"html.parser\")\n\n          print(soup.prettify())\n\nDo you understand?.\n\nI understand\n\nIt prints out the BeautifulSoup object as a nested data structure.\n\nIt prints out the html.parser object.\n\nIt assigns the name “html.parser” to the soup instance.\n\nIt assigns the name “html” to the soup instance.\n\nNice work\n\nCorrect! soup is an instance of BeautifulSoup and the method prettify() creates a nested structure from the html string.\n\n1 / 1 point\n31.\nQuestion 31\n\nWhich statement about an entity-attribute model regarding a movie is true?\n\nDo you understand?.\n\nI understand\n\nThe movie is an entity.\n\nThe movie is a row.\n\nThe movie is an attribute.\n\nThe movie is a column.\n\nNice work\n\nCorrect! An entity is the subject of focus.\n\n1 / 1 point\n32.\nQuestion 32\n\nWhich statement best describes Cursor?\n\nDo you understand?.\n\nI understand\n\nA special control data structure for iterating over rows in a database.\n\nA method in OOP to retrieve an object’s data.\n\nA special method in ORM to map a column in a database to a class primitive attribute.\n\nStatements that must be assembled in application code and executed in the database system using database APIs.\n\nNice work\n\nCorrect! The retrieved database rows are returned to the application code as Cursor, a special control data structure for iterating over rows in a database.\n\n1 / 1 point\n33.\nQuestion 33\n\nWhat else does the Django template contain besides Python code?\n\nDo you understand?.\n\nI understand\n\nMarkdown elements\n\nStatic HTML elements\n\nXML elements\n\nDynamic HTML elements\n\nNice work\n\nCorrect! The Django template contains static HTML elements and special Python code describing how the dynamic content of HTML pages will be generated.\n\n1 / 1 point\n34.\nQuestion 34\n\nWhich statement best describes a Django project?\n\nDo you understand?.\n\nI understand\n\nIt contains the URL and routing definitions of your Django app.\n\nIt is a Python package that contains all the settings for an instance of a Django app.\n\nIt takes a web request such as HTTP GET, POST, DELETE, or UPDATE and returns a web response.\n\nIt is an implementation of the standard Model-View-Controller (MVC) pattern.\n\nNice work\n\nCorrect! A Django project is essentially a Python package that contains all the settings for an instance of a Django app.\n\n1 / 1 point\n35.\nQuestion 35\n\nWhich of the following describes one of the two types of containers in Bootstrap?\n\nDo you understand?.\n\nI understand\n\nIt has a variable width.\n\nIt displays tabular data.\n\nIt spans the entire width of the parent element.\n\nIt creates a card-grid.\n\nNice work\n\nCorrect! One of the two types of containers is container-fluid, which spans the entire width of the parent element.\n\n1 / 1 point\n36.\nQuestion 36\n\nSome of the common Docker CLI commands include the ___________command to build a container image and the ___________ command to create a running container.\n\nDo you understand?.\n\nI understand\n\nimage, build\n\nbuild, run\n\nrun, build\n\npush, pull\n\nNice work\n\nCorrect! The build command is used with a Dockerfile to build a container image, and the run command is used with an image to create a running container.\n\n1 / 1 point\n37.\nQuestion 37\n\nWhich of these are functions of container orchestration? Select all that apply.\n\nDo you understand?.\n\nI understand\n\nLimiting organization to one unified container\n\nScaling containers up and down to meet demand and load balancer requests across instances\n\nNice work\n\nCorrect! Container orchestration scales containers up and down to meet demand and load balancer requests across instances.\n\nPerforming health checks to ensure that applications are running and taking necessary actions when checks fail\n\nNice work\n\nCorrect! Container orchestration performs health checks to ensure that applications are running and takes necessary actions when checks fail.\n\nEnsuring that containers are redundant and available so that applications experience minimal downtime\n\nNice work\n\nCorrect! Container orchestration ensures that containers are redundant and available so that applications experience minimal downtime.\n\n1 / 1 point\n38.\nQuestion 38\n\nWhat is a Dockerfile, and what is its primary purpose in the context of containerization? \n\nDo you understand?.\n\nI understand\n\nA Dockerfile is a tool for managing containers.\n\nA Dockerfile is a tool for managing the deletion of containers.\n\nA Dockerfile is a text file containing instructions for creating a container image.\n\nA Dockerfile is a tool for running containers.\n\nNice work\n\nCorrect! A Dockerfile is a text file containing instructions for creating a container image.\n\n1 / 1 point\n39.\nQuestion 39\n\nWhich of the following are true for the apply command? Select all that apply.\n\nDo you understand?.\n\nI understand\n\nIt is namespace-scoped\n\nIt requires a file or directory of files.\n\nNice work\n\nCorrect! The apply command requires a file or directory of files.\n\nIt infers that a new deployment needs to be created.\n\nNice work\n\nCorrect! The apply command infers that a new deployment needs to be created.\n\nIt is declarative.\n\nNice work\n\nCorrect! The apply command is declarative.\n\n1 / 1 point\n40.\nQuestion 40\n\nWhat is Red Hat OpenShift?\n\nDo you understand?.\n\nI understand\n\nA hybrid cloud, enterprise-ready Kubernetes container platform\n\nA crucial component of Kubernetes\n\nA narrowly focused utility that provides a few services\n\nA project, not a product\n\nNice work\n\nCorrect! OpenShift builds on open-source Kubernetes to create an application platform.\n\n1 / 1 point\n41.\nQuestion 41\n\nModern software development often uses the following along with the twelve-factor application methodology?\n\nDo you understand?.\n\nI understand\n\nSaaS\n\nMicroservices\n\nDatabases deployed on VMs\n\nMonoliths\n\nNice work\n\nCorrect! Microservices are not a requirement for twelve-factor apps. However, microservices are often used in conjunction with the twelve-factor application methodology.\n\n1 / 1 point\n42.\nQuestion 42\n\nWhich of the following API gateway is managed by Google?\n\nDo you understand?.\n\nI understand\n\nGloo\n\nAzure API Management\n\nApache APISIX\n\nApigee\n\nNice work\n\nCorrect! Google offers API gateways as per the user’s requirements, which are Apigee and Cloud Endpoints. Apigee is a popular API management platform that offers a managed API Gateway as part of its suite of features.\n\n1 / 1 point\n43.\nQuestion 43\n\nWhat are the three main components of serverless stack? Select all that apply.\n\nDo you understand?.\n\nI understand\n\nAPI Gateway\n\nNice work\n\nCorrect! API Gateway is one of the components of serverless stack.\n\nSaaS\n\nFaaS\n\nNice work\n\nCorrect! FaaS is one of the components of serverless stack.\n\nBaaS\n\nNice work\n\nCorrect! BaaS is one of the components of serverless stack.\n\n1 / 1 point\n44.\nQuestion 44\n\nWhich of the following is a potential benefit of an IBM Cloud Code Engine?\n\nDo you understand?.\n\nI understand\n\nIt is suitable for applications that require constant availability or have background processes that need to run indefinitely.\n\nIt manages applications with high resource requirements.\n\nIt is the best fit for complex and customized application workloads.\n\nIt takes care of the cluster management.\n\nNice work\n\nCorrect! IBM Cloud Code Engine takes care of the cluster management, including provisioning, configuring, scaling, and managing servers\n\n1 / 1 point\n45.\nQuestion 45\n\nWhich statement best describes OpenShift?\n\nDo you understand?.\n\nI understand\n\nIt is an IT architecture that incorporates workload portability, orchestration, and management.\n\nIt is a dedicated layer for making service-to-service communication secure and reliable.\n\nIt extends Kubernetes using CRDs.\n\nIt is a hybrid, cloud, enterprise Kubernetes application platform.\n\nNice work\n\nCorrect! The concise definition of OpenShift, as per the Red Hat website, is that OpenShift is a hybrid cloud, enterprise Kubernetes application platform.\n\n1 / 1 point"
+    }
+  ]
+}

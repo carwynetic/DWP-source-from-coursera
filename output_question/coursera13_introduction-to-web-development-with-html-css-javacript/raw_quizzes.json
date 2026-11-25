@@ -1,0 +1,1514 @@
+{
+  "crawled_at": "2026-11-25T21:32:12.776171",
+  "course": {
+    "key": "coursera13",
+    "name": "Introduction to Web Development with HTML, CSS, JavaScript",
+    "slug": "introduction-to-web-development-with-html-css-javacript",
+    "url": "https://www.coursera.org/learn/introduction-to-web-development-with-html-css-javacript"
+  },
+  "total_quizzes_discovered": 8,
+  "total_mc_quizzes_extracted": 8,
+  "total_mc_questions": 60,
+  "quizzes": [
+    {
+      "title": "Practice Quiz Practice Assignment • 10 min • Grade: --",
+      "page_title": "Practice Quiz",
+      "source": "Module 1",
+      "kind": "practice_quiz",
+      "url": "https://www.coursera.org/learn/introduction-to-web-development-with-html-css-javacript/assignment-submission/qrQfu/practice-quiz",
+      "final_url": "https://www.coursera.org/learn/introduction-to-web-development-with-html-css-javacript/assignment-submission/qrQfu/practice-quiz/attempt",
+      "status": "opened_via_button:Start assignment",
+      "question_count": 5,
+      "questions": [
+        {
+          "index": 1,
+          "question_type": "single_choice",
+          "prompt_text": "Who is more likely to work with databases?",
+          "options": [
+            {
+              "text": "Front-end developer",
+              "checked": false
+            },
+            {
+              "text": "Back-end developer",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "1.\nQuestion 1\n\nWho is more likely to work with databases?  \n\nDo you understand?.\n\nI understand\n\nFront-end developer\n\nBack-end developer\n\n1 point"
+        },
+        {
+          "index": 2,
+          "question_type": "multiple_select",
+          "prompt_text": "Which of the following do version control systems help you to keep track of? (Select all that apply)",
+          "options": [
+            {
+              "text": "What changes were made to the code",
+              "checked": false
+            },
+            {
+              "text": "Who made the changes",
+              "checked": false
+            },
+            {
+              "text": "When the changes were made",
+              "checked": false
+            },
+            {
+              "text": "Debugging the errors in the code",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "2.\nQuestion 2\n\nWhich of the following do version control systems help you to keep track of? (Select all that apply) \n\nDo you understand?.\n\nI understand\n\nWhat changes were made to the code \n\nWho made the changes\n\nWhen the changes were made\n\nDebugging the errors in the code\n\n1 point"
+        },
+        {
+          "index": 3,
+          "question_type": "single_choice",
+          "prompt_text": "Which of the following is not a development framework?",
+          "options": [
+            {
+              "text": "Vue.js",
+              "checked": false
+            },
+            {
+              "text": "Django",
+              "checked": false
+            },
+            {
+              "text": "Git",
+              "checked": false
+            },
+            {
+              "text": "Angular",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "3.\nQuestion 3\n\nWhich of the following is not a development framework? \n\nDo you understand?.\n\nI understand\n\nVue.js \n\nDjango\n\nGit \n\nAngular\n\n1 point"
+        },
+        {
+          "index": 4,
+          "question_type": "single_choice",
+          "prompt_text": "Which process automatically builds and tests your code?",
+          "options": [
+            {
+              "text": "CD (Continuous Delivery)",
+              "checked": false
+            },
+            {
+              "text": "CI (Continuous Integration)",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "4.\nQuestion 4\n\nWhich process automatically builds and tests your code?  \n\nDo you understand?.\n\nI understand\n\nCD (Continuous Delivery)\n\nCI (Continuous Integration) \n\n1 point"
+        },
+        {
+          "index": 5,
+          "question_type": "single_choice",
+          "prompt_text": "True or False: JavaScript can be used for both front-end and back-end development.",
+          "options": [
+            {
+              "text": "True",
+              "checked": false
+            },
+            {
+              "text": "False",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "5.\nQuestion 5\n\nTrue or False: JavaScript can be used for both front-end and back-end development.  \n\nDo you understand?.\n\nI understand\n\nTrue\n\nFalse\n\n1 point"
+        }
+      ],
+      "raw_page_text": "N\nIntroduction to Web Development with HTML, CSS, JavaScript\nToday's goal • 0/3 items\n\nComplete 3 items today to stay at a good pace!\n\nModule 1\nIntroduction to Application Development\nCourse Introduction: Web Development with HTML, CSS, and JavaScript\nVideo\n. Duration: 1 minute\n1 min\nOverview of Web and Cloud Development\nVideo\n. Duration: 4 minutes\n4 min\nInsiders' Viewpoints: Aspects of the Web Development Lifecycle\nVideo\n. Duration: 2 minutes\n2 min\nLearning Front-End Development\nVideo\n. Duration: 6 minutes\n6 min\nInsiders' Viewpoints: Front-end and Back-end Web Development\nVideo\n. Duration: 5 minutes\n5 min\nIntroducing Application Development Tools\nVideo\n. Duration: 5 minutes\n5 min\nMore Application Development Tools\nVideo\n. Duration: 5 minutes\n5 min\nInsiders' Viewpoints: Tools and Technologies\nVideo\n. Duration: 5 minutes\n5 min\nThe Importance of Back-End Development\nVideo\n. Duration: 6 minutes\n6 min\nLab Demo: Using Geolocation API in Web Apps\nUngraded Plugin\n. Duration: 3 minutes\n3 min\nDemo: Review of Development Terminology/Demo of Web Development in Action\nUngraded Plugin\n. Duration: 15 minutes\n15 min\nModule 1 Summary\nReading\n. Duration: 2 minutes\n2 min\nGlossary - Introduction to Application Development\nUngraded Plugin\n. Duration: 2 minutes\n2 min\nPractice Quiz\nPractice Assignment\n. Duration: 10 minutes\n10 min\nGraded Quiz\nGraded AssignmentGrade: 100%\nIntroduce yourself and why you are interested in Web Development\nDiscussion Prompt\n. Duration: 5 minutes\n5 min\nModule 2\nHTML Overview\nModule 3\nCSS Overview & HTML5 Elements\nModule 4\nJavaScript Programming for Web Applications\nModule 5\nCareer Opportunities and Final Project\n\nPractice Assignment\n\nPractice Quiz\nResume assignment\nHelp me practice\nWhat to expect\nDue Nov 22, 11:59 PM +07\nUnlimited attempts\n\nThis is a practice assignment to help you check your understanding. It doesn’t count toward your course grade.\n\nReport an issue\nGo to next item\nBack\nPractice Quiz\n\nPractice Assignment • 10 min\n\nDueNov 22, 11:59 PM +07\n1.\nQuestion 1\n\nWho is more likely to work with databases?  \n\nDo you understand?.\n\nI understand\n\nFront-end developer\n\nBack-end developer\n\n1 point\n2.\nQuestion 2\n\nWhich of the following do version control systems help you to keep track of? (Select all that apply) \n\nDo you understand?.\n\nI understand\n\nWhat changes were made to the code \n\nWho made the changes\n\nWhen the changes were made\n\nDebugging the errors in the code\n\n1 point\n3.\nQuestion 3\n\nWhich of the following is not a development framework? \n\nDo you understand?.\n\nI understand\n\nVue.js \n\nDjango\n\nGit \n\nAngular\n\n1 point\n4.\nQuestion 4\n\nWhich process automatically builds and tests your code?  \n\nDo you understand?.\n\nI understand\n\nCD (Continuous Delivery)\n\nCI (Continuous Integration) \n\n1 point\n5.\nQuestion 5\n\nTrue or False: JavaScript can be used for both front-end and back-end development.  \n\nDo you understand?.\n\nI understand\n\nTrue\n\nFalse\n\n1 point\nCoursera Honor Code\n\nBy clicking Submit, you confirm this work is your own. Submitting work created with AI tools may result in course failure or account deactivation according to Coursera Honor Code policy.\n\nI, NGUYEN PHUC, understand and agree.\nYou must select the checkbox in order to submit the assignment\nSubmit\nSave draft\n\nLast saved on Nov 25, 9:29 PM +07\n\nLike\nDislike\nReport an issue"
+    },
+    {
+      "title": "Graded Quiz Graded Assignment • Submitted • Grade: 100% • Status: Graded Graded",
+      "page_title": "Graded Quiz",
+      "source": "Module 1",
+      "kind": "graded_quiz",
+      "url": "https://www.coursera.org/learn/introduction-to-web-development-with-html-css-javacript/assignment-submission/tdZGN/graded-quiz",
+      "final_url": "https://www.coursera.org/learn/introduction-to-web-development-with-html-css-javacript/assignment-submission/tdZGN/graded-quiz/view-feedback",
+      "status": "opened_via_button",
+      "question_count": 10,
+      "questions": [
+        {
+          "index": 1,
+          "question_type": "single_choice",
+          "prompt_text": "What is an API?",
+          "options": [
+            {
+              "text": "Code that works with data and provides a mechanism for software to access resources from the back-end",
+              "checked": true
+            },
+            {
+              "text": "A version control system used to manage your code",
+              "checked": false
+            },
+            {
+              "text": "A practice for dev-ops teams enabling developers to deliver frequent changes reliably",
+              "checked": false
+            },
+            {
+              "text": "A framework which dictates the architecture of your program and controls the program flow",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "1.\nQuestion 1\n\nWhat is an API?\n\nDo you understand?.\n\nI understand\n\nCode that works with data and provides a mechanism for software to access resources from the back-end\n\nA version control system used to manage your code\n\nA practice for dev-ops teams enabling developers to deliver frequent changes reliably\n\nA framework which dictates the architecture of your program and controls the program flow\n\nNice work\n1 / 1 point"
+        },
+        {
+          "index": 2,
+          "question_type": "multiple_select",
+          "prompt_text": "When a user tries to login to a website, he/she gets an authentication failure error. Who do you think can fix this error? (Select all that apply)",
+          "options": [
+            {
+              "text": "Full-stack Developer",
+              "checked": true
+            },
+            {
+              "text": "Front-end Developer",
+              "checked": false
+            },
+            {
+              "text": "Back-end Developer",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "2.\nQuestion 2\n\nWhen a user tries to login to a website, he/she gets an authentication failure error. Who do you think can fix this error? (Select all that apply)\n\nDo you understand?.\n\nI understand\n\nFull-stack Developer\n\nNice work\n\nFront-end Developer \n\nBack-end Developer\n\nNice work\n1 / 1 point"
+        },
+        {
+          "index": 3,
+          "question_type": "single_choice",
+          "prompt_text": "In addition to SQL, which tool can help you access databases?",
+          "options": [
+            {
+              "text": "CI/CD",
+              "checked": false
+            },
+            {
+              "text": "ORM",
+              "checked": true
+            },
+            {
+              "text": "pip",
+              "checked": false
+            },
+            {
+              "text": "npm",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "3.\nQuestion 3\n\nIn addition to SQL, which tool can help you access databases?\n\nDo you understand?.\n\nI understand\n\nCI/CD\n\nORM\n\npip\n\nnpm\n\nNice work\n\nORM (object-relational mapping) tools can be used to connect to a database and retrieve the correct data, and can hide some of the complexity of querying databases\n\n1 / 1 point"
+        },
+        {
+          "index": 4,
+          "question_type": "multiple_select",
+          "prompt_text": "Build automation can automate which of the following tasks?  (Select all that apply)",
+          "options": [
+            {
+              "text": "Running tests and deployment to production systems",
+              "checked": true
+            },
+            {
+              "text": "Packaging binary code",
+              "checked": true
+            },
+            {
+              "text": "Downloading dependencies",
+              "checked": true
+            },
+            {
+              "text": "Compiling binary code into source code",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "4.\nQuestion 4\n\nBuild automation can automate which of the following tasks?  (Select all that apply)\n\nDo you understand?.\n\nI understand\n\nRunning tests and deployment to production systems\n\nNice work\n\nPackaging binary code\n\nNice work\n\nDownloading dependencies\n\nNice work\n\nCompiling binary code into source code\n\n1 / 1 point"
+        },
+        {
+          "index": 5,
+          "question_type": "single_choice",
+          "prompt_text": "A user has complained that the website is readable on desktop but not on mobile. Who can help solve this problem?",
+          "options": [
+            {
+              "text": "Front-end Developer",
+              "checked": true
+            },
+            {
+              "text": "Back-end Developer",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "5.\nQuestion 5\n\nA user has complained that the website is readable on desktop but not on mobile. Who can help solve this problem?\n\nDo you understand?.\n\nI understand\n\nFront-end Developer\n\n Back-end Developer\n\nNice work\n1 / 1 point"
+        },
+        {
+          "index": 6,
+          "question_type": "multiple_select",
+          "prompt_text": "Which of the following describe a package manager?  (Select all that apply)",
+          "options": [
+            {
+              "text": "A way to distribute your pre-packaged application(s)",
+              "checked": true
+            },
+            {
+              "text": "Contains application files, instructions for installation, and metadata",
+              "checked": false
+            },
+            {
+              "text": "Takes care of finding, installing, maintaining or uninstalling software packages",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "6.\nQuestion 6\n\nWhich of the following describe a package manager?  (Select all that apply)\n\nDo you understand?.\n\nI understand\n\nA way to distribute your pre-packaged application(s)\n\nNice work\n\nContains application files, instructions for installation, and metadata\n\nTakes care of finding, installing, maintaining or uninstalling software packages\n\nNice work\n1 / 1 point"
+        },
+        {
+          "index": 7,
+          "question_type": "single_choice",
+          "prompt_text": "Which of the following adds interactivity and dynamic content to a website?",
+          "options": [
+            {
+              "text": "Git",
+              "checked": false
+            },
+            {
+              "text": "HTML",
+              "checked": false
+            },
+            {
+              "text": "CSS",
+              "checked": false
+            },
+            {
+              "text": "JavaScript",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "7.\nQuestion 7\n\nWhich of the following adds interactivity and dynamic content to a website?\n\nDo you understand?.\n\nI understand\n\nGit\n\nHTML\n\nCSS\n\nJavaScript\n\nNice work\n1 / 1 point"
+        },
+        {
+          "index": 8,
+          "question_type": "single_choice",
+          "prompt_text": "Which of these is an open-source server side platform built on the Google Chrome JavaScript engine and uses an asynchronous single threaded architecture that allows it to serve a very large number of concurrent connections?",
+          "options": [
+            {
+              "text": "React JS",
+              "checked": false
+            },
+            {
+              "text": "Angular",
+              "checked": false
+            },
+            {
+              "text": "Flask",
+              "checked": false
+            },
+            {
+              "text": "Node.js",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "8.\nQuestion 8\n\nWhich of these is an open-source server side platform built on the Google Chrome JavaScript engine and uses an asynchronous single threaded architecture that allows it to serve a very large number of concurrent connections?\n\nDo you understand?.\n\nI understand\n\nReact JS \n\n Angular\n\nFlask\n\nNode.js\n\nNice work\n\nNode j.s is an open source server side platform built on the Google Chrome JavaScript engine. It uses an asynchronous single threaded architecture that allows it to serve a very large number of concurrent connections.\n\n1 / 1 point"
+        },
+        {
+          "index": 9,
+          "question_type": "multiple_select",
+          "prompt_text": "Which of the following frameworks and libraries are used for front-end? (Select all that apply)",
+          "options": [
+            {
+              "text": "React.js",
+              "checked": true
+            },
+            {
+              "text": "Vue.js",
+              "checked": true
+            },
+            {
+              "text": "Express",
+              "checked": false
+            },
+            {
+              "text": "Angular",
+              "checked": true
+            },
+            {
+              "text": "Node.js",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "9.\nQuestion 9\n\nWhich of the following frameworks and libraries are used for front-end? (Select all that apply)\n\nDo you understand?.\n\nI understand\n\nReact.js\n\nNice work\n\nReact.js is a front-end JavaScript library that builds and renders components for a web page\n\nVue.js\n\nNice work\n\nVue.js is a front-end framework focused on building user interfaces\n\nExpress\n\nAngular\n\nNice work\n\nAngular is a front-end framework that allows websites to render HTML pages quickly and efficiently. It has built-in tools for routing and form validation\n\nNode.js\n\n1 / 1 point"
+        },
+        {
+          "index": 10,
+          "question_type": "single_choice",
+          "prompt_text": "Which of the following is NOT a required skill for a front-end developer?",
+          "options": [
+            {
+              "text": "Java",
+              "checked": true
+            },
+            {
+              "text": "CSS",
+              "checked": false
+            },
+            {
+              "text": "JavaScript",
+              "checked": false
+            },
+            {
+              "text": "HTML",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "10.\nQuestion 10\n\nWhich of the following is NOT a required skill for a front-end developer?\n\nDo you understand?.\n\nI understand\n\nJava\n\nCSS\n\nJavaScript\n\nHTML\n\nNice work\n1 / 1 point"
+        }
+      ],
+      "raw_page_text": "N\nIntroduction to Web Development with HTML, CSS, JavaScript\nToday's goal • 0/3 items\n\nComplete 3 items today to stay at a good pace!\n\nModule 1\nIntroduction to Application Development\nCourse Introduction: Web Development with HTML, CSS, and JavaScript\nVideo\n. Duration: 1 minute\n1 min\nOverview of Web and Cloud Development\nVideo\n. Duration: 4 minutes\n4 min\nInsiders' Viewpoints: Aspects of the Web Development Lifecycle\nVideo\n. Duration: 2 minutes\n2 min\nLearning Front-End Development\nVideo\n. Duration: 6 minutes\n6 min\nInsiders' Viewpoints: Front-end and Back-end Web Development\nVideo\n. Duration: 5 minutes\n5 min\nIntroducing Application Development Tools\nVideo\n. Duration: 5 minutes\n5 min\nMore Application Development Tools\nVideo\n. Duration: 5 minutes\n5 min\nInsiders' Viewpoints: Tools and Technologies\nVideo\n. Duration: 5 minutes\n5 min\nThe Importance of Back-End Development\nVideo\n. Duration: 6 minutes\n6 min\nLab Demo: Using Geolocation API in Web Apps\nUngraded Plugin\n. Duration: 3 minutes\n3 min\nDemo: Review of Development Terminology/Demo of Web Development in Action\nUngraded Plugin\n. Duration: 15 minutes\n15 min\nModule 1 Summary\nReading\n. Duration: 2 minutes\n2 min\nGlossary - Introduction to Application Development\nUngraded Plugin\n. Duration: 2 minutes\n2 min\nPractice Quiz\nPractice Assignment\n. Duration: 10 minutes\n10 min\nGraded Quiz\nGraded AssignmentGrade: 100%\nIntroduce yourself and why you are interested in Web Development\nDiscussion Prompt\n. Duration: 5 minutes\n5 min\nModule 2\nHTML Overview\nModule 3\nCSS Overview & HTML5 Elements\nModule 4\nJavaScript Programming for Web Applications\nModule 5\nCareer Opportunities and Final Project\n\nGraded Assignment\n\nGraded Quiz\n\nAssessment monitored for academic integrity and AI-usage. Privacy Notice\n\nGo to next item\nTry again\nWhat to expect\nDue Nov 22, 11:59 PM +07\n3 attempts\n\nevery 8 hours\n\nYou passed!\n\nTo pass you need a grade of at least 70%.\n\n100%\nView feedback\n\nSubmitted Nov 9, 8:27 PM +07.\n\nReport an issue\nGo to next item\nBack\nGraded Quiz\n\nGraded Assignment • 30 min\n\nDueNov 22, 11:59 PM +07\nYour grade: 100%\nYour latest: 100%•\nYour highest: 100%•\nTo pass you need at least 70%. We keep your highest score.\nNext item\n1.\nQuestion 1\n\nWhat is an API?\n\nDo you understand?.\n\nI understand\n\nCode that works with data and provides a mechanism for software to access resources from the back-end\n\nA version control system used to manage your code\n\nA practice for dev-ops teams enabling developers to deliver frequent changes reliably\n\nA framework which dictates the architecture of your program and controls the program flow\n\nNice work\n1 / 1 point\n2.\nQuestion 2\n\nWhen a user tries to login to a website, he/she gets an authentication failure error. Who do you think can fix this error? (Select all that apply)\n\nDo you understand?.\n\nI understand\n\nFull-stack Developer\n\nNice work\n\nFront-end Developer \n\nBack-end Developer\n\nNice work\n1 / 1 point\n3.\nQuestion 3\n\nIn addition to SQL, which tool can help you access databases?\n\nDo you understand?.\n\nI understand\n\nCI/CD\n\nORM\n\npip\n\nnpm\n\nNice work\n\nORM (object-relational mapping) tools can be used to connect to a database and retrieve the correct data, and can hide some of the complexity of querying databases\n\n1 / 1 point\n4.\nQuestion 4\n\nBuild automation can automate which of the following tasks?  (Select all that apply)\n\nDo you understand?.\n\nI understand\n\nRunning tests and deployment to production systems\n\nNice work\n\nPackaging binary code\n\nNice work\n\nDownloading dependencies\n\nNice work\n\nCompiling binary code into source code\n\n1 / 1 point\n5.\nQuestion 5\n\nA user has complained that the website is readable on desktop but not on mobile. Who can help solve this problem?\n\nDo you understand?.\n\nI understand\n\nFront-end Developer\n\n Back-end Developer\n\nNice work\n1 / 1 point\n6.\nQuestion 6\n\nWhich of the following describe a package manager?  (Select all that apply)\n\nDo you understand?.\n\nI understand\n\nA way to distribute your pre-packaged application(s)\n\nNice work\n\nContains application files, instructions for installation, and metadata\n\nTakes care of finding, installing, maintaining or uninstalling software packages\n\nNice work\n1 / 1 point\n7.\nQuestion 7\n\nWhich of the following adds interactivity and dynamic content to a website?\n\nDo you understand?.\n\nI understand\n\nGit\n\nHTML\n\nCSS\n\nJavaScript\n\nNice work\n1 / 1 point\n8.\nQuestion 8\n\nWhich of these is an open-source server side platform built on the Google Chrome JavaScript engine and uses an asynchronous single threaded architecture that allows it to serve a very large number of concurrent connections?\n\nDo you understand?.\n\nI understand\n\nReact JS \n\n Angular\n\nFlask\n\nNode.js\n\nNice work\n\nNode j.s is an open source server side platform built on the Google Chrome JavaScript engine. It uses an asynchronous single threaded architecture that allows it to serve a very large number of concurrent connections.\n\n1 / 1 point\n9.\nQuestion 9\n\nWhich of the following frameworks and libraries are used for front-end? (Select all that apply)\n\nDo you understand?.\n\nI understand\n\nReact.js\n\nNice work\n\nReact.js is a front-end JavaScript library that builds and renders components for a web page\n\nVue.js\n\nNice work\n\nVue.js is a front-end framework focused on building user interfaces\n\nExpress\n\nAngular\n\nNice work\n\nAngular is a front-end framework that allows websites to render HTML pages quickly and efficiently. It has built-in tools for routing and form validation\n\nNode.js\n\n1 / 1 point\n10.\nQuestion 10\n\nWhich of the following is NOT a required skill for a front-end developer?\n\nDo you understand?.\n\nI understand\n\nJava\n\nCSS\n\nJavaScript\n\nHTML\n\nNice work\n1 / 1 point"
+    },
+    {
+      "title": "Practice Quiz: HTML Overview Practice Assignment • Submitted • Grade: 100% • Status: Graded Graded",
+      "page_title": "Practice Quiz: HTML Overview",
+      "source": "Module 2",
+      "kind": "practice_quiz",
+      "url": "https://www.coursera.org/learn/introduction-to-web-development-with-html-css-javacript/assignment-submission/daRNf/practice-quiz-html-overview",
+      "final_url": "https://www.coursera.org/learn/introduction-to-web-development-with-html-css-javacript/assignment-submission/daRNf/practice-quiz-html-overview/view-feedback",
+      "status": "opened_via_button",
+      "question_count": 5,
+      "questions": [
+        {
+          "index": 1,
+          "question_type": "single_choice",
+          "prompt_text": "What are the building blocks of HTML called?",
+          "options": [
+            {
+              "text": "Elements",
+              "checked": true
+            },
+            {
+              "text": "Nodes",
+              "checked": false
+            },
+            {
+              "text": "Attributes",
+              "checked": false
+            },
+            {
+              "text": "Tags",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "1.\nQuestion 1\n\nWhat are the building blocks of HTML called?\n\nDo you understand?.\n\nI understand\n\nElements\n\nNodes\n\nAttributes\n\nTags\n\nNice work\n\nCorrect. Elements are the building blocks of HTML.\n\n1 / 1 point"
+        },
+        {
+          "index": 2,
+          "question_type": "single_choice",
+          "prompt_text": "Which tag is used to provide keywords for search engines?",
+          "options": [
+            {
+              "text": "<footer>",
+              "checked": false
+            },
+            {
+              "text": "<title>",
+              "checked": false
+            },
+            {
+              "text": "<header>",
+              "checked": false
+            },
+            {
+              "text": "<meta>",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "2.\nQuestion 2\n\nWhich tag is used to provide keywords for search engines?\n\nDo you understand?.\n\nI understand\n\n<footer>\n\n<title>\n\n<header>\n\n<meta>\n\nNice work\n\nCorrect. The <meta> tag stands for metadata, and provides keywords for search engines\n\n1 / 1 point"
+        },
+        {
+          "index": 3,
+          "question_type": "single_choice",
+          "prompt_text": "Fill in the blank: In HTML5, ______________ allow you to run processing intensive tasks without blocking the user interface.",
+          "options": [
+            {
+              "text": "Structural elements",
+              "checked": false
+            },
+            {
+              "text": "Non-blocking feeds",
+              "checked": false
+            },
+            {
+              "text": "DOM accessors",
+              "checked": false
+            },
+            {
+              "text": "Web workers",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "3.\nQuestion 3\n\nFill in the blank: In HTML5, ______________ allow you to run processing intensive tasks without blocking the user interface.\n\nDo you understand?.\n\nI understand\n\nStructural elements\n\nNon-blocking feeds\n\nDOM accessors\n\nWeb workers\n\nNice work\n\nCorrect. Web workers provide a way to run other, processing intensive tasks without blocking the main JavaScript code or the user interface\n\n1 / 1 point"
+        },
+        {
+          "index": 4,
+          "question_type": "single_choice",
+          "prompt_text": "How do you properly recreate the following table using HTML code?\n\nDate\n\n\t\n\nLanguage\n\n\n\n\n2014\n\n\t\n\nHTML5\n\n\n\n\n1999\n\n\t\n\nCSS3\n\n\n\n\n1995\n\n\t\n\nJavaScript",
+          "options": [
+            {
+              "text": "<table> <tc> <th>Date</th> <th>Language</th> </tc> <tc> <td>2014</td> <td>HTML5</td> </tc> <tc> <td>1999</td> <td>CSS3</td> </tc> <tc> <td>1995</td> <td>JavaScript</td> </tc> </table>",
+              "checked": false
+            },
+            {
+              "text": "<table> <td> <th>Date</th> <th>Language</th> </td> <td> <tr>2014</tr> <tr>HTML5</tr> </td> <td> <tr>1999</tr> <tr>CSS3</tr> </td> <td> <tr>1995</tr> <tr>JavaScript</tr> </td> </table>",
+              "checked": false
+            },
+            {
+              "text": "<table> <tr> <td>Date</td> <td>Language</td> </tr> <tr> <th>2014</th> <th>HTML5</th> </tr> <tr> <th>1999</th> <th>CSS3</th> </tr> <tr> <th>1995</th> <th>JavaScript</th> </tr> </table>",
+              "checked": false
+            },
+            {
+              "text": "<table> <tr> <th>Date</th> <th>Language</th> </tr> <tr> <td>2014</td> <td>HTML5</td> </tr> <tr> <td>1999</td> <td>CSS3</td> </tr> <tr> <td>1995</td> <td>JavaScript</td> </tr> </table>",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "4.\nQuestion 4\n\nHow do you properly recreate the following table using HTML code?\n\nDate\n\n\t\n\nLanguage\n\n\n\n\n2014\n\n\t\n\nHTML5\n\n\n\n\n1999\n\n\t\n\nCSS3\n\n\n\n\n1995\n\n\t\n\nJavaScript\n\nDo you understand?.\n\nI understand\n\n<table> <tc> <th>Date</th> <th>Language</th> </tc> <tc> <td>2014</td> <td>HTML5</td> </tc> <tc> <td>1999</td> <td>CSS3</td> </tc> <tc> <td>1995</td> <td>JavaScript</td> </tc> </table> \n\n<table> <td> <th>Date</th> <th>Language</th> </td> <td> <tr>2014</tr> <tr>HTML5</tr> </td> <td> <tr>1999</tr> <tr>CSS3</tr> </td> <td> <tr>1995</tr> <tr>JavaScript</tr> </td> </table> \n\n<table> <tr> <td>Date</td> <td>Language</td> </tr> <tr> <th>2014</th> <th>HTML5</th> </tr> <tr> <th>1999</th> <th>CSS3</th> </tr> <tr> <th>1995</th> <th>JavaScript</th> </tr> </table> \n\n<table> <tr> <th>Date</th> <th>Language</th> </tr> <tr> <td>2014</td> <td>HTML5</td> </tr> <tr> <td>1999</td> <td>CSS3</td> </tr> <tr> <td>1995</td> <td>JavaScript</td> </tr> </table> \n\nNice work\n\nCorrect. Running this code will produce the expected result.\n\n1 / 1 point"
+        },
+        {
+          "index": 5,
+          "question_type": "single_choice",
+          "prompt_text": "Which of the following statements about document.images is correct?",
+          "options": [
+            {
+              "text": "document.images is a DOM property",
+              "checked": false
+            },
+            {
+              "text": "document.images returns a collection of image elements in a document",
+              "checked": false
+            },
+            {
+              "text": "document.images is part of the HTML document API",
+              "checked": false
+            },
+            {
+              "text": "All of the above",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "5.\nQuestion 5\n\nWhich of the following statements about document.images is correct?\n\nDo you understand?.\n\nI understand\n\ndocument.images is a DOM property\n\ndocument.images returns a collection of image elements in a document\n\ndocument.images is part of the HTML document API\n\nAll of the above \n\nNice work\n\nCorrect. All the options listed are true.\n\n1 / 1 point"
+        }
+      ],
+      "raw_page_text": "N\nIntroduction to Web Development with HTML, CSS, JavaScript\nToday's goal • 0/3 items\n\nComplete 3 items today to stay at a good pace!\n\nModule 1\nIntroduction to Application Development\nModule 2\nHTML Overview\nIntroduction to HTML\nVideo\n. Duration: 4 minutes\n4 min\nHTML Features\nVideo\n. Duration: 6 minutes\n6 min\nHands-On Lab: Intro to HTML (JSFiddle)\nUngraded Plugin\n. Duration: 30 minutes\n30 min\nHTML Management and Support\nVideo\n. Duration: 3 minutes\n3 min\nHTML Scripting\nVideo\n. Duration: 5 minutes\n5 min\nHTML5 Browser Support\nVideo\n. Duration: 4 minutes\n4 min\nInsiders' Viewpoints: Working with HTML and CSS\nVideo\n. Duration: 2 minutes\n2 min\nCommon HTML Elements\nUngraded Plugin\n. Duration: 25 minutes\n25 min\nHands-On Lab: HTML - Creating a Simple Web Page\nUngraded App Item\n. Duration: 25 minutes\n25 min\nModule 1 Summary: HTML Overview\nReading\n. Duration: 2 minutes\n2 min\nGlossary - HTML 5 Overview\nUngraded Plugin\n. Duration: 1 minute\n1 min\nCheatsheet - HTML 5 Overview\nUngraded Plugin\n. Duration: 2 minutes\n2 min\nPractice Quiz: HTML Overview\nPractice AssignmentGrade: 100%\nGraded Quiz: HTML Overview\nGraded AssignmentGrade: 100%\nModule 3\nCSS Overview & HTML5 Elements\nModule 4\nJavaScript Programming for Web Applications\nModule 5\nCareer Opportunities and Final Project\n\nPractice Assignment\n\nPractice Quiz: HTML Overview\nGo to next item\nTry again\nWhat to expect\nDue Dec 6, 11:59 PM +07\nUnlimited attempts\n\nYou passed!\n\nTo pass you need a grade of at least 60%.\n\n100%\nView feedback\n\nSubmitted May 22, 8:26 AM +07.\n\nReport an issue\nGo to next item\nBack\nPractice Quiz: HTML Overview\n\nPractice Assignment • 10 min\n\nDueDec 6, 11:59 PM +07\nYour grade: 100%\nYour latest: 100%•\nYour highest: 100%•\nTo pass you need at least 60%. We keep your highest score.\nNext item\n1.\nQuestion 1\n\nWhat are the building blocks of HTML called?\n\nDo you understand?.\n\nI understand\n\nElements\n\nNodes\n\nAttributes\n\nTags\n\nNice work\n\nCorrect. Elements are the building blocks of HTML.\n\n1 / 1 point\n2.\nQuestion 2\n\nWhich tag is used to provide keywords for search engines?\n\nDo you understand?.\n\nI understand\n\n<footer>\n\n<title>\n\n<header>\n\n<meta>\n\nNice work\n\nCorrect. The <meta> tag stands for metadata, and provides keywords for search engines\n\n1 / 1 point\n3.\nQuestion 3\n\nFill in the blank: In HTML5, ______________ allow you to run processing intensive tasks without blocking the user interface.\n\nDo you understand?.\n\nI understand\n\nStructural elements\n\nNon-blocking feeds\n\nDOM accessors\n\nWeb workers\n\nNice work\n\nCorrect. Web workers provide a way to run other, processing intensive tasks without blocking the main JavaScript code or the user interface\n\n1 / 1 point\n4.\nQuestion 4\n\nHow do you properly recreate the following table using HTML code?\n\nDate\n\n\t\n\nLanguage\n\n\n\n\n2014\n\n\t\n\nHTML5\n\n\n\n\n1999\n\n\t\n\nCSS3\n\n\n\n\n1995\n\n\t\n\nJavaScript\n\nDo you understand?.\n\nI understand\n\n<table> <tc> <th>Date</th> <th>Language</th> </tc> <tc> <td>2014</td> <td>HTML5</td> </tc> <tc> <td>1999</td> <td>CSS3</td> </tc> <tc> <td>1995</td> <td>JavaScript</td> </tc> </table> \n\n<table> <td> <th>Date</th> <th>Language</th> </td> <td> <tr>2014</tr> <tr>HTML5</tr> </td> <td> <tr>1999</tr> <tr>CSS3</tr> </td> <td> <tr>1995</tr> <tr>JavaScript</tr> </td> </table> \n\n<table> <tr> <td>Date</td> <td>Language</td> </tr> <tr> <th>2014</th> <th>HTML5</th> </tr> <tr> <th>1999</th> <th>CSS3</th> </tr> <tr> <th>1995</th> <th>JavaScript</th> </tr> </table> \n\n<table> <tr> <th>Date</th> <th>Language</th> </tr> <tr> <td>2014</td> <td>HTML5</td> </tr> <tr> <td>1999</td> <td>CSS3</td> </tr> <tr> <td>1995</td> <td>JavaScript</td> </tr> </table> \n\nNice work\n\nCorrect. Running this code will produce the expected result.\n\n1 / 1 point\n5.\nQuestion 5\n\nWhich of the following statements about document.images is correct?\n\nDo you understand?.\n\nI understand\n\ndocument.images is a DOM property\n\ndocument.images returns a collection of image elements in a document\n\ndocument.images is part of the HTML document API\n\nAll of the above \n\nNice work\n\nCorrect. All the options listed are true.\n\n1 / 1 point"
+    },
+    {
+      "title": "Graded Quiz: HTML Overview Graded Assignment • Submitted • Grade: 100% • Status: Graded Graded",
+      "page_title": "Graded Quiz: HTML Overview",
+      "source": "Module 2",
+      "kind": "graded_quiz",
+      "url": "https://www.coursera.org/learn/introduction-to-web-development-with-html-css-javacript/assignment-submission/QjSYE/graded-quiz-html-overview",
+      "final_url": "https://www.coursera.org/learn/introduction-to-web-development-with-html-css-javacript/assignment-submission/QjSYE/graded-quiz-html-overview/view-feedback",
+      "status": "opened_via_button",
+      "question_count": 10,
+      "questions": [
+        {
+          "index": 1,
+          "question_type": "single_choice",
+          "prompt_text": "Your client wants to add a company logo to the homepage using the image path ‘assets/logo.png’. Which HTML tag embeds this image?",
+          "options": [
+            {
+              "text": "<figure src=”image URL”>image name</figure>",
+              "checked": false
+            },
+            {
+              "text": "<img href=”image URL”>image name</img>",
+              "checked": false
+            },
+            {
+              "text": "<image>link_to_image</image>",
+              "checked": false
+            },
+            {
+              "text": "<img src=”image URL”>",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "1.\nQuestion 1\n\nYour client wants to add a company logo to the homepage using the image path ‘assets/logo.png’. Which HTML tag embeds this image?\n\nDo you understand?.\n\nI understand\n\n<figure src=”image URL”>image name</figure>\n\n<img href=”image URL”>image name</img>\n\n<image>link_to_image</image>\n\n<img src=”image URL”>\n\nNice work\n\nThe <img> element is used for images, with the “src” attribute defining the location of the image. \n\n1 / 1 point"
+        },
+        {
+          "index": 2,
+          "question_type": "single_choice",
+          "prompt_text": "Which of the following are the standard bodies in HTML5 development?",
+          "options": [
+            {
+              "text": "IETF and CERN created a draft of HTML5 specifications and documented them scientifically.",
+              "checked": false
+            },
+            {
+              "text": "The development of HTML5 is a collaboration between W3C and WHATWG after they started joint efforts in 2007.",
+              "checked": true
+            },
+            {
+              "text": "W3C developed HTML5 specifications alone for public use.",
+              "checked": false
+            },
+            {
+              "text": "W3C only focused on XML support; however, WHATWG authored HTML5 specifications.",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "2.\nQuestion 2\n\nWhich of the following are the standard bodies in HTML5 development?\n\nDo you understand?.\n\nI understand\n\nIETF and CERN created a draft of HTML5 specifications and documented them scientifically. \n\nThe development of HTML5 is a collaboration between W3C and WHATWG after they started joint efforts in 2007.\n\nW3C developed HTML5 specifications alone for public use. \n\nW3C only focused on XML support; however, WHATWG authored HTML5 specifications. \n\nNice work\n\nW3C and WHATWG have worked together to start developing HTML5.\n\n1 / 1 point"
+        },
+        {
+          "index": 3,
+          "question_type": "single_choice",
+          "prompt_text": "A developer wants to add media features to the web application. Why is HTML5 specifically suitable for this task?",
+          "options": [
+            {
+              "text": "HTML5 requires markup and APIs for adding media features like video and storage.",
+              "checked": true
+            },
+            {
+              "text": "HTML5 limits support for static text and layout content for adding media features.",
+              "checked": false
+            },
+            {
+              "text": "HTML5 uses external plug-ins for adding media content to the website.",
+              "checked": false
+            },
+            {
+              "text": "HTML5 displays scientific document content for adding media features.",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "3.\nQuestion 3\n\nA developer wants to add media features to the web application. Why is HTML5 specifically suitable for this task?\n\nDo you understand?.\n\nI understand\n\nHTML5 requires markup and APIs for adding media features like video and storage. \n\nHTML5 limits support for static text and layout content for adding media features. \n\nHTML5 uses external plug-ins for adding media content to the website.\n\nHTML5 displays scientific document content for adding media features.\n\nNice work\n\nHTML5 improves the markup for documents. HTML5 includes markup and APIs for idioms, such as web storage, video, and audio content. \n\n1 / 1 point"
+        },
+        {
+          "index": 4,
+          "question_type": "single_choice",
+          "prompt_text": "A student is editing an HTML file and wants to add comments that won’t show on the webpage. Which syntax should they use?",
+          "options": [
+            {
+              "text": "\"\"\"This is a comment\"\"\"",
+              "checked": false
+            },
+            {
+              "text": "<!-- This is a comment -->",
+              "checked": true
+            },
+            {
+              "text": "#This is a comment",
+              "checked": false
+            },
+            {
+              "text": "/*This is a comment*/",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "4.\nQuestion 4\n\nA student is editing an HTML file and wants to add comments that won’t show on the webpage. Which syntax should they use?\n\nDo you understand?.\n\nI understand\n\n\"\"\"This is a comment\"\"\"\n\n<!-- This is a comment -->\n\n#This is a comment\n\n/*This is a comment*/\n\nNice work\n\nHTML comments use <!-- and --> to hide content from display.\n\n1 / 1 point"
+        },
+        {
+          "index": 5,
+          "question_type": "single_choice",
+          "prompt_text": "A software development company wants to build a rich, interactive website that provides consistent behavior for both mobile and desktop computers. Which HTML5 capabilities will they leverage?",
+          "options": [
+            {
+              "text": "Requires external APIs",
+              "checked": false
+            },
+            {
+              "text": "Allows strict multimedia support",
+              "checked": false
+            },
+            {
+              "text": "Leverage weak documents",
+              "checked": false
+            },
+            {
+              "text": "Supports cross-device compatibility",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "5.\nQuestion 5\n\nA software development company wants to build a rich, interactive website that provides consistent behavior for both mobile and desktop computers. Which HTML5 capabilities will they leverage? \n\nDo you understand?.\n\nI understand\n\nRequires external APIs \n\nAllows strict multimedia support \n\nLeverage weak documents \n\nSupports cross-device compatibility \n\nNice work\n\nHTML5 supports multi-platform accessibility, helping developers deliver an identical experience on various platforms. \n\n1 / 1 point"
+        },
+        {
+          "index": 6,
+          "question_type": "single_choice",
+          "prompt_text": "A web developer wants to ensure that their web app runs smoothly across devices with modern browsers while using built-in support for video and structured page layout. Which of the following is best suitable for this scenario?",
+          "options": [
+            {
+              "text": "Maintains video elements and page organization for modern browser",
+              "checked": false
+            },
+            {
+              "text": "Includes native support for video and improves page structure compatibility",
+              "checked": true
+            },
+            {
+              "text": "Offers built-in elements and structure rules compatible with browsers",
+              "checked": false
+            },
+            {
+              "text": "Supports defined video and layout tools for consistency",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "6.\nQuestion 6\n\nA web developer wants to ensure that their web app runs smoothly across devices with modern browsers while using built-in support for video and structured page layout. Which of the following is best suitable for this scenario?\n\nDo you understand?.\n\nI understand\n\nMaintains video elements and page organization for modern browser\n\nIncludes native support for video and improves page structure compatibility\n\nOffers built-in elements and structure rules compatible with browsers\n\nSupports defined video and layout tools for consistency\n\nNice work\n\nHTML5 includes native support for elements, including video and structural markup, making it ideal for modern, cross-device web apps.\n\n1 / 1 point"
+        },
+        {
+          "index": 7,
+          "question_type": "single_choice",
+          "prompt_text": "What is the <br> tag used for?",
+          "options": [
+            {
+              "text": "To add a line break",
+              "checked": true
+            },
+            {
+              "text": "To change the text color to brown",
+              "checked": false
+            },
+            {
+              "text": "To make text bold",
+              "checked": false
+            },
+            {
+              "text": "To change the border",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "7.\nQuestion 7\n\nWhat is the <br> tag used for?\n\nDo you understand?.\n\nI understand\n\nTo add a line break\n\nTo change the text color to brown\n\nTo make text bold\n\nTo change the border\n\nNice work\n\nThe <br> tag adds a line break to your HTML content. \n\n1 / 1 point"
+        },
+        {
+          "index": 8,
+          "question_type": "single_choice",
+          "prompt_text": "Which of the following JavaScript methods should you leverage to build a web form, where you want to retrieve the value entered by a user in a specific text field after clicking a button?",
+          "options": [
+            {
+              "text": "document.scripts",
+              "checked": false
+            },
+            {
+              "text": "document.getElementByTagName",
+              "checked": false
+            },
+            {
+              "text": "document.getElementByld",
+              "checked": true
+            },
+            {
+              "text": "document.head",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "8.\nQuestion 8\n\nWhich of the following JavaScript methods should you leverage to build a web form, where you want to retrieve the value entered by a user in a specific text field after clicking a button?\n\nDo you understand?.\n\nI understand\n\ndocument.scripts\n\ndocument.getElementByTagName\n\ndocument.getElementByld\n\ndocument.head\n\nNice work\n\nThe document.getElementById(‘id’) function has one required parameter, which is the id of the element you want to access. The id is specified as an attribute on one of the elements that is coded elsewhere on the page. \n\n1 / 1 point"
+        },
+        {
+          "index": 9,
+          "question_type": "single_choice",
+          "prompt_text": "You want to test a web form that includes an input type=\"date\" field. When you open this form in Microsoft Edge, you see spinning boxes to select the date. Which of the following describes Edge’s support for input type in this case?",
+          "options": [
+            {
+              "text": "Edge restricts the input type= “date”",
+              "checked": false
+            },
+            {
+              "text": "Edge partially supports the input type=“date”",
+              "checked": false
+            },
+            {
+              "text": "Edge shows fallback text field",
+              "checked": false
+            },
+            {
+              "text": "Edge supports the input type=“date”",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "9.\nQuestion 9\n\nYou want to test a web form that includes an input type=\"date\" field. When you open this form in Microsoft Edge, you see spinning boxes to select the date. Which of the following describes Edge’s support for input type in this case?\n\nDo you understand?.\n\nI understand\n\nEdge restricts the input type= “date”\n\nEdge partially supports the input type=“date”\n\nEdge shows fallback text field\n\nEdge supports the input type=“date”\n\nNice work\n\nMicrosoft Edge displays spinning boxes for the input type=\"date\", indicating it fully supports the feature.\n\n1 / 1 point"
+        },
+        {
+          "index": 10,
+          "question_type": "single_choice",
+          "prompt_text": "Which of the following conditions must be met to enable scripting in browsers?",
+          "options": [
+            {
+              "text": "The user has disabled scripting for the current browser context",
+              "checked": false
+            },
+            {
+              "text": "An embedded object is used without the sandbox attribute",
+              "checked": false
+            },
+            {
+              "text": "The browser supports scripting",
+              "checked": true
+            },
+            {
+              "text": "The browser context has the sandboxed browsing context flag set",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "10.\nQuestion 10\n\nWhich of the following conditions must be met to enable scripting in browsers? \n\nDo you understand?.\n\nI understand\n\nThe user has disabled scripting for the current browser context\n\nAn embedded object is used without the sandbox attribute\n\nThe browser supports scripting\n\nThe browser context has the sandboxed browsing context flag set\n\nNice work\n\nThe browser in question must support scripting. \n\n1 / 1 point"
+        }
+      ],
+      "raw_page_text": "N\nIntroduction to Web Development with HTML, CSS, JavaScript\nToday's goal • 0/3 items\n\nComplete 3 items today to stay at a good pace!\n\nModule 1\nIntroduction to Application Development\nModule 2\nHTML Overview\nIntroduction to HTML\nVideo\n. Duration: 4 minutes\n4 min\nHTML Features\nVideo\n. Duration: 6 minutes\n6 min\nHands-On Lab: Intro to HTML (JSFiddle)\nUngraded Plugin\n. Duration: 30 minutes\n30 min\nHTML Management and Support\nVideo\n. Duration: 3 minutes\n3 min\nHTML Scripting\nVideo\n. Duration: 5 minutes\n5 min\nHTML5 Browser Support\nVideo\n. Duration: 4 minutes\n4 min\nInsiders' Viewpoints: Working with HTML and CSS\nVideo\n. Duration: 2 minutes\n2 min\nCommon HTML Elements\nUngraded Plugin\n. Duration: 25 minutes\n25 min\nHands-On Lab: HTML - Creating a Simple Web Page\nUngraded App Item\n. Duration: 25 minutes\n25 min\nModule 1 Summary: HTML Overview\nReading\n. Duration: 2 minutes\n2 min\nGlossary - HTML 5 Overview\nUngraded Plugin\n. Duration: 1 minute\n1 min\nCheatsheet - HTML 5 Overview\nUngraded Plugin\n. Duration: 2 minutes\n2 min\nPractice Quiz: HTML Overview\nPractice AssignmentGrade: 100%\nGraded Quiz: HTML Overview\nGraded AssignmentGrade: 100%\nModule 3\nCSS Overview & HTML5 Elements\nModule 4\nJavaScript Programming for Web Applications\nModule 5\nCareer Opportunities and Final Project\nWarning:\nCourse Staff updated this assessment. You’ll see the changes when you start or edit.\n\nGraded Assignment\n\nGraded Quiz: HTML Overview\n\nAssessment monitored for academic integrity and AI-usage. Privacy Notice\n\nGo to next item\nTry again\nWhat to expect\nDue Dec 6, 11:59 PM +07\n3 attempts\n\nevery 8 hours\n\nYou passed!\n\nTo pass you need a grade of at least 70%.\n\n100%\nView feedback\n\nSubmitted May 22, 8:26 AM +07.\n\nReport an issue\nGo to next item\nBack\nGraded Quiz: HTML Overview\n\nGraded Assignment • 20 min\n\nDueDec 6, 11:59 PM +07\nYour grade: 100%\nYour latest: 100%•\nYour highest: 100%•\nTo pass you need at least 70%. We keep your highest score.\nNext item\n1.\nQuestion 1\n\nYour client wants to add a company logo to the homepage using the image path ‘assets/logo.png’. Which HTML tag embeds this image?\n\nDo you understand?.\n\nI understand\n\n<figure src=”image URL”>image name</figure>\n\n<img href=”image URL”>image name</img>\n\n<image>link_to_image</image>\n\n<img src=”image URL”>\n\nNice work\n\nThe <img> element is used for images, with the “src” attribute defining the location of the image. \n\n1 / 1 point\n2.\nQuestion 2\n\nWhich of the following are the standard bodies in HTML5 development?\n\nDo you understand?.\n\nI understand\n\nIETF and CERN created a draft of HTML5 specifications and documented them scientifically. \n\nThe development of HTML5 is a collaboration between W3C and WHATWG after they started joint efforts in 2007.\n\nW3C developed HTML5 specifications alone for public use. \n\nW3C only focused on XML support; however, WHATWG authored HTML5 specifications. \n\nNice work\n\nW3C and WHATWG have worked together to start developing HTML5.\n\n1 / 1 point\n3.\nQuestion 3\n\nA developer wants to add media features to the web application. Why is HTML5 specifically suitable for this task?\n\nDo you understand?.\n\nI understand\n\nHTML5 requires markup and APIs for adding media features like video and storage. \n\nHTML5 limits support for static text and layout content for adding media features. \n\nHTML5 uses external plug-ins for adding media content to the website.\n\nHTML5 displays scientific document content for adding media features.\n\nNice work\n\nHTML5 improves the markup for documents. HTML5 includes markup and APIs for idioms, such as web storage, video, and audio content. \n\n1 / 1 point\n4.\nQuestion 4\n\nA student is editing an HTML file and wants to add comments that won’t show on the webpage. Which syntax should they use?\n\nDo you understand?.\n\nI understand\n\n\"\"\"This is a comment\"\"\"\n\n<!-- This is a comment -->\n\n#This is a comment\n\n/*This is a comment*/\n\nNice work\n\nHTML comments use <!-- and --> to hide content from display.\n\n1 / 1 point\n5.\nQuestion 5\n\nA software development company wants to build a rich, interactive website that provides consistent behavior for both mobile and desktop computers. Which HTML5 capabilities will they leverage? \n\nDo you understand?.\n\nI understand\n\nRequires external APIs \n\nAllows strict multimedia support \n\nLeverage weak documents \n\nSupports cross-device compatibility \n\nNice work\n\nHTML5 supports multi-platform accessibility, helping developers deliver an identical experience on various platforms. \n\n1 / 1 point\n6.\nQuestion 6\n\nA web developer wants to ensure that their web app runs smoothly across devices with modern browsers while using built-in support for video and structured page layout. Which of the following is best suitable for this scenario?\n\nDo you understand?.\n\nI understand\n\nMaintains video elements and page organization for modern browser\n\nIncludes native support for video and improves page structure compatibility\n\nOffers built-in elements and structure rules compatible with browsers\n\nSupports defined video and layout tools for consistency\n\nNice work\n\nHTML5 includes native support for elements, including video and structural markup, making it ideal for modern, cross-device web apps.\n\n1 / 1 point\n7.\nQuestion 7\n\nWhat is the <br> tag used for?\n\nDo you understand?.\n\nI understand\n\nTo add a line break\n\nTo change the text color to brown\n\nTo make text bold\n\nTo change the border\n\nNice work\n\nThe <br> tag adds a line break to your HTML content. \n\n1 / 1 point\n8.\nQuestion 8\n\nWhich of the following JavaScript methods should you leverage to build a web form, where you want to retrieve the value entered by a user in a specific text field after clicking a button?\n\nDo you understand?.\n\nI understand\n\ndocument.scripts\n\ndocument.getElementByTagName\n\ndocument.getElementByld\n\ndocument.head\n\nNice work\n\nThe document.getElementById(‘id’) function has one required parameter, which is the id of the element you want to access. The id is specified as an attribute on one of the elements that is coded elsewhere on the page. \n\n1 / 1 point\n9.\nQuestion 9\n\nYou want to test a web form that includes an input type=\"date\" field. When you open this form in Microsoft Edge, you see spinning boxes to select the date. Which of the following describes Edge’s support for input type in this case?\n\nDo you understand?.\n\nI understand\n\nEdge restricts the input type= “date”\n\nEdge partially supports the input type=“date”\n\nEdge shows fallback text field\n\nEdge supports the input type=“date”\n\nNice work\n\nMicrosoft Edge displays spinning boxes for the input type=\"date\", indicating it fully supports the feature.\n\n1 / 1 point\n10.\nQuestion 10\n\nWhich of the following conditions must be met to enable scripting in browsers? \n\nDo you understand?.\n\nI understand\n\nThe user has disabled scripting for the current browser context\n\nAn embedded object is used without the sandbox attribute\n\nThe browser supports scripting\n\nThe browser context has the sandboxed browsing context flag set\n\nNice work\n\nThe browser in question must support scripting. \n\n1 / 1 point"
+    },
+    {
+      "title": "Practice Quiz Practice Assignment • Submitted • Grade: 95% • Status: Graded Graded",
+      "page_title": "Practice Quiz",
+      "source": "Module 3",
+      "kind": "practice_quiz",
+      "url": "https://www.coursera.org/learn/introduction-to-web-development-with-html-css-javacript/assignment-submission/nXo83/practice-quiz",
+      "final_url": "https://www.coursera.org/learn/introduction-to-web-development-with-html-css-javacript/assignment-submission/nXo83/practice-quiz/view-feedback",
+      "status": "opened_via_button",
+      "question_count": 5,
+      "questions": [
+        {
+          "index": 1,
+          "question_type": "single_choice",
+          "prompt_text": "What makes a Style Sheet “Cascading”?",
+          "options": [
+            {
+              "text": "Child elements inherit styles that are defined for parent elements",
+              "checked": true
+            },
+            {
+              "text": "Each element has a unique style, unrelated to its’ parent",
+              "checked": false
+            },
+            {
+              "text": "Elements inherit styles that are defined before them in a CSS document",
+              "checked": false
+            },
+            {
+              "text": "Parent elements inherit styles that are defined for child elements",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "1.\nQuestion 1\n\nWhat makes a Style Sheet “Cascading”? \n\nDo you understand?.\n\nI understand\n\nChild elements inherit styles that are defined for parent elements\n\nEach element has a unique style, unrelated to its’ parent \n\nElements inherit styles that are defined before them in a CSS document\n\nParent elements inherit styles that are defined for child elements\n\nNice work\n\nCorrect. A child element will inherit all of the styling of its parent element, with a couple of exceptions.\n\n1 / 1 point"
+        },
+        {
+          "index": 2,
+          "question_type": "multiple_select",
+          "prompt_text": "Which of the following describes a Utility-first Framework? Select all that apply.",
+          "options": [
+            {
+              "text": "Provides pre-styled components and templates",
+              "checked": false
+            },
+            {
+              "text": "References CSS properties via Utility Classes",
+              "checked": true
+            },
+            {
+              "text": "Makes HTML markup more verbose by mixing styles with content",
+              "checked": true
+            },
+            {
+              "text": "Provides complete freedom when styling elements",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "2.\nQuestion 2\n\nWhich of the following describes a Utility-first Framework? Select all that apply.\n\nDo you understand?.\n\nI understand\n\nProvides pre-styled components and templates\n\nReferences CSS properties via Utility Classes\n\nNice work\n\nCorrect. Utility-first Frameworks are composed of utility classes, which reference single-purpose CSS.\n\nMakes HTML markup more verbose by mixing styles with content\n\nNice work\n\nCorrect. Since the utility classes are used in the “class” attribute of HTML elements, your HTML markup becomes more verbose.\n\nProvides complete freedom when styling elements\n\nThis should not be selected\n\nIncorrect. While utility-first frameworks provide somefreedom in styling your elements, you are limited to the provided classes. While it is possible to modify these in some frameworks, it is a complex process.\n\n0.8 / 1 point"
+        },
+        {
+          "index": 3,
+          "question_type": "single_choice",
+          "prompt_text": "Which of the following tags is used to separate areas in a document?",
+          "options": [
+            {
+              "text": "<body>",
+              "checked": false
+            },
+            {
+              "text": "<input>",
+              "checked": false
+            },
+            {
+              "text": "<div>",
+              "checked": true
+            },
+            {
+              "text": "<nav>",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "3.\nQuestion 3\n\nWhich of the following tags is used to separate areas in a document? \n\nDo you understand?.\n\nI understand\n\n<body>\n\n<input>\n\n<div>\n\n<nav>\n\nNice work\n\nCorrect. The <div> tag separates areas in a document into divisions\n\n1 / 1 point"
+        },
+        {
+          "index": 4,
+          "question_type": "single_choice",
+          "prompt_text": "What type of element is <article>?",
+          "options": [
+            {
+              "text": "A multimedia element",
+              "checked": false
+            },
+            {
+              "text": "A graphic element",
+              "checked": false
+            },
+            {
+              "text": "A semantic element",
+              "checked": true
+            },
+            {
+              "text": "An input element",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "4.\nQuestion 4\n\nWhat type of element is <article>? \n\nDo you understand?.\n\nI understand\n\nA multimedia element\n\nA graphic element \n\nA semantic element\n\nAn input element\n\nNice work\n\nCorrect. <article> is a semantic element as it is used to define a part of the web page\n\n1 / 1 point"
+        },
+        {
+          "index": 5,
+          "question_type": "single_choice",
+          "prompt_text": "Which tag is used to specify self-contained content like an image, illustration, or diagram?",
+          "options": [
+            {
+              "text": "<img>",
+              "checked": false
+            },
+            {
+              "text": "<figcaption>",
+              "checked": false
+            },
+            {
+              "text": "<image>",
+              "checked": false
+            },
+            {
+              "text": "<figure>",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "5.\nQuestion 5\n\nWhich tag is used to specify self-contained content like an image, illustration, or diagram? \n\nDo you understand?.\n\nI understand\n\n<img>\n\n<figcaption>\n\n<image>\n\n<figure>\n\nNice work\n\nCorrect. The <figure> tag specifies self-contained element referred to from the main content\n\n1 / 1 point"
+        }
+      ],
+      "raw_page_text": "N\nIntroduction to Web Development with HTML, CSS, JavaScript\nToday's goal • 0/3 items\n\nComplete 3 items today to stay at a good pace!\n\nModule 1\nIntroduction to Application Development\nModule 2\nHTML Overview\nModule 3\nCSS Overview & HTML5 Elements\nHTML5 Tags and Structural Elements\nVideo\n. Duration: 4 minutes\n4 min\nCommon HTML5 Tags and Structural Elements\nUngraded Plugin\n. Duration: 25 minutes\n25 min\nHands-on Lab: Unit Conversion using HTML5 Structural Elements\nUngraded App Item\n. Duration: 30 minutes\n30 min\nHTML5 Input Element: Attributes for the Input Tag\nVideo\n. Duration: 4 minutes\n4 min\nInsiders' Viewpoints: Enhancing the User Experience with HTML5\nVideo\n. Duration: 1 minute\n1 min\nAdditional HTML Elements: HTML Fieldset and Legend Tag\nUngraded Plugin\n. Duration: 15 minutes\n15 min\nCSS: Styling HTML\nVideo\n. Duration: 8 minutes\n8 min\nUnderstanding CSS Selectors - Tags, IDs, and Classes\nUngraded Plugin\n. Duration: 15 minutes\n15 min\nCSS Frameworks\nVideo\n. Duration: 8 minutes\n8 min\nHands-On Lab: CSS Basics - Styling Your Web Page\nUngraded App Item\n. Duration: 15 minutes\n15 min\nHands-on Lab: Responsive Web Design using Tailwind & Bootstrap Frameworks\nUngraded App Item\n. Duration: 15 minutes\n15 min\nAdvanced CSS Properties\nUngraded Plugin\n. Duration: 30 minutes\n30 min\nModule Summary\nReading\n. Duration: 2 minutes\n2 min\nGlossary - CSS Overview & HTML5 Elements\nUngraded Plugin\n. Duration: 5 minutes\n5 min\nCheatsheet - CSS Overview & HTML5 Elements\nUngraded Plugin\n. Duration: 3 minutes\n3 min\nPractice Quiz\nPractice AssignmentGrade: 95%\nGraded Quiz: CSS Overview & HTML5 Elements\nGraded AssignmentGrade: 100%\nModule 4\nJavaScript Programming for Web Applications\nModule 5\nCareer Opportunities and Final Project\nWarning:\nCourse Staff updated this assessment. You’ll see the changes when you start or edit.\n\nPractice Assignment\n\nPractice Quiz\nGo to next item\nTry again\nWhat to expect\nDue Dec 20, 11:59 PM +07\nUnlimited attempts\n\nYou passed!\n\nTo pass you need a grade of at least 60%.\n\n95%\nView feedback\n\nSubmitted May 22, 8:27 AM +07.\n\nReport an issue\nGo to next item\nBack\nPractice Quiz\n\nPractice Assignment • 10 min\n\nDueDec 20, 11:59 PM +07\nYour grade: 95%\nYour latest: 95%•\nYour highest: 95%•\nTo pass you need at least 60%. We keep your highest score.\nNext item\n1.\nQuestion 1\n\nWhat makes a Style Sheet “Cascading”? \n\nDo you understand?.\n\nI understand\n\nChild elements inherit styles that are defined for parent elements\n\nEach element has a unique style, unrelated to its’ parent \n\nElements inherit styles that are defined before them in a CSS document\n\nParent elements inherit styles that are defined for child elements\n\nNice work\n\nCorrect. A child element will inherit all of the styling of its parent element, with a couple of exceptions.\n\n1 / 1 point\n2.\nQuestion 2\n\nWhich of the following describes a Utility-first Framework? Select all that apply.\n\nDo you understand?.\n\nI understand\n\nProvides pre-styled components and templates\n\nReferences CSS properties via Utility Classes\n\nNice work\n\nCorrect. Utility-first Frameworks are composed of utility classes, which reference single-purpose CSS.\n\nMakes HTML markup more verbose by mixing styles with content\n\nNice work\n\nCorrect. Since the utility classes are used in the “class” attribute of HTML elements, your HTML markup becomes more verbose.\n\nProvides complete freedom when styling elements\n\nThis should not be selected\n\nIncorrect. While utility-first frameworks provide somefreedom in styling your elements, you are limited to the provided classes. While it is possible to modify these in some frameworks, it is a complex process.\n\n0.8 / 1 point\n3.\nQuestion 3\n\nWhich of the following tags is used to separate areas in a document? \n\nDo you understand?.\n\nI understand\n\n<body>\n\n<input>\n\n<div>\n\n<nav>\n\nNice work\n\nCorrect. The <div> tag separates areas in a document into divisions\n\n1 / 1 point\n4.\nQuestion 4\n\nWhat type of element is <article>? \n\nDo you understand?.\n\nI understand\n\nA multimedia element\n\nA graphic element \n\nA semantic element\n\nAn input element\n\nNice work\n\nCorrect. <article> is a semantic element as it is used to define a part of the web page\n\n1 / 1 point\n5.\nQuestion 5\n\nWhich tag is used to specify self-contained content like an image, illustration, or diagram? \n\nDo you understand?.\n\nI understand\n\n<img>\n\n<figcaption>\n\n<image>\n\n<figure>\n\nNice work\n\nCorrect. The <figure> tag specifies self-contained element referred to from the main content\n\n1 / 1 point"
+    },
+    {
+      "title": "Graded Quiz: CSS Overview & HTML5 Elements Graded Assignment • Submitted • Grade: 100% • Status: Graded Graded",
+      "page_title": "Graded Quiz: CSS Overview & HTML5 Elements",
+      "source": "Module 3",
+      "kind": "graded_quiz",
+      "url": "https://www.coursera.org/learn/introduction-to-web-development-with-html-css-javacript/assignment-submission/TabpW/graded-quiz-css-overview-html5-elements",
+      "final_url": "https://www.coursera.org/learn/introduction-to-web-development-with-html-css-javacript/assignment-submission/TabpW/graded-quiz-css-overview-html5-elements/view-feedback",
+      "status": "opened_via_button",
+      "question_count": 10,
+      "questions": [
+        {
+          "index": 1,
+          "question_type": "single_choice",
+          "prompt_text": "Ryan, a web developer, is troubleshooting a webpage where an external CSS file does not apply the expected styles. On checking, he noticed that some elements have styles defined using different methods. Which method of applying CSS has the highest priority and will override others?",
+          "options": [
+            {
+              "text": "CSS rules defined in the browser’s default stylesheet",
+              "checked": false
+            },
+            {
+              "text": "An external CSS file linked in the HTML document",
+              "checked": false
+            },
+            {
+              "text": "Internal CSS defined within a tag in the HTML document",
+              "checked": false
+            },
+            {
+              "text": "Inline CSS applied directly to each HTML element",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "1.\nQuestion 1\n\nRyan, a web developer, is troubleshooting a webpage where an external CSS file does not apply the expected styles. On checking, he noticed that some elements have styles defined using different methods. Which method of applying CSS has the highest priority and will override others?\n\nDo you understand?.\n\nI understand\n\nCSS rules defined in the browser’s default stylesheet\n\nAn external CSS file linked in the HTML document\n\nInternal CSS defined within a tag in the HTML document\n\nInline CSS applied directly to each HTML element\n\nNice work\n\nInline CSS has the highest precedence among the standard ways of applying styles.\n\n1 / 1 point"
+        },
+        {
+          "index": 2,
+          "question_type": "multiple_select",
+          "prompt_text": "Which of the following statements accurately describes the behavior of fixed and fluid layouts? Select all that apply.",
+          "options": [
+            {
+              "text": "Fluid layouts use relative units to allow elements to scale dynamically.",
+              "checked": true
+            },
+            {
+              "text": "Fixed layouts do not change their dimensions regardless of the device.",
+              "checked": true
+            },
+            {
+              "text": "Fluid layouts use pixels to define element sizes.",
+              "checked": false
+            },
+            {
+              "text": "Fixed layouts adapt automatically to different screen sizes.",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "2.\nQuestion 2\n\nWhich of the following statements accurately describes the behavior of fixed and fluid layouts? Select all that apply.\n\nDo you understand?.\n\nI understand\n\nFluid layouts use relative units to allow elements to scale dynamically.\n\nNice work\n\nFluid layouts use percentage-based widths and flexible units to adjust to different screen sizes.\n\nFixed layouts do not change their dimensions regardless of the device.\n\nNice work\n\nFixed layouts maintain predefined dimensions, regardless of how the website is accessed.\n\nFluid layouts use pixels to define element sizes.\n\nFixed layouts adapt automatically to different screen sizes.\n\n1 / 1 point"
+        },
+        {
+          "index": 3,
+          "question_type": "single_choice",
+          "prompt_text": "A web designer has inserted input type= “email” in a form; however, the form still accepts the value like “hello@com” without any error. What is missing in this scenario?",
+          "options": [
+            {
+              "text": "The required attributes are missing from the field.",
+              "checked": false
+            },
+            {
+              "text": "The browser restricts support for input type= “color”.",
+              "checked": false
+            },
+            {
+              "text": "The input type=\"tel\" stops numeric-only input.",
+              "checked": false
+            },
+            {
+              "text": "The input value follows incorrect email format",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "3.\nQuestion 3\n\nA web designer has inserted input type= “email” in a form; however, the form still accepts the value like “hello@com” without any error. What is missing in this scenario?\n\nDo you understand?.\n\nI understand\n\nThe required attributes are missing from the field.\n\nThe browser restricts support for input type= “color”.\n\nThe input type=\"tel\" stops numeric-only input.\n\nThe input value follows incorrect email format\n\nNice work\n\nType= “email” is an invalid email format; however, some formats appear valid without stricter patterns. \n\n1 / 1 point"
+        },
+        {
+          "index": 4,
+          "question_type": "single_choice",
+          "prompt_text": "You are working on a responsive web design using a CSS framework and need to apply styles based on different states, such as hover or focus. To achieve this, you use a modifier. What is the purpose of a modifier?",
+          "options": [
+            {
+              "text": "A term used for a JavaScript class that dynamically updates webpage content",
+              "checked": false
+            },
+            {
+              "text": "A specialized class that adjusts an element’s appearance by applying CSS based on a specified condition",
+              "checked": true
+            },
+            {
+              "text": "A type of button that enables users to edit form content",
+              "checked": false
+            },
+            {
+              "text": "A technique for altering CSS styles applied to an HTML element",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "4.\nQuestion 4\n\nYou are working on a responsive web design using a CSS framework and need to apply styles based on different states, such as hover or focus. To achieve this, you use a modifier. What is the purpose of a modifier?\n\nDo you understand?.\n\nI understand\n\nA term used for a JavaScript class that dynamically updates webpage content\n\nA specialized class that adjusts an element’s appearance by applying CSS based on a specified condition\n\nA type of button that enables users to edit form content\n\nA technique for altering CSS styles applied to an HTML element\n\nNice work\n\nUtility frameworks, such as Tailwind CSS, use modifiers to conditionally apply a utility class to an element. They describe the condition you want to target and are added before a class name.\n\n1 / 1 point"
+        },
+        {
+          "index": 5,
+          "question_type": "single_choice",
+          "prompt_text": "You want to create a document page with different themed parts, each with its own heading. What HTML5 tag should you use to group related content with a common theme?",
+          "options": [
+            {
+              "text": "<aside>",
+              "checked": false
+            },
+            {
+              "text": "<details>",
+              "checked": false
+            },
+            {
+              "text": "<section>",
+              "checked": true
+            },
+            {
+              "text": "<article>",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "5.\nQuestion 5\n\nYou want to create a document page with different themed parts, each with its own heading. What HTML5 tag should you use to group related content with a common theme?\n\nDo you understand?.\n\nI understand\n\n<aside>\n\n<details>\n\n<section>\n\n<article>\n\nNice work\n\nThe <section> tag group is related to themes, which put content together and includes heading to define a particular theme. \n\n1 / 1 point"
+        },
+        {
+          "index": 6,
+          "question_type": "single_choice",
+          "prompt_text": "In a web form, you are asking users to enter their age, limited to 5 to 25 years only. Which HTML5 attributes has the developer used to limit the age field?",
+          "options": [
+            {
+              "text": "range",
+              "checked": false
+            },
+            {
+              "text": "number",
+              "checked": true
+            },
+            {
+              "text": "tel",
+              "checked": false
+            },
+            {
+              "text": "list",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "6.\nQuestion 6\n\nIn a web form, you are asking users to enter their age, limited to 5 to 25 years only. Which HTML5 attributes has the developer used to limit the age field?\n\nDo you understand?.\n\nI understand\n\nrange\n\nnumber\n\ntel\n\nlist\n\nNice work\n\nUsing the ‘number’ type would allow the user to enter any custom number and set a range/step. \n\n1 / 1 point"
+        },
+        {
+          "index": 7,
+          "question_type": "single_choice",
+          "prompt_text": "A startup is considering using Bootstrap for its new e-commerce platform. What limitations should they be aware of when adopting this component framework?",
+          "options": [
+            {
+              "text": "The pre-built elements may limit design customization.",
+              "checked": true
+            },
+            {
+              "text": "The HTML file size becomes bloated with additional markup.",
+              "checked": false
+            },
+            {
+              "text": "The HTML structure becomes cluttered with numerous class attributes.",
+              "checked": false
+            },
+            {
+              "text": "Maintaining visual consistency across pages becomes challenging.",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "7.\nQuestion 7\n\nA startup is considering using Bootstrap for its new e-commerce platform. What limitations should they be aware of when adopting this component framework?\n\nDo you understand?.\n\nI understand\n\nThe pre-built elements may limit design customization.\n\nThe HTML file size becomes bloated with additional markup.\n\nThe HTML structure becomes cluttered with numerous class attributes.\n\nMaintaining visual consistency across pages becomes challenging.\n\nNice work\n\nComponent frameworks, such as Bootstrap, offer ready-made UI elements with predefined styling, but this convenience comes at the cost of design flexibility. Custom elements beyond what the framework provides require either vanilla CSS or additional frameworks.\n\n1 / 1 point"
+        },
+        {
+          "index": 8,
+          "question_type": "single_choice",
+          "prompt_text": "Which tag is used to represent an independent item of content in a document, which can be meaningful on its own?",
+          "options": [
+            {
+              "text": "<article>",
+              "checked": true
+            },
+            {
+              "text": "<div>",
+              "checked": false
+            },
+            {
+              "text": "<details>",
+              "checked": false
+            },
+            {
+              "text": "<section>",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "8.\nQuestion 8\n\nWhich tag is used to represent an independent item of content in a document, which can be meaningful on its own? \n\nDo you understand?.\n\nI understand\n\n<article>\n\n<div>\n\n<details>\n\n<section>\n\nNice work\n\nThe <article> tag represents a block of code that can logically stand alone.\n\n1 / 1 point"
+        },
+        {
+          "index": 9,
+          "question_type": "single_choice",
+          "prompt_text": "You are creating a structure for a webpage and want it to be accessible and indexable by search engines. Which technology should you use?",
+          "options": [
+            {
+              "text": "CSS",
+              "checked": false
+            },
+            {
+              "text": "Flash",
+              "checked": false
+            },
+            {
+              "text": "JavaScript",
+              "checked": false
+            },
+            {
+              "text": "HTML",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "9.\nQuestion 9\n\nYou are creating a structure for a webpage and want it to be accessible and indexable by search engines. Which technology should you use?\n\nDo you understand?.\n\nI understand\n\nCSS \n\nFlash \n\nJavaScript\n\nHTML\n\nNice work\n\nHTML provides a structural webpage, making it accessible to search engines, using plug-in-based formats like Flash.\n\n1 / 1 point"
+        },
+        {
+          "index": 10,
+          "question_type": "single_choice",
+          "prompt_text": "Sana wants to add a standalone image in the blog post with accompanying text related to the main content that exists independently. Which of the HTML5 elements should Sana use to group this visual content?",
+          "options": [
+            {
+              "text": "Footer",
+              "checked": false
+            },
+            {
+              "text": "Figure",
+              "checked": true
+            },
+            {
+              "text": "Figcaption",
+              "checked": false
+            },
+            {
+              "text": "Header",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "10.\nQuestion 10\n\nSana wants to add a standalone image in the blog post with accompanying text related to the main content that exists independently. Which of the HTML5 elements should Sana use to group this visual content?\n\nDo you understand?.\n\nI understand\n\nFooter\n\nFigure\n\nFigcaption \n\nHeader\n\nNice work\n\nThe figure tag defines a self-contained element that is referred to from the main content. The figure element can be used to embed graphics, images, or code sections. \n\n1 / 1 point"
+        }
+      ],
+      "raw_page_text": "N\nIntroduction to Web Development with HTML, CSS, JavaScript\nToday's goal • 0/3 items\n\nComplete 3 items today to stay at a good pace!\n\nModule 1\nIntroduction to Application Development\nModule 2\nHTML Overview\nModule 3\nCSS Overview & HTML5 Elements\nHTML5 Tags and Structural Elements\nVideo\n. Duration: 4 minutes\n4 min\nCommon HTML5 Tags and Structural Elements\nUngraded Plugin\n. Duration: 25 minutes\n25 min\nHands-on Lab: Unit Conversion using HTML5 Structural Elements\nUngraded App Item\n. Duration: 30 minutes\n30 min\nHTML5 Input Element: Attributes for the Input Tag\nVideo\n. Duration: 4 minutes\n4 min\nInsiders' Viewpoints: Enhancing the User Experience with HTML5\nVideo\n. Duration: 1 minute\n1 min\nAdditional HTML Elements: HTML Fieldset and Legend Tag\nUngraded Plugin\n. Duration: 15 minutes\n15 min\nCSS: Styling HTML\nVideo\n. Duration: 8 minutes\n8 min\nUnderstanding CSS Selectors - Tags, IDs, and Classes\nUngraded Plugin\n. Duration: 15 minutes\n15 min\nCSS Frameworks\nVideo\n. Duration: 8 minutes\n8 min\nHands-On Lab: CSS Basics - Styling Your Web Page\nUngraded App Item\n. Duration: 15 minutes\n15 min\nHands-on Lab: Responsive Web Design using Tailwind & Bootstrap Frameworks\nUngraded App Item\n. Duration: 15 minutes\n15 min\nAdvanced CSS Properties\nUngraded Plugin\n. Duration: 30 minutes\n30 min\nModule Summary\nReading\n. Duration: 2 minutes\n2 min\nGlossary - CSS Overview & HTML5 Elements\nUngraded Plugin\n. Duration: 5 minutes\n5 min\nCheatsheet - CSS Overview & HTML5 Elements\nUngraded Plugin\n. Duration: 3 minutes\n3 min\nPractice Quiz\nPractice AssignmentGrade: 95%\nGraded Quiz: CSS Overview & HTML5 Elements\nGraded AssignmentGrade: 100%\nModule 4\nJavaScript Programming for Web Applications\nModule 5\nCareer Opportunities and Final Project\n\nGraded Assignment\n\nGraded Quiz: CSS Overview & HTML5 Elements\n\nAssessment monitored for academic integrity and AI-usage. Privacy Notice\n\nGo to next item\nTry again\nWhat to expect\nDue Dec 20, 11:59 PM +07\n3 attempts\n\nevery 8 hours\n\nYou passed!\n\nTo pass you need a grade of at least 70%.\n\n100%\nView feedback\n\nSubmitted May 22, 8:29 AM +07.\n\nReport an issue\nGo to next item\nBack\nGraded Quiz: CSS Overview & HTML5 Elements\n\nGraded Assignment • 30 min\n\nDueDec 20, 11:59 PM +07\nYour grade: 100%\nYour latest: 100%•\nYour highest: 100%•\nTo pass you need at least 70%. We keep your highest score.\nNext item\n1.\nQuestion 1\n\nRyan, a web developer, is troubleshooting a webpage where an external CSS file does not apply the expected styles. On checking, he noticed that some elements have styles defined using different methods. Which method of applying CSS has the highest priority and will override others?\n\nDo you understand?.\n\nI understand\n\nCSS rules defined in the browser’s default stylesheet\n\nAn external CSS file linked in the HTML document\n\nInternal CSS defined within a tag in the HTML document\n\nInline CSS applied directly to each HTML element\n\nNice work\n\nInline CSS has the highest precedence among the standard ways of applying styles.\n\n1 / 1 point\n2.\nQuestion 2\n\nWhich of the following statements accurately describes the behavior of fixed and fluid layouts? Select all that apply.\n\nDo you understand?.\n\nI understand\n\nFluid layouts use relative units to allow elements to scale dynamically.\n\nNice work\n\nFluid layouts use percentage-based widths and flexible units to adjust to different screen sizes.\n\nFixed layouts do not change their dimensions regardless of the device.\n\nNice work\n\nFixed layouts maintain predefined dimensions, regardless of how the website is accessed.\n\nFluid layouts use pixels to define element sizes.\n\nFixed layouts adapt automatically to different screen sizes.\n\n1 / 1 point\n3.\nQuestion 3\n\nA web designer has inserted input type= “email” in a form; however, the form still accepts the value like “hello@com” without any error. What is missing in this scenario?\n\nDo you understand?.\n\nI understand\n\nThe required attributes are missing from the field.\n\nThe browser restricts support for input type= “color”.\n\nThe input type=\"tel\" stops numeric-only input.\n\nThe input value follows incorrect email format\n\nNice work\n\nType= “email” is an invalid email format; however, some formats appear valid without stricter patterns. \n\n1 / 1 point\n4.\nQuestion 4\n\nYou are working on a responsive web design using a CSS framework and need to apply styles based on different states, such as hover or focus. To achieve this, you use a modifier. What is the purpose of a modifier?\n\nDo you understand?.\n\nI understand\n\nA term used for a JavaScript class that dynamically updates webpage content\n\nA specialized class that adjusts an element’s appearance by applying CSS based on a specified condition\n\nA type of button that enables users to edit form content\n\nA technique for altering CSS styles applied to an HTML element\n\nNice work\n\nUtility frameworks, such as Tailwind CSS, use modifiers to conditionally apply a utility class to an element. They describe the condition you want to target and are added before a class name.\n\n1 / 1 point\n5.\nQuestion 5\n\nYou want to create a document page with different themed parts, each with its own heading. What HTML5 tag should you use to group related content with a common theme?\n\nDo you understand?.\n\nI understand\n\n<aside>\n\n<details>\n\n<section>\n\n<article>\n\nNice work\n\nThe <section> tag group is related to themes, which put content together and includes heading to define a particular theme. \n\n1 / 1 point\n6.\nQuestion 6\n\nIn a web form, you are asking users to enter their age, limited to 5 to 25 years only. Which HTML5 attributes has the developer used to limit the age field?\n\nDo you understand?.\n\nI understand\n\nrange\n\nnumber\n\ntel\n\nlist\n\nNice work\n\nUsing the ‘number’ type would allow the user to enter any custom number and set a range/step. \n\n1 / 1 point\n7.\nQuestion 7\n\nA startup is considering using Bootstrap for its new e-commerce platform. What limitations should they be aware of when adopting this component framework?\n\nDo you understand?.\n\nI understand\n\nThe pre-built elements may limit design customization.\n\nThe HTML file size becomes bloated with additional markup.\n\nThe HTML structure becomes cluttered with numerous class attributes.\n\nMaintaining visual consistency across pages becomes challenging.\n\nNice work\n\nComponent frameworks, such as Bootstrap, offer ready-made UI elements with predefined styling, but this convenience comes at the cost of design flexibility. Custom elements beyond what the framework provides require either vanilla CSS or additional frameworks.\n\n1 / 1 point\n8.\nQuestion 8\n\nWhich tag is used to represent an independent item of content in a document, which can be meaningful on its own? \n\nDo you understand?.\n\nI understand\n\n<article>\n\n<div>\n\n<details>\n\n<section>\n\nNice work\n\nThe <article> tag represents a block of code that can logically stand alone.\n\n1 / 1 point\n9.\nQuestion 9\n\nYou are creating a structure for a webpage and want it to be accessible and indexable by search engines. Which technology should you use?\n\nDo you understand?.\n\nI understand\n\nCSS \n\nFlash \n\nJavaScript\n\nHTML\n\nNice work\n\nHTML provides a structural webpage, making it accessible to search engines, using plug-in-based formats like Flash.\n\n1 / 1 point\n10.\nQuestion 10\n\nSana wants to add a standalone image in the blog post with accompanying text related to the main content that exists independently. Which of the HTML5 elements should Sana use to group this visual content?\n\nDo you understand?.\n\nI understand\n\nFooter\n\nFigure\n\nFigcaption \n\nHeader\n\nNice work\n\nThe figure tag defines a self-contained element that is referred to from the main content. The figure element can be used to embed graphics, images, or code sections. \n\n1 / 1 point"
+    },
+    {
+      "title": "Practice Quiz Practice Assignment • 10 min • Grade: --",
+      "page_title": "Practice Quiz",
+      "source": "Module 4",
+      "kind": "practice_quiz",
+      "url": "https://www.coursera.org/learn/introduction-to-web-development-with-html-css-javacript/assignment-submission/nSdnT/practice-quiz",
+      "final_url": "https://www.coursera.org/learn/introduction-to-web-development-with-html-css-javacript/assignment-submission/nSdnT/practice-quiz/attempt",
+      "status": "opened_after_step_1",
+      "question_count": 5,
+      "questions": [
+        {
+          "index": 1,
+          "question_type": "single_choice",
+          "prompt_text": "True or False: 10car is a valid variable name in JavaScript.",
+          "options": [
+            {
+              "text": "True",
+              "checked": false
+            },
+            {
+              "text": "False",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "1.\nQuestion 1\n\nTrue or False: 10car is a valid variable name in JavaScript. \n\nDo you understand?.\n\nI understand\n\nTrue\n\nFalse\n\n1 point"
+        },
+        {
+          "index": 2,
+          "question_type": "single_choice",
+          "prompt_text": "Which of the following statement is the correct way to define a function with no parameters in JavaScript?",
+          "options": [
+            {
+              "text": "function = myFunction() { }",
+              "checked": false
+            },
+            {
+              "text": "function = new function(myfunction)",
+              "checked": false
+            },
+            {
+              "text": "function myFunction() { }",
+              "checked": false
+            },
+            {
+              "text": "function myFunction { }",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "2.\nQuestion 2\n\nWhich of the following statement is the correct way to define a function with no parameters in JavaScript? \n\nDo you understand?.\n\nI understand\n\nfunction = myFunction() { } \n\nfunction = new function(myfunction) \n\nfunction myFunction() { } \n\nfunction myFunction { } \n\n1 point"
+        },
+        {
+          "index": 3,
+          "question_type": "single_choice",
+          "prompt_text": "Which of the following statements is the correct way to include a script in an HTML?",
+          "options": [
+            {
+              "text": "<script ref= “/source/script.js”> </script>",
+              "checked": false
+            },
+            {
+              "text": "<include script = “/source/script.js”> </script>",
+              "checked": false
+            },
+            {
+              "text": "<script name = “/source/script.js”> </script>",
+              "checked": false
+            },
+            {
+              "text": "<script src = “/source/script.js”> </script>",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "3.\nQuestion 3\n\nWhich of the following statements is the correct way to include a script in an HTML? \n\nDo you understand?.\n\nI understand\n\n<script ref= “/source/script.js”> </script>\n\n<include script = “/source/script.js”> </script> \n\n<script name = “/source/script.js”> </script> \n\n<script src = “/source/script.js”> </script> \n\n1 point"
+        },
+        {
+          "index": 4,
+          "question_type": "single_choice",
+          "prompt_text": "How would you display a confirmation dialog box in a window?",
+          "options": [
+            {
+              "text": "window.alert(confirmation, “message”)",
+              "checked": false
+            },
+            {
+              "text": "window.alert(“message”)",
+              "checked": false
+            },
+            {
+              "text": "window.confirm(“message”)",
+              "checked": false
+            },
+            {
+              "text": "window.prompt(“message”)",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "4.\nQuestion 4\n\nHow would you display a confirmation dialog box in a window?\n\nDo you understand?.\n\nI understand\n\nwindow.alert(confirmation, “message”) \n\nwindow.alert(“message”) \n\nwindow.confirm(“message”) \n\nwindow.prompt(“message”)\n\n1 point"
+        },
+        {
+          "index": 5,
+          "question_type": "multiple_select",
+          "prompt_text": "Select all the following statements about errors which are true.",
+          "options": [
+            {
+              "text": "RangeError is created when a numeric value or parameter is outside a valid range",
+              "checked": false
+            },
+            {
+              "text": "To create a new custom “InputError”, the correct code would be: throw new Error(“InputError”, “The input provided is invalid”)",
+              "checked": false
+            },
+            {
+              "text": "JavaScript has 6 core types of errors",
+              "checked": false
+            },
+            {
+              "text": "Error instance objects contain one property which contains information about the error",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "5.\nQuestion 5\n\nSelect all the following statements about errors which are true.\n\nDo you understand?.\n\nI understand\n\nRangeError is created when a numeric value or parameter is outside a valid range\n\nTo create a new custom “InputError”, the correct code would be: throw new Error(“InputError”, “The input provided is invalid”)\n\nJavaScript has 6 core types of errors\n\nError instance objects contain one property which contains information about the error\n\n1 point"
+        }
+      ],
+      "raw_page_text": "N\nIntroduction to Web Development with HTML, CSS, JavaScript\nToday's goal • 0/3 items\n\nComplete 3 items today to stay at a good pace!\n\nModule 1\nIntroduction to Application Development\nModule 2\nHTML Overview\nModule 3\nCSS Overview & HTML5 Elements\nModule 4\nJavaScript Programming for Web Applications\nJavaScript Language: Overview and Syntax\nVideo\n. Duration: 7 minutes\n7 min\nData types and Variables\nVideo\n. Duration: 4 minutes\n4 min\nControl Flow and Conditional Statements\nVideo\n. Duration: 4 minutes\n4 min\nJavaScript APIs\nVideo\n. Duration: 8 minutes\n8 min\nJavaScript APIs\nUngraded Plugin\n. Duration: 15 minutes\n15 min\nClient-Side JavaScript: with HTML\nVideo\n. Duration: 4 minutes\n4 min\nInsiders' Viewpoints: JavaScript Best Practices\nVideo\n. Duration: 5 minutes\n5 min\nHands-On Lab: Validating a JavaScript form\nUngraded App Item\n. Duration: 25 minutes\n25 min\nClient-Side JavaScript: with DOM\nVideo\n. Duration: 6 minutes\n6 min\nJavaScript DOM Objects\nVideo\n. Duration: 4 minutes\n4 min\nHands-On Lab: Manipulating DOM with JavaScript\nUngraded App Item\n. Duration: 25 minutes\n25 min\nHands-on Lab: Javascript - Browser Console\nUngraded Plugin\n. Duration: 25 minutes\n25 min\nEnhancing JavaScript Skills using JSFiddle\nUngraded Plugin\n. Duration: 25 minutes\n25 min\nModule Summary\nReading\n. Duration: 2 minutes\n2 min\nGlossary - JavaScript Programming for Web Applications\nUngraded Plugin\n. Duration: 3 minutes\n3 min\nCheatsheet - JavaScript Programming for Web Applications\nUngraded Plugin\n. Duration: 3 minutes\n3 min\nPractice Quiz\nPractice Assignment\n. Duration: 10 minutes\n10 min\nGraded Quiz\nGraded AssignmentGrade: 100%\nModule 5\nCareer Opportunities and Final Project\n\nPractice Assignment\n\nPractice Quiz\nResume assignment\nHelp me practice\nWhat to expect\nDue Jan 3, 11:59 PM +07\nUnlimited attempts\n\nThis is a practice assignment to help you check your understanding. It doesn’t count toward your course grade.\n\nReport an issue\nGo to next item\nBack\nPractice Quiz\n\nPractice Assignment • 10 min\n\nDueJan 3, 11:59 PM +07\n1.\nQuestion 1\n\nTrue or False: 10car is a valid variable name in JavaScript. \n\nDo you understand?.\n\nI understand\n\nTrue\n\nFalse\n\n1 point\n2.\nQuestion 2\n\nWhich of the following statement is the correct way to define a function with no parameters in JavaScript? \n\nDo you understand?.\n\nI understand\n\nfunction = myFunction() { } \n\nfunction = new function(myfunction) \n\nfunction myFunction() { } \n\nfunction myFunction { } \n\n1 point\n3.\nQuestion 3\n\nWhich of the following statements is the correct way to include a script in an HTML? \n\nDo you understand?.\n\nI understand\n\n<script ref= “/source/script.js”> </script>\n\n<include script = “/source/script.js”> </script> \n\n<script name = “/source/script.js”> </script> \n\n<script src = “/source/script.js”> </script> \n\n1 point\n4.\nQuestion 4\n\nHow would you display a confirmation dialog box in a window?\n\nDo you understand?.\n\nI understand\n\nwindow.alert(confirmation, “message”) \n\nwindow.alert(“message”) \n\nwindow.confirm(“message”) \n\nwindow.prompt(“message”)\n\n1 point\n5.\nQuestion 5\n\nSelect all the following statements about errors which are true.\n\nDo you understand?.\n\nI understand\n\nRangeError is created when a numeric value or parameter is outside a valid range\n\nTo create a new custom “InputError”, the correct code would be: throw new Error(“InputError”, “The input provided is invalid”)\n\nJavaScript has 6 core types of errors\n\nError instance objects contain one property which contains information about the error\n\n1 point\nCoursera Honor Code\n\nBy clicking Submit, you confirm this work is your own. Submitting work created with AI tools may result in course failure or account deactivation according to Coursera Honor Code policy.\n\nI, NGUYEN PHUC, understand and agree.\nYou must select the checkbox in order to submit the assignment\nSubmit\nSave draft\n\nLast saved on Nov 25, 9:31 PM +07\n\nLike\nDislike\nReport an issue"
+    },
+    {
+      "title": "Graded Quiz Graded Assignment • Submitted • Grade: 100% • Status: Graded Graded",
+      "page_title": "Graded Quiz",
+      "source": "Module 4",
+      "kind": "graded_quiz",
+      "url": "https://www.coursera.org/learn/introduction-to-web-development-with-html-css-javacript/assignment-submission/165R6/graded-quiz",
+      "final_url": "https://www.coursera.org/learn/introduction-to-web-development-with-html-css-javacript/assignment-submission/165R6/graded-quiz/view-feedback",
+      "status": "opened_via_button",
+      "question_count": 10,
+      "questions": [
+        {
+          "index": 1,
+          "question_type": "single_choice",
+          "prompt_text": "In the following declaration, what is the type of the variable ‘pi’?\n\nvar pi = “3.14”;",
+          "options": [
+            {
+              "text": "float",
+              "checked": false
+            },
+            {
+              "text": "string",
+              "checked": true
+            },
+            {
+              "text": "char",
+              "checked": false
+            },
+            {
+              "text": "number",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "1.\nQuestion 1\n\nIn the following declaration, what is the type of the variable ‘pi’?\n\nvar pi = “3.14”; \n\nDo you understand?.\n\nI understand\n\nfloat \n\nstring \n\nchar \n\nnumber \n\nNice work\n\nCorrect. Variables in JavaScript assumes the data type from of a variable when it’s assigned, meaning in this case `pi` is the same type as “3.14”. Since “3.14” contains multiple characters in quotation marks, it is a string. Refer to the “JavaScript Language - Overview and Syntax” and “JavaScript Variables and Control Statements” videos for more information.\n\n1 / 1 point"
+        },
+        {
+          "index": 2,
+          "question_type": "single_choice",
+          "prompt_text": "How do you define an array called array1 in JavaScript?",
+          "options": [
+            {
+              "text": "var array1 = new Array((1,2,3))",
+              "checked": false
+            },
+            {
+              "text": "var array1 = [1,2,3]",
+              "checked": true
+            },
+            {
+              "text": "var array1 = new Array[1,2,3]",
+              "checked": false
+            },
+            {
+              "text": "var array1 = (1,2,3)",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "2.\nQuestion 2\n\nHow do you define an array called array1 in JavaScript? \n\nDo you understand?.\n\nI understand\n\nvar array1 = new Array((1,2,3)) \n\nvar array1 = [1,2,3] \n\nvar array1 = new Array[1,2,3] \n\nvar array1 = (1,2,3) \n\nNice work\n\nCorrect. Array literals are created by declaring array elements within square brackets, as shown above. Refer to the “JavaScript Language - Overview and Syntax” video for more information.\n\n1 / 1 point"
+        },
+        {
+          "index": 3,
+          "question_type": "single_choice",
+          "prompt_text": "What does the following statement do?\n\nvar ndate = new Date() ;",
+          "options": [
+            {
+              "text": "Assigns an empty string with the properties of dates to ndate",
+              "checked": false
+            },
+            {
+              "text": "Assigns the current local time to ndate",
+              "checked": true
+            },
+            {
+              "text": "Assigns the current Greenwich Mean Time to ndate",
+              "checked": false
+            },
+            {
+              "text": "Returns an error",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "3.\nQuestion 3\n\nWhat does the following statement do?\n\nvar ndate = new Date() ; \n\nDo you understand?.\n\nI understand\n\nAssigns an empty string with the properties of dates to ndate\n\nAssigns the current local time to ndate \n\nAssigns the current Greenwich Mean Time to ndate \n\nReturns an error \n\nNice work\n\nCorrect. Providing no arguments to the Date constructor returns the current local time based on your system settings. Refer to the “JavaScript Language - Overview and Syntax” video for more information.\n\n1 / 1 point"
+        },
+        {
+          "index": 4,
+          "question_type": "single_choice",
+          "prompt_text": "Which DOM function returns a node object matching a div with an id value “example_id”?",
+          "options": [
+            {
+              "text": "div.getValueOf(“example_id”)",
+              "checked": false
+            },
+            {
+              "text": "document.getElementById(“example_id”)",
+              "checked": true
+            },
+            {
+              "text": "document.getElementById(div, “example_id”)",
+              "checked": false
+            },
+            {
+              "text": "element.getNodeById(“example_id”)",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "4.\nQuestion 4\n\nWhich DOM function returns a node object matching a div with an id value “example_id”? \n\nDo you understand?.\n\nI understand\n\ndiv.getValueOf(“example_id”) \n\ndocument.getElementById(“example_id”) \n\ndocument.getElementById(div, “example_id”) \n\nelement.getNodeById(“example_id”) \n\nNice work\n\nCorrect. To get an object given a specified id, the document.getElementById() method should be used. This looks for a specific id, and does not differentiate between the different tags. Refer to the “JavaScript DOM Objects” video for more information.\n\n1 / 1 point"
+        },
+        {
+          "index": 5,
+          "question_type": "single_choice",
+          "prompt_text": "How are numbers converted to strings?",
+          "options": [
+            {
+              "text": "(123).string",
+              "checked": false
+            },
+            {
+              "text": "toString(123)",
+              "checked": false
+            },
+            {
+              "text": "(123).toString()",
+              "checked": true
+            },
+            {
+              "text": "string(123)",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "5.\nQuestion 5\n\nHow are numbers converted to strings? \n\nDo you understand?.\n\nI understand\n\n(123).string \n\ntoString(123) \n\n(123).toString() \n\nstring(123) \n\nNice work\n\nCorrect. Converting a value to a String requires calling the “toString” method on the object (in this case numbers) and providing no arguments. Refer to the “JavaScript Language - Overview and Syntax” video for more information.\n\n1 / 1 point"
+        },
+        {
+          "index": 6,
+          "question_type": "single_choice",
+          "prompt_text": "What is the value of ‘total’ after the following statement is executed?\n\nvar total = 10 + 1 +” 3”;",
+          "options": [
+            {
+              "text": "14",
+              "checked": false
+            },
+            {
+              "text": "This results in an error",
+              "checked": false
+            },
+            {
+              "text": "“1013”",
+              "checked": false
+            },
+            {
+              "text": "“113”",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "6.\nQuestion 6\n\nWhat is the value of ‘total’ after the following statement is executed?\n\nvar total = 10 + 1 +” 3”;\n\nDo you understand?.\n\nI understand\n\n14\n\nThis results in an error\n\n“1013”\n\n“113”\n\nNice work\n\nCorrect. JavaScript will execute this statement in order. 10 and 1 are both numbers and will be added as such (10 + 1 = 11). Then, this new value (11) will be concatenated with the string “3”, resulting in “113”. Refer to the “JavaScript – Browser Console” reading for more information.\n\n1 / 1 point"
+        },
+        {
+          "index": 7,
+          "question_type": "single_choice",
+          "prompt_text": "What would the alert be, when the following code is executed?\n\nvar a = new String(“Hello”);\n\nvar b = “Hello”;\n\nif (a ===b){\n\nalert(“Same”);\n\n}else{\n\nalert(“Different”);\n\n}",
+          "options": [
+            {
+              "text": "Same",
+              "checked": false
+            },
+            {
+              "text": "Different",
+              "checked": true
+            },
+            {
+              "text": "It would not give any alert as it is an error",
+              "checked": false
+            },
+            {
+              "text": "None of the above",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "7.\nQuestion 7\n\nWhat would the alert be, when the following code is executed?\n\nvar a = new String(“Hello”);\n\nvar b = “Hello”;\n\nif (a ===b){\n\nalert(“Same”);\n\n}else{\n\nalert(“Different”);\n\n}\n\nDo you understand?.\n\nI understand\n\nSame\n\nDifferent\n\nIt would not give any alert as it is an error\n\nNone of the above\n\nNice work\n\nCorrect. The “===” operation checks if the operand on the left is of equal value and equal type to the operand on right. Since Strings declared by the String wrapper object are different than the primitive string data type, `a` and `b` are different types, despite them being the same values. Refer to the “JavaScript Language - Overview and Syntax” video and the “JavaScript – Browser Console” reading for more information.\n\n1 / 1 point"
+        },
+        {
+          "index": 8,
+          "question_type": "single_choice",
+          "prompt_text": "Which of the following is the proper way to create a `for` loop?",
+          "options": [
+            {
+              "text": "loop (for i = minVal; i < maxVal; i++) { … }",
+              "checked": false
+            },
+            {
+              "text": "for (i < maxVal) { … }",
+              "checked": false
+            },
+            {
+              "text": "for (var i = minVal; i < maxVal; i++) { … }",
+              "checked": true
+            },
+            {
+              "text": "for (var i = minVal; i++; i < maxVal) { … }",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "8.\nQuestion 8\n\nWhich of the following is the proper way to create a `for` loop?\n\nDo you understand?.\n\nI understand\n\nloop (for i = minVal; i < maxVal; i++) { … }\n\nfor (i < maxVal) { … }\n\nfor (var i = minVal; i < maxVal; i++) { … }\n\nfor (var i = minVal; i++; i < maxVal) { … }\n\nNice work\n\nCorrect. A for loop requires 3 expressions within the parentheses: an initial expression, a conditional expression, and an increment expression. The expressions must appear in the order listed, and must be separated by a semi-colon (;), as shown in this example. Refer to the “JavaScript Variables and Control Statements” video for more information.\n\n1 / 1 point"
+        },
+        {
+          "index": 9,
+          "question_type": "single_choice",
+          "prompt_text": "Which JavaScript statement is best used to compare a value against multiple possible matches and execute code for the first matching case?",
+          "options": [
+            {
+              "text": "ternary operator",
+              "checked": false
+            },
+            {
+              "text": "nested if-else statement",
+              "checked": false
+            },
+            {
+              "text": "if statement",
+              "checked": false
+            },
+            {
+              "text": "switch statement",
+              "checked": true
+            }
+          ],
+          "raw_block_text": "9.\nQuestion 9\n\n Which JavaScript statement is best used to compare a value against multiple possible matches and execute code for the first matching case?  \n\nDo you understand?.\n\nI understand\n\n ternary operator  \n\n nested if-else statement  \n\n  if statement \n\n  switch statement  \n\nNice work\n\n Correct. The switch statement is specifically designed to compare one value against multiple possible case values and execute code for the first match.Refer to the “Control Flow and Conditional Statements ” video for more information. \n\n1 / 1 point"
+        },
+        {
+          "index": 10,
+          "question_type": "single_choice",
+          "prompt_text": "Which of the following is not an event binder in JavaScript?",
+          "options": [
+            {
+              "text": "onclick",
+              "checked": false
+            },
+            {
+              "text": "onload",
+              "checked": false
+            },
+            {
+              "text": "onhover",
+              "checked": true
+            },
+            {
+              "text": "onmouseover",
+              "checked": false
+            }
+          ],
+          "raw_block_text": "10.\nQuestion 10\n\nWhich of the following is not an event binder in JavaScript?\n\nDo you understand?.\n\nI understand\n\nonclick\n\nonload\n\nonhover\n\nonmouseover\n\nNice work\n\nCorrect. Onhover is not a valid event in JavaScript. A different event binder is used for when a user hovers over an element. Refer to the “Client-Side Javascript with HTML” video for more information.\n\n1 / 1 point"
+        }
+      ],
+      "raw_page_text": "N\nIntroduction to Web Development with HTML, CSS, JavaScript\nToday's goal • 0/3 items\n\nComplete 3 items today to stay at a good pace!\n\nModule 1\nIntroduction to Application Development\nModule 2\nHTML Overview\nModule 3\nCSS Overview & HTML5 Elements\nModule 4\nJavaScript Programming for Web Applications\nJavaScript Language: Overview and Syntax\nVideo\n. Duration: 7 minutes\n7 min\nData types and Variables\nVideo\n. Duration: 4 minutes\n4 min\nControl Flow and Conditional Statements\nVideo\n. Duration: 4 minutes\n4 min\nJavaScript APIs\nVideo\n. Duration: 8 minutes\n8 min\nJavaScript APIs\nUngraded Plugin\n. Duration: 15 minutes\n15 min\nClient-Side JavaScript: with HTML\nVideo\n. Duration: 4 minutes\n4 min\nInsiders' Viewpoints: JavaScript Best Practices\nVideo\n. Duration: 5 minutes\n5 min\nHands-On Lab: Validating a JavaScript form\nUngraded App Item\n. Duration: 25 minutes\n25 min\nClient-Side JavaScript: with DOM\nVideo\n. Duration: 6 minutes\n6 min\nJavaScript DOM Objects\nVideo\n. Duration: 4 minutes\n4 min\nHands-On Lab: Manipulating DOM with JavaScript\nUngraded App Item\n. Duration: 25 minutes\n25 min\nHands-on Lab: Javascript - Browser Console\nUngraded Plugin\n. Duration: 25 minutes\n25 min\nEnhancing JavaScript Skills using JSFiddle\nUngraded Plugin\n. Duration: 25 minutes\n25 min\nModule Summary\nReading\n. Duration: 2 minutes\n2 min\nGlossary - JavaScript Programming for Web Applications\nUngraded Plugin\n. Duration: 3 minutes\n3 min\nCheatsheet - JavaScript Programming for Web Applications\nUngraded Plugin\n. Duration: 3 minutes\n3 min\nPractice Quiz\nPractice Assignment\n. Duration: 10 minutes\n10 min\nGraded Quiz\nGraded AssignmentGrade: 100%\nModule 5\nCareer Opportunities and Final Project\n\nGraded Assignment\n\nGraded Quiz\n\nAssessment monitored for academic integrity and AI-usage. Privacy Notice\n\nGo to next item\nTry again\nWhat to expect\nDue Jan 3, 11:59 PM +07\n3 attempts\n\nevery 8 hours\n\nYou passed!\n\nTo pass you need a grade of at least 70%.\n\n100%\nView feedback\n\nSubmitted Nov 9, 8:28 PM +07.\n\nReport an issue\nGo to next item\nBack\nGraded Quiz\n\nGraded Assignment • 20 min\n\nDueJan 3, 11:59 PM +07\nYour grade: 100%\nYour latest: 100%•\nYour highest: 100%•\nTo pass you need at least 70%. We keep your highest score.\nNext item\n1.\nQuestion 1\n\nIn the following declaration, what is the type of the variable ‘pi’?\n\nvar pi = “3.14”; \n\nDo you understand?.\n\nI understand\n\nfloat \n\nstring \n\nchar \n\nnumber \n\nNice work\n\nCorrect. Variables in JavaScript assumes the data type from of a variable when it’s assigned, meaning in this case `pi` is the same type as “3.14”. Since “3.14” contains multiple characters in quotation marks, it is a string. Refer to the “JavaScript Language - Overview and Syntax” and “JavaScript Variables and Control Statements” videos for more information.\n\n1 / 1 point\n2.\nQuestion 2\n\nHow do you define an array called array1 in JavaScript? \n\nDo you understand?.\n\nI understand\n\nvar array1 = new Array((1,2,3)) \n\nvar array1 = [1,2,3] \n\nvar array1 = new Array[1,2,3] \n\nvar array1 = (1,2,3) \n\nNice work\n\nCorrect. Array literals are created by declaring array elements within square brackets, as shown above. Refer to the “JavaScript Language - Overview and Syntax” video for more information.\n\n1 / 1 point\n3.\nQuestion 3\n\nWhat does the following statement do?\n\nvar ndate = new Date() ; \n\nDo you understand?.\n\nI understand\n\nAssigns an empty string with the properties of dates to ndate\n\nAssigns the current local time to ndate \n\nAssigns the current Greenwich Mean Time to ndate \n\nReturns an error \n\nNice work\n\nCorrect. Providing no arguments to the Date constructor returns the current local time based on your system settings. Refer to the “JavaScript Language - Overview and Syntax” video for more information.\n\n1 / 1 point\n4.\nQuestion 4\n\nWhich DOM function returns a node object matching a div with an id value “example_id”? \n\nDo you understand?.\n\nI understand\n\ndiv.getValueOf(“example_id”) \n\ndocument.getElementById(“example_id”) \n\ndocument.getElementById(div, “example_id”) \n\nelement.getNodeById(“example_id”) \n\nNice work\n\nCorrect. To get an object given a specified id, the document.getElementById() method should be used. This looks for a specific id, and does not differentiate between the different tags. Refer to the “JavaScript DOM Objects” video for more information.\n\n1 / 1 point\n5.\nQuestion 5\n\nHow are numbers converted to strings? \n\nDo you understand?.\n\nI understand\n\n(123).string \n\ntoString(123) \n\n(123).toString() \n\nstring(123) \n\nNice work\n\nCorrect. Converting a value to a String requires calling the “toString” method on the object (in this case numbers) and providing no arguments. Refer to the “JavaScript Language - Overview and Syntax” video for more information.\n\n1 / 1 point\n6.\nQuestion 6\n\nWhat is the value of ‘total’ after the following statement is executed?\n\nvar total = 10 + 1 +” 3”;\n\nDo you understand?.\n\nI understand\n\n14\n\nThis results in an error\n\n“1013”\n\n“113”\n\nNice work\n\nCorrect. JavaScript will execute this statement in order. 10 and 1 are both numbers and will be added as such (10 + 1 = 11). Then, this new value (11) will be concatenated with the string “3”, resulting in “113”. Refer to the “JavaScript – Browser Console” reading for more information.\n\n1 / 1 point\n7.\nQuestion 7\n\nWhat would the alert be, when the following code is executed?\n\nvar a = new String(“Hello”);\n\nvar b = “Hello”;\n\nif (a ===b){\n\nalert(“Same”);\n\n}else{\n\nalert(“Different”);\n\n}\n\nDo you understand?.\n\nI understand\n\nSame\n\nDifferent\n\nIt would not give any alert as it is an error\n\nNone of the above\n\nNice work\n\nCorrect. The “===” operation checks if the operand on the left is of equal value and equal type to the operand on right. Since Strings declared by the String wrapper object are different than the primitive string data type, `a` and `b` are different types, despite them being the same values. Refer to the “JavaScript Language - Overview and Syntax” video and the “JavaScript – Browser Console” reading for more information.\n\n1 / 1 point\n8.\nQuestion 8\n\nWhich of the following is the proper way to create a `for` loop?\n\nDo you understand?.\n\nI understand\n\nloop (for i = minVal; i < maxVal; i++) { … }\n\nfor (i < maxVal) { … }\n\nfor (var i = minVal; i < maxVal; i++) { … }\n\nfor (var i = minVal; i++; i < maxVal) { … }\n\nNice work\n\nCorrect. A for loop requires 3 expressions within the parentheses: an initial expression, a conditional expression, and an increment expression. The expressions must appear in the order listed, and must be separated by a semi-colon (;), as shown in this example. Refer to the “JavaScript Variables and Control Statements” video for more information.\n\n1 / 1 point\n9.\nQuestion 9\n\n Which JavaScript statement is best used to compare a value against multiple possible matches and execute code for the first matching case?  \n\nDo you understand?.\n\nI understand\n\n ternary operator  \n\n nested if-else statement  \n\n  if statement \n\n  switch statement  \n\nNice work\n\n Correct. The switch statement is specifically designed to compare one value against multiple possible case values and execute code for the first match.Refer to the “Control Flow and Conditional Statements ” video for more information. \n\n1 / 1 point\n10.\nQuestion 10\n\nWhich of the following is not an event binder in JavaScript?\n\nDo you understand?.\n\nI understand\n\nonclick\n\nonload\n\nonhover\n\nonmouseover\n\nNice work\n\nCorrect. Onhover is not a valid event in JavaScript. A different event binder is used for when a user hovers over an element. Refer to the “Client-Side Javascript with HTML” video for more information.\n\n1 / 1 point"
+    }
+  ]
+}

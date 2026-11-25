@@ -1,0 +1,244 @@
+================================================================================
+COURSE: Python Project for AI & Application Development
+URL: https://www.coursera.org/learn/python-project-for-ai-application-development
+CRAWLED AT: 2026-11-25T21:27:38.502843
+SUMMARY: 4/4 MC quizzes | 30 questions
+================================================================================
+
+--------------------------------------------------------------------------------
+[QUIZ 1] Module 1 Practice Quiz: Python Coding Practices and Packaging Concepts Practice Assignment • Submitted • Grade: 100% • Status: Graded Graded
+Source: Module 1 | Kind: practice_quiz | Status: opened_via_button
+URL: https://www.coursera.org/learn/python-project-for-ai-application-development/assignment-submission/kxlwI/module-1-practice-quiz-python-coding-practices-and-packaging-concepts/view-feedback
+Questions extracted: 5
+--------------------------------------------------------------------------------
+
+Q1 (single_choice):
+Identify the file where you add code to reference the modules in the package?
+   1. [ ] __main__.py
+   2. [ ] __name__.py
+   3. [ ] myproject.py
+   4. [x] __init__.py
+
+Q2 (single_choice):
+Which of the following is a best practice when creating function names to write test cases?
+   1. [x] test_
+   2. [ ] _test
+   3. [ ] Function
+   4. [ ] function.test
+
+Q3 (single_choice):
+Which of the following is a valid method name based on PEP8 guidelines?
+   1. [ ] GET_USER_NAME()
+   2. [ ] getUserName()
+   3. [x] get_user_name()
+   4. [ ] GetUserName()
+
+Q4 (single_choice):
+Which of the following is required to package a Python module?
+   1. [ ] A folder with server.py
+   2. [ ] import sys as the first line of code in the Python script
+   3. [ ] The methods in the Python module should be defined as public methods
+   4. [x] The Python module should be packaged in a directory with __init__.py in the same directory
+
+Q5 (multiple_select):
+Which of the following is TRUE about web apps and APIs? (Select two)
+   1. [ ] All APIs allow users to access apps without installing them on their local systems.
+   2. [x] All web apps are APIs, but not all APIs are web apps.
+   3. [ ] Web apps is a generic term that includes “online” or web-based and “offline” apps.
+   4. [x] Both web apps and APIs link two system parts.
+
+--------------------------------------------------------------------------------
+[QUIZ 2] Module 1 Graded Quiz: Python Coding Practices and Packaging Concepts Graded Assignment • Submitted • Grade: 90% • Status: Graded Graded
+Source: Module 1 | Kind: practice_quiz | Status: opened_via_button
+URL: https://www.coursera.org/learn/python-project-for-ai-application-development/assignment-submission/mC0Wr/module-1-graded-quiz-python-coding-practices-and-packaging-concepts/view-feedback
+Questions extracted: 10
+--------------------------------------------------------------------------------
+
+Q1 (single_choice):
+A smartwatch application displays the daily weather forecast without collecting any weather information. How does the application access this information?
+   1. [ ] By loading forecast data directly from the browser interface.
+   2. [x] By connecting to a weather service through an API.
+   3. [ ] By observing past activity to estimate the weather forecast in the present.
+   4. [ ] By leveraging prior loaded information saved during installation.
+
+Q2 (single_choice):
+Developers want to test the newly implemented payment gateway in the online booking site for its efficiency with the current system. Which testing phase is this?
+   1. [ ] User testing
+   2. [ ] Performance testing
+   3. [ ] Unit testing
+   4. [x] Integration testing
+
+Q3 (single_choice):
+An engineer is cleaning up legacy code and wants to find style issues quickly. He used PyLint for this task. Which of the following is true about PyLint?
+   1. [ ] PyLint is a Python code compiler.
+   2. [ ] PyLint is a Python-based package creation tool.
+   3. [x] PyLint is a Python static code analysis tool.
+   4. [ ] PyLint is a Python IDE.
+
+Q4 (single_choice):
+Which of the following is the right way to name constants based on the PEP8 guidelines?
+   1. [x] DATE_OF_BIRTH
+   2. [ ] date_of_birth
+   3. [ ] dateOfBirth
+   4. [ ] Date_Of_Birth
+
+Q5 (single_choice):
+A stakeholder wants the developer to build a feature in the application that enables users to view all the available rooms and amenities on the hotel reservation application. Which type of requirement is this?
+   1. [ ] Business requirements
+   2. [ ] Constraints
+   3. [ ] Technical requirements
+   4. [x] User requirements
+
+Q6 (single_choice):
+While designing a unit testing strategy for your Python app, you choose to encapsulate tests within a class. Why is this considered good practice?
+   1. [ ] It organizes assertion logic separately.
+   2. [ ] It helps validate function outputs.
+   3. [x] It provides a single entry point to run all unit tests.
+   4. [ ] It imports the testing module automatically.
+
+Q7 (single_choice):
+You are testing the function doubler using the input 3. You noticed that the assertEqual assertion fails because the function returned 9 instead of 6. What does the fail result indicate in this scenario?
+   1. [ ] The test function was not imported; it means the test phase was skipped.
+   2. [x] The doubler function displayed the wrong result, hence the assertion failed.
+   3. [ ] The testing method assertEqual was incorrectly written in the code.
+   4. [ ] The test case has correct logic, but the result was unexpected.
+
+Q8 (single_choice):
+Your project has a folder structure where mypackage contains a file my_code.py with a print_hello() function. Which import approaches correctly access the function?
+   1. [x] from mypackage import my_code then my_code.print_hello()
+   2. [ ] from mypackage.my_code import print_code then print_code()
+   3. [ ] from mypackage import print_hello, then print_hello()
+   4. [ ] import my_code followed by print_hello()
+
+Q9 (single_choice):
+You want to test a method inside a module called data_tools.py, which is part of the analytics package. What is the correct way to reference it?
+   1. [x] analytics.data_tools.analyze(parameters)
+   2. [ ] import analytics
+   3. [ ] analytics(parameters)
+   4. [ ] run analytics.data_tools.analyze(parameters)
+
+Q10 (single_choice):
+You want to import contents from the “utilities” folder that includes several Python scripts and an __init__.py file into another script. Which option correctly describes what the “utilities” folder represents?
+   1. [ ] A collection of Python scripts with no package structure.
+   2. [ ] A single Python script statement and functions.
+   3. [ ] A collection of scripts with several external dependencies.
+   4. [x] A structured package folder with modules and an __init__.py file.
+
+--------------------------------------------------------------------------------
+[QUIZ 3] Module 2 Practice Quiz: Web App Deployment using Flask Practice Assignment • Submitted • Grade: 100% • Status: Graded Graded
+Source: Module 2 | Kind: practice_quiz | Status: opened_via_button
+URL: https://www.coursera.org/learn/python-project-for-ai-application-development/assignment-submission/wdEer/module-2-practice-quiz-web-app-deployment-using-flask/view-feedback
+Questions extracted: 5
+--------------------------------------------------------------------------------
+
+Q1 (single_choice):
+Which of the following methods sends HTML form data to the server?
+   1. [ ] PUT
+   2. [ ] GET
+   3. [x] POST
+   4. [ ] HEAD
+
+Q2 (single_choice):
+What is @app.route used for?
+   1. [ ] To return the length of an object
+   2. [ ] To create a dictionary
+   3. [x] To define a route
+   4. [ ] To display an output
+
+Q3 (multiple_select):
+Which of the following are two objects provided by Flask that are used for each client call? (Select two)
+   1. [ ] methods
+   2. [x] Response
+   3. [ ] curl
+   4. [x] Request
+
+Q4 (single_choice):
+You can use dynamic routes to create ______ endpoints.
+   1. [x] RESTful
+   2. [ ] Dynamic
+   3. [ ] Object
+   4. [ ] API
+
+Q5 (single_choice):
+When working with a Flask server, what is the code number for a successful response?
+   1. [ ] 404
+   2. [x] 200
+   3. [ ] 500
+   4. [ ] 403
+
+--------------------------------------------------------------------------------
+[QUIZ 4] Module 2 Graded Quiz: Web App Deployment using Flask Graded Assignment • Submitted • Grade: 100% • Status: Graded Graded
+Source: Module 2 | Kind: graded_quiz | Status: opened_via_button
+URL: https://www.coursera.org/learn/python-project-for-ai-application-development/assignment-submission/H7cLl/module-2-graded-quiz-web-app-deployment-using-flask/view-feedback
+Questions extracted: 10
+--------------------------------------------------------------------------------
+
+Q1 (single_choice):
+Your team is building a full-featured web application and needs a structure that supports efficient database management, built-in security, and reusable components. Which of the following options best describes the selection of frameworks like Django or Flask over a Python library?
+   1. [ ] Frameworks offer specific functionalities for tasks, such as plotting or mathematical operations.
+   2. [ ] Python libraries integrate built-in security and database management to complete application development.
+   3. [x] Frameworks offer predefined architecture, built-in tools, and enable complete app development.
+   4. [ ] Python library provides debugging tools, web servers, and a flow for controlling the full app.
+
+Q2 (single_choice):
+You are setting up URL mapping in a Flask application using @app.route('/home').  What does '/home' represent in @app.route('/home')?
+   1. [ ] Output
+   2. [ ] Object
+   3. [x] Route
+   4. [ ] Argument
+
+Q3 (single_choice):
+Mona is developing a web application using the Flask framework, with the @app.route() decorator in her code. What is this decorator primarily used to create?
+   1. [x] URL handlers
+   2. [ ] Objects
+   3. [ ] Python files
+   4. [ ] Config objects
+
+Q4 (single_choice):
+A developer is troubleshooting an error while downloading a file from the Flask API. They want to confirm the size of the response body they sent back to the client. Which property of the response object should they check?
+   1. [ ] status_code
+   2. [ ] content_type
+   3. [ ] mime-type
+   4. [x] content_length
+
+Q5 (single_choice):
+While auditing a Flask application to monitor requests, to capture all IP addresses that forward the requests, especially in the presence of proxies. Which code snippet is suitable for these tasks?
+   1. [ ] request.args.get("device")
+   2. [ ] request.args["device"]
+   3. [ ] request.method == "POST" and request.is_json
+   4. [x] request.access_route
+
+Q6 (single_choice):
+While developing a Flask app that fetches book data from the OpenLibrary API using the author's name, you have received a 200 status code from the API response. What should your application do?
+   1. [ ] Terminate the Flask application for the client.
+   2. [x] Return the JSON response to the client.
+   3. [ ] Return a 500 error message to the client.
+   4. [ ] Display error “Something went wrong” to the client.
+
+Q7 (single_choice):
+Every HTTP response contains a _________-digit code.
+   1. [x] Three
+   2. [ ] Two
+   3. [ ] One
+   4. [ ] Four
+
+Q8 (single_choice):
+You've created a Flask route using @app.route and returned a simple response without clearly setting a status code. Which HTTP status does Flask automatically send back to indicate success?
+   1. [ ] 599
+   2. [ ] 404
+   3. [ ] 300
+   4. [x] 200
+
+Q9 (single_choice):
+Zeck is a new web developer. He is creating his first web app using Flask by defining a route without specifying a method. Which of the following request methods should he use by default to complete this task?
+   1. [ ] The application will process POST requests by default.
+   2. [ ] The application rejects requests if not specified.
+   3. [x] The application will accept a GET request automatically.
+   4. [ ] The application will support all request types.
+
+Q10 (single_choice):
+You are using Flask for developing a user management feature and want to incorporate update functionality into it. Which HTTP request method will you use to complete this task?
+   1. [ ] Use GET or PATCH requests to replace the database.
+   2. [x] Use PUT or PATCH requests to change the existing database.
+   3. [ ] Use POST or DELETE requests to modify the existing database.
+   4. [ ] Use GET or DELETE requests to change the database.

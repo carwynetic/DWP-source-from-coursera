@@ -9,8 +9,10 @@ import coursera_quiz_crawler as c
 
 
 def test_courses_catalog():
-    assert len(c.COURSES) == 7
+    assert len(c.COURSES) == 13
     assert c.COURSES["coursera1"]["slug"] == "developing-applications-with-sql-databases-and-django"
+    assert c.COURSES["coursera8"]["slug"] == "introduction-to-cloud"
+    assert c.COURSES["coursera13"]["slug"] == "introduction-to-web-development-with-html-css-javacript"
 
 
 def test_url_filtering_and_normalization():

@@ -738,6 +738,101 @@ async function renderCheatSheetsView() {
   `);
 }
 
+function findQuizQuestionById(qId) {
+  const quizzes = state.quizzesData?.quizzes || [];
+  for (const qz of quizzes) {
+    const found = qz.questions.find((q) => q.id === qId);
+    if (found) return found;
+  }
+  return null;
+}
+
+function buildQuestionInnerHtml(q) {
+  const picked = state.quizPicks[q.id] || new Set();
+  const revealed = state.quizRevealed.has(q.id);
+  const correctSet = new Set(
+    q.options.map((o, i) => (o.checked ? i : -1)).filter((i) => i >= 0)
+  );
+  const hasKey = correctSet.size > 0;
+
+  let statusBadge = "";
+  if (revealed && hasKey && picked.size > 0) {
+    const isExact =
+      picked.size === correctSet.size && [...picked].every((i) => correctSet.has(i));
+    statusBadge = isExact
+      ? `<span class="question-status-pill is-ok">Correct</span>`
+      : `<span class="question-status-pill is-bad">Review</span>`;
+  }
+
+  const optsHtml = q.options
+    .map((opt, idx) => {
+      let cls = "";
+      if (revealed && hasKey) {
+        if (opt.checked) cls = "is-correct";
+        else if (picked.has(idx)) cls = "is-wrong";
+      } else if (picked.has(idx)) {
+        cls = "is-picked";
+      }
+      const letter = String.fromCharCode(65 + idx);
+      return `
+        <button type="button" class="option-btn ${cls}" data-pick-q="${q.id}" data-pick-opt="${idx}" data-q-type="${q.question_type}">
+          <span class="option-index">${letter}.</span>
+          <span>${escapeHtml(opt.text)}</span>
+        </button>`;
+    })
+    .join("");
+
+  const correctLetters = [...correctSet].map((i) => String.fromCharCode(65 + i)).join(", ");
+  const explanationHtml =
+    revealed && (hasKey || q.explanation)
+      ? `<div class="question-explanation">
+          ${hasKey ? `<strong>Đáp án đúng (${correctLetters}):</strong> ` : ""}
+          ${renderInline(q.explanation || "Đã đối chiếu theo tài liệu khóa học.")}
+        </div>`
+      : "";
+
+  return `
+    <p class="question-prompt">${q.q_index}. ${escapeHtml(q.prompt_text)}</p>
+    <div class="question-options">${optsHtml}</div>
+    <div class="question-actions">
+      <div style="display:flex;align-items:center;gap:8px;">
+        <span>${q.question_type === "multiple_select" ? "Multiple select" : "Single choice"}</span>
+        ${statusBadge}
+      </div>
+      ${
+        hasKey
+          ? `<button type="button" class="btn btn-ghost btn-sm" data-reveal-q="${q.id}">${revealed ? "Hide answer" : "Check answer"}</button>`
+          : `<span>Self-check against module notes</span>`
+      }
+    </div>
+    ${explanationHtml}
+  `;
+}
+
+function updateQuestionCardInPlace(qId, focusSelector = null) {
+  const card = el.stageContainer.querySelector(`.question-item[data-q-card="${qId}"]`);
+  const q = findQuizQuestionById(qId);
+  if (!card || !q) return;
+
+  const savedScrollY = window.scrollY;
+  card.innerHTML = buildQuestionInnerHtml(q);
+
+  if (focusSelector) {
+    const focusEl = card.querySelector(focusSelector);
+    if (focusEl) {
+      focusEl.focus({ preventScroll: true });
+    }
+  }
+  if (Math.abs(window.scrollY - savedScrollY) > 2) {
+    window.scrollTo({ top: savedScrollY, behavior: "instant" });
+  }
+  requestAnimationFrame(() => {
+    if (Math.abs(window.scrollY - savedScrollY) > 2) {
+      window.scrollTo({ top: savedScrollY, behavior: "instant" });
+    }
+  });
+}
+
 async function renderQuizzesView() {
   setActiveModeTab("quizzes");
   if (!state.quizzesData || state.quizzesData.course.key !== state.activeCourseKey) {
@@ -762,42 +857,9 @@ async function renderQuizzesView() {
   const quizBlocks = visibleQuizzes
     .map((qz) => {
       const qsHtml = qz.questions
-        .map((q) => {
-          const picked = state.quizPicks[q.id] || new Set();
-          const revealed = state.quizRevealed.has(q.id);
-          const hasKey = q.options.some((o) => o.checked);
-          const optsHtml = q.options
-            .map((opt, idx) => {
-              let cls = "";
-              if (revealed && hasKey) {
-                if (opt.checked) cls = "is-correct";
-                else if (picked.has(idx)) cls = "is-wrong";
-              } else if (picked.has(idx)) {
-                cls = "is-picked";
-              }
-              const letter = String.fromCharCode(65 + idx);
-              return `
-                <button type="button" class="option-btn ${cls}" data-pick-q="${q.id}" data-pick-opt="${idx}" data-q-type="${q.question_type}">
-                  <span class="option-index">${letter}.</span>
-                  <span>${escapeHtml(opt.text)}</span>
-                </button>`;
-            })
-            .join("");
-
-          return `
-            <div class="question-item" data-q-card="${q.id}">
-              <p class="question-prompt">${q.q_index}. ${escapeHtml(q.prompt_text)}</p>
-              <div class="question-options">${optsHtml}</div>
-              <div class="question-actions">
-                <span>${q.question_type === "multiple_select" ? "Multiple select" : "Single choice"}</span>
-                ${
-                  hasKey
-                    ? `<button type="button" class="btn btn-ghost btn-sm" data-reveal-q="${q.id}">${revealed ? "Hide reference answer" : "Check answer"}</button>`
-                    : `<span>Practice question (self-check against module notes)</span>`
-                }
-              </div>
-            </div>`;
-        })
+        .map(
+          (q) => `<div class="question-item" data-q-card="${q.id}">${buildQuestionInnerHtml(q)}</div>`
+        )
         .join("");
 
       return `
@@ -816,7 +878,7 @@ async function renderQuizzesView() {
   animateStageSwap(`
     <header class="course-hero" style="margin-bottom:20px;">
       <h1>Practice Quiz Workbench</h1>
-      <p class="course-hero-lead">Review all ${allQuizzes.reduce((a, b) => a + b.question_count, 0)} multiple-choice questions crawled from ${escapeHtml(state.quizzesData.course.name)}. Graded quizzes include verified answer keys.</p>
+      <p class="course-hero-lead">Toàn bộ ${allQuizzes.reduce((a, b) => a + b.question_count, 0)} câu hỏi trắc nghiệm của ${escapeHtml(state.quizzesData.course.name)} — thống nhất đầy đủ đáp án đúng và giải thích chi tiết.</p>
     </header>
     <div class="quiz-filter-bar">
       <div class="rail-filter-group">${filterButtons}</div>
@@ -1101,7 +1163,7 @@ function wireEvents() {
       } else {
         state.quizPicks[qId] = new Set([optIdx]);
       }
-      renderQuizzesView();
+      updateQuestionCardInPlace(qId, `[data-pick-opt="${optIdx}"]`);
       return;
     }
     const revBtn = e.target.closest("[data-reveal-q]");
@@ -1109,7 +1171,7 @@ function wireEvents() {
       const qId = Number(revBtn.dataset.revealQ);
       if (state.quizRevealed.has(qId)) state.quizRevealed.delete(qId);
       else state.quizRevealed.add(qId);
-      renderQuizzesView();
+      updateQuestionCardInPlace(qId, `[data-reveal-q="${qId}"]`);
     }
   });
 

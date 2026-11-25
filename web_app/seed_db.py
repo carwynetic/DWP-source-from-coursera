@@ -121,6 +121,11 @@ def extract_guide_summary(md: str) -> str:
     return ""
 
 
+def normalize_q_key(course_key: str, module_num: int, prompt_text: str) -> str:
+    clean = re.sub(r"\s+", " ", (prompt_text or "").replace("\u200b", "").replace("\u00a0", " ")).strip().lower()
+    return f"{course_key}|{module_num}|{clean[:180]}"
+
+
 def seed_database(target_courses: list[str], db_path: Path | None = None) -> None:
     app_dir = Path(__file__).resolve().parent
     source_root = app_dir.parent
@@ -131,6 +136,11 @@ def seed_database(target_courses: list[str], db_path: Path | None = None) -> Non
         else source_root / "output"
     )
     synthesized_root = app_dir / "synthesized"
+
+    enhancements_file = app_dir / "quiz_enhancements.json"
+    enhancements: dict[str, dict] = {}
+    if enhancements_file.exists():
+        enhancements = json.loads(enhancements_file.read_text(encoding="utf-8"))
 
     # Drop and recreate schema cleanly so new columns always exist
     target_db = db_path or DB_PATH
@@ -272,17 +282,28 @@ def seed_database(target_courses: list[str], db_path: Path | None = None) -> Non
                     )
                     quiz_id = qz_cur.lastrowid
                     for qi, q_item in enumerate(clean_qs, 1):
+                        prompt_clean = (q_item.get("prompt_text") or "").replace("\u200b", "").strip()
+                        opts = [dict(o) for o in q_item.get("options", [])]
+                        q_key = normalize_q_key(meta["key"], m_num, prompt_clean)
+                        enh = enhancements.get(q_key, {})
+                        if "correct_indices" in enh and enh["correct_indices"]:
+                            valid_idx = set(enh["correct_indices"])
+                            for oi, opt in enumerate(opts):
+                                opt["checked"] = oi in valid_idx
+                        explanation = (enh.get("explanation") or "").strip()
+
                         conn.execute(
                             """
-                            INSERT INTO quiz_questions (quiz_id, q_index, question_type, prompt_text, options_json)
-                            VALUES (?, ?, ?, ?, ?)
+                            INSERT INTO quiz_questions (quiz_id, q_index, question_type, prompt_text, options_json, explanation)
+                            VALUES (?, ?, ?, ?, ?, ?)
                             """,
                             (
                                 quiz_id,
                                 qi,
                                 q_item.get("question_type", "single_choice"),
-                                (q_item.get("prompt_text") or "").replace("\u200b", "").strip(),
-                                json.dumps(q_item.get("options", []), ensure_ascii=False),
+                                prompt_clean,
+                                json.dumps(opts, ensure_ascii=False),
+                                explanation,
                             ),
                         )
                     total_quizzes += 1

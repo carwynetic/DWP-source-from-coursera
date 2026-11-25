@@ -1,0 +1,845 @@
+================================================================================
+COURSE: Introduction to Cloud Computing
+URL: https://www.coursera.org/learn/introduction-to-cloud
+CRAWLED AT: 2026-11-25T21:13:36.337333
+SUMMARY: 16/17 MC quizzes | 101 questions
+================================================================================
+
+--------------------------------------------------------------------------------
+[QUIZ 1] Practice Quiz: Introduction to Cloud Computing Practice Assignment • 8 min • Grade: -- Resume
+Source: Module 1 | Kind: practice_quiz | Status: opened_after_step_1
+URL: https://www.coursera.org/learn/introduction-to-cloud/assignment-submission/uGqE6/practice-quiz-introduction-to-cloud-computing/attempt
+Questions extracted: 4
+--------------------------------------------------------------------------------
+
+Q1 (single_choice):
+Which characteristic of cloud computing enables cost savings by serving multiple consumers?
+   1. [ ] Broad network access
+   2. [ ] Public cloud models
+   3. [ ] On-demand self-service
+   4. [ ] Resource pooling
+
+Q2 (single_choice):
+Which 1950s network feature helped evolve Virtual Machines (VMs)?
+   1. [ ] Security, compliance, and performance
+   2. [ ] Measured service
+   3. [ ] Broad network access
+   4. [ ] Shared access to a mainframe
+
+Q3 (single_choice):
+What are some cloud computing benefits?
+   1. [ ] Competitive advantage, flexibility, and efficiency
+   2. [ ] Purchasing off-the-shelf software and upgrades
+   3. [ ] Diversity of standardization
+   4. [ ] Offline capability and security
+
+Q4 (single_choice):
+Which of these vendors is known more for their SaaS offerings?
+   1. [ ] Salesforce
+   2. [ ] Alibaba Cloud
+   3. [ ] Amazon Web Services
+   4. [ ] Intel
+
+--------------------------------------------------------------------------------
+[QUIZ 2] Practice Quiz: Business Case for Cloud Computing Practice Assignment • 4 min • Grade: --
+Source: Module 1 | Kind: practice_quiz | Status: opened_via_button:Start assignment
+URL: https://www.coursera.org/learn/introduction-to-cloud/assignment-submission/Uss9U/practice-quiz-business-case-for-cloud-computing/attempt
+Questions extracted: 2
+--------------------------------------------------------------------------------
+
+Q1 (single_choice):
+How did UBank leverage the cloud to remove barriers to innovation?
+   1. [ ] By modernizing their customer-facing monolithic apps into a cloud-native microservices architecture
+   2. [ ] By establishing a scalable hosting platform for low-latency delivery to enterprise customers around the world
+   3. [ ] By adopting a PaaS cloud development model to streamline development and empower product teams
+   4. [ ] By migrating their trading systems from on-premises infrastructure to IBM Cloud for VMware solutions
+
+Q2 (single_choice):
+According to the video "Cloud Adoption - No longer a choice", which of the following is a risk for businesses that do not integrate cloud into their business strategy?
+   1. [ ] Data security
+   2. [ ] Compliance issues
+   3. [ ] Lack of standardization
+   4. [ ] Lack of decision-making capacity
+
+--------------------------------------------------------------------------------
+[QUIZ 3] Practice Quiz: Emerging Technologies Accelerated by Cloud Practice Assignment • 6 min • Grade: --
+Source: Module 1 | Kind: practice_quiz | Status: opened_after_step_1
+URL: https://www.coursera.org/learn/introduction-to-cloud/assignment-submission/AUnhT/practice-quiz-emerging-technologies-accelerated-by-cloud/attempt
+Questions extracted: 3
+--------------------------------------------------------------------------------
+
+Q1 (single_choice):
+How does Cloud connectivity support IoT devices?
+   1. [ ] Serves as a dynamic and scalable collection point
+   2. [ ] Provides a fixed physical location for the data collected from IoT devices
+   3. [ ] Draws insights from data collected from IoT devices and users
+   4. [ ] Increases latency in reporting and response
+
+Q2 (single_choice):
+What is the three-way symbiotic relationship between IoT, AI, and Cloud?
+   1. [ ] Making sense of the endless streams of data from IoT devices
+   2. [ ] AI consumes the data produced by IoT devices
+   3. [ ] IoT delivers the data, AI powers the insights, and both emerging technologies leverage Cloud's scalability and processing power
+   4. [ ] Power, scale, dynamic nature, and economics of the cloud resources
+
+Q3 (single_choice):
+What is the three-way relationship between blockchain, AI, and the Cloud?
+   1. [ ] Blockchain provides the trusted, decentralized source of truth, AI powers the analytics and decisions made from the collected data, and Cloud provides the globally distributed, scalable, and cost-efficient computing resources to support both technologies.
+   2. [ ] Globally distributed, scalable, and cost-efficient computing resources.
+   3. [ ] Lends trust and transparency to AI by recording the data and variables that go into a decision made in an AI algorithm.
+   4. [ ] Blockchain provides an immutable network allowing members to view only those transactions that are relevant to them.
+
+--------------------------------------------------------------------------------
+[QUIZ 4] Module 1 Graded Quiz: Overview of Cloud Computing
+Source: Module 1 | Kind: graded_quiz | Status: opened_via_button
+URL: https://www.coursera.org/learn/introduction-to-cloud/assignment-submission/iPQyo/module-1-graded-quiz-overview-of-cloud-computing/view-feedback
+Questions extracted: 10
+--------------------------------------------------------------------------------
+
+Q1 (single_choice):
+According to the US National Institute of Standards and Technology (NIST) definition of “cloud computing,” what is the meaning of the statement “a shared pool of configurable computing resources”?
+   1. [x] Networks, servers, storage, applications, and services.
+   2. [ ] Data security associated with data loss or unavailability causing business disruption.
+   3. [ ] Five essential characteristics, three deployment models, and three service models.
+   4. [ ] Leveraging cloud services over the open internet on hardware owned by the cloud provider.
+
+Q2 (single_choice):
+What tasks do hypervisors accomplish?
+   1. [x] Enable multiple operating systems to run alongside each other and separate VMs logically
+   2. [ ] Fluctuates workloads and facilitates access to mainframes
+   3. [ ] Scale on demand to support fluctuating workloads
+   4. [ ] Facilitates access to mainframes, allowing multiple users to access the same data storage layer
+
+Q3 (single_choice):
+Which key considerations drive an organization's selection of cloud computing when considering expenditure for off-the-shelf software and investments in upgrades?
+   1. [ ] Speed and productivity
+   2. [ ] Risk exposure
+   3. [x] Software as a service and development platforms
+   4. [ ] Infrastructure and workloads
+
+Q4 (single_choice):
+Which of the following statements describes a benefit of cloud computing?
+   1. [ ] Data security risks associated with the loss or unavailability of data
+   2. [x] Hardware failures do not result in data loss because of backups maintained on the network
+   3. [ ] Business continuity
+   4. [ ] Lack of standardization in how the constantly evolving technologies integrate
+
+Q5 (single_choice):
+Which service provider provides one of the largest cloud-based data management platforms?
+   1. [ ] IBM Cloud
+   2. [ ] Alibaba Cloud
+   3. [x] Oracle Cloud
+   4. [ ] Salesforce
+
+Q6 (single_choice):
+Which service provider uses its cloud platform internally for their end-user products, such as Search and app engines that automatically allocate and de-allocate resources to handle demand?
+   1. [ ] Oracle Cloud
+   2. [x] Google Cloud Platform (GCP)
+   3. [ ] SAP
+   4. [ ] Microsoft Azure
+
+Q7 (single_choice):
+According to the International Data Corporation (IDC), what is that crucial ability that will make cloud computing essential for businesses to succeed, sustain, and compete in today’s markets?
+   1. [ ] Cognitively enabled workflows
+   2. [ ] Applied exponential technologies such as AI, Automation, IoT, and Blockchain
+   3. [ ] Multi-cloud infrastructures
+   4. [x] Data-driven decisions
+
+Q8 (single_choice):
+Why did American Airlines require a new technology platform?
+   1. [x] To migrate applications to cloud-native microservices for faster and more reliable customer service
+   2. [ ] To automate flight scheduling and maintenance
+   3. [ ] To reduce dependency on a cloud-based platform for low-latency delivery
+   4. [ ] To expand their global presence and accelerate growth
+
+Q9 (single_choice):
+Select the answer that best describes how Cloud Computing helps IoT devices.
+   1. [ ] Stores data on an encrypted physical drive
+   2. [ ] Provides a fixed physical location for the data collected from IoT devices
+   3. [ ] Draws insights from data collected from the IoT devices and users
+   4. [x] Provides the resources to store and process the data produced by IoT devices and users.
+
+Q10 (single_choice):
+Which of the following denotes the relationship between Blockchain, AI, and cloud?
+   1. [ ] Blockchain provides an immutable network, AI provides distributed computing resources and cloud powers decision-making
+   2. [ ] Blockchain provides the distributed computing resources, AI powers the analytics, and the cloud records the data
+   3. [x] Blockchain provides a decentralized source of truth, AI powers analytics and decision-making, and the cloud provides globally distributed computing resources
+   4. [ ] Blockchain lends trust and transparency to AI by recording the data and variables that go into a decision made in an AI algorithm, and the cloud provides an immutable network
+
+--------------------------------------------------------------------------------
+[QUIZ 5] Practice Quiz: Service Models Practice Assignment • 8 min • Grade: --
+Source: Module 2 | Kind: practice_quiz | Status: no_mc_inputs_found
+URL: https://www.coursera.org/learn/introduction-to-cloud/assignment-submission/g2PN9/practice-quiz-service-models/attempt
+Questions extracted: 0
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+[QUIZ 6] Practice Quiz: Deployment Models Practice Assignment • 6 min • Grade: --
+Source: Module 2 | Kind: practice_quiz | Status: opened_via_button:Start assignment
+URL: https://www.coursera.org/learn/introduction-to-cloud/assignment-submission/IQv2R/practice-quiz-deployment-models/attempt
+Questions extracted: 3
+--------------------------------------------------------------------------------
+
+Q1 (multiple_select):
+Which of these scenarios are good use cases for Public Cloud? Select two.
+   1. [ ] Reducing time-to-market for products and services
+   2. [ ] Applications with stable capacity and resourcing needs
+   3. [ ] Disaster recovery, data protection, and business continuity
+   4. [ ] Managing business critical platforms and applications
+
+Q2 (single_choice):
+What do we mean when we say that the Hybrid Cloud is interoperable?
+   1. [ ] Organizations can choose to run their sensitive workloads on a private cloud
+   2. [ ] The public and private cloud services can understand each other’s APIs, configuration, data formats, and forms of authentication and authorization
+   3. [ ] You are no longer locked-in with a specific vendor
+   4. [ ] When there is a spike in demand, a workload running on the private cloud can leverage the additional public cloud capacity
+
+Q3 (single_choice):
+What is the benefit of using private cloud?
+   1. [ ] Common access to all with minimum security
+   2. [ ] Ability to provision limited resources saving costs
+   3. [ ] Leverage usage of systems directly controlled by organization
+   4. [ ] Ability to better utilize external resources outside organization
+
+--------------------------------------------------------------------------------
+[QUIZ 7] Module 2 Graded Quiz: Cloud Computing Models Graded Assignment • Submitted • Grade: --
+Source: Module 2 | Kind: graded_quiz | Status: opened_via_button
+URL: https://www.coursera.org/learn/introduction-to-cloud/assignment-submission/weVuT/module-2-graded-quiz-cloud-computing-models/view-feedback
+Questions extracted: 10
+--------------------------------------------------------------------------------
+
+Q1 (single_choice):
+In which cloud service model does the service provider manage the application data along with the infrastructure and platform resources ?
+   1. [x] SaaS
+   2. [ ] CaaS
+   3. [ ] PaaS
+   4. [ ] IaaS
+
+Q2 (single_choice):
+In which IaaS cloud environment can the customers deploy their middleware and install applications?
+   1. [ ] AI
+   2. [x] Virtual Machines
+   3. [ ] Blockchain
+   4. [ ] IoT
+
+Q3 (single_choice):
+What is one of the concerns in cloud infrastructure configuration and management?
+   1. [ ] Scaling infrastructure up and down as demand fluctuates
+   2. [ ] Solving complex problems involving millions of variables and calculations
+   3. [x] Dependency on a third party for workload availability and performance
+   4. [ ] Business continuity and disaster recovery
+
+Q4 (single_choice):
+What is the responsibility of a user in the PaaS model?
+   1. [ ] Database management systems
+   2. [ ] Workload management
+   3. [ ] Business process management systems
+   4. [x] Application code and its maintenance
+
+Q5 (single_choice):
+Which capability in the PaaS model eliminates the need for the integration of disparate components?
+   1. [ ] Rapid deployment mechanisms
+   2. [ ] Business analytics services
+   3. [x] APIs for services
+   4. [ ] Runtime environment
+
+Q6 (single_choice):
+Which is a characteristic of the SaaS model?
+   1. [ ] Infrastructure and code are maintained by the users
+   2. [ ] Services are free for the users on the SaaS cloud
+   3. [ ] Users can see only their own application
+   4. [x] Applications reside on a remote cloud network
+
+Q7 (single_choice):
+What is the users’ role in a public cloud?
+   1. [ ] Users maintain the platform that runs their application
+   2. [ ] Users own the storage their data consumes
+   3. [x] Users don’t own the servers their applications run on
+   4. [ ] Users can manage the operations of the servers
+
+Q8 (single_choice):
+What is a feature of a private cloud?
+   1. [x] Application portability
+   2. [ ] Use of external computing resources
+   3. [ ] Uncontrolled access
+   4. [ ] Limited security
+
+Q9 (single_choice):
+If an organization needs to run a highly sensitive and mission-critical application with unpredictable performance and capacity requirements, which of the following models would best meet its requirements?
+   1. [ ] Public Cloud
+   2. [ ] On-premise Data Centers
+   3. [x] Hybrid Cloud
+   4. [ ] Private Cloud
+
+Q10 (single_choice):
+What do you mean by “cloud bursting”?
+   1. [x] You can leverage public cloud instances for a period of time but return to the private cloud when the surge is met
+   2. [ ] You can move applications and data between on-premises and cloud systems
+   3. [ ] You can spin-up environments using pay-as-you-go in the public cloud
+   4. [ ] You can incrementally modernize your core business systems
+
+--------------------------------------------------------------------------------
+[QUIZ 8] Practice Quiz: Cloud Infrastructure Practice Assignment • 12 min • Grade: --
+Source: Module 3 | Kind: practice_quiz | Status: opened_via_button:Start assignment
+URL: https://www.coursera.org/learn/introduction-to-cloud/assignment-submission/qgTun/practice-quiz-cloud-infrastructure/attempt
+Questions extracted: 6
+--------------------------------------------------------------------------------
+
+Q1 (single_choice):
+Which of the following refers to a physical location where a cloud provider clusters its infrastructure to deliver services?
+   1. [ ] Warehouse
+   2. [ ] Region
+   3. [ ] Data center
+   4. [ ] Networking
+
+Q2 (single_choice):
+Which of the following VMs use hosted hypervisors?
+   1. [ ] Oracle VirtualBox
+   2. [ ] VMware ESX
+   3. [ ] Microsoft Hyper-V
+   4. [ ] Open-source KVM
+
+Q3 (single_choice):
+Which type of Virtual Machine (VM) takes advantage of unused capacity in data centers at a much lower cost than regular VMs of similar sizes?
+   1. [ ] Reserved virtual servers
+   2. [ ] Shared or Public Cloud VMs
+   3. [ ] Dedicated hosts
+   4. [ ] Transient or Spot VMs
+
+Q4 (single_choice):
+Why do bare metal servers take longer to provision than virtual servers?
+   1. [ ] They are multi-tenant servers, and all tenants must help configure them
+   2. [ ] They are physical servers that can be customized to a specified capacity
+   3. [ ] GPU configuration takes time
+   4. [ ] Customer configures the physical servers
+
+Q5 (single_choice):
+Which part of a logically segmented cloud network is the main area where security is implemented?
+   1. [ ] Networking spaces
+   2. [ ] Logical instances of networking elements
+   3. [ ] Subnets
+   4. [ ] Load balancers
+
+Q6 (single_choice):
+Which is a container?
+   1. [ ] A type of virtual machine that is provider-managed, multi-tenant, and can be provisioned on-demand with predefined sizes
+   2. [ ] A piece of software that pulls resources from the physical server and allocates them to your virtual environment
+   3. [ ] A physical server dedicated to a single customer
+   4. [ ] An executable unit of software in which application code is packaged along with its libraries and dependencies, allowing it to be run anywhere
+
+--------------------------------------------------------------------------------
+[QUIZ 9] Practice Quiz: Cloud Storage and Content Delivery Networks Practice Assignment • 10 min • Grade: --
+Source: Module 3 | Kind: practice_quiz | Status: opened_via_button:Start assignment
+URL: https://www.coursera.org/learn/introduction-to-cloud/assignment-submission/pttFD/practice-quiz-cloud-storage-and-content-delivery-networks/attempt
+Questions extracted: 5
+--------------------------------------------------------------------------------
+
+Q1 (single_choice):
+Which storage type is sometimes called "Local Storage"?
+   1. [ ] File Storage
+   2. [ ] Object Storage
+   3. [ ] Direct Attached
+   4. [ ] Block Storage
+
+Q2 (single_choice):
+What is another name for File Storage?
+   1. [ ] NFS
+   2. [ ] COS
+   3. [ ] Direct attached storage
+   4. [ ] Ethernet
+
+Q3 (single_choice):
+Which of the following is true for block storage?
+   1. [ ] Can be attached to multiple compute nodes at once
+   2. [ ] Can only be attached to one node at a time
+   3. [ ] Is used where workloads do not require lightning fast connectivity to storage
+   4. [ ] Is attached to compute nodes using an ethernet network
+
+Q4 (single_choice):
+Which of the following is true for Object storage?
+   1. [ ] You cannot run operating systems or databases
+   2. [ ] Cannot be used to store files
+   3. [ ] Used where fast read and write speeds are necessary
+   4. [ ] Can store applications where content of the file changes
+
+Q5 (single_choice):
+What is a Content Delivery Network (CDN)?
+   1. [ ] A distributed server network
+   2. [ ] A network node
+   3. [ ] A network link
+   4. [ ] Network topology
+
+--------------------------------------------------------------------------------
+[QUIZ 10] Module 3 Graded Quiz: Components of Cloud Computing Graded Assignment • Submitted • Grade: --
+Source: Module 3 | Kind: graded_quiz | Status: opened_via_button
+URL: https://www.coursera.org/learn/introduction-to-cloud/assignment-submission/Lq7vr/module-3-graded-quiz-components-of-cloud-computing/view-feedback
+Questions extracted: 10
+--------------------------------------------------------------------------------
+
+Q1 (single_choice):
+Each Cloud Region can have multiple Availability Zones. What are Zones ?
+   1. [ ] Geographic area or region where the cloud provider’s infrastructure is clustered
+   2. [ ] Single shared point of failure
+   3. [ ] Standardized containers of computing resources
+   4. [x] Unique physical locations with one or more data centers
+
+Q2 (single_choice):
+Which of the following is a benefit of virtualization?
+   1. [x] Cost savings
+   2. [ ] Is secure
+   3. [ ] Runs a single operating system
+   4. [ ] Increases your downtime
+
+Q3 (single_choice):
+Which of the following types of Virtual Machine (VM) guarantees resources for future deployments?
+   1. [x] Reserved virtual servers
+   2. [ ] Transient or Spot VMs
+   3. [ ] Shared or Public Cloud VMs
+   4. [ ] Dedicated hosts
+
+Q4 (single_choice):
+Which of the following is a feature of bare metal servers?
+   1. [ ] Rapidly provisioned
+   2. [x] High performance and secure
+   3. [ ] Low cost to use
+   4. [ ] Multiple tenants
+
+Q5 (single_choice):
+Subnets are the main area where security is implemented in the cloud. Which of the following is used to provide security at the virtual instance level in subnets?
+   1. [ ] Load Balancers
+   2. [x] Security Groups or SGs
+   3. [ ] Virtual Private Cloud or VPC
+   4. [ ] Public Gateways
+
+Q6 (single_choice):
+Which of the following is a benefit of isolation of applications in containers?
+   1. [ ] Abstraction from the host operating system
+   2. [x] Preventing malicious code in one container from impacting other containers
+   3. [ ] Repackaged into containers or containerized microservices
+   4. [ ] Open-sourced runtime engine
+
+Q7 (single_choice):
+Which of the following storage types are ephemeral or non-persistent?
+   1. [ ] File storage
+   2. [x] Direct Attached storage
+   3. [ ] Object storage
+   4. [ ] Block storage
+
+Q8 (single_choice):
+What makes File storage an ideal solution for scenarios where shared storage is required?
+   1. [ ] Fast accessibility of file storage over the network
+   2. [ ] File storage can be mounted from remote storage appliances
+   3. [x] File storage can be mounted on multiple compute nodes at the same time
+   4. [ ] File Storage is mounted to compute nodes via an ethernet network
+
+Q9 (single_choice):
+Which of the following scenarios is best suited for Block Storage?
+   1. [ ] Workloads that need disk sharing between compute nodes
+   2. [x] Applications that need consistent fast access to the disk, such as databases
+   3. [ ] Where workloads do not require fast connectivity to storage
+   4. [ ] Low cost is a consideration
+
+Q10 (single_choice):
+Which of the following is a feature of Object storage?
+   1. [x] You can directly use Object Storage without attaching it to a compute node
+   2. [ ] Used where fast read and write speeds are necessary
+   3. [ ] Storage is attached to compute nodes using a fiber network
+   4. [ ] Object Storage can be mounted on multiple compute nodes via an ethernet network
+
+--------------------------------------------------------------------------------
+[QUIZ 11] Practice Quiz: Hybrid Multi-cloud, Microservices, Serverless Computing Practice Assignment • 10 min • Grade: --
+Source: Module 4 | Kind: practice_quiz | Status: opened_after_step_1
+URL: https://www.coursera.org/learn/introduction-to-cloud/assignment-submission/qFBRl/practice-quiz-hybrid-multi-cloud-microservices-serverless-computing/attempt
+Questions extracted: 5
+--------------------------------------------------------------------------------
+
+Q1 (single_choice):
+What is serverless computing?
+   1. [ ] An approach to computing that removes servers from a computing environment and increases responsibility for common infrastructure management tasks.
+   2. [ ] An approach to computing that increases responsibility for common infrastructure management tasks.
+   3. [ ] An approach to computing that removes servers from a computing environment.
+   4. [ ] An approach to computing that offloads responsibility for common infrastructure management tasks.
+
+Q2 (single_choice):
+What is the microservices architecture approach?
+   1. [ ] An approach in which a single application monitors an enterprises security network
+   2. [ ] An approach in which all enterprise data is stored in a single repository
+   3. [ ] An approach in which a single application consists of many loosely coupled and independently deployable smaller components or services
+   4. [ ] An approach in which a single application controls a server for an enterprise.
+
+Q3 (single_choice):
+Which of the following lists all three microservices communication methods?
+   1. [ ] APIs, cloud monitoring, and message brokers
+   2. [ ] APIs, event streaming, and resource brokers
+   3. [ ] Event streaming, message brokers, and cloud encryption
+   4. [ ] APIs, event streaming, and message brokers
+
+Q4 (single_choice):
+Which of the following contains the two environments where a hybrid cloud environment connects?
+   1. [ ] Private and resource clouds
+   2. [ ] Public and resource clouds
+   3. [ ] Private and security clouds
+   4. [ ] Public and private clouds
+
+Q5 (single_choice):
+Which of the following best describes a multi-cloud strategy?
+   1. [ ] Dedicated cloud strategy
+   2. [ ] Vendor lock-in strategy
+   3. [ ] Private cloud deployment strategy
+   4. [ ] Cloud adoption strategy
+
+--------------------------------------------------------------------------------
+[QUIZ 12] Practice Quiz: Cloud Native Applications, DevOps, and Application Modernization Practice Assignment • 6 min • Grade: --
+Source: Module 4 | Kind: practice_quiz | Status: opened_after_step_1
+URL: https://www.coursera.org/learn/introduction-to-cloud/assignment-submission/MkiB7/practice-quiz-cloud-native-applications-devops-and-application-modernization/attempt
+Questions extracted: 3
+--------------------------------------------------------------------------------
+
+Q1 (single_choice):
+Which of the following system-level services must be leveraged in cloud native applications due to the complexity of microservices architecture?
+   1. [ ] Firewall management, DNS resolution, and certificate rotation.
+   2. [ ] Session replication, API monetization, and traffic shaping.
+   3. [ ] Load balancing, service discovery, and routing.
+   4. [ ] Data warehousing, archival storage, and batch processing.
+
+Q2 (single_choice):
+In the context of continuous integration, what does the release of code changes as immutable images imply about system updates?
+   1. [ ] Any required modification necessitates replacing the entire component.
+   2. [ ] Each update patches the existing deployment directly.
+   3. [ ] Code changes are applied manually to the production environment.
+   4. [ ] Changes are merged into one monolithic build before deployment.
+
+Q3 (single_choice):
+Why is DevOps considered a critical component in realizing the benefits of application modernization?
+   1. [ ] It enforces long-term deployment cycles.
+   2. [ ] It enables programmable infrastructure that supports speed and resiliency.
+   3. [ ] It automates code review and syntax validation.
+   4. [ ] It centralizes legacy application monitoring in a single dashboard.
+
+--------------------------------------------------------------------------------
+[QUIZ 13] Module 4 Graded Quiz: Emergent Trends and Practices Graded Assignment • Submitted • Grade: --
+Source: Module 4 | Kind: practice_quiz | Status: opened_via_button
+URL: https://www.coursera.org/learn/introduction-to-cloud/assignment-submission/fpjht/module-4-graded-quiz-emergent-trends-and-practices/view-feedback
+Questions extracted: 10
+--------------------------------------------------------------------------------
+
+Q1 (single_choice):
+Which of the following options describes a development principle, or action, for cloud native applications?
+   1. [ ] Combine applications to create microservices with multiple functions.
+   2. [ ] Bring the various single-function components of an application into one huge piece of software.
+   3. [x] Containerize the microservices for maximum flexibility, scalability, and portability.
+   4. [ ] Tightly coupling the different functions of the application so that they can work together as a whole.
+
+Q2 (single_choice):
+Which of the following best describes a key benefit of DevOps in a cloud-native environment?
+   1. [ ] It eliminates the need for continuous deployment by automating all manual testing.
+   2. [ ] It allows developers to manage infrastructure without involving operations teams.
+   3. [ ] It increases overhead by requiring more manual steps in the development lifecycle.
+   4. [x] It leverages cloud technologies for rapid and reliable delivery of applications through automation and collaboration.
+
+Q3 (single_choice):
+Which of the provided options encapsulates the complete application modernization journey?
+   1. [ ] The journey from monolithic and service-oriented architecture to microservices architecture.
+   2. [ ] The journey from physical servers and VMs to cloud infrastructure
+   3. [x] The journey from monolithic and service-oriented architecture to microservices architecture, from physical servers and VMs to cloud infrastructure, and from the waterfall and agile methodology to DevOps.
+   4. [ ] The journey from the waterfall and agile development methodologies to DevOps.
+
+Q4 (single_choice):
+How would a global flower delivery company leverage the Hybrid Multicloud architecture to meet its requirement of varying capacity demands across different geographies?
+   1. [x] By distributing their delivery service application across multiple cloud environments and providers spread across multiple geographies.
+   2. [ ] By using the automatic provisioning and de-provisioning of resources that the cloud offers.
+   3. [ ] By scaling up their on-premises architecture
+
+Q5 (single_choice):
+Which of the following statements describes the DevOps approach and process?
+   1. [ ] Eliminates the need to monitor performance and availability.
+   2. [ ] An approach that utilizes cloud applications to monitor systems.
+   3. [ ] Eliminates the need to provision servers, build middleware, and install application code.
+   4. [x] DevOps process is a collaborative approach that defines how people build, deploy, and manage applications in a cloud-native environment to deliver software continuously.
+
+Q6 (single_choice):
+Which of these scenarios is NOT a good use case for serverless architecture?
+   1. [ ] Stream processing workloads
+   2. [ ] Supporting microservices architecture
+   3. [ ] Microservices that can be built as stateless functions
+   4. [x] Workloads characterized by long-running processes
+
+Q7 (single_choice):
+How can the microservices architecture approach be characterized ?
+   1. [ ] Requirement to build every new functionality in a microservice from the ground up.
+   2. [x] Decomposition of large applications into core functions to construct a comprehensive and functional application.
+   3. [ ] Impact on the entire application when one microservice ceases to function.
+   4. [ ] Compulsion to bundle all microservices for a specific task into a single container.
+
+Q8 (single_choice):
+Fill in the blank. Microservices architecture is an approach in which a ______________ comprises many loosely coupled and independently deployable smaller components or services.
+   1. [ ] Cloud service
+   2. [ ] Repository application
+   3. [x] Single application
+   4. [ ] Server
+
+Q9 (single_choice):
+What does a cloud native application consist of?
+   1. [x] Microservices
+   2. [ ] Executable files
+   3. [ ] Executable containers
+   4. [ ] Application containers
+
+Q10 (single_choice):
+DevOps and Cloud share a _________ relationship.
+   1. [ ] Vendor
+   2. [ ] General partnership
+   3. [x] Symbiotic
+   4. [ ] Customer
+
+--------------------------------------------------------------------------------
+[QUIZ 14] Practice Quiz: Cloud Security and Monitoring Practice Assignment • 10 min • Grade: --
+Source: Module 5 | Kind: practice_quiz | Status: opened_via_button:Start assignment
+URL: https://www.coursera.org/learn/introduction-to-cloud/assignment-submission/l47BQ/practice-quiz-cloud-security-and-monitoring/attempt
+Questions extracted: 5
+--------------------------------------------------------------------------------
+
+Q1 (single_choice):
+What are the three main areas that cloud monitoring assesses?
+   1. [ ] Software, servers, and traffic.
+   2. [ ] Data, applications, and infrastructure.
+   3. [ ] Infrastructure, resources, and frameworks.
+   4. [ ] Resources, security, and storage.
+
+Q2 (single_choice):
+What does data encryption do?
+   1. [ ] Saves data to the cloud and is accessible to any shared user.
+   2. [ ] Scrambles data in a way that makes the data illegible.
+   3. [ ] Stores data in the cloud where it can be accessed even without a key.
+   4. [ ] Keeps sensitive data password protected.
+
+Q3 (single_choice):
+What is the purpose of cloud directory services?
+   1. [ ] Serves as a data hub for files and folders.
+   2. [ ] Securely manage user profiles and their credentials.
+   3. [ ] Encrypts user accounts.
+   4. [ ] Securely saves user data in a repository.
+
+Q4 (single_choice):
+What does a distribute-denial-of-service (DDoS) attack do?
+   1. [ ] A DDoS attack disconnects a user from the internet.
+   2. [ ] A DDoS attack targets enterprise systems by installing a worm virus.
+   3. [ ] A DDoS attack targets the server in the enterprise by overloading it with traffic from multiple synchronized systems.
+   4. [ ] A DDoS attack installs malware onto the user’s computer.
+
+Q5 (single_choice):
+Which is another element of cloud security?
+   1. [ ] Offline cloud access.
+   2. [ ] Cloud streaming.
+   3. [ ] Cloud network security.
+   4. [ ] Device security.
+
+--------------------------------------------------------------------------------
+[QUIZ 15] Practice Quiz: Case Studies and Jobs Practice Assignment • 10 min • Grade: --
+Source: Module 5 | Kind: practice_quiz | Status: opened_via_button:Start assignment
+URL: https://www.coursera.org/learn/introduction-to-cloud/assignment-submission/EZVPo/practice-quiz-case-studies-and-jobs/attempt
+Questions extracted: 5
+--------------------------------------------------------------------------------
+
+Q1 (single_choice):
+Cloud computing is a key part of an enterprise’s digital transformation strategy. True or false.
+   1. [ ] True
+   2. [ ] False
+
+Q2 (multiple_select):
+What are some best practices organizations need to follow in order to protect their cloud resources and systems? Select two.
+   1. [ ] Distribute tasks, workloads, and network traffic
+   2. [ ] Active monitoring for security and compliance
+   3. [ ] Adopt a shared responsibility model
+   4. [ ] Run security monitoring tools on a periodic basis to ensure security threats and breaches are flagged
+
+Q3 (multiple_select):
+Which of the following are key components of Identity and Access Management (IAM)? Select two.
+   1. [ ] Protecting data while it is at rest, in motion, and in use
+   2. [ ] Audit and Compliance
+   3. [ ] Cloud Directory Services
+   4. [ ] Embedding security through the life cycle of an application
+
+Q4 (single_choice):
+Which of these statements is true of cloud encryption?
+
+A. Encryption ensures only authorized users have access to sensitive data.
+
+B. When encrypted data is intercepted without authorization, it is unreadable and meaningless
+
+C. Encryption protects data when it is at rest, in transit, and in use in memory.
+
+D. Encryption eliminates data security risk
+   1. [ ] A, B, and C only
+   2. [ ] A, B, and D only
+   3. [ ] A, B, C, and D
+   4. [ ] A and C only
+
+Q5 (multiple_select):
+Identify some of the standard cloud monitoring best practices from the provided options. Select two.
+   1. [ ] Leverage end-user experience monitoring solutions to capture the performance of an application from the point of view of its end users.
+   2. [ ] Track usage and cost of your cloud resources and services.
+   3. [ ] Authenticate users attempting to access their cloud resources.
+   4. [ ] Encrypt data before it is sent to the cloud.
+
+--------------------------------------------------------------------------------
+[QUIZ 16] Module 5 Graded Quiz: Cloud Security, Monitoring, Case Studies, & Jobs Graded Assignment • Submitted • Grade: --
+Source: Module 5 | Kind: graded_quiz | Status: opened_via_button
+URL: https://www.coursera.org/learn/introduction-to-cloud/assignment-submission/i6DVn/module-5-graded-quiz-cloud-security-monitoring-case-studies-jobs/view-feedback
+Questions extracted: 10
+--------------------------------------------------------------------------------
+
+Q1 (single_choice):
+Fill in the blank. _____________ is a key part of an enterprise’s digital transformation strategy.
+   1. [ ] Local storage devices
+   2. [ ] Encryption
+   3. [ ] Databases
+   4. [x] Cloud computing
+
+Q2 (single_choice):
+Which of the following are some best practices organizations must follow to protect their cloud resources and systems?
+   1. [x] Adopt a shared responsibility model of active monitoring for security and compliance
+   2. [ ] Distribute tasks, workloads, and monitoring software
+   3. [ ] Run security monitoring tools periodically to ensure security threats and breaches are flagged
+   4. [ ] Distribute tasks, workloads, and network traffic
+
+Q3 (single_choice):
+Which of the following are key Identity and Access Management (IAM) components?
+   1. [ ] Encryption security practices
+   2. [x] Cloud Directory Services, Audits, and Compliance
+   3. [ ] Protecting data while it is at rest, in motion, and in use
+   4. [ ] Embedding security through the life cycle of an application
+
+Q4 (single_choice):
+Which of these statements is true of cloud encryption?
+
+A. Encryption ensures that only authorized users have access to sensitive data.
+
+B. When encrypted data is intercepted without authorization, it is unreadable and meaningless
+
+C. Encryption protects data when it is at rest, in transit, and in use in memo.
+
+D. Encryption eliminates data security risks.
+   1. [ ] A, B, C, and D
+   2. [x] A, B, and C only
+   3. [ ] A and C only
+   4. [ ] A, B, and D only
+
+Q5 (single_choice):
+Identify some of the standard cloud monitoring best practices from the provided options.
+   1. [ ] Authenticate users attempting to access their cloud resources.
+   2. [ ] Encrypt data on a physical storage device.
+   3. [ ] Encrypt data before it is sent to the cloud.
+   4. [x] Leverage end-user experience monitoring solutions to capture the performance of an application from the point of view of its end users and track the usage and cost of your cloud resources and services.
+
+Q6 (single_choice):
+What are some of the monitoring tools that help you to gain insights about your posture, compliance, and threats?
+   1. [x] Flow logs from the network and security events
+   2. [ ] Data encryption
+   3. [ ] Flow logs and hypervisors
+   4. [ ] Hypervisors
+
+Q7 (single_choice):
+What are some of the benefits of using access groups?
+   1. [ ] Access groups define the users, the resources to which access is granted, and the permission level each user has on these resources.
+   2. [ ] Access groups create an additional level of authentication for application users.
+   3. [ ] Access groups help increase the number of policies of an account.
+   4. [x] The use of access groups helps to reduce the number of policies in an account. Access groups provide a more streamlined way to assign access rights.
+
+Q8 (single_choice):
+Identify the two main parts of an encryption system from the provided options.
+   1. [ ] Physical encryption device
+   2. [x] The encryption algorithm and decryption key
+   3. [ ] Client-side encryption
+   4. [ ] Server-side encryption
+
+Q9 (multiple_select):
+What are some of the benefits that cloud monitoring solutions offer?
+   1. [ ] Enhanced security to user accounts
+   2. [x] Accelerate the diagnosis and resolution of performance incidents and provide proactive notifications of abnormal or unusual situations.
+   3. [x] Troubleshoot applications and infrastructure
+   4. [ ] Prevent unauthorized users from accessing the systems
+
+Q10 (multiple_select):
+The Weather Company migrated its weather web property to a secure, scalable, and global architecture in the IBM Cloud. What benefits did they realize as a result of this migration?
+   1. [x] Harness local data centers to minimize latency for users and optimize their systems for elasticity in handling extreme spikes in demand
+   2. [ ] Faster development and release of new apps and digital self-service tools to customers
+   3. [ ] Increase asset availability and overall equipment effectiveness
+   4. [ ] Increase development and increased latency
+
+--------------------------------------------------------------------------------
+[QUIZ 17] Case Study Quiz: Modernize with Cloud Practice Assignment • Submitted • Grade: --
+Source: Module 6 | Kind: practice_quiz | Status: opened_via_button
+URL: https://www.coursera.org/learn/introduction-to-cloud/assignment-submission/SO6oF/case-study-quiz-modernize-with-cloud/view-feedback
+Questions extracted: 10
+--------------------------------------------------------------------------------
+
+Q1 (single_choice):
+Which IBM Cloud component helped you make the DineEase Ordering service scalable? Select the component that monitors incoming requests, scales the application instances up and down to meet the demand, and is a fully managed serverless platform.
+   1. [x] IBM Cloud Code Engine
+   2. [ ] IBM Watson Assistant
+   3. [ ] Turbonomic
+   4. [ ] API Connect
+
+Q2 (single_choice):
+Which deployment model suits the low latency and high availability demand for DineEase services?
+   1. [ ] IBM Edge Application Manager
+   2. [ ] Single campus Multizone Regions
+   3. [x] Multizone Regions (MZR)
+   4. [ ] Hybrid Cloud HPC
+
+Q3 (single_choice):
+Payment processing for DineEase is computationally intensive, needs a secure environment, and must quickly process large amounts of data. Which IBM Cloud service did you choose for these capabilities?
+   1. [ ] IBM Cloud for VMware Solutions
+   2. [ ] IBM WebSphere Application Server
+   3. [x] IBM Cloud Bare Metal Servers
+   4. [ ] IBM Cloud Functions
+
+Q4 (single_choice):
+Search, Menu, and Pricing services for DineEase need the flexibility of using different technology stacks per service. Which IBM Cloud service did you choose to solve this problem?
+   1. [ ] Container Security Services
+   2. [ ] IBM WebSphere Application Server
+   3. [x] IBM Cloud Kubernetes Service
+   4. [ ] IBM Cloud Bare Metal Servers
+
+Q5 (single_choice):
+You need to find a service that can interact with DineEase API services and the outside world, removes rigid dependencies, and adds a communication layer. Which IBM Cloud service did you choose to solve this problem?
+   1. [x] IBM API Connect
+   2. [ ] IBM App Connect
+   3. [ ] Event Streams
+   4. [ ] IBM Lift
+
+Q6 (single_choice):
+DineEase needs g optimized reads so that consumers can see restaurant reviews and ratings. Which IBM Cloud service did you choose to solve this problem?
+   1. [ ] IBM Cloud Databases for MySQL
+   2. [ ] IBM Db2 on Cloud
+   3. [x] IBM Cloudant
+   4. [ ] IBM Db2 Warehouse on Cloud
+
+Q7 (single_choice):
+DineEase needs to find a regionally deployed, fully managed IBM relational database that offers high-availability disaster recovery (HADR). Which IBM Cloud service did you choose to solve this problem?
+   1. [ ] IBM Cloudant
+   2. [x] IBM Db2 on Cloud
+   3. [ ] IBM Cloud Object Storage
+   4. [ ] IBM Cloud Databases for MongoDB
+
+Q8 (single_choice):
+DineEase hosts a lot of food photos, restaurant logos, and other secondary media. Find the service that distributes their content in geographically diverse nodes and shortens the distance media images need to travel to reach the consumer’s device. Which IBM Cloud service did you choose to solve this problem?
+   1. [ ] IBM Cloud Pak for Data
+   2. [ ] IBM Cloud Backup
+   3. [ ] IBM Cloud Databases for MongoDB
+   4. [x] Content Delivery Network
+
+Q9 (single_choice):
+The new application needs a service to balance traffic among its servers to help improve uptime. Which IBM Cloud service did you select?
+   1. [ ] IBM Cloud Direct Link
+   2. [ ] IBM Cloud Activity Tracker
+   3. [ ] IBM Cloud Code Engine
+   4. [x] IBM Cloud Load Balancer for VPC or Classic
+
+Q10 (single_choice):
+You needed to find a service that you could use to monitor the performance and health of DineEase operations. Which IBM Cloud services did you select?
+   1. [x] IBM Cloud Monitoring
+   2. [ ] IBM Cloud Activity Tracker
+   3. [ ] IBM Cloud Pak for AIOps
+   4. [ ] IBM Log Analysis

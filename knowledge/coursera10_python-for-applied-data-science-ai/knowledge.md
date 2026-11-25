@@ -1,0 +1,3813 @@
+# Python for Data Science, AI & Development
+
+- **Course URL:** https://www.coursera.org/learn/python-for-applied-data-science-ai
+- **Crawled at:** 2026-11-25T22:09:17.814348
+- **Extracted:** 61/61 items (26 videos, 35 readings) | 346,038 chars
+
+---
+
+## Module 1: Python Basics
+
+### 1. [VIDEO TRANSCRIPT] Course Introduction Video • 1 min Get started
+- **URL:** https://www.coursera.org/learn/python-for-applied-data-science-ai/lecture/JPToK/course-introduction
+- **Method:** `dom_transcript` | **Length:** 1631 chars
+
+Hello. I'm Joseph, and I will be your instructor for this course. You made the right choice. If there's just one programming language I had to learn for data science and AI, it would unquestionably be Python. The best part is Python is super easy to learn and is often one of the first languages people turn to when trying to learn to code. Python is very powerful. It has a huge ecosystem of libraries that will help you get the most complex things done with just a few lines of code.
+
+Python is great from everything from data analysis, web scraping, to working with big data, finance, computer vision, natural language processing, machine learning, deep learning, and much more. Python can do anything you can throw at it. This course is designed for beginners, but if you know how to program, you can also take this course and quickly learn Python. In Module 1, you will learn Python basics, including types, expressions, variables, and string operations. In Module 2, you will cover Python data structures, including lists, tuples, dictionaries, and sets. In Module 3, I will teach you Python programming fundamentals, such as conditions, branching, loops, functions, and objects and classes. In Module 4, I will teach you how to work with data, including loading data with Pythons built-in functions, using popular libraries such as NumPy and Pandas, followed by application programming interfaces, or APIs for short.
+
+You will apply what you learn by doing projects using real-world datasets. If you have any questions or require clarification, feel free to post on the course discussion forum. Good luck and happy learning.
+
+---
+
+### 2. [READING] About this course Reading • 5 min
+- **URL:** https://www.coursera.org/learn/python-for-applied-data-science-ai/supplement/i752L/about-this-course
+- **Method:** `dom_reading_cml` | **Length:** 2788 chars
+
+Welcome to the Python for Data Science, AI, and Development course!
+
+### Overview
+
+This course was designed to provide the building blocks for Python programming and data collection for those choosing a career in Data Science, Data Engineering, AI or Application Development. Initially conceived as a foundation course for Data Science and AI it has been refreshed several times to keep pace with emerging career options. Additional content has been added which is applicable to Data Science, Data Engineering, AI or Application Development.
+
+After completing this course, you'll possess the basic knowledge of Python and acquire a good understanding of different data types. You’ll also learn to use lists and tuples, dictionaries, and Python sets. Additionally, you’ll acquire the concepts of condition and branching and will know how to implement loops, create functions, perform exception handling, and create objects. Furthermore, you’ll be proficient in reading and writing files and will be able to implement unique ways to collect data using APIs and web scraping. In addition to the module labs, you'll prove your skills in a peer-graded project and your overall knowledge with the final quiz.
+
+By finishing this course and your follow-on Python Project, you will gain the basic skills to continue the steps on your chosen career path.
+
+Note: This course is a pre-requisite for the Python Project courses and should be completed in full before attempting the appropriate Python Project course.
+
+### Course Content
+
+This course is divided into five modules. You should set a goal to complete at least one module per week.
+
+Module 1: Python Basics
+
+- About the Course
+- Types
+- Expressions and Variables
+- String Operations
+
+Module 2: Python Data Structures
+
+- Lists and Tuples
+- Dictionaries
+- Sets
+
+Module 3: Python Programming Fundamentals
+
+- Conditions and Branching
+- Loops
+- Functions
+- Exception Handling
+- Objects and Classes
+- Practice with Python Programming Fundamentals
+
+Module 4: Working with Data in Python
+
+- Reading and Writing Files with Open
+- Pandas
+- Numpy in Python
+
+Module 5: APIs and Data Collection
+
+- Simple APIs
+- REST APIs, Web Scraping, and Working with Files
+- Final Exam
+
+The course contains a variety of learning assets: Videos, activities, labs, projects, practice, graded quizzes, and readings. The videos and readings present the instruction. Labs and activities support that instruction with hands-on learning experiences. Discussions allow you to interact and learn from your peers. A peer-review project that mimics real-world scenarios encourage you to showcase your skills, Practice quizzes enable you to test your knowledge of what you learned. Finally, graded quizzes indicate how well you have learned the course concepts.
+
+Happy learning!
+
+---
+
+### 3. [VIDEO TRANSCRIPT] Introduction to Python Video • 4 min
+- **URL:** https://www.coursera.org/learn/python-for-applied-data-science-ai/lecture/qmo2G/introduction-to-python
+- **Method:** `dom_transcript` | **Length:** 3398 chars
+
+Welcome to “Introduction to Python”. After watching this video, you will be able to identify the users of Python. List the benefits of using Python. Describe the diversity and inclusion efforts of the Python community. Python is a powerhouse of a language. It is the most widely used and most popular programming language used in the data science industry. According to the 2019 Kaggle Data Science and Machine Learning Survey, ¾ of the over 10,000 respondents worldwide reported that they use Python regularly.
+
+Glassdoor reported that in 2019 more than 75% of data science positions listed included Python in their job descriptions. When asked which language an aspiring data scientist should learn first, most data scientists say Python. Let’s start with the people who use Python. If you already know how to program, then Python is great for you because it uses clear and readable syntax. You can develop the same programs from other languages with lesser code using Python. For beginners, Python is a good language to start with because of the huge global community and wealth of documentation. Several different surveys done in 2019 established that over 80% of data professionals use Python worldwide.
+
+Python is useful in many areas including data science, AI and machine learning, web development, and Internet of Things (IoT) devices, like the Raspberry Pi. Large organizations that heavily use python include IBM, Wikipedia, Google, Yahoo!, CERN, NASA, Facebook, Amazon, Instagram, Spotify, and Reddit. Python is widely supported by a global community and shepherded by the Python Software Foundation. Python is a high-level, general-purpose programming language that can be applied to many different classes of problems. It has a large, standard library that provides tools suited to many different tasks including but not limited to Databases, Automation, Web scraping, Text processing, Image processing, Machine learning, and Data analytics. For data science, you can use Python's scientific computing libraries like Pandas, NumPy, SciPy, and Matplotlib. For artificial intelligence, it has TensorFlow, PyTorch, Keras, and Scikit-learn.
+
+Python can also be used for Natural Language Processing (NLP) using the Natural Language Toolkit (NLTK). Another great selling point for Python is that the Python community has a well-documented history of paving the way for diversity and inclusion efforts in the tech industry as a whole. The Python language has a code of conduct executed by the Python Software Foundation that seeks to ensure safety and inclusion for all, in both online and in-person Python communities. Communities like PyLadies seek to create spaces for people interested in learning Python in safe and inclusive environments. PyLadies is an international mentorship group with a focus on helping more women become active participants and leaders in the Python open-source community. In this video, you learned that Python uses clear and readable syntax. Python has a huge global community and a wealth of documentation.
+
+For data science, you can use python's scientific computing libraries like Pandas, NumPy, SciPy, and Matplotlib. Python can also be used for Natural Language Processing (NLP) using the Natural Language Toolkit (NLTK). Python community has a well-documented history of paving the way for diversity and inclusion efforts in the tech industry as a whole.
+
+---
+
+### 4. [READING] Introduction to Jupyter Reading • 10 min
+- **URL:** https://www.coursera.org/learn/python-for-applied-data-science-ai/supplement/eztrX/introduction-to-jupyter
+- **Method:** `dom_reading_cml` | **Length:** 3867 chars
+
+Jupyter is a freely available web application that enables creation and sharing of documents containing equations, live coding, visualizations, and narrative text. Jupyter provides an interactive computing environment that supports multiple programming languages, including Python, R, Julia, and more, but it shines brightest when used with Python.  Jupyter revolves around notebooks, documents containing a mix of code, visualizations, narrative text, equations, and multimedia content. These notebooks allow users to create, share, and collaborate on computational projects seamlessly.
+
+Why Jupyter?
+
+Jupyter's popularity stems from its flexibility and ease of use. Regardless of your level of programming expertise, whether you're an experienced coder or embarking on your data science journey, Jupyter offers an intuitive platform for writing, testing, and sharing code. Its interactive interface enables data exploration, algorithm experimentation, and result visualization—all seamlessly integrated within a unified environment.
+
+Key Features of Jupyter
+
+Here are some key features and advantages of Jupyter:
+
+- Interactive Computing: Jupyter notebooks enable users to write and execute code interactively. This means you can run code cells individually and see the output immediately, fostering an iterative approach to coding and experimentation.
+- Support for Multiple Languages: While Jupyter was initially developed for Python (hence the name, which stands for Julia, Python, and R), it now supports various programming languages through its kernel system. This flexibility makes Jupyter suitable for various computational tasks and interdisciplinary collaboration.
+- Rich Output: Jupyter Notebooks support rich media integration, allowing users to generate interactive plots, charts, images, videos, and more directly within the document. This makes visualizing data, communicating findings, and creating compelling narratives easier.
+- Integration with Data Science Libraries: Jupyter seamlessly integrates with popular libraries and frameworks used in the data science ecosystem, such as NumPy, Pandas, Matplotlib, sci-kit-learn, TensorFlow, and PyTorch. This allows users to leverage the full power of these tools within the notebook environment for tasks like data manipulation, visualization, machine learning, and deep learning.
+- Collaboration and Sharing: Jupyter promotes collaboration and reproducibility by allowing users to share their notebooks with others via email, GitHub, or the Jupyter Notebook Viewer. This facilitates knowledge sharing, peer review, and interdisciplinary collaboration, as users can easily exchange ideas, code snippets, and best practices.
+
+Jupyter in Data Science
+
+Jupyter has become an indispensable tool for researchers, analysts, and developers in data science. Its seamless integration with popular libraries such as NumPy, pandas, and sci-kit-learn makes it the go-to choice for data manipulation, analysis, and machine learning. Jupyter provides a user-friendly interface, interactive capabilities, and robust collaboration features, making it an essential tool for anyone involved in data analysis, scientific research, education, or software development. Whether you're exploring data, building machine learning models, teaching a class, or conducting research, Jupyter empowers you to work more efficiently and share your insights with others.
+
+Getting Started with Jupyter
+
+Now that you can glimpse what Jupyter offers, it's time to dive in and experience its capabilities firsthand. Our Getting Started with Jupyter video will walk you through the basics of setting up and using Jupyter, empowering you to unleash the full potential of Python and embark on your data science journey with confidence.
+
+So, let's jump into the world of Jupyter and unlock a world of possibilities in Python and data science!
+
+---
+
+### 5. [VIDEO TRANSCRIPT] Getting Started with Jupyter Video • 4 min
+- **URL:** https://www.coursera.org/learn/python-for-applied-data-science-ai/lecture/hIluj/getting-started-with-jupyter
+- **Method:** `dom_transcript` | **Length:** 3272 chars
+
+Welcome to “Getting started with Jupyter.” After watching this video, you will be able to: Describe how to run, insert, and delete a cell in a notebook. Work with multiple notebooks. Present the notebook, and shut down the notebook session. In the lab session of this module, you can launch a notebook using the Skills Network virtual environment. After selecting the check box, click the Open tool tab, and the environment will open the Jupyter Lab. Here you see the open notebook.
+
+On opening the notebook, you can change the name of the notebook. Click File. Then click Rename Notebook to give the required name. And you can now start working on your new notebook. In the new notebook, print “hello world”. Then click the Run button to show that the environment is giving the correct output. On the main menu bar at the top, click Run.
+
+In the drop-down menu, click Run Selected Cells to run the current highlighted cells. Alternatively, you can use a shortcut, press Shift + Enter. In case you have multiple code cells, click Run All cells to run the code in all the cells. You can add code by inserting a new cell. To add a new cell, click the plus symbol in the toolbar. In addition, you can delete a cell. Highlight the cell and on the main menu bar, click Edit, and then click Delete Cells.
+
+Alternatively, you can use a shortcut by pressing D twice on the highlighted cell. Also, you can move the cells up or down as required. So, now you have learned to work with a single notebook. Next, let’s learn to work with multiple notebooks. Click the plus button on the toolbar and select the file you want to open. Another notebook will open. Alternatively, you can click File on the menu bar and click Open a new launcher or Open a new notebook.
+
+And when you open the new file, you can move them around. For example, as shown, you can place the notebooks side by side. On one notebook, you can assign variable one to the number 1, and variable two to the number 2 and then you can print the result of adding the numbers one and two. As a data scientist, it is important to communicate your results. Jupyter supports presenting results directly from the notebooks. You can create a Markdown to add titles and text descriptions to help with the flow of the presentation. To add markdown, click Code and select Markdown.
+
+You can create line plots and convert each cell and output into a slide or sub-slide in the form of a presentation. The slides functionality in Jupyter allows you to deliver code, visualization, text, and outputs of the executed code as part of a project. Now, when you have completed working with your notebook or notebooks, you can shut them down. Shutting down notebooks release their memory. Click the stop icon on the sidebar, it is the second icon from the top. You can terminate all sessions at once or shut them down individually. And after you shut down the notebook session, you will see “no kernel” at the top right.
+
+This confirms it is no longer active, you can now close the tabs. In this video, you learned how to: Run, delete, and insert a code cell. Run multiple notebooks at the same time. Present a notebook using a combination of Markdown and code cells. And shut down your notebook sessions after you have completed your work.
+
+---
+
+### 6. [VIDEO TRANSCRIPT] Types Video • 3 min
+- **URL:** https://www.coursera.org/learn/python-for-applied-data-science-ai/lecture/WtDWG/types
+- **Method:** `dom_transcript` | **Length:** 2467 chars
+
+A type is how Python represents different types of data. In this video, we will discuss some widely used types in Python. You can have different types in Python. They can be integers like 11, real numbers like 21.213, they can even be words. Integers, real numbers, and words can be expressed as different data types. The following chart summarizes three data types for the last examples. The first column indicates the expression.
+
+The second column indicates the data type. We can see the actual data type in Python by using the type command. We can have int, which stands for an integer and float that stands for float, essentially a real number. The type string is a sequence of characters. Here are some integers. Integers can be negative or positive. It should be noted that there is a finite range of integers but it is quite large.
+
+Floats are real numbers. They include the integers but also numbers in between the integers. Consider the numbers between 0 and 1. We can select numbers in between them. These numbers are floats. Similarly, consider the numbers between 0.5 and 0.6. We can select numbers in between them.
+
+These are floats as well. We can continue the process zooming in for different numbers. Of course there is a limit but it is quite small. You can change the type of the expression in Python, this is called typecasting. You can convert an int to a float. For example, you can convert or cast the integer 2 to a float 2.0. Nothing really changes, if you cast a float to an integer, you must be careful.
+
+For example, if you cast the float 1.1 to 1, you will lose some information. If a string contains an integer value, you can convert it to int. If we convert a string that contains a non-integer value, we get an error. Check out more examples in the lab. You can convert an int to a string or a float to a string. Boolean is another important type in Python. A Boolean can take on two values.
+
+The first value is True, just remember we use an uppercase T. Boolean values can also be False with an uppercase F. Using the type command on a Boolean value, we obtain the term bool. This is short for Boolean, if we cast a Boolean True to an integer or float, we will get a 1. If we cast a Boolean False to an integer or float, we get a 0. If you cast a 1 to a Boolean, you get a True. Similarly, if you cast a 0 to a Boolean, you get a False.
+
+Check the labs for more examples or check Python.org for other kinds of types in Python. (Music)
+
+---
+
+### 7. [VIDEO TRANSCRIPT] Expressions and Variables Video • 3 min
+- **URL:** https://www.coursera.org/learn/python-for-applied-data-science-ai/lecture/gjVDL/expressions-and-variables
+- **Method:** `dom_transcript` | **Length:** 3237 chars
+
+In this video, we'll cover expressions and variables. Expressions describe a type of operation the computers perform. Expressions are operations the Python performs. For example, basic arithmetic operations like adding multiple numbers. The result, in this case, is 160. We call the numbers operands, and the math symbols, in this case addition, are called operators. We can perform operations such as subtraction using the subtraction sign.
+
+In this case, the result is a negative number. We can perform multiplication operations using the asterisk. The result is 25. In this case, the operations are given by negative and asterisk. We can also perform division with the forward slash. 25 divided by 5 is 5. 25 divided by 6 is approximately 4.167. In Python 3, the version we will be using in this course, both will result in a float. We can use the double slash for integer division, where the result is rounded.
+
+Be aware, in some cases, the results are not the same as regular division. Python follows mathematical conventions when performing mathematical expressions. The following operations are in a different order. In both cases, Python performs multiplication, then addition to obtain the final result. There are a lot more operations you can do with Python. Check the labs for more examples. We will also be covering more complex operations throughout the course.
+
+The expressions in the parentheses are performed first. We then multiply the result by 60. The result is 1920. Now let's look at variables. We can use variables to store values. In this case, we assign a value of 1 to the variable my underscore variable using the assignment operator, i.e. the equals sign. We can then use the value somewhere else in the code by typing the exact name of the variable.
+
+We can assign a new value to my underscore variable using the assignment operator. We assign a value of 10. The variable now has a value of 10. The old value of the variable is not important. We can store the results of expressions. For example, we add several values and assign the result to x. x now stores the result. We can also perform operations on x and save the result to a new variable y. y now has a value of 2.666.
+
+We could also perform operations on x and assign the value x. The variable x now has a value 2.666. As before, the old value of x is not important. We can use the type command in variables as well. It's good practice to use meaningful variable names so you don't have to keep track of what the variable is doing. Let's say we would like to convert the number of minutes in the highlighted examples to number of hours in the following music data set. We call the variable that contains the total number of minutes, total underscore min.
+
+It's common to use the underscore to represent the start of a new word. You could also use a capital letter. We call the variable that contains the total number of hours, total underscore hour. We can obtain the total number of hours by dividing total underscore min by 60. The result is approximately 2.367 hours. If we modify the value of the first variable, the value of the variable will change. The final result values change accordingly, but we do not have to modify the rest of the code.
+
+---
+
+### 8. [VIDEO TRANSCRIPT] String Operations Video • 3 min
+- **URL:** https://www.coursera.org/learn/python-for-applied-data-science-ai/lecture/hENII/string-operations
+- **Method:** `dom_transcript` | **Length:** 3495 chars
+
+In Python, a string is a sequence of characters. A string is contained within two quotes. You could also use single quotes. A string can be spaces or digits. A string can also be special characters. We can bind or assign a string to another variable. It is helpful to think of a string as an ordered sequence.
+
+Each element in the sequence can be accessed using an index represented by the array of numbers. The first index can be accessed as follows: We can access index six. Moreover, we can access the 13th index. We can also use negative indexing with strings. The last element is given by the index negative one. The first element can be obtained by index negative 15 and so on. We can bind a string to another variable.
+
+It is helpful to think of string as a list or tuple. We can treat the string as a sequence and perform sequence operations. We can also input a stride value as follows: The two indicates we'd select every second variable. We can also incorporate slicing. In this case, we return every second value up to index four. We can use the len command to obtain the length of the string. As there are 15 elements, the result is 15.
+
+We can concatenate or combine strings. We use the addition symbols. The result is a new string that is a combination of both. We can replicate values of a string. We simply multiply the string by the number of times we would like to replicate it- in this case, three. The result is a new string. The new string consists of three copies of the original string.
+
+This means you cannot change the value of the string, but you can create a new string. For example, you can create a new string by setting it to the original variable and concatenate it with a new string. The result is a new string that changes from Michael Jackson to Michael Jackson is the best. Strings are immutable. Back slashes represent the beginning of escape sequences. Escape sequences represent strings that may be difficult to input. For example, backslash "n" represents a new line.
+
+The output is given by a new line after the backslash "n" is encountered. Similarly, backslash "t" represents a tab. The output is given by a tab where the backslash, "t" is. If you want to place a backslash in your string, use a double backslash. The result is a backslash after the escape sequence. We can also place an "r" in front of the string. Now, let's take a look at string methods.
+
+Strings are sequences and as such, have apply methods that work on lists and tuples. Strings also have a second set of methods that just work on strings. When we apply a method to the string A, we get a new string B that is different from A. Let's do some examples. Let's try with the method "Upper". This method converts lowercase characters to uppercase characters. In this example, we set the variable A to the following value.
+
+We apply the method "Upper", and set it equal to B. The value for B is similar to A, but all the characters are uppercase. The method replaces a segment of the string- i.e. a substring with a new string. We input the part of the string we would like to change. The second argument is what we would like to exchange the segment with. The result is a new string with a segment changed. The method find, finds substrings.
+
+The argument is the substring you would like to find. The output is the first index of the sequence. We can find the substring Jack. If the substring is not in the string, the output is negative one. Check the labs for more examples. (Music)
+
+---
+
+### 9. [READING] (Optional) Reading: Format Strings in Python Reading • 10 min
+- **URL:** https://www.coursera.org/learn/python-for-applied-data-science-ai/supplement/AHFWJ/optional-reading-format-strings-in-python
+- **Method:** `dom_reading_cml` | **Length:** 4584 chars
+
+Format strings are a way to inject variables into a string in Python. They are used to format strings and produce more human-readable outputs. There are several ways to format strings in Python:
+
+### String interpolation (f-strings)
+
+Introduced in Python 3.6, f-strings are a new way to format strings in Python. They are prefixed with 'f' and use curly braces {} to enclose the variables that will be formatted. For example:
+
+123name = "John"age = 30print(f"My name is {name} and I am {age} years old.")Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.This will output:
+
+1My name is John and I am 30 years old.Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### str.format()
+
+This is another way to format strings in Python. It uses curly braces {} as placeholders for variables which are passed as arguments in the format() method. For example:
+
+123name = "John"age = 50print("My name is {} and I am {} years old.".format(name, age))Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.This will output:
+
+1My name is John and I am 50 years old.Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### % Operator
+
+This is one of the oldest ways to format strings in Python. It uses the % operator to replace variables in the string. For example:
+
+123name = "Johnathan"age = 30print("My name is %s and I am %d years old." % (name, age))Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.This will output:
+
+1My name is Johnathan and I am 30 years old.Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M."My name is %s and I am %d years old.": This is a string that includes format specifiers:
+
+- %s: This is a placeholder for a string.
+- %d: This is a placeholder for an integer.
+
+% (name, age): This is a tuple containing the variables name and age. The values of these variables will replace the placeholders in the string.
+
+Each of these methods has its own advantages and use cases. However, f-strings are generally considered the most modern and preferred way to format strings in Python due to their readability and performance.
+
+### Additional capabilities
+
+F-strings are also able to evaluate expressions inside the curly braces, which can be very handy. For example:
+
+123x = 10y = 20print(f"The sum of x and y is {x+y}.")Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.This will output:
+
+1The sum of x and y is 30.Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### Raw String (r’’)
+
+In Python, raw strings are a powerful tool for handling textual data, especially when dealing with escape characters. By prefixing a string literal with the letter ‘r’, Python treats the string as raw, meaning it interprets backslashes as literal characters rather than escape sequences.
+
+Consider the following examples of regular string and raw string:
+
+Regular string:
+
+12regular_string = "C:\new_folder\file.txt"print("Regular String:", regular_string)Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.This will output:
+
+12Regular String:  C:ew_folderile.txtInformation: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.In the regular string regular_string variable, the backslashes (\n) are interpreted as escape sequences. Therefore, \n represents a newline character, which would lead to an incorrect file path representation.
+
+Raw string:
+
+12raw_string = r"C:\new_folder\file.txt"print("Raw String:", raw_string)Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.This will output:
+
+1Raw String: C:\new_folder\file.txtInformation: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.However, in the raw string raw_string, the backslashes are treated as literal characters. This means that \n is not interpreted as a newline character, but rather as two separate characters, \ and n. Consequently, the file path is represented exactly as it appears.
+
+---
+
+### 10. [READING] Module 1 Summary: Python Basics Reading • 5 min
+- **URL:** https://www.coursera.org/learn/python-for-applied-data-science-ai/supplement/Y60f2/module-1-summary-python-basics
+- **Method:** `dom_reading_cml` | **Length:** 2737 chars
+
+Congratulations! You have completed this module. At this point, you know that:
+
+- Python can distinguish among data types such as integers, floats, strings, and Booleans.
+- Integers are whole numbers that can be positive or negative.
+- Floats are numbers that have decimal points; they can represent whole or fractional values.
+- You can convert integers to floats using typecasting and vice-versa.
+- You can convert integers and floats to strings.
+- You can convert an integer or float to a Boolean: 0 becomes False, non-zero becomes True.
+- Expressions in Python are a combination of values and operations used to produce a single result.
+- Expressions perform mathematical operations such as addition, subtraction, multiplication, and so on.
+- We can use // to perform integer division, which results in an integer value by discarding the fractional part.
+- Python follows the order of operations (BODMAS) to perform operations with multiple expressions.
+- Variables store and manipulate data, allowing you to access and modify values throughout your code.
+- The assignment operator "=" assigns a value to a variable.
+- Assigning another value to the same variable overrides the previous value of that variable.
+- You can perform mathematical operations on variables using the same or different variables.
+- Modifying the value of one variable will affect other variables only if they reference the same mutable object.
+- Python string operations involve manipulating text data using tasks such as indexing, concatenation, slicing, and formatting.
+- A string is usually written within double quotes or single quotes, including letters, white space, digits, or special characters.
+- A string can be assigned to a variable and is an ordered sequence of characters.
+- Characters in a string identify their index numbers, which can be positive or negative.
+- Strings are sequences that support operations like indexing and slicing.
+- You can input a stride value to perform slicing while operating on a string.
+- Operations like concatenation and replication produce new strings, while finding the length of a string returns a number.
+- You cannot modify an existing string; they are immutable.
+- You can use escape sequences with a backslash (\) to change the layout of a string. (For example, \n for a new line, \t for a tab, and \\ for a backslash, etc.)
+- In Python, you perform tasks such as searching, modifying, and formatting text data with its pre-built string methods.
+- You apply a method to a string to change its value, resulting in another string.
+- You can perform actions such as changing the case of characters in a string, replacing items in a string, finding items in a string, and so on using pre-built string methods.
+
+---
+
+### 11. [READING] Cheat Sheet: Python Basics Reading • 10 min
+- **URL:** https://www.coursera.org/learn/python-for-applied-data-science-ai/supplement/SxzIC/cheat-sheet-python-basics
+- **Method:** `dom_reading_cml` | **Length:** 2342 chars
+
+| Package/Method | Description | Code Example |
+| --- | --- | --- |
+| Comments | Comments are lines of text that are ignored by the Python interpreter when executing the code<./td> | # This is a comment |
+| Concatenation | Combines (concatenates) strings. | Syntax: 5concatenated_string = string1 + string2 Example: result = "Hello" + " John"</td> |
+| Data Types | - Integer - Float - Boolean - String | Example: x=7 # Integer Value y=12.4 # Float Value is_valid = True # Boolean Value is_valid = False # Boolean Value F_Name = "John" # String Value |
+| Indexing | Accesses character at a specific index. | Example: my_string="Hello" char = my_string[0] |
+| len() | Returns the length of a string. | Syntax: len(string_name) Example: my_string="Hello" length = len(my_string) |
+| lower() | Converts string to lowercase. | Example: my_string="Hello" uppercase_text = my_string.lower() |
+| print() | Prints the message or variable inside `()`. | Example: print("Hello, world") print(a+b) |
+| Python Operators | - Addition (+): Adds two values together.- Subtraction (-): Subtracts one value from another.- Multiplication (*): Multiplies two values.- Division (/): Divides one value by another, returns a float.- Floor Division (//): Divides one value by another, returns the quotient as an integer.- Modulo (%): Returns the remainder after division. | Example: x = 9 y = 4 result_add= x + y # Addition result_sub= x - y # Subtraction result_mul= x * y # Multiplication result_div= x / y # Division result_fdiv= x // y # Floor Division result_mod= x % y # Modulo</td> |
+| replace() | Replaces substrings. | Example: my_string="Hello" new_text = my_string.replace("Hello", "Hi") |
+| Slicing | Extracts a portion of the string. | Syntax: substring = string_name[start:end] Example: my_string="Hello" substring = my_string[0:5] |
+| split() | Splits string into a list based on a delimiter. | Example: my_string="Hello" split_text = my_string.split(",") |
+| strip() | Removes leading/trailing whitespace. | Example: my_string="Hello" trimmed = my_string.strip() |
+| upper() | Converts string to uppercase. | Example: my_string="Hello" uppercase_text = my_string.upper() |
+| Variable Assignment | Assigns a value to a variable. | Syntax: variable_name = value Example: name="John" # assigning John to variable name x = 5 # assigning 5 to variable x |
+
+---
+
+### 12. [READING] Module 1 Glossary: Python Basics Reading • 6 min
+- **URL:** https://www.coursera.org/learn/python-for-applied-data-science-ai/supplement/I3PmX/module-1-glossary-python-basics
+- **Method:** `dom_reading_cml` | **Length:** 5765 chars
+
+Welcome! This alphabetized glossary contains many of the terms you'll find within this module. This comprehensive glossary also includes additional industry-recognized terms not used in course videos. These terms are important for you to recognize when working in the industry, participating in user groups, and participating in other certificate programs.
+
+| Term | Definition |
+| --- | --- |
+| AI | AI (artificial intelligence) is the ability of a digital computer or computer-controlled robot to perform tasks commonly associated with intelligent beings. |
+| Application development | Application development, or app development, is the process of planning, designing, creating, testing, and deploying a software application to perform various business operations. |
+| Arithmetic Operations | Arithmetic operations are the basic calculations we make in everyday life like addition, subtraction, multiplication and division. It is also called as algebraic operations or mathematical operations. |
+| Array of numbers | Set of numbers or objects that follow a pattern presented as an arrangement of rows and columns to explain multiplication. |
+| Assignment operator in Python | Assignment operator is a type of Binary operator that helps in modifying the variable to its left with the use of its value to the right. The symbol used for assignment operator is "=". |
+| Asterisk | Symbol "* " used to perform various operations in Python. |
+| Backslash | A backslash is an escape character used in Python strings to indicate that the character immediately following it should be treated in a special way, such as being treated as escaped character or raw string. |
+| Boolean | Denoting a system of algebraic notation used to represent logical propositions by means of the binary digits 0 (false) and 1 (true). |
+| Colon | A colon is used to represent an indented block. It is also used to fetch data and index ranges or arrays. |
+| Concatenate | Link (things) together in a chain or series. |
+| Data engineering | Data engineers are responsible for turning raw data into information that an organization can understand and use. Their work involves blending, testing, and optimizing data from numerous sources. |
+| Data science | Data Science is an interdisciplinary field that focuses on extracting knowledge from data sets which are typically huge in amount. The field encompasses analysis, preparing data for analysis, and presenting findings to inform high-level decisions in an organization. |
+| Data type | Data type refers to the type of value a variable has and what type of mathematical, relational or logical operations can be applied without causing an error. |
+| Double quote | Symbol “ “ used to represent strings in Python. |
+| Escape sequence | An escape sequence is two or more characters that often begin with an escape character that tell the computer to perform a function or command. |
+| Expression | An expression is a combination of operators and operands that is interpreted to produce some other value. |
+| Float | Python float () function is used to return a floating-point number from a number or a string representation of a numeric value. |
+| Forward slash | Symbol “/“ used to perform various operations in Python |
+| Foundational | Denoting an underlying basis or principle; fundamental. |
+| Immutable | Immutable Objects are of in-built datatypes like int, float, bool, string, Unicode, and tuple. In simple words, an immutable object can’t be changed after it is created. |
+| Integer | An integer is the number zero (0), a positive natural number (1, 2, 3, and so on) or a negative integer with a minus sign (−1, −2, −3, and so on.) |
+| Manipulate | Is the process of modifying a string or creating a new string by making changes to existing strings. |
+| Mathematical conventions | A mathematical convention is a fact, name, notation, or usage which is generally agreed upon by mathematicians. |
+| Mathematical expressions | Expressions in math are mathematical statements that have a minimum of two terms containing numbers or variables, or both, connected by an operator in between. |
+| Mathematical operations | The mathematical “operation” refers to calculating a value using operands and a math operator. |
+| Negative indexing | Allows you to access elements of a sequence (such as a list, a string, or a tuple) from the end, using negative numbers as indexes. |
+| Operands | The quantity on which an operation is to be done. |
+| Operators in Python | Operators are used to perform operations on variables and values. |
+| Parentheses | Parentheses is used to call an object. |
+| Replicate | To make an exact copy of. |
+| Sequence | A sequence is formally defined as a function whose domain is an interval of integers. |
+| Single quote | Symbol ‘ ‘ used to represent strings in python. |
+| Slicing in Python | Slicing is used to return a portion from defined list. |
+| Special characters | A special character is one that is not considered a number or letter. Symbols, accent marks, and punctuation marks are considered special characters. |
+| Stride value | Stride is the number of bytes from one row of pixels in memory to the next row of pixels in memory. |
+| Strings | In Python, Strings are arrays of bytes representing Unicode characters. |
+| Substring | A substring is a sequence of characters that are part of an original string. |
+| Type casting | The process of converting one data type to another data type is called Typecasting or Type Coercion or Type Conversion. |
+| Types in Python | Data types are the classification or categorization of data items. It represents the kind of value that tells what operations can be performed on a particular data. |
+| Variables | Variables are containers for storing data values. |
+
+---
+
+## Module 2: Python Data Structures
+
+### 1. [VIDEO TRANSCRIPT] Lists and Tuples Video • 8 min
+- **URL:** https://www.coursera.org/learn/python-for-applied-data-science-ai/lecture/bUWEy/lists-and-tuples
+- **Method:** `dom_transcript` | **Length:** 7487 chars
+
+In this video, we will cover lists and tuples. These are called compound data types and are one of the key types of data structures in Python. Tuples Tuples are an ordered sequence. Here is a tuple ratings. Tuples are expressed as comma-separated elements within parentheses. These are values inside the parentheses. In Python, there are different types, strings, integer, float.
+
+They can all be contained in a tuple, but the type of the variable is tuple. Each element of a tuple can be accessed via an index. The following table represents the relationship between the index and the elements in the tuple. The first element can be accessed by the name of the tuple followed by a square bracket with the index number. In this case, zero. We can access the second element as follows. We can also access the last element.
+
+In Python, we can use negative index. The relationship is as follows. The corresponding values are shown here. We can concatenate or combine tuples by adding them. The result is the following with the following index. If we would like multiple elements from a tuple, we can also slice tuples. For example, if we want the first three elements, we use the following command.
+
+The last index is one larger than the index you want. Similarly, if we want the last two elements, we use the following command. Notice how the last index is one larger than the last index of the tuple. We can use the len command to obtain the length of a tuple. As there are five elements, the result is five. Tuples are immutable, which means we can't change them. To see why this is important, let's see what happens when we set the variable ratings 1 to ratings.
+
+Let's use the image to provide a simplified explanation of what's going on. Each variable does not contain a tuple, but references the same immutable tuple object. See the Objects and Classes module for more about objects. Let's say we want to change the element at index 2. Because tuples are immutable, we can't. Therefore, ratings 1 will not be affected by a change in rating because the tuple is immutable, i.e. we can't change it. We can assign a different tuple to the ratings variable.
+
+The variable ratings now references another tuple. As a consequence of immutability, if we would like to manipulate a tuple, we need to create a new object instead. For example, if we would like to sort a tuple, we use the function sorted. The input is the original tuple. The output is a new sorted list. For more on functions, see our video on functions. A tuple can contain other tuples as well as other complex data types.
+
+This is called nesting. We can access these elements using the standard indexing methods. If we select an index with a tuple, the same index convention applies. As such, we can then access values in the tuple. For example, we could access the second element. We can apply this indexing directly to the tuple variable nt. It is helpful to visualize this as a tree.
+
+We can visualize this nesting as a tree. The tuple has the following indexes. If we consider indexes with other tuples, we see the tuple at index 2 contains a tuple with two elements. We can access those two indexes. The same convention applies to index 3. We can access the elements in those tuples as well. We can continue the process.
+
+We can even access deeper levels of the tree by adding another square bracket. We can access different characters in the string, or various elements in the second tuple contained in the first. Lists are also a popular data structure in Python. Lists are also an ordered sequence. Here is a list L. A list is represented with square brackets. In many respects, lists are like tuples.
+
+One key difference is they are mutable. Lists can contain strings, floats, integers. We can nest other lists. We also nest tuples and other data structures. The same indexing conventions apply for nesting. Like tuples, each element of a list can be accessed via an index. The following table represents the relationship between the index and the elements in the list.
+
+The first element can be accessed by the name of the list followed by a square bracket with the index number, in this case, 0. We can access the second element as follows. We can also access the last element. In Python, we can use a negative index. The relationship is as follows. The corresponding indexes are as follows. We can also perform slicing in lists.
+
+For example, if we want the last two elements in this list, we use the following command. Notice how the last index is one larger than the length of the list? The index conventions for lists and tuples are identical. Check the labs for more examples. We can concatenate or combine lists by adding them. The result is the following. The new list has the following indices.
+
+Lists are mutable, therefore we can change them. For example, we apply the method extends by adding a dot followed by the name of the method, and then parentheses. The argument inside the parentheses is a new list that we are going to concatenate to the original list. In this case, instead of creating a new list, L1, the original list, L, is modified by adding two new elements. To learn more about methods, check out our video on objects and classes. Another similar method is append. If we apply append instead of extended, we add one element to the list.
+
+If we look at the index, there is only one more element. Index 3 contains the list we appended. Every time we apply a method, the list changes. If we apply extend, we add two new elements to the list. The list L is modified by adding two new elements. If we append the string A, we further change the list adding the string A. As lists are mutable, we can change them.
+
+For example, we can change the first element as follows. The list now becomes HardRock 10 1.2. We can delete an element of a list using the del command. We simply indicate the list item we would like to remove as an argument. For example, if we would like to remove the first element, the result becomes 10 1.2. We can delete the second element. This operation removes the second element off the list.
+
+We can convert a string to a list using split. For example, the method split converts every group of characters separated by a space into an element of a list. We can use the split function to separate strings on a specific character, known as a delimiter. We simply pass the delimiter we would like to split on as an argument, in this case a comma. The result is a list, each element corresponds to a set of characters that have been separated by a comma. When we set one variable, b, equal to a, both a and b are referencing the same list. Multiple names referring to the same object is known as aliasing.
+
+We know from the list slide that the first element in b is set as HardRock. If we change the first element in a to banana, we get a side effect. The value of b will change as a consequence. a and b are referencing the same list, therefore if we change a, list b also changes. If we check the first element of b after changing list a, we get banana instead of HardRock. You can clone list a by using the following syntax. Variable a references one list. Variable b references a new copy or clone of the original list.
+
+Now if you change a, b will not change. We can get more info on lists, tuples, and many other objects in Python using the help command. Simply pass in the list, tuple, or any other Python object. See the labs for more things you can do with lists.
+
+---
+
+### 2. [READING] Cheat Sheet: Lists and Tuples Reading • 10 min
+- **URL:** https://www.coursera.org/learn/python-for-applied-data-science-ai/supplement/mdRVq/cheat-sheet-lists-and-tuples
+- **Method:** `dom_reading_cml` | **Length:** 9205 chars
+
+Use this cheat sheet for various packages/methods, their descriptions, and examples.
+
+## List
+
+### append()
+
+The append() method is used to add an element to the end of a list.
+
+Syntax:
+
+1list_name.append(element)Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Example:
+
+12fruits = ["apple", "banana", "orange"] fruits.append("mango") print(fruits)Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### copy()
+
+The copy() method is used to create a shallow copy of a list.
+
+Example:
+
+123my_list = [1, 2, 3, 4, 5] new_list = my_list.copy() print(new_list) # Output: [1, 2, 3, 4, 5]Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### count()
+
+The count() method is used to count the number of occurrences of a specific element in a list in Python.
+
+Example:
+
+123my_list = [1, 2, 2, 3, 4, 2, 5, 2] count = my_list.count(2) print(count) # Output: 4Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### Creating a List
+
+A list is a built-in data type that represents an ordered and mutable collection of elements. Lists are enclosed in square brackets [] and elements are separated by commas.
+
+Example:
+
+1fruits = ["apple", "banana", "orange", "mango"]Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### del
+
+The del statement is used to remove an element from list. It removes the element at the specified index.
+
+Example:
+
+123my_list = [10, 20, 30, 40, 50] del my_list[2] # Removes the element at index 2 print(my_list) # Output: [10, 20, 40, 50]Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### extend()
+
+The extend() method is used to add multiple elements to a list. It takes an iterable (such as another list, tuple, or string) and appends each element of the iterable to the original list.
+
+Syntax:
+
+1list_name.extend(iterable) Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Example:
+
+1234fruits = ["apple", "banana", "orange"] more_fruits = ["mango", "grape"] fruits.extend(more_fruits) print(fruits)Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### Indexing
+
+Indexing in a list allows you to access individual elements by their position. In Python, indexing starts from 0 for the first element and goes up to 'length_of_list - 1'.
+
+Example:
+
+12345my_list = [10, 20, 30, 40, 50] print(my_list[0]) # Output: 10 (accessing the first element) print(my_list[-1]) # Output: 50 (accessing the last element using negative indexing)Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### insert()
+
+The insert() method is used to insert an element.
+
+Syntax:
+
+1list_name.insert(index, element) Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Example:
+
+123my_list = [1, 2, 3, 4, 5] my_list.insert(2, 6) print(my_list)Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### Modifying a List
+
+You can use indexing to modify or assign new values to specific elements in the list.
+
+Example:
+
+1234my_list = [10, 20, 30, 40, 50] my_list[1] = 25 # Modifying the second element print(my_list) # Output: [10, 25, 30, 40, 50]Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### pop()
+
+The pop() method is another way to remove an element from a list in Python. It removes and returns the element at the specified index. If you don't provide an index to the pop() method, it will remove and return the last element of the list by default
+
+Example 1:
+
+1234567my_list = [10, 20, 30, 40, 50] removed_element = my_list.pop(2) # Removes and returns the element at index 2 print(removed_element) # Output: 30  print(my_list) # Output: [10, 20, 40, 50] Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Example 2:
+
+1234567my_list = [10, 20, 30, 40, 50] removed_element = my_list.pop() # Removes and returns the last element print(removed_element) # Output: 50  print(my_list) # Output: [10, 20, 30, 40]Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### remove()
+
+To remove an element from a list. The remove() method removes the first occurrence of the specified value.
+
+Example:
+
+1234my_list = [10, 20, 30, 40, 50] my_list.remove(30) # Removes the element 30 print(my_list) # Output: [10, 20, 40, 50]Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### reverse()
+
+The reverse() method is used to reverse the order of elements in a list
+
+Example:
+
+123my_list = [1, 2, 3, 4, 5] my_list.reverse() print(my_list) # Output: [5, 4, 3, 2, 1]Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### Slicing
+
+You can use slicing to access a range of elements from a list.
+
+Syntax:
+
+1list_name[start:end:step] Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Example:
+
+123456789101112my_list = [1, 2, 3, 4, 5] print(my_list[1:4]) # Output: [2, 3, 4] (elements from index 1 to 3) print(my_list[:3]) # Output: [1, 2, 3] (elements from the beginning up to index 2)  print(my_list[2:]) # Output: [3, 4, 5] (elements from index 2 to the end)  print(my_list[::2]) # Output: [1, 3, 5] (every second element)Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### sort()
+
+The sort() method is used to sort the elements of a list in ascending order. If you want to sort the list in descending order, you can pass the 'reverse=True' argument to the sort() method.
+
+Example 1:
+
+1234my_list = [5, 2, 8, 1, 9] my_list.sort() print(my_list) # Output: [1, 2, 5, 8, 9] Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Example 2:
+
+1234my_list = [5, 2, 8, 1, 9] my_list.sort(reverse=True) print(my_list) # Output: [9, 8, 5, 2, 1]Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+## Tuple
+
+### count()
+
+The count() method for a tuple is used to count how many times a specified element appears in the tuple.
+
+Syntax:
+
+1tuple.count(value)Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Example:
+
+123fruits = ("apple", "banana", "apple", "orange")print(fruits.count("apple")) #Counts the number of times apple is found in tuple.#Output: 2Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### index()
+
+The index() method in a tuple is used to find the first occurrence of a specified value and returns its position (index). If the value is not found, it raises a ValueError.
+
+Syntax:
+
+1tuple.index(value) Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Example:
+
+123fruits = ("apple", "banana", "orange","apple")print(fruits.index("apple")) #Returns the index value at which apple is present.#Output: 0Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### sum()
+
+The sum() function in Python can be used to calculate the sum of all elements in a tuple, provided that the elements are numeric (integers or floats).
+
+Syntax:
+
+1sum(tuple) Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Example:
+
+123numbers = (10, 20, 5, 30)print(sum(numbers))#Output: 65Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### min() and max()
+
+Find the smallest (min()) or largest (max()) element in a tuple.
+
+Example:
+
+12345numbers = (10, 20, 5, 30)print(min(numbers))  #Output: 5print(max(numbers))#Output: 30Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### len()
+
+Get the number of elements in the tuple using len().
+
+Syntax:
+
+1len(tuple)Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Example:
+
+123fruits = ("apple", "banana", "orange")print(len(fruits)) #Returns length of the tuple.#Output: 3Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+
+---
+
+### 3. [VIDEO TRANSCRIPT] Dictionaries Video • 2 min
+- **URL:** https://www.coursera.org/learn/python-for-applied-data-science-ai/lecture/4c7Hw/dictionaries
+- **Method:** `dom_transcript` | **Length:** 2134 chars
+
+Let's cover dictionaries in Python. Dictionaries are a type of collection in Python. If you recall, a list has integer indexes. These are like addresses. A list also has elements. A dictionary has keys and values. The key is analogous to the index.
+
+They are like addresses, but they don't have to be integers. They are usually characters. The values are similar to the element in a list and contain information. To create a dictionary, we use curly brackets. The keys are the first elements. They must be immutable and unique. Each key is followed by a value separated by a colon.
+
+The values can be immutable, mutable, and duplicates. Each key and value pair is separated by a comma. Consider the following example of a dictionary. The album title is the key, and the value is the release data. We can use yellow to highlight the keys and leave the values in white. It is helpful to use the table to visualize a dictionary where the first column represents the keys and the second column represents the values. We can add a few more examples to the dictionary.
+
+We can also assign the dictionary to a variable. The key is used to look up the value. We use square brackets. The argument is the key. This outputs the value. Using the key of back in black, this returns the value of 1980. The key the dark side of the moon gives us the value of 1973.
+
+Using the key the bodyguard gives us the value 1992, and so on. We can add a new entry to the dictionary as follows. This will add the value 2007 with a new key called graduation. We can delete an entry as follows. This gets rid of the key thriller and its value. We can verify if an element is in the dictionary using the in command as follows. The command checks the keys.
+
+If they are in the dictionary, they return a true. If we try the same command with a key that is not in the dictionary, we get a false. In order to see all the keys in a dictionary, we can use the method keys to get the keys. The output is a list like object with all the keys. In the same way, we can obtain the values using the method values. Check out the labs for more examples and info on dictionaries.
+
+---
+
+### 4. [VIDEO TRANSCRIPT] Sets Video • 5 min
+- **URL:** https://www.coursera.org/learn/python-for-applied-data-science-ai/lecture/7GcLY/sets
+- **Method:** `dom_transcript` | **Length:** 4174 chars
+
+Let's cover sets. They are also a type of collection. Sets are a type of collection. This means that like lists and tuples, you can input different Python types. Unlike lists and tuples, they are unordered. This means sets do not record element position. Sets only have unique elements. This means there is only one of a particular element in a set.
+
+To define a set, you use curly brackets. You place the elements of a set within the curly brackets. You notice there are duplicate items. When the actual set is created, duplicate items will not be present. You can convert a list to a set by using the function set. This is called typecasting. You simply use the list as the input to the function set. The result will be a list converted to a set.
+
+Let's go over an example. We start off with a list. We input the list to the function set. The function set returns a set. Notice how there are no duplicate elements. Let's go over set operations. These can be used to change the set.
+
+Consider the set A. Let's represent this set with a circle. If you are familiar with sets, this can be part of a Venn diagram. A Venn diagram is a tool that uses shapes usually to represent sets. We can add an item to a set using the add method. We just put the set name followed by a dot, then the add method. The argument is the new element of the set we would like to add, in this case, inSync.
+
+The set A now has inSync as an item. If we add the same item twice, nothing will happen as there can be no duplicates in a set. Let's say we would like to remove inSync from set A. We can also remove an item from a set using the remove method. We just put the set name followed by a dot, then the remove method. The argument is the element of the set we would like to remove, in this case, inSync. After the remove method is applied to the set, set A does not contain the item inSync.
+
+You can use this method for any item in the set. We can verify if an element is in the set using the in command as follows. The command checks that the item, in this case, ACDC, is in the set. If the item is in the set, it returns true. If we look for an item that is not in the set, in this case for the item Who, as the item is not in the set, we will get a false. These are types of mathematical set operations. There are other operations we can do.
+
+There are lots of useful mathematical operations we can do between sets. Let's define the set AlbumSet1. We can represent it using a red circle or Venn diagram. Similarly, we can define the set AlbumSet2. We can also represent it using a blue circle or Venn diagram. The intersection of two sets is a new set containing elements which are in both of those sets. It's helpful to use Venn diagrams.
+
+The two circles that represent the sets combine. The overlap represents the new set. As the overlap is comprised of the red circle and blue circle, we define the intersection in terms of AND. In Python, we use an ampersand to find the intersection of two sets. If we overlay the values of the set over the circle placing the common elements in the overlapping area, we see the correspondence. After applying the intersection operation, all the items that are not in both sets disappear. In Python, we simply just place the ampersand between the two sets.
+
+We see that both ACDC and BackInBlack are in both sets. The result is a new set AlbumSet3 containing all the elements in both AlbumSet1 and AlbumSet2. The union of two sets is the new set of elements which contain all the items in both sets. We can find the union of the sets AlbumSet1 and AlbumSet2 as follows. The result is a new set that has all the elements of AlbumSet1 and AlbumSet2. This new set is represented in green. Consider the new album SetAlbumSet3.
+
+The set contains the elements ACDC and BackInBlack. We can represent this with a Venn diagram, as all the elements in AlbumSet3 are in AlbumSet1. The circle representing AlbumSet1 encapsulates the circle representing AlbumSet3. We can check if a set is a subset using the isSubset method. As AlbumSet3 is a subset of the AlbumSet1, the result is true. There is a lot more you can do with sets. Check out the lab for more examples.
+
+---
+
+### 5. [READING] Module 2 Summary: Python Data Structures Reading • 5 min
+- **URL:** https://www.coursera.org/learn/python-for-applied-data-science-ai/supplement/oRkkv/module-2-summary-python-data-structures
+- **Method:** `dom_reading_cml` | **Length:** 3115 chars
+
+Congratulations! You have completed this module. At this point, you know that:
+
+- In Python, we often use tuples to group related data together.Tuples refer to ordered and immutable collections of elements.
+- Tuples are usually written as comma-separated elements in parentheses “()".
+- You can include strings, integers, and floats in tuples and access them using both positive and negative indices.
+- You can perform operations such as combining, concatenating, and slicing on tuples.
+- Tuples are immutable, so you need to create a new tuple to manipulate it.
+- Tuples, termed nesting, can include other tuples of complex data types.
+- You can access elements in a nested tuple through indexing.
+- Lists in Python contain ordered collections of items that can hold elements of different types and are mutable, allowing for versatile data storage and manipulation.
+- A list is an ordered sequence, represented with square brackets "[]".
+- Lists possess mutability, rendering them akin to tuples.
+- A list can contain strings, integers, and floats; you can nest lists within it.
+- You can access each element in a list using both positive and negative indexing.
+- Concatenating or appending a list will result in the modification of the same list.
+- You can perform operations such as adding, deleting, splitting, and so forth on a list.
+- You can separate elements in a list using delimiters.
+- Aliasing occurs when multiple names refer to the same object.
+- You can also clone a list to create another list.
+- Dictionaries in Python are key-value pairs that provide a flexible way to store and retrieve data based on unique keys.
+- Dictionaries consist of keys and values, both composed of string elements.
+- You denote dictionaries using curly brackets.
+- The keys necessitate immutability and uniqueness.
+- The values may be either immutable or mutable, and they allow duplicates.
+- You separate each key-value pair with a comma, and you can use color highlighting to make the key more visible.
+- You can assign dictionaries to a variable.
+- You use the key as an argument to retrieve the corresponding value.
+- You can make additions and deletions to dictionaries.
+- You can perform an operation on a dictionary to check the key, which results in a true or false output.
+- You can apply methods to obtain a list of keys and values in a dictionary.
+- Sets in Python are collections of unique elements, useful for tasks such as removing duplicates and performing set operations like union and intersection. Sets lack order.
+- Curly brackets "{}" are helpful for defining elements of a set.
+- Sets do not contain duplicate items.
+- A list passed through the set function generates a set containing unique elements.
+- You use “Set Operations” to perform actions such as adding, removing, and verifying elements in a set.
+- You can combine sets using the ampersand "&" operator to obtain the common elements from both sets.
+- You can use the Union function to combine two sets, including both the common and unique elements from both sets.
+- The sub-set method is used to determine if two or more sets are subsets.
+
+---
+
+### 6. [READING] CheatSheet: Dictionaries & Sets Reading • 10 min
+- **URL:** https://www.coursera.org/learn/python-for-applied-data-science-ai/supplement/RdPlN/cheatsheet-dictionaries-sets
+- **Method:** `dom_reading_cml` | **Length:** 8417 chars
+
+Use this cheat sheet for various packages/methods, their descriptions, and examples.
+
+## Dictionaries
+
+### Creating a Dictionary
+
+A dictionary in Python is a built-in data structure that stores information in key-value pairs. Each key must be unique, and it is used to access its corresponding value. Dictionaries are enclosed in curly braces {}, and each pair is separated by a comma.
+
+Example:
+
+12dict_name = {} #Creates an empty dictionaryperson = { "name": "John",  "age": 30, "city": "New York"}Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### Accessing Values
+
+You can access the values in a dictionary using their corresponding keys.
+
+Syntax:
+
+1Value = dict_name["key_name"]Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Example:
+
+12name = person["name"]age = person["age"]Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### Add or modify
+
+You can add or modify elements in a dictionary by assigning a value to a key using the assignment operator =. When you assign a value to a key that does not already exist, Python automatically creates a new key-value pair and adds it to the dictionary. However, if the key already exists, the existing value will be replaced with the new one.
+
+Syntax:
+
+1dict_name[key] = valueInformation: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Example:
+
+12person["Country"] = "USA" # A new entry will be created.person["city"] = "Chicago"  # Update the existing value for the same keyInformation: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### del
+
+Removes the specified key-value pair from the dictionary. Raises a KeyError if the key does not exist.
+
+Syntax:
+
+1del dict_name[key]Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Example:
+
+1del person["Country"]Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### Key existence
+
+You can check for the existence of a key in a dictionary using the in keyword.
+
+Example:
+
+12if "name" in person:    print("Name exists in the dictionary.")Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### Keys()
+
+Retrieves all keys from the dictionary and converts them into a list. Useful for iterating or processing keys using list methods.
+
+Syntax:
+
+1keys_list = list(dict_name.keys())Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Example:
+
+1person_keys = list(person.keys())Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### Values()
+
+Extracts all values from the dictionary and converts them into a list. This list can be used for further processing or analysis.
+
+Syntax:
+
+1values_list = list(dict_name.values())Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Example:
+
+1person_values = list(person.values())Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### Items()
+
+Retrieves all key-value pairs as tuples and converts them into a list of tuples. Each tuple consists of a key and its corresponding value.
+
+Syntax:
+
+1items_list = list(dict_name.items())Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Example:
+
+1info = list(person.items())Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+## Sets
+
+### Add()
+
+Add elements to a set. You can use the add() method to insert a new element into a set. If the element already exists, it will not be added again, since sets automatically store only unique values.
+
+Syntax:
+
+1set_name.add(element) Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Example:
+
+1fruits.add("mango")Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### Defining Sets
+
+A set in Python is an unordered collection that stores unique elements, meaning it automatically removes duplicates. Sets are enclosed in curly braces {} and are commonly used when you need to store a group of distinct values or perform mathematical operations such as union, intersection, and difference.
+
+Because sets are unordered, the elements have no fixed position or index, and their order may change each time you print or iterate over them.
+
+Example: Note that these two sets will be used in the examples that follow.
+
+123empty_set = set() #Creating an Empty Set fruits = {"apple", "banana", "orange"}colors = ("orange", "red", "green")Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### in
+
+Checks if an element exists in a set. Use the in keyword to verify whether a specific element is present in a set. It returns True if the element exists, and False otherwise.
+
+Syntax:
+
+1element in set_nameInformation: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Example:
+
+1"banana" in fruitsInformation: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### issubset()
+
+Check if one set is a subset of another. The issubset method is used to determine whether all elements of one set exist within another set. If every element of the current set is found in the specified set, it returns True; otherwise, it returns False.
+
+Syntax:
+
+1is_subset = set1.issubset(set2)Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Example:
+
+1is_subset = fruits.issubset(colors)Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### issuperset()
+
+Check if one set is a superset of another. The issuperset() method is used to verify whether the current set contains all elements of another set. It returns True if every element of the specified set exists within the current set; otherwise, it returns False.
+
+Syntax:
+
+1is_superset = set1.issuperset(set2) Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Example:
+
+1is_superset = colors.issuperset(fruits)Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### remove()
+
+Remove a specific element from a set. The remove() method is used to delete a particular element from a set. If the element you try to remove does not exist, Python will raise a KeyError, which means you must ensure the element is present before calling this method.
+
+This method is useful when you are certain that the item you want to remove is already in the set.
+
+Syntax:
+
+1set_name.remove(element) Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Example:
+
+1fruits.remove("banana")Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### Set Operations
+
+Perform various operations on sets: union, intersection, difference, symmetric difference.
+
+Syntax:
+
+1234union_set = set1.union(set2) intersection_set = set1.intersection(set2) difference_set = set1.difference(set2) sym_diff_set = set1.symmetric_difference(set2) Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Example:
+
+1234combined = fruits.union(colors) common = fruits.intersection(colors) unique_to_fruits = fruits.difference(colors) sym_diff = fruits.symmetric_difference(colors)Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+##
+
+---
+
+### 7. [READING] Module 2 Glossary: Python Data Structures Reading • 5 min
+- **URL:** https://www.coursera.org/learn/python-for-applied-data-science-ai/supplement/gAEWZ/module-2-glossary-python-data-structures
+- **Method:** `dom_reading_cml` | **Length:** 3523 chars
+
+Welcome! This alphabetized glossary contains many of the terms in this course. This comprehensive glossary also includes additional industry-recognized terms not used in course videos. These terms are important for you to recognize when working in the industry, participating in user groups, and participating in other certificate programs.
+
+| Term | Definition |
+| --- | --- |
+| Aliasing | Aliasing refers to giving another name to a function or a variable. |
+| Ampersand | A character typically "&" standing for the word "and." |
+| Compound elements | Compound statements contain (groups of) other statements; they affect or control the execution of those other statements in some way. |
+| Delimiter | A delimiter in Python is a character or sequence of characters used to separate or mark the boundaries between elements or fields within a larger data structure, such as a string or a file. |
+| Dictionaries | A dictionary in Python is a data structure that stores a collection of key-value pairs, where each key is unique and associated with a specific value. |
+| Function | A function is a block of code, defining a set procedure, which is executed only when it is called. |
+| Immutable | Immutable Objects are of in-built datatypes like int, float, bool, string, Unicode, and tuple. In simple words, an immutable object can't be changed after it is created. |
+| Intersection | The intersection of two sets is a new set containing only the elements that are present in both sets. |
+| Keys | The keys () method in Python Dictionary, returns a view object that displays a list of all the keys in the dictionary in order of insertion using Python. |
+| Lists | A list is any list of data items, separated by commas, inside square brackets. |
+| Logic operations | In Python, logic operations refer to the use of logical operators such as "and," "or," and "not" to perform logical operations on Boolean values (True or False). |
+| Mutable | Mutable objects in Python are objects whose values can be changed after they are created. These objects allow modifications such as adding, removing, or altering elements without creating a new object. |
+| Nesting | A nested function is simply a function within another function and is sometimes called an "inner function". |
+| Ratings in python | Ratings in Python typically refer to a numerical or qualitative measure assigned to something to indicate its quality, performance, or value. |
+| Set operations | Set operations in Python refer to mathematical operations performed on sets, which are unordered collections of unique elements. |
+| Sets in python | A set is an unordered collection of unique elements. |
+| Syntax | The rules that define the structure of the language for python is called its syntax. |
+| Tuples | These are used store multiple items in a single variable. |
+| Type casting | In python, this is converting one data type to another. |
+| Variables | In python, a variable is a symbolic name or identifier used to store and manipulate data. Variables serve as containers for values, and these values can be of various data types, including numbers, strings, lists, and more. |
+| Venn diagram | A Venn diagram is a graphical representation that uses overlapping circles to illustrate the relationships and commonalities between sets or groups of items. |
+| Versatile data | Versatile data, in a general context, refers to data that can be used in multiple ways, is adaptable to different applications or purposes, and is not restricted to a specific use case. |
+
+---
+
+## Module 3: Python Programming Fundamentals
+
+### 1. [VIDEO TRANSCRIPT] Conditions and Branching Video • 10 min
+- **URL:** https://www.coursera.org/learn/python-for-applied-data-science-ai/lecture/WuZVi/conditions-and-branching
+- **Method:** `dom_transcript` | **Length:** 8980 chars
+
+In this video, you will learn about conditions and branching. Comparison operations compare some value or operand. Then, based on some condition, they produce a Boolean. Let's say we assign a value of a to 6. We can use the equality operator denoted with two equal signs to determine if two values are equal. In this case, if 7 is equal to 6. In this case, as 6 is not equal to 7, the result is false.
+
+If we performed an equality test for the value 6, the two values would be equal. As a result, we would get a true. Consider the following equality comparison operator. If the value of the left operand, in this case the variable, i, is greater than the value of the right operand, in this case 5, the condition becomes true, or else we get a false. Let's display some values for i on the left. Let's see the values greater than 5 in green, and the rest in red. If we set i equal to 6, we see that 6 is larger than 5, and as a result, we get a true.
+
+We can also apply the same operations to floats. If we modify the operator as follows, if the left operand i is greater than or equal to the value of the right operand, in this case 5, then the condition becomes true. In this case, we include the value of 5 in the number line, and the color changes to green accordingly. If we set the value of i equal to 5, the operand will produce a true. If we set the value of i to 2, we would get a false, because 2 is less than 5. We can change the inequality. If the value of the left operand, in this case i, is less than the value of the right operand, in this case 6, then condition becomes true.
+
+Again, we can represent this with a colored number line. The areas where the inequality is true are marked in green, and red where the inequality is false. If the value for i is set to 2, the result is a true, as 2 is less than 6. The inequality test uses an explanation mark preceding the equal sign. If two operands are not equal, then the condition becomes true. We can use a number line. When the condition is true, the corresponding numbers are marked in green, and red for where the condition is false.
+
+If we set i equal to 2, the operator is true, as 2 is not equal to 6. We compare strings as well. Comparing AC, DC, and Michael Jackson, using the equality test, we get a false, as the strings are not the same. Using the inequality test, we get a true, as the strings are different. See the labs for more examples. Branching allows us to run different statements for a different input. It's helpful to think of an if statement as a locked room.
+
+If the statement is true, you can enter the room, and your program can run some predefined task. If the statement is false, your program will skip the task. For example, consider the blue rectangle representing an AC, DC concert. If the individual is 18 or older, they can enter the AC, DC concert. If they are under the age of 18, they cannot enter the concert. Individual proceeds to the concert. Their age is 17.
+
+Therefore, they are not granted access to the concert, and they must move on. If the individual is 19, the condition is true. They can enter the concert. Then they can move on. This is the syntax of the if statement from our previous example. We have the if statement. We have the expression that can be true or false.
+
+The brackets are not necessary. We have a colon. Within an indent, we have the expression that is run if the condition is true. The statements after the if statement will run regardless if the condition is true or false. For the case where the age is 17, we set the value of the variable age to 17. We check the if statement. The statement is false.
+
+Therefore, the program will not execute the statement to print. You will enter. In this case, it will just print move on. For the case where the age is 19, we set the value of the variable age to 19. We check the if statement. The statement is true. Therefore, the program will execute the statement to print.
+
+You will enter. Then it will just print move on. The else statement will run a different block of code if the same condition is false. Let's use the ACDC concert analogy again. If the user is 17, they cannot go to the ACDC concert. But they can go to the meatloaf concert represented by the purple square. If the individual is 19, the condition is true.
+
+They can enter the ACDC concert. Then they can move on as before. The syntax of the else statement is similar. We simply append the statement else. We then add the expression we would like to execute with an indent. For the case where the age is 17, we set the value of the variable age to 17. We check the if statement.
+
+The statement is false. Therefore, we progress to the else statement. We run the statement in the indent. This corresponds to the individual attending the meatloaf concert. The program will then continue running. For the case where the age is 19, we set the value of the variable age to 19. We check the if statement.
+
+The statement is true. Therefore, the program will execute the statement to print you will enter. The program skips the expressions in the else statement. And continues to run the rest of the expressions. The elif statement, short for else if, allows us to check additional conditions. If the preceding condition is false. If the condition is true, the alternate expressions will be run.
+
+Consider the concert example. If the individual is 18, they will go to the Pink Floyd concert. Instead of attending the ACDC or meatloaf concerts. The person of 18 years of age enters the area as they are not over 19 years of age. They cannot see ACDC. But as they are 18 years, they attend Pink Floyd. After seeing Pink Floyd, they move on.
+
+The syntax of the elif statement is similar. We simply add the statement elif with the condition. We then add the expression we would like to execute if the statement is true. With an indent. Let's illustrate the code on the left. An 18 year old enters. They are not older than 18 years of age.
+
+Therefore, the condition is false. So the condition of the elif statement is checked. The condition is true. So then we would print go see Pink Floyd. Then we would move on as before. If the variable age was 17, the statement go see meatloaf would print. Similarly, if the age was greater than 18, the statement you can enter would print.
+
+Check the labs for more examples. Now let's take a look at logic operators. Logic operations take Boolean values and produce different Boolean values. The first operation is the not operator. If the input is true, the result is a false. Similarly, if the input is false, the result is a true. Let A and B represent Boolean variables.
+
+The or operator takes in the two values and produces a new Boolean value. We can use this table to represent the different values. The first column represents the possible values of A. The second column represents the possible values of B. The final column represents the result of applying the or operation. We see the or operator only produces a false if all the Boolean values are false. The following lines of code will print out.
+
+This album was made in the 70s or 90s. If the variable album year does not fall in the 80s. Let's see what happens when we set the album year to 1990. The colored number line is green when the condition is true and red when the condition is false. In this case, the condition is false. Examining the second condition, we see that 1990 is greater than 1989. So the condition is true.
+
+We can verify by examining the corresponding second number line. In the final number line, the green region indicates where the area is true. This region corresponds to where at least one statement is true. We see that 1990 falls in the area. Therefore, we execute the statement. Let A and B represent Boolean variables. The and operator takes in the two values and produces a new Boolean value.
+
+We can use this table to represent the different values. The first column represents the possible values of A. The second column represents the possible values of B. The final column represents the result of applying the and operation. We see the and operator only produces a true if all the Boolean values are true. The following lines of code will print out. This album was made in the 80s if the variable album year is between 1980 and 1989.
+
+Let's see what happens when we set the album year to 1983. As before, we can use the colored number line to examine where the condition is true. In this case, 1983 is larger than 1980. So the condition is true. Examining the second condition, we see that 1990 is greater than 1983. So this condition is also true. We can verify by examining the corresponding second number line.
+
+In the final number line, the green region indicates where the area is true. Similarly, this region corresponds to where both statements are true. We see that 1983 falls in the area. Therefore, we execute the statement. Branching allows us to run different statements for different inputs.
+
+---
+
+### 2. [READING] Conditions and Branching Reading • 10 min
+- **URL:** https://www.coursera.org/learn/python-for-applied-data-science-ai/supplement/wx3nb/conditions-and-branching
+- **Method:** `dom_reading_cml` | **Length:** 5199 chars
+
+## Objectives
+
+In this reading, you'll learn about:
+
+- Comparison operators
+- Branching
+- Logical operators
+
+## Comparison operations
+
+Comparison operations are essential in programming. They help compare values and make decisions based on the results.
+
+### Equality operator
+
+The equality operator == checks if two values are equal. For example, in Python:
+
+123age = 25if age == 25:    print("You are 25 years old.")Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Here, the code checks if the variable age is equal to 25 and prints a message accordingly.
+
+### Inequality operator
+
+The inequality operator != checks if two values are not equal:
+
+12if age != 30:    print("You are not 30 years old.")Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Here, the code checks if the variable age is not equal to 30 and prints a message accordingly.
+
+### Greater than and less than
+
+You can also compare if one value is greater than another.
+
+12if age>= 20:    Print("Yes, the Age is greater than 20")Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Here, the code checks if the variable age is greater than or equal to 20 and prints a message accordingly.
+
+## Branching
+
+Branching is like making decisions in your program based on conditions. Think of it as real-life choices.
+
+### The IF statement
+
+Consider a real-life scenario of entering a bar. If you're above a certain age, you can enter; otherwise, you cannot.
+
+12345age = 20if age >= 21:    print("You can enter the bar.")else:    print("Sorry, you cannot enter.")Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Here, you are using the if statement to make a decision based on the age variable.
+
+### The ELIF Statement
+
+Sometimes, there are multiple conditions to check. For example, if you're not old enough for the bar, you can go to a movie instead.
+
+123456if age >= 21:    print("You can enter the bar.")elif age >= 18:    print("You can watch a movie.")else:    print("Sorry, you cannot do either.")Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+#### Real-life example: Automated Teller Machine (ATM)
+
+When a user interacts with an ATM, the software in the ATM can use branching to make decisions based on the user's input. For example, if the user selects "Withdraw Cash" the ATM can branch into different denominations of bills to dispense based on the amount requested.
+
+123456789user_choice = "Withdraw Cash"if user_choice == "Withdraw Cash":    amount = int(input("Enter the amount to withdraw: "))    if amount % 10 == 0:        print("Amount dispensed: ", amount)    else:        print("Please enter a multiple of 10.")else:    print("Thank you for using the ATM.")Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+## Logical operators
+
+Logical operators help combine and manipulate conditions.
+
+### The NOT operator
+
+#### Real-life example: Notification settings
+
+In a smartphone's notification settings, you can use the NOT operator to control when to send notifications. For example, you might only want to receive notifications when your phone is not in "Do Not Disturb" mode.
+
+The not operator negates a condition.
+
+123is_do_not_disturb = Trueif not is_do_not_disturb:    send_notification("New message received")Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### The AND operator
+
+#### Real-life example: Access control
+
+In a secure facility, you can use the AND operator to check multiple conditions for access. To open a high-security door, a person might need both a valid ID card and a matching fingerprint.
+
+The AND operator checks if all required conditions are true, like needing both keys to open a safe.
+
+1234has_valid_id_card = Truehas_matching_fingerprint = Trueif has_valid_id_card and has_matching_fingerprint:    open_high_security_door()Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### The OR operator
+
+#### Real-life example: Movie night decision
+
+When planning a movie night with friends, you can use the OR operator to decide on a movie genre. You'll choose a movie if at least one person is interested.
+
+The OR operator checks if at least one condition is true. It's like choosing between different movies to watch.
+
+12345friend1_likes_comedy = Truefriend2_likes_action = Falsefriend3_likes_drama = Falseif friend1_likes_comedy or friend2_likes_action or friend3_likes_drama:    choose a movie()Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+## Summary
+
+In this reading, you delved into the most frequently used operator and the concept of conditional branching, which encompasses the utilization of if statements and if-else statements.
+
+---
+
+### 3. [VIDEO TRANSCRIPT] Loops Video • 6 min
+- **URL:** https://www.coursera.org/learn/python-for-applied-data-science-ai/lecture/19yQq/loops
+- **Method:** `dom_transcript` | **Length:** 6113 chars
+
+In this video, we will cover loops, in particular, for loops and while loops. We will use many visual examples in this video. See the labs for examples with data. Before we talk about loops, let's go over the range function. The range function outputs an ordered sequence as a list i. If the input is a positive integer, the output is a sequence. The sequence contains the same number of elements as the input, but starts at 0.
+
+For example, if the input is 3, the output is the sequence 0, 1, 2. If the range function has two inputs, or the first input is smaller than the second input, the output is a sequence that starts at the first input. Then the sequence iterates up to, but not including, the second number. For the input 10 and 15, we get the following sequence. See the labs for more capabilities of the range function. Please note, if you use Python 3, the range function will not generate a list explicitly like in Python 2. In this section, we will cover four loops.
+
+We will focus on lists, but many of the procedures can be used on tuples. Loops perform a task over and over. Consider the group of colored squares. Let's say we would like to replace each colored square with a white square. Let's give each square a number to make things a little easier, and refer to all the group of squares as squares. If we wanted to tell someone to replace square 0 with a white square, we would say, equals replace square 0 with a white square. Or we can say, for square 0 in squares, square 0 equals white square.
+
+Similarly, for the next square, we can say, for square 1 in squares, square 1 equals white square. For the next square, we can say, for square 2 in squares, square 2 equals white square. We repeat the process for each square. The only thing that changes is the index of the square we are referring to. If we are going to perform a similar task in Python, we cannot use actual squares. So let's use a list to represent the boxes. Each element in the list is a string representing the color.
+
+We want to change the name of the color in each element to white. Each element in the list has the following index. This is a syntax to perform a loop in Python. Notice the indent. The range function generates a list. The code will simply repeat everything in the indent 5 times. If you were to change the value to 6, it would do it 6 times.
+
+However, the value of i is incremented by 1 each time. In this segment, we change the ith element of the list to the string white. The value of i is set to 0. Each iteration of the loop starts at the beginning of the indent. We then run everything in the indent. The first element in the list is set to white. We then go to the start of the indent.
+
+We progress down each line. When we reach the line to change the value of the list, we set the value of index 1 to white. The value of i increases by 1. We repeat the process for index 2. The process continues for the next index until we have reached the final element. We can also iterate through a list or tuple directly in Python. We do not even need to use indices.
+
+Here is the list squares. Each iteration of the list we pass one element of the list squares to the variable square. Let's display the value of the variable square on this section. For the first iteration, the value of square is red. We then start the second iteration. For the second iteration, the value of square is yellow. We then start the third iteration.
+
+For the final iteration, the value of square is green. A useful function for iterating data is enumerate. It can be used to obtain the index and the element in the list. Let's use the box analogy with the numbers representing the index of each square. This is the syntax to iterate through a list and provide the index of each element. We use the list squares and use the names of the colors to represent the colored squares. The argument of the function enumerate is the list, in this case squares.
+
+The variable i is the index and the variable square is the corresponding element in the list. Let's use the left part of the screen to display the different values of the variable square and i for the various iterations of the loop. For the first iteration, the value of the variable is red, corresponding to the zeroth index and the value for i is zero. For the second iteration, the value of the variable square is yellow and the value of i corresponds to its index, i.e. 1. We repeat the process for the last index. While loops are similar to for loops, but instead of executing a statement a set number of times, a while loop will only run if a condition is met.
+
+Let's say we would like to copy all the orange squares from the list squares to the list new squares, but we would like to stop if we encounter a non-orange square. We don't know the value of the squares beforehand. We would simply continue the process while the square is orange or see if the square equals orange. If not, we would stop. For the first example, we would check if the square was orange. It satisfies the condition, so we would copy the square. We repeat the process for the second square.
+
+The condition is met, so we copy the square. In the next iteration, we encounter a purple square. The condition is not met, so we stop the process. This is essentially what a while loop does. Let's use the figure on the left to represent the code. We will use a list with the names of the color to represent the different squares. We create an empty list of new squares.
+
+In reality, the list is of indeterminate size. We start the index at 0. The while statement will repeatedly execute the statements within the indent until the condition inside the bracket is false. We append the value of the first element of the list squares to the list new squares. We increase the value of i by 1. We append the value of the second element of the list squares to the list new squares. We increment the value of i.
+
+Now the value in the array squares is purple. Therefore, the condition for the while statement is false, and we exit the loop. Check out the labs for more examples of loop, many with real data.
+
+---
+
+### 4. [READING] Introduction to Loops in Python Reading • 10 min
+- **URL:** https://www.coursera.org/learn/python-for-applied-data-science-ai/supplement/9cMBm/introduction-to-loops-in-python
+- **Method:** `dom_reading_cml` | **Length:** 9247 chars
+
+## Objectives
+
+In this reading, you'll learn about:
+
+- Understand Python loops.
+- How the loop Works
+- Learn about the needs for loop
+- Utilize Python's Range function.
+- Familiarize with Python's enumerate function.
+- Apply while loops for conditional tasks.
+- Distinguish appropriate loop selection.
+
+## What is a Loop?
+
+In programming, a loop is like a magic trick that allows a computer to do something over and over again. Imagine you are a magician's assistant, and your magician friend asks you to pull a rabbit out of a hat, but not just once - they want you to keep doing it until they tell you to stop. That is what loops do for computers - they repeat a set of instructions as many times as needed.
+
+## How Loop works?
+
+Here's how it works in Python:
+
+- Start: The for loop begins with the keyword for, followed by a variable that will take on each value in a sequence.
+- Condition: After the variable, you specify the keyword in and a sequence, such as a list or a range, that the loop will iterate through.
+
+#### If Condition True:
+
+- The loop takes the first value from the sequence and assigns it to the variable.
+- The indented block of code following the loop header is executed using this value.
+- The loop then moves to the next value in the sequence and repeats the process until all values have been used.
+
+- Statement: Inside the indented block of the loop, you write the statements that you want to repeat for each value in the sequence.
+- Repeat: The loop continues to repeat the block of code for each value in the sequence until there are no more values left.
+
+#### If Condition False:
+
+- Once all values in the sequence have been processed, the loop terminates automatically.
+- The loop completes its execution, and the program continues to the next statement after the loop.
+
+## The Need for Loops
+
+Think about when you need to count from 1 to 10. Doing it manually is easy, but what if you had to count to a million? Typing all those numbers one by one would be a nightmare! This is where loops come in handy. They help computers repeat tasks quickly and accurately without getting tired.
+
+## Main Types of Loops
+
+### For Loops
+
+For loops are like a superhero's checklist. A for loop in programming is a control structure that allows the repeated execution of a set of statements for each item in a sequence, such as elements in a list or numbers in a range, enabling efficient iteration and automation of tasks.
+
+#### Syntax of for loop:
+
+12for val in sequence:      # statement(s) to be executed in sequence as a part of the loop.Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+#### Example of for loop:
+
+Imagine you're a painter, and you want to paint a beautiful rainbow with seven colors. Instead of picking up each color one by one and painting the rainbow, you could tell a magical painter's assistant to do it for you. This is what a basic for loop does in programming.
+
+We have a list of colors.
+
+1colors = ["red", "orange", "yellow", "green", "blue", "indigo", "violet"]Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Let's print the colour name in the new line using for loop.
+
+12for color in colors:    print(color)Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.In this example, the for loop picks each color from the colors list and prints it on the screen. You don't have to write the same code for each color - the loop does it automatically!
+
+Sometimes you do not want to paint a rainbow, but you want to count the number of steps to reach your goal. A range-based for loop is like having a friendly step counter that helps you reach your target.Here is how you might use a for loop to count from 1 to 10:
+
+12for number in range(1, 11):    print(number)Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Here, the range(1, 11) generates a sequence from 1 to 10, and the for loop goes through each number in that sequence, printing it out. It's like taking 10 steps, and you're guided by the loop!
+
+### Range Function
+
+The range function in Python generates an ordered sequence that can be used in loops. It takes one or two arguments:
+
+- If given one argument (e.g., range(11)), it generates a sequence starting from 0 up to (but not including) the given number.
+
+12for number in range(11):    print(number)Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+- If given two arguments (e.g., range(1, 11)), it generates a sequence starting from the first argument up to (but not including) the second argument.
+
+12for number in range(1, 11):    print(number)Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### The Enumerated For Loop
+
+Have you ever needed to keep track of both the item and its position in a list? An enumerated for loop comes to your rescue. It's like having a personal assistant who not only hands you the item but also tells you where to find it.
+
+#### Example:
+
+123fruits = ["apple", "banana", "orange"]for index, fruit in enumerate(fruits):    print(f"At position {index}, I found a {fruit}")Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.With this loop, you not only get the fruit but also its position in the list. It's as if you have a magical guide pointing out each fruit's location!
+
+### While Loops
+
+While loops are like a sleepless night at a friend's sleepover. Imagine you and your friends keep telling ghost stories until someone decides it's time to sleep. As long as no one says, "Let's sleep" you keep telling stories.A while loop works similarly - it repeats a task as long as a certain condition is true. It's like saying, "Hey computer, keep doing this until I say stop!"
+
+#### Syntax:
+
+123while condition:    # Code to be executed while the condition is true    # Indentation is crucial to indicate the scope of the loopInformation: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+#### Example:
+
+Here's how you might use a while loop to count from 1 to 10:
+
+1234count = 1while count <= 10:    print(count)    count += 1Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Here's a breakdown of the above code:
+
+- There is a variable named count initialized with the value 1.
+- The while loop is used to repeatedly execute a block of code as long as a given condition is True. In this case, the condition is count <= 10, meaning the loop will continue as long as count is less than or equal to 10.
+- Inside the loop: - The print(count) statement outputs the current value of the count variable. - The count += 1 statement increments the value of count by 1. This step ensures that the loop will eventually terminate when count becomes greater than 10.
+- The loop will continue executing as long as the condition count <= 10 is satisfied.
+- The loop will print the numbers 1 to 10 in consecutive order since the print statement is inside the loop block and executed during each iteration.
+- Once count reaches 11, the condition count <= 10 will evaluate to False, and the loop will terminate.
+- The output of the code will be the numbers 1 to 10, each printed on a separate line.
+
+### The Loop Flow
+
+Both for and while loops have their special moves, but they follow a pattern:
+
+- Initialization: You set up things like a starting point or conditions.
+- Condition: You decide when the loop should keep going and when it should stop.
+- Execution: You do the task inside the loop.
+- Update: You make changes to your starting point or conditions to move forward.
+- Repeat: The loop goes back to step 2 until the condition is no longer true.
+
+### When to Use Each
+
+For Loops: Use for loops when you know the number of iterations in advance and want to process each element in a sequence. They are best suited for iterating over collections and sequences where the length is known.
+
+While Loops: Use while loops when you need to perform a task repeatedly as long as a certain condition holds true. While loops are particularly useful for situations where the number of iterations is uncertain or where you're waiting for a specific condition to be met.
+
+## Summary
+
+In this adventure into coding, we explored loops in Python - special tools that help us do things over and over again without getting tired. We met two types of loops: "for loops" and "while loops."
+
+For Loops were like helpers that made us repeat tasks in order. We painted colors, counted numbers, and even got a helper to tell us where things were in a list. For loops made our job easier and made our code look cleaner.
+
+While Loops were like detectives that kept doing something as long as a rule was true. They helped us take steps, guess numbers, and work until we were tired. While loops were like smart assistants that didn't stop until we said so.
+
+---
+
+### 5. [VIDEO TRANSCRIPT] Functions Video • 13 min
+- **URL:** https://www.coursera.org/learn/python-for-applied-data-science-ai/lecture/zLQQX/functions
+- **Method:** `dom_transcript` | **Length:** 11423 chars
+
+In this video, we will cover functions. You will learn how to use some of Python's built-in functions, as well as how to build your own function. Functions take some input, then produce some output or change. The function is just a piece of code you can reuse. You can implement your own function, but in many cases, you use other people's functions. In this case, you just have to know how the function works, and in some cases, how to import the functions. Let the orange and yellow squares represent similar blocks of code.
+
+We can run the code using some input and get an output. If we define a function to do the task, we just have to call the function. Let the small squares represent the lines of code used to call the function. We can replace these long lines of code by just calling the function a few times. Now we can just call the function. Our code is much shorter. The code performs the same task.
+
+You can think of the process like this. When we call the function f1, we pass an input to the function. These values are passed to all those lines of code you wrote. This returns a value. You can use the value. For example, you can input this value to a new function, f2. When we call this new function, f2, the value is passed to another set of lines of code.
+
+The function returns a value. The process is repeated, passing the values to the function you call. You can save these functions and reuse them, or use other people's functions. Python has many built-in functions. You don't have to know how those functions work internally, but simply what task those functions perform. The function len takes in an input of type sequence, such as a string or list or type collection, such as a dictionary or set, and returns the length of that sequence or collection. Consider the following list.
+
+The len function takes this list as an argument, and we assign the result to the variable l. The function determines there are eight items in the list, then returns the length of the list, in this case, eight. The function sum takes in an iterable, like a tuple or list, and returns the total of all the elements. Consider the following list. We pass the list into the sum function and assign the result to the variable s. The function determines the total of all the elements, then returns it. In this case, the value is 70.
+
+There are two ways to sort a list. The first is using the function sorted. We can also use the list method sort. Methods are similar to functions. Let's use this as an example to illustrate the difference. The function sorted returns a new sorted list or tuple. Consider the list album ratings.
+
+We can apply the function sorted to the list album ratings and get a new list sorted album rating. The result is a new sorted list. If we look at the list album ratings, nothing has changed. Generally, functions take an input, in this case, a list. They produce a new output, in this instance, a sorted list. If we use the method sort, the list album ratings will change and no new list will be created. Let's use the diagram to help illustrate the process.
+
+In this case, the rectangle represents the list album ratings. When we apply the method sort to the list, the list album rating changes. Unlike the previous case, we see that the list album rating has changed. In this case, no new list is created. Now that we've gone over how to use functions in Python, let's see how to build our own functions. We will now get you started on building your own functions in Python. This is an example of a function in Python that returns its input value plus one.
+
+To define a function, we start with the keyword def. The name of the function should be descriptive of what it does. We have the function formal parameter a in parentheses, followed by a colon. We have a code block with an indent. For this case, we add one to a and assign it to b. We return, or output, the value for b. After we define the function, we can call it.
+
+The function will add one to five and return a six. We can call the function again, this time assign it to the variable c. The value for c is 11. Let's explore this further. Let's go over an example when you call a function. It should be noted that this is a simplified model of Python, and Python does not work like this under the hood. We call the function, giving it an input five.
+
+It helps to think of the value of five as being passed to the function. Now the sequences of commands are run. The value of a is five. b would be assigned a value of six. We then return the value of b. In this case, as b was assigned a value of six, the function returns a six. If we call the function again, the process starts from scratch. We pass in an eight.
+
+The subsequent operations are performed. Everything that happened the last call will happen again, with a different value of a. The function returns a value, in this case, nine. Again, this is just a helpful analogy. Let's try and make this function more complex. It's customary to document the function on the first few lines. This tells anyone who uses the function what it does.
+
+This documentation is surrounded in triple quotes. You can use the help command on the function to display the documentation as follows. This will print out the function name and the documentation. We will not include the documentation in the rest of the examples. A function can have multiple parameters. The function mult multiplies two numbers. In other words, it finds their product.
+
+If we pass the integers two and three, the result is a new integer. If we pass the integer 10 and the float 3.14, the result is a float 31.4. If we pass in the integer two and the string Michael Jackson, the string Michael Jackson is repeated two times. This is because the multiplication symbol can also mean repeat a sequence. If you accidentally multiply an integer with a string instead of two integers, you won't get an error. Instead, you will get a string and your program will progress, potentially failing later because you have a string where you expected an integer. This property will make coding simpler, but you must test your code more thoroughly.
+
+In many cases, a function does not have a return statement. In these cases, Python will return the special none object. Practically speaking, if your function has no return statement, you can treat it as if the function returns nothing at all. The function MJ simply prints the name Michael Jackson. We call the function. The function prints Michael Jackson. Let's define the function no work that performs no task.
+
+Python doesn't allow a function to have an empty body, so we can use the keyword pass, which doesn't do anything, but satisfies the requirement of a non-empty body. If we call the function and print it out, the function returns a none. In the background, if the return statement is not called, Python will automatically return a none. It is helpful to view the function no work with the following return statement. Usually, functions perform more than one task. This function prints a statement then returns a value. Let's use this table to represent the different values as the function is called.
+
+We call the function with an input of 2. We find the value of b. The function prints the statement with the value of a and b. Finally, the function returns the value of b, in this case 3. We can use loops in functions. This function prints out the values and indexes of a loop or tuple. We call the function with the list album ratings as an input.
+
+Let's display the list on the right with its corresponding index. Stuff is used as an input to the function enumerate. This operation will pass the index to i and the value in the list to s. The function will begin to iterate through the loop. The function will print the first index and the first value in the list. We continue iterating through the loop. The values of i and s are updated.
+
+The print statement is reached. Similarly, the next values of the list and index are printed. The process is repeated. The values of i and s are updated. We continue iterating until the final values in the list are printed out. Variadic parameters allow us to input a variable number of elements. Consider the following function.
+
+The function has an asterisk on the parameter names. When we call the function, three parameters are packed into the tuple names. We then iterate through the loop. The values are printed out accordingly. If we call the same function with only two parameters as inputs, the variable names only contain two elements. The result is only two values are printed out. The scope of a variable is the part of the program where that variable is accessible.
+
+Variables are defined outside of any function are said to be within the global scope, meaning they can be accessed anywhere after they are defined. Here we have a function that adds the string dc to the parameter x. When we reach the part where the value of x is set to ac, this is within the global scope, meaning x is accessible anywhere after it is defined. A variable defined in the global scope is called a global variable. When we call the function, we enter a new scope or the scope of add dc. We pass as an argument the add dc function, in this case ac. Within the scope of the function, the value of x is set to ac dc.
+
+The function returns the value and is assigned to z. Within the global scope, the value z is set to ac dc. After the value is returned, the scope of the function is deleted. Local variables only exist within the scope of a function. Consider the function thriller. The local variable date is set to 1982. When we call the function, we create a new scope.
+
+Within that scope of the function, the value of the date is set to 1982. The value of date does not exist within the global scope. Variables inside the global scope can have the same name as variables in the local scope with no conflict. Consider the function thriller. The local variable date is set to 1982. The global variable date is set to 2017. When we call the function, we create a new scope.
+
+Within that scope, the value of the date is set to 1982. If we call the function, it returns the value of date in the local scope. In this case, 1982. When we print in the global scope, we use the global variable value. The global value of the variable is 2017. Therefore, the value is set to 2017. If a variable is not defined within a function, Python will check the global scope.
+
+Consider the function ac dc. The function has the variable rating with no value assigned. If we define the variable rating in the global scope, then call the function, Python will see there is no value for the variable rating. As a result, Python will leave the scope and check if the variable ratings exists in the global scope. It will use the value of ratings in the global scope within the scope of ac dc. In the function, we'll print out a 9. The value of z in the global scope will be 10 as we added 1.
+
+The value of rating will be unchanged within the global scope. Consider the function, Pink Floyd. If we define the variable claimed sales with the keyword global, the variable will be a global variable. We call the function, Pink Floyd. The variable claimed sales is set to the string 45 million in the global scope. When we print the variable, we get a value of 45 million. There is a lot more you can do with functions.
+
+Check out the lab for more examples.
+
+---
+
+### 6. [READING] Exploring Python Functions Reading • 10 min
+- **URL:** https://www.coursera.org/learn/python-for-applied-data-science-ai/supplement/bl2Z6/exploring-python-functions
+- **Method:** `dom_reading_cml` | **Length:** 15775 chars
+
+## Objectives
+
+In this reading, you'll learn about:
+
+- Describe the function concept and the importance of functions in programming
+- Write a function that takes inputs and performs tasks
+- Use built-in functions like len(), sum(), and others effectively
+- Define and use your functions in Python
+- Differentiate between global and local variable scopes
+- Use loops within the function
+- Modify data structures using functions
+
+## Introduction to functions
+
+A function is a fundamental building block that encapsulates specific actions or computations. As in mathematics, where functions take inputs and produce outputs, programming functions perform similarly. They take inputs, execute predefined actions or calculations, and then return an output.
+
+### Purpose of functions
+
+Functions promote code modularity and reusability. Imagine you have a task that needs to be performed multiple times within a program. Instead of duplicating the same code at various places, you can define a function once and call it whenever you need that task. This reduces redundancy and makes the code easier to manage and maintain.
+
+### Benefits of using functions
+
+- Modularity: Functions break down complex tasks into manageable components
+- Reusability: Functions can be used multiple times without rewriting code
+- Readability: Functions with meaningful names enhance code understanding
+- Debugging: Isolating functions eases troubleshooting and issue fixing
+- Abstraction: Functions simplify complex processes behind a user-friendly interface
+- Collaboration: Team members can work on different functions concurrently
+- Maintenance: Changes made in a function automatically apply wherever it's used
+
+## How functions take inputs, perform tasks, and produce outputs
+
+### Inputs (Parameters)
+
+Functions operate on data, and they can receive data as input. These inputs are known as parameters or arguments. Parameters provide functions with the necessary information they need to perform their tasks. Consider parameters as values you pass to a function, allowing it to work with specific data.
+
+### Performing tasks
+
+Once a function receives its input (parameters), it executes predefined actions or computations. These actions can include calculations, operations on data, or even more complex tasks. The purpose of a function determines the tasks it performs. For instance, a function could calculate the sum of numbers, sort a list, format text, or fetch data from a database.
+
+### Producing outputs
+
+After performing its tasks, a function can produce an output. This output is the result of the operations carried out within the function. It's the value that the function “returns” to the code that called it. Think of the output as the end product of the function's work. You can use this output in your code, assign it to variables, pass it to other functions, or even print it out for display.
+
+#### Example:
+
+Consider a function named calculate_total that takes two numbers as input (parameters), adds them together, and then produces the sum as the output. Here's how it works:
+
+123456def calculate_total(a, b):  # Parameters: a and b    total = a + b           # Task: Addition    return total            # Output: Sum of a and b result = calculate_total(5, 7)  # Calling the function with inputs 5 and 7print(result)  # Output: 12Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+## Python's built-in functions
+
+Python has a rich set of built-in functions that provide a wide range of functionalities. These functions are readily available for you to use, and you don't need to be concerned about how they are implemented internally. Instead, you can focus on understanding what each function does and how to use it effectively.
+
+### Using built-in functions or Pre-defined functions
+
+To use a built-in function, you simply call the function's name followed by parentheses. Any required arguments or parameters are passed into the function within these parentheses. The function then performs its predefined task and may return an output you can use in your code.
+
+#### Here are a few examples of commonly used built-in functions:
+
+- len(): Calculates the length of a sequence or collection
+
+12string_length = len("Hello, World!")  # Output: 13list_length = len([1, 2, 3, 4, 5])   # Output: 5Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+- sum(): Adds up the elements in an iterable (list, tuple, and so on)
+
+1total = sum([10, 20, 30, 40, 50])  # Output: 150Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+- max(): Returns the maximum value in an iterable
+
+1highest = max([5, 12, 8, 23, 16])  # Output: 23Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+- min(): Returns the minimum value in an iterable
+
+1lowest = min([5, 12, 8, 23, 16])  # Output: 5Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Python's built-in functions offer a wide array of functionalities, from basic operations like len() and sum() to more specialized tasks.
+
+## Defining your functions
+
+### Defining a function is like creating your mini-program:
+
+Use def followed by the function name and parentheses. Here is the syntax to define a function:
+
+12def function_name():    passInformation: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.A "pass" statement in a programming function is a placeholder or a no-op (no operation) statement. Use it when you want to define a function or a code block syntactically but do not want to specify any functionality or implementation at that moment.
+
+- Placeholder: "pass" acts as a temporary placeholder for future code that you intend to write within a function or a code block.
+- Syntax Requirement: In many programming languages like Python, using "pass" is necessary when you define a function or a conditional block. It ensures that the code remains syntactically correct, even if it doesn't do anything yet.
+- No Operation: "pass" itself doesn't perform any meaningful action. When the interpreter encounters "pass", it simply moves on to the next statement without executing any code.
+
+### Function Parameters:
+
+- Parameters are like inputs for functions
+- They go inside parentheses when defining the function
+- Functions can have multiple parameters
+
+#### Example:
+
+12345def greet(name):    return "Hello, " + name result = greet("Alice")print(result)  # Output: Hello, AliceInformation: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### Docstrings (Documentation Strings):
+
+- Docstrings explain what a function does
+- Placed inside triple quotes under the function definition
+- Helps other developers understand your function
+
+#### Example:
+
+12345678def multiply(a, b):    """    This function multiplies two numbers.    Input: a (number), b (number)    Output: Product of a and b    """    print(a * b)multiply(2,6)Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### Return Statement:
+
+- Return gives back a value from a function
+- Ends the function's execution and sends the result
+- A function can return various types of data
+
+#### Example:
+
+1234def add(a, b):    return a + b sum_result = add(3, 5)  # sum_result gets the value 8Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+## Understanding scopes and variables
+
+Scope is where a variable can be seen and used:
+
+- Global Scope: Variables defined outside functions; accessible everywhere
+- Local Scope: Variables inside functions; only usable within that function
+
+### Part 1: Global variable declaration
+
+1global_variable = "I'm global"Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.This line initializes a global variable called global_variable and assigns it the value "I'm global".
+
+Global variables are accessible throughout the entire program, both inside and outside functions.
+
+### Part 2: Function definition
+
+1234def example_function():    local_variable = "I'm local"    print(global_variable)  # Accessing global variable    print(local_variable)   # Accessing local variableInformation: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Here, you define a function called example_function().
+
+Within this function:
+
+- A local variable named local_variable is declared and initialized with the string value "I'm local." This variable is local to the function and can only be accessed within the function's scope.
+- The function then prints the values of both the global variable (global_variable) and the local variable (local_variable). It demonstrates that you can access global and local variables within a function.
+
+### Part 3: Function call
+
+1example_function()Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.In this part, you call the example_function() by invoking it. This results in the function's code being executed.
+
+As a result of this function call, it will print the values of the global and local variables within the function.
+
+### Part 4: Accessing global variable outside the function
+
+1print(global_variable)  # Accessible outside the functionInformation: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.After calling the function, you print the value of the global variable global_variable outside the function. This demonstrates that global variables are accessible inside and outside of functions.
+
+### Part 5: Attempting to access local variable outside the function
+
+1# print(local_variable)  # Error, local variable not visible hereInformation: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.In this part, you are attempting to print the value of the local variable local_variable outside of the function. However, this line would result in an error.
+
+Local variables are only visible and accessible within the scope of the function where they are defined.
+
+Attempting to access them outside of that scope would raise a "NameError".
+
+## Using functions with loops
+
+### Functions and loops together
+
+- Functions can contain code with loops
+- This makes complex tasks more organized
+- The loop code becomes a repeatable function
+
+#### Example:
+
+12345def greet(name):    return "Hello, " + name for _ in range(3):    print(greet("Alice"))Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### Enhancing code organization and reusability
+
+- Functions group similar actions for easy understanding
+- Looping within functions keeps code clean
+- You can reuse a function to repeat actions
+
+#### Example:
+
+12345def greet(name):    return "Hello, " + name for _ in range(3):    print(greet("Alice"))Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+## Modifying data structure using functions
+
+You'll use Python and a list as the data structure for this illustration. In this example, you will create functions to add and remove elements from a list.
+
+### Part 1: Initialize an empty list
+
+12# Define an empty list as the initial data structuremy_list = []Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.In this part, you start by creating an empty list named my_list. This empty list serves as the data structure that you will modify throughout the code.
+
+### Part 2: Define a function to add elements
+
+123# Function to add an element to the listdef add_element(data_structure, element):    data_structure.append(element)Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Here, you define a function called add_element. This function takes two parameters:
+
+- data_structure: This parameter represents the list to which you want to add an element
+- element: This parameter represents the element you want to add to the list
+
+Inside the function, you use the append method to add the provided element to the data_structure, which is assumed to be a list.
+
+### Part 3: Define a function to remove elements
+
+123456# Function to remove an element from the listdef remove_element(data_structure, element):    if element in data_structure:        data_structure.remove(element)    else:        print(f"{element} not found in the list.")Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.In this part, you define another function called remove_element. It also takes two parameters:
+
+- data_structure: The list from which we want to remove an element
+- element: The element we want to remove from the list
+
+Inside the function, you use conditional statements to check if the element is present in the data_structure. If it is, you use the remove method to remove the first occurrence of the element. If it's not found, you print a message indicating that the element was not found in the list.
+
+### Part 4: Add elements to the list
+
+1234# Add elements to the list using the add_element functionadd_element(my_list, 42)add_element(my_list, 17)add_element(my_list, 99)Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Here, you use the add_element function to add three elements (42, 17, and 99) to the my_list. These are added one at a time using function calls.
+
+### Part 5: Print the current list
+
+12# Print the current listprint("Current list:", my_list)Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.This part simply prints the current state of the my_list to the console, allowing us to see the elements that have been added so far.
+
+### Part 6: Remove elements from the list
+
+123# Remove an element from the list using the remove_element functionremove_element(my_list, 17)remove_element(my_list, 55)  # This will print a message since 55 is not in the listInformation: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.In this part, you use the remove_element function to remove elements from the my_list. First, you attempt to remove 17 (which is in the list), and then you try to remove 55 (which is not in the list). The second call to remove_element will print a message indicating that 55 was not found.
+
+### Part 7: Print the updated list
+
+12# Print the updated listprint("Updated list:", my_list)Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Finally, you print the updated my_list to the console. This allows us to observe the modifications made to the list by adding and removing elements using the defined functions.
+
+## Conclusion
+
+Congratulations! You've completed the Reading Instruction Lab on Python functions. You've gained a solid understanding of functions, their significance, and how to create and use them effectively. These skills will empower you to write more organized, modular, and powerful code in your Python projects.
+
+---
+
+### 7. [VIDEO TRANSCRIPT] Exception Handling Video • 3 min
+- **URL:** https://www.coursera.org/learn/python-for-applied-data-science-ai/lecture/3dEjg/exception-handling
+- **Method:** `dom_transcript` | **Length:** 3490 chars
+
+Hello. Welcome to Exception Handling. After watching this video, you will be able to explain exception handling, demonstrate the use of exception handling, and understand the basics of exception handling. Have you ever mistakenly entered a number when you were supposed to enter text in an input field? Most of us have either in error or when testing out a program, but do you know why it gave an error message instead of completing and terminating the program? In order for the error message to appear, an event was triggered in the background. This event was activated because the program tried to perform a computation on the name entry and realized the entry contained numbers and not letters.
+
+By encasing this code in an exception handler the program knew how to deal with this type of error and was able to output the error message to continue along with the program. This is one of many errors that can happen when asking for user input, so let’s see how exception handling works. We will first explore the try…except statement. This type of statement will first attempt to execute the code in the “try” block, but if an error occurs it will kick out and begin searching for the exception that matches the error. Once it finds the correct exception to handle the error, it will then execute that line of code. For example, perhaps you are writing a program that will open and write a file. After starting the program, an error occurred as the data was not able to be read.
+
+Because of this error the program skipped over the code lines under the “try” statement and went directly to the exception line. Since this error fell within the IOError guidelines it printed “Unable to open or read the data in the file.” to our console. When writing simple programs we can sometimes get away with only one except statement, but what happens if another error occurs that is not caught by the IOError? If that happened we would need to add another except statement. For this except statement you will notice that the type of error to catch is not specified. While this may seem a logical step so the program will catch all errors and not terminate, this is not a best practice. For example, let’s say our small program was just one section of a much larger program that was over a thousand lines of code.
+
+Our task was to debug the program as it kept throwing an error causing a disruption for our users. When investigating the program you found this error kept appearing. Because this error had no details you ended up spending hours trying to pinpoint and fix the error. So far in our program we have defined that an error message should print out if an error occurs, but we do not receive any messages that the program executed properly. This is where we can now add an else statement to give us that notification. By adding this else statement it will provide us a notification to the console that “The file was written successfully.” Now that we have defined what will happen if our program executes properly, or if an error occurs there is one last statement to add.
+
+For this example, since we are opening a file the last thing we need to do is close the file. By adding a finally statement it will tell the program to close the file no matter the end result and print “File is now closed” to our console. In this video, you learned how to write a try…except statement, why it is important to always define errors when creating exceptions, and how to add an else and finally statement.
+
+---
+
+### 8. [READING] Exception Handling Reading • 10 min
+- **URL:** https://www.coursera.org/learn/python-for-applied-data-science-ai/supplement/xo9ex/exception-handling
+- **Method:** `dom_reading_cml` | **Length:** 7007 chars
+
+## Objectives
+
+At the end of this reading, you'll learn about:
+
+- Understanding Exceptions
+- Distinguishing Errors from Exceptions
+- Familiarity with Common Python Exceptions
+- Managing Exceptions Effectively
+
+In the world of programming, errors and unexpected situations are certain. Python, a popular and versatile programming language, equips developers with a powerful toolset to manage these unforeseen scenarios through exceptions and error handling.
+
+## What are exceptions?
+
+Exceptions are alerts when something unexpected happens while running a program. It could be a mistake in the code or a situation that was not planned for. Python can raise these alerts automatically, but we can also trigger them on purpose using the raise command. The cool part is that we can prevent our program from crashing by handling exceptions.
+
+## Errors vs. Exceptions
+
+Hold on, what is the difference between errors and exceptions? Well, errors are usually big problems that come from the computer or the system. They often make the program stop working completely. On the other hand, exceptions are more like issues we can control. They happen because of something we did in our code and can usually be fixed, so the program keeps going.
+
+Here is the difference between Errors and exceptions:
+
+| Aspect | Errors | Exceptions |
+| --- | --- | --- |
+| Origin | Errors are typically caused by the environment, hardware, or operating system. | Exceptions are usually a result of problematic code execution within the program. |
+| Nature | Errors are often severe and can lead to program crashes or abnormal termination. | Exceptions are generally less severe and can be caught and handled to prevent program termination. |
+| Handling | Errors are not usually caught or handled by the program itself. | Exceptions can be caught using try-except blocks and dealt with gracefully, allowing the program to continue execution. |
+| Examples | Examples include “SyntaxError” due to incorrect syntax or “NameError” when a variable is not defined. | Examples include “ZeroDivisionError” when dividing by zero, or “FileNotFoundError” when attempting to open a non-existent file. |
+| Categorization | Errors are not classified into categories. | Exceptions are categorized into various classes, such as “ArithmeticError,” “IOError,” ValueError,” etc., based on their nature. |
+
+## Common Exceptions in Python
+
+Here are a few examples of exceptions we often run into and can handle using this tool:
+
+### ZeroDivisionError
+
+This error arises when an attempt is made to divide a number by zero. Division by zero is undefined in mathematics, causing an arithmetic error.
+
+#### For example:
+
+123result = 10 / 0 print(result)# Raises ZeroDivisionErrorInformation: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### ValueError
+
+This error occurs when an inappropriate value is used within the code. An example of this is when trying to convert a non-numeric string to an integer.
+
+#### For example:
+
+12num = int("abc")# Raises ValueErrorInformation: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### FileNotFoundError
+
+This exception is encountered when an attempt is made to access a file that does not exist.
+
+#### For example:
+
+12with open("nonexistent_file.txt", "r") as file:        content = file.read()   # Raises FileNotFoundErrorInformation: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### IndexError
+
+An IndexError occurs when an index is used to access an element in a list that is outside the valid index range.
+
+#### For example:
+
+123my_list = [1, 2, 3]value = my_list[1]  # No IndexError, within rangemissing = my_list[5]  # Raises IndexErrorInformation: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### KeyError
+
+The KeyError arises when an attempt is made to access a non-existent key in a dictionary.
+
+#### For example:
+
+123my_dict = {"name": "Alice", "age": 30}value = my_dict.get("city")  # No KeyError, using .get() methodmissing = my_dict["city"]  # Raises KeyErrorInformation: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### TypeError
+
+The TypeError occurs when an object is used in an incompatible manner. An example includes trying to concatenate a string and an integer.
+
+#### For example:
+
+12result = "hello" + 5   # Raises TypeErrorInformation: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### AttributeError
+
+An AttributeError occurs when an attribute or method is accessed on an object that doesn't possess that specific attribute or method.
+
+#### For example:
+
+123text = "example"length = len(text)  # No AttributeError, correct method usagemissing = text.some_method()  # Raises AttributeErrorInformation: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### ImportError
+
+This error is encountered when an attempt is made to import a module that is unavailable.
+
+For example: import non_existent_module
+
+Note: Please remember, the exceptions you will encounter are not limited to just these. There are many more in Python. However, there is no need to worry. By using the technique provided below and following the correct syntax, you will be able to handle any exceptions that come your way.
+
+## Handling Exceptions
+
+Python has a handy tool called try and except that helps us manage exceptions.
+
+Try and Except: You can use the try and except blocks to prevent your program from crashing due to exceptions.
+
+Here's how they work:
+
+- The code that may result in an exception is contained in the try block.
+- If an exception occurs, the code directly jumps to except block.
+- In the except block, you can define how to handle the exception gracefully, like displaying an error message or taking alternative actions.
+- After the except block, the program continues executing the remaining code.
+
+### Example: Attempting to divide by zero
+
+123456789# using Try- except try:    # Attempting to divide 10 by 0    result = 10 / 0except ZeroDivisionError:    # Handling the ZeroDivisionError and printing an error message    print("Error: Cannot divide by zero")# This line will be executed regardless of whether an exception occurredprint("outside of try and except block")Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+## Next Steps
+
+As we finish up this reading, you are ready to move on to the next part where you will practice handling errors. For better learning, try out different types of data in the lab. This way, you will encounter various errors and learn how to deal with them effectively. This knowledge will help you write stronger and more reliable code in the future.
+
+---
+
+### 9. [VIDEO TRANSCRIPT] Objects and Classes Video • 10 min
+- **URL:** https://www.coursera.org/learn/python-for-applied-data-science-ai/lecture/KgVed/objects-and-classes
+- **Method:** `dom_transcript` | **Length:** 10171 chars
+
+In this module, we are going to talk about objects and classes. Python has many different kinds of data types, integers, floats, strings, lists, dictionaries, Booleans. In Python, each is an object. Every object has the following; a type, internal representation, a set of functions called methods to interact with the data. An object is an instance of a particular type. For example, we have two types, Type 1 and Type 2. We can have several objects of Type 1 as shown in yellow.
+
+Each object is an instance of Type 1. We also have several objects of Type 2 shown in green. Each object is an instance of Type 2. Let's do several less abstract examples. Every time we create an integer, we are creating an instance of type integer, or we are creating an integer object. In this case, we are creating five instances of type integer or five integer objects. Similarly, every time we create a list, we are creating an instance of type list, or we are creating a list object.
+
+In this case, we are creating five instances of type list or five list objects. We can find out the type of an object by using the type command. In this case, we have an object of type list. We have an object of type integer. We have an object of type string. Finally, we have an object of type dictionary. A class or type methods are functions that every instance of that class or type provides.
+
+It's how you interact with the object. We have been using methods all this time, for example, on lists. Sorting is an example of a method that interacts with the data in the object. Consider the list ratings. The data is a series of numbers contained within the list. The method sort will change the data within the object. We call the method by adding a period at the end of the object's name, and the method's name we would like to call with parentheses.
+
+We have the ratings list represented in orange. The data contained in the list is a sequence of numbers. We call the sort method. This changes the data contained in the object. You can say it changes the state of the object. We can call the reverse method on the list, changing the list again. We call the method reversing the order of the sequence within the object.
+
+In many cases, you don't have to know the inner workings of the class and its methods, you just have to know how to use them. Next, we will cover how to construct your own classes. You can create your own type or class in Python. In this section, you'll create a class. The class has data attributes. The class has methods. We then create instances or instances of that class or objects.
+
+The class data attributes define the class. Let's create two classes. The first class will be a circle. The second will be a rectangle. Let's think about what constitutes a circle. Examining this image, all we need is a radius to define a circle and let's add color to make it easier to distinguish between different instances of the class later. Therefore, our class data attributes are radius and color.
+
+Similarly, examining the image in order to define a rectangle, we need the height and width. We will also add color to distinguish between instances later. Therefore, the data attributes are color, height and width. To create the class circle, you will need to include the class definition. This tells Python you are creating your own class, the name of the class. For this course in parentheses, you will always place the term object. This is the parent of the class.
+
+For the class rectangle, we change the name of the class, but the rest is kept the same. Classes are outlines we have to set the attributes to create objects. We can create an object that is an instance of type circle. The color data attribute is red, and the data attribute radius is four. We can also create a second object that is an instance of type circle. In this case, the color data attribute is green, and the data attribute radius is two. We can also create an object that is an instance of type rectangle.
+
+The color data attribute is blue, and the data attribute of height and width is two. The second object is also an instance of type rectangle. In this case, the color data attribute is yellow, and the height is one, and the width is three. We now have different objects of class circle or type circle. We also have different objects of class rectangle or type rectangle. Let us continue building the circle class in Python. We define our class.
+
+We then initialize each instance of the class with data attributes, radius and color using the class constructor. Function in it is a constructor. It's a special function that tells Python you are making a new class. There are other special functions in Python to make more complex classes. The radius and color parameters are used to initialize the radius and color data attributes of the class instance. The self parameter refers to the newly created instance of the class. The parameters radius and color can be used in the constructor's body to access the values passed to the class constructor when the class is constructed.
+
+We can set the value of the radius and color data attributes to the values passed to the constructor method. Similarly, we can define the class rectangle in Python. The name of the class is different. This time, the class data attributes are color, height and width. After we have created the class, in order to create an object of class circle, we introduce a variable. This will be the name of the object. We create the object by using the object constructor.
+
+The object constructor consists of the name of the class, as well as the parameters. These are the data attributes. When we create a circle object, we call the code like a function. The arguments passed to the circle constructor are used to initialize the data attributes of the newly created circle instance. It is helpful to think of self as a box that contains all the data attributes of the object. Typing the object's name followed by a dot and the data attribute name gives us the data attribute value, for example, radius. In this case, the radius is 10.
+
+We can do the same for color. We can see the relationship between the self parameter and the object. In Python, we can also set or change the data attribute directly, typing the object's name followed by a dot and the data attribute name and set it equal to the corresponding value. We can verify that the color data attribute has changed. Usually, in order to change the data in an object, we define methods in the class. Let's discuss methods. We have seen how data attributes consist of the data defining the objects.
+
+Methods are functions that interact and change the data attributes, changing or using the data attributes of the object. Let's say we would like to change the size of a circle. This involves changing the radius attribute. We add a method at radius to the class circle. The method is a function that requires a self as well as other parameters. In this case, we are going to add a value to the radius. We denote that value as r. We are going to add r to the data attribute radius.
+
+Let's see how this part of the code works when we create an object and call the add radius method. As before, we create an object with the object constructor. We pass two arguments to the constructor. The radius is set to two and the color is set to red. In the constructor's body, the data attributes are set. We can use the box analogy to see the current state of the object. We call the method by adding a dot followed by the method name and parentheses.
+
+In this case, the argument of the function is the amount we would like to add. We do not need to worry about the self parameter when calling the method. Just like with the constructor, Python will take care of that for us. In many cases, there may not be any parameters other than self specified in the methods definition, so we don't pass any arguments when calling the function. Internally, the method is called with a value of eight and the proper self object. The method assigns a new value to self.radius. This changes the object, in particular, the radius data attribute.
+
+When we call the add radius method, this changes the object by changing the value of the radius data attribute. We can add default values to the parameters of a class's constructor. In the labs, we also create the method called drawCircle. See the lab for the implementation of drawCircle. In the labs, we can create a new object of type circle using the constructor. The color will be red and the radius will be three. We can access the data attribute radius.
+
+We can access the attribute color. Finally, we can use the method drawCircle to draw the circle. Similarly, we can create a new object of type circle. We can access the data attribute of radius. We can access the data attribute color. We can use the method drawCircle to draw the circle. In summary, we have created an object of class circle called RedCircle with a radius attribute of three and a color attribute of red.
+
+We also created an object of class circle called BlueCircle with a radius attribute of 10 and a color attribute of blue. In the lab, we have a similar class for rectangle. We can create a new object of type rectangle using the constructor. We can access a data attribute of height. We can also access the data attribute of width. We can do the same for the data attribute of color. We can use the method drawRectangle to draw the rectangle.
+
+We have a class, an object that is a realization or instantiation of that class. For example, we can create two objects of class circle or two objects of class rectangle. The dir function is useful for obtaining the list of data attributes and methods associated with a class. The object you're interested in is passed as an argument. The return value is a list of that object's data attributes. The attributes surrounded by underscores are for internal use, and you shouldn't have to worry about them. The regular looking attributes are the ones you should concern yourself with.
+
+These are the objects methods and data attributes. There is a lot more you can do with objects in Python. Check python.org for more info.
+
+---
+
+### 10. [READING] Objects and Classes Reading • 10 min
+- **URL:** https://www.coursera.org/learn/python-for-applied-data-science-ai/supplement/kUelV/objects-and-classes
+- **Method:** `dom_reading_cml` | **Length:** 13583 chars
+
+## Objectives
+
+In this reading, you will learn about:
+
+- Fundamental concepts of Python objects and classes.
+- Structure of classes and object code.
+- Real-world examples related to objects and classes.
+
+## Introduction to classes and object
+
+Python is an object-oriented programming (OOP) language that uses a paradigm centered around objects and classes.
+
+Let's look at these fundamental concepts.
+
+### Classes
+
+A class is a blueprint or template for creating objects. It defines the structure and behavior that its objects will have.
+
+Think of a class as a cookie cutter and objects as the cookies cut from that template.
+
+In Python, you can create classes using the class keyword.
+
+#### Creating Classes
+
+When you create a class, you specify the attributes(data) and methods (functions) that objects of that class will have.
+
+Attributes are defined as variables within the class, and methods are defined as functions.
+
+For example, you can design a "Car" class with attributes such as "color" and "speed," along with methods like "accelerate."
+
+### Objects
+
+An object is a fundamental unit in Python that represents a real-world entity or concept.Objects can be tangible (like a car) or abstract (like a student's grade).
+
+Every object has two main characteristics:
+
+### State
+
+The attributes or data that describe the object. For your "Car" object, this might include attributes like "color", "speed", and "fuel level".
+
+### Behavior
+
+The actions or methods that the object can perform. In Python, methods are functions that belong to objects and can change the object's state or perform specific operations.
+
+### Instantiating objects
+
+- Once you've defined a class, you can create individual objects (instances) based on that class.
+- Each object is independent and has its own set of attributes and methods.
+- To create an object, you use the class name followed by parentheses, so: "my_car = Car()"
+
+### Interacting with objects
+
+You interact with objects by calling their methods or accessing their attributes using dot notation.
+
+For example, if you have a Car object named my_car, you can set its color with my_car.color = "blue" and accelerate it with my_car.accelerate() if there's an accelerate method defined in the class.
+
+## Structure of classes and object code
+
+Please don't directly copy and use this code because it is a template for explanation and not for specific results.
+
+### Class declaration (class ClassName)
+
+- The class keyword is used to declare a class in Python.
+- ClassName is the name of the class, typically following CamelCase naming conventions.
+
+1class ClassName:Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### Class attributes (class_attribute = value)
+
+- Class attributes are variables shared among all class instances (objects).
+- They are defined within the class but outside of any methods.
+
+123class ClassName:    # Class attributes (shared by all instances)    class_attribute = valueInformation: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### Constructor method (def init(self, attribute1, attribute2, …):)
+
+- The __init__ method is a special method known as the constructor.
+- It initializes the instance attributes (also called instance variables) when an object is created.
+- The self parameter is the first parameter of the constructor, referring to the instance being created.
+- attribute1, attribute2, and so on are parameters passed to the constructor when creating an object.
+- Inside the constructor, self.attribute1, self.attribute2, and so on are used to assign values to instance attributes.
+
+12345678class ClassName:    # Class attributes (shared by all instances)    class_attribute = value     # Constructor method (initialize instance attributes)    def __init__(self, attribute1, attribute2, ...):        pass        # ...Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### Instance attributes (self.attribute1 = attribute1)
+
+- Instance attributes are variables that store data specific to each class instance.
+- They are initialized within the __init__ method using the self keyword followed by the attribute name.
+- These attributes hold unique data for each object created from the class.
+
+123456789class ClassName:    # Class attributes (shared by all instances)    class_attribute = value     # Constructor method (initialize instance attributes)    def __init__(self, attribute1, attribute2, ...):        self.attribute1 = attribute1        self.attribute2 = attribute2        # ...Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### Instance methods (def method1(self, parameter1, parameter2, …):)
+
+- Instance methods are functions defined within the class.
+- They operate on the instance's data (instance attributes) and can perform actions specific to instances.
+- The self parameter is required in instance methods, allowing them to access instance attributes and call other methods within the class.
+
+1234567891011121314class ClassName:    # Class attributes (shared by all instances)    class_attribute = value     # Constructor method (initialize instance attributes)    def __init__(self, attribute1, attribute2, ...):        self.attribute1 = attribute1        self.attribute2 = attribute2        # ...     # Instance methods (functions)    def method1(self, parameter1, parameter2, ...):        # Method logic        passInformation: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Using the same steps you can define multiple instance methods.
+
+123456789101112131415161718class ClassName:    # Class attributes (shared by all instances)    class_attribute = value     # Constructor method (initialize instance attributes)    def __init__(self, attribute1, attribute2, ...):        self.attribute1 = attribute1        self.attribute2 = attribute2        # ...     # Instance methods (functions)    def method1(self, parameter1, parameter2, ...):        # Method logic        pass     def method2(self, parameter1, parameter2, ...):        # Method logic        passInformation: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Note: Now, you have successfully created a dummy class.
+
+### Creating objects (Instances)
+
+- To create objects (instances) of the class, you call the class like a function and provide arguments the constructor requires.
+- Each object is a distinct instance of the class, with its own instance attributes and the ability to call methods defined in the class.
+
+123# Create objects (instances) of the classobject1 = ClassName(arg1, arg2, ...)object2 = ClassName(arg1, arg2, ...)Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### Calling methods on objects
+
+- In this section, you will call methods on objects, specifically object1 and object2.
+- The methods method1 and method2 are defined in the ClassName class, and you're calling them on object1 and object2 respectively.
+- You pass values param1_value and param2_value as arguments to these methods. These arguments are used within the method's logic.
+
+#### Method 1: Using dot notation
+
+- This is the most straightforward way to call an object's method. In this, use the dot notation (object.method()) to invoke the method on the object directly.
+- For example, result1 = object1.method1(param1_value, param2_value, ...) calls method1 on object1.
+
+1234# Calling methods on objects# Method 1: Using dot notationresult1 = object1.method1(param1_value, param2_value, ...)result2 = object2.method2(param1_value, param2_value, ...)Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+#### Method 2: Assigning object methods to variables
+
+- Here's an alternative way to call an object's method by assigning the method reference to a variable.
+- method_reference = object1.method1 assigns the method method1 of object1 to the variable method_reference.
+- Later, call the method using the variable like this: result3 = method_reference(param1_value, param2_value, …).
+
+123# Method 2: Assigning object methods to variablesmethod_reference = object1.method1  # Assign the method to a variableresult3 = method_reference(param1_value, param2_value, ...)Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### Accessing object attributes
+
+- Here, you are accessing an object's attribute using dot notation.
+- attribute_value = object1.attribute1 retrieves the value of the attribute attribute1 from object1 and assigns it to the variable attribute_value.
+
+12# Accessing object attributesattribute_value = object1.attribute1  # Access the attribute using dot notationInformation: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### Modifying object attributes
+
+- You will modify an object's attribute using dot notation.
+- object1.attribute2 = new_value sets the attribute attribute2 of object1 to the new value new_value.
+
+12# Modifying object attributesobject1.attribute2 = new_value  # Change the value of an attribute using dot notationInformation: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### Accessing class attributes (shared by all instances)
+
+- Finally, access a class attribute shared by all class instances.
+- class_attr_value = ClassName.class_attribute accesses the class attribute class_attribute from the ClassName class and assigns its value to the variable class_attr_value.
+
+12# Accessing class attributes (shared by all instances)class_attr_value = ClassName.class_attributeInformation: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### Real-world example
+
+Let's write a python program that simulates a simple car class, allowing you to create car instances, accelerate them, and display their current speeds.
+
+Let's start by defining a Car class that includes the following attributes and methods:
+
+- Class attribute max_speed, which is set to 120 km/h.
+- Constructor method __init__ that takes parameters for the car's make, model, color, and an optional speed (defaulting to 0). This method initializes instance attributes for make, model, color, and speed.
+- Method accelerate(self, acceleration) that allows the car to accelerate. If the acceleration does not exceed the max_speed, update the car's speed attribute. Otherwise, set the speed to the max_speed.
+- Method get_speed(self) that returns the current speed of the car.
+
+123456789101112131415161718192021class Car:    # Class attribute (shared by all instances)    max_speed = 120  # Maximum speed in km/h     # Constructor method (initialize instance attributes)    def __init__(self, make, model, color, speed=0):        self.make = make        self.model = model        self.color = color        self.speed = speed  # Initial speed is set to 0     # Method for accelerating the car    def accelerate(self, acceleration):        if self.speed + acceleration <= Car.max_speed:            self.speed += acceleration        else:            self.speed = Car.max_speed     # Method to get the current speed of the car    def get_speed(self):        return self.speedInformation: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Now, you will instantiate two objects of the Car class, each with the following characteristics:
+
+- car1: Make = "Toyota", Model = "Camry", Color = "Blue"
+- car2: Make = "Honda", Model = "Civic", Color = "Red"
+
+123# Create objects (instances) of the Car classcar1 = Car("Toyota", "Camry", "Blue")car2 = Car("Honda", "Civic", "Red")Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Using the accelerate method, you will increase the speed of car1 by 30 km/h and car2 by 20 km/h.
+
+123# Accelerate the carscar1.accelerate(30)car2.accelerate(20)Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Lastly, you will display the current speed of each car by utilizing the get_speed method.
+
+123# Print the current speeds of the carsprint(f"{car1.make} {car1.model} is currently at {car1.get_speed()} km/h.")print(f"{car2.make} {car2.model} is currently at {car2.get_speed()} km/h.")Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+## Next steps
+
+In conclusion, this reading provides a fundamental understanding of objects and classes in Python, essential concepts in object-oriented programming. Classes serve as blueprints for creating objects, encapsulating data attributes and methods. Objects represent real-world entities and possess their unique state and behavior. The structured code example presented in the reading outlines the key elements of a class, including class attributes, the constructor method for initializing instance attributes, and instance methods for defining object-specific functionality.
+
+In the upcoming laboratory session, you can apply the concepts of objects and classes to gain hands-on experience.
+
+---
+
+### 11. [READING] Module 3 Summary: Python Programming Fundamentals Reading • 5 min
+- **URL:** https://www.coursera.org/learn/python-for-applied-data-science-ai/supplement/bqVzB/module-3-summary-python-programming-fundamentals
+- **Method:** `dom_reading_cml` | **Length:** 4737 chars
+
+Congratulations! You have completed this module. At this point, you know that:
+
+- Python conditions use “if” statements to execute code based on true/false conditions created by comparisons and Boolean expressions.
+- Comparison operations require using comparison operators such as == (equal to), > (greater than), and < (less than).
+- Python uses the "!=" operator to determine whether two values are not equal.
+- You can compare integers, strings, and floats.
+- Python branching directs program flow by using conditional statements (for example, if, else, elif) to execute different code blocks based on conditions or tests.
+- You can use the "if" statement with conditions to define actions if true.
+- To perform actions when all previous conditions are false, you can use the "else" statement without a condition.
+- The elif statement allows for additional checks only if the initial condition is false.
+- To execute various operations on Boolean values, we use Boolean logic operators.
+- Python loops are control structures that automate repetitive tasks and iterate over data structures like lists or dictionaries.
+- The range() function generates a sequence of numbers with a specified start, stop, and step value for loops in Python.
+- A for loop in Python iterates over a sequence, such as a list, tuple, or string, and executes a block of code for each item in the sequence.
+- A while loop in Python executes a block of code as long as a specified condition remains true.
+- Python functions are reusable code blocks that perform specific tasks, take input parameters, and often return results, enhancing code modularity and reusability.
+- You may or may not have written the codes that are often included in functions.
+- Python has a set of built-in functions such as "len" to find the length of a sequence or "sum" to find the total sum of a sequence.
+- The "sorted" function creates a new sorted list, while "sort" sorts items in the original list.
+- You can also create your own functions in Python.
+- To ensure clarity and organization and facilitate understanding and maintenance of the code, developers must document functions using a documentation string enclosed in three quotes.
+- The help command will return the documentation defined for a particular function.
+- A function can have multiple parameters.
+- If a function does not include a return statement, it returns None by default.
+- You can use the "pass" keyword in a function to indicate that it does nothing (a placeholder for future code).
+- A function will usually perform more than one task.
+- In Python, the scope of a variable determines where you can access or modify that variable. Global scope allows access from anywhere, while local scope restricts it to a block or function.
+- In Python, a programmer defines a local variable within a specific block or function, which can only be accessed or modified within that block or function.
+- In Python, a global variable is a variable defined at the top level of a program that any part of the code can access or modify.
+- Exception handling in Python is a mechanism for managing and responding to errors and exceptions that may occur during program execution, preventing them from crashing the program.
+- In Python, you use the "try-except" statement to attempt a block of code and specify alternative actions to execute if an error occurs, allowing you to handle exceptions.
+- In Python, you use the "try-except-else" statement to attempt a block of code, handle exceptions in the "except" block, and execute code in the "else" block when no exceptions occur.
+- Python developers use the "try-except-else-finally" statement to attempt a block of code, catch exceptions in the "except" block, execute code in the "else" block when no exceptions occur, and ensure that the "finally" block always runs, regardless of whether exception was raised or not.
+- In Python, objects are instances of classes that encapsulate data and behavior, serving as the foundation for creating and working with various data types and custom data structures.
+- To determine the type of an object in Python, you can use the `type()` command.
+- Methods may modify an object’s internal state, but the object’s type usually remains the same.
+- Classes in Python are blueprints for creating objects, defining their attributes and methods, enabling code organization, and object-oriented programming.
+- Function "init" is a special method used to initialize data attributes.
+- We can create instances of a class in Python.
+- Data attributes consist of the data defining the objects.
+- Methods are functions that interact and change the data attributes.
+- The method has a function that requires the self as well as other parameters.
+
+---
+
+### 12. [READING] Cheat Sheet: Python Programming Fundamentals Reading • 10 min
+- **URL:** https://www.coursera.org/learn/python-for-applied-data-science-ai/supplement/3vVPB/cheat-sheet-python-programming-fundamentals
+- **Method:** `dom_reading_cml` | **Length:** 13707 chars
+
+Use this cheat sheet for various packages/methods, their descriptions, and examples.
+
+### AND
+
+Returns True if both statement1 and statement2 are True. Otherwise, returns False.
+
+Example:
+
+1statement1 and statement2 Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Syntax:
+
+123456789marks = 90attendance_percentage = 87 if marks >= 80 and attendance_percentage >= 85:    print("qualify for honors")else:    print("Not qualified for honors") # Output = qualify for honorsInformation: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### Class Definition
+
+Defines a blueprint for creating objects and defining their attributes and behaviors.
+
+Syntax:
+
+1class ClassName: # Class attributes and methods Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Example:
+
+1234class Person:     def __init__(self, name, age):         self.name = name         self.age = ageInformation: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### Define Function
+
+A function is a reusable block of code that performs a specific task or set of tasks when called.
+
+Syntax:
+
+1def function_name(parameters): # Function body Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Example:
+
+1def greet(name): print("Hello,", name)Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### Equal (==)
+
+Checks if two values are equal.
+
+Syntax:
+
+1variable1 == variable2 Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Example 1:
+
+15 == 5 Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.returns True
+
+Example 2:
+
+12age = 25 age == 30 Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.returns False
+
+### For Loop
+
+A for loop repeatedly executes a block of code for a specified number of iterations or over a sequence of elements (list, range, string, etc.).
+
+Syntax:
+
+1for variable in sequence: # Code to repeat Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Example 1:
+
+12for num in range(1, 10):     print(num) Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Example 2:
+
+123fruits = ["apple", "banana", "orange", "grape", "kiwi"] for fruit in fruits:    print(fruit)Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### Function Call
+
+A function call is the act of executing the code within the function using the provided arguments.
+
+Syntax:
+
+1function_name(arguments) Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Example:
+
+1greet("Alice")Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### Greater Than or Equal To(>=)
+
+Checks if the value of variable1 is greater than or equal to variable2.
+
+Syntax:
+
+1variable1 >= variable2Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Example 1:
+
+15 >= 5 and 9 >= 5 Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.returns True
+
+Example 2:
+
+123quantity = 105 minimum = 100 quantity >= minimum Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.returns True
+
+### Greater Than(>)
+
+Checks if the value of variable1 is greater than variable2.
+
+Syntax:
+
+1variable1 > variable2 Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Example 1:
+
+19 > 6Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.returns True
+
+Example 2:
+
+123age = 20 max_age = 25 age > max_age Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.returns False
+
+### If Statement
+
+Executes code block if the condition is True.
+
+Syntax:
+
+1if condition: #code block for if statement Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Example:
+
+12if temperature > 30:     print("It's a hot day!")Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### If-Elif-Else
+
+Executes the first code block if condition1 is True, otherwise checks condition2, and so on. If no condition is True, the else block is executed.
+
+Syntax:
+
+12345678if condition1:# Code if condition1 is True elif condition2:# Code if condition2 is True else:# Code if no condition is TrueInformation: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Example:
+
+123456789score = 85  # Example scoreif score >= 90:    print("You got an A!")elif score >= 80:    print("You got a B.")else:    print("You need to work harder.") # Output = You got a B.Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### If-Else Statement
+
+Executes the first code block if the condition is True, otherwise the second block.
+
+Syntax:
+
+12if condition: # Code, if condition is True else: # Code, if condition is False Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Example:
+
+1234if age >= 18:    print("You're an adult.")else:    print("You're not an adult yet.")Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### Less Than or Equal To(<=)
+
+Checks if the value of variable1 is less than or equal to variable2.
+
+Syntax:
+
+1variable1 <= variable2           Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Example 1:
+
+15 <= 5 and 3 <= 5 Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.returns True
+
+Example 2:
+
+123size = 38 max_size = 40 size <= max_size Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.returns True
+
+### Less Than(<)
+
+Checks if the value of variable1 is less than variable2.
+
+Syntax:
+
+1variable1 < variable2Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Example 1:
+
+14 < 6 Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.returns True
+
+Example 2:
+
+123score = 60 passing_score = 65 score < passing_score Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.returns True
+
+### Loop Controls
+
+break exits the loop prematurely. continue skips the rest of the current iteration and moves to the next iteration.
+
+Syntax:
+
+1234567for: # Code to repeat     if # boolean statement        break  for: # Code to repeat      if # boolean statement        continueInformation: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Example 1:
+
+1234for num in range(1, 6):    if num == 3:        break    print(num)Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Example 2:
+
+1234for num in range(1, 6):    if num == 3:        continue    print(num)Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### NOT
+
+Returns True if variable is False, and vice versa.
+
+Syntax:
+
+1not variableInformation: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Example:
+
+12isLocked = Falseprint(not isLocked)  Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.returns True if the variable is False (i.e., unlocked).
+
+### Not Equal(!=)
+
+Checks if two values are not equal.
+
+Syntax:
+
+1variable1 != variable2 Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Example 1:
+
+123a = 10 b = 20 a != b Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.returns True
+
+Example 2:
+
+12count=0 count != 0 Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.returns False
+
+### Object Creation
+
+Creates an instance of a class (object) using the class constructor.
+
+Syntax:
+
+1object_name = ClassName(arguments) Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Example:
+
+1person1 = Person("Alice", 25)Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### OR
+
+Returns True if either statement1 or statement2 (or both) are True. Otherwise, returns False.
+
+Syntax:
+
+1statement1 or statement2Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Example:
+
+123456"Farewell Party Invitation" grade = 12 if grade == 11 or grade == 12:    print("Farewell Party Invitation")else:    print("Not eligible") Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.returns True
+
+### range()
+
+Generates a sequence of numbers within a specified range.
+
+Syntax:
+
+123range(stop) range(start, stop) range(start, stop, step) Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Example:
+
+123range(5) #generates a sequence of integers from 0 to 4. range(2, 10) #generates a sequence of integers from 2 to 9. range(1, 11, 2) #generates odd integers from 1 to 9.Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### Return Statement
+
+Return is a keyword used to send a value back from a function to its caller.
+
+Syntax:
+
+1return value Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Example:
+
+12def add(a, b): return a + b result = add(3, 5)Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### Try-Except Block
+
+Tries to execute the code in the try block. If an exception of the specified type occurs, the code in the except block is executed.
+
+Syntax:
+
+12try: # Code that might raise an exception except ExceptionType: # Code to handle the exception Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Example:
+
+1234try:     num = int(input("Enter a number: ")) except ValueError:     print("Invalid input. Please enter a valid number.")Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### Try-Except with Else Block
+
+Code in the else block is executed if no exception occurs in the try block.
+
+Syntax:
+
+123try: # Code that might raise an exception except ExceptionType: # Code to handle the exception else: # Code to execute if no exception occurs Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Example:
+
+123456try:     num = int(input("Enter a number: ")) except ValueError:     print("Invalid input. Please enter a valid number") else:     print("You entered:", num)Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### Try-Except with Finally Block
+
+Code in the finally block always executes, regardless of whether an exception occurred.
+
+Syntax:
+
+123try: # Code that might raise an exception except ExceptionType: # Code to handle the exception finally: # Code that always executes Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Example:
+
+1234567try:     file = open("data.txt", "r")     data = file.read() except FileNotFoundError:     print("File not found.") finally:     file.close()Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### While Loop
+
+A while loop repeatedly executes a block of code as long as a specified condition remains True.
+
+Syntax:
+
+1while condition: # Code to repeat Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Example:
+
+1234count = 0 while count < 5:    print(count)    count += 1Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+
+---
+
+### 13. [READING] Module 3 Glossary: Python Programming Fundamentals Reading • 5 min
+- **URL:** https://www.coursera.org/learn/python-for-applied-data-science-ai/supplement/9mpgr/module-3-glossary-python-programming-fundamentals
+- **Method:** `dom_reading_cml` | **Length:** 4688 chars
+
+Welcome! This alphabetized glossary contains many of the terms you'll find within this course. This comprehensive glossary also includes additional industry-recognized terms not used in course videos. These terms are important for you to recognize when working in the industry, participating in user groups, and participating in other certificate programs.
+
+| Term | Definition |
+| --- | --- |
+| Analogy | Refers to a concept or comparison outside the scope of the programming language itself, used to explain or relate one concept to another in a more understandable way. |
+| Attributes | Attributes in Python refer to the characteristics or properties of an object, and they can be accessed using dot notation. |
+| Branching | Branching in Python is a process of altering the flow of a program based on conditions, typically using if, elif, and else statements. |
+| Comparison operators | Comparison operators in Python are used to compare values and return Boolean results (True or False), including operators like == (equal),!= (not equal), < (less than), > (greater than), <= (less than or equal to), and >= (greater than or equal to). |
+| Conditions | Conditions in Python are used to make decisions in code, executing specific blocks of code based on whether a given expression evaluates to True or False. |
+| Enumerate | In Python, "enumerate" is a built-in function that adds a counter to an iterable, allowing you to loop through both the elements and their corresponding indices. |
+| Exception handling | Exception handling in Python is a mechanism for gracefully managing and responding to errors or exceptional conditions that may occur during program execution. |
+| Explicitly | In Python, the term "explicitly" refers to performing an action or specifying something in a clear, unambiguous, and direct manner. |
+| For loops | For loops in Python are used for iterating over a sequence (such as a list, tuple, or string) or other iterable objects, executing a set of statements for each item in the sequence. |
+| Global variable | Global variables in Python are variables defined outside of any function or block and can be accessed and modified from any part of the code. |
+| Incremented | "Incremented" in Python means to increase the value of a variable by a specified amount, typically done using the += operator or by adding a fixed value. |
+| Indent | In Python, "indent" refers to the use of whitespace at the beginning of a line to signify the structure and scope of code blocks, such as loops and functions. |
+| Indices | In Python, "indices" refer to the position or location of elements in a sequence, like a string, list, or tuple, starting with 0 for the first element. |
+| Iterate | In Python, "iterate" means to repeatedly perform a set of operations or steps on each item in a collection, such as a list, tuple, or dictionary, typically using loops or iterators. |
+| Local variables | Local variables in Python are variables defined within a specific function or block of code and are only accessible within that function or block. |
+| Logic operators | Logic operators in Python are used to perform logical operations on Boolean values, including operators like and (logical AND), or (logical OR), and not (logical NOT). |
+| Loops | Loops in Python are constructs for repeating a block of code, enabling the execution of the same code multiple times. |
+| Parameters | Parameters in Python are placeholders in a function definition, used to accept and work with values provided to the function when it is called. |
+| Programming Fundamentals | Programming fundamentals in Python involve variables, control structures, functions, data structures, input/output, and error handling for building software. |
+| Range function | The range function in Python generates a sequence of numbers that can be used for iterating in a loop and is typically used as range (start, stop, step), where it creates numbers from start to stop-1 with the given step increment. |
+| Scope of function | The "scope of a function" in Python refers to the region of code where a variable defined within that function is accessible or visible. |
+| Sequences | Sequences in Python are ordered collections of items that can include data types like strings, lists, and tuples, allowing for indexing and iteration. |
+| Syntax | In Python, "Syntax" refers to the set of rules that dictate how code must be written and structured to be correctly interpreted by the Python interpreter. It includes correct use of keywords, indentation, operators, and punctuation. |
+| While loops | While loops in Python are used to repeatedly execute a block of code as long as a specified condition is true. |
+
+---
+
+## Module 4: Working with Data in Python
+
+### 1. [VIDEO TRANSCRIPT] Reading Files with Open Video • 3 min
+- **URL:** https://www.coursera.org/learn/python-for-applied-data-science-ai/lecture/78ZHl/reading-files-with-open
+- **Method:** `dom_transcript` | **Length:** 3273 chars
+
+In this section, we will use Python's built-in open function to create a file object and obtain the data from a txt file. We will use Python's open function to get a file object. We can apply a method to that object to read data from the file. We can open the file Example1.txt as follows. We use the open function. The first argument is the file path. This is made up of the file name and the file directory.
+
+The second parameter is the mode. Common values used include r for reading, w for writing, and a for appending. We will use r for reading. Finally, we have the file object. We can now use the file object to obtain information about the file. We can use the data attribute name to get the name of the file. The result is a string that contains the name of the file.
+
+We can see what mode the object is in using the data attribute mode, and r is shown representing read. You should always close the file object using the method close. This may get tedious sometimes, so let's use the with statement. Using a with statement to open the file is better practice because it automatically closes the file. The code will run everything in the indent block, then closes the file. This code reads the file Example1.txt. We can use the file object file1.
+
+The code will perform all operations in the indent block, then close the file at the end of the indent. The method read stores the values of the file in the variable file underscore stuff as a string. You can print the file content. You can check if the file content is closed, but you cannot read from it outside the indent. But you can print the file content outside the indent as well. We can print the file content. We will see the following.
+
+When we examine the raw string, we will see the slash n. This is so Python knows to start a new line. We can output every line as an element in a list using the method readlines. The first line corresponds to the first element in the list. The second line corresponds to the second element in the list, and so on. We can use the method readline to read the first line of the file. If we run this command, it will store the first line in the variable file underscore stuff, then print the first line.
+
+We can use the method readline twice. The first time is called. It will save the first line in the variable file underscore stuff, and then print the first line. The second time it's called, it will save the second line in the variable file underscore stuff, and then print the second line. We can use a loop to print out each line individually as follows. Let's represent every character in a string as a grid. We can specify the number of characters we would like to read from a string as an argument to the method readlines.
+
+When we use a four as an argument in the method readlines, we print out the first four characters in the file. Each time we call the method, we will progress through the text. If we call the method with the argument 16, the first 16 characters are printed out and then the new line. If we call the method a second time, the next five characters are printed out. Finally, if we call the method the last time with the argument 9, the last nine characters are printed out. Check out the labs for more examples of methods and other file types.
+
+---
+
+### 2. [READING] Reading Files with Open Reading • 10 min
+- **URL:** https://www.coursera.org/learn/python-for-applied-data-science-ai/supplement/MaYmK/reading-files-with-open
+- **Method:** `dom_reading_cml` | **Length:** 10451 chars
+
+File handling is an essential aspect of programming, and Python provides built-in functions to interact with files. This guide will explore how to use Python's open function to read the text files ('.txt' files).
+
+## Objectives
+
+By the end of this reading, you'll learn about:
+
+- Describe how to use the open() and read() Python functions to open and read the contents of a text file
+- Explain how to use the with statement in Python
+- Describe how to use the readline() function in Python
+- Explain how to use the seek() function to read specific character(s) in a text file
+
+## Introduction
+
+Reading text files involves extracting and processing the data stored within them. Text files can have various structures, and how you read them depends on their format. Here's a general guide on reading text files with different structures.
+
+### Plain text files
+
+- Plain text files contain unformatted text without any specific structure
+- You can read plain text files line by line or load all the content into your memory
+
+## Opening the file
+
+There are two methods for opening the file using the file handling concept.
+
+### 1. Using Python's open function
+
+Suppose we have a file named 'file.txt'.
+
+Python's open function creates a file object and accesses the data within a text file. It takes two primary parameters:
+
+- File path: The file path parameter consists of the filename and directory where the file is located.
+- Mode: The mode parameter specifies the purpose of opening the file, such as 'r' for reading, 'w' for writing, or 'a' for appending.
+
+12# Open the file in read ('r') modefile = open('file.txt', 'r')Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.open('file.txt', 'r'): This line opens a file named 'file.txt' in read mode ('r'). It returns a file object, which is stored in the variable file. The 'r' mode indicates that the file will be opened for reading.
+
+### 2. Using 'with' statement
+
+To simplify file handling and ensure proper closure of files, Python provides the "with" statement. It automatically closes the file when operations within the indented block are completed. This is considered best practice when working with files.
+
+123# Open the file using 'with' in read ('r') modewith open('file.txt', 'r') as file:    # further codeInformation: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+#### Open the file using 'with' in read ('r') mode
+
+with open('file.txt', 'r') as file: This line opens a file named 'file.txt' in read mode ('r') using the with statement, which is a context manager. The file is automatically closed when the code block inside the with statement exits.
+
+## Advantages of using the with statement
+
+The key advantages of using the 'with' statement are:
+
+- Automatic resource management: The file is guaranteed to be closed when you exit the with block, even if an exception occurs during processing.
+- Cleaner and more concise code: You don't need to explicitly call close(), making your code more readable and less error-prone.
+
+Note: For most file reading and writing operations in Python, the 'with' statement is recommended.
+
+## Let's perform a read operation on a file
+
+### 1. Reading the entire content
+
+You can read the entire content of a file using the read method, which stores the data as a string in a variable. This content can be printed or further manipulated as needed.
+
+12345678910111213141516171819# Reading and Storing the Entire Content of a File # Using the read method, you can retrieve the complete content of a file# and store it as a string in a variable for further processing or display. # Step 1: Open the file you want to readwith open('file.txt', 'r') as file:     # Step 2: Use the read method to read the entire content of the file    file_stuff = file.read()     # Step 3: Now that the file content is stored in the variable 'file_stuff',    # you can manipulate or display it as needed.     # For example, let's print the content to the console:    print(file_stuff) # Step 4: The 'with' statement automatically closes the file when it's done,# ensuring proper resource management and preventing resource leaks.Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Step 1: Involves opening the file, specifying 'file.txt' as the file to be opened for reading ('r') mode using the with context manager.
+
+Step 2: Utilizes the read() statement on the file object (file) to read the entire file. This content is then stored in the file_stuff variable.
+
+Step 3: Explain that with the content now stored in file_stuff, you can perform various operations on it. In the example provided, the code prints the content to the console, but you can manipulate, analyze, search, or process the text data in file_stuff based on your specific needs.
+
+Step 4: Emphasizes that the with block automatically closes the file when done, ensuring proper resource management and preventing resource leaks. This is a crucial aspect of using the with statement when working with files.
+
+### 2. Reading the content line by line
+
+Python provides methods to read files line by line:
+
+- The 'readlines' method reads the file line by line and stores each line as an element in a list. The order of lines in the list corresponds to their order in the file.
+- The 'readline' method reads individual lines from the file. It can be called multiple times to read subsequent lines.
+
+In Python, the readline() method is like reading a book one line at a time. Imagine you have a big book and want to read it page by page. readline() helps you do just that with lines of text instead of pages.
+
+#### Here's how it works:
+
+Opening a file: First, you need to open the file you want to read using the open() function.
+
+1file = open('file.txt', 'r')Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Reading line by line: Now, you can use readline() to read one line from the file at a time. It's like turning the pages of the book, but here, you're getting one sentence (or line) at each turn.
+
+12line1 = file.readline()  # Reads the first lineline2 = file.readline()  # Reads the second lineInformation: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Using the lines: You can do things with each line you read. For example, you can print it, check if it contains specific words, or save it somewhere else.
+
+123print(line1)  # Print the first lineif 'important' in line2:    print('This line is important!')Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Looping through lines: Typically, you use a loop to read lines until no more lines are left. t's like reading the entire book, line by line.
+
+12345while True:    line = file.readline()    if not line:        break  # Stop when there are no more lines to read    print(line)Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Closing the book: When you're done reading, it's essential to close the file using file.close() to make sure you're not wasting resources.
+
+1file.close()Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.So, In simple terms, readline() helps you read a text file line by line, allowing you to work with each line of text as you go. It's like taking one sentence at a time from a book and doing something with it before moving on to the next sentence. Don't forget to close the book when you're done!
+
+### 3. Reading specific characters
+
+You can specify the number of characters to read using the readlines method. For example, reading the first four characters, the next five, and so on.
+
+Reading specific characters from a text file in Python involves opening the file, navigating to the desired position, and then reading the characters you need. Here's a detailed explanation of how to read specific characters from a file:
+
+#### Open the File
+
+First, you need to open the file you want to read. Use the open() function with the appropriate file path and mode. For reading, use 'r' mode.
+
+1file = open('file.txt', 'r')Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+#### Navigate to the intended position (Optional)
+
+If you want to read characters from a specific position in the file, you can use the seek() method. This method moves the file pointer (like a cursor) to a particular position. The position is specified in bytes, so you'll need to know the byte offset of the characters you want to read.
+
+1file.seek(10)  # Move to the 11th byte (0-based index)Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+#### Read specific characters
+
+To read specific characters, you can use the read() method with an argument that specifies the number of characters to read. It reads characters starting from the current position of the file pointer.
+
+1characters = file.read(5)  # Read the next 5 charactersInformation: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.In this example, it reads the next 5 characters from the current position of the file pointer.
+
+#### Use the read characters
+
+You can now use the characters variable to work with the specific characters you've read. You can print them, save them, manipulate them, or perform any other actions.
+
+1print(characters)Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+#### Close the file
+
+It's essential to close the file when you're done to free up system resources and ensure proper file handling.
+
+1file.close()Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+## Conclusion
+
+In conclusion, this reading has provided a comprehensive overview of file handling in Python, with a focus on reading text files. File handling is a fundamental aspect of programming, and Python offers powerful built-in functions and methods to interact with files seamlessly.
+
+---
+
+### 3. [VIDEO TRANSCRIPT] Writing Files with Open Video • 2 min
+- **URL:** https://www.coursera.org/learn/python-for-applied-data-science-ai/lecture/2ijQE/writing-files-with-open
+- **Method:** `dom_transcript` | **Length:** 2447 chars
+
+We can also write to files using the open function. We will use Python's open function to get a file object to create a text file. We can apply method 'write' to write data to that file. As a result, text will be written to the file. We can create the file Example2.txt as follows. We use the 'open' function. The first argument is the file path.
+
+This is made up of the file name (if you have that file in your directory, it will be overwritten,) and the file directory. We set the mode parameter to W for writing. Finally, we have the file object. As before, we use the 'with' statement. The code will run everything in the indent block, then close the file. We create the file object, File1. We use the open function.
+
+This creates a file Example2.txt in your directory. We use the method write, to write data into the file. The argument is the text we would like input into the file. If we use the write method successively, each time it is called, it will write to the file. The first time it is called, we will write, "This is line A" with a slash-n to represent a new line. The second time we call the method, it will write, "This is line B" then it will close the file. We can write each element in a list to a file.
+
+As before, we use a 'with' command and the open function to create a file. The list, Lines, has three elements consisting of text. We use a 'for' loop to read each element of the first lines and pass it to the variable line. The first iteration of the loop writes the first element of the list to the file Example2. The second iteration writes the second element of the list and so on. At the end of the loop, the file will be closed. We can set the mode to appended using a lowercase 'a'.
+
+This will not create a new file, but just use the existing file. If we call the method write, it will just write to the existing file, then add "This is line C" then close the file. We can copy one file to a new file as follows. First, we read the file Example1 and interact with it via the file object, readfile. Then we create a new file Example3 and use the file object writefile to interact with it. The for loop takes a line from the file object, readfile, and stores it in the file Example3 using the file object, writefile. The first iteration copies the first line.
+
+The second iteration copies the second line, till the end of the file is reached. Then both files are closed. Check out the labs for more examples. (Music)
+
+---
+
+### 4. [READING] Writing Files with Open Reading • 7 min
+- **URL:** https://www.coursera.org/learn/python-for-applied-data-science-ai/supplement/o3GEx/writing-files-with-open
+- **Method:** `dom_reading_cml` | **Length:** 9023 chars
+
+## Objectives
+
+By the end of this reading, you'll learn about:
+
+- Create and write data to a file in Python
+- Write multiple lines of text to a file using lists and loops
+- Add new information to an already existing file without erasing its content
+- Compare and contrast the different file modes in Python, what they mean, and when to use them
+
+## Writing to a file
+
+You can create a new text file and write data to it using Python's open() function. The open() function takes two main arguments: the file path (including the file name) and the mode parameter, which specifies the operation you want to perform on the file. For writing, you should use the mode 'w' Here's an example:
+
+12345# Create a new file Example2.txt for writingwith open('Example2.txt', 'w') as file1:    file1.write("This is line A\n")    file1.write("This is line B\n")    # file1 is automatically closed when the 'with' block exitsInformation: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### Line 2 explanation:
+
+with open('Example2.txt', 'w') as file1
+
+- We start by using the open function to open or create a file named Example2.txt for writing ('w' mode).
+- The 'w' mode specifies that we intend to write data to the file.
+- We use the with statement to ensure that the file is automatically closed when the code block exits. This helps manage resources efficiently.
+
+### Line 3 explanation:
+
+file1.write("This is line A\n")
+
+- Here, we use the write() method on the file object, file1, to add the text This is line A to the file.
+- The \n at the end represents a newline character, which starts a new line in the file.
+
+### Line 4 explanation
+
+file1.write("This is line" B\n")
+
+- Similarly, we use the write() method again to add the text This is line B to the file on a new line.
+
+## Writing multiple lines to a file using a list and loop
+
+In Python, you can use a list to store multiple lines of text and then write these lines to a file using a loop. Here's an example code snippet that demonstrates this:
+
+12345678# List of lines to write to the fileLines = ["This is line 1", "This is line 2", "This is line 3"] # Create a new file Example3.txt for writingwith open('Example3.txt', 'w') as file2:    for line in Lines:        file2.write(line + "\n")    # file2 is automatically closed when the 'with' block exitsInformation: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Here's an explanation of the code:
+
+- Line 2: We start by defining a list called Lines, which contains multiple lines of text that we want to write to the file. Each line is a string.
+- Line 5: Next, we use the open() function to create a new text file named Example3.txt for writing, 'w' mode. The 'w' mode indicates that we intend to write data to the file.
+- Line 6: We then enter a for loop to iterate through each element (line) in the Lines list.
+- Line 7: Inside the loop, we use the write() method on the file object file2 to write the current line of text (line) to the file. We add \n at the end of each line to ensure that each line is followed by a newline character, which separates them in the file.
+- Line 8: Finally, we add a comment indicating that the file file2 will be automatically closed when the code block within the with statement exits. Properly closing the file is essential for good resource management.
+
+## Appending data to an existing file
+
+In Python, you can use the 'a' mode when opening a file to append new data to an existing file without overwriting its contents. Here's an example code snippet that demonstrates this:
+
+1234567# Data to append to the existing filenew_data = "This is line C" # Open an existing file Example2.txt for appendingwith open('Example2.txt', 'a') as file1:    file1.write(new_data + "\n")    # file1 is automatically closed when the 'with' block exitsInformation: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Here's an explanation of the code:
+
+- Line 2: We start by defining a variable new_data that contains the text we want to append to the existing file. In this case, it's the string This is line C.
+- Line 5: Next, we use the open() function to open an existing file named Example2.txt for appending, 'a' mode. The 'a' mode indicates that we intend to append data to the file, and if the file doesn't exist, it will be created.
+- Line 6: Within the with block, we use the write() method on the file object file1 to append the new_data to the file. We add "\n" at the end to ensure that the appended data starts on a new line, maintaining the file's readability.
+- Finally, we add a comment indicating that the file file1 will automatically close when the code block within the with statement exits. Properly closing the file is essential for good resource management.
+
+## Copying contents from one file to another
+
+In Python, you can copy the contents of one file to another by reading from the source file and writing to the destination file. Here's an example code snippet that demonstrates this:
+
+123456789# Open the source file for readingwith open('source.txt', 'r') as source_file:    # Open the destination file for writing    with open('destination.txt', 'w') as destination_file:        # Read lines from the source file and copy them to the destination file        for line in source_file:            destination_file.write(line)    # Destination file is automatically closed when the 'with' block exits# Source file is automatically closed when the 'with' block exitsInformation: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Here's an explanation of the code:
+
+- Line 2: We start by opening the source file, source.txt for reading, r mode, using the with statement and the open() function. This allows us to read data from the source file.
+- Line 4: Inside the first with block, we open the destination file, destination.txt for writing, w mode, using another with statement and the open() function. This prepares the destination file for writing.
+- Line 6: We use a for loop to iterate through each line in the source file source_file. This loop reads each line from the source file one by one.
+- Line 7: Within the loop, we use the write() method to write each line from the source file to the destination file destination_file. This effectively copies the content of the source file to the destination file.
+- Lines 8 and 9: After copying all the lines, both the source and destination files are automatically closed when their respective with blocks exit. Proper file closure is crucial for managing resources efficiently.
+
+### File modes in Python (syntax and use cases)
+
+The following table provides an overview of different file modes, their syntax, and common use cases. Understanding these modes is essential when working with files in Python for various data manipulation tasks.
+
+| Mode | Syntax | Description |
+| --- | --- | --- |
+| ‘r’ | 'r' | Read mode. Opens an existing file for reading. Raises an error if the file doesn't exist. |
+| ‘w’ | 'w' | Write mode. Creates a new file for writing. Overwrites the file if it already exists. |
+| ‘a’ | 'a' | Append mode. Opens a file for appending data. Creates the file if it doesn't exist. |
+| ‘x’ | 'x' | Exclusive creation mode. Creates a new file for writing but raises an error if the file already exists. |
+| ‘rb’ | 'rb' | Read binary mode. Opens an existing binary file for reading. |
+| ‘wb’ | 'wb' | Write binary mode. Creates a new binary file for writing. |
+| ‘ab’ | 'ab' | Append binary mode. Opens a binary file for appending data. |
+| ‘xb’ | 'xb' | Exclusive binary creation mode. Creates a new binary file for writing but raises an error if it already exists. |
+| ‘rt’ | 'rt' | Read text mode. Opens an existing text file for reading. (Default for text files) |
+| ‘wt’ | 'wt' | Write text mode. Creates a new text file for writing. (Default for text files) |
+| ‘at’ | 'at' | Append text mode. Opens a text file for appending data. (Default for text files) |
+| ‘xt’ | 'xt' | Exclusive text creation mode. Creates a new text file for writing but raises an error if it already exists. |
+| ‘r+’ | 'r+' | Read and write mode. Opens an existing file for both reading and writing. |
+| ‘w+’ | 'w+' | Write and read mode. Creates a new file for reading and writing. Overwrites the file if it already exists. |
+| ‘a+’ | 'a+' | Append and read mode. Opens a file for both appending and reading. Creates the file if it doesn't exist. |
+| ‘x+’ | 'x+' | Exclusive creation and read/write mode. Creates a new file for reading and writing but raises an error if it already exists. |
+
+## Conclusion
+
+Working with files is a fundamental aspect of programming, and Python provides powerful tools to perform various file operations. In this summary, we covered key concepts and code examples related to file handling in Python, including writing, appending, and copying files.
+
+---
+
+### 5. [VIDEO TRANSCRIPT] Pandas: Loading Data Video • 4 min
+- **URL:** https://www.coursera.org/learn/python-for-applied-data-science-ai/lecture/yBbKS/pandas-loading-data
+- **Method:** `dom_transcript` | **Length:** 4092 chars
+
+Dependencies or libraries are pre-written code to help solve problems. In this video, we will introduce Pandas, a popular library for data analysis. You can import the library or dependency, like Pandas, using the following command. Start with the import command followed by the name of the library. You now have access to a large number of pre-built classes and functions. This assumes the library is installed. In our lab environment, all the necessary libraries are installed.
+
+Let us say we would like to load a csv file using pandas build-in function, readcsv. A csv is a typical file type used to store data. Simply type the word Pandas, then a dot, and the name of the function with all the inputs. Writing pandas all the time may get difficult, so you can use the 'as' statement to shorten the name of the library. In this case, use the standard abbreviation pd. Now type pd. Next type a dot followed by the name of the function you would like to use.
+
+In this case, readcsv. You are not limited to the abbreviation pd. In this case, we use the term banana. However, we will stick with pd for the rest of this video. Let us examine this code in more detail. One way pandas allows you to work with data is in a DataFrame. Let us review the process of going from a csv file to a DataFrame.
+
+This variable stores the path of the csv. It is used as an argument to the readCSV function. The result is stored to the variable df. This is short for DataFrame. Now that you have the data in a DataFrame, you can work with it. You can use the method head to examine the first five rows of a DataFrame. The process for loading an Excel file is similar.
+
+Use the path of the Excel file, the function readexcel. The result is a DataFrame. A DataFrame is comprised of rows and columns. You can create a DataFrame out of a dictionary. The keys correspond to the column labels. The values are lists corresponding to the rows. You can then cast the dictionary to a DataFrame using the function DataFrame.
+
+Notice the direct correspondence between the table. The keys correspond to the table headers. The values are lists corresponding to the rows. Create a new DataFrame consisting of one column and close the DataFrame name, in this case df, and the name of the column header in double brackets. The result is a new DataFrame comprised of the original column. You can do the same thing for multiple columns. Enclose the DataFrame name, in this case df, and the name of multiple column headers in double brackets.
+
+The result is a new DataFrame comprised of the specified columns. One way to access unique elements is with the iloc method. The first input is an integer representing the row index, and the second is the integer representing the column index. You can access the first row and first column as follows. You can access the second row and first column as follows. You can access the first row, third column as follows, and you can access the second row, third column as follows. You can use the name of the row index and the column as well.
+
+You can access the first row of the column named Artist as follows. Similarly, you can access the second row of the column named Artist. You can do the same for the column Released. loc can also be used if the index is not an integer. We create a new DataFrame called df_new. We replace the index 1, 2, 3, and so on with ABC. You can access the index A, that is, the first row of the column named Artist as follows. Similarly, you can access the index B, or the second row of the column named Artist.
+
+You can do the same for the column Released. You can also slice DataFrames and assign the values to a new DataFrame. Assign the first two rows and the first three columns to the variable Z. The result is a DataFrame comprised of the selected rows and columns. You can also slice DataFrames and assign the values to a new DataFrame using loc. The code assigns the first two rows and all columns in between the columns named Artist and Released. The result is a new DataFrame Z with the corresponding values.
+
+Check out the labs for more examples.
+
+---
+
+### 6. [VIDEO TRANSCRIPT] Pandas: Working with and Saving Data Video • 2 min
+- **URL:** https://www.coursera.org/learn/python-for-applied-data-science-ai/lecture/j1yDu/pandas-working-with-and-saving-data
+- **Method:** `dom_transcript` | **Length:** 1813 chars
+
+When we have a data frame we can work with the data and save the results in other formats. Consider the stack of 13 blocks of different colors. We can see there are three unique colors. Let's say you would like to find out how many unique elements are in a column of a data frame. This may be much more difficult because instead of 13 elements, you may have millions. Pandas has the method unique to determine the unique elements in a column of a data frame. Lets say we would like to determine the unique year of the albums in the data set.
+
+We enter the name of the data frame, then enter the name of the column Released within brackets. Then we apply the method unique. The result is all of the unique elements in the column Released. Let's say we would like to create a new database consisting of songs from the 1980s and after. We can look at the column Released for songs made after 1979, then select the corresponding rows. We can accomplish this within one line of code in Pandas. But let's break up the steps.
+
+We can use the inequality operators for the entire data frame in Pandas. The result is a series of Boolean values. For our case, we simply specify the column Released and the inequality for the albums after 1979. The result is a series of Boolean values. The result is true when the condition is true and false otherwise. We can select the specified columns in one line. We simply use the data frames names and square brackets we placed the previously mentioned inequality and assign it to the variable df1.
+
+We now have a new data frame, where each album was released after 1979. We can save the new data frame using the method to_csv. The argument is the name of the csv file. Make sure you include a .csv extension. There are other functions to save the data frame in other formats. (Music)
+
+---
+
+### 7. [READING] Pandas Reading • 10 min
+- **URL:** https://www.coursera.org/learn/python-for-applied-data-science-ai/supplement/3mvwf/pandas
+- **Method:** `dom_reading_cml` | **Length:** 10185 chars
+
+## Objectives
+
+By the end of this reading, you'll learn about:
+
+- Learn what Pandas Series are and how to create them.
+- Understand how to access and manipulate data within a Series.
+- Discover the basics of creating and working with Pandas DataFrames.
+- Learn how to access, modify, and analyze data in DataFrames.
+- Gain insights into common DataFrame attributes and methods.
+
+## What is Pandas?
+
+Pandas is a popular open-source data manipulation and analysis library for the Python programming language. It provides a powerful and flexible set of tools for working with structured data, making it a fundamental tool for data scientists, analysts, and engineers.Pandas is designed to handle data in various formats, such as tabular data, time series data, and more, making it an essential part of the data processing workflow in many industries.
+
+### Key features and functionalities of Pandas
+
+Data Structures: Pandas offers two primary data structures - DataFrame and Series.
+
+- A DataFrame is a two-dimensional, size-mutable, and potentially heterogeneous tabular data structure with labeled axes (rows and columns).
+- A Series is a one-dimensional labeled array, essentially a single column or row of data.
+
+Data Import and Export: Pandas makes it easy to read data from various sources, including CSV files, Excel spreadsheets, SQL databases, and more. It can also export data to these formats, enabling seamless data exchange.
+
+Data Merging and Joining: You can combine multiple DataFrames using methods like merge and join, similar to SQL operations, to create more complex datasets from different sources.
+
+Efficient Indexing: Pandas provides efficient indexing and selection methods, allowing you to access specific rows and columns of data quickly.
+
+Custom Data Structures: You can create custom data structures and manipulate data in ways that suit your specific needs, extending Pandas' capabilities.
+
+## Importing Pandas
+
+Import Pandas using the import command, followed by the library's name.Commonly, Pandas is imported as pd for brevity in code.
+
+1import pandas as pdInformation: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+## Data Loading
+
+- Pandas can be used to load data from various sources, such as CSV and Excel files.
+- The read_csv function is used to load data from a CSV file into a Pandas DataFrame.
+
+To read a CSV (Comma-Separated Values) file in Python using the Pandas library, you can use the pd.read_csv() function. Here's the syntax to read a CSV file:
+
+1234import pandas as pd # Read the CSV file into a DataFramedf = pd.read_csv('your_file.csv')Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Replace 'your_file.csv' with the actual file path of your CSV file. Make sure that the file is located in the same directory as your Python script, or you provide the correct file path.
+
+## What is a Series?
+
+A Series is a one-dimensional labeled array in Pandas. It can be thought of as a single column of data with labels or indices for each element. You can create a Series from various data sources, such as lists, NumPy arrays, or dictionariesHere's a basic example of creating a Series in Pandas:
+
+12345import pandas as pd# Create a Series from a listdata = [10, 20, 30, 40, 50]s = pd.Series(data)print(s)Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.In this example, we've created a Series named s with numeric data. Notice that Pandas automatically assigned numerical indices (0, 1, 2, 3, 4) to each element, but you can also specify custom labels if needed.
+
+## Accessing Elements in a Series
+
+You can access elements in a Series using the index labels or integer positions. Here are a few common methods for accessing Series data:
+
+### Accessing by label
+
+1print(s[2])     # Access the element with label 2 (value 30)Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### Accessing by position
+
+1print(s.iloc[3]) # Access the element at position 3 (value 40)Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### Accessing multiple elements
+
+1print(s[1:4])   # Access a range of elements by labelInformation: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+## Series Attributes and Methods
+
+Pandas Series come with various attributes and methods to help you manipulate and analyze data effectively. Here are a few essential ones:
+
+- values: Returns the Series data as a NumPy array.
+- index: Returns the index (labels) of the Series.
+- shape: Returns a tuple representing the dimensions of the Series.
+- size: Returns the number of elements in the Series.
+- mean(), sum(), min(), max(): Calculate summary statistics of the data.
+- unique(), nunique(): Get unique values or the number of unique values.
+- sort_values(), sort_index(): Sort the Series by values or index labels.
+- isnull(), notnull(): Check for missing (NaN) or non-missing values.
+- apply(): Apply a custom function to each element of the Series.
+
+## What is a DataFrames?
+
+A DataFrame is a two-dimensional labeled data structure with columns of potentially different data types. Think of it as a table where each column represents a variable, and each row represents an observation or data point. DataFrames are suitable for a wide range of data, including structured data from CSV files, Excel spreadsheets, SQL databases, and more.
+
+## Creating DataFrames from Dictionaries
+
+DataFrames can be created from dictionaries, with keys as column labels and values as lists representing rows.
+
+1234567891011import pandas as pd # Creating a DataFrame from a dictionarydata = {'Name': ['Alice', 'Bob', 'Charlie', 'David'],        'Age': [25, 30, 35, 28],        'City': ['New York', 'San Francisco', 'Los Angeles', 'Chicago']} df = pd.DataFrame(data) print(df) Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+## Column Selection
+
+You can select a single column from a DataFrame by specifying the column name within double brackets.Multiple columns can be selected in a similar manner, creating a new DataFrame.
+
+1print(df['Name'])  # Access the 'Name' columnInformation: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### Accessing Rows
+
+You can access rows by their index using .iloc[] or by label using .loc[].
+
+12print(df.iloc[2])   # Access the third row by positionprint(df.loc[1])    # Access the second row by labelInformation: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### Slicing
+
+You can slice DataFrames to select specific rows and columns.
+
+12print(df[['Name', 'Age']])  # Select specific columnsprint(df[1:3])             # Select specific rowsInformation: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+## Finding Unique Elements
+
+Use the unique method to determine the unique elements in a column of a DataFrame.
+
+1unique_dates = df['Age'].unique()Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+## Conditional Filtering
+
+You can filter data in a DataFrame based on conditions using inequality operators.For instance, you can filter albums released after a certain year.
+
+1high_above_102 = df[df['Age'] > 25]Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+## Saving DataFrames
+
+To save a DataFrame to a CSV file, use the to_csv method and specify the filename with a “.csv” extension.Pandas provides other functions for saving DataFrames in different formats.
+
+1df.to_csv('trading_data.csv', index=False)Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+## DataFrame Attributes and Methods
+
+DataFrames provide numerous attributes and methods for data manipulation and analysis, including:
+
+- shape: Returns the dimensions (number of rows and columns) of the DataFrame.
+- info(): Provides a summary of the DataFrame, including data types and non-null counts.
+- describe(): Generates summary statistics for numerical columns.
+- head(), tail(): Displays the first or last n rows of the DataFrame.
+- mean(), sum(), min(), max(): Calculate summary statistics for columns.
+- sort_values(): Sort the DataFrame by one or more columns.
+- groupby(): Group data based on specific columns for aggregation.
+- fillna(), drop(), rename(): Handle missing values, drop columns, or rename columns.
+- apply(): Apply a function to each element, row, or column of the DataFrame.
+
+Pandas offers a wide range of methods beyond these examples. For more detailed information, please refer to the official documentation available on the Pandas official website.
+
+### Conclusion
+
+In conclusion, mastering the use of Pandas Series and DataFrames is essential for effective data manipulation and analysis in Python. Series provide a foundation for handling one-dimensional data with labels, while DataFrames offer a versatile, table-like structure for working with two-dimensional data. Whether you're cleaning, exploring, transforming, or analyzing data, these Pandas data structures, along with their attributes and methods, empower you to efficiently and flexibly manipulate data to derive valuable insights. By incorporating Series and DataFrames into your data science toolkit, you'll be well-prepared to tackle a wide range of data-related tasks and enhance your data analysis capabilities.To further your skills in data analysis with Pandas, consider the following next steps:
+
+- Work with real datasets to apply what you've learned and gain hands-on experience.
+- Visit the Pandas official website to explore the extensive documentation and discover more functions and methods.
+
+---
+
+### 8. [VIDEO TRANSCRIPT] One Dimensional Numpy Video • 11 min
+- **URL:** https://www.coursera.org/learn/python-for-applied-data-science-ai/lecture/XCjRw/one-dimensional-numpy
+- **Method:** `dom_transcript` | **Length:** 9684 chars
+
+In this video, we will be covering NumPy in 1D, in particular, ndarrays. NumPy is a library for scientific computing. It has many useful functions. There are many other advantages like speed and memory. NumPy is also the basis for pandas, so check out our pandas video. In this video, we will be covering the basics and array creation, indexing and slicing, basic operations, universal functions. Let's go over how to create a NumPy array.
+
+A Python list is a container that allows you to store and access data. Each element is associated with an index. We can access each element using a square bracket as follows. A NumPy array, or ndarray, is similar to a list. It's usually fixed in size, and each element is of the same type. In this case, integers. We can cast a list to a NumPy array by first importing NumPy.
+
+We then cast the list as follows. We can access the data via an index. As with the lists, we can access each element with an integer and a square bracket. The value of a is stored as follows. If we check the type of the array, we get NumPy.ndarray. As NumPy arrays contain data of the same type, we can use the attribute dtype to obtain the data type of the array's elements. In this case, a 64-bit integer.
+
+Let's review some basic array attributes using the array a. The attribute size is the number of elements in the array. As there are five elements, the result is five. The next two attributes will make more sense when we get to higher dimensions. But let's review them. The attribute ndim represents the number of array dimensions or the rank of the array, in this case, one. The attribute shape is a tuple of integers indicating the size of the array in each dimension.
+
+We can create a NumPy array with real numbers. When we check the type of the array, we get NumPy.ndarray. If we examine the attribute dtype, we see float 64 as the elements are not integers. There are many other attributes. Check out NumPy.org. Let's review some indexing and slicing methods. We can change the first element of the array to 100 as follows.
+
+The array's first value is now 100. We can change the fifth element of the array as follows. The fifth element is now zero. Like lists and tuples, we can slice a NumPy array. The elements of the array correspond to the following index. We can select the elements from one to three and assign it to a new NumPy array, d, as follows. The elements in d correspond to the index.
+
+Like lists, we do not count the element corresponding to the last index. We can assign the corresponding indices to new values as follows. The array c now has new values. See the labs or NumPy.org for more examples of what you can do with NumPy. NumPy makes it easier to do many operations that are commonly performed in data science. These same operations are usually computationally faster and require less memory in NumPy compared to regular Python. Let's review some of these operations on one-dimensional arrays.
+
+We will look at many of the operations in the context of Euclidean vectors to make things more interesting. Vector addition is a widely used operation in data science. Consider the vector u with two elements. The elements are distinguished by the different colors. Similarly, consider the vector v with two components. In vector addition, we create a new vector, in this case z. The first component of z is the addition of the first component of vectors u and v. Similarly, the second component is the sum of the second components of u and v. This new vector z is now a linear combination of the vector u and v. Representing vector addition with line segment or arrows is helpful.
+
+The first vector is represented in red. The vector will point in the direction of the two components. The first component of the vector is 1. As a result, the arrow is offset one unit from the origin in the horizontal direction. The second component is 0. We represent this component in the vertical direction. As this component is 0, the vector does not point in the vertical direction.
+
+We represent the second vector in blue. The first component is 0. Therefore, the arrow does not point to the horizontal direction. The second component is 1. As a result, the vector points in the vertical direction one unit. When we add the vector u and v, we get the new vector z. We add the first component.
+
+This corresponds to the horizontal direction. We also add the second component. It's helpful to use the tip-to-tail method when adding vectors, placing the tail of a vector v on the tip of vector u. The new vector z is constructed by connecting the base of the first vector u with the tail of the second v. The following three lines of code will add the two lists and place the result in the list z. We can also perform vector addition with one line of NumPy code. It would require multiple lines to perform vector addition on two lists, as shown on the right side of the screen.
+
+In addition, the NumPy code will run much faster. This is important if you have lots of data. We can also perform vector subtraction by changing the addition sign to a subtraction sign. It would require multiple lines to perform vector subtraction on two lists, as shown on the right side of the screen. Vector multiplication with a scalar is another commonly performed operation. Consider the vector y. Each component is specified by a different color.
+
+We simply multiply the vector by a scalar value, in this case 2. Each component of the vector is multiplied by 2. In this case, each component is doubled. We can use the line segment or arrows to visualize what's going on. The original vector y is in purple. After multiplying it by a scalar value of 2, the vector is stretched out by 2 units, as shown in red. The new vector is twice as long in each direction.
+
+Vector multiplication with a scalar only requires one line of code using NumPy. It would require multiple lines to perform the same task as shown with Python lists, as shown on the right side of the screen. In addition, the operation would also be much slower. Hadamard product is another widely used operation in data science. Consider the following two vectors, u and v. The Hadamard product of u and v is a new vector z. The first component of z is the product of the first element of u and v. Similarly, the second component is the product of the second element of u and v.
+
+The resultant vector consists of the entry-wise product of u and v. We can also perform Hadamard product with one line of code in NumPy. It would require multiple lines to perform Hadamard product on two lists, as shown on the right side of the screen. The dot product is another widely used operation in data science. Consider the vector u and v. The dot product is a single number given by the following term and represents how similar two vectors are. We multiply the first component from v and u.
+
+We then multiply the second component and add the result together. The result is a number that represents how similar the two vectors are. We can also perform dot product using the NumPy function dot and assign it with the variable result as follows. Consider the array u. The array contains the following elements. If we add a scalar value to the array, NumPy will add that value to each element. This property is known as broadcasting.
+
+A universal function is a function that operates on nd arrays. We can apply a universal function to a NumPy array. Consider the arrays a. We can calculate the mean or average value of all the elements in a using the method mean. This corresponds to the average of all the elements. In this case, the result is zero. There are many other functions.
+
+For example, consider the NumPy arrays b. We can find the maximum value using the method max. We see the largest value is 5. Therefore, the method max returns a 5. We can use NumPy to create functions that map NumPy arrays to new NumPy arrays. Let's implement some code on the left side of the screen and use the right side of the screen to demonstrate what's going on. We can access the value of pi in NumPy as follows.
+
+We can create the following NumPy array in radians. This array corresponds to the following vector. We can apply the function sine to the array x and assign the values to the array y. This applies the sine function to each element in the array. This corresponds to applying the sine function to each component of the vector. The result is a new array y where each value corresponds to a sine function being applied to each element in the array x. A useful function for plotting mathematical functions is line space.
+
+Line space returns evenly spaced numbers over specified interval. We specify the starting point of the sequence, the ending point of the sequence, the parameter num indicates the number of samples to generate, in this case, 5. The space between samples is 1. If we change the parameter num to 9, we get 9 evenly spaced numbers over the interval from negative 2 to 2. The result is the difference between subsequent samples is 0.5 as opposed to 1 as before. We can use the function line space to generate 100 evenly spaced samples from the interval 0 to 2 pi. We can use the NumPy function sine to map the array x to a new array y.
+
+We can import the library pi plot as plt to help us plot the function. As we are using a Jupyter notebook, we use the command matplotlib inline to display the plot. The following command plots a graph. The first input corresponds to the values for the horizontal or x-axis. The second input corresponds to the values for the vertical or y-axis. There is a lot more you can do with NumPy. Check out the labs at numpy.org for more.
+
+Thanks for watching this video.
+
+---
+
+### 9. [READING] Matrix Mathematics Reading • 5 min
+- **URL:** https://www.coursera.org/learn/python-for-applied-data-science-ai/supplement/c0J4L/matrix-mathematics
+- **Method:** `dom_reading_cml` | **Length:** 2068 chars
+
+You have seen that you can use Numpy package functions to perform different types of operations on arrays and matrices. In this reading, you will learn how these operations work mathematically.
+
+## 1D Arrays : Vectors
+
+A 1D array is often termed as a vector. Depending upon the orientation of the data, the vector can be classified as a row vector or a column vector. This is illustrated in the image below.
+
+Mathematically, we can add, subtract, and take the product of two vectors, provided they are the same shape. The images below highlight the mathematical operations conducted on a pair of vectors.
+
+All three of these operations are conducted on corresponding elements of individual vectors. The resulting array always has the same size as that of the two original vectors.
+
+To a single vector, we can also add a constant (scalar addition), subtract a constant (scalar subtraction) and multiply a constant (scalar multiplication) to any vector. The images below illustrate these operations.
+
+## 2D Arrays : Matrices
+
+A 2D array is also called a Matrix. These are typically rectangular arrays with data stored in different rows. All of the operations mentioned above are also applicable to the 2D arrays.
+
+As illlustrated in the images below, the dot product is carried out by multiplying and adding corresponding elements of rows of the first matrix with the elements of columns of the second matrix. As a result, the output matrix from the multiplication will have a modified shape.
+
+The general rule is that the dot product of an m X n matrix can be done only with an n X p matrix, and the resultant matrix will have the shape m X p. In the example shown below, the 4 X 2 matrix is multiplied with the 2 X 4 matrix to generate a 4 X 4 matrix.
+
+In the reverse example, when 2 X 4 matrix is multiplied with the 4 X 2 one, the resultant will be a 2 X 2 matrix.
+
+Note: Dot product of a row vector with a column vector, with the same number of elements, would return a single scalar value. Dot product of a column vector with a row vector, will return a 2D matrix.
+
+---
+
+### 10. [VIDEO TRANSCRIPT] Two Dimensional Numpy Video • 7 min
+- **URL:** https://www.coursera.org/learn/python-for-applied-data-science-ai/lecture/0oVHr/two-dimensional-numpy
+- **Method:** `dom_transcript` | **Length:** 6354 chars
+
+We can create Numpy arrays with more than one dimension. This section will focus only on 2D arrays but you can use Numpy to build arrays of much higher dimensions. In this video, we will cover the basics and array creation in 2D, indexing and slicing in 2D, and basic operations in 2D. Consider the list a, the list contains three nested lists each of equal size. Each list is color-coded for simplicity. We can cast the list to a Numpy array as follows. It is helpful to visualize the Numpy array as a rectangular array each nested lists corresponds to a different row of the matrix.
+
+We can use the attribute ndim to obtain the number of axes or dimensions referred to as the rank. The term rank does not refer to the number of linearly independent columns like a matrix. It's useful to think of ndim as the number of nested lists. The first list represents the first dimension. This list contains another set of lists. This represents the second dimension or axis. The number of lists the list contains does not have to do with the dimension but the shape of the list.
+
+As with a 1D array, the attribute shape returns a tuple. It's helpful to use the rectangular representation as well. The first element in the tuple corresponds to the number of nested lists contained in the original list or the number of rows in the rectangular representation, in this case three. The second element corresponds to the size of each of the nested list or the number of columns in the rectangular array zero. The convention is to label this axis zero and this axis one as follows. We can also use the attribute size to get the size of the array. We see there are three rows and three columns.
+
+Multiplying the number of columns and rows together, we get the total number of elements, in this case nine. Check out the labs for arrays of different shapes and other attributes. We can use rectangular brackets to access the different elements of the array. The following image demonstrates the relationship between the indexing conventions for the lists like representation. The index in the first bracket corresponds to the different nested lists each a different color. The second bracket corresponds to the index of a particular element within the nested list. Using the rectangular representation, the first index corresponds to the row index.
+
+The second index corresponds to the column index. We could also use a single bracket to access the elements as follows. Consider the following syntax. This index corresponds to the second row, and this index the third column, the value is 23. Consider this example, this index corresponds to the first row and the second index corresponds to the first column, and a value of 11. We can also use slicing in Numpy arrays. The first index corresponds to the first row.
+
+The second index accesses the first two columns. Consider this example, the first index corresponds to the first two rows. The second index accesses the last column. We can also add arrays, the process is identical to matrix addition. Consider the matrix X, each element is colored differently. Consider the matrix Y. Similarly, each element is colored differently.
+
+We can add the matrices. This corresponds to adding the elements in the same position, i.e adding elements contained in the same color boxes together. The result is a new matrix that has the same size as matrix Y or X. Each element in this new matrix is the sum of the corresponding elements in X and Y. To add two arrays in Numpy, we define the array in this case X. Then we define the second array Y, we add the arrays. The result is identical to matrix addition.
+
+Multiplying a Numpy array by a scalar is identical to multiplying a matrix by a scalar. Consider the matrix Y. If we multiply the matrix by this scalar two, we simply multiply every element in the matrix by two. The result is a new matrix of the same size where each element is multiplied by two. Consider the array Y. We first define the array, we multiply the array by a scalar as follows and assign it to the variable Z. The result is a new array where each element is multiplied by two.
+
+Multiplication of two arrays corresponds to an element-wise product, or Hadamard product. Consider array X and array Y. Hadamard product corresponds to multiplying each of the elements in the same position i.e multiplying elements contained in the same color boxes together. The result is a new matrix that is the same size as matrix Y or X. Each element in this new matrix is the product of the corresponding elements in X and Y. Consider the array X and Y. We can find the product of two arrays X and Y in one line, and assign it to the variable Z as follows.
+
+The result is identical to Hadamard product. We can also perform matrix multiplication with Numpy arrays. Matrix multiplication is a little more complex but let's provide a basic overview. Consider the matrix A where each row is a different color. Also, consider the matrix B where each column is a different color. In linear algebra, before we multiply matrix A by matrix B, we must make sure that the number of columns in matrix A in this case three is equal to the number of rows in matrix B, in this case three. From matrix multiplication, to obtain the ith row and jth column of the new matrix, we take the dot product of the ith row of a with the jth columns of B.
+
+For the first column, first row we take the dot product of the first row of A with the first column of B as follows. The result is zero. For the first row and the second column of the new matrix, we take the dot product of the first row of the matrix A, but this time we use the second column of matrix B, the result is two. For the second row and the first column of the new matrix, we take the dot product of the second row of the matrix A. With the first column of matrix B, the result is zero. Finally, for the second row and the second column of the new matrix, we take the dot product of the second row of the matrix A with the second column of matrix B, the result is two. In Numpy, we can define the Numpy arrays A and B.
+
+We can perform matrix multiplication and assign it to array C. The result is the array C. It corresponds to the matrix multiplication of array A and B. There is a lot more you can do with it in Numpy. Check out numpy.org. Thanks for watching this video. (Music)
+
+---
+
+### 11. [READING] Beginner's Guide to NumPy Reading • 10 min
+- **URL:** https://www.coursera.org/learn/python-for-applied-data-science-ai/supplement/v9kfI/beginners-guide-to-numpy
+- **Method:** `dom_reading_cml` | **Length:** 8403 chars
+
+## Objectives
+
+In this reading, you'll learn about:
+
+- Basics of NumPy
+- How to create NumPy arrays
+- Array attributes and indexing
+- Basic operations like addition and multiplication
+
+## What is NumPy?
+
+NumPy, short for Numerical Python, is a fundamental library for numerical and scientific computing in Python. It provides support for large, multi-dimensional arrays and matrices, along with a collection of high-level mathematical functions to operate on these arrays. NumPy serves as the foundation for many data science and machine learning libraries, making it an essential tool for data analysis and scientific research in Python.
+
+### Key aspects of NumPy in Python:
+
+- Efficient data structures: NumPy introduces efficient array structures, which are faster and more memory-efficient than Python lists. This is crucial for handling large data sets.
+- Multi-dimensional arrays: NumPy allows you to work with multi-dimensional arrays, enabling the representation of matrices and tensors. This is particularly useful in scientific computing.
+- Element-wise operations: NumPy simplifies element-wise mathematical operations on arrays, making it easy to perform calculations on entire data sets in one go.
+- Random number generation: It provides a wide range of functions for generating random numbers and random data, which is useful for simulations and statistical analysis.
+- Integration with other libraries: NumPy seamlessly integrates with other data science libraries like SciPy, Pandas, and Matplotlib, enhancing its utility in various domains.
+- Performance optimization: NumPy functions are implemented in low-level languages like C and Fortran, which significantly boosts their performance. It's a go-to choice when speed is essential.
+
+## Installation
+
+If you haven't already installed NumPy, you can do so using pip:
+
+1pip install numpyInformation: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+## Creating NumPy arrays
+
+You can create NumPy arrays from Python lists. These arrays can be one-dimensional or multi-dimensional.
+
+### Creating 1D array
+
+1import numpy as npInformation: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.import numpy as np: In this line, the NumPy library is imported and assigned an alias np to make it easier to reference in the code.
+
+12# Creating a 1D arrayarr_1d = np.array([1, 2, 3, 4, 5]) # **np.array()** is used to create NumPy arrays.Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.arr_1d = np.array([1, 2, 3, 4, 5]): In this line, a one-dimensional NumPy array named arr_1d is created. It uses the np.array() function to convert a Python list [1, 2, 3, 4, 5] into a NumPy array. This array contains five elements, which are 1, 2, 3, 4, and 5. arr_1d is a 1D array because it has a single row of elements.
+
+### Creating 2D array
+
+1import numpy as npInformation: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.import numpy as np: In this line, the NumPy library is imported and assigned an alias np to make it easier to reference in the code.
+
+12# Creating a 2D arrayarr_2d = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.arr_2d = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]]): In this line, a two-dimensional NumPy array named arr_2d is created. It uses the np.array() function to convert a list of lists into a 2D NumPy array.The outer list contains three inner lists, each of which represents a row of elements. So, arr_2d is a 2D array with three rows and three columns. The elements in this array form a matrix with values from 1 to 9, organized in a 3x3 grid.
+
+### Array attributes
+
+NumPy arrays have several useful attributes:
+
+1234567# Array attributesprint(arr_2d.ndim)  # ndim : Represents the number of dimensions or "rank" of the array.# output : 2print(arr_2d.shape)  # shape : Returns a tuple indicating the number of rows and columns in the array.# Output : (3, 3)print(arr_2d.size) # size: Provides the total number of elements in the array.# Output : 9Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### Indexing and slicing
+
+You can access elements of a NumPy array using indexing and slicing:
+
+In this line, the third element (index 2) of the 1D array arr_1d is accessed.
+
+12# Indexing and slicingprint(arr_1d[2])          # Accessing an element (3rd element)Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.In this line, the element in the 2nd row (index 1) and 3rd column (index 2) of the 2D array arr_2d is accessed.
+
+1print(arr_2d[1, 2])       # Accessing an element (2nd row, 3rd column)Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.In this line, the 2nd row (index 1) of the 2D array arr_2d is accessed.
+
+1print(arr_2d[1, 2])       # Accessing an element (2nd row, 3rd column)Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.In this line, the 2nd column (index 1) of the 2D array arr_2d is accessed.
+
+1print(arr_2d[:, 1])       # Accessing a column (2nd column)Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+## Basic operations
+
+NumPy simplifies basic operations on arrays:
+
+### Element-wise arithmetic operations:
+
+Addition, subtraction, multiplication, and division of arrays with scalars or other arrays.
+
+#### Array addition
+
+12345# Array additionarray1 = np.array([1, 2, 3])array2 = np.array([4, 5, 6])result = array1 + array2print(result)  # [5 7 9]Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+#### Scalar multiplication
+
+1234# Scalar multiplicationarray = np.array([1, 2, 3])result = array * 2 # each element of an array is multiplied by 2print(result)  # [2 4 6]Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+#### Element-wise multiplication (Hadamard Product)
+
+12345# Element-wise multiplication (Hadamard product)array1 = np.array([1, 2, 3])array2 = np.array([4, 5, 6])result = array1 * array2print(result)  # [4 10 18]Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+#### Matrix multiplication
+
+1234567# Matrix multiplicationmatrix1 = np.array([[1, 2], [3, 4]])matrix2 = np.array([[5, 6], [7, 8]])result = np.dot(matrix1, matrix2)print(result)# [[19 22]#  [43 50]]Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.NumPy simplifies these operations, making it easier and more efficient than traditional Python lists.
+
+## Operation with NumPy
+
+Here's the list of operation which can be performed using Numpy
+
+| Operation | Description | Example |
+| --- | --- | --- |
+| Array Creation | Creating a NumPy array. | arr = np.array([1, 2, 3, 4, 5]) |
+| Element-Wise Arithmetic | Element-wise addition, subtraction, and so on. | result = arr1 + arr2 |
+| Scalar Arithmetic | Scalar addition, subtraction, and so on. | result = arr * 2 |
+| Element-Wise Functions | Applying functions to each element. | result = np.sqrt(arr) |
+| Sum and Mean | Calculating the sum and mean of an array.Calculating the sum and mean of an array. | total = np.sum(arr) average = np.mean(arr) |
+| Maximum and Minimum Values | Finding the maximum and minimum values. | max_val = np.max(arr) min_val = np.min(arr) |
+| Reshaping | Changing the shape of an array. | reshaped_arr = arr.reshape(2, 3) |
+| Transposition | Transposing a multi-dimensional array. | transposed_arr = arr.T |
+| Matrix Multiplication | Performing matrix multiplication. | result = np.dot(matrix1, matrix2) |
+
+## Conclusion
+
+NumPy is a fundamental library for data science and numerical computations. This guide covers the basics of NumPy, and there's much more to explore. Visit numpy.org for more information and examples.
+
+---
+
+### 12. [READING] Module 4 Summary: Working with Data in Python Reading • 5 min
+- **URL:** https://www.coursera.org/learn/python-for-applied-data-science-ai/supplement/yuJMo/module-4-summary-working-with-data-in-python
+- **Method:** `dom_reading_cml` | **Length:** 4019 chars
+
+Congratulations! You have completed this module. At this point, you know that:
+
+- Python uses the open() function and allows you to read and write files, providing access to the content within the file for reading. It also allows overwriting it for writing and specifies the file mode (for example, r for reading, w for writing, a for appending). - To read a file, Python uses an open function along with r. - Python uses the open with function to read and process a file attribute, that is, from open to close. - In Python, you use the open method to edit or overwrite a file. - To write a file, Python uses the open function along with w. - In Python, "a" indicates that the program has appended to the file. - In Python, “\n” signifies that the code should start on a new line. - Python uses various methods to print lines from attributes.
+- Pandas is a powerful Python library for data manipulation and analysis, providing data structures and functions to work with structured data like data frames and series. - You import the file (panda) by using the import command followed by the file name. - In Python, you use the as command to provide a shorter name for the file. - In Pandas, you use a data frame (df) to specify the files to read. - DataFrames consist of rows and columns. - You can create new DataFrames by using the column or columns of a specific DataFrame. - We can work with data in a DataFrames and save the results in different formats. - In Python, you use the Unique method to determine unique elements in a column of the DataFrames. - You use the inequality operator along with df to assign a Boolean value to the selected column in DataFrames. - You save a new DataFrame as a different DataFrame, which may contain values from an earlier DataFrame.
+- NumPy is a Python library for numerical and matrix operations, offering multidimensional array objects and a variety of mathematical functions to work with data efficiently. - NumPy is a basis for Pandas. - A NumPy array or ND array is similar to a list, usually of a fixed size with the same kind of element.
+- A one-dimensional NumPy array is a linear sequence of elements with a single axis, like a traditional list, but optimized for numerical computations and array operations. - You can access elements in a NumPy using an index. - You use the attribute dtype to get the data type of the array elements. - You use size and ndim to get the size and dimension of the array, respectively. - You can use indexing and slicing methods in NumPy. - Vector additions are widely used operations in Python. - Representing vector addition with line segments or arrows is useful. - NumPy codes work much faster, which is helpful with lots of data. - You perform vector subtraction by replacing the addition sign with a negative sign. - Multiplying an array by a scalar in Python entails multiplying each element of the array by the scalar value, leading to a new array in which each element scales by the scalar. - Hadamard product refers to the element-wise multiplication of two arrays of the same shape, resulting in a new array where each element is the product of the corresponding elements in the input arrays. - The dot product in Python is the sum of the element-wise products of two arrays, often used for vector and matrix operations to find the scalar result of multiplying corresponding elements and summing them. - When working with NumPy, it is common to utilize libraries like Matplotlib to create graphs and visualizations from numerical data stored in NumPy arrays.
+- A two-dimensional NumPy array is a grid-like structure with rows and columns suitable for representing data as a matrix or a table for numerical computations. - In NumPy, "shape" refers to an array's dimensions (number of rows and columns), indicating its size and structure. - You use the attribute "size" to obtain the size of an array. - You use rectangular attributes to access the various elements in an array. - You use a scalar to multiply elements in NumPy.
+
+---
+
+### 13. [READING] Cheat Sheet: Working with Data in Python Reading • 10 min
+- **URL:** https://www.coursera.org/learn/python-for-applied-data-science-ai/supplement/mVm9g/cheat-sheet-working-with-data-in-python
+- **Method:** `dom_reading_cml` | **Length:** 12003 chars
+
+## Reading and writing files
+
+### File opening modes
+
+Different modes to open files for specific operations.
+
+Syntax: r (reading) w (writing) a (appending) + (updating: read/write) b (binary, otherwise text)
+
+1Examples: with open("data.txt", "r") as file: content = file.read() print(content) with open("output.txt", "w") as file: file.write("Hello, world!") with open("log.txt", "a") as file: file.write("Log entry: Something happened.") with open("data.txt", "r+") as file: content = file.read() file.write("Updated content: " + content)</td>Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### File reading methods
+
+Different methods to read file content in various ways.
+
+Syntax:
+
+123file.readlines() # reads all lines as a listreadline() # reads the next line as a stringfile.read() # reads the entire file content as a stringInformation: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Example:
+
+1234with open("data.txt", "r") as file:    lines = file.readlines()    next_line = file.readline()    content = file.read()Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### File writing methods
+
+Different write methods to write content to a file.
+
+Syntax:
+
+12file.write(content) # writes a string to the filefile.writelines(lines) # writes a list of strings to the fileInformation: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Example:
+
+123lines = ["Hello\n", "World\n"]with open("output.txt", "w") as file:    file.writelines(lines)Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### Iterating over lines
+
+Iterates through each line in the file using a loop.
+
+Syntax:
+
+1for line in file: # Code to process each lineInformation: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Example:
+
+12with open("data.txt", "r") as file:for line in file: print(line)Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### open() and close()
+
+Opens a file, performs operations, and explicitly closes the file using the close() method.
+
+Syntax:
+
+12file = open(filename, mode) # Code that uses the filefile.close()Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Example:
+
+123file = open("data.txt", "r")content = file.read()file.close()Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### with open()
+
+Opens a file using a with block, ensuring automatic file closure after usage.
+
+Syntax:
+
+1with open(filename, mode) as file: # Code that uses the fileInformation: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Example:
+
+12with open("data.txt", "r") as file:content = file.read()Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+## Pandas
+
+### .read_csv()
+
+Reads data from a .csv file and creates a DataFrame.
+
+Syntax:
+
+1dataframe_name = pd.read_csv("filename.csv") Example: df = pd.read_csv("data.csv")Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### .read_excel()
+
+Reads data from an Excel file and creates a DataFrame.
+
+Syntax:
+
+1dataframe_name = pd.read_excel("filename.xlsx")Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Example:
+
+1df = pd.read_excel("data.xlsx")Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### .to_csv()
+
+Writes DataFrame to a CSV file.
+
+Syntax:
+
+1dataframe_name.to_csv("output.csv", index=False)Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Example:
+
+1df.to_csv("output.csv", index=False)Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### Access Columns
+
+Accesses a specific column using [] in the DataFrame.
+
+Syntax:
+
+12dataframe_name["column_name"] # Accesses single columndataframe_name[["column1", "column2"]] # Accesses multiple columnsInformation: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Example:
+
+12df["age"]df[["name", "age"]]Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### describe()
+
+Generates a statistics summary of numeric columns in the DataFrame.
+
+Syntax:
+
+1dataframe_name.describe()Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Example:
+
+1df.describe()Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### drop()
+
+Removes specified rows or columns from the DataFrame. axis=1 indicates columns. axis=0 indicates rows.
+
+Syntax:
+
+12dataframe_name.drop(["column1", "column2"], axis=1, inplace=True)dataframe_name.drop(index=[row1, row2], axis=0, inplace=True)Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Example:
+
+12df.drop(["age", "salary"], axis=1, inplace=True) # Will drop columnsdf.drop(index=[5, 10], axis=0, inplace=True) # Will drop rowsInformation: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### dropna()
+
+Removes rows with missing NaN values from the DataFrame. axis=0 indicates rows.
+
+Syntax:
+
+1dataframe_name.dropna(axis=0, inplace=True)Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Example:
+
+1df.dropna(axis=0, inplace=True)Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### duplicated()
+
+Identifies duplicate or repetitive values or records within a dataset.
+
+Syntax:
+
+1dataframe_name.duplicated()Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Example:
+
+1duplicate_rows = df[df.duplicated()]Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### Filter Rows
+
+Creates a new DataFrame with rows that meet specified conditions.
+
+Syntax:
+
+1filtered_df = dataframe_name[(Conditional_statements)]Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Example:
+
+1filtered_df = df[(df["age"] > 30) & (df["salary"] < 50000)Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### groupby()
+
+Splits a DataFrame into groups based on specified criteria, enabling subsequent aggregation, transformation, or analysis within each group.
+
+Syntax:
+
+12grouped = dataframe_name.groupby(by, axis=0, level=None, as_index=True,sort=True, group_keys=True, squeeze=False, observed=False, dropna=True)Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Example:
+
+1grouped = df.groupby(["category", "region"]).agg({"sales": "sum"})Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### head()
+
+Displays the first n rows of the DataFrame.
+
+Syntax:
+
+1dataframe_name.head(n)Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Example:
+
+1df.head(5)Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### Import pandas
+
+Imports the Pandas library with the alias pd.
+
+Syntax:
+
+1import pandas as pdInformation: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Example:
+
+1import pandas as pdInformation: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### info()
+
+Provides information about the DataFrame, including data types and memory usage.
+
+Syntax:
+
+1dataframe_name.info()Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Example:
+
+1df.info()Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### merge()
+
+Merges two DataFrames based on multiple common columns.
+
+Syntax:
+
+1merged_df = pd.merge(df1, df2, on=["column1", "column2"])Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Example:
+
+1merged_df = pd.merge(sales, products, on=["product_id", "category_id"])Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### print DataFrame
+
+Displays the content of the DataFrame.
+
+Syntax:
+
+1print(df) # or just type dfInformation: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Example:
+
+12print(df)dfInformation: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### replace()
+
+Replaces specific values in a column with new values.
+
+Syntax:
+
+1dataframe_name["column_name"].replace(old_value, new_value, inplace=True)Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Example:
+
+1df["status"].replace("In Progress", "Active", inplace=True)Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### tail()
+
+Displays the last n rows of the DataFrame.
+
+Syntax:
+
+1dataframe_name.tail(n)Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Example:
+
+1df.tail(5)Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+## NumPy
+
+### Importing NumPy
+
+Imports the NumPy library.
+
+Syntax:
+
+1import numpy as npInformation: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Example:
+
+1import numpy as npInformation: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### np.array()
+
+Creates a one-dimensional or multi-dimensional array.
+
+Syntax:
+
+12array_1d = np.array([list1 values]) # 1D Arrayarray_2d = np.array([[list1 values], [list2 values]]) # 2D ArrayInformation: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Example:
+
+12array_1d = np.array([1, 2, 3]) # 1D Arrayarray_2d = np.array([[1, 2], [3, 4]]) # 2D ArrayInformation: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### NumPy Array Attributes
+
+Common NumPy operations on arrays:
+
+- Calculates the mean of array elements
+- Calculates the sum of array elements
+- Finds the minimum value in the array
+- Finds the maximum value in the array
+- Computes the dot product of two arrays
+
+Example:
+
+12345np.mean(array)np.sum(array)np.min(arraynp.max(array)np.dot(array_1, array_2)Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+
+---
+
+### 14. [READING] Module 4 Glossary: Working with Data in Python Reading • 10 min
+- **URL:** https://www.coursera.org/learn/python-for-applied-data-science-ai/supplement/taijZ/module-4-glossary-working-with-data-in-python
+- **Method:** `dom_reading_cml` | **Length:** 5866 chars
+
+Welcome! This alphabetized glossary contains many of the terms you'll find within this course. This comprehensive glossary also includes additional industry-recognized terms not used in course videos. These terms are important for you to recognize when working in the industry, participating in user groups, and participating in other certificate programs.
+
+| Term | Definition |
+| --- | --- |
+| .csv file | A .csv (Comma-Separated Values) file is a plain text file format for storing tabular data, where each line represents a row and uses commas to separate values in different columns. |
+| .txt file | A .txt (Text) file is a common file format that contains plain text without specific formatting, making it suitable for storing and editing textual data. |
+| Append | To "append" means to add or attach something to the end of an existing object, typically used in the context of adding data to a file or elements to a data structure like a list in Python. |
+| Attribute | An "attribute" in Python refers to a property or characteristic associated with an object, which can be accessed using dot notation. |
+| Broadcasting in NumPy | Broadcasting in NumPy allows arrays with different shapes to be combined in element-wise operations by automatically extending smaller arrays to match the shape of larger ones, making operations more flexible. |
+| Component | In NumPy, a "component" typically refers to a specific element or value within a multi-dimensional array, which can be accessed using indexing. |
+| Computation | Computation in NumPy involves performing numerical operations on arrays and matrices, making it a powerful library for mathematical and scientific computing in Python. |
+| Data analysis | Data analysis is the process of inspecting, cleaning, transforming, and interpreting data to discover useful information, draw conclusions, and support decision-making. |
+| DataFrames | A DataFrames in Pandas is a two-dimensional, tabular data structure for storing and analyzing data, consisting of rows and columns. |
+| Dependencies | Dependencies in Pandas are external libraries or modules, such as NumPy, that Pandas rely on for fundamental data manipulation and analysis functionality. |
+| File attribute | File attributes generally refer to properties or metadata associated with files, which are managed at the operating system level. |
+| File object | A "file object" in Python represents an open file, allowing reading from or writing to the file. |
+| Grid | In Python, a "grid" typically refers to a two-dimensional structure composed of rows and columns, often used to represent data in a tabular format or for organizing objects in a coordinate system. |
+| Hadamard Product | The Hadamard product is a mathematical operation that involves element-wise multiplication of two matrices or arrays of the same shape, producing a new matrix with each element being the product of the corresponding elements in the input matrices. |
+| Importing pandas | To import Pandas in Python, you use the statement: import pandas as pd, which allows you to access Pandas functions and data structures using the abbreviation "pd." |
+| Index | In Python, an "index" typically refers to a position or identifier used to access elements within a sequence or data structure, such as a list or string. |
+| Libraries | Libraries in Python are collections of pre-written code modules that provide reusable functions and classes to simplify and enhance software development. |
+| Linspace | In Python, "linspace" refers to a NumPy function that generates an array of evenly spaced values within a specified range. |
+| NumPy | NumPy in Python is a fundamental library for numerical computing that provides support for large, multi-dimensional arrays and matrices, as well as a variety of high-level mathematical functions to operate on these arrays. |
+| One dimensional NumPy | A one-dimensional NumPy array is a linear data structure that stores elements in a single sequence, often used for numerical computations and data manipulation. |
+| Open function | In Python, the "open" function is used to access and manipulate files, allowing you to read from or write to a specified file. |
+| Pandas | Pandas is a popular Python library for data manipulation and analysis, offering data structures and tools for working with structured data like tables and time series. |
+| Pandas library | Pandas library in Python refer to the various modules and functions within the Pandas library, which provides powerful data structures and data analysis tools for working with structured data. |
+| Plotting Mathematical Functions | Plotting mathematical functions in Python involves using libraries like Matplotlib to create graphical representations of mathematical equations, aiding visualization, and analysis. |
+| Shape | In NumPy, "shape" refers to an array's dimensions (number of rows and columns), describing its size and structure. |
+| Slicing | Slicing in NumPy entails extracting specific portions of an array by specifying a range of indices, enabling you to work with subsets of the data. |
+| Two dimensional NumPy | A two-dimensional NumPy array is a structured data representation with rows and columns, resembling a matrix or table, ideal for various data manipulation and analysis tasks. |
+| Universal Functions | Universal functions (ufuncs) in NumPy are functions that operate element-wise on arrays, providing efficient and vectorized operations for a wide range of mathematical and logical operations. |
+| Vector addition | Vector addition in Python involves adding corresponding elements of two or more vectors, producing a new vector with the sum of their components. |
+| Visualizations | Visualizations in Python refer to the creation of graphical representations, such as charts, plots, and graphs, to illustrate and communicate data and trends visually. |
+
+---
+
+## Module 5: APIs and Data Collection
+
+### 1. [VIDEO TRANSCRIPT] Application Program Interface Video • 5 min
+- **URL:** https://www.coursera.org/learn/python-for-applied-data-science-ai/lecture/rLaLi/application-program-interface
+- **Method:** `dom_transcript` | **Length:** 4441 chars
+
+In this video we will discuss Application Program Interfaces (APIs for short). Specifically, we will discuss what an API is, API libraries, and REST APIs, including Request and Response and an example with PyCoinGecko. An API lets two pieces of software talk to each other. For example, you have your program, you have some data, you have other software components. You use the API to communicate with other software via inputs and outputs. Just like a function, you don’t have to know how the API works, just its inputs and outputs. Pandas is actually a set of software components, much of which are not even written in Python.
+
+You have some data. You have a set of software components. We use the pandas API to process the data by communicating with the other software components. Let’s clean up the diagram. When you create a dictionary, and then create a pandas object with the DataFrame constructor, in API lingo, this is an “instance.” The data in the dictionary is passed along to the pandas API. You then use the dataframe to communicate with the API.
+
+When you call the method head, the dataframe communicates with the API displaying the first few rows of the dataframe. When you call the method mean the API will calculate the mean and return the values. REST APIs are another popular type of API; they allow you to communicate through the internet allowing you to take advantage of resources like storage, access more data, artificial intelligence algorithms, and much more. The RE stands for Representational, the S for State, and T for Transfer. In REST APIs your program is called the client. The API communicates with a web service you call through the internet. There is a set of rules regarding communication, input or request, and output or response. Here are some common terms.
+
+You or your code can be thought of as a client. The web service is referred to as a resource. The client finds the service via an endpoint. We will review this more in the next section. The client sends requests to the resource and the response to the client. HTTP methods are a way of transmitting data over the internet. We tell the REST APIs what to do by sending a request. The request is usually communicated via an HTTP message. The HTTP message usually contains a JSON file.
+
+This contains instructions for what operation we would like the service to perform. This operation is transmitted to the web service via the internet. The service performs the operation. In a similar manner, the web service returns a response via an HTTP message, where the information is usually returned via a JSON file. This information is transmitted back to the client. Cryptocurrency data is excellent to be used in an API because it is constantly updated and it is vital to cryptocurrency trading. We will use the PyCoinGecko Python client/wrapper for the CoinGecko API, updated every minute by CoinGecko.
+
+We use the wrapper/client because it is easy to use so you can focus on the task of collecting data, we will also introduce pandas time series functions for dealing with time series data. Using PyCoinGecko to collect data is simple. All we need is to install and import the library, then create a client object, and finally use a function to request our data. In this function we are getting data on bitcoin, in US dollars, for the past 30 days. In this case our response is a JSON expressed as a Python dictionary of nested lists including price, market cap, and total volumes, which contain the UNIX timestamp and the price at that time. We are only interested in price so that is what we will select using the key price. To make things simple, we can convert our nested list to a DataFrame, with the columns timestamp and price it's difficult to understand the column timestamp.
+
+We will convert it to a more readable format using the pandas function to_datetime. Using the to_datetime function, we create readable time data, the input is the timestamp column, unit of time is set to milliseconds. We append the output to the new column, date. Now we want to create a candlestick plot. To get the data for the daily candlesticks we will group by the date to find the minimum, maximum, first, and last price of each day. Finally we will use plotly to create the candlestick chart and plot it. Now we can view the candlestick chart by opening the HTML file and clicking Trust HTML in the top left of the tab. It should look something like this.
+
+---
+
+### 2. [READING] Some Context on APIs Reading • 5 min
+- **URL:** https://www.coursera.org/learn/python-for-applied-data-science-ai/supplement/M083f/some-context-on-apis
+- **Method:** `dom_reading_cml` | **Length:** 3184 chars
+
+## What are APIs?
+
+APIs, or Application Programming Interfaces, are a crucial part of software development. They allow developers to create new applications by leveraging existing functionality from other systems. APIs define how software components should interact and facilitate communication between various products and services without requiring direct implementation.
+
+## Importance of APIs
+
+APIs are essential for any engineer because they provide a way to access data and functionality from other systems, which can save time and resources. For instance, APIs can be used to integrate applications into the existing architecture of a server or application, allowing developers to communicate between various products and services without requiring direct implementation.
+
+APIs are also important because they enable developers to create new applications by leveraging existing functionality from other systems. This can help developers throughout the engineering and development process of apps.
+
+APIs are used in a wide range of applications, from social media platforms to e-commerce websites. They are also used in mobile applications, web applications, and desktop applications.
+
+## Applications of APIs
+
+APIs have a wide range of applications, some of which are:
+
+- Social media platforms: Social media platforms like Facebook, Twitter, and Instagram use APIs to allow developers to access their data and functionality. This allows developers to create applications that can interact with these platforms and provide additional functionality to users.
+- E-commerce websites: E-commerce websites like Amazon and eBay use APIs to allow developers to access their product catalogs and other data. This allows developers to create applications that can interact with these platforms and provide additional functionality to users.
+- Weather applications: Weather applications like AccuWeather and The Weather Channel use APIs to access weather data from various sources. This allows developers to create applications that can provide users with up-to-date weather information.
+- Maps and navigation applications: Maps and navigation applications like Google Maps and Waze use APIs to access location data and other information. This allows developers to create applications that can provide users with directions, traffic updates, and other location-based information.
+- Payment gateways: Payment gateways like PayPal and Stripe use APIs to allow developers to access their payment processing functionality. This allows developers to create applications that can process payments securely and efficiently.
+- Messaging applications: Messaging applications like WhatsApp and Facebook Messenger use APIs to allow developers to access their messaging functionality. This allows developers to create applications that can interact with these platforms and provide additional functionality to users.
+
+## Conclusion
+
+In summary, APIs are an essential part of software development, and they provide a way to access data and functionality from other systems. They are used in a wide range of applications and can help developers save time and resources while creating new applications.
+
+---
+
+### 3. [VIDEO TRANSCRIPT] REST APIs & HTTP Requests - Part 1 Video • 4 min
+- **URL:** https://www.coursera.org/learn/python-for-applied-data-science-ai/lecture/W6xwd/rest-apis-http-requests-part-1
+- **Method:** `dom_transcript` | **Length:** 3170 chars
+
+In this video, we will discuss the HTTP protocol. Specifically, we will discuss: Uniform Resource Locator: URL Request and Response We touched on REST APIs in the last section. The HTTP protocol can be thought of as a general protocol of transferring information through the web. This includes many types of REST APIs. Recall that REST APIs function by sending a request, and the request is communicated via HTTP message. The HTTP message usually contains a JSON file. When you, the client, use a web page your browser sends an HTTP request to the server where the page is hosted. The server tries to find the desired resource by default "index.html".
+
+If your request is successful, the server will send the object to the client in an HTTP response; this includes information like the type of the resource, the length of the resource, and other information. The table under the Web server represents a list of resources stored in the web server. In this case, an HTML file, png image, and txt file. When the request is made for the information, the web servers sends the the requested information, that is, one of the files. A uniform resource locator (URL) is the most popular way to find resources on the web. We can break the URL into three parts. First we have the scheme: this is the protocol, and for this lab it will always be http:// The internet address or Base URL: this will be used to find the location; some examples include www.ibm.com and www.gitlab.com And finaly, the route: this is the location on the web server, for example: /images/IDSNlogo.png Let's review the request and Response process.
+
+The following is an example of the request message for the get request method. There are other HTTP methods we can use. In the start line we have the GET method. This is an HTTP method. In this case, it’s requesting the file index.html The Request header passes additional information with an HTTP request. In the GET method the Request header is empty. Some Requests have a body; we will have an example of a request body later.
+
+The following table represents the response. The response start line contains the version number followed by a descriptive phrase. In this case, HTTP/1.0 a status code (200) meaning success, and the descriptive phrase, OK. We have more on status codes later. The response header contains information. Finally, we have the response body containing the requested file, in this case an HTML document. Lets look at other status codes.
+
+Some status code examples are shown in the table below. The prefix indicates the class; for example, the 100s are informational responses; 100 indicates that everything is OK so far. The 200s are Successful responses: For example, 200 The request has succeeded. Anything in the 400s is bad news. 401 means the request is unauthorized. 500’s stands for server errors, like 501 for not Implemented. When an HTTP request is made, an HTTP method is sent. This tells the server what action to perform. A list of several HTTP methods is shown here.
+
+In the next video, we will use Python to apply the GET method that retrieves data from the server and the post method that sends data to the server.
+
+---
+
+### 4. [VIDEO TRANSCRIPT] REST APIs & HTTP Requests - Part 2 Video • 4 min
+- **URL:** https://www.coursera.org/learn/python-for-applied-data-science-ai/lecture/h9CR3/rest-apis-http-requests-part-2
+- **Method:** `dom_transcript` | **Length:** 3887 chars
+
+In this video, we will discuss the HTTP protocol using the requests library, a popular method for dealing with the HTTP protocol in Python. We will review Python library requests for working with the HTTP protocols, and we will provide an overview of Get requests and Post requests. Let us review the request module in Python. This is one of several libraries, including HTTPlib and urllib, that can work with the HTTP protocol. Requests is a Python library that allows you to send HTTP/1.1 requests easily. We can import the library as follows. You can make a GET request via the method GET to www.ibm.com.
+
+We have the response object R. This has information about the request, like the status of the request. We can view the status code using the attribute status underscore code, which is 200 for OK. You can view the request headers. You can view the request body in the following line. As there is no body for a GET request, we get a none. You can view the HTTP response header using the attribute headers.
+
+This returns a Python dictionary of HTTP response headers. We can look at the dictionary values. We can obtain the date the request was sent by using the key date. The key content type indicates the type of data. Using the response object R, we can also check the encoding. As the content type is text or HTML, we can use the attribute text to display the HTML in the body. We can review the first 100 characters.
+
+You can also download other content. See the lab for more. You can use the GET method to modify the results of your query, for example, retrieving data from an API. In the lab, we will use httpbin.org, a simple HTTP request and response service. We send a GET request to the server. Like before, we have the base URL in the route. We append /get.
+
+This indicates we would like to perform a GET request. This is demonstrated in the following table. After GET is requested, we have the query string. This is part of a uniform resource locator or URL, and this sends other information to the web server. The start of the query is a question mark, followed by a series of parameter and value pairs as shown in the table below. The first parameter name is name, and the value is Joseph. The second parameter name is ID, and the value is 123.
+
+Each pair parameter and value is separated by an equal sign. The series of pairs is separated by the ampersand. Let us complete an example in Python. We have the base URL with GET appended to the end. To create a query string, we use the dictionary payload. The keys are the parameter names, and the values are the value of the query string. Then we pass the dictionary payload to the params parameter of the GET function.
+
+We can print out the URL and see the name and values. We can see the request body. As the info is sent in the URL, the body has a value of none. We can print out the status code. We can view the response as text, and we can look at the key content type to look at the content type. As the content content type is in the JSON, we format it using the method JSON. It returns a Python dict.
+
+The key args has the name and values for the query string. Like a GET request, a POST request is used to send data to a server, but the POST request sends the data in a request body, not the URL. In order to send the POST request in the URL, we change the route to POST. This endpoint will expect data, and it is a convenient way to configure an HTTP request to send data to a server. We have the payload dictionary. To make a POST request, we use the POST function. The variable payload is passed to the parameter data.
+
+Comparing the URL using the attribute URL from the response object of the GET and POST We see the POST request has no name or value pairs in its URL. We can compare the POST and GET request body. We see only the POST request has a body. And we can view the key form to get the payload.
+
+---
+
+### 5. [READING] Web Scraping and HTML Basics Reading • 10 min
+- **URL:** https://www.coursera.org/learn/python-for-applied-data-science-ai/supplement/IUWHA/web-scraping-and-html-basics
+- **Method:** `dom_reading_cml` | **Length:** 7266 chars
+
+## Objectives
+
+After completing this reading, you'll learn about:
+
+- Explain key concepts related to HTML structure and HTML tag composition.
+- Explore the concept of HTML document trees.
+- Familiarize yourself with HTML tables.
+- Gain insight into the basics of web scraping using Python and BeautifulSoup.
+
+## Introduction to web scraping
+
+Web scraping, also known as web harvesting or web data extraction, is the process of extracting information from websites or web pages. It involves automated retrieval of data from web sources. People use it for various applications such as data analysis, mining, price comparison, content aggregation, and more.
+
+## How web scraping works
+
+### HTTP request
+
+The process typically begins with an HTTP request. A web scraper sends an HTTP request to a specific URL, similar to how a web browser would when you visit a website. The request is usually an HTTP GET request, which retrieves the web page's content.
+
+### Web page retrieval
+
+The web server hosting the website responds to the request by returning the requested web page's HTML content. This content includes the visible text and media elements and the underlying HTML structure that defines the page's layout.
+
+### HTML parsing
+
+Once the HTML content is received, you need to parse the content. Parsing involves breaking down the HTML structure into components, such as tags, attributes, and text content. You can use BeautifulSoup in Python. It creates a structured representation of the HTML content that can be easily navigated and manipulated.
+
+### Data extraction
+
+With the HTML content parsed, web scrapers can now identify and extract the specific data they need. This data can include text, links, images, tables, product prices, news articles, and more. Scrapers locate the data by searching for relevant HTML tags, attributes, and patterns in the HTML structure.
+
+### Data transformation
+
+Extracted data may need further processing and transformation. For instance, you can remove HTML tags from text, convert data formats, or clean up messy data. This step ensures the data is ready for analysis or other use cases.
+
+### Storage
+
+After extraction and transformation, you can store the scraped data in various formats, such as databases, spreadsheets, JSON, or CSV files. The choice of storage format depends on the specific project's requirements.
+
+### Automation
+
+In many cases, scripts or programs automate web scraping. These automation tools allow recurring data extraction from multiple web pages or websites. Automated scraping is especially useful for collecting data from dynamic websites that regularly update their content.
+
+## HTML structure
+
+Hypertext markup language (HTML) serves as the foundation of web pages. Understanding its structure is crucial for web scraping.
+
+- <html> is the root element of an HTML page.
+- <head> contains meta-information about the HTML page.
+- <body> displays the content on the web page, often the data of interest.
+- <h3> tags are type 3 headings, making text larger and bold, typically used for player names.
+- <p> tags represent paragraphs and contain player salary information.
+
+## Composition of an HTML tag
+
+HTML tags define the structure of web content and can contain attributes.
+
+- An HTML tag consists of an opening (start) tag and a closing (end) tag.
+- Tags have names (<a> for an anchor tag).
+- Tags may contain attributes with an attribute name and value, providing additional information to the tag.
+
+## HTML document tree
+
+You can visualize HTML documents as trees with tags as nodes.
+
+- Tags can contain strings and other tags, making them the tag's children.
+- Tags within the same parent tag are considered siblings.
+- For example, the <html> tag contains both <head> and <body> tags, making them descendants of <html but children of <html>. <head> and <body> are siblings.
+
+## HTML tables
+
+HTML tables are essential for presenting structured data.
+
+- Define an HTML table using the <table> tag.
+- Each table row is defined with a <tr> tag.
+- The first row often uses the table header tag, typically <th>.
+- The table cell is represented by <td> tags, defining individual cells in a row.
+
+## Web scraping
+
+Web scraping involves extracting information from web pages using Python. It can save time and automate data collection.
+
+### Required tools
+
+Web scraping requires Python code and two essential modules: Requests and Beautiful Soup. Ensure you have both modules installed in your Python environment.
+
+12# Import Beautiful Soup to parse the web page contentfrom bs4 import BeautifulSoupInformation: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### Fetching and parsing HTML
+
+To start web scraping, you need to fetch the HTML content of a webpage and parse it using Beautiful Soup. Here's a step-by-step example:
+
+1234567891011121314151617import requestsfrom bs4 import BeautifulSoup # Specify the URL of the webpage you want to scrapeurl = 'https://en.wikipedia.org/wiki/IBM' # Send an HTTP GET request to the webpageresponse = requests.get(url) # Store the HTML content in a variablehtml_content = response.text # Create a BeautifulSoup object to parse the HTMLsoup = BeautifulSoup(html_content, 'html.parser') # Display a snippet of the HTML contentprint(html_content[:500])Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### Navigating the HTML structure
+
+BeautifulSoup represents HTML content as a tree-like structure, allowing for easy navigation. You can use methods like find_all to filter and extract specific HTML elements. For example, to find all anchor tags () and print their text:
+
+123456# Find all <a> tags (anchor tags) in the HTMLlinks = soup.find_all('a') # Iterate through the list of links and print their textfor link in links:    print(link.text)Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### Custom data extraction
+
+Web scraping allows you to navigate the HTML structure and extract specific information based on your requirements. This process may involve finding specific tags, attributes, or text content within the HTML document.
+
+#### Using BeautifulSoup for HTML parsing
+
+Beautiful Soup is a powerful tool for navigating and extracting specific web page parts. It allows you to find elements based on their tags, attributes, or text, making extracting the information you're interested in easier.
+
+#### Using pandas read_html for table extraction
+
+Pandas, a Python library, provides a function called read_html, which can automatically extract data from websites' tables and present it in a format suitable for analysis. It’s similar to taking a table from a webpage and importing it into a spreadsheet for further analysis.
+
+### Conclusion
+
+In this reading, you learned about web scraping with BeautifulSoup and Pandas with emphasis on extracting elements and tables. BeautifulSoup facilitates HTML parsing, while Pandas' read_html streamlines table extraction. The reading also highlighted responsible web scraping, ensuring adherence to website terms. Armed with this knowledge, you can confidently engage in precise data extraction.
+
+---
+
+### 6. [VIDEO TRANSCRIPT] (Optional) HTML for Web Scraping Video • 4 min
+- **URL:** https://www.coursera.org/learn/python-for-applied-data-science-ai/lecture/nUuvs/optional-html-for-web-scraping
+- **Method:** `dom_transcript` | **Length:** 4024 chars
+
+In this video we will review Hypertext Markup Language or HTML for Web Scraping. Lots of useful data is available on web pages, such as real estate prices and solutions to coding questions. The website Wikipedia is a repository of the world's information. If you have an understanding of HTML, you can use Python to extract this information. In this video, you will: review the HTML of a basic web page; understand the Composition of an HTML Tag; understand HTML Trees; and understand HTML Tables. Let’s say you were asked to find the name and salary of players in a National Basketball League from the following page. The web page is comprised of HTML. It consists of text surrounded by a series of blue text elements enclosed in angle brackets called tags. The tags tells the browser how to display the content. The data we require is in this text.
+
+The first portion contains the "DOCTYPE html” which declares this document is an HTML document. The "html" element is the root element of an HTML page, and "head" element contains meta information about the HTML page. Next, we have the body, this is what's displayed on the web page. This is usually the data we are interested in, we see the elements with an “h3”, this means type 3 heading, makes the text larger and bold. These tags have the names of the players, notice the data is enclosed in the elements. It starts with a h3 in brackets and ends in a slash h3 in brackets. There is also a different tag “p”, this means paragraph, each p tag contains a player's salary.
+
+Let’s take a closer look at the composition of an HTML tag. Here is an example of an HTML Anchor tag. It will display IBM and when you click it, it will send you to IBM.com. We have the tag name, in this case “a”. This tag defines a hyperlink, which is used to link from one page to another. It’s helpful to think of each tag name as a class in Python and each individual tag as an instance. We have the opening or start tag and we have the end tag.
+
+This has the tag name preceded by a slash. These tags contain the content, in this case what’s displayed on the web page. We have the attribute, this is composed of the Attribute Name and Attribute Value. In this case it the url to the destination web page. Real web pages are more complex, depending on your browser you can select the HTML element, then click Inspect. The result will give you the ability to inspect the HTML. There is also other types of content such as CSS and JavaScript that we will not go over in this course.
+
+The actual element is shown here. Each HTML document can actually be referred to as a document tree. Let's go over a simple example. Tags may contain strings and other tags. These elements are the tag’s children. We can represent this as a family tree. Each nested tag is a level in the tree.
+
+The tag HTML tag contains the head and body tag. The Head and body tag are the descendants of the html tag. In particular they are the children of the HTML tag. HTML tag is their parent. The head and body tag are siblings as they are on the same level. Title tag is the child of the head tag and its parent is the head tag. The title tag is a descendant of the HTML tag but not its child.
+
+The heading and paragraph tags are the children of the body tag; and as they are all children of the body tag they are siblings of each other. The bold tag is a child of the heading tag, the content of the tag is also part of the tree but this can get unwieldy to draw. Next, let’s review HTML tables. To define an HTML table we have the table tag. Each table row is defined with a "tr" tag, you can also use a table header tag for the first row. The table row cell contains a set of "td" tags, each defines a table cell. For the first row first cell we have; for the first row second cell we have; and so on.
+
+For the second row we have; and for the second row first cell we have; for the second row second cell we have; and so on. We now have some basic knowledge of HTML. Now let's try and extract some data from a web page.
+
+---
+
+### 7. [VIDEO TRANSCRIPT] (Optional) Web Scraping Video • 4 min
+- **URL:** https://www.coursera.org/learn/python-for-applied-data-science-ai/lecture/GHf2O/optional-web-scraping
+- **Method:** `dom_transcript` | **Length:** 4171 chars
+
+In this video we will cover Web Scraping. After watching this video you will be able to: define web scraping; understand the role of BeautifulSoup Objects; apply the find_all method; and web scrape a website. What would you do if you wanted to analyze hundreds of points of data to find the best players of a sports team? Would you start manually copying and pasting information from different websites into a spreadsheet? Spending hours trying to find the right data, and eventually giving up because the task was too overwhelming? That’s where web scraping can help. Web scraping is a process that can be used to automatically extract information from a website, and can easily be accomplished within a matter of minutes and not hours. To get started, we just need a little Python code and the help of two modules named Requests and Beautiful Soup.
+
+Let’s say you were asked to find the name and salary of players in a National Basketball League, from the following webpage. First we import BeautifulSoup. We can store the webpage HTML as a string in the variable HTML. To parse a document, pass it into the Beautiful Soup constructor. We get the Beautiful Soup object, soup, which represents the document as a nested data structure. Beautiful Soup represents HTML as a set of Tree like objects with methods used to parse the HTML. We will review the Beautiful Soup object using the Beautiful Soup object, soup, we created.
+
+The tag object corresponds to an HTML tag in the original document. For example, the tag “title.” Consider the tag h3. If there is more than one tag with the same name, the first element with that tag is selected. In this case with Lebron James, we see the name is Enclosed in the bold attribute "b". To extract it, use the Tree representation. Let’s use the Tree representation.
+
+The variable tag-object is located here. We can access the child of the tag or navigate down the branch as follows: You can navigate up the tree by using the parent attribute. The variable tag child is located here. We can access the parent. This is the original tag object. We can find the sibling of “tag object.” We simply use the next-sibling attribute.
+
+We can find the sibling of sibling one. We simply use the next sibling attribute. Consider the tag child object. You can access the attribute name and value as a key value pair in a dictionary as follows. You can return the content as a Navigable string, this is like a Python string that supports Beautiful Soup functionality. Let's review the method find_all. This is a filter, you can use filters to filter based on a tag’s name, its attributes, the text of a string, or on some combination of these.
+
+Consider the list of pizza places. Like before, create a BeautifulSoup object. But this time, name it table. The find_all () method looks through a tag’s descendants and retrieves all descendants that match your filters. Apply it to the table with the tag tr. The result is a Python iterable just like a list, each element is a tag object for tr. This corresponds to each row in the list- including the table header.
+
+Each element is a tag object. Consider the first row. For example, we can extract the first table cell. We can also iterate through each table cell. First, we iterate through the list “table rows,” via the variable row. Each element corresponds to a row in the table. We can apply the method find_all to find all the table cells, then we can iterate through the variable cells for each row.
+
+For each iteration, the variable cell corresponds to an element in the table for that particular row. We continue to iterate through each element and repeat the process for each row. Let’s see how to apply Beautiful Soup to a webpage. To scrape a webpage we also need the Requests library. The first step is to import the modules that are needed. Use the get method from the requests library to download the webpage. The input is the URL. Use the text attribute to get the text and assign it to the variable page.
+
+Then, create a BeautifulSoup object ‘soup’ from the variable page. It will allow you to parse through the HTML page. You can now scrape the Page. Check out the labs for more.
+
+---
+
+### 8. [READING] Web Scraping - A Key Tool in Data Science Reading • 5 min
+- **URL:** https://www.coursera.org/learn/python-for-applied-data-science-ai/supplement/up3H7/web-scraping-a-key-tool-in-data-science
+- **Method:** `dom_reading_cml` | **Length:** 3207 chars
+
+## Introduction
+
+Web scraping, also known as web harvesting or web data extraction, is a technique used to extract large amounts of data from websites. The data on websites is unstructured, and web scraping enables us to convert it into a structured form.
+
+## Importance of Web Scraping in Data Science
+
+In the field of data science, web scraping plays an integral role. It is used for various purposes such as:
+
+- Data Collection: Web scraping is a primary method of collecting data from the internet. This data can be used for analysis, research, etc.
+- Real-time Application: Web scraping is used for real-time applications like weather updates, price comparison, etc.
+- Machine Learning: Web scraping provides the data needed to train machine learning models.
+
+## Web Scraping with Python
+
+Python provides several libraries for web scraping. Here are some of them:
+
+### BeautifulSoup
+
+BeautifulSoup is a Python library used for web scraping purposes to pull the data out of HTML and XML files. It creates a parse tree from page source code that can be used to extract data in a hierarchical and more readable manner.
+
+12345from bs4 import BeautifulSoupimport requestsURL = "http://www.example.com"page = requests.get(URL)soup = BeautifulSoup(page.content, "html.parser")Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### Scrapy
+
+Scrapy is an open-source and collaborative web crawling framework for Python. It is used to extract the data from the website.
+
+1234567import scrapyclass QuotesSpider(scrapy.Spider):    name = "quotes"    start_urls = ['http://quotes.toscrape.com/tag/humor/',]    def parse(self, response):        for quote in response.css('div.quote'):            yield {'quote': quote.css('span.text::text').get()}Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### Selenium
+
+Selenium is a tool used for controlling web browsers through programs and automating browser tasks.
+
+123from selenium import webdriverdriver = webdriver.Firefox()driver.get("http://www.example.com")Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+## Applications of Web Scraping
+
+Web scraping is used in various fields and has many applications:
+
+- Price Comparison: Services such as ParseHub use web scraping to collect data from online shopping websites and use it to compare the prices of products.
+- Email address gathering: Many companies that use email as a medium for marketing, use web scraping to collect email ID and then send bulk emails.
+- Social Media Scraping: Web scraping is used to collect data from Social Media websites such as Twitter to find out what's trending.
+
+## Conclusion
+
+Web scraping is an essential skill in the fast-growing world of data science. It provides the ability to turn the web into a source of data that can be analyzed, processed, and used for a variety of applications. However, it's important to remember that one should use web scraping responsibly and ethically, respecting the terms of use or robots.txt files of the websites being scraped.
+
+---
+
+### 9. [READING] Web Scraping Tables using Pandas Reading • 7 min
+- **URL:** https://www.coursera.org/learn/python-for-applied-data-science-ai/supplement/VdUUL/web-scraping-tables-using-pandas
+- **Method:** `dom_reading_cml` | **Length:** 3004 chars
+
+The Pandas library in Python contains a function read_html() that can be used to extract tabular information from any web page.
+
+Consider the following example:
+
+Let us assume we want to extract the list of the largest banks in the world by market capitalization, from the following link:
+
+1URL = 'https://en.wikipedia.org/wiki/List_of_largest_banks'Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.We may use pandas.read_html() function in python to extract all the tables in the web page directly.
+
+A snapshot of the webpage is shown below.
+
+We can see that the required table is the first one in the web page.
+
+Note: This is a live web page and it may get updated over time. The image shown above has been captured in November 2023. The process of data extraction remains the same.
+
+We may execute the following lines of code to extract the required table from the web page.
+
+12345import pandas as pdURL = 'https://en.wikipedia.org/wiki/List_of_largest_banks'tables = pd.read_html(URL)df = tables[0]print(df)Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.This will extract the required table as a dataframe df. The output of the print statement would look as shown below.
+
+Although convenient, this method comes with its own set of limitations.Firstly, web pages may have content saved in them as tables but they may not appear as tables on the web page.
+
+For instance, consider the following URL showing the list of countries by GDP (nominal).
+
+1URL = 'https://en.wikipedia.org/wiki/List_of_countries_by_GDP_(nominal)'Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.The images on the web page are also saved in tabular format. A snapshot of the web page is shared below.
+
+Secondly, the contents of the tables in the web pages may contain elements such as hyperlink text and other denoters, which are also scraped directly using the pandas method. This may lead to a requirement of further cleaning of data.A closer look at table 3 in the image shown above indicates that there are many hyperlink texts which are also going to be treated as information by the pandas function.
+
+We can extract the table using the code shown below.
+
+12345import pandas as pdURL = 'https://en.wikipedia.org/wiki/List_of_countries_by_GDP_(nominal)'tables = pd.read_html(URL)df = tables[2] # the required table will have index 2print(df)Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.The output of the print statement is shown below.
+
+Note that the hyperlink texts have also been retained in the code output.
+
+It is further prudent to point out, that this method exclusively operates only on tabular data extraction. BeautifulSoup library still remains the default method of extracting any kind of information from web pages.
+
+---
+
+### 10. [VIDEO TRANSCRIPT] Working with Different File Formats Video • 4 min
+- **URL:** https://www.coursera.org/learn/python-for-applied-data-science-ai/lecture/EPUdg/working-with-different-file-formats
+- **Method:** `dom_transcript` | **Length:** 3453 chars
+
+Hello. Welcome to Working With Different File Formats. After watching this video, you will be able to: Define different file formats such as csv, xml, and json. Write simple programs to read and output data. List what Python libraries are needed to extract data. When collecting data you will find there are many different file formats that need to be collected or read in order to complete a data driven story or analysis. When gathering the data Python can make the process simpler with its predefined libraries, but before we explore Python let’s first check out some of the various file formats. When looking at a file name you will notice an extension at the end of the title. These extensions let you know what type of file it is and what it needed to open it. For instance if you see a title like “FileExample.csv” you will know this is a “csv” file. This is only one example of different file types as there are many more such as “json” or “xml”. When coming across these different file formats and trying to access their data we need to utilize Python libraries to make this process easier. The first Python library to become familiar with is called Pandas. By importing this library in the beginning of the code we are then be able to easily read the different file types.
+
+Since we have now imported the Panda library let’s use it to read the first “csv” file. In this instance we have come across the “FileExample.csv” file. The first step is to assign the file to a variable. Then create another variable to read the file with the help of the Panda library. We can then call read_csv function output the data to the screen. With this example there were no headers for the data so it added the first line as the header. Since we don’t want the first line of data as the header let’s find out how to correct this issue.
+
+Now that we have learned how to read and output the data from a “csv” file let’s make it look a little more organized. From the last example we were able to print out the data but because the file had no headers it printed the first line of data as a header. We easily solve this by adding a dataframe attribute. We use the variable “df” to call the file and then add the “columns” attribute. By adding this one line to our program we can then neatly organize the data output into the specified headers for each column. The next file format we will explore is the “json” file format. In this type of file the text is written in a language independent data format and is similar to a Python dictionary. The first step in reading this type of file is to import json. After importing “json” we can add a line to open the file call the “load” attribute of “json” to begin and read the file and lastly we can then print the file. The next file format is “xml”. This type of file is also known as Extensible Markup Language. While the Pandas library does not have an attribute to read this type of file let’s explore how to parse this type of file. The first step to read this type of file is to import xml. By importing this library we can then use the “etree” attribute to parse the “xml” file.
+
+We then add the column headers and assign then to the dataframe. Then create a loop to go through the document to collect the necessary data and append the data to a dataframe. In this video, you learned: How to recognize different file types How to use Python libraries to extract data How to use dataframes when collecting data
+
+---
+
+### 11. [READING] Module 5 Summary: APIs and Data Collection Reading • 5 min
+- **URL:** https://www.coursera.org/learn/python-for-applied-data-science-ai/supplement/0dLP3/module-5-summary-apis-and-data-collection
+- **Method:** `dom_reading_cml` | **Length:** 4529 chars
+
+Congratulations! You have completed this module. At this point, you know that:
+
+- Simple APIs in Python are application programming interfaces that provide straightforward and easy-to-use methods for interacting with services, libraries, or data, often with minimal configuration or complexity. - An API lets two pieces of software talk to each other. - Using an API library in Python entails importing the library, calling its functions or methods to make HTTP requests, and parsing the responses to access data or services provided by the API. - Pandas API processes the data by communicating with the other software components. - An Instance forms when you create a dictionary and then use the DataFrames constructor to create a Pandas object. - Method “head()” will display the mentioned number of rows from the top (default 5) of DataFrames, while method “mean()” will calculate the mean and return the values
+- Rest APIs allow you to communicate through the internet, taking advantage of resources like storage, access more data, AI algorithms, and so on. - HTTP methods transmit data over the internet. - An HTTP message typically includes a JSON file with instructions for operations. - HTTP messages containing JSON files are returned to the client as a response from web services. - Dealing with time series data involves using the Pandas time series function. - You can get data for daily candlesticks and plot the chart using Plotly with the candlestick plot.
+- The HTTP (HyperText Transfer Protocol) transfers data, including web pages and resources, between a client (a web browser) and a server on the World Wide Web. - The HTTP protocol is commonly used for implementing various types of REST APIs. - An HTTP response includes information like the type of resource, length of resource, and so on - Uniform resource locator (URL) is the most popular way to find resources on the web. - URL is divided into three parts: scheme, internet address or base URL, and route - The GET method is one of the popular methods of requesting information. Some other methods may also include the body. - Response method contains the version and body of the response. - POST submits data to the server, PUT updates data already on the server, DELETE deletes data from the server
+- Requests is a Python library that allows you to send HTTP/1.1 requests easily - You can modify the results of your query with the GET method. - You can obtain multiple requests from a URL like name, ID, and so on with a Query string.
+- Web scraping in Python involves extracting and parsing data from websites to gather information for various applications, using libraries like Beautiful Soup and requests. - HTML comprises text surrounded by blue text elements enclosed in angular brackets called tags. - You can select an HTML element on a web page to inspect the webpage. - Web pages may also contain CSS and JavaScript along with HTML elements. - Each HTML document is like an HTML Tree, which may contain strings and other tags. - Each HTML table is comprised of table tags and is structured with elements such as rows, headers, body and so on.
+- Tabular data can also be extracted from web pages using the `read_html` method in Pandas.
+- Beautiful Soup in Python is a library for parsing and navigating HTML and XML documents, making extracting, and manipulating data from web pages more accessible.
+- To parse a document, pass it through the Beautiful Soup constructor to get a beautiful soup object representing the document as a nested data structure.
+- Beautiful soup represents HTML as a set of tree-like objects with methods to parse the HTML.
+- Navigable string is like a Python string that supports beautiful soup functionality.
+- find_all is a method used to extract content based on the tag’s name, its attributes, the text of a string, or some combination of these.
+- The find_all method looks through a tag’s descendants and retrieves all descendants that match your filters.
+- The result is a Python iterable like a list.
+- File formats refer to the specific structure and encoding rules used to store and represent data in files, such as .txt for plain text or .csv for comma-separated values.
+- Python works with different file formats such as CSV, XML, JSON, xlsx, and so on
+- The extension of a file name will let you know what type of file it is and what it needs to open with.
+- To access data from CSV files, we can use Python libraries such as Pandas.
+- Similarly, different methods help parse JSON, XML, and other files.
+
+---
+
+### 12. [READING] Cheat Sheet: APIs and Data Collection Reading • 10 min
+- **URL:** https://www.coursera.org/learn/python-for-applied-data-science-ai/supplement/xbkcN/cheat-sheet-apis-and-data-collection
+- **Method:** `dom_reading_cml` | **Length:** 9478 chars
+
+Use this cheat sheet for various packages/methods, their descriptions, and examples.
+
+### Accessing element attribute
+
+Access the value of a specific attribute of an HTML element.
+
+Syntax:
+
+1attribute = element[(attribute)]Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Example:
+
+1href = link_element[(href)]Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### BeautifulSoup()
+
+Parse the HTML content of a web page using BeautifulSoup. The parser type can vary based on the project.
+
+Syntax:
+
+1soup = BeautifulSoup(html, (html.parser))Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Example:
+
+1html = (https://api.example.com/data) soup = BeautifulSoup(html, (html.parser))Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### delete()
+
+Send a DELETE request to remove data or a resource from the server. DELETE requests delete a specified resource on the server.
+
+Syntax:
+
+1response = requests.delete(url)Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Example:
+
+1response = requests.delete((https://api.example.com/delete))Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### find()
+
+Find the first HTML element that matches the specified tag and attributes.
+
+Syntax:
+
+1element = soup.find(tag, attrs)Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Example:
+
+1first_link = soup.find((a), {(class): (link)})Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### find_all()
+
+Find all HTML elements that match the specified tag and attributes.
+
+Syntax:
+
+1elements = soup.find_all(tag, attrs)Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Example:
+
+1all_links = soup.find_all((a), {(class): (link)})</td>Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### findChildren()
+
+Find all child elements of an HTML element.
+
+Syntax:
+
+1children = element.findChildren()Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Example:
+
+1child_elements = parent_div.findChildren()Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### get()
+
+Perform a GET request to retrieve data from a specified URL. GET requests are typically used for reading data from an API. The response variable will contain the server's response, which you can process further.
+
+Syntax:
+
+1response = requests.get(url)Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Example:
+
+1response = requests.get((https://api.example.com/data))Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### Headers
+
+Include custom headers in the request. Headers can provide additional information to the server, such as authentication tokens or content types.
+
+Syntax:
+
+1headers = {(HeaderName): (Value)}Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Example:
+
+1base_url = (https://api.example.com/data) headers = {(Authorization): (Bearer YOUR_TOKEN)} response = requests.get(base_url, headers=headers)Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### Import Libraries
+
+Import the necessary Python libraries for web scraping.
+
+Syntax:
+
+1from bs4 import BeautifulSoupInformation: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### json()
+
+Parse JSON data from the response. This extracts and works with the data returned by the API. The response.json() method converts the JSON response into a Python data structure, usually a dictionary or list.
+
+Syntax:
+
+1data = response.json()Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Example:
+
+12response = requests.get((https://api.example.com/data)) data = response.json()Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### next_sibling()
+
+Find the next sibling element in the DOM.
+
+Syntax:
+
+1sibling = element.find_next_sibling()Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Example:
+
+1next_sibling = current_element.find_next_sibling()Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### parent
+
+Access the parent element in the Document Object Model (DOM).
+
+Syntax:
+
+1parent = element.parentInformation: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Example:
+
+1parent_div = paragraph.parentInformation: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### post()
+
+Send a POST request to a specified URL with data. Create or update POST requests using resources on the server. The data parameter contains the data to send to the server, often in JSON format.
+
+Syntax:
+
+1response = requests.post(url, data)Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Example:
+
+1response = requests.post((https://api.example.com/submit), data={(key): (value)})Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### put()
+
+Send a PUT request to update data on the server. PUT requests are used to update an existing resource on the server with the data provided in the data parameter, typically in JSON format.
+
+Syntax:
+
+1response = requests.put(url, data)Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Example:
+
+1response = requests.put((https://api.example.com/update), data={(key): (value)})Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### Query parameters
+
+Pass query parameters in the URL to filter or customize the request. Query parameters specify conditions or limits for the requested data.
+
+Syntax:
+
+1params = {(param_name): (value)}Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Example:
+
+123base_url = "https://api.example.com/data"params = {"page": 1, "per_page": 10}response = requests.get(base_url, params=params)Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### select()
+
+Select HTML elements from the parsed HTML using a CSS selector.
+
+Syntax:
+
+1element = soup.select(selector)Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Example:
+
+1titles = soup.select((h1))Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### status_code
+
+Check the HTTP status code of the response. The HTTP status code indicates the result of the request (success, error, redirection). It can be used for error handling and decision-making in your code.
+
+Syntax:
+
+1response.status_codeInformation: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Example:
+
+123url = "https://api.example.com/data"response = requests.get(url)status_code = response.status_codeInformation: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### tags for find() and find_all()
+
+Specify any valid HTML tag as the tag parameter to search for elements of that type. Here are some common HTML tags that you can use with the tag parameter.
+
+Tag examples:
+
+12345678910- (a): Find anchor () tags.- (p): Find paragraph ((p)) tags.- (h1), (h2), (h3), (h4), (h5), (h6): Find heading tags from level 1 to 6 ( (h1),n (h2)).- (table): Find table () tags.- (tr): Find table row () tags.- (td): Find table cell ((td)) tags.- (th): Find table header cell ((td))tags.- (img): Find image ((img)) tags.- (form): Find form ((form)) tags.- (button): Find button ((button)) tags.Information: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+### text
+
+Retrieve the text content of an HTML element.
+
+Syntax:
+
+1text = element.textInformation: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.Example:
+
+1title_text = title_element.textInformation: Pressing Tab in the current editor will insert the tab character. Toggle this behavior by pressing Control+M.
+
+---
+
+### 13. [READING] Module 5 Glossary: APIs and Data Collection Reading • 5 min
+- **URL:** https://www.coursera.org/learn/python-for-applied-data-science-ai/supplement/Btu33/module-5-glossary-apis-and-data-collection
+- **Method:** `dom_reading_cml` | **Length:** 9175 chars
+
+Welcome! This alphabetized glossary contains many of the terms you'll find within this course. This comprehensive glossary also includes additional industry-recognized terms not used in course videos. These terms are important for you to recognize when working in the industry, participating in user groups, and participating in other certificate programs.
+
+| Term | Definition |
+| --- | --- |
+| API Key | An API key in Python is a secure access token or code used to authenticate and authorize access to an API or web service, enabling the user to make authenticated requests. |
+| APIs | APIs (Application Programming Interfaces) are a set of rules and protocols that enable different software applications to communicate and interact, facilitating the exchange of data and functionality. |
+| Audio file | An audio file is a digital recording or representation of sound, often stored in formats like MP3, WAV, or FLAC, allowing playback and storage of audio content. |
+| Authorize | In Python, "authorize" often means granting permission or access to a user or system to perform specific actions or access particular resources, often related to authentication and authorization mechanisms. |
+| Beautiful Soup Objects | Beautiful Soup objects in Python are representations of parsed HTML or XML documents, allowing easy navigation, searching, and manipulation of the document’s elements and data. |
+| Bitcoin currency | Bitcoin is a decentralized digital currency that operates without a central authority, allowing peer-to-peer transactions on a blockchain network. |
+| Browser | A browser is a software application that enables users to access and interact with web content, displaying websites and web applications. |
+| Candlestick plot | A candlestick plot in Python visually represents stock price movements over time, using rectangles to illustrate the open, close, high, and low prices for a given period. |
+| Client/Wrapper | A client or wrapper in Python is a software component that simplifies interaction with external services or APIs, encapsulating communication and providing higher-level functionality for developers. |
+| CoinGecko API | The CoinGecko API is a web service that provides cryptocurrency market data and information, allowing developers to access real-time and historical data for various cryptocurrencies. |
+| DELETE Method | The DELETE method in Python is an HTTP request method used to request the removal or deletion of a resource on a web server. |
+| Endpoint | In Python, an "endpoint" refers to a specific URL or URI that a web service or API exposes to perform a particular function or access a resource. |
+| File extension | A file extension is a suffix added to a filename to indicate the file's format or type, often used by operating systems and applications to determine how to handle the file. |
+| find_all | In Python, find_all is a Beautiful Soup method used to search and extract all occurrences of a specified HTML or XML element, returning a list of matching elements. |
+| GET method | The GET method in Python is an HTTP request method used to retrieve data from a web server by appending parameters to the URL. |
+| HTML | HTML (Hypertext Markup Language) is the standard language for creating and structuring content on web pages, using tags to define the structure and presentation of documents. |
+| HTML Anchor tags | HTML anchor tags in Python are used to create hyperlinks within web pages, linking to other web pages or resources using the <a> element with the href attribute. |
+| HTML Tables | HTML tables in Python are used to organize and display data in a structured grid format on a web page, constructed with <table>, <tr>, <th>, and <td> elements. |
+| HTML Tag | An HTML tag in Python is a specific code enclosed in angle brackets used to define elements within an HTML document, specifying how content should be presented or structured. |
+| HTML Trees | HTML trees in Python refer to the hierarchical structure created when parsing an HTML document, representing its elements and their relationships, typically used for manipulation or extraction of data. |
+| HTTP | HTTP (HyperText Transfer Protocol) is the foundation of data communication on the World Wide Web, used for transmitting and retrieving web content between clients and servers. |
+| httplib | A library that provides a set of functions and classes to send and handle HTTP and HTTPS requests. |
+| Identify | In Python, "identify" usually means determining if two variables or objects refer to the same memory location, which can be checked using the is operator. |
+| Instance | In Python, an "instance" typically refers to a specific occurrence of an object or class, created from a class blueprint, with its own unique set of data and attributes. |
+| JSON file | A JSON (JavaScript Object Notation) file is a lightweight data interchange format that stores structured data in a human-readable text format, commonly used for configuration, data exchange, and web APIs. |
+| Mean value | The mean value in Python is the average of a set of numerical values, calculated by adding all values and dividing by the total number of values. |
+| Navigable string | In Python, a Navigable String is a Beautiful Soup object representing a string within an HTML or XML document, allowing for navigation and manipulation of the text content. |
+| Plotly | Plotly is a Python library for creating interactive and visually appealing web-based data visualizations and dashboards. |
+| PNG file | A PNG (Portable Network Graphics) file is a lossless image format in Python that is commonly used for high-quality graphics with support for transparency and compression. |
+| POST method | The POST method in Python is an HTTP request method used to send data to a web server, often used for submitting form data and creating or updating resources. |
+| Post request | A POST request in Python is an HTTP method used to send data to a web server for the purpose of creating or updating a resource, typically used in web applications and APIs. |
+| PUT method | The PUT method in Python is an HTTP request method used to update an existing resource on a web server by replacing or modifying it. |
+| Py-Coin-Gecko | Py-Coin-Gecko is a Python library that provides a convenient interface for accessing cryptocurrency data and information from the CoinGecko API. |
+| Python iterable | A Python iterable is an object that can be looped over, typically used in for loops, and includes data structures like lists, tuples, and dictionaries. |
+| Query string | A query string in Python is a part of a URL that contains data or parameters to be sent to a web server, typically used in HTTP GET requests to retrieve specific information. |
+| rb mode | In Python, "rb" mode is used when opening a file to read it in binary mode, allowing you to read and manipulate non-text files like images or binary data. |
+| Resource | In Python, a "resource" typically refers to an external entity such as a file, database connection, or network object that can be managed and manipulated within a program. |
+| Rest API | A REST API in Python is a web-based interface that follows the principles of Representational State Transfer (REST), allowing communication and data exchange over HTTP using standard HTTP methods and data formats. |
+| Service instance | In Python, a "service instance" typically refers to an instantiated object or entity representing a service, enabling interaction with that service in a program or application. |
+| Timestamp | A timestamp is a representation of a specific moment in time, often expressed as a combination of date and time, used for record-keeping and data tracking. |
+| Transcribe | "Transcribe" typically means converting spoken language or audio into written text, often using automatic speech recognition (ASR) technology. |
+| Unix timestamp | A UNIX timestamp is a numerical value representing the number of seconds that have elapsed since January 1, 1970, 00:00:00 UTC, used for time-keeping in Unix-based systems and programming. |
+| url (Uniform Resource Locator) | In Python, a URL (Uniform Resource Locator) is a web address that specifies the location of a resource on the internet, typically consisting of a protocol, domain, and path. |
+| urllib | The "urllib" library in Python is used for working with URLs and making HTTP requests, including functions for fetching web content, handling cookies, and more. |
+| Web service | Web services in Python are software components that allow applications to communicate over the internet by sending and receiving data in a standardized format, typically using protocols like HTTP or XML. |
+| Web scraping | Web scraping in Python is the process of extracting data from websites by parsing and analyzing their HTML structure, often done with libraries like BeautifulSoup or Scrapy. |
+| xlsx | An XLSX file is a file format used for storing spreadsheet data in Excel, containing worksheets, cells, and formulas in a structured manner. |
+| xml | XML (Extensible Markup Language) is a text-based format for storing and structuring data using tags, often used for data interchange and configuration files. |
+
+---
+
+### 14. [READING] Congratulations and Next Steps Reading • 2 min
+- **URL:** https://www.coursera.org/learn/python-for-applied-data-science-ai/supplement/ipX1s/congratulations-and-next-steps
+- **Method:** `dom_reading_cml` | **Length:** 1449 chars
+
+Congratulations on completing this course. We hope you enjoyed it.
+
+As a next step, you can take the appropriate follow-on Python Project from the list below to apply your new found skills in a real-world scenario.
+
+- Python Project for Data Science
+- Python Project for Data Engineering
+- Developing AI Applications with Python and Flask
+
+Note: Successful completion of this course is a pre-requisite for these Python Project courses.
+
+You can explore the courses below to further hone and develop your skills for working with Data and Python:
+
+- Databases and SQL for Data Science with Python
+
+If you are looking to start a career in Data Science, Data Engineering or AI & Application Development, note that this course is part of the following Professional Certificates which are designed to empower you with the skills to become job-ready in these fields.
+
+- IBM Applied AI Professional Certificate
+- IBM Data Analyst Professional Certificate
+- IBM Data Science Professional Certificate
+- IBM Data Engineering Professional Certificate
+- IBM Full Stack Software Developer Professional Certificate
+- IBM DevOps and Software Engineering Professional Certificate
+- IBM Back-End Development Professional Certificate
+- Applied Software Engineering Fundamentals Specialization
+- Data Science Fundamentals with Python and SQL Specialization
+- Applied Data Science Specialization
+
+We encourage you to leave your feedback and rate this course.
+
+Good luck!
+
+---
+
+### 15. [READING] Python Cheat Sheet: The Basics Reading • 10 min
+- **URL:** https://www.coursera.org/learn/python-for-applied-data-science-ai/supplement/BpYo7/python-cheat-sheet-the-basics
+- **Method:** `dom_reading_cml` | **Length:** 161 chars
+
+Congratulations on finishing the course, here is a cheat sheet you can download summarizing everything you have learned over this course.
+
+Click here to download
+
+---

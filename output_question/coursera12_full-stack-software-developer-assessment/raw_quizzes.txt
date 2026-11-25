@@ -1,0 +1,364 @@
+================================================================================
+COURSE: Full-Stack Software Developer Assessment
+URL: https://www.coursera.org/learn/full-stack-software-developer-assessment
+CRAWLED AT: 2026-11-25T21:28:39.878799
+SUMMARY: 1/1 MC quizzes | 45 questions
+================================================================================
+
+--------------------------------------------------------------------------------
+[QUIZ 1] Final Exam Graded Assignment • Submitted • Grade: 97.77% • Status: Graded Graded
+Source: Module 2 | Kind: graded_quiz | Status: opened_via_button
+URL: https://www.coursera.org/learn/full-stack-software-developer-assessment/assignment-submission/91IWY/final-exam/view-feedback
+Questions extracted: 45
+--------------------------------------------------------------------------------
+
+Q1 (multiple_select):
+Which of these are essential characteristics of the cloud? Select the two characteristics that apply.
+   1. [ ] Static access
+   2. [x] Resource pooling
+   3. [x] Broad network access
+   4. [ ] Limited service
+
+Q2 (single_choice):
+In the __________ cloud model, the cloud provider provisions the cloud infrastructure for exclusive use by a single organization.
+   1. [x] Private
+   2. [ ] Hybrid
+   3. [ ] Public
+   4. [ ] Hybrid multicloud
+
+Q3 (single_choice):
+Virtualization is the process of creating a software-based version of physical resources, made possible through the use of ___________________.
+   1. [ ] APIs
+   2. [x] Hypervisors
+   3. [ ] Load balancers
+   4. [ ] Third-party plugins
+
+Q4 (single_choice):
+A ______________ is an executable unit of software in which application code is packaged, along with its libraries and dependencies, in common ways so that it can be run anywhere—desktops, traditional IT, or the cloud.
+   1. [ ] Hypervisor
+   2. [x] Container
+   3. [ ] Host
+   4. [ ] Instance
+
+Q5 (single_choice):
+Which type of cloud storage is presented to compute nodes using high-speed fiber connections?
+   1. [ ] Object storage
+   2. [ ] File storage
+   3. [x] Block storage
+   4. [ ] Direct attached storage
+
+Q6 (single_choice):
+Why front-end developers use cascading style sheets (CSS) for a website?
+   1. [x] To style the website and make it more appealing
+   2. [ ] To add interactivity to the website
+   3. [ ] To render the website’s pages more quickly and efficiently
+   4. [ ] To create the physical structure of the website
+
+Q7 (single_choice):
+Which of the following best describes a route?
+   1. [ ] Web address or URL for a website
+   2. [ ] Method for creating style sheets faster and more easily
+   3. [x] Path to a website or page that the user interacts with
+   4. [ ] Code that works with data when processing requests from the front end
+
+Q8 (single_choice):
+Which HTML element should you use to define a document's logical separations, such as the numbered chapters of an online manual?
+   1. [ ] <nav>
+   2. [ ] <canvas>
+   3. [ ] <article>
+   4. [x] <section>
+
+Q9 (single_choice):
+In JavaScript, what is the use of the typeof operator?
+   1. [ ] Convert the type of object to a different type
+   2. [ ] Report the type of error that has occurred
+   3. [x] Determine the data type of the supplied operand
+   4. [ ] Show the type of elements in an array
+
+Q10 (single_choice):
+In JavaScript, assume you need to create a variable with a global scope. What is the first step you must take to declare this variable?
+   1. [x] Providing the var keyword
+   2. [ ] Providing the variable name
+   3. [ ] Providing the data type
+   4. [ ] Providing the Dim statement
+
+Q11 (single_choice):
+Which of these options defines version control system?
+   1. [ ] A version control statement controls the version by disallowing changes.
+   2. [ ] A version control system gives information only about the latest version.
+   3. [ ] Git is the only version control system available today.
+   4. [x] A version control system helps you keep track of changes to your document.
+
+Q12 (single_choice):
+Which of the following is a feature of the Git repository model?
+   1. [ ] Strict linear workflow
+   2. [ ] Centralized version control
+   3. [x] Source code tracking
+   4. [ ] Two-tree system
+
+Q13 (single_choice):
+On GitHub, what is the purpose of a pull request?
+   1. [x] Allow others to review and use proposed changes
+   2. [ ] Undo changes made to files in the working directory
+   3. [ ] Create a new branch of the project for review
+   4. [ ] Establish the master branch as the definitive version of the project
+
+Q14 (single_choice):
+Which of the following Git commands transfers changes from the remote repository to the local repository and then merges them to a branch?
+   1. [ ] git fetch
+   2. [ ] git push
+   3. [ ] git merge
+   4. [x] git pull
+
+Q15 (single_choice):
+In a Git team project, which team member uses the git-http-backend command as part of their responsibilities?
+   1. [ ] Billing manager
+   2. [ ] Integrator
+   3. [ ] Developer
+   4. [x] Repository administrator
+
+Q16 (single_choice):
+React is a UI library that uses what language?
+   1. [ ] JSON
+   2. [x] JavaScript
+   3. [ ] EcmaScript
+   4. [ ] Python
+
+Q17 (single_choice):
+Select the correct order of methods called when a class component is created.
+   1. [ ] render(), getDerivedStateFromProps(), componentDidMount(), constructor()
+   2. [x] constructor(), getDerivedStateFromProps(), render(), componentDidMount()
+   3. [ ] componentDidMount(), getDerivedStateFromProps(), constructor(), render()
+   4. [ ] constructor(), getDerivedStateFromProps(), componentDidMount(), render()
+
+Q18 (single_choice):
+Hooks can only be called ________.
+   1. [ ] Inside conditions
+   2. [ ] Inside nested functions
+   3. [x] At the top level of a component
+   4. [ ] Inside functions
+
+Q19 (single_choice):
+Which of the following is an appropriate reason to use Redux?
+   1. [ ] It increases the code complexity
+   2. [ ] It offers a decentralized management system
+   3. [ ] It reduces the performance
+   4. [x] It optimizes the performances of large applications
+
+Q20 (multiple_select):
+Which of the following Redux elements are involved in updating the component properties? Select all that apply.
+   1. [ ] UI components
+   2. [ ] Reducer
+   3. [ ] Actions
+   4. [x] Center store
+
+Q21 (single_choice):
+What does JSON stand for?
+   1. [ ] JavaScript Open Node
+   2. [x] JavaScript Object Notation
+   3. [ ] JavaScript Outbound Node
+   4. [ ] JavaScript Open Notation
+
+Q22 (single_choice):
+When you import a Node.js module, what does the require function return?
+   1. [x] A JavaScript object that represents an instance of the module
+   2. [ ] An explicit exports object
+   3. [ ] Properties of the module
+   4. [ ] A relative path to the script file
+
+Q23 (single_choice):
+What is a promise?
+   1. [ ] A blocked resource
+   2. [ ] An asynchronous method
+   3. [ ] A catch block
+   4. [x] An object returned by an asynchronous method
+
+Q24 (multiple_select):
+Which of the following are types of middleware? Select all that apply.
+   1. [ ] Branching
+   2. [x] Error handling
+   3. [x] Application level
+   4. [x] Router level
+
+Q25 (single_choice):
+Which of the following Node.js web frameworks is associated with the below description?
+
+It is used for routing and middleware, provides debugging mechanisms to help easily pinpoint the errors in the application, and utilizes asynchronous programming to handle multiple operation requests concurrently.
+   1. [ ] NestJS
+   2. [x] Express
+   3. [ ] Koa
+   4. [ ] Django
+
+Q26 (single_choice):
+What is the result of running the following lines of code?
+
+class Points(object):
+
+         def __init__(self,x,y):
+
+            self.x=x
+
+            self.y=y
+
+         def print_point(self):
+
+             print('x=',self.x,' y=',self.y)
+
+p1=Points("Q","Z")
+
+p1.print_point()
+   1. [x] x=Q y=Z
+   2. [ ] y=Z
+   3. [ ] x=Q
+   4. [ ] x=y
+
+Q27 (multiple_select):
+Say you have a list named myList with these elements: [“John”, “Ralph”, “Leia”, “Simone”]. Which of the following shows the correct code for printing out the Leia element? Select two that apply.
+   1. [ ] print(myList[2])
+   2. [ ] print(myList[-2])
+   3. [ ] print(myList[-1])
+   4. [ ] print(myList[3])
+
+Q28 (multiple_select):
+What initial value of x will produce the following output for the below code? Select the two statements that apply.
+
+Bye
+
+Hillary
+
+if(x=="B"):
+
+  print('Hello')
+
+else:
+
+  print('Bye')
+
+print('Hillary')
+   1. [ ] x==“B”
+   2. [x] x=”C"
+   3. [ ] x=”B”
+   4. [x] x=“Bye”
+
+Q29 (single_choice):
+When using the open() function, what is the purpose of passing the parameter ‘a+’ into it?
+   1. [x] Appending and reading. It creates a new file if none exists.
+   2. [ ] Writing and reading. It truncates the file.
+   3. [ ] Opening and reading. Creates a new file if none exists.
+   4. [ ] Reading and writing. It cannot truncate the file.
+
+Q30 (single_choice):
+What does the following code do to an HTML string that is saved in a variable named “html” and uses the Python library “BeautifulSoup?”
+
+          soup = BeautifulSoup(html, "html.parser")
+
+          print(soup.prettify())
+   1. [x] It prints out the BeautifulSoup object as a nested data structure.
+   2. [ ] It prints out the html.parser object.
+   3. [ ] It assigns the name “html.parser” to the soup instance.
+   4. [ ] It assigns the name “html” to the soup instance.
+
+Q31 (single_choice):
+Which statement about an entity-attribute model regarding a movie is true?
+   1. [x] The movie is an entity.
+   2. [ ] The movie is a row.
+   3. [ ] The movie is an attribute.
+   4. [ ] The movie is a column.
+
+Q32 (single_choice):
+Which statement best describes Cursor?
+   1. [x] A special control data structure for iterating over rows in a database.
+   2. [ ] A method in OOP to retrieve an object’s data.
+   3. [ ] A special method in ORM to map a column in a database to a class primitive attribute.
+   4. [ ] Statements that must be assembled in application code and executed in the database system using database APIs.
+
+Q33 (single_choice):
+What else does the Django template contain besides Python code?
+   1. [ ] Markdown elements
+   2. [x] Static HTML elements
+   3. [ ] XML elements
+   4. [ ] Dynamic HTML elements
+
+Q34 (single_choice):
+Which statement best describes a Django project?
+   1. [ ] It contains the URL and routing definitions of your Django app.
+   2. [x] It is a Python package that contains all the settings for an instance of a Django app.
+   3. [ ] It takes a web request such as HTTP GET, POST, DELETE, or UPDATE and returns a web response.
+   4. [ ] It is an implementation of the standard Model-View-Controller (MVC) pattern.
+
+Q35 (single_choice):
+Which of the following describes one of the two types of containers in Bootstrap?
+   1. [ ] It has a variable width.
+   2. [ ] It displays tabular data.
+   3. [x] It spans the entire width of the parent element.
+   4. [ ] It creates a card-grid.
+
+Q36 (single_choice):
+Some of the common Docker CLI commands include the ___________command to build a container image and the ___________ command to create a running container.
+   1. [ ] image, build
+   2. [x] build, run
+   3. [ ] run, build
+   4. [ ] push, pull
+
+Q37 (multiple_select):
+Which of these are functions of container orchestration? Select all that apply.
+   1. [ ] Limiting organization to one unified container
+   2. [x] Scaling containers up and down to meet demand and load balancer requests across instances
+   3. [x] Performing health checks to ensure that applications are running and taking necessary actions when checks fail
+   4. [x] Ensuring that containers are redundant and available so that applications experience minimal downtime
+
+Q38 (single_choice):
+What is a Dockerfile, and what is its primary purpose in the context of containerization?
+   1. [ ] A Dockerfile is a tool for managing containers.
+   2. [ ] A Dockerfile is a tool for managing the deletion of containers.
+   3. [x] A Dockerfile is a text file containing instructions for creating a container image.
+   4. [ ] A Dockerfile is a tool for running containers.
+
+Q39 (multiple_select):
+Which of the following are true for the apply command? Select all that apply.
+   1. [ ] It is namespace-scoped
+   2. [x] It requires a file or directory of files.
+   3. [x] It infers that a new deployment needs to be created.
+   4. [x] It is declarative.
+
+Q40 (single_choice):
+What is Red Hat OpenShift?
+   1. [x] A hybrid cloud, enterprise-ready Kubernetes container platform
+   2. [ ] A crucial component of Kubernetes
+   3. [ ] A narrowly focused utility that provides a few services
+   4. [ ] A project, not a product
+
+Q41 (single_choice):
+Modern software development often uses the following along with the twelve-factor application methodology?
+   1. [ ] SaaS
+   2. [x] Microservices
+   3. [ ] Databases deployed on VMs
+   4. [ ] Monoliths
+
+Q42 (single_choice):
+Which of the following API gateway is managed by Google?
+   1. [ ] Gloo
+   2. [ ] Azure API Management
+   3. [ ] Apache APISIX
+   4. [x] Apigee
+
+Q43 (multiple_select):
+What are the three main components of serverless stack? Select all that apply.
+   1. [x] API Gateway
+   2. [ ] SaaS
+   3. [x] FaaS
+   4. [x] BaaS
+
+Q44 (single_choice):
+Which of the following is a potential benefit of an IBM Cloud Code Engine?
+   1. [ ] It is suitable for applications that require constant availability or have background processes that need to run indefinitely.
+   2. [ ] It manages applications with high resource requirements.
+   3. [ ] It is the best fit for complex and customized application workloads.
+   4. [x] It takes care of the cluster management.
+
+Q45 (single_choice):
+Which statement best describes OpenShift?
+   1. [ ] It is an IT architecture that incorporates workload portability, orchestration, and management.
+   2. [ ] It is a dedicated layer for making service-to-service communication secure and reliable.
+   3. [ ] It extends Kubernetes using CRDs.
+   4. [x] It is a hybrid, cloud, enterprise Kubernetes application platform.
