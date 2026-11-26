@@ -6,7 +6,7 @@
 
 const state = {
   courses: [],
-  activeCourseKey: "coursera1",
+  activeCourseKey: "coursera8",
   courseData: null,
   mode: "overview", // overview | guides | reader | cheatsheets | quizzes
   filter: "all",
@@ -464,7 +464,7 @@ function renderOverview() {
     </section>
 
     <section class="curriculum-section">
-      <h2 class="section-heading">Full 7-Course DWP301c Architecture</h2>
+      <h2 class="section-heading">Full ${state.courses.length}-Course DWP301c Architecture (FLM Track)</h2>
       <div class="table-scroll">
         <table class="curriculum-table">
           <thead>
@@ -953,6 +953,9 @@ function updateScrollProgress() {
 
 async function loadCourse(courseKey) {
   state.activeCourseKey = courseKey;
+  try {
+    localStorage.setItem("dwp301c_active_course", courseKey);
+  } catch (_) {}
   state.activeModuleNumber = 1;
   state.activeLessonId = null;
   state.activeLessonData = null;
@@ -1240,7 +1243,16 @@ function wireEvents() {
   initTheme();
   wireEvents();
   try {
-    await loadCourse("coursera1");
+    const coursesRes = await api("/api/courses");
+    const list = coursesRes.courses || [];
+    let savedKey = null;
+    try {
+      savedKey = localStorage.getItem("dwp301c_active_course");
+    } catch (_) {}
+    const validSaved = list.find((c) => c.key === savedKey && c.is_seeded);
+    const firstSeeded = list.find((c) => c.is_seeded) || list[0];
+    const initialKey = validSaved ? validSaved.key : firstSeeded ? firstSeeded.key : "coursera8";
+    await loadCourse(initialKey);
   } catch (err) {
     el.stageContainer.innerHTML = `<div class="search-empty">Failed to load course data: ${escapeHtml(err.message)}</div>`;
   }

@@ -22,8 +22,8 @@ STATIC_DIR = APP_DIR / "static"
 
 app = FastAPI(
     title="DWP301c Knowledge Codex API",
-    version="1.0.0",
-    description="Structured knowledge hub and study workbench for DWP301c (7 Coursera IBM courses).",
+    version="2.0.0",
+    description="Structured knowledge hub and study workbench for all 12 DWP301c Coursera FLM courses.",
 )
 
 

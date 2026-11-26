@@ -1,6 +1,6 @@
 """
 Automated API integration + Playwright E2E & responsive verification tests
-for DWP301c Codex (web_app) covering all 7 Coursera courses (35 modules, 241 lessons, 381 questions).
+for DWP301c Codex (web_app) covering all 12 Coursera FLM courses (56 modules, 486 lessons, 746 questions).
 """
 
 from __future__ import annotations
@@ -22,33 +22,39 @@ sys.path.insert(0, str(APP_DIR))
 import server  # noqa: E402
 
 EXPECTED_COURSES = {
-    "coursera1": {"modules": 5, "lessons": 46, "quizzes": 11, "questions": 66, "search_term": "ORM"},
-    "coursera2": {"modules": 4, "lessons": 29, "quizzes": 7, "questions": 50, "search_term": "TEXT_NODE"},
+    "coursera8": {"modules": 6, "lessons": 79, "quizzes": 16, "questions": 101, "search_term": "IaaS"},
+    "coursera13": {"modules": 5, "lessons": 35, "quizzes": 8, "questions": 60, "search_term": "DOM"},
     "coursera3": {"modules": 4, "lessons": 19, "quizzes": 5, "questions": 27, "search_term": "upstream"},
     "coursera4": {"modules": 4, "lessons": 50, "quizzes": 9, "questions": 70, "search_term": "configureStore"},
+    "coursera9": {"modules": 4, "lessons": 52, "quizzes": 6, "questions": 51, "search_term": "middleware"},
+    "coursera10": {"modules": 5, "lessons": 61, "quizzes": 22, "questions": 128, "search_term": "BeautifulSoup"},
+    "coursera11": {"modules": 3, "lessons": 23, "quizzes": 4, "questions": 30, "search_term": "pylint"},
+    "coursera1": {"modules": 5, "lessons": 46, "quizzes": 11, "questions": 66, "search_term": "ORM"},
     "coursera5": {"modules": 5, "lessons": 49, "quizzes": 8, "questions": 60, "search_term": "kubelet"},
     "coursera6": {"modules": 6, "lessons": 35, "quizzes": 10, "questions": 70, "search_term": "Knative"},
     "coursera7": {"modules": 7, "lessons": 13, "quizzes": 5, "questions": 38, "search_term": "CarModel"},
+    "coursera12": {"modules": 2, "lessons": 24, "quizzes": 1, "questions": 45, "search_term": "microservices"},
 }
 
 
 def test_api_endpoints():
     client = TestClient(server.app)
 
-    # 1. Health endpoint reflects all 7 seeded courses
+    # 1. Health endpoint reflects all 12 seeded courses
     r = client.get("/api/health")
     assert r.status_code == 200
     h = r.json()
     assert h["status"] == "ok"
-    assert h["courses_seeded"] == 7, f"Expected 7 seeded courses, got {h['courses_seeded']}"
-    assert h["total_lessons"] == 241, f"Expected 241 lessons, got {h['total_lessons']}"
-    assert h["total_questions"] == 381, f"Expected 381 questions, got {h['total_questions']}"
+    assert h["courses_seeded"] == 12, f"Expected 12 seeded courses, got {h['courses_seeded']}"
+    assert h["total_lessons"] == 486, f"Expected 486 lessons, got {h['total_lessons']}"
+    assert h["total_questions"] == 746, f"Expected 746 questions, got {h['total_questions']}"
 
-    # 2. Courses list (all 7 registered and seeded)
+    # 2. Courses list (all 12 registered and seeded in FLM order)
     r = client.get("/api/courses")
     assert r.status_code == 200
     courses = r.json()["courses"]
-    assert len(courses) == 7
+    assert len(courses) == 12
+    assert [c["key"] for c in courses] == list(EXPECTED_COURSES.keys())
     for c in courses:
         assert c["is_seeded"] == 1, f"Course {c['key']} is not seeded"
         exp = EXPECTED_COURSES[c["key"]]
@@ -101,7 +107,7 @@ def test_api_endpoints():
                 assert any(o.get("checked") for o in q_item["options"]), f"Missing answer key in {c_key} Q{q_item['id']}"
                 assert len((q_item.get("explanation") or "").strip()) >= 20, f"Missing explanation in {c_key} Q{q_item['id']}"
 
-    assert total_guides_verified == 35
+    assert total_guides_verified == 56
 
     # 4. Lesson detail, prev/next & state persistence
     r = client.get(f"/api/lessons/{first_lesson_id}")
@@ -116,7 +122,7 @@ def test_api_endpoints():
 
     # 5. Edge cases: invalid course/module, punctuation-only search, Vietnamese Unicode search, HTML-safe snippets
     assert client.get("/api/courses/nonexistent").status_code == 404
-    assert client.get("/api/courses/coursera2/modules/99").status_code == 404
+    assert client.get("/api/courses/coursera13/modules/99").status_code == 404
     assert client.get("/api/search", params={"q": "!!!"}).json()["results"] == []
 
     # Vietnamese Unicode FTS5 search must preserve diacritics (not split into single ASCII letters)
@@ -127,13 +133,13 @@ def test_api_endpoints():
     )
 
     # Search snippets must escape raw HTML tags (like <script> / <div>) while preserving <mark>
-    html_hits = client.get("/api/search", params={"q": "script", "course": "coursera2"}).json()["results"]
+    html_hits = client.get("/api/search", params={"q": "script", "course": "coursera13"}).json()["results"]
     assert len(html_hits) >= 1
     for h in html_hits:
         stripped = h["snippet"].replace("<mark>", "").replace("</mark>", "")
         assert not re.search(r"<[a-zA-Z/][^>]*>", stripped), f"Unescaped HTML tag in search snippet: {h['snippet']!r}"
 
-    print("API INTEGRATION TESTS PASSED (7 courses, 35 guides, 241 lessons, 381 questions)!")
+    print("API INTEGRATION TESTS PASSED (12 courses, 56 guides, 486 lessons, 746 questions)!")
 
 
 def _pick_free_port() -> int:
@@ -176,20 +182,20 @@ def test_playwright_e2e():
 
             page.goto(f"{base_url}/", wait_until="networkidle")
             page.wait_for_selector(".course-hero h1")
-            assert "Django Application Development" in page.locator(".course-hero h1").inner_text()
+            assert "Introduction to Cloud Computing" in page.locator(".course-hero h1").inner_text()
 
             # Check zero horizontal overflow on desktop
             overflow_desktop = page.evaluate("document.documentElement.scrollWidth > window.innerWidth + 1")
             assert not overflow_desktop, "Horizontal overflow on desktop!"
 
-            # Open Course Switcher and verify all 7 courses are enabled (not disabled)
+            # Open Course Switcher and verify all 12 courses are enabled (not disabled)
             page.click("#courseSwitcherBtn")
             page.wait_for_selector("#courseMenuPopover:not(.hidden)")
-            assert page.locator(".course-option").count() == 7
+            assert page.locator(".course-option").count() == 12
             assert page.locator(".course-option[disabled]").count() == 0
             page.click("#courseSwitcherBtn")
 
-            # Exhaustively render ALL 7 courses and ALL 35 Study Guides in the real browser
+            # Exhaustively render ALL 12 courses and ALL 56 Study Guides in the real browser
             guides_rendered = 0
             for idx, (c_key, exp) in enumerate(EXPECTED_COURSES.items(), 1):
                 if idx > 1:
@@ -217,7 +223,16 @@ def test_playwright_e2e():
                     )
                     prose_text = page.locator(".prose").inner_text()
                     assert len(prose_text.strip()) > 800, f"{c_key} M{m_num}: rendered prose too short"
-                    assert "<br>" not in prose_text.lower(), f"{c_key} M{m_num}: literal '<br>' leaked into rendered text"
+                    non_code_text = page.evaluate(
+                        """() => {
+                            const clone = document.querySelector('.prose').cloneNode(true);
+                            clone.querySelectorAll('pre, code').forEach(el => el.remove());
+                            return clone.innerText;
+                        }"""
+                    )
+                    assert "<br>" not in non_code_text.lower(), (
+                        f"{c_key} M{m_num}: literal '<br>' leaked into non-code rendered text"
+                    )
                     # Inline code spans must never be corrupted with nested <em> or <strong>
                     bad_code = page.locator(".prose code em, .prose code strong").count()
                     assert bad_code == 0, f"{c_key} M{m_num}: corrupted inline code containing em/strong"
@@ -225,34 +240,39 @@ def test_playwright_e2e():
                     assert not page.evaluate("document.documentElement.scrollWidth > window.innerWidth + 1"), (
                         f"{c_key} M{m_num}: horizontal overflow on desktop!"
                     )
-                    if c_key == "coursera2" and m_num == 3:
-                        assert "<script>/* mã ngắn */</script>" in prose_text
                     if c_key == "coursera6" and m_num == 3:
                         assert page.locator(".prose table br").count() >= 4
                     guides_rendered += 1
 
-            assert guides_rendered == 35, f"Expected 35 guides rendered, got {guides_rendered}"
+            assert guides_rendered == 56, f"Expected 56 guides rendered, got {guides_rendered}"
 
-            # State-reset regression: we are currently on Course 7 Module 7; filter M5 quizzes (> C2's 4 modules),
-            # then switch to Course 2 (4 modules) and verify Study Guides, Quizzes, and Raw Source all reset cleanly!
+            # State-reset regression: switch to Course 11 (coursera7, 7 modules), open M7 guide + filter M5 quizzes (> C3's 4 modules),
+            # then switch to Course 3 (coursera3, 4 modules) and verify Study Guides, Quizzes, and Raw Source all reset cleanly!
+            page.click("#courseSwitcherBtn")
+            page.wait_for_selector("#courseMenuPopover:not(.hidden)")
+            page.click('.course-option[data-course-key="coursera7"]')
+            page.wait_for_function("document.querySelector('#activeCourseLabel')?.textContent?.startsWith('C11 ')")
+            page.click('.mode-tab[data-mode="guides"]')
+            page.click('.mod-pill-btn[data-open-module-guide="7"]')
+            page.wait_for_function("document.querySelector('.reader-title')?.innerText.startsWith('Module 7:')")
             page.click('.mode-tab[data-mode="quizzes"]')
             page.wait_for_selector(".question-item")
             page.click('.quiz-filter-bar [data-quiz-mod="5"]')
 
             page.click("#courseSwitcherBtn")
             page.wait_for_selector("#courseMenuPopover:not(.hidden)")
-            page.click('.course-option[data-course-key="coursera2"]')
-            page.wait_for_function("document.querySelector('.course-hero h1')?.innerText.includes('HTML')")
+            page.click('.course-option[data-course-key="coursera3"]')
+            page.wait_for_function("document.querySelector('.course-hero h1')?.innerText.includes('Git')")
 
             # Clicking Study Guides tab must load Module 1 (NOT 404 on Module 7!)
             page.click('.mode-tab[data-mode="guides"]')
             page.wait_for_function("document.querySelector('.reader-title')?.innerText.startsWith('Module 1:')")
 
-            # Clicking Quizzes tab must show all 50 Course 2 questions (NOT 0 from stale M7 filter!)
+            # Clicking Quizzes tab must show all 27 Course 3 questions (NOT 0 from stale M5 filter!)
             page.click('.mode-tab[data-mode="quizzes"]')
             page.wait_for_selector(".question-item")
-            assert page.locator(".question-item").count() == 50
-            assert page.locator("[data-reveal-q]").count() == 50
+            assert page.locator(".question-item").count() == 27
+            assert page.locator("[data-reveal-q]").count() == 27
 
             # Scroll-lock & explanation test: scroll to a lower question (#25), pick option & Check answer -> zero jump!
             target_card = page.locator(".question-item").nth(24)
@@ -271,15 +291,15 @@ def test_playwright_e2e():
                 f"Scroll jumped on Check answer! before={scroll_before}, after={scroll_after_check}"
             )
 
-            # Clicking Raw Source tab must load a Course 2 lesson (NOT a stale Course 7 lesson!)
+            # Clicking Raw Source tab must load a Course 3 lesson (NOT a stale Course 11 lesson!)
             page.click('.mode-tab[data-mode="reader"]')
             page.wait_for_selector(".reader-breadcrumb")
-            assert "HTML" in page.locator(".reader-breadcrumb").inner_text()
+            assert "Git" in page.locator(".reader-breadcrumb").inner_text()
 
-            # Test Ctrl+K FTS5 Search with HTML-containing query ("script" in Course 2)
+            # Test Ctrl+K FTS5 Search ("upstream" in Course 3)
             page.keyboard.press("Control+k")
             page.wait_for_selector("#searchDialog[open]")
-            page.fill("#searchInput", "script")
+            page.fill("#searchInput", "upstream")
             page.wait_for_selector(".search-hit", timeout=5000)
             assert page.locator(".search-hit").count() >= 1
             page.keyboard.press("Escape")

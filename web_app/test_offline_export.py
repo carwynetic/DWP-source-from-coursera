@@ -28,14 +28,18 @@ def test_offline_html():
 
         page.goto(file_url, wait_until="domcontentloaded")
         page.wait_for_selector(".course-hero h1")
-        assert "Django Application Development" in page.locator(".course-hero h1").inner_text()
+        assert "Introduction to Cloud Computing" in page.locator(".course-hero h1").inner_text()
 
-        # Switch through all 7 courses via Course Switcher
-        for idx, ckey in enumerate(["coursera2", "coursera3", "coursera4", "coursera5", "coursera6", "coursera7", "coursera1"], 1):
+        # Switch through all 12 FLM courses via Course Switcher
+        for ckey in [
+            "coursera13", "coursera3", "coursera4", "coursera9", "coursera10",
+            "coursera11", "coursera1", "coursera5", "coursera6", "coursera7",
+            "coursera12", "coursera8",
+        ]:
             page.click("#courseSwitcherBtn")
             page.click(f'.course-option[data-course-key="{ckey}"]')
             page.wait_for_selector(".roadmap-row")
-            assert page.locator(".roadmap-row").count() >= 4
+            assert page.locator(".roadmap-row").count() >= 2
 
         # Open Module 1 Study Guide & mark a source lesson completed -> check localStorage persistence
         page.click(".hero-actions .btn-primary")
@@ -79,7 +83,7 @@ def test_offline_html():
 
         mobile.click('.mobile-mode-bar .mode-tab[data-mode="quizzes"]')
         mobile.wait_for_selector(".question-item")
-        assert mobile.locator(".question-item").count() == 66
+        assert mobile.locator(".question-item").count() == 101
 
         assert not m_errors, f"Console errors in offline mobile test: {m_errors}"
         m_ctx.close()

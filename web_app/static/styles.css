@@ -365,8 +365,10 @@ a {
   position: fixed;
   top: calc(var(--topbar-h) + 6px);
   left: 140px;
-  width: 360px;
+  width: 390px;
   max-width: calc(100vw - 24px);
+  max-height: min(74vh, 640px);
+  overflow-y: auto;
   background: var(--bg);
   border: 1px solid var(--border);
   border-radius: var(--radius-md);
@@ -1145,6 +1147,7 @@ a {
   border-radius: 4px;
   background: var(--code-bg);
   color: var(--primary);
+  overflow-wrap: anywhere;
 }
 
 .code-block-wrap {
@@ -1286,6 +1289,8 @@ a {
 /* Right TOC Rail */
 .toc-rail {
   width: var(--toc-w);
+  min-width: 0;
+  overflow-x: clip;
   padding: 36px 18px 36px 0;
 }
 
@@ -1319,6 +1324,7 @@ a {
   color: var(--muted);
   text-decoration: none;
   line-height: 1.4;
+  overflow-wrap: anywhere;
   transition: color var(--dur-fast) var(--ease-out-expo);
 }
 

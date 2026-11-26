@@ -16,20 +16,20 @@ from db import DB_PATH, get_connection, init_db
 
 COURSE_CATALOG = [
     {
-        "key": "coursera1",
+        "key": "coursera8",
         "order": 1,
-        "slug": "developing-applications-with-sql-databases-and-django",
-        "name": "Django Application Development with SQL and Databases",
-        "short_name": "SQL & Django",
-        "url": "https://www.coursera.org/learn/developing-applications-with-sql-databases-and-django",
+        "slug": "introduction-to-cloud",
+        "name": "Introduction to Cloud Computing",
+        "short_name": "Cloud Intro",
+        "url": "https://www.coursera.org/learn/introduction-to-cloud",
     },
     {
-        "key": "coursera2",
+        "key": "coursera13",
         "order": 2,
-        "slug": "introduction-html-css-javascript",
-        "name": "Introduction to HTML, CSS, & JavaScript",
+        "slug": "introduction-to-web-development-with-html-css-javacript",
+        "name": "Introduction to Web Development with HTML, CSS, JavaScript",
         "short_name": "HTML, CSS & JS",
-        "url": "https://www.coursera.org/learn/introduction-html-css-javascript",
+        "url": "https://www.coursera.org/learn/introduction-to-web-development-with-html-css-javacript",
     },
     {
         "key": "coursera3",
@@ -48,8 +48,40 @@ COURSE_CATALOG = [
         "url": "https://www.coursera.org/learn/developing-frontend-apps-with-react",
     },
     {
-        "key": "coursera5",
+        "key": "coursera9",
         "order": 5,
+        "slug": "developing-backend-apps-with-nodejs-and-express",
+        "name": "Developing Back-End Apps with Node.js and Express",
+        "short_name": "Node & Express",
+        "url": "https://www.coursera.org/learn/developing-backend-apps-with-nodejs-and-express",
+    },
+    {
+        "key": "coursera10",
+        "order": 6,
+        "slug": "python-for-applied-data-science-ai",
+        "name": "Python for Data Science, AI & Development",
+        "short_name": "Python & Data",
+        "url": "https://www.coursera.org/learn/python-for-applied-data-science-ai",
+    },
+    {
+        "key": "coursera11",
+        "order": 7,
+        "slug": "python-project-for-ai-application-development",
+        "name": "Python Project for AI & Application Development",
+        "short_name": "Flask AI Project",
+        "url": "https://www.coursera.org/learn/python-project-for-ai-application-development",
+    },
+    {
+        "key": "coursera1",
+        "order": 8,
+        "slug": "developing-applications-with-sql-databases-and-django",
+        "name": "Django Application Development with SQL and Databases",
+        "short_name": "SQL & Django",
+        "url": "https://www.coursera.org/learn/developing-applications-with-sql-databases-and-django",
+    },
+    {
+        "key": "coursera5",
+        "order": 9,
         "slug": "ibm-containers-docker-kubernetes-openshift",
         "name": "Introduction to Containers w/ Docker, Kubernetes & OpenShift",
         "short_name": "Docker & K8s",
@@ -57,7 +89,7 @@ COURSE_CATALOG = [
     },
     {
         "key": "coursera6",
-        "order": 6,
+        "order": 10,
         "slug": "applications-development-microservices-serverless-openshift",
         "name": "Application Development using Microservices and Serverless",
         "short_name": "Microservices",
@@ -65,11 +97,19 @@ COURSE_CATALOG = [
     },
     {
         "key": "coursera7",
-        "order": 7,
+        "order": 11,
         "slug": "ibm-cloud-native-full-stack-development-capstone",
         "name": "Full Stack Application Development Capstone Project",
         "short_name": "Capstone",
         "url": "https://www.coursera.org/learn/ibm-cloud-native-full-stack-development-capstone",
+    },
+    {
+        "key": "coursera12",
+        "order": 12,
+        "slug": "full-stack-software-developer-assessment",
+        "name": "Full-Stack Software Developer Assessment",
+        "short_name": "Final Assessment",
+        "url": "https://www.coursera.org/learn/full-stack-software-developer-assessment",
     },
 ]
 
@@ -346,8 +386,8 @@ def seed_database(target_courses: list[str], db_path: Path | None = None) -> Non
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Seed DWP301c Knowledge Hub SQLite database")
-    parser.add_argument("--course", nargs="+", default=None, help="Course keys to seed (default: all 7 courses)")
-    parser.add_argument("--all", action="store_true", help="Seed all 7 courses")
+    parser.add_argument("--course", nargs="+", default=None, help="Course keys to seed (default: all 12 FLM courses)")
+    parser.add_argument("--all", action="store_true", help="Seed all 12 FLM courses")
     args = parser.parse_args()
 
     targets = [c["key"] for c in COURSE_CATALOG] if (args.all or not args.course) else args.course

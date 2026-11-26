@@ -2336,5 +2336,2528 @@
       0
     ],
     "explanation": "Xác nhận đã kiểm thử toàn trình (End-to-End) trên URL production: đăng ký, đăng nhập, lọc đại lý, xem và đăng review có phân tích cảm xúc."
+  },
+  "coursera8|1|which characteristic of cloud computing enables cost savings by serving multiple consumers?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Resource pooling (gom tài nguyên dùng chung theo mô hình multi-tenant) giúp nhà cung cấp đạt hiệu quả kinh tế theo quy mô và chuyển phần tiết kiệm chi phí đó cho nhiều khách hàng."
+  },
+  "coursera8|1|which 1950s network feature helped evolve virtual machines (vms)?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Tính năng time-sharing / chia sẻ quyền truy cập trên máy tính lớn (mainframe) thập niên 1950 qua dumb terminals là tiền đề giúp phát triển hệ điều hành Virtual Machine (VM) vào thập niên 1970."
+  },
+  "coursera8|1|what are some cloud computing benefits?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Ba trụ cột lợi ích của Cloud Computing được tổng kết trong bài học gồm: Competitive advantage (lợi thế cạnh tranh), Flexibility (tính linh hoạt), và Efficiency (hiệu quả vận hành)."
+  },
+  "coursera8|1|which of these vendors is known more for their saas offerings?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Salesforce là nhà cung cấp tiêu biểu chuyên sâu về các dịch vụ SaaS (đặc biệt là CRM với Sales Cloud, Service Cloud, Marketing Cloud), trong khi AWS và Alibaba Cloud mạnh về IaaS/PaaS toàn diện."
+  },
+  "coursera8|1|how did ubank leverage the cloud to remove barriers to innovation?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "UBank đã áp dụng mô hình Platform-as-a-Service (PaaS) trên IBM Cloud (kết hợp trợ lý ảo Watson) để tinh giản quy trình phát triển, trao quyền cho đội ngũ sản phẩm và rút ngắn time-to-market."
+  },
+  "coursera8|1|according to the video \"cloud adoption - no longer a choice\", which of the following is a risk for businesses that do not integrate cloud into their business strategy?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Theo video 'Cloud Adoption - No longer a choice', các doanh nghiệp không tích hợp Cloud vào chiến lược kinh doanh sẽ đối mặt nguy cơ thiếu tốc độ, sự linh hoạt, đổi mới và năng lực ra quyết định (decision-making capacity)."
+  },
+  "coursera8|1|how does cloud connectivity support iot devices?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Do các thiết bị IoT có thể di chuyển và sinh dữ liệu liên tục, kết nối Cloud đóng vai trò là điểm thu thập động và có khả năng mở rộng (dynamic and scalable collection point) gần thiết bị để giảm độ trễ."
+  },
+  "coursera8|1|what is the three-way symbiotic relationship between iot, ai, and cloud?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Mối quan hệ cộng sinh 3 chiều giữa IoT, AI và Cloud: IoT cung cấp dữ liệu đầu vào, AI khai phá tạo ra insights/quyết định, và cả hai tận dụng khả năng mở rộng cùng sức mạnh xử lý của Cloud."
+  },
+  "coursera8|1|what is the three-way relationship between blockchain, ai, and the cloud?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Mối quan hệ 3 chiều Blockchain–AI–Cloud: Blockchain cung cấp nguồn chân lý phi tập trung đáng tin cậy, AI thực hiện phân tích và ra quyết định từ dữ liệu, còn Cloud cấp tài nguyên tính toán phân tán toàn cầu, co giãn và tối ưu chi phí cho cả hai."
+  },
+  "coursera8|1|according to the us national institute of standards and technology (nist) definition of “cloud computing,” what is the meaning of the statement “a shared pool of configurable compu": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Theo định nghĩa của NIST, 'a shared pool of configurable computing resources' bao gồm: mạng (networks), máy chủ (servers), lưu trữ (storage), ứng dụng (applications) và dịch vụ (services)."
+  },
+  "coursera8|1|what tasks do hypervisors accomplish?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Hypervisor là lớp phần mềm mỏng cho phép nhiều hệ điều hành chạy song song trên cùng phần cứng vật lý và tách biệt logic các Virtual Machines để chúng không can thiệp hay làm sập lẫn nhau."
+  },
+  "coursera8|1|which key considerations drive an organization's selection of cloud computing when considering expenditure for off-the-shelf software and investments in upgrades?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Khi cân nhắc chi phí mua phần mềm đóng gói (off-the-shelf software) và chi phí nâng cấp định kỳ, doanh nghiệp sẽ xem xét lựa chọn SaaS và các nền tảng phát triển (development platforms) thay thế."
+  },
+  "coursera8|1|which of the following statements describes a benefit of cloud computing?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Một lợi ích hiệu quả của Cloud Computing là lỗi phần cứng vật lý không gây mất dữ liệu nhờ các bản sao lưu (backups) được duy trì an toàn trên hệ thống mạng."
+  },
+  "coursera8|1|which service provider provides one of the largest cloud-based data management platforms?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Oracle Cloud nổi tiếng về SaaS và Oracle Data Cloud — được giới thiệu là một trong những nền tảng quản lý dữ liệu trên đám mây lớn nhất thế giới."
+  },
+  "coursera8|1|which service provider uses its cloud platform internally for their end-user products, such as search and app engines that automatically allocate and de-allocate resources to handl": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Google Cloud Platform (GCP) dùng chính hạ tầng nội bộ cho các sản phẩm người dùng cuối như Google Search, YouTube và cung cấp Google App Engine tự động cấp phát/thu hồi tài nguyên theo tải."
+  },
+  "coursera8|1|according to the international data corporation (idc), what is that crucial ability that will make cloud computing essential for businesses to succeed, sustain, and compete in toda": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Theo IDC, với 163 zettabytes dữ liệu toàn cầu năm 2025, khả năng đưa ra quyết định dựa trên dữ liệu (data-driven decisions) là yếu tố sống còn khiến Cloud trở thành nền tảng thiết yếu để doanh nghiệp cạnh tranh."
+  },
+  "coursera8|1|why did american airlines require a new technology platform?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "American Airlines cần nền tảng công nghệ mới để chuyển đổi các ứng dụng monolithic hướng khách hàng sang kiến trúc cloud-native microservices nhằm phát hành nhanh và nâng cao độ tin cậy dịch vụ."
+  },
+  "coursera8|1|select the answer that best describes how cloud computing helps iot devices.": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Cloud Computing hỗ trợ thiết bị IoT bằng cách cung cấp tài nguyên lưu trữ và xử lý luồng dữ liệu khổng lồ do các thiết bị IoT và người dùng tạo ra (trong khi việc rút ra insights là của AI/Analytics)."
+  },
+  "coursera8|1|which of the following denotes the relationship between blockchain, ai, and cloud?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Blockchain cung cấp nguồn dữ liệu chuẩn xác phi tập trung (decentralized source of truth), AI thực hiện phân tích & ra quyết định, và Cloud cung cấp hạ tầng tính toán phân tán toàn cầu để hỗ trợ cả hai."
+  },
+  "coursera8|2|which of these scenarios are good use cases for public cloud? select two.": {
+    "correct_indices": [
+      0,
+      2
+    ],
+    "explanation": "Hai use case điển hình của Public Cloud là rút ngắn time-to-market cho sản phẩm/dịch vụ (nhờ tự cấp phát nhanh) và xây dựng hạ tầng thứ cấp cho Disaster Recovery, bảo vệ dữ liệu & Business Continuity."
+  },
+  "coursera8|2|what do we mean when we say that the hybrid cloud is interoperable?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Tính liên thông (interoperability) của Hybrid Cloud nghĩa là các dịch vụ Public và Private Cloud có thể hiểu được API, cấu hình, định dạng dữ liệu cũng như cơ chế xác thực và phân quyền của nhau."
+  },
+  "coursera8|2|what is the benefit of using private cloud?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Lợi ích cốt lõi của Private Cloud là doanh nghiệp tận dụng được giá trị của điện toán đám mây trên các hệ thống do chính tổ chức trực tiếp kiểm soát (directly controlled), đảm bảo bảo mật và tuân thủ."
+  },
+  "coursera8|2|in which cloud service model does the service provider manage the application data along with the infrastructure and platform resources ?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Trong mô hình SaaS (Software-as-a-Service), nhà cung cấp chịu trách nhiệm quản lý toàn bộ từ hạ tầng, nền tảng cho đến ứng dụng và dữ liệu ứng dụng (application data)."
+  },
+  "coursera8|2|in which iaas cloud environment can the customers deploy their middleware and install applications?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Trong môi trường IaaS, khách hàng cấp phát các Virtual Machines (VMs) theo Region/Zone và tự triển khai middleware, cài đặt ứng dụng cũng như vận hành workload trên các VM đó."
+  },
+  "coursera8|2|what is one of the concerns in cloud infrastructure configuration and management?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Một mối lo ngại phổ biến khi cấu hình và quản trị hạ tầng Cloud IaaS là sự phụ thuộc vào bên thứ ba (third-party dependency) đối với tính sẵn sàng và hiệu năng của workload."
+  },
+  "coursera8|2|what is the responsibility of a user in the paas model?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Trong mô hình PaaS, nhà cung cấp quản lý toàn bộ hạ tầng và nền tảng (OS, runtime, middleware, DB), nên người dùng chỉ chịu trách nhiệm về mã nguồn ứng dụng (application code) và bảo trì nó."
+  },
+  "coursera8|2|which capability in the paas model eliminates the need for the integration of disparate components?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "PaaS cung cấp sẵn các API dịch vụ (caching, queuing, messaging, identity, analytics), giúp lập trình viên không phải tự tay tích hợp các thành phần rời rạc (disparate components)."
+  },
+  "coursera8|2|which is a characteristic of the saas model?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Đặc trưng của SaaS là ứng dụng nằm trên mạng đám mây từ xa (remote cloud network), được nhà cung cấp bảo trì tập trung theo kiến trúc multi-tenant và người dùng trả phí subscription."
+  },
+  "coursera8|2|what is the users’ role in a public cloud?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Trong Public Cloud, người dùng không sở hữu máy chủ vật lý chạy ứng dụng hay phần cứng lưu trữ mà thuê dùng theo mô hình dịch vụ tiện ích (utility/pay-as-you-go)."
+  },
+  "coursera8|2|what is a feature of a private cloud?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Một tính năng nổi bật của Private Cloud là tính di động ứng dụng (application portability), cho phép xây dựng và di chuyển ứng dụng linh hoạt mà vẫn giữ nguyên kiểm soát bảo mật và tuân thủ."
+  },
+  "coursera8|2|if an organization needs to run a highly sensitive and mission-critical application with unpredictable performance and capacity requirements, which of the following models would be": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Khi ứng dụng vừa cực kỳ nhạy cảm/trọng yếu (cần chạy lõi trên Private Cloud) vừa có nhu cầu hiệu năng và dung lượng biến động khó lường (cần mở rộng sang Public Cloud), Hybrid Cloud là mô hình tối ưu nhất."
+  },
+  "coursera8|2|what do you mean by “cloud bursting”?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Cloud bursting là cơ chế ứng dụng chạy trên Private Cloud tạm thời mượn thêm tài nguyên Public Cloud khi lưu lượng tăng đột biến và trả về Private Cloud khi hết cao điểm."
+  },
+  "coursera8|3|which of the following refers to a physical location where a cloud provider clusters its infrastructure to deliver services?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Theo bài giảng Module 3, Cloud Region là khu vực/vị trí địa lý nơi nhà cung cấp dịch vụ tập trung cụm hạ tầng (clusters its infrastructure) để cung cấp dịch vụ (còn Data Center là phòng máy/nhà kho)."
+  },
+  "coursera8|3|which of the following vms use hosted hypervisors?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Oracle VirtualBox (cùng VMware Workstation) là Type 2 (hosted) hypervisor chạy trên một Host OS; trong khi VMware ESXi, Microsoft Hyper-V và KVM đều là Type 1 (bare-metal) hypervisor."
+  },
+  "coursera8|3|which type of virtual machine (vm) takes advantage of unused capacity in data centers at a much lower cost than regular vms of similar sizes?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Transient hoặc Spot VMs tận dụng phần công suất dư thừa chưa sử dụng trong data center với mức giá rẻ hơn rất nhiều so với VM thường, đổi lại có thể bị nhà cung cấp thu hồi bất kỳ lúc nào."
+  },
+  "coursera8|3|why do bare metal servers take longer to provision than virtual servers?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Bare metal servers là máy chủ vật lý thực sự và có thể tùy biến cấu hình phần cứng theo yêu cầu riêng của khách hàng, nên thời gian cấp phát lâu hơn (20–40 phút hoặc 3–4 giờ) so với VM ảo hóa."
+  },
+  "coursera8|3|which part of a logically segmented cloud network is the main area where security is implemented?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Trong mạng Cloud phân đoạn logic (VPC), Subnets là khu vực chính nơi bảo mật được triển khai (với ACLs ở cấp subnet và Security Groups ở cấp instance)."
+  },
+  "coursera8|3|which is a container?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Container là một đơn vị phần mềm thực thi được đóng gói mã nguồn ứng dụng cùng các thư viện và phần phụ thuộc (libraries & dependencies) theo chuẩn chung để chạy đồng nhất ở mọi môi trường."
+  },
+  "coursera8|3|which storage type is sometimes called \"local storage\"?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Direct Attached Storage gắn trực tiếp trong chassis hoặc cùng rack với máy chủ Cloud nên còn được gọi là Local Storage (thường có tính chất ephemeral — tạm thời)."
+  },
+  "coursera8|3|what is another name for file storage?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "File Storage thường được gắn vào các compute node qua mạng Ethernet chuẩn dưới dạng Network File System (NFS), còn gọi là Network Attached Storage (NAS)."
+  },
+  "coursera8|3|which of the following is true for block storage?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Khác với File Storage gắn được nhiều node cùng lúc, Block Storage thông thường chỉ có thể gắn vào một compute node tại một thời điểm (nhưng bù lại kết nối cáp quang tốc độ cao và ổn định)."
+  },
+  "coursera8|3|which of the following is true for object storage?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Object Storage chỉ phù hợp lưu dữ liệu tĩnh phi cấu trúc truy cập qua API (ảnh, video, backup, log); bạn không thể chạy hệ điều hành (OS) hay cơ sở dữ liệu trực tiếp trên Object Storage."
+  },
+  "coursera8|3|what is a content delivery network (cdn)?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Content Delivery Network (CDN) là một mạng máy chủ phân tán (distributed server network) lưu bản sao tạm thời (cache) nội dung web/media gần vị trí địa lý người dùng để tăng tốc truy cập."
+  },
+  "coursera8|3|each cloud region can have multiple availability zones. what are zones ?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Mỗi Cloud Region có nhiều Availability Zones (AZ); mỗi Zone là một vị trí vật lý độc lập chứa một hoặc nhiều Data Center với hệ thống điện, làm mát và mạng riêng biệt."
+  },
+  "coursera8|3|which of the following is a benefit of virtualization?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Ba lợi ích cốt lõi của ảo hóa (virtualization) gồm: tiết kiệm chi phí (cost savings nhờ hợp nhất server), tốc độ & linh hoạt (agility and speed), và giảm downtime."
+  },
+  "coursera8|3|which of the following types of virtual machine (vm) guarantees resources for future deployments?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Reserved virtual server instances cho phép doanh nghiệp đặt trước theo kỳ hạn (1 hoặc 3 năm) để đảm bảo sẵn sàng tài nguyên cho các triển khai trong tương lai với chi phí tối ưu hơn."
+  },
+  "coursera8|3|which of the following is a feature of bare metal servers?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Bare metal servers là máy chủ vật lý single-tenant không qua hypervisor nên có đặc trưng nổi bật là hiệu năng cực cao và mức độ bảo mật/cô lập tối đa (high performance and secure)."
+  },
+  "coursera8|3|subnets are the main area where security is implemented in the cloud. which of the following is used to provide security at the virtual instance level in subnets?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Bên trong mỗi Subnet (được bảo vệ tổng thể bởi ACL), Security Groups (SGs) là cơ chế cung cấp lớp bảo mật ở cấp độ từng máy ảo/instance (virtual instance level)."
+  },
+  "coursera8|3|which of the following is a benefit of isolation of applications in containers?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Việc cô lập ứng dụng trong từng container giúp ngăn chặn mã độc hoặc sự cố ở một container làm ảnh hưởng lan sang các container khác đang chạy chung máy chủ."
+  },
+  "coursera8|3|which of the following storage types are ephemeral or non-persistent?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Direct Attached storage là loại lưu trữ ephemeral (không bền vững), nghĩa là dữ liệu chỉ tồn tại gắn liền với vòng đời của tài nguyên tính toán và không thể chia sẻ giữa các node."
+  },
+  "coursera8|3|what makes file storage an ideal solution for scenarios where shared storage is required?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "File Storage lý tưởng cho nhu cầu lưu trữ dùng chung vì có thể được mount đồng thời lên nhiều compute nodes (tới 80+ nodes) tại cùng một thời điểm qua mạng Ethernet."
+  },
+  "coursera8|3|which of the following scenarios is best suited for block storage?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Block Storage kết nối qua mạng cáp quang tốc độ cao và ổn định, nên là lựa chọn tối ưu cho các ứng dụng đòi hỏi truy xuất đĩa nhanh, độ trễ thấp liên tục như cơ sở dữ liệu (databases)."
+  },
+  "coursera8|3|which of the following is a feature of object storage?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Điểm khác biệt của Object Storage là không cần gắn (attach) vào một compute node nào; ứng dụng có thể lưu/tải trực tiếp qua HTTP RESTful API (chuẩn S3)."
+  },
+  "coursera8|4|what is serverless computing?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Serverless computing là phương pháp tính toán chuyển giao trách nhiệm quản trị hạ tầng phổ thông (scaling, patching, scheduling, provisioning) cho nhà cung cấp Cloud, chứ không phải loại bỏ hoàn toàn máy chủ."
+  },
+  "coursera8|4|what is the microservices architecture approach?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Kiến trúc Microservices là cách tiếp cận trong đó một ứng dụng duy nhất được cấu thành từ nhiều thành phần hoặc dịch vụ nhỏ liên kết lỏng lẻo (loosely coupled) và có thể triển khai độc lập."
+  },
+  "coursera8|4|which of the following lists all three microservices communication methods?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Các microservices giao tiếp với nhau thông qua sự kết hợp của 3 phương thức: APIs, Event Streaming, và Message Brokers."
+  },
+  "coursera8|4|which of the following contains the two environments where a hybrid cloud environment connects?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Môi trường Hybrid Cloud kết nối hai môi trường là Public Cloud (của bên thứ ba) và Private Cloud (tại chỗ/on-premises) thành một hạ tầng thống nhất."
+  },
+  "coursera8|4|which of the following best describes a multi-cloud strategy?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Multi-cloud là một chiến lược áp dụng Cloud (cloud adoption strategy) kết hợp nhiều mô hình dịch vụ từ các nhà cung cấp đám mây khác nhau nhằm tăng linh hoạt và tránh vendor lock-in."
+  },
+  "coursera8|4|which of the following system-level services must be leveraged in cloud native applications due to the complexity of microservices architecture?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Do hệ thống microservices có nhiều thành phần chuyển động phức tạp, ứng dụng Cloud Native cần tận dụng các dịch vụ cấp hệ thống cốt lõi (như Istio/Knative) gồm: Load balancing, Service discovery, và Routing."
+  },
+  "coursera8|4|in the context of continuous integration, what does the release of code changes as immutable images imply about system updates?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Trong Continuous Integration, bản build được phát hành dưới dạng immutable images (bất biến); điều này có nghĩa bất kỳ thay đổi nào đều đòi hỏi thay thế toàn bộ component bằng phiên bản mới chứ không vá trực tiếp."
+  },
+  "coursera8|4|why is devops considered a critical component in realizing the benefits of application modernization?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "DevOps đóng vai trò then chốt trong Application Modernization vì nó tạo ra hạ tầng lập trình được (programmable infrastructure) tự động hóa cao, giúp đạt cả tốc độ phát hành và khả năng phục hồi (speed and resiliency)."
+  },
+  "coursera8|4|which of the following options describes a development principle, or action, for cloud native applications?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Ba nguyên tắc phát triển Cloud Native gồm: chia nhỏ theo microservices đơn chức năng, đóng gói containers để tối đa hóa linh hoạt/co giãn/di động, và áp dụng Agile để lặp nhanh."
+  },
+  "coursera8|4|which of the following best describes a key benefit of devops in a cloud-native environment?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Lợi ích cốt lõi của DevOps trên Cloud Native là tận dụng công nghệ đám mây để phân phối ứng dụng nhanh chóng và tin cậy thông qua tự động hóa (CI/CD) và cộng tác liên nhóm."
+  },
+  "coursera8|4|which of the provided options encapsulates the complete application modernization journey?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Hành trình Application Modernization toàn diện đòi hỏi chuyển đổi đồng bộ cả 3 trục: Kiến trúc (Monolith/SOA → Microservices), Hạ tầng (Physical/VMs → Cloud), và Phương pháp làm việc (Waterfall/Agile → DevOps)."
+  },
+  "coursera8|4|how would a global flower delivery company leverage the hybrid multicloud architecture to meet its requirement of varying capacity demands across different geographies?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Với kiến trúc Hybrid Multicloud (composite cloud), công ty giao hoa toàn cầu phân tán ứng dụng dịch vụ giao hàng qua nhiều môi trường và nhà cung cấp Cloud tại các vùng địa lý khác nhau để đáp ứng tải biến động theo khu vực."
+  },
+  "coursera8|4|which of the following statements describes the devops approach and process?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "DevOps là phương pháp cộng tác giữa các nhóm (Dev, Ops, QA, Business) định hình cách xây dựng, triển khai và quản lý ứng dụng Cloud Native nhằm phân phối phần mềm liên tục."
+  },
+  "coursera8|4|which of these scenarios is not a good use case for serverless architecture?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Serverless tối ưu cho tác vụ ngắn hạn, stateless, xử lý luồng/sự kiện; còn với các workload có tiến trình chạy dài hạn (long-running processes), môi trường server truyền thống đơn giản và tiết kiệm chi phí hơn."
+  },
+  "coursera8|4|how can the microservices architecture approach be characterized ?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Kiến trúc Microservices được đặc trưng bởi việc phân rã các ứng dụng lớn thành các chức năng cốt lõi độc lập để kết hợp thành một ứng dụng hoàn chỉnh và linh hoạt."
+  },
+  "coursera8|4|fill in the blank. microservices architecture is an approach in which a ______________ comprises many loosely coupled and independently deployable smaller components or services.": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Theo định nghĩa chuẩn trong bài giảng, Microservices architecture là phương pháp trong đó một ứng dụng duy nhất (single application) bao gồm nhiều thành phần nhỏ liên kết lỏng lẻo và triển khai độc lập."
+  },
+  "coursera8|4|what does a cloud native application consist of?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Một ứng dụng Cloud Native được cấu thành từ các Microservices (thường đóng gói trong containers) phối hợp cùng nhau như một thể thống nhất nhưng có thể scale và cập nhật độc lập."
+  },
+  "coursera8|4|devops and cloud share a _________ relationship.": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "DevOps và Cloud chia sẻ mối quan hệ cộng sinh (symbiotic relationship): Cloud cấp hạ tầng linh hoạt, còn DevOps cung cấp quy trình và tự động hóa giúp làm chủ độ phức tạp của Cloud."
+  },
+  "coursera8|5|what are the three main areas that cloud monitoring assesses?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Các giải pháp Cloud Monitoring đánh giá 3 lĩnh vực chính: Data (dữ liệu), Applications (ứng dụng), và Infrastructure (hạ tầng) về hiệu năng, tài nguyên, mạng, tuân thủ và bảo mật."
+  },
+  "coursera8|5|what does data encryption do?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Mã hóa dữ liệu (data encryption) là quá trình xáo trộn dữ liệu (scrambles data) theo thuật toán để dữ liệu trở nên không thể đọc được nếu không có khóa giải mã."
+  },
+  "coursera8|5|what is the purpose of cloud directory services?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Cloud Directory Services trong hệ thống IAM có mục đích quản lý an toàn hồ sơ người dùng (user profiles) cùng các thông tin xác thực (credentials) của họ."
+  },
+  "coursera8|5|what does a distribute-denial-of-service (ddos) attack do?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Tấn công DDoS (Distributed Denial-of-Service) nhắm vào máy chủ doanh nghiệp bằng cách làm quá tải nó với lưu lượng khổng lồ gửi từ nhiều hệ thống được đồng bộ hóa cùng lúc."
+  },
+  "coursera8|5|which is another element of cloud security?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Bên cạnh bảo mật dữ liệu và IAM, Cloud Network Security là một thành phần trụ cột của bảo mật đám mây nhằm bảo vệ dữ liệu và lưu lượng trên các mạng public, private và hybrid cloud."
+  },
+  "coursera8|5|cloud computing is a key part of an enterprise’s digital transformation strategy. true or false.": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Đúng (True) — Cloud computing là thành phần cốt lõi trong chiến lược chuyển đổi số (digital transformation) của mọi doanh nghiệp hiện đại."
+  },
+  "coursera8|5|what are some best practices organizations need to follow in order to protect their cloud resources and systems? select two.": {
+    "correct_indices": [
+      1,
+      2
+    ],
+    "explanation": "Hai best practices bảo vệ tài nguyên Cloud là: áp dụng mô hình trách nhiệm chia sẻ (shared responsibility model) và thực hiện giám sát chủ động liên tục (active monitoring) cho bảo mật & tuân thủ (không phải chạy định kỳ)."
+  },
+  "coursera8|5|which of the following are key components of identity and access management (iam)? select two.": {
+    "correct_indices": [
+      1,
+      2
+    ],
+    "explanation": "Hai thành phần cốt lõi của hệ thống Identity and Access Management (IAM) được nêu trong bài học là Audit and Compliance (kiểm toán & tuân thủ) và Cloud Directory Services (dịch vụ thư mục đám mây)."
+  },
+  "coursera8|5|which of these statements is true of cloud encryption? a. encryption ensures only authorized users have access to sensitive data. b. when encrypted data is intercepted without auth": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Các mệnh đề A, B, C đều đúng (mã hóa bảo vệ dữ liệu ở 3 trạng thái at rest, in transit, in use và khiến dữ liệu bị chặn trở nên vô nghĩa); mệnh đề D sai vì mã hóa không xóa bỏ rủi ro mà chuyển rủi ro sang việc bảo vệ Encryption Keys."
+  },
+  "coursera8|5|identify some of the standard cloud monitoring best practices from the provided options. select two.": {
+    "correct_indices": [
+      0,
+      1
+    ],
+    "explanation": "Hai best practices chuẩn của Cloud Monitoring là: dùng giải pháp giám sát trải nghiệm người dùng cuối (end-user experience monitoring) và theo dõi mức sử dụng cũng như chi phí (track usage and cost) tài nguyên Cloud."
+  },
+  "coursera8|5|fill in the blank. _____________ is a key part of an enterprise’s digital transformation strategy.": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Cloud computing là một phần then chốt trong chiến lược chuyển đổi số (digital transformation) giúp doanh nghiệp tăng tốc đổi mới và năng lực cạnh tranh."
+  },
+  "coursera8|5|which of the following are some best practices organizations must follow to protect their cloud resources and systems?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Doanh nghiệp phải áp dụng mô hình trách nhiệm chia sẻ kết hợp giám sát chủ động liên tục (active monitoring) về bảo mật và tuân thủ để bảo vệ hệ thống Cloud."
+  },
+  "coursera8|5|which of the following are key identity and access management (iam) components?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Cloud Directory Services, Audits, và Compliance là các thành phần then chốt trong khung quản lý định danh và truy cập (IAM)."
+  },
+  "coursera8|5|which of these statements is true of cloud encryption? a. encryption ensures that only authorized users have access to sensitive data. b. when encrypted data is intercepted without": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Chỉ A, B, C đúng: mã hóa đảm bảo chỉ người có quyền truy cập dữ liệu, làm dữ liệu bị chặn trở nên vô nghĩa và bảo vệ ở cả 3 trạng thái (at rest, in transit, in use); D sai vì mã hóa không loại bỏ hoàn toàn rủi ro bảo mật."
+  },
+  "coursera8|5|identify some of the standard cloud monitoring best practices from the provided options.": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Hai thực hành tốt nhất về Cloud Monitoring gồm: giám sát hiệu năng từ góc nhìn người dùng cuối (end-user experience monitoring) và theo dõi mức sử dụng cùng chi phí tài nguyên Cloud."
+  },
+  "coursera8|5|what are some of the monitoring tools that help you to gain insights about your posture, compliance, and threats?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Network flow logs và security events là các công cụ giám sát giúp doanh nghiệp nắm bắt trạng thái bảo mật (security posture), mức độ tuân thủ và các mối đe dọa trên mạng Cloud."
+  },
+  "coursera8|5|what are some of the benefits of using access groups?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Sử dụng Access Groups giúp giảm số lượng access policies phải quản lý trong tài khoản và chuẩn hóa, tinh gọn việc gán quyền truy cập cho nhiều user/service ID cùng lúc."
+  },
+  "coursera8|5|identify the two main parts of an encryption system from the provided options.": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Một hệ thống mã hóa gồm 2 thành phần chính: Thuật toán mã hóa (encryption algorithm — quy tắc biến đổi dữ liệu) và Khóa giải mã (decryption key — cách khôi phục dữ liệu đọc được)."
+  },
+  "coursera8|5|what are some of the benefits that cloud monitoring solutions offer?": {
+    "correct_indices": [
+      1,
+      2
+    ],
+    "explanation": "Giải pháp Cloud Monitoring mang lại các lợi ích: tăng tốc chẩn đoán & xử lý sự cố hiệu năng kèm cảnh báo chủ động tình huống bất thường, và hỗ trợ gỡ lỗi (troubleshoot) ứng dụng lẫn hạ tầng."
+  },
+  "coursera8|5|the weather company migrated its weather web property to a secure, scalable, and global architecture in the ibm cloud. what benefits did they realize as a result of this migration?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Khi di chuyển lên IBM Cloud Kubernetes Services, The Weather Company tận dụng các data center địa phương để giảm độ trễ cho người dùng và tối ưu khả năng co giãn (elasticity) xử lý đột biến lưu lượng khi có bão (các lựa chọn khác thuộc case study khác hoặc sai)."
+  },
+  "coursera8|6|which ibm cloud component helped you make the dineease ordering service scalable? select the component that monitors incoming requests, scales the application instances up and down": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "IBM Cloud Code Engine là nền tảng serverless được quản lý hoàn toàn (fully managed), tự động theo dõi HTTP request đến để scale dịch vụ DineEase Ordering lên xuống theo nhu cầu."
+  },
+  "coursera8|6|which deployment model suits the low latency and high availability demand for dineease services?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Multizone Regions (MZR) triển khai trên nhiều Availability Zones tách biệt vật lý trong cùng một Region giúp DineEase đáp ứng yêu cầu độ trễ thấp và độ sẵn sàng cao 99.99%."
+  },
+  "coursera8|6|payment processing for dineease is computationally intensive, needs a secure environment, and must quickly process large amounts of data. which ibm cloud service did you choose for": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "IBM Cloud Bare Metal Servers cung cấp máy chủ vật lý chuyên biệt single-tenant, không tốn chi phí ảo hóa, bảo mật cao và hỗ trợ GPU — đáp ứng xử lý thanh toán & phát hiện gian lận cường độ cao."
+  },
+  "coursera8|6|search, menu, and pricing services for dineease need the flexibility of using different technology stacks per service. which ibm cloud service did you choose to solve this problem?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "IBM Cloud Kubernetes Service (IKS) giúp điều phối các microservices Search, Menu, Pricing đóng gói trong containers, cho phép dùng tech stack riêng cho từng dịch vụ, tự scale và tự phục hồi."
+  },
+  "coursera8|6|you need to find a service that can interact with dineease api services and the outside world, removes rigid dependencies, and adds a communication layer. which ibm cloud service d": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "IBM API Connect đóng vai trò API Gateway quản lý giao tiếp giữa các dịch vụ API của DineEase với thế giới bên ngoài, định tuyến yêu cầu và loại bỏ sự phụ thuộc cứng giữa các thành phần."
+  },
+  "coursera8|6|dineease needs g optimized reads so that consumers can see restaurant reviews and ratings. which ibm cloud service did you choose to solve this problem?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "IBM Cloudant là cơ sở dữ liệu NoSQL hướng tài liệu (Document DB) hỗ trợ JSON linh hoạt, tối ưu tốc độ đọc (optimized reads) cho đánh giá/xếp hạng nhà hàng và có kiến trúc offline-first tích hợp."
+  },
+  "coursera8|6|dineease needs to find a regionally deployed, fully managed ibm relational database that offers high-availability disaster recovery (hadr). which ibm cloud service did you choose t": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "IBM Db2 on Cloud là cơ sở dữ liệu quan hệ (RDBMS) được quản lý toàn phần bởi nhà cung cấp, hỗ trợ xử lý giao dịch OLTP hiệu năng doanh nghiệp và tích hợp sẵn High-Availability Disaster Recovery (HADR)."
+  },
+  "coursera8|6|dineease hosts a lot of food photos, restaurant logos, and other secondary media. find the service that distributes their content in geographically diverse nodes and shortens the d": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Content Delivery Network (CDN) phân phối và lưu đệm ảnh món ăn, logo nhà hàng tại nhiều node phân tán địa lý gần người dùng cuối để giảm độ trễ và giảm tải cho web server gốc."
+  },
+  "coursera8|6|the new application needs a service to balance traffic among its servers to help improve uptime. which ibm cloud service did you select?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "IBM Cloud Load Balancer for VPC or Classic phân phối đều lưu lượng truy cập giữa các máy chủ microservices, phát hiện lỗi node để chuyển hướng nhằm nâng cao uptime và khả năng chịu lỗi."
+  },
+  "coursera8|6|you needed to find a service that you could use to monitor the performance and health of dineease operations. which ibm cloud services did you select?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "IBM Cloud Monitoring cung cấp khả năng quan sát vận hành (operational visibility) về hiệu năng và sức khỏe của ứng dụng/hạ tầng DineEase, hỗ trợ custom dashboard, cảnh báo và xử lý sự cố."
+  },
+  "coursera9|1|what technology do web servers use to respond to client requests?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Web server tiếp nhận và phản hồi các yêu cầu từ trình duyệt/client bằng giao thức HTTP (HyperText Transfer Protocol)."
+  },
+  "coursera9|1|what is a popular format for sending data to rest services over http?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "JSON (JavaScript Object Notation) là định dạng chuẩn phổ biến nhất để truyền dữ liệu giữa client và REST web service qua HTTP."
+  },
+  "coursera9|1|which of the following is true regarding the import() function but not the require() function?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Lệnh import (ES Modules) bắt buộc phải đặt ở đầu tệp và liên kết tĩnh (compile-time), còn require() có thể gọi ở bất kỳ đâu và liên kết động (run-time)."
+  },
+  "coursera9|1|what is the role of npm (node package manager) in node.js applications?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "NPM giúp tự động tìm kiếm, cài đặt, cập nhật và quản lý các gói thư viện (packages) cùng cây phụ thuộc (dependencies) trong ứng dụng Node.js."
+  },
+  "coursera9|1|what would you use let today = require('./today’); for?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Hàm require('./today') trong CommonJS dùng để nạp (import) một module cục bộ tên today.js vào ứng dụng Node.js hiện tại."
+  },
+  "coursera9|1|which of the following is a back-end technology?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Web API chạy ở phía máy chủ để giao tiếp và cung cấp dữ liệu/nghiệp vụ, còn Browser, HTML và CSS thuộc phía front-end."
+  },
+  "coursera9|1|what quality makes it possible for you to run javascript applications without compiling?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "JavaScript là ngôn ngữ thông dịch (interpreted language), được engine thực thi trực tiếp mà không cần bước biên dịch trước như C++ hay Java."
+  },
+  "coursera9|1|which of the following applications intercepts the call when javascript sends a web service request to the node.js server?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Khi mã JavaScript phía client gửi yêu cầu qua HTTP với JSON payload, REST Web Service trên Node.js server sẽ chặn bắt và xử lý yêu cầu đó."
+  },
+  "coursera9|1|which of the following is a difference between es and commonjs modules?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "ES Modules sử dụng cú pháp import/export (thường với tệp .mjs), trong khi chuẩn CommonJS mặc định của Node.js dùng require() và module.exports."
+  },
+  "coursera9|1|how do you handle operation results with node.js?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Vì Node.js chạy đơn luồng và I/O bất đồng bộ không chặn (non-blocking), ta viết các hàm callback để xử lý kết quả khi tác vụ hoàn tất."
+  },
+  "coursera9|1|what do you use the http.createserver function for?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Hàm http.createServer() của module http tích hợp sẵn dùng để tạo một thể hiện (instance) của web server lắng nghe HTTP request."
+  },
+  "coursera9|1|which core node.js module can be used for input and output (i/o)?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Module lõi fs (File System) cung cấp các phương thức đọc/ghi tệp (I/O) bất đồng bộ lẫn đồng bộ như readFile và readFileSync."
+  },
+  "coursera9|1|which is an aspect of node package manager (npm)?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "NPM có hai vai trò chính: cung cấp công cụ dòng lệnh (CLI) và hoạt động như một kho lưu trữ trực tuyến (online repository) các gói JavaScript."
+  },
+  "coursera9|1|what do you use the require function for?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Hàm require() tích hợp sẵn trong Node.js dùng để nạp các module lõi, module cục bộ hoặc thư viện bên thứ ba vào script hiện tại."
+  },
+  "coursera9|1|what happens when a module does not have a package.json file?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Nếu thư mục module không có tệp package.json chỉ định trường main, Node.js mặc định tệp khởi chạy chính của module là index.js."
+  },
+  "coursera9|2|in what manner do network operations run?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Các tác vụ mạng chạy theo cơ chế bất đồng bộ (asynchronous) vì phản hồi từ máy chủ từ xa không thể trả về ngay lập tức."
+  },
+  "coursera9|2|for which of the following events would you write a callback function in node.js?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Khi Node.js framework nhận được thông điệp HTTP response từ máy chủ từ xa, nó gọi hàm callback đã đăng ký trong http.request() để xử lý phản hồi."
+  },
+  "coursera9|2|where in the callback function does a node.js generally pass an error object?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Theo quy ước Error-first callback trong Node.js SDK, đối tượng Error luôn được truyền ở tham số đầu tiên (first parameter) của hàm callback."
+  },
+  "coursera9|2|what do you use response.end for?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Phương thức response.end() dùng để kết thúc luồng xử lý request và gửi toàn bộ nội dung phản hồi cuối cùng về cho client."
+  },
+  "coursera9|2|which of the following can be helpful to mitigate the issue of needing nested callbacks in order to make something happen sequentially?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Cú pháp async/await (xây trên nền Promises) giúp viết mã bất đồng bộ tuần tự rõ ràng, khắc phục tình trạng Callback Hell (nested callbacks)."
+  },
+  "coursera9|2|what do you use to convert a javascript object to a string?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "JSON.stringify() chuyển đổi một đối tượng JavaScript thành chuỗi JSON, ngược lại với JSON.parse() dùng để phân tích chuỗi JSON thành đối tượng."
+  },
+  "coursera9|2|a promise is defined as an object returned by an asynchronous method that has three states. which of the following is one of the states?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Một đối tượng Promise có 3 trạng thái vòng đời: pending (đang chờ), resolved/fulfilled (đã hoàn thành) và rejected (bị từ chối/lỗi)."
+  },
+  "coursera9|2|what best describes the network operations that node.js makes?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Node.js thực thi mọi tác vụ mạng theo kiểu non-blocking: lệnh gọi trả về ngay lập tức mà không tốn thời gian CPU chờ đợi trên server."
+  },
+  "coursera9|2|before the node.js framework receives the http response message from the remote web server, it immediately returns a result for the http.request function call. what does this resul": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Giá trị trả về tức thì của http.request() (kiểu http.ClientRequest) chỉ cho biết yêu cầu đã được gửi đi và đang trong tiến trình xử lý (in progress)."
+  },
+  "coursera9|2|what parameter is optional in an http request?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Phương thức http.request() nhận tham số hàm callback tùy chọn (optional), được kích hoạt ngay khi nhận được phản hồi từ server."
+  },
+  "coursera9|2|what object do node.js modules in the sdk pass as the first parameter in a callback function?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Các module trong Node.js SDK tuân theo chuẩn Error-first callback nên luôn truyền đối tượng Error làm tham số đầu tiên của hàm callback."
+  },
+  "coursera9|2|what do you pass back in the callback handler to indicate a successful return?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Khi tác vụ thành công không có lỗi, callback được gọi với giá trị null (null object) ở tham số đầu tiên và kết quả ở tham số thứ hai."
+  },
+  "coursera9|2|which function calls the resultcallback callback function to return results to the main application?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Trong module tùy chỉnh, hàm http.request() nhận phản hồi qua sự kiện response.on('end') rồi gọi resultCallback để trả kết quả về ứng dụng chính."
+  },
+  "coursera9|2|why can inversion of control be an issue when using callbacks?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Inversion of Control xảy ra khi bạn giao quyền gọi callback cho mã bên thứ ba, khiến việc phát hiện lỗi (gọi sai số lần, sai lúc) trở nên khó khăn."
+  },
+  "coursera9|2|json is the standard format for api data exchange. what relationship does json have with node.js?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "JSON là biểu diễn chuẩn của các đối tượng JavaScript thuần (native JS objects), giúp Node.js xử lý và tuần tự hóa dữ liệu API cực nhanh."
+  },
+  "coursera9|2|when an error occurs, which state is the promise at?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Khi tác vụ bất đồng bộ phát sinh lỗi và hàm reject() được gọi, Promise chuyển sang trạng thái Rejected và kích hoạt nhánh .catch()."
+  },
+  "coursera9|2|the axios package handles http requests in node.js and returns a promise object. the promise object has a method that is called after the promise completes. what method does the pr": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Đối tượng Promise do axios trả về sử dụng phương thức .then() để xử lý kết quả ngay sau khi Promise hoàn thành (fulfilled)."
+  },
+  "coursera9|3|which npm package is used to generate a json web token?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Gói npm jsonwebtoken cung cấp jwt.sign() để tạo JSON Web Token và jwt.verify() để xác minh token trong các ứng dụng Node.js/Express."
+  },
+  "coursera9|3|which of the following npm commands is a best practice to use when installing dependencies?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Dùng npm install --save (hoặc --save-dev cho gói dev) giúp ghi nhận đầy đủ dependency vào package.json để đồng bộ khi triển khai ở môi trường khác."
+  },
+  "coursera9|3|what can you use to manage node.js packages in your node.js framework?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Ứng dụng dòng lệnh npm (Node Package Manager) dùng để tải, cài đặt và quản lý các gói thư viện cùng phụ thuộc trong hệ sinh thái Node.js."
+  },
+  "coursera9|3|what are two different types of patterns that web frameworks employ?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Các web framework Node.js thường áp dụng hai mô hình kiến trúc phổ biến là MVC (Model-View-Controller) và REST API (Representational State Transfer)."
+  },
+  "coursera9|3|when node.js receives the final part of the http response message, what event handler does it call?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Node.js phát sự kiện response.on('data') cho từng mảnh dữ liệu và gọi response.on('end') khi nhận xong phần cuối cùng của HTTP response."
+  },
+  "coursera9|3|how can you obtain public data and information from an external web server?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Để lấy dữ liệu công khai từ máy chủ web bên ngoài (như API thời tiết), ứng dụng cần gửi một HTTP request tới endpoint của máy chủ đó."
+  },
+  "coursera9|3|you can use the app.get() method to handle requests in express. what does the app.get() method call look like?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Phương thức app.get(path, callback) trong Express nhận đối số thứ nhất là đường dẫn URL (path) và đối số thứ hai là hàm callback xử lý (req, res)."
+  },
+  "coursera9|3|which of the following is one of the five steps needed to work with express?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "5 bước làm việc với Express: khai báo package.json, chạy npm install, import & tạo app, tạo route handler mới, và chạy app.listen() trên một port."
+  },
+  "coursera9|3|which statement is true regarding passwordless authorization?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Xác thực không mật khẩu (passwordless) xác minh danh tính bằng yếu tố chứng minh sở hữu như sinh trắc học, OTP hoặc magic link gửi qua email."
+  },
+  "coursera9|3|one disadvantage of manual parsing is that string matching ignores the xml data structure. however, depending on xml data complexity, string matching might be more efficient than w": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Với dữ liệu XML đơn giản, so khớp chuỗi có thể nhanh và ít tốn tài nguyên hơn việc dựng toàn bộ cây phân tích cấu trúc XML (XML tree)."
+  },
+  "coursera9|3|which type of authentication is widely used for password recovery by providing a magic link to the user?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Hệ thống khôi phục mật khẩu hiện đại thường dùng cơ chế Passwordless bằng cách gửi đường dẫn một lần (magic link) tới email của người dùng."
+  },
+  "coursera9|3|which term describes starting server and bind it to a specific port for handling incoming requests?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Phương thức app.listen(port, callback) khởi động HTTP server và gắn nó vào một cổng mạng xác định để lắng nghe các kết nối đến."
+  },
+  "coursera9|3|the node.js framework doesn't provide many features for building web apps. what do developers rely on to extend node.js features?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Node.js lõi chỉ cung cấp API cơ bản nên lập trình viên dựa vào các thư viện và gói bên thứ ba (như Express, Axios, xml2js) để mở rộng tính năng."
+  },
+  "coursera9|3|which statement regarding the jsonwebtoken.verify() method is true?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Hàm jsonwebtoken.verify(token, secret) dùng để xác minh tính hợp lệ và toàn vẹn của chuỗi JWT trước khi cho phép truy cập tài nguyên bảo vệ."
+  },
+  "coursera9|3|unlike node.js, which deals with http at a lower level, express provides an app class to serve what function?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Express cung cấp lớp app giúp ánh xạ trực tiếp phương thức HTTP tới đường dẫn tài nguyên web (map to a web resource path) gọn hơn http.createServer."
+  },
+  "coursera9|3|which web application framework is based on the node.js runtime environment?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Express là web application framework phổ biến nhất xây dựng trên nền runtime environment Node.js (trong khi JSON là dữ liệu, xml2js/Async.js là thư viện tiện ích)."
+  },
+  "coursera9|3|which node.js package can parse a string of xml elements into a javascript object?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Gói npm xml2js cung cấp hàm parseString() thuần JavaScript để chuyển đổi chuỗi các thẻ XML thành đối tượng JavaScript có cấu trúc."
+  },
+  "coursera9|3|which library and module are commonly used for performing black-box testing of rest apis?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Cặp thư viện Mocha (test runner) và SuperTest (gửi HTTP request kiểm thử endpoint) là chuẩn mực phổ biến cho black-box testing REST API trong Node.js."
+  },
+  "coursera9|3|which of the following kind of task is middleware most useful for?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Middleware trong Express đặc biệt hữu ích cho các tác vụ cắt ngang luồng xử lý như xác thực, ghi log, parse body và xử lý lỗi tập trung (error handling)."
+  },
+  "coursera10|1|what is the data type of the entity 43?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Số nguyên không có phần thập phân như 43 thuộc kiểu dữ liệu int (integer) trong Python."
+  },
+  "coursera10|1|what data type does 3.12323 represent?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Số thực có dấu thập phân như 3.12323 thuộc kiểu dữ liệu float (floating-point number) trong Python."
+  },
+  "coursera10|1|what is the result of the following: int(3.99)?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Hàm int(3.99) ép số thực sang số nguyên bằng cách cắt bỏ phần thập phân (không làm tròn lên), trả về 3."
+  },
+  "coursera10|1|what is the result of the operation: 11//2": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Toán tử // thực hiện chia lấy phần nguyên (floor division), bỏ phần thập phân nên 11 // 2 trả về 5 (khác với 11 / 2 = 5.5)."
+  },
+  "coursera10|1|what is the value of x after the following is run: x=4 x=x/2": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Khởi đầu x = 4, phép chia đơn / trong Python 3 luôn trả về kiểu float nên x = 4 / 2 cho kết quả 2.0."
+  },
+  "coursera10|1|which line of code will perform the action as required for implementing the following equation? 𝑦 = 2 𝑥 2 − 3 y=2x 2 −3 y, equals, 2, x, squared, minus, 3": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Trong Python phải ghi tường minh toán tử nhân *, do đó 2x^2 - 3 được viết chính xác là y = 2*x*x - 3."
+  },
+  "coursera10|1|what is the result of the following? name[-1] alternate text: image with numbers zero to fourteen and a name – michael jackson": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Chỉ số âm -1 truy cập ký tự cuối cùng của chuỗi 'Michael Jackson', tức ký tự 'n'."
+  },
+  "coursera10|1|what is the result of the following? print(\"ab\\nc\\nde\")": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Ký tự thoát \\n xuống dòng tại mỗi vị trí xuất hiện, nên 'AB\\nC\\nDE' in ra AB, C và DE trên ba dòng riêng."
+  },
+  "coursera10|1|what is the output of the following? \"hellomike\".find(\"mike\")": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Phương thức find() trả về chỉ số bắt đầu của chuỗi con; trong 'helloMike' (h:0..o:4, M:5), 'Mike' bắt đầu tại index 5."
+  },
+  "coursera10|1|in python, which statement accurately describes how variable reassignment works?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Khi tái gán biến trong Python, giá trị mới được lưu thay thế hoàn toàn giá trị trước đó của biến."
+  },
+  "coursera10|1|a restaurant manager calculates the total bill for a table. if the food costs $40, the drinks cost $12, and there’s a 15% service charge on the total, which python expression corre": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Phải dùng ngoặc (40 + 12) để tính tổng tiền ăn uống trước rồi mới nhân 1.15 cho mức phí dịch vụ 15%."
+  },
+  "coursera10|1|a developer is creating a weather app that displays temperature readings. the api returns temperature as “22.5”. what data type conversion is needed to perform mathematical calcula": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Chuỗi '22.5' chứa phần thập phân nên cần ép sang float('22.5') mới tính toán được (int('22.5') sẽ gây ValueError)."
+  },
+  "coursera10|1|what is the relationship between boolean values and integers in python?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Trong Python, kiểu bool kế thừa ngữ cảnh số học với True tương ứng 1 và False tương ứng 0 khi ép sang int."
+  },
+  "coursera10|1|what fundamental difference exists between string concatenation and numeric addition in python?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Toán tử + trên chuỗi thực hiện ghép nối văn bản (concatenation), còn trên số thực hiện phép cộng đại số."
+  },
+  "coursera10|1|which statement accurately describes the purpose of string methods in python?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Các phương thức chuỗi (như upper, replace, strip, split) dùng để xử lý và biến đổi dữ liệu văn bản thành chuỗi mới."
+  },
+  "coursera10|1|for the string “hello world” stored in variable text, what will text[0:5] return?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Lát cắt text[0:5] lấy các ký tự từ chỉ số 0 đến 4 (không bao gồm chỉ số 5 là khoảng trắng), cho ra 'Hello'."
+  },
+  "coursera10|1|which field is python not commonly used in?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Python mạnh về web, AI/ML, tự động hóa nhưng ít dùng cho lập trình phần cứng cấp thấp trên vi điều khiển (nơi C/C++ chiếm ưu thế)."
+  },
+  "coursera10|1|what distinguishes jupyter notebooks from traditional python script files?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Jupyter Notebook cho phép chạy từng cell code tương tác độc lập và hiển thị ngay kết quả/biểu đồ bên dưới cell."
+  },
+  "coursera10|1|a developer is creating a program that needs to display the file path c:\\users\\name\\documents. which python string correctly represents this path?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Trong chuỗi Python, dấu gạch chéo ngược \\ là ký tự escape nên phải viết thành \\\\ để hiển thị đúng đường dẫn C:\\Users\\name\\Documents."
+  },
+  "coursera10|2|consider the following tuple: say_what=('say','what','you','will') what is the result of the following? say_what[-1]": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Chỉ số âm -1 luôn trỏ đến phần tử cuối cùng của tuple, do đó say_what[-1] trả về 'will'."
+  },
+  "coursera10|2|consider the following tuple a=(1,2,3,4,5). what is the outcome of the following? a[1:4]": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Slicing A[1:4] lấy các phần tử tại index 1, 2 và 3 (không gồm index 4), cho ra tuple (2, 3, 4)."
+  },
+  "coursera10|2|consider the following list b=[1,2,[3,'a'],[4,'b']]. what is the result of b[3][1]?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "B[3] truy cập list lồng [4, 'b'], sau đó [1] lấy phần tử thứ hai bên trong là 'b'."
+  },
+  "coursera10|2|what is the outcome of the following operation? [1,2,3] + [1,1,1]": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Toán tử + nối hai list theo đúng thứ tự thành một list mới [1, 2, 3, 1, 1, 1] chứ không cộng từng phần tử."
+  },
+  "coursera10|2|what will be the length of the list a after executing the following code: 1 2 a = [1] a.append([2, 3, 4, 5])": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "append([2, 3, 4, 5]) thêm cả list con làm một phần tử duy nhất vào cuối A = [1], nên len(A) bằng 2."
+  },
+  "coursera10|2|what are the keys of the following dictionary? {\"a\":1,\"b\":2}": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Trong dictionary {'a': 1, 'b': 2}, các khóa (keys) nằm trước dấu hai chấm là 'a' và 'b'."
+  },
+  "coursera10|2|consider the following python dictionary: dict={\"a\":1,\"b\":\"2\",\"c\":[3,3,3],\"d\":(4,4,4),'e':5,'f':6} what will be the outcome of the following operation? dict[\"d\"]": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Truy cập Dict['D'] trả về giá trị gắn với khóa 'D', tức tuple (4, 4, 4)."
+  },
+  "coursera10|2|which of the following is the correct syntax to extract the keys of a dictionary as a list?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Phương thức dict.keys() trả về đối tượng view các khóa; cần bọc trong list(dict.keys()) để chuyển thành danh sách chuẩn."
+  },
+  "coursera10|2|consider the following set: {\"a\",\"a\"}, what will the result be when you create the set?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Set chỉ lưu các phần tử duy nhất nên phần tử trùng lặp trong {'A', 'A'} tự động bị loại bỏ, chỉ còn {'A'}."
+  },
+  "coursera10|2|what method do you use to add an element to a set?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Để thêm một phần tử mới vào set trong Python, ta dùng phương thức add() (list mới dùng append/insert/extend)."
+  },
+  "coursera10|2|what is the result of the following operation? {'a','b'} &{'a'}": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Toán tử & thực hiện phép giao (intersection) giữa hai tập hợp, giữ lại phần tử chung duy nhất là {'a'}."
+  },
+  "coursera10|2|examine the tuple a=((11,12),[21,22]), which contains a tuple and list. what is the outcome of the following operation a[1]?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Tuple A gồm 2 phần tử ở index 0 và 1; A[1] truy cập phần tử thứ hai là list [21, 22]."
+  },
+  "coursera10|2|consider the tuple a=((1),[2,3],[4]), that contains a tuple and list. what is the result of the following operation a[2]?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Trong tuple A=((1),[2,3],[4]), phần tử ở vị trí index 2 là danh sách [4]."
+  },
+  "coursera10|2|which statement correctly explains the difference between the append() and extend() methods for python lists?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "append() chèn nguyên đối tượng truyền vào thành 1 phần tử, còn extend() duyệt qua iterable để thêm từng phần tử vào cuối list."
+  },
+  "coursera10|2|consider the following list: a=[\"hard rock\",10,1.2] what will list a contain after the following command is run? del(a[1])": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "del(A[1]) xóa phần tử tại chỉ số 1 (giá trị 10) khỏi list A, còn lại ['hard rock', 1.2]."
+  },
+  "coursera10|2|what is the importance of creating proper copies of lists in python rather than using direct assignment?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Sao chép list bằng copy() hoặc [:] tạo vùng nhớ độc lập để tránh hiệu ứng aliasing khi chỉnh sửa list mới."
+  },
+  "coursera10|2|a researcher analyzes demographic data stored in a tuple: demographics = (\"female\", 35, \"phd\", \"engineering\", \"urban\"). to validate the data structure, the researcher needs to conf": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Hàm dựng sẵn len(demographics) trả về tổng số phần tử đang lưu trong tuple."
+  },
+  "coursera10|2|a music streaming service stores album release years in a dictionary: album_years = {\"thriller\":\"1982\", \"back in black\":\"1980\", \"the dark side of the moon\":\"1973\"}. when generating": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Báo cáo 'Years in Music' cần trích xuất các năm phát hành, tức phần values ('1982', '1980', '1973') của dictionary."
+  },
+  "coursera10|2|a retail inventory system uses a dictionary to track products: inventory = {\"shirt\":45, \"pants\":20, \"shoes\":15, \"hat\":5}. the store manager needs to check which items are running l": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Số lượng tồn kho nằm ở phần giá trị (values) của dictionary inventory, nên dùng inventory.values() để lấy riêng các số lượng."
+  },
+  "coursera10|2|consider the set: v={'a','b'}, what is the result of v.add('c')?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Phương thức V.add('C') thêm phần tử 'C' trực tiếp vào tập hợp V, biến V thành {'A', 'B', 'C'}."
+  },
+  "coursera10|2|which operation would you use to combine all unique elements from two sets, a and b?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Hợp hai tập hợp (lấy toàn bộ phần tử duy nhất từ A và B) dùng A.union(B) hoặc toán tử A | B."
+  },
+  "coursera10|3|what is the outcome of the following? 1=2": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "1 = 2 dùng nhầm toán tử gán = cho giá trị hằng số (literal) thay vì ==, nên Python báo SyntaxError."
+  },
+  "coursera10|3|what is the output of the following code segment? i=6 i<5": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Với i = 6, biểu thức so sánh 6 < 5 là sai nên trả về giá trị Boolean False."
+  },
+  "coursera10|3|true or false. what is the output of the below code snippet? ‘a’==‘a’": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "So sánh chuỗi trong Python phân biệt chữ hoa và chữ thường nên 'a' == 'A' trả về False."
+  },
+  "coursera10|3|which of the following best describes the purpose of ‘elif’ statement in a conditional structure?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Nhánh elif cho phép kiểm tra thêm một điều kiện mới chỉ khi điều kiện if (và các elif trước đó) đều sai."
+  },
+  "coursera10|3|what will be the result of the following? 1 2 for x in range(0, 3): print(x)": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "range(0, 3) sinh dãy số 0, 1, 2 (không bao gồm 3), nên vòng lặp in lần lượt 0, 1, 2."
+  },
+  "coursera10|3|what is the output of the following: 1 2 for x in ['a', 'b', 'c']: print(x + 'a')": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Vòng lặp duyệt từng phần tử trong ['A', 'B', 'C'] và ghép thêm 'A' vào sau, tạo ra AA, BA, CA."
+  },
+  "coursera10|3|what is the output of the following? 1 2 3 for i, x in enumerate(['a', 'b', 'c']): print(i, x)": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "enumerate() trả về cặp (chỉ số, giá trị) ở mỗi bước lặp, nên print(i, x) in ra 0 A, 1 B, 2 C."
+  },
+  "coursera10|3|what does the following function return? len(['a','b',1])": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Danh sách ['A', 'B', 1] có 3 phần tử nên hàm len() trả về 3."
+  },
+  "coursera10|3|what does the following function return? len([sum([1,1,1])])": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "sum([1, 1, 1]) bằng 3, được đặt trong một list gồm 1 phần tử duy nhất là [3], do đó len([3]) bằng 1."
+  },
+  "coursera10|3|after executing the following code segment, what will be the value of list l? l=[1,3,2] sorted(l)": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Hàm sorted(L) trả về một list mới đã sắp xếp mà không làm thay đổi list gốc L, nên L vẫn là [1, 3, 2]."
+  },
+  "coursera10|3|what result does the following code produce? 1 2 3 4 def print_function(a): for a in a: print(a + '1') print_function(['a', 'b', 'c'])": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Hàm print_function duyệt qua từng ký tự trong ['a', 'b', 'c'] và ghép '1' vào sau, in ra a1, b1, c1 trên 3 dòng."
+  },
+  "coursera10|3|why do we use exception handlers?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Exception handler dùng để bắt và xử lý các lỗi phát sinh khi chạy chương trình, giúp ứng dụng không bị dừng đột ngột."
+  },
+  "coursera10|3|what is the purpose of a try…except statement?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Khối try...except thử chạy đoạn mã có nguy cơ lỗi trong try và chuyển sang khối except để xử lý khi có ngoại lệ."
+  },
+  "coursera10|3|consider the following code: if the user enters the value of `b’ as 0, what is expected as the output? 1 2 3 4 5 6 7 8 a = 1 try: b = int(input(\"please enter a number to divide a: ": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Khi b = 0, phép chia a / b gây ZeroDivisionError trong khối try và lập tức nhảy vào nhánh except in 'There was an error'."
+  },
+  "coursera10|3|which of the following statements will create an object ‘c1’ for the class that uses radius as 4 and color as ‘yellow’? 1 2 3 4 5 6 7 8 9 10 11 class circle(object): # constructor ": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Hàm __init__(self, radius=3, color='blue') nhận radius trước rồi mới đến color, nên truyền Circle(4, 'yellow') là đúng thứ tự."
+  },
+  "coursera10|3|consider the execution of the following lines of code. circleobject = circle() circleobject.radius = 10 what are the values of the radius and color attributes for the circleobject ": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Circle() khởi tạo mặc định radius=3, color='blue'; lệnh CircleObject.radius = 10 chỉ đổi radius thành 10, giữ nguyên color='blue'."
+  },
+  "coursera10|3|what is the color attribute of the object v1? 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 class vehicle: color = \"white\" def __init__(self, max_speed, mileage): self.max_speed = max_speed ": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Lớp Vehicle định nghĩa class attribute color = 'white', nên đối tượng V1 thừa hưởng thuộc tính color có giá trị 'white'."
+  },
+  "coursera10|3|which of the following options would create an appropriate object that points to a red, 5-seater vehicle with a maximum speed of 200kmph and a mileage of 20kmpl? 1 2 3 4 5 6 7 8 9 ": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Vehicle(200, 20) gán max_speed=200 và mileage=20, sau đó gán Car.color = 'red' và gọi assign_seating_capacity(5) để đặt 5 chỗ."
+  },
+  "coursera10|3|what is the value printed upon execution of the code shown below? 1 2 3 4 5 6 7 8 9 class graph(): def __init__(self, id): self.id = id self.id = 80 val = graph(200) print(val.id)": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Trong __init__, dòng self.id = 80 ghi đè lên giá trị self.id = id (200) ngay sau đó, nên val.id luôn là 80."
+  },
+  "coursera10|3|a traffic management system uses the following code to control pedestrian crossing signals: signal_state = \"red\" if signal_state == \"green\": print(\"walk\") else: print(\"wait\") print": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "signal_state là 'Red' nên đi vào nhánh else in 'Wait', rồi chạy tiếp lệnh print('Look both ways') bên ngoài khối điều kiện."
+  },
+  "coursera10|3|a temperature monitoring system uses the following code to check if a reading exceeds a threshold: current_temp = 18 current_temp = current_temp > 25 what value will be stored in c": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Với current_temp = 18, biểu thức 18 > 25 đánh giá thành False rồi gán ngược lại vào biến current_temp."
+  },
+  "coursera10|3|what characteristic of a while loop determines when it will terminate execution?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Vòng lặp while tiếp tục chạy khi điều kiện còn True và chỉ kết thúc khi biểu thức điều kiện đánh giá thành False."
+  },
+  "coursera10|3|a graphics application uses a class to represent screen coordinates. what will be displayed when the following code runs? class coordinate(object): def __init__(self, x, y): self.x": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Coordinate(15, 30) gán self.x=15, self.y=30; phương thức display() dùng f-string in ra 'Position: (15, 30)'."
+  },
+  "coursera10|3|what fundamental capability does the enumerate() function provide that a standard loop does not?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Khác với vòng lặp for thông thường, enumerate() tự động cung cấp đồng thời cả vị trí chỉ số (index) lẫn giá trị phần tử."
+  },
+  "coursera10|3|a weather application uses a class to track temperature data. what will be displayed when this code is running? class weatherdata: def __init__(self, temp_c, humidity): self.temp_c": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Sau khi tạo today = WeatherData(22, 45), thuộc tính today.temp_c được cập nhật thành 25 nên display() in 'Temperature: 25°C, Humidity: 45%'."
+  },
+  "coursera10|3|a data validation system uses a function to check if a value falls within an acceptable range. what will the following function return when processing a sensor reading of 32? def v": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Giá trị 32 nằm trong khoảng 20 <= 32 <= 40 là True, nên hàm gán result = 'Valid' và trả về 'Valid'."
+  },
+  "coursera10|3|a budgeting application uses the following code to calculate expenses. what will be displayed when this code is running? total_budget = 1000 def calculate_remaining(spent): total_b": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Biến total_budget = 500 bên trong hàm là biến cục bộ (local), nên calculate_remaining(200) tính 500 - 200 = 300."
+  },
+  "coursera10|3|which function definition demonstrates the most efficient implementation for adding two numbers?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Trả về trực tiếp biểu thức cộng hai tham số (return a + b) là cách ngắn gọn và hiệu quả nhất, tránh tạo biến hay tuple thừa."
+  },
+  "coursera10|3|a data analysis program processes financial records using the following code: try: file = open('financial_data.csv', 'r') data = file.read() result = process_data(data) print(f\"tot": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Tách riêng except FileNotFoundError và except ValueError giúp đưa ra thông báo và cách xử lý chính xác cho từng loại lỗi."
+  },
+  "coursera10|4|what are the most commonly used modes when opening a file?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Ba chế độ mở file phổ biến nhất trong Python là 'r' (read - đọc), 'w' (write - ghi đè) và 'a' (append - ghi nối tiếp)."
+  },
+  "coursera10|4|which data attribute retrieves the file's title?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Thuộc tính file1.name của file object trả về chuỗi chứa tên/đường dẫn của tệp đang mở."
+  },
+  "coursera10|4|which command instructs python to initiate a new line?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Ký tự thoát \\n (newline) báo cho Python xuống dòng mới khi in hoặc ghi chuỗi vào tệp."
+  },
+  "coursera10|4|which method is used to write data into a file in python?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Phương thức file1.write() dùng để ghi dữ liệu dạng chuỗi vào tệp đã mở ở chế độ ghi."
+  },
+  "coursera10|4|what python object do you cast to a data frame?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Trong Pandas, một Dictionary (với keys là tên cột và values là danh sách giá trị) có thể truyền trực tiếp vào pd.DataFrame() để tạo DataFrame."
+  },
+  "coursera10|4|how would you access the first row and first column in the dataframe df?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Chỉ số trong Pandas bắt đầu từ 0, nên ô ở hàng đầu tiên và cột đầu tiên được truy cập qua df.iloc[0, 0]."
+  },
+  "coursera10|4|what is the proper way to load a csv file using pandas?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Hàm chuẩn của thư viện Pandas để nạp dữ liệu từ tệp CSV vào DataFrame là pandas.read_csv('data.csv')."
+  },
+  "coursera10|4|assume that you have a data frame containing details of various musical artists, their famous albums, their genres, and various other parameters. here, `genre` is the fifth column ": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Chỉ số 0-based: hàng thứ 7 ứng với index 6, cột thứ 5 ứng với index 4, nên dùng df.iloc[6, 4] (iloc không nhận tên cột kiểu chuỗi)."
+  },
+  "coursera10|4|assume that you have a data frame containing details of various musical artists, their famous albums, their genres, and various other parameters. here, `album` is the second column": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Với df.loc, lát cắt nhãn 2:5 lấy bao gồm cả hai đầu (index 2, 3, 4, 5 tức hàng 3 đến hàng 6) của cột 'Album'."
+  },
+  "coursera10|4|what python library serves as a foundation for pandas and is used for scientific computing?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "NumPy là thư viện tính toán khoa học cung cấp cấu trúc ndarray tốc độ cao, làm nền tảng cho Pandas."
+  },
+  "coursera10|4|what attribute retrieves the number of elements in a numpy array?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Thuộc tính a.size trả về tổng số phần tử có trong mảng NumPy (khác với shape trả về kích thước từng chiều)."
+  },
+  "coursera10|4|how would you change the first element to 10 in this array? c = np.array([100,1,2,3,0])": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Phần tử đầu tiên của mảng NumPy nằm ở chỉ số 0, nên gán c[0] = 10 để đổi 100 thành 10."
+  },
+  "coursera10|4|what is the outcome of the following lines of code? a=np.array([-1,1]) b=np.array([1,1]) np.dot(a,b)": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Tích vô hướng np.dot([-1, 1], [1, 1]) bằng (-1)*1 + 1*1 = -1 + 1 = 0."
+  },
+  "coursera10|4|what is the first step you must check before performing matrix multiplication between two numpy arrays a and b?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Điều kiện nhân hai ma trận A · B là số cột của ma trận A phải bằng đúng số hàng của ma trận B."
+  },
+  "coursera10|4|what does the shape attribute tell you about a numpy array?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Thuộc tính shape trả về một tuple cho biết số phần tử theo từng chiều (số hàng, số cột) của mảng NumPy."
+  },
+  "coursera10|4|when used between two numpy arrays, what mathematical operation does the asterisk (*) perform?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Toán tử * giữa hai mảng NumPy thực hiện phép nhân từng phần tử tương ứng (element-wise / Hadamard product), không phải nhân ma trận."
+  },
+  "coursera10|4|given the following file content for \"example1.txt\": this is line 1 this is line 2 this is line 3 what would be the output of this code? with open(\"example1.txt\",\"r\") as file1: fil": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Phương thức readline() chỉ đọc một dòng đầu tiên của tệp, nên kết quả in ra là 'This is line 1'."
+  },
+  "coursera10|4|when would you use the “a” mode with the open() function?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Chế độ 'a' (append) mở tệp để ghi nối thêm dữ liệu mới vào cuối tệp mà không làm mất nội dung hiện có."
+  },
+  "coursera10|4|what do the following lines of code do? with open(\"example.txt\",\"w\") as writefile: writefile.write(\"this is line a\\n\") writefile.write(\"this is line b\\n\")": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Mở tệp với chế độ 'w' và gọi write() hai lần sẽ tạo mới (hoặc ghi đè) hai dòng vào tệp 'Example.txt'."
+  },
+  "coursera10|4|what is the difference between the “w” and “a” modes when opening a file?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Chế độ 'w' xóa sạch và ghi đè toàn bộ nội dung tệp nếu đã tồn tại, còn 'a' giữ nguyên nội dung cũ và ghi tiếp vào cuối."
+  },
+  "coursera10|4|using the loc method, how would you access the second row of a dataframe's column named ”artist”?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Chỉ số hàng bắt đầu từ 0 nên hàng thứ hai có nhãn mặc định là 1; dùng df.loc[1, 'artist'] để truy cập ô thuộc cột 'artist'."
+  },
+  "coursera10|4|which method extracts the distinct elements from the following? df['length']": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Phương thức unique() trên Series df['Length'] trả về mảng các giá trị riêng biệt không trùng lặp."
+  },
+  "coursera10|5|what does api stand for?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "API là viết tắt của Application Programming Interface — giao diện lập trình ứng dụng."
+  },
+  "coursera10|5|which data format is commonly found in the http message for api requests?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "JSON (JavaScript Object Notation) là định dạng dữ liệu nhẹ, phổ biến nhất trong thông điệp HTTP của các REST API."
+  },
+  "coursera10|5|what is the primary purpose of an api?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Mục đích chính của API là làm cầu nối chuẩn hóa giúp các phần mềm hoặc hệ thống khác nhau giao tiếp và trao đổi dữ liệu."
+  },
+  "coursera10|5|what is the function of \"get\" in http requests?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Phương thức HTTP GET mang yêu cầu từ client lên server để truy xuất/đọc dữ liệu tài nguyên."
+  },
+  "coursera10|5|what does url stand for?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "URL là viết tắt của Uniform Resource Locator — địa chỉ định vị tài nguyên thống nhất trên web."
+  },
+  "coursera10|5|what does the file extension “csv” stand for?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Phần mở rộng tệp .csv là viết tắt của Comma Separated Values (các giá trị phân tách bằng dấu phẩy)."
+  },
+  "coursera10|5|what is webscraping?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Web scraping là quá trình trích xuất dữ liệu tự động từ các trang web (thường phân tích cấu trúc HTML)."
+  },
+  "coursera10|5|what are the three parts of a response message?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Một HTTP response message gồm ba phần: dòng trạng thái (start/status line), tiêu đề (header) và thân nội dung (body)."
+  },
+  "coursera10|5|what is the relationship between parent and child elements in an html document tree used in beautifulsoup?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "HTML được tổ chức dạng cây phân cấp, trong đó thẻ con nằm lồng bên trong thẻ cha, cho phép BeautifulSoup điều hướng lên xuống."
+  },
+  "coursera10|5|what is the relationship between json data and python dictionaries when working with api responses?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Cấu trúc cặp key-value của JSON tương đồng trực tiếp với Python dictionary, nên json.load() / response.json() chuyển đổi rất tự nhiên."
+  },
+  "coursera10|5|when creating a candlestick chart for cryptocurrency prices, what data processing step was used to prepare the time-based data?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Hàm pd.to_datetime() chuyển đổi cột UNIX timestamp (mili-giây) sang định dạng ngày giờ dễ đọc trước khi nhóm theo ngày vẽ biểu đồ nến."
+  },
+  "coursera10|5|what is the role of the 'td' tag in html files?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Trong bảng HTML (<table>), thẻ <td> (table data) đại diện cho từng ô dữ liệu nằm trong một hàng <tr>."
+  },
+  "coursera10|5|a developer is creating a web form that submits sensitive user information. which http method should they use for the form submission and why?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Biểu mẫu chứa dữ liệu nhạy cảm nên dùng phương thức POST vì dữ liệu được gửi trong request body thay vì lộ trên URL như GET."
+  },
+  "coursera10|5|what distinguishes rest apis from other types of apis?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "REST API giao tiếp qua mạng Internet bằng các phương thức HTTP (GET, POST, PUT, DELETE) và thường trao đổi dữ liệu dạng JSON."
+  },
+  "coursera10|5|a data analyst has received three data files: customer_data.csv, inventory.json, and sales_report.xml. which python code would correctly read the csv file?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Để đọc tệp CSV vào DataFrame phân tích trong Python, chuẩn nhất là import pandas as pd rồi gọi pd.read_csv('customer_data.csv')."
+  },
+  "coursera10|5|a developer is creating an application that needs to retrieve data from a rest api. which code snippet correctly sends a get request with parameters?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Để gửi tham số truy vấn (query parameters) cho HTTP GET bằng thư viện requests, ta truyền dictionary vào tham số params=payload."
+  },
+  "coursera10|5|what is the first step in creating a beautifulsoup object for web scraping?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Bước đầu tiên để tạo đối tượng BeautifulSoup là import BeautifulSoup từ bs4 và truyền nội dung HTML cùng parser vào constructor."
+  },
+  "coursera10|5|what data type does the value 1.0 belong to?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Giá trị 1.0 có dấu thập phân nên trong Python thuộc kiểu số thực float (khác với 1 thuộc kiểu int)."
+  },
+  "coursera10|5|given the string name=\"emily\", which statement would provide the index of 3?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Chuỗi 'EMILY' có chỉ số từ 0 ('E':0, 'M':1, 'I':2, 'L':3, 'Y':4), nên Name.find('L') trả về đúng chỉ số 3."
+  },
+  "coursera10|5|when using the double slash “//” for integer division the result will be?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Phép chia // (floor/integer division) cắt bỏ phần thập phân và chỉ giữ lại phần nguyên của thương số."
+  },
+  "coursera10|5|what data type must have unique keys?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Trong các kiểu dữ liệu Python, Dictionary lưu trữ cặp key-value và bắt buộc mỗi key phải duy nhất (unique)."
+  },
+  "coursera10|5|what is a tuple?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Tuple trong Python là tập hợp có thứ tự (ordered) và không thể thay đổi sau khi tạo (unchangeable/immutable)."
+  },
+  "coursera10|5|what outcome does the following operation: '1,2,3,4'.split(',')produce?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Phương thức split(',') tách chuỗi theo dấu phẩy và trả về một list các chuỗi con là ['1', '2', '3', '4']."
+  },
+  "coursera10|5|if a is a list, what happens with this segment of code: a=set(a)?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Hàm set(A) ép kiểu danh sách A thành một tập hợp (set) các phần tử duy nhất và gán vào biến a."
+  },
+  "coursera10|5|for the code shared below, what value of x will produce the output “how are you?”? [select three] how are you? if(x!=1): print('how are you?') else: print('hi')": {
+    "correct_indices": [
+      1,
+      2,
+      3
+    ],
+    "explanation": "Điều kiện x != 1 đúng với x = 6, x = '7' (chuỗi khác số nguyên 1) và x = 0, nên cả ba lựa chọn 1, 2, 3 đều in 'How are you?'."
+  },
+  "coursera10|5|what is an error that occurs during the execution of code?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Lỗi phát sinh trong quá trình thực thi chương trình (runtime) được gọi là Exception (ngoại lệ)."
+  },
+  "coursera10|5|for the provided add function below, what is the return value of the following? def add(x): return(x + x) add('1')": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Truyền chuỗi '1' vào hàm add(x) thực hiện phép nối chuỗi '1' + '1', trả về chuỗi '11'."
+  },
+  "coursera10|5|what is the output of the following? for i in range(1,5): if (i!=2): print(i)": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "range(1, 5) sinh các số 1, 2, 3, 4; điều kiện i != 2 bỏ qua số 2 nên chương trình in ra lần lượt 1, 3, 4."
+  },
+  "coursera10|5|what is the rectangle's height in the rectangle class? class rectangle(object): def __init__(self,width=2,height =3,color='r'): self.height=height self.width=width self.color=color": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Trong hàm khởi tạo __init__(self, width=2, height=3, color='r'), giá trị mặc định của thuộc tính height là 3."
+  },
+  "coursera10|5|how can you sort list 'b' using a method to modify the original list instead of creating a new one?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Phương thức B.sort() sắp xếp trực tiếp trên list gốc B (in-place), còn hàm sorted(B) tạo và trả về một list mới."
+  },
+  "coursera10|5|which line of code, when executed, would generate the following output: array([0, 0, 0, 0, 0])?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Phép nhân a * b giữa hai mảng NumPy nhân từng cặp phần tử tương ứng (0*1=0, 1*0=0...), tạo ra array([0, 0, 0, 0, 0])."
+  },
+  "coursera10|5|what outcome do the following lines of code produce? a=np.array([1,1,1,1,1]) a+1": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Cộng mảng NumPy với hằng số (a + 1) áp dụng phép cộng lên mọi phần tử (broadcasting), cho kết quả array([2, 2, 2, 2, 2])."
+  },
+  "coursera10|5|what does the following line of code select along with the headers ‘artist’, ‘length’, ‘year’ and ‘genre’ from the dataframe df? y=df[['artist','length','genre']]": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Cú pháp df[['Artist', 'Length', 'Genre']] với danh sách tên cột trong ngoặc vuông kép chọn ra một DataFrame mới chứa đúng 3 cột chỉ định."
+  },
+  "coursera10|5|given the file object named file1, which of the following codes prints the first 2 lines of the content in it?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Vòng lặp for n in range(0, 2) gọi file1.readline() đúng 2 lần, qua đó đọc và in ra 2 dòng đầu tiên của tệp."
+  },
+  "coursera10|5|which mode overwrites existing text in a file?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Mở tệp với chế độ 'w' (write) sẽ ghi đè toàn bộ nội dung hiện có trong tệp (khác với 'a' chỉ ghi nối tiếp)."
+  },
+  "coursera10|5|in the url below, which part is the scheme? http://www.ibm.com/images/idsnlogo.png": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "URL gồm 3 phần: scheme (giao thức 'http://'), địa chỉ máy chủ ('www.ibm.com') và đường dẫn ('/images/IDSNlogo.png')."
+  },
+  "coursera10|5|what is the process of extraction of data from a website called?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Quá trình trích xuất tự động dữ liệu từ các trang web được gọi là Webscraping (Web scraping)."
+  },
+  "coursera11|1|identify the file where you add code to reference the modules in the package?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Tệp __init__.py biến một thư mục thành Python package và là nơi thêm các lệnh import (như from . import module1) để tham chiếu các module bên trong."
+  },
+  "coursera11|1|which of the following is a best practice when creating function names to write test cases?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Trong thư viện unittest, tên các phương thức kiểm thử phải bắt đầu bằng tiền tố test_ để test runner tự động nhận diện và thực thi."
+  },
+  "coursera11|1|which of the following is a valid method name based on pep8 guidelines?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Theo chuẩn PEP 8, tên hàm và phương thức phải viết chữ thường toàn bộ và phân tách các từ bằng dấu gạch dưới (snake_case), như get_user_name()."
+  },
+  "coursera11|1|which of the following is required to package a python module?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Để đóng gói một hoặc nhiều module Python thành package, bắt buộc phải đặt chúng trong cùng một thư mục có chứa tệp __init__.py."
+  },
+  "coursera11|1|which of the following is true about web apps and apis? (select two)": {
+    "correct_indices": [
+      1,
+      3
+    ],
+    "explanation": "Mọi ứng dụng web đều là một dạng API kết nối front-end với back-end, nhưng không phải mọi API đều cần mạng như web app; cả hai đều làm cầu nối liên kết hai thành phần hệ thống."
+  },
+  "coursera11|1|a smartwatch application displays the daily weather forecast without collecting any weather information. how does the application access this information?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Ứng dụng đồng hồ thông minh không tự tạo dữ liệu thời tiết mà gửi yêu cầu lấy thông tin từ một dịch vụ thời tiết bên ngoài thông qua API."
+  },
+  "coursera11|1|developers want to test the newly implemented payment gateway in the online booking site for its efficiency with the current system. which testing phase is this?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Câu hỏi nhấn mạnh việc kiểm tra hiệu quả/hiệu năng (efficiency) của cổng thanh toán mới khi vận hành cùng hệ thống hiện tại, đây là mục tiêu của Performance testing."
+  },
+  "coursera11|1|an engineer is cleaning up legacy code and wants to find style issues quickly. he used pylint for this task. which of the following is true about pylint?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "PyLint là công cụ phân tích mã tĩnh (static code analysis) giúp kiểm tra tuân thủ PEP 8, lỗi cú pháp và biến chưa định nghĩa mà không cần chạy code."
+  },
+  "coursera11|1|which of the following is the right way to name constants based on the pep8 guidelines?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Chuẩn PEP 8 quy định tên hằng số (constants) phải viết hoa toàn bộ chữ cái và dùng dấu gạch dưới ngăn cách giữa các từ, như DATE_OF_BIRTH."
+  },
+  "coursera11|1|a stakeholder wants the developer to build a feature in the application that enables users to view all the available rooms and amenities on the hotel reservation application. which": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Tính năng cho phép người dùng cuối xem danh sách phòng và tiện nghi trực tiếp thuộc nhóm yêu cầu người dùng (User requirements) trong pha thu thập yêu cầu."
+  },
+  "coursera11|1|while designing a unit testing strategy for your python app, you choose to encapsulate tests within a class. why is this considered good practice?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Đóng gói các ca kiểm thử vào một class kế thừa unittest.TestCase cung cấp một điểm vào duy nhất (single entry point) để chạy toàn bộ các unit test cùng lúc."
+  },
+  "coursera11|1|you are testing the function doubler using the input 3. you noticed that the assertequal assertion fails because the function returned 9 instead of 6. what does the fail result ind": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Phép kiểm chứng assertEqual(doubler(3), 6) thất bại vì hàm doubler đã tính sai kết quả (trả về 9 thay vì 6), giúp lập trình viên phát hiện và sửa lỗi trước khi triển khai."
+  },
+  "coursera11|1|your project has a folder structure where mypackage contains a file my_code.py with a print_hello() function. which import approaches correctly access the function?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Import module my_code từ package mypackage bằng `from mypackage import my_code` rồi gọi `my_code.print_hello()` là cú pháp chính xác và đúng tên hàm."
+  },
+  "coursera11|1|you want to test a method inside a module called data_tools.py, which is part of the analytics package. what is the correct way to reference it?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Cú pháp chuẩn để gọi một hàm bên trong module thuộc package sau khi import package là `package_name.module_name.function_name(parameters)`."
+  },
+  "coursera11|1|you want to import contents from the “utilities” folder that includes several python scripts and an __init__.py file into another script. which option correctly describes what the ": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Thư mục utilities chứa các tệp script Python (modules) cùng tệp __init__.py chính là một cấu trúc Python package chuẩn để import từ bên ngoài."
+  },
+  "coursera11|2|which of the following methods sends html form data to the server?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Phương thức HTTP POST được dùng để gửi dữ liệu từ HTML form (hoặc tạo đối tượng/tài nguyên mới) lên server xử lý."
+  },
+  "coursera11|2|what is @app.route used for?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Decorator @app.route() trong Flask dùng để định nghĩa một route, ánh xạ đường dẫn URL tới hàm xử lý tương ứng."
+  },
+  "coursera11|2|which of the following are two objects provided by flask that are used for each client call? (select two)": {
+    "correct_indices": [
+      1,
+      3
+    ],
+    "explanation": "Trong mỗi lượt gọi từ client, Flask cung cấp hai đối tượng cốt lõi là Request (chứa headers, args, body) và Response (chứa status code, nội dung trả về)."
+  },
+  "coursera11|2|you can use dynamic routes to create ______ endpoints.": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Dynamic routes trong Flask cho phép truyền tham số tài nguyên ngay trên URL (như /book/<isbn>) để xây dựng các endpoint theo chuẩn RESTful."
+  },
+  "coursera11|2|when working with a flask server, what is the code number for a successful response?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Mã trạng thái HTTP 200 (OK) biểu thị yêu cầu đã được máy chủ tiếp nhận và xử lý thành công."
+  },
+  "coursera11|2|your team is building a full-featured web application and needs a structure that supports efficient database management, built-in security, and reusable components. which of the fo": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Khác với thư viện chỉ làm một chức năng cụ thể, Web Framework (Django, Flask) cung cấp sẵn kiến trúc chuẩn, công cụ tích hợp DB/bảo mật giúp xây dựng ứng dụng hoàn chỉnh."
+  },
+  "coursera11|2|you are setting up url mapping in a flask application using @app.route('/home'). what does '/home' represent in @app.route('/home')?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Chuỗi '/home' truyền vào decorator @app.route() là đường dẫn định tuyến (Route) mà client sẽ truy cập trên máy chủ."
+  },
+  "coursera11|2|mona is developing a web application using the flask framework, with the @app.route() decorator in her code. what is this decorator primarily used to create?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Decorator @app.route() gắn một hàm Python với đường dẫn URL cụ thể để tạo thành bộ xử lý URL (URL handler) trong Flask."
+  },
+  "coursera11|2|a developer is troubleshooting an error while downloading a file from the flask api. they want to confirm the size of the response body they sent back to the client. which property": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Thuộc tính content_length của đối tượng Response trong Flask lưu kích thước (tính bằng byte) của phần thân thông điệp phản hồi gửi về client."
+  },
+  "coursera11|2|while auditing a flask application to monitor requests, to capture all ip addresses that forward the requests, especially in the presence of proxies. which code snippet is suitable": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Thuộc tính request.access_route của Flask liệt kê toàn bộ danh sách các địa chỉ IP đã chuyển tiếp yêu cầu khi request đi qua nhiều proxy."
+  },
+  "coursera11|2|while developing a flask app that fetches book data from the openlibrary api using the author's name, you have received a 200 status code from the api response. what should your ap": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Khi gọi OpenLibrary API nhận được mã trạng thái 200 (thành công), ứng dụng Flask cần trích xuất và trả dữ liệu JSON đó về cho client."
+  },
+  "coursera11|2|every http response contains a _________-digit code.": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Mọi phản hồi HTTP đều chứa mã trạng thái gồm 3 chữ số (three-digit code) nằm trong dải từ 100 đến 599 để báo trạng thái thành công hay lỗi."
+  },
+  "coursera11|2|you've created a flask route using @app.route and returned a simple response without clearly setting a status code. which http status does flask automatically send back to indicate": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Khi hàm trong @app.route trả về dữ liệu hoặc gọi jsonify() mà không chỉ định mã trạng thái, Flask mặc định tự động gửi mã 200 OK."
+  },
+  "coursera11|2|zeck is a new web developer. he is creating his first web app using flask by defining a route without specifying a method. which of the following request methods should he use by d": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Trong Flask, nếu không truyền tham số methods vào @app.route(), route đó mặc định chỉ chấp nhận các yêu cầu HTTP GET."
+  },
+  "coursera11|2|you are using flask for developing a user management feature and want to incorporate update functionality into it. which http request method will you use to complete this task?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Trong chuẩn RESTful CRUD với Flask, các phương thức HTTP PUT (thay thế toàn bộ) và PATCH (cập nhật một phần) được dùng để chỉnh sửa dữ liệu hiện có."
+  },
+  "coursera12|2|which of these are essential characteristics of the cloud? select the two characteristics that apply.": {
+    "correct_indices": [
+      1,
+      2
+    ],
+    "explanation": "Theo chuẩn NIST, 5 đặc tính cốt lõi của Cloud gồm: On-demand self-service, Broad network access (truy cập mạng rộng rãi), Resource pooling (gom chung tài nguyên), Rapid elasticity và Measured service. Static access và Limited service đều sai."
+  },
+  "coursera12|2|in the __________ cloud model, the cloud provider provisions the cloud infrastructure for exclusive use by a single organization.": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Private Cloud cấp phát hạ tầng đám mây dành riêng độc quyền cho một tổ chức duy nhất (có thể đặt on-premises hoặc trên VPC riêng)."
+  },
+  "coursera12|2|virtualization is the process of creating a software-based version of physical resources, made possible through the use of ___________________.": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Hypervisor là lớp phần mềm trừu tượng hóa phần cứng vật lý để tạo và quản lý các máy ảo (phiên bản phần mềm của tài nguyên vật lý)."
+  },
+  "coursera12|2|a ______________ is an executable unit of software in which application code is packaged, along with its libraries and dependencies, in common ways so that it can be run anywhere—d": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Container là đơn vị phần mềm thực thi nhẹ đóng gói mã nguồn ứng dụng cùng toàn bộ thư viện và dependencies để chạy nhất quán ở mọi môi trường (desktop, IT truyền thống, cloud)."
+  },
+  "coursera12|2|which type of cloud storage is presented to compute nodes using high-speed fiber connections?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Block storage được gắn vào các compute node thông qua kết nối cáp quang tốc độ cao (high-speed fiber connections) dưới dạng volume."
+  },
+  "coursera12|2|why front-end developers use cascading style sheets (css) for a website?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "HTML định nghĩa cấu trúc vật lý, JavaScript tạo tương tác, còn CSS dùng để tạo kiểu dáng, màu sắc, bố cục và giúp trang web hấp dẫn, đồng nhất hơn."
+  },
+  "coursera12|2|which of the following best describes a route?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Trong định nghĩa của khóa học, Route là đường dẫn tới một trang web hoặc endpoint mà người dùng tương tác (khác với URL đầy đủ hay mã xử lý dữ liệu phía back-end)."
+  },
+  "coursera12|2|which html element should you use to define a document's logical separations, such as the numbered chapters of an online manual?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Thẻ <section> trong HTML5 dùng để chia tách các phần logic theo chủ đề trong tài liệu (như các chương đánh số của một sổ tay trực tuyến)."
+  },
+  "coursera12|2|in javascript, what is the use of the typeof operator?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Toán tử typeof trong JavaScript trả về chuỗi biểu diễn kiểu dữ liệu của toán hạng được truyền vào (ví dụ: 'number', 'string', 'boolean', 'object')."
+  },
+  "coursera12|2|in javascript, assume you need to create a variable with a global scope. what is the first step you must take to declare this variable?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Trong cú pháp JavaScript truyền thống của khóa học, bước đầu tiên để khai báo biến toàn cục ở cấp ngoài cùng là viết từ khóa var (sau đó mới đến tên biến)."
+  },
+  "coursera12|2|which of these options defines version control system?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Hệ thống quản lý phiên bản (VCS) giúp theo dõi toàn bộ lịch sử thay đổi tài liệu/mã nguồn (ai sửa, sửa gì, khi nào), không chỉ riêng phiên bản mới nhất."
+  },
+  "coursera12|2|which of the following is a feature of the git repository model?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Git là hệ thống quản lý phiên bản phân tán (DVCS) với mô hình 3 cây và quy trình phân nhánh phi tuyến tính, cung cấp tính năng theo dõi mã nguồn (source code tracking)."
+  },
+  "coursera12|2|on github, what is the purpose of a pull request?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Pull Request (PR) trên GitHub cho phép người khác xem xét (review), thảo luận và hợp nhất (merge/sử dụng) các thay đổi mã nguồn được đề xuất."
+  },
+  "coursera12|2|which of the following git commands transfers changes from the remote repository to the local repository and then merges them to a branch?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Lệnh git pull thực hiện gộp cả hai bước: tải thay đổi từ remote repository về local (git fetch) và tự động merge vào nhánh hiện tại (git merge)."
+  },
+  "coursera12|2|in a git team project, which team member uses the git-http-backend command as part of their responsibilities?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Repository Administrator chịu trách nhiệm cấu hình, cấp quyền và duy trì truy cập kho lưu trữ qua HTTP server bằng công cụ phía máy chủ như git-http-backend."
+  },
+  "coursera12|2|react is a ui library that uses what language?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "React là một thư viện giao diện người dùng (UI library) được xây dựng và viết bằng ngôn ngữ JavaScript (sử dụng cú pháp mở rộng JSX)."
+  },
+  "coursera12|2|select the correct order of methods called when a class component is created.": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Trong giai đoạn Mounting của React Class Component, các phương thức được gọi theo đúng thứ tự: constructor() -> getDerivedStateFromProps() -> render() -> componentDidMount()."
+  },
+  "coursera12|2|hooks can only be called ________.": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Theo Rules of Hooks của React, Hooks chỉ được gọi ở cấp cao nhất (top level) của function component hoặc custom hook, không gọi trong điều kiện, vòng lặp hay hàm lồng nhau."
+  },
+  "coursera12|2|which of the following is an appropriate reason to use redux?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Redux cung cấp kho lưu trữ state tập trung và luồng dữ liệu một chiều, giúp quản lý trạng thái nhất quán và tối ưu hiệu năng cho các ứng dụng React quy mô lớn."
+  },
+  "coursera12|2|which of the following redux elements are involved in updating the component properties? select all that apply.": {
+    "correct_indices": [
+      1,
+      2,
+      3
+    ],
+    "explanation": "Theo kiến trúc Redux trong giáo trình, 3 thành phần tham gia cập nhật state/thuộc tính là Actions (phát tín hiệu sự kiện), Reducer (tính state mới) và Center store (lưu trữ và thông báo state). UI components là thành phần React, không phải phần tử Redux."
+  },
+  "coursera12|2|what does json stand for?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "JSON là viết tắt của JavaScript Object Notation — định dạng trao đổi dữ liệu nhẹ dạng văn bản dựa trên cặp key-value."
+  },
+  "coursera12|2|when you import a node.js module, what does the require function return?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Trong Node.js CommonJS, hàm require() nạp module và trả về một đối tượng JavaScript đại diện cho thể hiện (instance) của module đó (chính là module.exports)."
+  },
+  "coursera12|2|what is a promise?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Promise là một đối tượng được trả về bởi một phương thức bất đồng bộ, đại diện cho giá trị hoàn thành (resolved) hoặc lỗi (rejected) trong tương lai."
+  },
+  "coursera12|2|which of the following are types of middleware? select all that apply.": {
+    "correct_indices": [
+      1,
+      2,
+      3
+    ],
+    "explanation": "Express có 5 loại middleware gồm: Application-level, Router-level, Error-handling, Built-in và Third-party. Không có loại middleware nào tên là Branching."
+  },
+  "coursera12|2|which of the following node.js web frameworks is associated with the below description? it is used for routing and middleware, provides debugging mechanisms to help easily pinpoint": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Express.js là framework Node.js tối giản và phổ biến dùng cho routing, middleware, cung cấp cơ chế debug dễ tìm lỗi và xử lý bất đồng bộ nhiều request đồng thời."
+  },
+  "coursera12|2|what is the result of running the following lines of code? class points(object): def __init__(self,x,y): self.x=x self.y=y def print_point(self): print('x=',self.x,' y=',self.y) p1": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Khởi tạo p1 = Points('Q', 'Z') gán self.x = 'Q' và self.y = 'Z'. Khi gọi p1.print_point(), phương thức in ra cả giá trị x và y tương ứng là x=Q y=Z."
+  },
+  "coursera12|2|say you have a list named mylist with these elements: [“john”, “ralph”, “leia”, “simone”]. which of the following shows the correct code for printing out the leia element? select t": {
+    "correct_indices": [
+      0,
+      1
+    ],
+    "explanation": "Trong Python, danh sách 4 phần tử ['John', 'Ralph', 'Leia', 'Simone'] có 'Leia' nằm ở vị trí thứ 3, tương ứng với chỉ số dương là 2 (myList[2]) và chỉ số âm từ cuối đếm lên là -2 (myList[-2])."
+  },
+  "coursera12|2|what initial value of x will produce the following output for the below code? select the two statements that apply. bye hillary if(x==\"b\"): print('hello') else: print('bye') print(": {
+    "correct_indices": [
+      1,
+      3
+    ],
+    "explanation": "Để chạy vào nhánh else và in ra 'Bye' rồi 'Hillary', phép gán biến x phải mang giá trị khác 'B' (ví dụ x='C' hoặc x='Bye'). Lựa chọn x=='B' là phép so sánh, không phải lệnh gán."
+  },
+  "coursera12|2|when using the open() function, what is the purpose of passing the parameter ‘a+’ into it?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Chế độ 'a+' (append + read) trong hàm open() của Python dùng để đọc và ghi nối thêm vào cuối file mà không xóa nội dung cũ, đồng thời tạo file mới nếu chưa tồn tại."
+  },
+  "coursera12|2|what does the following code do to an html string that is saved in a variable named “html” and uses the python library “beautifulsoup?” soup = beautifulsoup(html, \"html.parser\") pr": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Phương thức soup.prettify() định dạng lại cây phân tích HTML của đối tượng BeautifulSoup thành chuỗi có thụt lề như một cấu trúc dữ liệu lồng nhau dễ đọc."
+  },
+  "coursera12|2|which statement about an entity-attribute model regarding a movie is true?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Trong mô hình Entity-Relationship (ER), một đối tượng độc lập như Movie (bộ phim) là một thực thể (Entity), còn tiêu đề hay năm phát hành là thuộc tính (Attribute)."
+  },
+  "coursera12|2|which statement best describes cursor?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Cursor trong cơ sở dữ liệu là một cấu trúc dữ liệu điều khiển đặc biệt cho phép duyệt tuần tự qua từng dòng (row) trong tập kết quả truy vấn."
+  },
+  "coursera12|2|what else does the django template contain besides python code?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Django Template kết hợp các phần tử HTML tĩnh (static HTML elements) với các thẻ và biến Python đặc biệt (DTL) để sinh trang web động."
+  },
+  "coursera12|2|which statement best describes a django project?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Django Project là một Python package chứa toàn bộ cấu hình (settings.py, urls.py, manage.py) cho một thực thể ứng dụng Django; các lựa chọn khác mô tả urls.py, View hoặc MVT/MVC."
+  },
+  "coursera12|2|which of the following describes one of the two types of containers in bootstrap?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Bootstrap có 2 loại container: .container (chiều rộng cố định theo breakpoint) và .container-fluid (trải dài 100% toàn bộ chiều rộng của phần tử cha)."
+  },
+  "coursera12|2|some of the common docker cli commands include the ___________command to build a container image and the ___________ command to create a running container.": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Trong Docker CLI, lệnh docker build dùng để tạo container image từ Dockerfile, còn lệnh docker run dùng để khởi tạo và chạy một container từ image đó."
+  },
+  "coursera12|2|which of these are functions of container orchestration? select all that apply.": {
+    "correct_indices": [
+      1,
+      2,
+      3
+    ],
+    "explanation": "Container orchestration tự động hóa việc co giãn quy mô & cân bằng tải, kiểm tra sức khỏe (health checks) và đảm bảo tính dự phòng/sẵn sàng cao. Không giới hạn tổ chức chỉ dùng một container."
+  },
+  "coursera12|2|what is a dockerfile, and what is its primary purpose in the context of containerization?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Dockerfile là một tập tin văn bản thuần chứa các chỉ thị tuần tự (FROM, COPY, RUN, CMD...) để Docker tự động xây dựng thành container image."
+  },
+  "coursera12|2|which of the following are true for the apply command? select all that apply.": {
+    "correct_indices": [
+      1,
+      2,
+      3
+    ],
+    "explanation": "Lệnh kubectl apply hoạt động theo mô hình khai báo (declarative), yêu cầu truyền file hoặc thư mục manifest (-f) và tự suy luận tạo Deployment/tài nguyên mới nếu chưa có; nó không bị giới hạn chỉ ở phạm vi namespace-scoped."
+  },
+  "coursera12|2|what is red hat openshift?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Red Hat OpenShift là nền tảng container Kubernetes cấp doanh nghiệp được thiết kế tối ưu cho môi trường hybrid cloud với nhiều công cụ DevOps tích hợp sẵn."
+  },
+  "coursera12|2|modern software development often uses the following along with the twelve-factor application methodology?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Phát triển phần mềm hiện đại thường kết hợp phương pháp luận Twelve-Factor App cùng kiến trúc Microservices để xây dựng các ứng dụng SaaS dễ mở rộng và bảo trì."
+  },
+  "coursera12|2|which of the following api gateway is managed by google?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Apigee là nền tảng quản lý API Gateway được Google Cloud quản lý và cung cấp (Azure API Management của Microsoft; Gloo và Apache APISIX là dự án độc lập)."
+  },
+  "coursera12|2|what are the three main components of serverless stack? select all that apply.": {
+    "correct_indices": [
+      0,
+      2,
+      3
+    ],
+    "explanation": "Theo giáo trình, một Serverless Stack gồm 3 thành phần cốt lõi: FaaS (Function as a Service), BaaS (Backend as a Service) và API Gateway (không bao gồm SaaS)."
+  },
+  "coursera12|2|which of the following is a potential benefit of an ibm cloud code engine?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "IBM Cloud Code Engine là nền tảng serverless được quản lý hoàn toàn, tự động lo phần quản trị Kubernetes cluster để lập trình viên chỉ cần tập trung vào mã nguồn ứng dụng."
+  },
+  "coursera12|2|which statement best describes openshift?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "OpenShift là một nền tảng ứng dụng Kubernetes cấp doanh nghiệp dành cho hybrid cloud (khác với định nghĩa của Service Mesh/Istio hay CRD đơn lẻ)."
+  },
+  "coursera13|1|who is more likely to work with databases?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Back-end developer chịu trách nhiệm xử lý logic phía máy chủ, truy vấn, lưu trữ và bảo mật dữ liệu trong các cơ sở dữ liệu (SQL hoặc NoSQL)."
+  },
+  "coursera13|1|which of the following do version control systems help you to keep track of? (select all that apply)": {
+    "correct_indices": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Hệ thống quản lý phiên bản (VCS) theo dõi 3 thông tin: thay đổi nào đã được thực hiện, ai là người thực hiện và thời điểm thực hiện; nó không phải công cụ tự động debug lỗi code."
+  },
+  "coursera13|1|which of the following is not a development framework?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Vue.js, Django và Angular đều là các web development framework, còn Git là hệ thống quản lý phiên bản phân tán (DVCS), không phải framework."
+  },
+  "coursera13|1|which process automatically builds and tests your code?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Continuous Integration (CI) là quy trình tự động build và chạy kiểm thử mã nguồn thường xuyên; sau khi CI xong thì Continuous Delivery (CD) mới đảm nhận việc triển khai bản build."
+  },
+  "coursera13|1|true or false: javascript can be used for both front-end and back-end development.": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Đúng (True): JavaScript chạy trên trình duyệt để tạo tương tác ở Front-end và chạy trên môi trường Node.js/Express để xây dựng dịch vụ ở Back-end."
+  },
+  "coursera13|1|what is an api?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "API là đoạn mã làm việc với dữ liệu và cung cấp giao diện/cơ chế chuẩn để phần mềm phía client hoặc dịch vụ khác truy cập tài nguyên từ back-end."
+  },
+  "coursera13|1|when a user tries to login to a website, he/she gets an authentication failure error. who do you think can fix this error? (select all that apply)": {
+    "correct_indices": [
+      0,
+      2
+    ],
+    "explanation": "Lỗi xác thực (authentication failure) thuộc quy trình xử lý bảo mật phía máy chủ nên Back-end Developer và Full-stack Developer (người nắm cả front-end và back-end) đều sửa được."
+  },
+  "coursera13|1|in addition to sql, which tool can help you access databases?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "ORM (Object-Relational Mapping) giúp lập trình viên truy vấn và thao tác dữ liệu trong cơ sở dữ liệu thông qua các đối tượng OOP thay cho việc viết thuần SQL."
+  },
+  "coursera13|1|build automation can automate which of the following tasks? (select all that apply)": {
+    "correct_indices": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Build automation tự động tải dependencies, biên dịch mã nguồn thành binary, đóng gói binary code, chạy test và triển khai lên production — không biên dịch ngược từ binary thành source code."
+  },
+  "coursera13|1|a user has complained that the website is readable on desktop but not on mobile. who can help solve this problem?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Vấn đề giao diện hiển thị trên các kích thước màn hình khác nhau (responsive design) thuộc trách nhiệm xử lý CSS/HTML của Front-end Developer."
+  },
+  "coursera13|1|which of the following describe a package manager? (select all that apply)": {
+    "correct_indices": [
+      0,
+      2
+    ],
+    "explanation": "Package manager giúp phân phối ứng dụng đã đóng gói và xử lý việc tìm kiếm, cài đặt, cập nhật hoặc gỡ bỏ gói phần mềm; phương án còn lại mô tả bản thân 'Package', không phải 'Package Manager'."
+  },
+  "coursera13|1|which of the following adds interactivity and dynamic content to a website?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "HTML tạo cấu trúc, CSS tạo kiểu dáng, Git quản lý phiên bản, còn JavaScript là ngôn ngữ bổ sung tính tương tác và nội dung động cho trang web."
+  },
+  "coursera13|1|which of these is an open-source server side platform built on the google chrome javascript engine and uses an asynchronous single threaded architecture that allows it to serve a v": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Node.js là nền tảng server-side mã nguồn mở xây dựng trên Google Chrome V8 JavaScript engine với kiến trúc đơn luồng bất đồng bộ phục vụ lượng kết nối đồng thời lớn."
+  },
+  "coursera13|1|which of the following frameworks and libraries are used for front-end? (select all that apply)": {
+    "correct_indices": [
+      0,
+      1,
+      3
+    ],
+    "explanation": "React.js, Vue.js và Angular là các thư viện/framework dùng cho Front-end trên trình duyệt; Node.js và Express là công nghệ phía Back-end."
+  },
+  "coursera13|1|which of the following is not a required skill for a front-end developer?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Bộ ba kỹ năng bắt buộc của Front-end Developer là HTML, CSS và JavaScript; Java là ngôn ngữ lập trình thường dùng cho Back-end hoặc ứng dụng doanh nghiệp."
+  },
+  "coursera13|2|what are the building blocks of html called?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Theo bài giảng Introduction to HTML, các phần tử (Elements) là khối xây dựng cơ bản của một trang HTML, được biểu diễn thông qua các thẻ (tags)."
+  },
+  "coursera13|2|which tag is used to provide keywords for search engines?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Thẻ <meta> nằm trong <head> cung cấp siêu dữ liệu và từ khóa (keywords) giúp công cụ tìm kiếm (SEO) lập chỉ mục trang web chính xác hơn."
+  },
+  "coursera13|2|fill in the blank: in html5, ______________ allow you to run processing intensive tasks without blocking the user interface.": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Web Workers trong HTML5 cho phép chạy các tác vụ xử lý nặng ở luồng nền tách biệt, tránh làm treo hoặc chặn giao diện người dùng (UI)."
+  },
+  "coursera13|2|how do you properly recreate the following table using html code? date language 2014 html5 1999 css3 1995 javascript": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Cú pháp bảng HTML chuẩn bọc mỗi hàng trong thẻ <tr>, hàng tiêu đề dùng <th> cho Date/Language và các hàng dữ liệu dùng <td>; không tồn tại thẻ <tc> và không đặt <tr> trong <td>."
+  },
+  "coursera13|2|which of the following statements about document.images is correct?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "document.images là thuộc tính DOM thuộc HTML Document API, trả về một HTMLCollection chứa các phần tử hình ảnh trong tài liệu, nên cả 3 phát biểu đều đúng."
+  },
+  "coursera13|2|your client wants to add a company logo to the homepage using the image path ‘assets/logo.png’. which html tag embeds this image?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Để nhúng hình ảnh vào trang HTML, ta dùng thẻ tự đóng <img> cùng thuộc tính src chỉ đường dẫn ảnh (<img src='...'>), không dùng href hay thẻ <image>."
+  },
+  "coursera13|2|which of the following are the standard bodies in html5 development?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Chuẩn HTML5 là kết quả hợp tác phát triển giữa hai tổ chức W3C và WHATWG kể từ khi nhóm làm việc chung được thành lập vào năm 2007."
+  },
+  "coursera13|2|a developer wants to add media features to the web application. why is html5 specifically suitable for this task?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "HTML5 định nghĩa sẵn các thẻ đánh dấu và API tích hợp (như video, audio, canvas, web storage) giúp phát đa phương tiện gốc trên trình duyệt mà không cần plug-in ngoài."
+  },
+  "coursera13|2|a student is editing an html file and wants to add comments that won’t show on the webpage. which syntax should they use?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Cú pháp ghi chú chuẩn trong HTML là <!-- nội dung comment -->; trình duyệt bỏ qua phần này khi hiển thị trang (chỉ thấy khi xem mã nguồn)."
+  },
+  "coursera13|2|a software development company wants to build a rich, interactive website that provides consistent behavior for both mobile and desktop computers. which html5 capabilities will the": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "HTML5 hỗ trợ khả năng tương thích đa thiết bị (cross-device compatibility) giúp xây dựng giao diện web và ứng dụng di động hoạt động nhất quán trên nhiều nền tảng."
+  },
+  "coursera13|2|a web developer wants to ensure that their web app runs smoothly across devices with modern browsers while using built-in support for video and structured page layout. which of the": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "HTML5 cung cấp hỗ trợ gốc (native support) cho thẻ video và cải thiện tính tương thích cấu trúc trang trên các trình duyệt hiện đại trên nhiều thiết bị."
+  },
+  "coursera13|2|what is the <br> tag used for?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Thẻ <br> (line break) trong HTML dùng để ngắt dòng văn bản xuống dòng mới."
+  },
+  "coursera13|2|which of the following javascript methods should you leverage to build a web form, where you want to retrieve the value entered by a user in a specific text field after clicking a ": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "document.getElementById('id') trả về phần tử duy nhất có id tương ứng trên trang, giúp lấy chính xác giá trị người dùng nhập vào ô text field khi bấm nút."
+  },
+  "coursera13|2|you want to test a web form that includes an input type=\"date\" field. when you open this form in microsoft edge, you see spinning boxes to select the date. which of the following d": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Việc Microsoft Edge hiển thị hộp xoay chọn ngày (spinning boxes) chứng tỏ trình duyệt này có hỗ trợ đầy đủ thẻ input type='date' (màu xanh lá trên bảng hỗ trợ)."
+  },
+  "coursera13|2|which of the following conditions must be met to enable scripting in browsers?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Scripting chỉ chạy trong ngữ cảnh trình duyệt khi trình duyệt đó hỗ trợ scripting (và người dùng không tắt tính năng scripting); cờ sandbox hay tắt scripting sẽ chặn thực thi."
+  },
+  "coursera13|3|what makes a style sheet “cascading”?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Tính chất 'Cascading' nghĩa là các phần tử con/cháu thừa hưởng (inherit) các quy tắc định dạng CSS được thiết lập ở phần tử cha, giúp giao diện thống nhất toàn trang."
+  },
+  "coursera13|3|which of the following describes a utility-first framework? select all that apply.": {
+    "correct_indices": [
+      1,
+      2
+    ],
+    "explanation": "Utility-first framework (như Tailwind CSS) ánh xạ thuộc tính CSS qua các utility classes và dễ làm mã HTML dài dòng khi trộn style vào markup; còn tự do hoàn toàn khi thiết kế là đặc trưng của Plain/Vanilla CSS."
+  },
+  "coursera13|3|which of the following tags is used to separate areas in a document?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Thẻ <div> (division) dùng để chia tách các khu vực trong tài liệu thành các khối độc lập nhằm áp dụng bố cục và CSS riêng cho từng vùng."
+  },
+  "coursera13|3|what type of element is <article>?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "<article> là một phần tử ngữ nghĩa (semantic element) trong HTML5 dùng để biểu diễn một khối nội dung độc lập có ý nghĩa hoàn chỉnh."
+  },
+  "coursera13|3|which tag is used to specify self-contained content like an image, illustration, or diagram?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Thẻ <figure> dùng để bọc nội dung trực quan tự chứa (như hình ảnh, biểu đồ, sơ đồ, đoạn code) được tham chiếu từ nội dung chính, thường đi kèm <figcaption>."
+  },
+  "coursera13|3|ryan, a web developer, is troubleshooting a webpage where an external css file does not apply the expected styles. on checking, he noticed that some elements have styles defined us": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Thứ tự ưu tiên CSS từ cao xuống thấp là: Inline CSS (trên thẻ HTML) > Internal CSS (<style>) > External CSS (<link>) > mặc định trình duyệt. Do đó Inline CSS sẽ ghi đè tất cả."
+  },
+  "coursera13|3|which of the following statements accurately describes the behavior of fixed and fluid layouts? select all that apply.": {
+    "correct_indices": [
+      0,
+      1
+    ],
+    "explanation": "Fluid layout dùng đơn vị tương đối (%, em, rem) để co giãn linh hoạt theo màn hình; Fixed layout dùng kích thước cố định (px) nên không thay đổi kích thước trên các thiết bị khác nhau."
+  },
+  "coursera13|3|a web designer has inserted input type= “email” in a form; however, the form still accepts the value like “hello@com” without any error. what is missing in this scenario?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Giá trị 'hello@com' có ký tự '@' và tên miền thiếu phần mở rộng TLD chuẩn nên sai định dạng email đầy đủ; kiểm tra mặc định của trình duyệt không bắt hết trường hợp này nếu thiếu pattern/validation bổ sung."
+  },
+  "coursera13|3|you are working on a responsive web design using a css framework and need to apply styles based on different states, such as hover or focus. to achieve this, you use a modifier. wh": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Trong CSS framework (như Tailwind), modifier là tiền tố/lớp chuyên biệt giúp điều chỉnh giao diện phần tử theo một điều kiện hoặc trạng thái nhất định như hover, focus hay breakpoint."
+  },
+  "coursera13|3|you want to create a document page with different themed parts, each with its own heading. what html5 tag should you use to group related content with a common theme?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Thẻ <section> trong HTML5 dùng để nhóm các nội dung liên quan theo từng chủ đề riêng biệt trong tài liệu, thường đi kèm thẻ heading riêng."
+  },
+  "coursera13|3|in a web form, you are asking users to enter their age, limited to 5 to 25 years only. which html5 attributes has the developer used to limit the age field?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Để giới hạn người dùng nhập một giá trị số cụ thể (như độ tuổi từ 5 đến 25 kèm min/max), HTML5 sử dụng <input type='number'>."
+  },
+  "coursera13|3|a startup is considering using bootstrap for its new e-commerce platform. what limitations should they be aware of when adopting this component framework?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Bootstrap là Component framework cung cấp sẵn các thành phần đồng bộ, dễ dùng nhưng nhược điểm là giới hạn khả năng tùy biến thiết kế ngoài bộ component dựng sẵn."
+  },
+  "coursera13|3|which tag is used to represent an independent item of content in a document, which can be meaningful on its own?": {
+    "correct_indices": [
+      0
+    ],
+    "explanation": "Thẻ <article> đại diện cho một mục nội dung độc lập (như bài báo, bài viết blog) có thể đứng tách rời khỏi phần còn lại mà vẫn giữ trọn vẹn ý nghĩa."
+  },
+  "coursera13|3|you are creating a structure for a webpage and want it to be accessible and indexable by search engines. which technology should you use?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "HTML xây dựng cấu trúc ngữ nghĩa chứa dữ liệu tách biệt khỏi thiết kế, giúp trình đọc màn hình (accessibility) và máy tìm kiếm (SEO) lập chỉ mục hiệu quả."
+  },
+  "coursera13|3|sana wants to add a standalone image in the blog post with accompanying text related to the main content that exists independently. which of the html5 elements should sana use to g": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Thẻ <figure> dùng để nhóm nội dung trực quan độc lập (như ảnh minh họa kèm chú thích <figcaption>) được tham chiếu từ bài viết chính."
+  },
+  "coursera13|4|true or false: 10car is a valid variable name in javascript.": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Sai (False): Tên biến trong JavaScript chỉ được bắt đầu bằng chữ cái, dấu gạch dưới (_) hoặc ký tự đô-la ($), tuyệt đối không được bắt đầu bằng chữ số như 10car."
+  },
+  "coursera13|4|which of the following statement is the correct way to define a function with no parameters in javascript?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Cú pháp khai báo hàm không tham số chuẩn trong JavaScript là: function myFunction() { } (không có dấu '=' sau từ khóa function và bắt buộc có cặp ngoặc đơn '()')."
+  },
+  "coursera13|4|which of the following statements is the correct way to include a script in an html?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Để nhúng file JavaScript ngoài vào trang HTML, ta dùng thẻ <script> với thuộc tính src chỉ đường dẫn tới tệp JS: <script src='/source/script.js'></script>."
+  },
+  "coursera13|4|how would you display a confirmation dialog box in a window?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "window.confirm('message') hiển thị hộp thoại xác nhận có hai nút OK/Cancel; window.alert chỉ hiện thông báo, còn window.prompt hiển thị ô nhập liệu."
+  },
+  "coursera13|4|select all the following statements about errors which are true.": {
+    "correct_indices": [
+      0,
+      2
+    ],
+    "explanation": "RangeError phát sinh khi giá trị số nằm ngoài khoảng hợp lệ và JS có 6 loại lỗi cốt lõi ngoài Error chung (EvalError, RangeError, ReferenceError, SyntaxError, TypeError, URIError). Mỗi Error object có 2 thuộc tính (name và message), và new Error() không nhận (name, message) để tạo tên lỗi tùy chỉnh."
+  },
+  "coursera13|4|in the following declaration, what is the type of the variable ‘pi’? var pi = “3.14”;": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Do giá trị '3.14' được đặt bên trong cặp dấu ngoặc kép nên JavaScript xác định kiểu dữ liệu của biến pi là chuỗi (string), không phải số (number/float)."
+  },
+  "coursera13|4|how do you define an array called array1 in javascript?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "Trong JavaScript, mảng (array) được khai báo bằng cặp dấu ngoặc vuông chứa các phần tử cách nhau bởi dấu phẩy: var array1 = [1, 2, 3];."
+  },
+  "coursera13|4|what does the following statement do? var ndate = new date() ;": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "new Date() không truyền tham số sẽ khởi tạo đối tượng Date biểu diễn ngày và giờ cục bộ hiện tại (current local time) của hệ thống."
+  },
+  "coursera13|4|which dom function returns a node object matching a div with an id value “example_id”?": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "document.getElementById('example_id') chỉ nhận một tham số là chuỗi giá trị id của phần tử và trả về node đối tượng khớp duy nhất trong tài liệu."
+  },
+  "coursera13|4|how are numbers converted to strings?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Số nguyên thủy được bọc tự động bằng Number wrapper object nên có thể gọi phương thức .toString(), ví dụ (123).toString() trả về chuỗi '123'."
+  },
+  "coursera13|4|what is the value of ‘total’ after the following statement is executed? var total = 10 + 1 +” 3”;": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Phép cộng thực hiện từ trái sang phải: 10 + 1 cho kết quả số 11, sau đó 11 cộng với chuỗi ' 3' bị ép kiểu thành phép nối chuỗi cho kết quả chuỗi (tương ứng đáp án '113' trong quiz)."
+  },
+  "coursera13|4|what would the alert be, when the following code is executed? var a = new string(“hello”); var b = “hello”; if (a ===b){ alert(“same”); }else{ alert(“different”); }": {
+    "correct_indices": [
+      1
+    ],
+    "explanation": "new String('Hello') tạo ra một wrapper object (typeof a là 'object'), còn 'Hello' là kiểu nguyên thủy (typeof b là 'string'). Phép so sánh nghiêm ngặt === kiểm tra cả kiểu dữ liệu nên trả về false, chạy nhánh else in 'Different'."
+  },
+  "coursera13|4|which of the following is the proper way to create a `for` loop?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "Cú pháp vòng lặp for chuẩn trong JavaScript gồm 3 biểu thức cách nhau bởi dấu chấm phẩy: khởi tạo biến; điều kiện lặp; bước cập nhật — for (var i = minVal; i < maxVal; i++) { ... }."
+  },
+  "coursera13|4|which javascript statement is best used to compare a value against multiple possible matches and execute code for the first matching case?": {
+    "correct_indices": [
+      3
+    ],
+    "explanation": "Câu lệnh switch dùng để đối chiếu một biểu thức/giá trị với nhiều nhánh case khả dĩ và thực thi khối mã của nhánh khớp đầu tiên."
+  },
+  "coursera13|4|which of the following is not an event binder in javascript?": {
+    "correct_indices": [
+      2
+    ],
+    "explanation": "onclick, onload và onmouseover đều là các event handler/binder hợp lệ trong JavaScript DOM; không có sự kiện tên là onhover (hover thuộc về CSS :hover)."
   }
 }
